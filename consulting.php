@@ -36,7 +36,7 @@ We recommend you use Mantis for a short period to see what changes would best fi
 		<b>Region</b>
 	</td>
 </tr>
-<tr>
+<!--<tr>
 	<td>
 		Kenzaburo Ito
 	</td>
@@ -47,7 +47,7 @@ We recommend you use Mantis for a short period to see what changes would best fi
 	<td>
 		US
 	</td>
-</tr>
+</tr>-->
 <tr>
 	<td>
 		Jeroen Latour
