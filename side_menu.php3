@@ -73,8 +73,6 @@
 				<a href="general_development.php3">General Information</a><br />
 				<a href="guidelines.php3">Coding Guidelines</a><br />
 				<a href="devnotes.php3">Dev Notes</a><br />
-				<a href="tasks.php3">Tasks</a><br />
-				<a href="devlog.php3">Devlog</a><br />
 				<a href="api.php3">API</a><br />
 				<a href="cvs.php3">CVS</a><br />
 				<a href="roadmap.php3">Roadmap</a><br />
