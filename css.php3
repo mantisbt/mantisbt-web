@@ -9,6 +9,6 @@ span.bugnotedelete { font-family:Verdana, Arial; font-size: 8pt }
 span.small { font-family:Verdana, Arial; font-size: 8pt }
 span.smallcaption { font-family:Verdana, Arial; font-size: 8pt }
 td.serif { font-family: Verdana, Times, serif; font-size: 10pt; line-height: 1.3 }
-span.big { font-family: Verdana, serif; font-size: 10pt; }
+span.big { font-family: Verdana, serif; font-weight: bold; font-size: 10pt; }
 a.big { font-family: Verdana, serif; font-size: 10pt; }
 </style>

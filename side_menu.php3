@@ -5,13 +5,14 @@
 		<table cellpadding=6 cellspacing=0 border=0 bgcolor=#ffffff>
 		<tr>
 			<td class="serif">
-				<a class="big" href="index.php3">Home</a><br>
-				<a class="big" href="mantis.php3">About</a><br>
-				<a class="big" href="credits.php3">Credits</a><br>
-				<a class="big" href="demo.php3">Demo</a><br>
-				<a class="big" href="tour.php3">Screenshots</a><br>
-				<a class="big" href="download.php3">Download</a><br>
-				<a class="big" href="release.php3">Release Notes</a><br>
+				<span class="big">General</span><br>
+				&nbsp;&nbsp;&nbsp;<a class="big" href="index.php3">Home</a><br>
+				&nbsp;&nbsp;&nbsp;<a class="big" href="mantis.php3">About</a><br>
+				&nbsp;&nbsp;&nbsp;<a class="big" href="credits.php3">Credits</a><br>
+				&nbsp;&nbsp;&nbsp;<a class="big" href="demo.php3">Demo</a><br>
+				&nbsp;&nbsp;&nbsp;<a class="big" href="screenshots.php3">Screenshots</a><br>
+				&nbsp;&nbsp;&nbsp;<a class="big" href="download.php3">Download</a><br>
+				&nbsp;&nbsp;&nbsp;<a class="big" href="release.php3">Release Notes</a><br>
 				<span class="big">Documentation</span><br>
 				&nbsp;&nbsp;&nbsp;<a href="mantis/documentation.html">User Doc</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="mantis/configuration.html">Configuration Doc</a><br>
