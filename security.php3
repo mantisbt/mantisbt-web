@@ -3,15 +3,29 @@
 <span class="page_title">Security</span>
 <hr size=1 noshade width="100%">
 <p>
-I'm no security expert so some things are bound to slip by me.  Heck, things slip by experts so no shame.  <a href="mailto:kenito@300baud.org">Let me know</a> if you detect problems with the package.
+Below is a listing of all known security problems in Mantis releases. If you discover a problem not listed below, please contact <a href="mailto:jlatour@users.sourceforge.net">Jeroen Latour</a>.
+<p>
+<span class="section">Showing bug listings of private projects</span> - <font color=#ff0000>Security Problem</font>
+<p>
+Through manipulation of cookies it is possible to set a user's current project to a private project, and access the 'View Bugs' page. This has been fixed in CVS, and will appear in 0.18.0.
 
 <p>
-<span class="section">File Uploads</span> - <font color=#ff0000>Security Hole</font>
+<span class="section">Limiting output to reporters</span> - <font color=#ff0000>Security Problem</font>
+<p>
+There is an option in Mantis which limits the bug reports shown to reporters. This option was not checked on the 'Print Reports' page. This has been fixed in CVS, and will appear in 0.18.0.
+
+<p>
+<span class="section">Input validation</span> - <font color=#ff0000>Security Problem</font>
+<p>
+Upgrade to Mantis 0.17.3 if you do not have magic_quotes_gpc enabled in your PHP installation. Input was not checked in account_update.php (and a lot of other files), which allowed anyone with an account on the system to become administrator in your Mantis installation. Input validation has been added to account_update.php for 0.17.3, and for all other files in the upcoming 0.18.0 (or in CVS).
+
+<p>
+<span class="section">File Uploads</span> - <font color=#ff0000>Security Problem</font>
 <p>
 Upgrade to Mantis 0.15.11 if you use file uploads.  Files were not being checked for their permissions.  By default many Apache installations create /tmp/ directory files as world executable (777).  Files are now umasked before being copied.
 
 <p>
-<span class="section">File Uploads</span> - <font color=#ff0000>Security Hole</font>
+<span class="section">File Uploads</span> - <font color=#ff0000>Security Problem</font>
 <p>
 Upgrade to Mantis 0.15.6 if you use file uploads.  A user may be able to gain read access to any file on your server.  The release requries you to have PHP 3.0.17 or higher.
 
