@@ -91,6 +91,9 @@
 				<a href="http://freshmeat.net/projects/mantis/"><img src="images/fmII-logo.gif" border="0" alt="Freshmeat.net"></a>
 				<p>
 				<a href="http://www.aditus.nu/jpgraph/index.php"><img src="images/jpgraph.jpg" border="0" alt="JpGraph"></a>
+				<p>
+				<a href="http://phpmailer.sourceforge.net/"><img src="images/phpmailer.gif" border="0" alt="phpmailer"></a>
+
 			</td>
 		</tr>
 		</table>
