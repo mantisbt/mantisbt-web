@@ -13,7 +13,8 @@
 				<a class="big" href="download.php3">Download</a><br>
 				<a class="big" href="release.php3">Release Notes</a><br>
 				<span class="big">Documentation</span><br>
-				&nbsp;&nbsp;&nbsp;<a href="mantis/documentation.html">User Documentation</a><br>
+				&nbsp;&nbsp;&nbsp;<a href="mantis/documentation.html">User Doc</a><br>
+				&nbsp;&nbsp;&nbsp;<a href="mantis/configuration.html">Configuration Doc</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="mantis/INSTALL">Installation</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="mantis/UPGRADING">Ugrading</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="mantis/ChangeLog">ChangeLog</a><br>
