@@ -11,6 +11,8 @@
 
 	$g_mantis_path = 'mantis/';
 
+	$g_lang_cvs_path = 'lang-cvs/';
+
 	########################################
 	# Include user's config, if available
 	########################################
