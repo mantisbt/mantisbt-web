@@ -90,15 +90,15 @@ I realize I have some problems with some of the above items.  I'll be addressing
 <p>
 The release numbering convention I'm using is major.minor.micro.  Major indicates a very large change in the core package, minor a significant amount of feature addition/modification, micro for mostly bug fixes.  I will release a new version for a significant bugfix as often as daily.
 <p>
-Version 1.0.0 will be used when I consider Mantis to be production quality.  This basically means that I would not hesitate to recommend it for most uses.
+Version 1.0.0 will be used when I consider Mantis to be production quality.  This means it should be feature full and stable enough for full production use.
 <p>
 <b><font size=+1>How to Help</font></b>
 <p>
 <li>Report any bugs at the <a href="demo.php3">Demo Bugtracker</a>
 <li>Suggest (reasonable) features
 <li>Contribute code or tell me where to look
-<li><b>Let me know if you use it and find it useful</b>.
-I won't publish the information without permission, but I would appreciate the feedback.  This, more than any one thing, keeps me motivated.
+<li><b>Let me know if you use it and find it useful</b>.  I won't publish the information without permission, but I would appreciate the feedback.  This, more than any one thing, keeps me motivated.
+<li><b>Buy me a book</b> off my <a href="http://www.amazon.com/exec/obidos/registry-edit-items-done/2FXMNHDUMQLA/107-9987144-7527713">wish list</a>! (or from another site if you won't deal with Amazon)
 </td>
 </tr>
 </table>

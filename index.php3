@@ -18,7 +18,7 @@
 <tr valign=top>
 	<? include("side_menu.php3") ?>
 <td width=100%>
-Mantis is a php/MySQL/web based bugtracking system.  <a href="about.php3">Click here</a> to learn more about it.
+Mantis is a php/MySQL/web based bugtracking system.  <a href="mantis.php3">Click here</a> to learn more about it.
 <p>
 It is currently in development and is considered beta.
 <hr size=1>
