@@ -64,7 +64,8 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 	<li>At the bottom will be the footer information and closing print_ functions.
 	</ul>
 
-	Above all, write code that is easy to read and maintain.  Code that is not will be rewritten or deleted.  Comment blocks of code and functions at all times.
+	<a href="http://utvikler.start.no/code/php_coding_standard.html">PHP Coding Standard</a> has _excellent_ guidelines for php programming style.  For the most part I seem to have followed it (except for TABS vs spaces).  If something is ambiguous consult this link or email me.
+	Above all, write code that is easy to read and maintain.  Code that is not will be rewritten or deleted.  Comment blocks of code and functions at all times.  Get onto me if I fail to adhere to my own words.
 
 	<!-- ---------------------------------------------------------------------- -->
 	<p>
@@ -75,6 +76,8 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 	<b>ChangeLog</b>
 	<p>
 
+	<li>version 1.1  Fedbruary 10, 2000 - Kenzaburo Ito (prescience@300baud.org)<br>
+	<i>Added PHP Coding Standard document link</i>
 	<li>version 1.0  December 23, 2000 - Kenzaburo Ito (prescience@300baud.org)<br>
 	<i>Initial creation</i>
 
