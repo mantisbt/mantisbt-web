@@ -18,9 +18,10 @@ First, start off by reading the <a href="http://utvikler.start.no/code/php_codin
 	<li>Count variables should follow the format $*_count.  eg $bug_count
 	<li>Global variables should be prefixed with g_
 	<li>Temporary variables should be prefixed with t_
-	<li>Function parameter variables should be prefixed with p_
-	<li>Variables passed from forms should be prefixed with f_
-	<li>Other variables are prefixed with v_, v2_, etc
+	<li>Parameters and variables passed from forms that have been cleaned of any special SQL chars (i.e. slashes) should be prefixed with c_
+	<li>Uncleaned function parameters should be prefixed with p_
+	<li>Uncleaned variables passed from forms should be prefixed with f_
+	<li>Other variables are prefixed with v_, v2_, etc.
 	<li>Never prefix with lee_ or O_ or queue_ (visually confusing)
 	<li>$query and $result should be used for SQL query and results respectively
 </ul>
@@ -66,7 +67,7 @@ $query = "SELECT *
 <ul>
 	<li>Use TABS with a size of 4 to make the code easily readable while not wasting too much space
 	<li>Follow the table formatting of existing pages
-	<li>Use &lt;? ?&goto; for php delimiters.  We will be moving to &lt;?php  ?&goto;
+	<li>Use &lt;?php ?&gt; for php delimiters.
 	<li>Try not to print/echo HTML unless it's short or in a function loop
 	<li>Do not use the EOF construct.
 </ul>
