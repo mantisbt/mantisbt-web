@@ -1,0 +1,9 @@
+config_inc.php
+dev/*
+files/*
+htdocs/*
+mantis/*
+manual
+webnotes/*
+.#*
+
