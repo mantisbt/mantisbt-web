@@ -68,6 +68,7 @@ $query = "SELECT *
 	<li>Follow the table formatting of existing pages
 	<li>Use &lt;? ?&goto; for php delimiters.  We will be moving to &lt;?php  ?&goto;
 	<li>Try not to print/echo HTML unless it's short or in a function loop
+	<li>Do not use the EOF construct.
 </ul>
 
 <span class="section">Miscellaneous</span>

@@ -179,16 +179,20 @@ asd
 </ul>
 
 <? print_dev_section( "editor_tips", "Editor Tips" ) ?>
+<p>
+You'll want, of course, to use an editor you like.  I myself do my development in windows and use Ultraedit.  You're free to use what you like and here are some features that you'll probably want.
+<p>
 <ul>
-	<li>Choose an editor that you like.
-	<li>Your editor needs to have column and row numbering.
-	<li>Your editor needs to have word wrap.
-	<li>Make sure you can have multiple files open in your editor at the same time.  This is essential for examining multiple files at once.
-	<li>Searching across multiple files (and recursively down directories) is a big plus.
-	<li>Search and replace across multiple files comes in very useful.
-	<li>You should be able to specify TAB spaces.
-	<li>Your editor must be able to save files with unix style line breaks.  This means the \n character instead of the \r (Mac style) or \r\n (Windows style).  You can confirm this by viewing the file in a hex editor.
-	<li>Syntax highlighting will greatly assist you in editing.
+	<li>Column and row numbering.
+	<li>Goto Line Number
+	<li>Word wrap toggle.
+	<li>Multiple files.
+	<li>Searching across multiple files and recursively down directories.
+	<li>Search and replace across multiple files.
+	<li>Specify TAB spaces (I use 4).
+	<li>Syntax highlighting
+	<li>Trim trailing whitespace
+	<li>DOS 2 UNIX CR/LF conversions.  Your editor must be able to save files with unix style line breaks.  This means the \n character instead of the \r (Mac style) or \r\n (Windows style).  You can confirm this by viewing the file in a hex editor.
 </ul>
 
 <p>

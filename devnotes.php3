@@ -17,21 +17,6 @@ Here are some notes that should help people understand the way Mantis is layed o
 </ul>
 
 <p>
-Recommneded features for your editor of choice:
-<ul>
-	<li>Syntax Highlighting
-	<li>DOS 2 UNIX CR/LF conversions
-	<li>Find and Replace
-	<li>Find in Files (recurse directories)
-	<li>Find and Replace in Files (recurse directories)
-	<li>Trim Trailing Whitespace
-	<li>Set TAB Width
-	<li>Show Line Number
-	<li>Goto Line Number
-	<li>Word Wrap Toggle
-</ul>
-
-<p>
 Mantis roughly divides into the following modules:
 <ul>
 	<li>Account Management
@@ -60,7 +45,7 @@ Mantis is lacking in the following areas:
 	<li>Reporting (printable format, weekly/monthly progress charts, line graphs, bar charts, PDF exporting)
 	<li>Logging
 	<li>Database Abstraction
-	<li>Search
+	<li>Full Search
 	<li>Multiple Authentication
 	<li>User Defined Input Fields
 </ul>
