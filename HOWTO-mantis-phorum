@@ -30,6 +30,7 @@ server.
 #################################
  Step 1: Install phorum
 #################################
+
 Install phorum by unzipping it to a directory.  We will install it in
 /usr/local/apache/htdocs/mantis/phorum/
 
@@ -79,10 +80,10 @@ Replace the file with the following lines:
 
 	### extracts the user information for the currently logged in user
 	### and prefixes it with u_
-    $query = "SELECT *
-    		FROM $g_mantis_user_table
-			WHERE cookie_string='$g_string_cookie_val'";
-    $result = db_query( $query );
+	$query = "SELECT *
+		FROM $g_mantis_user_table
+		WHERE cookie_string='$g_string_cookie_val'";
+	$result = db_query( $query );
 	$row = db_fetch_array( $result );
 	if ( $row ) {
 		extract( $row, EXTR_PREFIX_ALL, "u" );
