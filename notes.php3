@@ -22,6 +22,14 @@
 <b><font size=+1>Notes</font></b>
 
 <p>
+<hr size=1>
+<p>
+<b><a href="note_email_chart.php3">Email Notes</a></b>
+<p>
+This note details how email in general works.  It, in conjunction with <a href="mantis/configuration.html#email">Configuration Documentation: Email</a>, covers how email can be configured and customized as well as how it is designed to operate.
+<p>
+<hr size=1>
+<p>
 <b>Example of Use</b>
 <p>
 The following is a basic description of what I envisioned when developing the system.
@@ -45,28 +53,35 @@ Developers should be self-explanatory.  These are the people who actually work o
 <p>
 Managers are also Developers but also have the power to control access to projects.  They are assigned ownership of a project on a per project basis.  This is similar to a forum moderator.
 <p>
-Administrators are the people who have total control over the system.  Yes, they can even screw up the project.  In principle, these accounts shouldn't be used except for administrative functions.  Theses might include creating new projects, assigning managers to projects, or making system changes.
+Administrators are the people who have total control over the system.  Yes, they can even screw up the project.  In principle, these accounts shouldn't be used except for administrative functions.  These might include creating new projects, assigning managers to projects, or making system changes.
 <p>
 The typical cycle for a bug would be as follows:
 <ul>
-<li>User downloads/buys product and starts using it.
+<li>User obtains product and starts using it.
 <li>User discovers what he considers a bug.
 <li>User returns to the product webpage to see if there is a fix or workaround.
 <li>User sees that there is a public bugtracker and goes to see if his bug is listed there.
-<li>User doesn't find it and so reports it.
-<li>Updater comes by and notices a NEW bug and reads it.
+<li>User doesn't find it and so reports it.  Developers are notified of the new bug.
+<li>Mean while an Updater comes by and notices a NEW bug and reads it.
 <li>Updater decides that the bug is legitimate and so ASSIGNS it to a developer.
-<li>Developer is notified and discovers he needs more information.
+<li>Developer decided that he should investigate the bug.  Developer discovers he needs more information.
 <li>Developer adds a note requesting information and sets the bug to FEEDBACK status.
 <li>User recieves an email requesting more information and returns to give it.
 <li>Developer and User correspond via bugnotes until the information needed is retrieved.
 <li>Developer fixes bug and posts fix or workaround.
 <li>Developer RESOLVES the bug.
+<li>User checks back and tests the fix.  If verified then it is moved to CLOSED.  If not it should be REOPENED and set to FEEDBACK status.
 </ul>
+This procedure is very basic and is certainly not the only wayt the product can be used.  It can be used for internal development with testers, as a task tracking tool, issue tracking, and much more.  If you know enough PHP you can customize the package to fit your needs more snugly by enforcing more behavior.
+<p>
+<hr size=1>
 <p>
 <b>Navigation</b>
 <p>
-My biggest problem with every web based bugtracking package that I have come across is that the interfaces are inadequate.  Most of the time I go to a bugtracker for one of two reasons: 1) I want to file a bug.  2) I want to browse recent, open bugs.  All of the bugtrackers that I have seen up to this point made is difficult to do 2.  Most of the time they use poor language like 'generate reports'.  Almost all seem to think that the first thing you'd like to do when entering a bugtracker is to query for a bug by its ID.  I find that bug IDs are the last thing I remember and I think it's an extremely poor choice to be presented to a new visitor.  My interface reflects this disatisfaction.  All major actions are available via the menu bar, thus navigation is simple and quick.
+The navigation in Mantis is designed to be simple to use and hard to get lost in.  Mantis should not waste your time making you figure out what exactly 'create query' entails or ask you to remember 7 digit bug IDs or hide information that you want to see.
+<p>
+All the major sections are across the top of every page and can be configured to be displayed at the bottom as well.
+<hr size=1>
 </td>
 </tr>
 </table>
