@@ -26,7 +26,7 @@
 	<li>Support custom fields in resolved/closed bug page.
 	<li>Make custom fields mandatory at reporting, updating, resolving, or closing stage.
 	<li>Custom fields should support being a listbox type.
-	<li>Add 10? flexible option fields (in addition to custom fields) to the bug_table.  This is to allow users quick development of additional fields.
+
 <p><b>Filters</b><p>
 	<li>Create Saved Queries
 	<li>Filters will be stored in the database instead of cookies.
