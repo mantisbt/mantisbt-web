@@ -110,8 +110,53 @@ This is a preliminary draft of the release notes.
 	<p>
 	<table width=100%>
 	<? print_table("Files","#ffdddd") ?>
-
-	<? print_item("delete","delete_me.php","","This is no longer used.") ?>
+manage_proj_add.php3
+manage_proj_cat_add.php3
+manage_proj_cat_delete.php3
+manage_proj_cat_delete_page.php3
+manage_proj_cat_edit_page.php3
+manage_proj_cat_update.php3
+manage_proj_delete.php3
+manage_proj_delete_page.php3
+manage_proj_edit_page.php3
+manage_proj_menu_page.php3
+manage_proj_update.php3
+manage_proj_ver_add.php3
+manage_proj_ver_delete.php3
+manage_proj_ver_delete_page.php3
+manage_proj_ver_edit_page.php3
+manage_proj_ver_update.php3
+manage_project_category_add.php3
+	<? print_item("rename","manage_project_add.php3","manage_proj_add.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_cat_add.php3","manage_proj_cat_add.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_cat_delete.php3","manage_proj_cat_delete.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_cat_delete_page.php3","manage_proj_cat_delete_page.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_cat_edit_page.php3","manage_proj_cat_edit_page.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_cat_update.php3","manage_proj_cat_update.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_delete.php3","manage_proj_delete.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_delete_page.php3","manage_proj_delete_page.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_edit_page.php3","manage_proj_edit_page.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_menu_page.php3","manage_proj_menu_page.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_update.php3","manage_proj_update.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_ver_add.php3","manage_proj_ver_add.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_ver_delete.php3","manage_proj_ver_delete.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_ver_delete_page.php3","manage_proj_ver_delete_page.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_ver_edit_page.php3","manage_proj_ver_edit_page.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_ver_update.php3","manage_proj_ver_update.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_category_add.php3","manage_project_category_add.php3","Renamed for MacOS") ?>
+	<? print_item("rename","old","new","Renamed for MacOS") ?>
+	<? print_item("rename","old","new","Renamed for MacOS") ?>
+	<? print_item("rename","old","new","Renamed for MacOS") ?>
+	<? print_item("rename","old","new","Renamed for MacOS") ?>
+	<? print_item("rename","old","new","Renamed for MacOS") ?>
+	<? print_item("rename","old","new","Renamed for MacOS") ?>
+	<? print_item("rename","old","new","Renamed for MacOS") ?>
+	<? print_item("rename","old","new","Renamed for MacOS") ?>
+	<? print_item("rename","old","new","Renamed for MacOS") ?>
+	<? print_item("rename","old","new","Renamed for MacOS") ?>
+	<? print_item("rename","old","new","Renamed for MacOS") ?>
+	<? print_item("rename","old","new","Renamed for MacOS") ?>
+	<? print_item("rename","old","new","Renamed for MacOS") ?>
 	<? print_item("add","","new_page_me.php","") ?>
 	<? print_item("rename","ok.php","better.php","") ?>
 	</table>
