@@ -25,6 +25,7 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 <p>
 	<li><a href="mailto:kenito@300baud.org">Kenzaburo Ito</a> - programming
 	<li>Hai Nguyen - original implementation
+	<li>Scott Roberts - original news code
 <p>
 Contributors:
 <p>
@@ -42,6 +43,8 @@ Translations:
 	<li>Luca Pescatore
 	<li>Jan-Bart de Vreede
 	<li>Espen Holje
+	<li>J.I. Kim
+	<li>Oktay Altunergil
 </td>
 </tr>
 </table>

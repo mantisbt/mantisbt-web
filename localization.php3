@@ -1,5 +1,12 @@
 <?
+	$g_mantis_version = "";
+	if ( file_exists( "/home/groups/mantisbt/htdocs/mantis/config_inc.php" ) ) {
+		include( "/home/groups/mantisbt/htdocs/mantis/config_inc.php" );
+	}
+
 	function print_lang( $p_language, $p_version, $p_state ) {
+		global $g_mantis_version;
+
 		$t_file_name = "mantis/strings_".strtolower( $p_language ).".txt";
 
 		PRINT "<tr bgcolor=#ffffff>";
@@ -7,7 +14,11 @@
 				echo $p_language;
 			PRINT "</td>";
 			PRINT "<td>";
-				echo $p_version;
+				if ( $p_version=="latest" ) {
+					echo $g_mantis_version;
+				} else {
+					echo $p_version;
+				}
 			PRINT "</td>";
 			PRINT "<td>";
 				if ( file_exists( $t_file_name ) ) {
@@ -55,6 +66,8 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 <p>
 Here you can see the latest localization files.  Some of them are included with a release (as indicated).  Others tend to lag slightly behind the newest releases so if your language isn't supported check back a few days after a big release.
 <p>
+What to do if you see some errors?  Just <a href="mailto:kenito@300baud.org">send me an email</a> with the corrected strings.
+<p>
 
 <div align=center>
 <table width=100% cellpadding=5 cellspacing=1 bgcolor=#ffffff>
@@ -73,15 +86,16 @@ Here you can see the latest localization files.  Some of them are included with 
 	</td>
 </tr>
 <?
-	print_lang( "English",     "0.14.7",  "active" );
-	print_lang( "Dutch",       "0.14.7",  "active" );
-	print_lang( "French",      "0.14.7",  "active" );
-	print_lang( "German",      "0.14.7",  "active" );
-	print_lang( "Italian",     "0.14.7",  "active" );
-	print_lang( "Norwegian",   "0.14.7",  "active" );
-	print_lang( "Spanish",     "0.14.7",  "active" );
-	print_lang( "Portuguese",  "0.14.7",  "active" );
-	print_lang( "Turkish",  "",  "active" );
+	print_lang( "English",     "latest",  "active" );
+	print_lang( "Dutch",       "latest",  "active" );
+	print_lang( "French",      "latest",  "active" );
+	print_lang( "German",      "latest",  "active" );
+	print_lang( "Italian",     "latest",  "active" );
+	print_lang( "Korean",      "0.14.8 (separate)",  "active" );
+	print_lang( "Norwegian",   "latest",  "active" );
+	print_lang( "Spanish",     "latest",  "active" );
+	print_lang( "Portuguese",  "latest",  "active" );
+	print_lang( "Turkish",     "0.14.8 (separate)",  "active" );
 ?>
 </table>
 
@@ -90,7 +104,7 @@ Here you can see the latest localization files.  Some of them are included with 
 <p>
 <b><font size=+1>Translating</font></b>
 <p>
-Don't see your language?  Translate one of the files!  It's really quite simple.  Just take the strings file and convert away.  Then submit it back to me.  Also, you can update them when new strings make it in.  The file won't change drastically so it shouldn't be too much work to keep the files updated.
+Don't see your language?  Translate one of the files!  It's really quite simple.  Just take the strings file and convert away.  Then <a href="mailto:kenito@300baud.org">submit it</a> back to me.  Also, you can update them when new strings make it in.  The file won't change drastically so it shouldn't be too much work to keep the files updated.
 <p>
 Currently some strings are hard-coded into the database tables or the code.  This will be fixed soon.
 </td>

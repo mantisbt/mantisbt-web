@@ -6,6 +6,7 @@
 		<tr>
 			<td>
 				<a href="mantis.php3">Mantis</a><br>
+				<a href="info.php3">Info</a><br>
 				<a href="credits.php3">Credits</a><br>
 			</td>
 		</tr>
@@ -23,7 +24,9 @@
 		<tr>
 			<td>
 				<a href="download.php3">Download</a><br>
-				<a href="localization.php3">Localization</a>
+				<a href="release.php3">Release Notes</a><br>
+				<a href="localization.php3">Localization</a><br>
+				<a href="security.php3">Security</a><br>
 			</td>
 		</tr>
 		<tr>
@@ -40,7 +43,7 @@
 				Development<br>
 				&nbsp;&nbsp;&nbsp;<a href="roadmap.php3">Roadmap</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="guidelines.php3">Coding Guidelines</a><br>
-				&nbsp;&nbsp;&nbsp;<a href="database.php3">Database Schema</a><br>
+				&nbsp;&nbsp;&nbsp;<a href="database.php3">Database</a><br>
 			</td>
 		</tr>
 		<tr>

@@ -24,9 +24,11 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 <td>
 <b><font size=+1>What is it?</font></b>
 <p>
-Mantis is a php/MySQL/web based bugtracking system.  The software resides on a webserver while any web browser should be able to function as a client.  It is released under the terms of the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL license</a>.
+Mantis is a php/MySQL/web based bugtracking system.  The software resides on a webserver while any web browser should be able to function as a client.  It is released under the terms of the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>.
 <p>
-I and a friend originally created a bugtracker as an internal tool for our own pet project.  Since then I've gone ahead with a total rewrite and decided to make it available to the public.  A check on the web in early 2000 revealed that there were no free php based bug tracking packages that were usable (I may be mistaken).  Hopefully, this package helps fill that niche.  I have no strong love of the GPL but I do feel that development tools should be free for developers, thus my choice of license.
+Mantis is free to use and modify.  It is free to distribute as long as you abide by the distribution terms of the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>.
+<p>
+I and a friend originally created a bugtracker as an internal tool for our own pet project.  A check on the web in early 2000 revealed that there were no usable, free php based bug tracking packages (I may be mistaken).  At least there were none that I would choose to use.  Since then I've gone ahead with a total rewrite and decided to make it available to the public.  I have no strong love of the GPL but I do feel that development tools should be free, thus my choice of license.
 
 <p>
 <b><font size=+1>Requirements</font></b>
@@ -73,10 +75,11 @@ The stated goals for this project are to produce and maintain a lightweight, sim
 <p>
 Here are some of the guidelines that I have decided upon:
 <ul>
+<li>Quick access to "What I want to do"
 <li>Simple navigation
 <li>Layered complexity
-<li>Quick access to "What I want to do"
 <li>Consistency
+<li>Scale to browser window size
 <li>Minimal clutter
 <li>Minimal graphics
 <li>No frames
@@ -84,13 +87,14 @@ Here are some of the guidelines that I have decided upon:
 <li>No Javascript
 </ul>
 <p>
-I realize I have some problems with some of the above points.  I'll be addressing them as they come to my notice or cross my annoyance threshold.
+I realize I have some problems with some of the above items.  I'll be addressing them as they come to my notice or cross my annoyance threshold.
 
 <p>
 <b><font size=+1>Versioning</font></b>
 <p>
-The release numbering convention I'm using is major.minor.micro.  Major indicates a large change in the core package, minor a significant amount of feature addition/modification, micro for mostly bug fixes.  I am leaning towards releasing a new version for a significant bugfix as often as daily.
-
+The release numbering convention I'm using is major.minor.micro.  Major indicates a very large change in the core package, minor a significant amount of feature addition/modification, micro for mostly bug fixes.  I will release a new version for a significant bugfix as often as daily.
+<p>
+Version 1.0.0 will be used when I consider Mantis to be production quality.  This basically means that I would not hesitate to recommend it for most uses.
 <p>
 <b><font size=+1>How to Help</font></b>
 <p>
@@ -98,7 +102,7 @@ The release numbering convention I'm using is major.minor.micro.  Major indicate
 <li>Suggest (reasonable) features
 <li>Contribute code or tell me where to look
 <li><b>Let me know if you use it and find it useful</b>.
-I won't publish the information without permission, but I would appreciate the feedback.  This, more than anything, keeps me motivated.
+I won't publish the information without permission, but I would appreciate the feedback.  This, more than any one thing, keeps me motivated.
 </td>
 </tr>
 </table>

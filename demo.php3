@@ -32,7 +32,7 @@ Login as:
 <li>reporter / reporter - you can report bugs and add bugnotes
 <li>rep / rep - same
 <li>updater / updater - you can edit bugs
-<li>Sign up for your own account!  You will need a <b>valid</b> email address.
+<li>Sign up for your own account!  <b>You will need a <font color=#ff000>valid</font> email address.</b>  If you know your email address works but never get emailed then please <a href="mailto:kenito@300baud.org">contact me</a>.
 </ul>
 <p>
 Again, feel free to explore but please, <font color=#ff0000><b>do not play with any valid bug entries</b></font>.  There is a "Test Project" that you can play around with all you like.  I will periodically be cleaning out any test bugs.
