@@ -13,7 +13,7 @@
 			echo "<li><a href=\"$p_url\" target=\"_blank\">$p_name</a> (<a href=\"$p_mantis_url\" target=\"_blank\">public</a>)</li>\n";
 		}
 	}
-	
+
 	function section_end() {
 		echo "</ul>\n\n";
 	}
@@ -22,11 +22,11 @@
 <span class="page_title">Users Directory</span>
 <hr size=1 noshade width="100%">
 
-<p>This is a directory of companies and open source projects that are using Mantis as their issue tracking system.  If 
-your company is not listed below, or you know of an open source project that uses Mantis but is not listed below, please contact 
+<p>This is a directory of companies and open source projects that are using Mantis as their issue tracking system.  If
+your company is not listed below, or you know of an open source project that uses Mantis but is not listed below, please contact
 "vboctor -at- users -dot- sourceforge -dot- net" to update the list.</p>
 
-<p>When possible consider adding a link back to Mantis website.  You can use the button on the left side of the page, however, 
+<p>When possible consider adding a link back to Mantis website.  You can use the button on the left side of the page, however,
 please download it and reference it from your site to reduce the load on Mantis web server.</p>
 
 <?php
@@ -60,7 +60,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section( 'J' );
 		entry( 'Jack Audio Connection Kit', 'http://jackit.sourceforge.net/', 'http://jackit.sourceforge.net/mantis/' );
 	section_end();
-	
+
 	section( 'I' );
 		entry( 'Institute for Computational Biomedicine (ICB)', 'http://icb.med.cornell.edu/', 'http://icbtools.med.cornell.edu/mantis/' );
 	section_end();
@@ -82,6 +82,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section( 'P' );
 		entry( 'phpBB', 'http://phpbb-php5mod.sourceforge.net/', 'http://phpbb-php5mod.sourceforge.net/bugs/' );
 		entry( 'phpWebnotes', 'http://www.futureware.biz/webnotes/', 'http://www.futureware.biz/mantis/' );
+		entry( 'PHPlist', 'http://www.phplist.com/', 'http://mantis.tincan.co.uk/' );
 		entry( 'Project JEDI', 'http://homepages.borland.com/jedi/', 'http://homepages.borland.com/jedi/issuetracker/' );
 	section_end();
 
@@ -96,12 +97,13 @@ please download it and reference it from your site to reduce the load on Mantis 
 
 	section( 'S' );
 		entry( 'SourceFubar.Net', 'http://www.sourcefubar.net/', 'http://bugs.sourcefubar.net/' );
+		entry( 'Soft-Gems', 'http://www.soft-gems.net/', 'http://support.soft-gems.net/mantis/' );
 	section_end();
 
 	section( 'T' );
 		entry( 'Twig Project', 'http://informationgateway.org/', 'http://bugs.informationgateway.org/' );
 	section_end();
-	
+
 	section( 'W' );
 		entry( 'Water Corporation', 'http://www.watercorporation.com.au/' );
 	section_end();
