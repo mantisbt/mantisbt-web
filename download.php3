@@ -1,5 +1,4 @@
 <? include( "top.php3" ); ?>
-<? include( "mantis/config_inc.php" ) ?>
 
 <span class="page_title">Download</span>
 <hr size=1 noshade width="100%">

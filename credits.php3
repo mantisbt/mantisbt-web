@@ -5,7 +5,7 @@
 <p>
         <ul>
 <?
-        $file = file("mantis/doc/CREDITS");
+        $file = file( $g_mantis_path . "doc/CREDITS");
         $count = count($file);
         $state = 0;
         for ($i=7;$i<$count;$i++) {

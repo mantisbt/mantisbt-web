@@ -1,6 +1,8 @@
+<? include( "top.php3" ); ?>
 <?
 	function print_core_links() {
-		$path = "mantis/";
+		global $g_mantis_path;
+		$path = $g_mantis_path;
 
 		$files = 0;
 		$xfile = array();
@@ -21,7 +23,6 @@
 		}
 	}
 ?>
-<? include( "top.php3" ); ?>
 
 <span class="page_title">API</span>
 <hr size=1 noshade width="100%">

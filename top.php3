@@ -1,8 +1,34 @@
-<? #include( "zorblogspages.php" ); ?>
-<? include( "mantis/constant_inc.php" ) ?>
-<? include( "mantis/default/config_inc1.php" ) ?>
-<? include( "mantis/config_inc.php" ) ?>
-<? include( "mantis/default/config_inc2.php" ) ?>
+<?php
+	#include( "zorblogspages.php" );
+	$g_mantis_path = "mantis/";
+	$g_mantis_url = "mantis/";
+
+	if ( file_exists( dirname(__FILE__) . "/mantisweb_config_inc.php" ) ) {
+		include ( dirname(__FILE__) . "/mantisweb_config_inc.php");
+	}
+
+	include( $g_mantis_path . "constant_inc.php" );
+
+	if ( file_exists( $g_mantis_path . "custom_constant_inc.php" ) ) {
+		include( $g_mantis_path . "custom_constant_inc.php" );
+	}
+
+	if ( file_exists( $g_mantis_path . "config_defaults_inc.php" ) ) {
+		include( $g_mantis_path . "config_defaults_inc.php" );
+	} else {
+		include( $g_mantis_path . "default/config_inc1.php" );
+	}
+
+	if ( file_exists( $g_mantis_path . "custom_config_inc.php" ) ) {
+		include( $g_mantis_path . "custom_config_inc.php" );
+	} else {
+		include( $g_mantis_path . "config_inc.php" );
+	}
+
+	if ( file_exists( $g_mantis_path . "default/config_inc2.php" ) ) {
+		include( $g_mantis_path . "default/config_inc2.php" );
+	}
+?>
 <? #countpage( $REQUEST_URI, $REQUEST_URI );  ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>

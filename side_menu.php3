@@ -21,8 +21,8 @@
 		</tr>
 		<tr>
 			<td class="menu_items">
-				<a href="mantis/doc/documentation.html">User</a><br />
-				<a href="mantis/doc/configuration.html">Configuration</a><br />
+				<a href="<?php echo $g_mantis_url; ?>doc/documentation.html">User</a><br />
+				<a href="<?php echo $g_mantis_url; ?>doc/configuration.html">Configuration</a><br />
 				<a class="big" href="credits.php3">Credits</a><br />
 				<a href="notes.php3">Notes</a><br />
 				<a href="installation.php3">Installation</a><br />
