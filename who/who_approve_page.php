@@ -1,5 +1,5 @@
-<? include( "../top.php" ); ?>
-<?
+<?php include( "../top.php" ); ?>
+<?php
 	function db_connect($p_hostname="localhost", $p_username="root",
 						$p_password="", $p_database="mantis",
 						$p_port=3306 ) {
@@ -42,4 +42,4 @@
 <?php } ?>
 
 
-<? include("../bot.php"); ?>
+<?php include("../bot.php"); ?>

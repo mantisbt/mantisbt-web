@@ -1,20 +1,25 @@
-<? include( "top.php" ); ?>
+<?php include( "top.php" ); ?>
 
 <span class="page_title">Developer Notes</span>
 <hr size=1 noshade width="100%">
 <p>
-If you wish to join the development team please <a href="mailto:kenito@300baud.org">email me</a>.
+If you wish to join the development team please <a href="mailto:kenito@300baud.org">email me</a>.  Before you are accepted you will need to hang around the project for several weeks on the mailing lists and/or on IRC.  We will also be evaluating the quality of any patches you submit.
+
+<!--
+
+UPDATE CONTENT
 
 <p>
 Here are some notes that should help people understand the way Mantis is layed out.
 <p>
 <ul>
-	<li><a href="images/dg_menu.gif">Menu overview</a> <? echo round(filesize("images/dg_menu.gif") / 1024) ?>KB
-	<li><a href="images/dg_login.gif">Login procedure</a> <? echo round(filesize("images/dg_login.gif") / 1024) ?>KB
-	<li><a href="images/dg_viewbug.gif">View bug overview</a> <? echo round(filesize("images/dg_viewbug.gif") / 1024) ?>KB
-	<li><a href="images/dg_manage.gif">Manage overview</a> <? echo round(filesize("images/dg_manage.gif") / 1024) ?>KB
-	<li><a href="images/dg_overview.gif">Detailed complete overview</a> <? echo round(filesize("images/dg_overview.gif") / 1024) ?>KB
+	<li><a href="images/dg_menu.gif">Menu overview</a> <?php echo round(filesize("images/dg_menu.gif") / 1024) ?>KB
+	<li><a href="images/dg_login.gif">Login procedure</a> <?php echo round(filesize("images/dg_login.gif") / 1024) ?>KB
+	<li><a href="images/dg_viewbug.gif">View bug overview</a> <?php echo round(filesize("images/dg_viewbug.gif") / 1024) ?>KB
+	<li><a href="images/dg_manage.gif">Manage overview</a> <?php echo round(filesize("images/dg_manage.gif") / 1024) ?>KB
+	<li><a href="images/dg_overview.gif">Detailed complete overview</a> <?php echo round(filesize("images/dg_overview.gif") / 1024) ?>KB
 </ul>
+-->
 
 <p>
 Mantis roughly divides into the following modules:
@@ -58,4 +63,4 @@ Some cool features that could be implemented:
 	<li>email control/front-end
 </ul>
 
-<? include( "bot.php" ); ?>
+<?php include( "bot.php" ); ?>

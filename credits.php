@@ -1,14 +1,14 @@
-<? include( "top.php" ); ?>
+<?php include( "top.php" ); ?>
 
 <span class="page_title">Credits</span>
 <hr size=1 noshade width="100%">
 <p>
         <ul>
-<?
-        $file = file( $g_mantis_path . "doc/CREDITS");
+<?php
+        $file = file( "files/CREDITS");
         $count = count($file);
         $state = 0;
-        for ($i=7;$i<$count;$i++) {
+        for ($i=8;$i<$count;$i++) {
                 $file[$i] = trim( $file[$i] );
                 if ( $file[$i] == "CREDITS" ) {
                         continue;
@@ -25,4 +25,4 @@
         }
 ?>
         </ul>
-<? include( "bot.php" ); ?>
+<?php include( "bot.php" ); ?>

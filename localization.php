@@ -1,4 +1,4 @@
-<?
+<?php
 	$g_mantis_version = "";
 
 	function print_lang( $p_language, $p_version, $p_state ) {
@@ -11,24 +11,10 @@
 				echo $p_language;
 			PRINT "</td>";
 			PRINT "<td>";
-				if ( $p_version=="latest" ) {
-					echo $g_mantis_version;
-				} else {
-					echo $p_version;
-				}
-			PRINT "</td>";
-			PRINT "<td>";
 				if ( file_exists( $t_file_name ) ) {
 					echo date( "M d, Y", filemtime( $t_file_name ) );
-				}
-			PRINT "</td>";
-			PRINT "<td>";
-				if (( file_exists( $t_file_name ) )&&( $p_state=="active" )) {
-					PRINT "<a href=\"$t_file_name\">download</a>";
-				} else if ( $p_state=="active" ) {
-					PRINT "in progress";
 				} else {
-					PRINT"&nbsp;";
+					echo '-';
 				}
 			PRINT "</td>";
 			PRINT "<td>";
@@ -39,33 +25,30 @@
 		PRINT "</tr>";
 	}
 ?>
-<? include( "top.php" ); ?>
+<?php include( "top.php" ); ?>
 
 <span class="page_title">Localization</span>
 <hr size=1 noshade width="100%">
 <p>
-Here you can see the latest localization files.  Some of them are included with a release (as indicated).  Others tend to lag slightly behind the newest releases so if your language isn't supported check back a few days after a big release.
+Here you can see the latest localization files.
 <p>
 What to do if you see some errors?  Just <a href="mailto:kenito@300baud.org">send me an email</a> with the corrected strings.
 <p>
 
-<div align=center>
-<table width=100% cellpadding=5 cellspacing=1 bgcolor=#ffffff>
+<div align=left>
+<table width=50% cellpadding=5 cellspacing=1 bgcolor=#ffffff>
 <tr bgcolor=#ffffff>
 	<td>
 		<b>Language</b>
 	</td>
 	<td>
-		<b>Version</b>
-	</td>
-	<td>
-		<b>Date Updated</b>
+		<b>Updated</b>
 	</td>
 	<td>
 		&nbsp;
 	</td>
 </tr>
-<?
+<?php
 	print_lang( "English",				"latest",  "active" );
 	print_lang( "Chinese_Traditional",	"latest",  "active" );
 	print_lang( "Chinese_Simplified",	"latest",  "active" );
@@ -92,20 +75,16 @@ What to do if you see some errors?  Just <a href="mailto:kenito@300baud.org">sen
 	print_lang( "Turkish",				"latest",  "active" );
 ?>
 </table>
-
 </div>
 
 <p>
 <span class="section">Translating</span>
 <p>
-Don't see your language?  Translate one of the files!  It's really quite simple.  Just take the strings file and convert away.  Then <a href="mailto:kenito@300baud.org">submit it</a> back to me.
+Don't see your language?  Translate one of the files!  Just take the strings file, translate, and <a href="mailto:kenito@300baud.org">submit here</a>.
 <p>
 <span class="section">Updating</span>
 <p>
-Also, you can update them when new strings make it in.  The file won't change drastically so it shouldn't be too much work to keep the files updated. Just click on the "view diff" link to see what strings might need translating.  I'll usually send a email out to translators when a new bunch of strings is ready.
+Also, you can update when new strings make it in.  Just click on the "view diff" link to see what strings might need translating and make the changes.
 <p>
-<span class="section">Notes</span>
-<p>
-Currently some strings are hard-coded into the database tables or the code.  This should be fixed after the 0.15.0 release.
 
-<? include( "bot.php" ); ?>
+<?php include( "bot.php" ); ?>

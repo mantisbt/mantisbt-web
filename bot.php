@@ -10,9 +10,8 @@
 		</tr>
 		</table>
 
-		<address>&nbsp;&nbsp;&nbsp;Last modified: <? echo date( "M d, Y - H:m T", getlastmod() )?></address>
+		<address>&nbsp;&nbsp;&nbsp;Last modified: <?php echo date( "M d, Y - H:m T", getlastmod() )?></address>
 		<address>&nbsp;&nbsp;&nbsp;Copyright (C) 2000-2002</address>
-		<address>&nbsp;&nbsp;&nbsp;<a href="mailto:kenito@300baud.org">kenito@300baud.org</a></address>
 	</td>
 </tr>
 </table>

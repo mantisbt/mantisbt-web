@@ -72,7 +72,7 @@ a.center 		{ text-align: center }
 
 ol				{ list-style-type: decimal }
 
-pre				{ font-family: courier new; background-color: #e6e6e6; font-size: 10pt; line-height: 1.1; text-align: left; padding: 8 }
+pre				{ font-family: courier new; background-color: #e6e6e6; font-size: 10pt; line-height: 1.1; text-align: left; padding: 8px }
 
 input.small		{ font-size: 8pt; font-family: verdana,arial,helvetica,sans-serif; vertical-align: middle }
 

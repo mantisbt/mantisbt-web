@@ -1,5 +1,5 @@
-<? include( "top.php" ); ?>
+<?php include( "top.php" ); ?>
 
-<? include("faq.html") ?>
+<?php include("faq.html") ?>
 
-<? include( "bot.php" ); ?>
+<?php include( "bot.php" ); ?>

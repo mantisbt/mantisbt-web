@@ -1,4 +1,4 @@
-<?
+<?php
 	function find_var( $p_lang_arr, $p_lang_count, $p_eng_var ) {
 		for ($i=0;$i<$p_lang_count;$i++) {
 			#echo "============".$p_lang_arr[$i]." ==== $i - $p_eng_var<br />";
@@ -161,7 +161,7 @@
 		}
 	}
 ?>
-<? include( "top.php" ); ?>
+<?php include( "top.php" ); ?>
 
 <span class="page_title">Localization Diff</span>
 <hr size=1 noshade width="100%">
@@ -170,7 +170,7 @@
 <table width=100%>
 <tr valign=top>
 	<td width=100%>
-		<b><font size=+1><a name=page_top>Localization Diff - <? echo $f_lang ?></a></font></b>
+		<b><font size=+1><a name=page_top>Localization Diff - <?php echo $f_lang ?></a></font></b>
 		<p>
 		<a href="localization.php">Back to Localization</a>
 		<p>
@@ -181,12 +181,12 @@
 		<table cellspacing=1 border=0 bgcolor=#888888>
 		<tr bgcolor=#8888ff>
 			<td colspan=2>
-				<b><? echo $f_lang ?></b>
+				<b><?php echo $f_lang ?></b>
 			</td>
 		</tr>
 		<tr bgcolor=#eeeeee>
 			<td align=left colspan=2>
-			<? process_file( $f_lang ) ?>
+			<?php process_file( $f_lang ) ?>
 			</td>
 		</tr>
 		</table>
@@ -194,4 +194,4 @@
 </tr>
 </table>
 
-<? include( "bot.php" ); ?>
+<?php include( "bot.php" ); ?>

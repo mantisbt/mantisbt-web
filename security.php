@@ -1,4 +1,4 @@
-<? include( "top.php" ); ?>
+<?php include( "top.php" ); ?>
 
 <span class="page_title">Security</span>
 <hr size=1 noshade width="100%">
@@ -49,4 +49,4 @@ Letting users see the complete source can be a security hazard.  This can happen
 <p>
 Currently the passwords are run through the crypt() function before being stored.  crypt() is a one way function; this means that you cannot obtain the original password from the crypt()ed password.  This ensures that the user passwords are not readable should the database be cracked into (Note: this doesn't mean they are uncrackable, enough time and processing power and brute force will reveal most passwords).  However, your username and password are most likely being transmitted in clear text.  You will have to use a ssl (https) connection to protect transmission.
 
-<? include( "bot.php" ); ?>
+<?php include( "bot.php" ); ?>

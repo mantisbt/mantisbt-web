@@ -1,4 +1,4 @@
-<? include( "top.php" ); ?>
+<?php include( "top.php" ); ?>
 
 <span class="page_title">Roadmap</span>
 <hr size=1 noshade width="100%" />
@@ -81,4 +81,4 @@ This is the Mantis feature roadmap.  It lists most of the currently planned feat
 	<li>Auto show differences in config file when upgrading
 </ul>
 
-<? include( "bot.php" ); ?>
+<?php include( "bot.php" ); ?>

@@ -1,9 +1,9 @@
-<? include( "top.php" ); ?>
+<?php include( "top.php" ); ?>
 
 <span class="page_title">Mantis Coding Conventions</span>
 <hr size=1 noshade width="100%" />
 <p>
-This is the Mantis coding conventions document.  This should assist anyone who wants to modify the code or work on active development.  Anyone who wishes to contribute code must adhere to these guidelines.  <b>Code not following these conventions will be modified or (in extreme cases) rejected.</b>  If you have additional suggestions or a good argument for changing some of these guidelines then <a href="mailto:kenito@300baud.org">send a message</a> or <a href="forums.php">post in the forums</a>.
+This is the Mantis coding conventions document.  This should assist anyone who wants to modify the code or work on active development.  Anyone who wishes to contribute code <b>must adhere</b> to these guidelines.  <b>Code not following these conventions will be rejected.</b>  If you have suggestions or a good argument for changing some of these guidelines then discuss it on the <a href="mailinglists.php">developer mailing lists</a>.
 <p>
 First, start off by reading the <a href="http://utvikler.start.no/code/php_coding_standard.html"><b>PHP Coding Standards</b></a> document.  I've deviated in a few places but just about everything in the document applies here as well.
 <p>
@@ -65,26 +65,22 @@ $query = "SELECT *
 
 <span class="section">General Formatting</span>
 <ul>
-	<li>Use TABS with a size of 4 to make the code easily readable while not wasting too much space
+	<li>Use TABS with a size of 4
 	<li>Follow the table formatting of existing pages
 	<li>Use &lt;?php ?&gt; for php delimiters.
 	<li>Try not to print/echo HTML unless it's short or in a function loop
-	<li>Do not use the EOF construct.
+	<li>Do not use the EOF construct
 </ul>
 
 <span class="section">Miscellaneous</span>
 <ul>
-	<li>Don't use the ?: construct.  It is confusing and has too much bug potential.
-	<li>Avoid magic numbers.  The only magic numbers in use should be 1 and 0.
+	<li>Don't use the ?: construct. It is confusing and has too much bug potential.
+	<li>Avoid magic numbers.  The only magic numbers in use should be 1 and 0 and their meaning should be obvious.
 </ul>
 
 <span class="section">Page Guidelines</span>
 <ul>
 	<li>The first item should be the copyright notice
-	<li>The next line should be a cookie check to see if the user is logged in
-	<li>Next should be the majority of the SQL queries for a page
-	<li>Next will be the various thymol print_ functions.
-	<li>The main body of the page will follow
 	<li>At the bottom will be the footer information and closing print_ functions.
 </ul>
 
@@ -92,7 +88,7 @@ $query = "SELECT *
 <ul>
 	<li>Paranthesis should be right after a function name.  eg: function() not function ()
 	<li>Paranthesis should have a space right after a keyword (if, while, for) eg: for (...)
-	<li>Braces formatting is illustrating below.  I don't mind the macthing vertical placement myself but in the interests of conserving some space I have adopted the unmatched placing.
+	<li>Braces formatting is illustrating below.  We use unmatched placing.
 <pre>
 for (...) {
     blah
@@ -118,7 +114,7 @@ if (...) {
 <ul>
 	<li>Use the # symbol for line commenting
 	<li>Use /* */ for block commenting unless you nest /* */ comments.  Generally, only use this during development.
-	<li>Use @@@ followed by a brief message (BROKEN, TEMPORARY, etc) as a "look at this" indicator.  Leaving your name next to it might be a good idea as well.  This way critical items can easily be found.
+	<li>Use @@@ followed by a brief message (BROKEN, TEMPORARY, etc) as a "look at this" indicator.  Leaving your name next to is a good idea.  This way critical items can easily be found.
 </ul>
 
 <span class="section">Editor Features</span>
@@ -133,4 +129,4 @@ if (...) {
 <!-- --------------------------------------------------------------------- -->
 
 
-<? include( "bot.php" ); ?>
+<?php include( "bot.php" ); ?>

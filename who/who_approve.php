@@ -1,4 +1,4 @@
-<?
+<?php
 	$g_mantis_path = "../mantis/";
 	$g_mantis_url = "../mantis/";
 

@@ -1,6 +1,6 @@
-<? #include( "zorblogs.php" ); ?>
-<? include( "top.php" ); ?>
-<?
+<?php include( "top.php" ); ?>
+<?php
+	include( 'config_inc.php' );
 	function db_connect($p_hostname="localhost", $p_username="root",
 						$p_password="", $p_database="mantis",
 						$p_port=3306 ) {
@@ -14,15 +14,6 @@
 		$p_string = stripslashes( $p_string );
 		$p_string = nl2br( $p_string );
 		return $p_string;
-	}
-	### --------------------
-	function sql_to_unix_time( $p_timeString ) {
-		return mktime( substr( $p_timeString, 8, 2 ),
-					   substr( $p_timeString, 10, 2 ),
-					   substr( $p_timeString, 12, 2 ),
-					   substr( $p_timeString, 4, 2 ),
-					   substr( $p_timeString, 6, 2 ),
-					   substr( $p_timeString, 0, 4 ) );
 	}
 	### --------------------
 	function update_visits() {
@@ -51,10 +42,10 @@
 	<td class="welcome" width="*">
 		Mantis is a php/MySQL/web based bugtracking system.  <a href="about.php">Learn more</a>.
 		<p>
-		The latest version is <a href="download.php"><? echo $g_mantis_version ?></a>.
+		The latest version is <a href="download.php"><?phpphp include("files/VERSION") ?></a>.
 	</td>
 	<td width="220" align="right">
-		<table width="220" bgcolor="#000000" border="0" cellspacing="1" cellpadding="3">
+<!--		<table width="220" bgcolor="#000000" border="0" cellspacing="1" cellpadding="3">
 		<tr>
 			<td class="poll_header">
 				<a class="small_bold" href="polls.php">Recent Polls</a>
@@ -62,7 +53,7 @@
 		</tr>
 		<tr>
 			<td class="poll">
-<?
+<?php
 	$query =  "SELECT *
 			FROM vbooth_desc
 			ORDER BY pollID DESC
@@ -96,7 +87,7 @@
 		</tr>
 		<tr>
 			<td class="survey">
-			<?
+			<?php
 				$query =  "SELECT id, UNIX_TIMESTAMP(date_submitted) as date_submitted
 						FROM questions
 						ORDER BY id DESC
@@ -106,15 +97,15 @@
 				extract( $row );
 				$date_submitted = date( "m-d", $date_submitted );
 				?>
-				<a class="small_bold" href="survey.php?f_id=<?php echo $id ?>">Answer Survey (<? echo $date_submitted ?>)</a>
+				<a class="small_bold" href="survey.php?f_id=<?phpphp echo $id ?>">Answer Survey (<?php echo $date_submitted ?>)</a>
 			</td>
 		</tr>
-		</table>
+		</table>-->
 	</td>
 </tr>
 </table>
 
-<?
+<?php
 	if ( !isset( $f_offset ) ) {
 		$f_offset = 0;
 	}
@@ -154,23 +145,23 @@
 <table width="99%" bgcolor="#000000" border="0" cellspacing="0" cellpadding="4">
 <tr>
 	<td class="headline">
-		<b><? echo $v_headline ?></b> -
-		<span class="news_date"><? echo $v_date_posted ?></span> -
-		<a href="mailto:<? echo $t_poster_email ?>"><? echo $t_poster_name ?></a>
+		<b><?php echo $v_headline ?></b> -
+		<span class="news_date"><?php echo $v_date_posted ?></span> -
+		<a href="mailto:<?php echo $t_poster_email ?>"><?php echo $t_poster_name ?></a>
 	</td>
 </tr>
 <tr>
 	<td class="body">
-		<? echo $v_body ?>
+		<?php echo $v_body ?>
 	</td>
 </tr>
 </table>
-<?
+<?php
 	}
 ?>
 
 <p class="center">
-<?
+<?php
 	$f_offset_next = $f_offset + $g_news_view_limit;
 	$f_offset_prev = $f_offset - $g_news_view_limit;
 
@@ -181,4 +172,4 @@
 		PRINT " [ <a href=\"index.php?f_offset=$f_offset_next\">older_news</a> ]";
 	}
 ?>
-<? include( "bot.php" ); ?>
+<?php include( "bot.php" ); ?>

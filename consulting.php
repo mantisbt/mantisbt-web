@@ -1,11 +1,11 @@
-<? include( "top.php" ); ?>
+<?php include( "top.php" ); ?>
 
 <span class="page_title">Consulting</span>
 <hr size=1 noshade width="100%">
 <p>
 <span class="section">Installation</span>
 <p>
-We offer installation and setup for a one time fee of $100 (US).
+We offer installation and setup for a time fee of $100 (US).
 <p>
 We will need remote connection and browser access.  This can be accomplished via telnet/ssh, terminal services, VNC, or some other remote access mechanism.
 <p>
@@ -43,8 +43,8 @@ Our rate is $50/hr (US).  Please contact us for quotes.
 		Kenzaburo Ito
 	</td>
 	<td>
-		<a href="Kenzaburo-Ito-Resume.html">HTML</a> |
-		<a href="Kenzaburo-Ito-Resume.doc">Word</a>
+		<a href="resume/Kenzaburo-Ito-Resume.html">HTML</a> |
+		<a href="resume/Kenzaburo-Ito-Resume.doc">Word</a>
 	</td>
 	<td>
 		US
@@ -66,14 +66,14 @@ Our rate is $50/hr (US).  Please contact us for quotes.
 		Victor Boctor
 	</td>
 	<td>
-		
+
 	</td>
 	<td>
-		Australia
+		Australia/Asia
 	</td>
 </tr>
 </table>
 <p>
 
 
-<? include("bot.php"); ?>
+<?php include("bot.php"); ?>

@@ -1,9 +1,9 @@
-<? include( "top.php" ); ?>
+<?php include( "top.php" ); ?>
 
 <span class="page_title">Forums</span>
 <hr size=1 noshade width="100%">
 <p>
-The following forums are hosted at Sourceforge.  You can post anonymously.  Please report actual bugs to the <a href="demo.php">Demo Bugtracker</a>.
+The following forums are hosted at Sourceforge.  You can post anonymously.  Please report actual bugs to the <a href="mantis/">Development Bugtracker</a>.
 <p>
 <ul>
 	<li><a href="http://sourceforge.net/forum/forum.php?forum_id=47435">Open Discussion</a>
@@ -15,4 +15,4 @@ The following forums are hosted at Sourceforge.  You can post anonymously.  Plea
 <p>
 <p class="center"><a class="bold" href="http://sourceforge.net/forum/?group_id=14963">SourceForge Forums</a>
 
-<? include( "bot.php" ); ?>
+<?php include( "bot.php" ); ?>

@@ -1,4 +1,4 @@
-<? include( "top.php" ); ?>
+<?php include( "top.php" ); ?>
 
 <span class="page_title">Links</span>
 <hr size=1 noshade width="100%">
@@ -64,4 +64,4 @@ These links are software packages that are related to Mantis use and development
 	</td>
 </tr>
 </table>
-<? include( "bot.php" ); ?>
+<?php include( "bot.php" ); ?>

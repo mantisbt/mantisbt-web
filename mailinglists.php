@@ -1,4 +1,4 @@
-<? include( "top.php" ); ?>
+<?php include( "top.php" ); ?>
 
 <span class="page_title">Mailing Lists</span>
 <hr size=1 noshade width="100%" />
@@ -16,7 +16,7 @@ Signup for the mailing lists.  These are very low traffic since most people seem
 		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-announce">Signup</a>
 	</td>
 	<td width="15%">
-		<a href="http://www.geocrawler.com/redir-sf.php?list=mantisbt-announce">Archives</a>
+		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=7369">Archives</a>
 	</td>
 	<td width="50%">
 		Be notified of releases and any important updates.
@@ -30,7 +30,7 @@ Signup for the mailing lists.  These are very low traffic since most people seem
 		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-help">Signup</a>
 	</td>
 	<td>
-		<a href="http://www.geocrawler.com/redir-sf.php?list=mantisbt-help">Archives</a>
+		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=1436">Archives</a>
 	</td>
 	<td>
 		Ask for help.
@@ -44,7 +44,7 @@ Signup for the mailing lists.  These are very low traffic since most people seem
 		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-dev">Signup</a>
 	</td>
 	<td>
-		<a href="http://www.geocrawler.com/redir-sf.php?list=mantisbt-dev">Archives</a>
+		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=3264">Archives</a>
 	</td>
 	<td>
 		Mantis development talk.
@@ -54,4 +54,4 @@ Signup for the mailing lists.  These are very low traffic since most people seem
 
 <p class="center"><a class="bold" href="http://sourceforge.net/mail/?group_id=14963">SourceForge Mailing Lists</a>
 
-<? include( "bot.php" ); ?>
+<?php include( "bot.php" ); ?>

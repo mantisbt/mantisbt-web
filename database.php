@@ -1,4 +1,4 @@
-<? include( "top.php" ); ?>
+<?php include( "top.php" ); ?>
 
 <span class="page_title">Database</span>
 <hr size=1 noshade width="100%" />
@@ -9,10 +9,10 @@ This is a basic view of the database schema used in Mantis.  Note that MySQL doe
 <p>
 <ul>
 	<li><a href="mantis/sql/db_generate.sql">Text of current release (<?php echo $g_mantis_version ?>)</a>
-	<li><a href="images/mantis-0.17.0.gif">version 0.17.x</a> <? echo round(filesize("images/mantis-0.17.0.gif") / 1024) ?>KB
-	<li><a href="images/mantis-0.15.0.gif">version 0.15.x</a> <? echo round(filesize("images/mantis-0.15.0.gif") / 1024) ?>KB
-	<li><a href="images/mantis-0.14.0.gif">version 0.14.1</a> <? echo round(filesize("images/mantis-0.14.0.gif") / 1024) ?>KB
-	<li><a href="images/mantis-0.13.0.gif">version 0.9.0 to 0.13.1</a> <? echo round(filesize("images/mantis-0.13.0.gif") / 1024) ?>KB
+	<li><a href="images/mantis-0.17.0.gif">version 0.17.x</a> <?php echo round(filesize("images/mantis-0.17.0.gif") / 1024) ?>KB
+	<li><a href="images/mantis-0.15.0.gif">version 0.15.x</a> <?php echo round(filesize("images/mantis-0.15.0.gif") / 1024) ?>KB
+	<li><a href="images/mantis-0.14.0.gif">version 0.14.1</a> <?php echo round(filesize("images/mantis-0.14.0.gif") / 1024) ?>KB
+	<li><a href="images/mantis-0.13.0.gif">version 0.9.0 to 0.13.1</a> <?php echo round(filesize("images/mantis-0.13.0.gif") / 1024) ?>KB
 </ul>
 <p>
 I made these graphs using <a href="http://www.smartdraw.com/">SmartDraw</a>.  I may be using <a href="http://www.microsoft.com/visio/">Visio</a> in the future.  They are both commercial programs.
@@ -47,4 +47,4 @@ One of the unforseen benefits of using MySQL is that most of the SQL is very sim
 	<li>Transactions - Most databases support transactions except for MySQL.  A support mechanism needs to be built.
 </ul>
 A good candidate for the database abstraction class is <a href="http://php.weblogs.com/ADODB">ADODB</a>
-<? include( "bot.php" ); ?>
+<?php include( "bot.php" ); ?>

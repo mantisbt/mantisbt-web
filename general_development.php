@@ -1,5 +1,5 @@
-<? include( "top.php" ); ?>
-<?
+<?php include( "top.php" ); ?>
+<?php
 	function print_dev_section( $p_a_name, $p_section_title ) {
 		PRINT "<table width=\"100%\" border=\"0\" cellspacing=\"0\">";
 		PRINT "<tr>";
@@ -34,11 +34,11 @@
 </ul>
 
 <p>
-<? print_dev_section( "introduction", "Introduction" ) ?>
+<?php print_dev_section( "introduction", "Introduction" ) ?>
 <p>
 Mantis, an open source project, allows you to contribute changes you make back to the core package.  This allows others to benefit from your work and can help you from having to reimplement your chagnes after an upgrade.  This page should provide useful information on procedures to ensure development goes smoothly.
 <p>
-<? print_dev_section( "setup", "Setup" ) ?>
+<?php print_dev_section( "setup", "Setup" ) ?>
 <p>
 <span class="section">Install and Setup Apache + PHP + MySQL</span>
 <p>
@@ -112,7 +112,7 @@ Read the INSTALL directions and configure your config_inc.php file.  Install the
 Open up your browser and test it out.  The bugtracker directory (and any subdirectories) need to be world executable.  Otherwise you will get errors about access denial or the images will fail to load.  The files will be happy with a chmod of 644.
 <p>
 
-<? print_dev_section( "cvs", "CVS" ) ?>
+<?php print_dev_section( "cvs", "CVS" ) ?>
 <p>
 <a href="http://cvsbook.red-bean.com/cvsbook.html">CVS reference</a> - The key commands to learn are checkout (or co), update, commit (or ci), remove, and add.
 <p>
@@ -154,23 +154,23 @@ cvs -n update
 	<li><a href="http://www.mysql.com/doc/">MySQL Documentation</a><p>
 </ul>
 <p>
-<? print_dev_section( "coding_style", "Coding Style" ) ?>
+<?php print_dev_section( "coding_style", "Coding Style" ) ?>
 <p>
 Please follow the <a href="guidelines.php">Mantis Coding Conventions</a> document.  Code not following the convetions <b>will not be accepted</b>!
 <p>
-<? print_dev_section( "communication", "Communication" ) ?>
+<?php print_dev_section( "communication", "Communication" ) ?>
 <p>
 Discussion and communication should occur in the <a href="mailinglists.php">mailing lists</a> or <a href="forums.php">forums</a>.  Any private matters should be directed to <a href="mailto:kenito@300baud.org">me</a>.  Please try to keep discussions public.  As an open source project much of the value and excitement comes from having an process that is open to the public.
 <p>
-<? print_dev_section( "patches", "Patches" ) ?>
+<?php print_dev_section( "patches", "Patches" ) ?>
 <p>
 Patches should be appliable using the unix "patch" command.  Make sure your .patch or .diff files will be compatible or send explicit instructions on how to apply your changes.  Always specify what release you are patching against.
 <p>
-<? print_dev_section( "release", "Release Management" ) ?>
+<?php print_dev_section( "release", "Release Management" ) ?>
 <p>
 asd
 <p>
-<? print_dev_section( "database", "Database Development" ) ?>
+<?php print_dev_section( "database", "Database Development" ) ?>
 <p>
 <span class="section">MySQL Tips</span>
 <p>
@@ -178,7 +178,7 @@ asd
 	<li>MySQL is pretty primitive: no foreign keys, no subselects, no trasnactions.  Can't do a CASCADE DELETE, can't rollback.  This make it very simple to read and use.<p>
 </ul>
 
-<? print_dev_section( "editor_tips", "Editor Tips" ) ?>
+<?php print_dev_section( "editor_tips", "Editor Tips" ) ?>
 <p>
 You'll want, of course, to use an editor you like.  I myself do my development in windows and use Ultraedit.  You're free to use what you like and here are some features that you'll probably want.
 <p>
@@ -196,7 +196,7 @@ You'll want, of course, to use an editor you like.  I myself do my development i
 </ul>
 
 <p>
-<? print_dev_section( "php_tips", "PHP Tips" ) ?>
+<?php print_dev_section( "php_tips", "PHP Tips" ) ?>
 <p>
 This is a short crash course in PHP and things that you should take note of when using PHP.
 
@@ -276,4 +276,4 @@ You can mark a bug as resolved if it is commited in CVS.  Please don't close bug
 <hr noshade size=1>
 <b><i>If have questions or comments please <a href="mailto:kenito@300baud.org">Let me know!</a></i></b>
 
-<? include( "bot.php" ); ?>
+<?php include( "bot.php" ); ?>
