@@ -26,7 +26,7 @@
 				<a class="big" href="credits.php3">Credits</a><br>
 				<a href="notes.php3">Notes</a><br>
 				<a href="installation.php3">Installation</a><br>
-				<a href="upgrading.php3">Ugrading</a><br>
+				<a href="upgrading.php3">Upgrading</a><br>
 				<a href="changelog.php3">ChangeLog</a><br>
 				<a href="security.php3">Security</a><br>
 				<a href="requirements.php3">Requirements</a><br>
