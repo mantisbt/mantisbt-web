@@ -6,10 +6,10 @@
 <span class="section">0.19.0</span>
 <ul>
 <p><p><b>Database abstraction</b><p>
-	<li>Ready the code for ADODB (http://php.weblogs.com/ADODB)?
+	<li>[done] Ready the code for ADODB (http://php.weblogs.com/ADODB)?</li>
 <p><p><b>Re-implement Email Notifications</b><p>
 	<li>Only support PHPMailer for sending emails. Bundle Mantis with PHPMailer.
-	<li>Send an email per user.
+	<li>[done] Send an email per user.</li>
 	<li>Support Bugzilla style emails where the changes in the bug are highlighted in the email (similar to cvs diff -u for old / new bug email)
 	<li>Add optional support for HTML emails.
 	<li>Add email templates (where the user can provide a template for the email message, and values can be substitute in the user's template).
@@ -28,10 +28,12 @@
 	<li>Custom fields should support being a listbox type.
 
 <p><b>Filters</b><p>
-	<li>Create Saved Queries
+	<li>[done] Create Saved Queries</li>
 	<li>Filters will be stored in the database instead of cookies.
-	<li>Add date range filter
-	<li>Create advanced search to filter on all/more fields.
+	<li>[done] Add date range filter</li>
+	<li>[done] Create enhanced search to filter on all/more fields.</li>
+        <li>Create advanced search with multiple selection support for fields.</li>
+	<li>[done] Support filtering on custom fields.</li>
 <p><b>Javascript</b><p>
 	<li>Rename forms to avoid conflicts
 	<li>Auto focus for entry fields
