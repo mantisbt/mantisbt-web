@@ -61,6 +61,17 @@ Our rate is $50/hr (US).  Please contact us for quotes.
 		Europe
 	</td>
 </tr>
+<tr>
+	<td>
+		Victor Boctor
+	</td>
+	<td>
+		
+	</td>
+	<td>
+		Australia
+	</td>
+</tr>
 </table>
 <p>
 

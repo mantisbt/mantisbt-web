@@ -51,7 +51,7 @@
 	<td class="welcome" width="*">
 		Mantis is a php/MySQL/web based bugtracking system.  <a href="about.php">Learn more</a>.
 		<p>
-		It is currently in development and is considered beta.  The latest version is <a href="download.php"><? echo $g_mantis_version ?></a>.
+		The latest version is <a href="download.php"><? echo $g_mantis_version ?></a>.
 	</td>
 	<td width="220" align="right">
 		<table width="220" bgcolor="#000000" border="0" cellspacing="1" cellpadding="3">

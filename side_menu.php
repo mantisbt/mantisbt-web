@@ -22,16 +22,9 @@
 		</tr>
 		<tr>
 			<td class="menu_items">
-				<a href="<?php echo $g_mantis_url; ?>doc/documentation.html">User</a><br />
-				<a href="<?php echo $g_mantis_url; ?>doc/configuration.html">Configuration</a><br />
-				<a class="big" href="credits.php">Credits</a><br />
-				<a href="notes.php">Notes</a><br />
-				<a href="installation.php">Installation</a><br />
-				<a href="upgrading.php">Upgrading</a><br />
+				<a href="/manual">Manual</a><br />
+				<a href="credits.php">Credits</a><br />
 				<a href="changelog.php">ChangeLog</a><br />
-				<a href="security.php">Security</a><br />
-				<a href="requirements.php">Requirements</a><br />
-				Customization<br />
 				<a href="links.php">Links</a><br />
 			</td>
 		</tr>
@@ -57,7 +50,6 @@
 		<tr>
 			<td class="menu_items">
 				<a href="mod_phorum.php">phorum</a><br />
-				phpBB<br />
 				<a href="mod_daily_reports.php">daily reports</a><br />
 				<a href="mod_anonymous_reports.php">anon-reports</a><br />
 				<a href="mod_phpwebsite.php">phpWebSite</a><br />
@@ -73,7 +65,6 @@
 				<a href="general_development.php">General Information</a><br />
 				<a href="guidelines.php">Coding Guidelines</a><br />
 				<a href="devnotes.php">Dev Notes</a><br />
-				<a href="api.php">API</a><br />
 				<a href="cvs.php">CVS</a><br />
 				<a href="roadmap.php">Roadmap</a><br />
 				<a href="database.php">Database</a><br />

@@ -7,7 +7,7 @@
 		include ( dirname(__FILE__) . "/mantisweb_config_inc.php");
 	}
 
-	include( $g_mantis_path . "constant_inc.php" );
+	include( $g_mantis_path . "core/constant_inc.php" );
 
 	if ( file_exists( $g_mantis_path . "custom_constant_inc.php" ) ) {
 		include( $g_mantis_path . "custom_constant_inc.php" );
@@ -15,18 +15,12 @@
 
 	if ( file_exists( $g_mantis_path . "config_defaults_inc.php" ) ) {
 		include( $g_mantis_path . "config_defaults_inc.php" );
-	} else {
-		include( $g_mantis_path . "default/config_inc1.php" );
 	}
 
 	if ( file_exists( $g_mantis_path . "custom_config_inc.php" ) ) {
 		include( $g_mantis_path . "custom_config_inc.php" );
 	} else {
 		include( $g_mantis_path . "config_inc.php" );
-	}
-
-	if ( file_exists( $g_mantis_path . "default/config_inc2.php" ) ) {
-		include( $g_mantis_path . "default/config_inc2.php" );
 	}
 ?>
 <? #countpage( $REQUEST_URI, $REQUEST_URI );  ?>
