@@ -1,6 +1,6 @@
 <?php
 	$f_lang = '';
-	if ( isset( $_GET['f_lang'] ) {
+	if ( isset( $_GET['f_lang'] ) ) {
 		$f_lang = $_GET['f_lang'];
 	}
 
