@@ -44,5 +44,5 @@ One of the unforseen benefits of using MySQL is that most of the SQL is very sim
 	<li>count selected rows - Mantis uses mysql_num_rows() to get this number.  An alternative is to return a COUNT(*) in a SQL query.  The COUNT(*) method should work on most databases.
 	<li>Transactions - Most databases support transactions except for MySQL.  A support mechanism needs to be built.
 </ul>
-A good candidate for the database abstraction class is <a href=http://adodb.sourceforge.net/">ADODB</a>
+A good candidate for the database abstraction class is <a href="http://php.weblogs.com/ADODB">ADODB</a>
 <? include( "bot.php3" ); ?>
