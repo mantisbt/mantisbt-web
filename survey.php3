@@ -26,9 +26,9 @@
 	<p>
 	<font size=-1>There is a limit of 10,000 characters.  The system will be disabled if abused.</font>
 	<form action="survey_add.php3" method="POST">
-		<input type=hidden name="f_subject" value="<? echo $subject ?>">
+		<input type=hidden name="f_subject" value="<? echo $subject ?>" />
 		<textarea name="f_message" cols=72 rows=25><? echo $question ?></textarea><br />
-		<input type=submit value="   Send   ">
+		<input type=submit value="   Send   " />
 	</form>
 
 <p>
