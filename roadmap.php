@@ -10,7 +10,6 @@
 <p><p><b>Re-implement Email Notifications</b><p>
 	<li><b>[done]</b> Only support PHPMailer for sending emails. Bundle Mantis with PHPMailer.
 	<li><b>[done]</b> Send an email per user.</li>
-	<li>Support Bugzilla style emails where the changes in the bug are highlighted in the email (similar to cvs diff -u for old / new bug email)
 	<li>Add optional support for HTML emails.
 	<li>Add email templates (where the user can provide a template for the email message, and values can be substitute in the user's template).
 	<li>Email footer and header templates.
@@ -23,9 +22,9 @@
 	<li>Replace existing RSS with http://freshmeat.net/projects/feedcreator/ to be compliant with GPL.
 <p><b>Custom Fields</b><p>
 	<li>Support date custom fields.
-	<li>Support custom fields in resolved/closed bug page.
-	<li>Make custom fields mandatory at reporting, updating, resolving, or closing stage.
-	<li>Custom fields should support being a listbox type.
+	<li><b>[done]</b>Support custom fields in resolved/closed bug page.</li>
+	<li><b>[done]</b>Make custom fields mandatory at reporting, updating, resolving, or closing stage.</li>
+	<li>Custom fields should support being a listbox type.</li>
 
 <p><b>Filters</b><p>
 	<li><b>[done]</b> Create Saved Queries</li>
@@ -33,7 +32,7 @@
 	<li><b>[done]</b> Add date range filter</li>
 	<li><b>[done]</b> Create enhanced search to filter on all/more fields.</li>
 	<li><b>[done]</b> Support filtering on custom fields.</li>
-        <li>Create advanced search with multiple selection support for fields.</li>
+        <li><b>[done]</b> Create advanced search with multiple selection support for fields.</li>
 <p><b>Javascript</b><p>
 	<li>Rename forms to avoid conflicts
 	<li>Auto focus for entry fields
@@ -43,8 +42,9 @@
 <p><b>Passwords</b><p>
 	<li>Add forgot password reset option - New password will be generated and sent to user.  Old password kept until new password successfully used.
 <p><b>UI</b><p>
+	<li><b>[done]</b> My View page for providing the user with a one page summary of relevant information.</li>
+	<li><b>[done]</b> Remove Documentation links</li>
 	<li>Breakup Report bug page into sections to improve readability.
-	<li>Remove Documentation links
 	<li>Breakup per project access list like user list (alpha groupings).
 	<li>Remove Operation Succeed messages.
 	<li>Make sure all delete operations have a confirmation page.
@@ -52,25 +52,16 @@
 	<li>Add Database Indexes
 	<li>Add PK to every bug table (eg version and category lack this)
 	<li>Renamed id to more descriptive names (bug_id, project_id, etc.)
-<p><b>Misc</b><p>
-	<li>BBCode style markup notation.
-<p>
 <b>New Fields</b>
 <p>
-	<li>Component Field - Use like a subcategory
-	<li>Discovered In Phase Field
-	<li>Report what part of the product lifecycle an issue was discovered in.
-	<li>Create like Version/Categories
-	<li>Target Resolution Date
-	<li>Target Version
-	<li>Fixed in Release
+	<li><b>done</b>Fixed in Version</li>
 </ul>
 
 
 <span class="section">Future</span>
 <ul>
 	<li>Move configuration variables into the database</li>
-	<li>Bug relationship fields (Duplicate of, Depends on, Parent of, etc.)</li>
+	<li><b>[in progress]</b> Bug relationship fields (Duplicate of, Depends on, Parent of, etc.)</li>
 	<li>Have user settings per project - email preferences should be configurable on a per project basis</li>
 	<li>Multiple sort keys (?) - let people select more than one ordering for searches (complicated interface)</li>
 	<li>Create file hierarchy for docs, config, etc.</li>
@@ -96,6 +87,14 @@
 	<li>Alert Engine - Cronjob that will generate Alerts based on user constructed rules. Alerts on a per project, per user basis.
 	<li>Multiple transports beyond just emails (SMS, IM, etc.)
 	<li>Attempt to interface with emails via procmail.
+	<li>BBCode style markup notation.</li>
+	<li>New field - Component Field - Use like a subcategory</li>
+	<li>New field - Discovered In Phase Field</li>
+	<li>New field - Report what part of the product lifecycle an issue was discovered in.</li>
+	<li>New field - Create like Version/Categories</li>
+	<li>New field - Target Resolution Date</li>
+	<li>New field - Target Version</li>
+	<li>Support Bugzilla style emails where the changes in the bug are highlighted in the email (similar to cvs diff -u for old / new bug email)</li>
 </ul>
 
 <td style="padding: 4px;">
