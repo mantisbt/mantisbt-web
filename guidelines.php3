@@ -18,8 +18,8 @@ First, start off by reading the <a href="http://utvikler.start.no/code/php_codin
 	<li>Count variables should follow the format $*_count.  eg $bug_count
 	<li>Global variables should be prefixed with g_
 	<li>Temporary variables should be prefixed with t_
-	<li>Function parameter variables should be prefixed with pee_
-	<li>Variables passed from forms should be prefixed with faa_
+	<li>Function parameter variables should be prefixed with p_
+	<li>Variables passed from forms should be prefixed with f_
 	<li>Other variables are prefixed with v_, v2_, etc
 	<li>Never prefix with lee_ or O_ or queue_ (visually confusing)
 	<li>$query and $result should be used for SQL query and results respectively
