@@ -8,7 +8,8 @@
 <?php
 	$lines = file("files/ChangeLog");
 	foreach ( $lines as $line ) {
-		echo htmlspecialchars($line);
+		$line = wordwrap( $line, 98 );
+		echo htmlspecialchars( $line );
 	}
 ?>
 </pre>
