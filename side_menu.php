@@ -14,6 +14,7 @@
 				<!--<a class="big" href="screenshots.php">Screenshots</a><br />-->
 				<!--<a class="big" href="me.php">Author</a><br />-->
 				<a class="big" href="consulting.php">Consulting</a><br />
+				<a class="big" href="requirements.php">Requirements</a><br />
 			</td>
 		</tr>
 		<tr>
@@ -43,11 +44,13 @@
 				<a href="mailinglists.php">Mailing Lists</a><br />
 			</td>
 		</tr>
+		<!--
 		<tr>
 			<td class="menu_head">
 				<span class="big">Modifications</span><br />
 			</td>
 		</tr>
+		-->
 		<tr>
 			<td class="menu_items">
 				<!--<a href="mod_phorum.php">phorum</a><br />
