@@ -66,21 +66,21 @@ What to do if you see some errors?  Just <a href="mailto:kenito@300baud.org">sen
 	</td>
 </tr>
 <?
-	print_lang( "English",     "latest",  "active" );
-	print_lang( "Chinese_Traditional",       "latest",  "active" );
-	print_lang( "Danish",       "0.15.4",  "active" );
-	print_lang( "Dutch",       "latest",  "active" );
-	print_lang( "French",      "latest",  "active" );
-	print_lang( "French2",      "alternate",  "active" );
-	print_lang( "German",      "latest",  "active" );
-	print_lang( "Italian",     "latest",  "active" );
-	print_lang( "Korean",      "0.14.8 (separate)",  "active" );
-	print_lang( "Norwegian",   "latest",  "active" );
-	print_lang( "Polish",  "latest",  "active" );
-	print_lang( "Portuguese",  "latest",  "active" );
-	print_lang( "Russian",     "latest",  "active" );
-	print_lang( "Spanish",     "latest",  "active" );
-	print_lang( "Turkish",     "0.14.8 (separate)",  "active" );
+	print_lang( "English",				"latest",  "active" );
+	print_lang( "Chinese_Traditional",	"latest",  "active" );
+	print_lang( "Danish",				"latest",  "active" );
+	print_lang( "Dutch",				"latest",  "active" );
+	print_lang( "French",				"latest",  "active" );
+	print_lang( "French2",				"latest",  "active" );
+	print_lang( "German",				"latest",  "active" );
+	print_lang( "Italian",				"latest",  "active" );
+	print_lang( "Korean",				"latest",  "active" );
+	print_lang( "Norwegian",			"latest",  "active" );
+	print_lang( "Polish","				latest",  "active" );
+	print_lang( "Portuguese",			"latest",  "active" );
+	print_lang( "Russian",				"latest",  "active" );
+	print_lang( "Spanish",				"latest",  "active" );
+	print_lang( "Turkish",				"latest",  "active" );
 ?>
 </table>
 
