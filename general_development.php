@@ -31,6 +31,8 @@
 	<li><a href="#database">Database Development</a>
 	<li><a href="#editor_tips">Editor Tips</a>
 	<li><a href="#php_tips">PHP Tips</a>
+	<li><a href="#rules_for_development">Rules for Development</a>
+
 </ul>
 
 <p>
@@ -77,12 +79,8 @@ It may complain about magic_quotes_gpc.  You can make sure this is on by looking
 <p>
 
 <ul>
-	<li>Get an account at <a href="http://www.sourceforge.net/">SourceForge</a><br />
-	<li><a href="http://sourceforge.net/docman/display_doc.php?docid=763&group_id=1">Login</a> (to the shell server)<br />
-	<li><a href="http://sourceforge.net/docman/display_doc.php?docid=763&group_id=1">Login Again</a> (to the cvs server)<br />
-	<li>Get me to <a href="mailto:kenito@300baud.org">add you</a> to the development team<br />
-	<li><a href="http://sourceforge.net/docman/display_doc.php?docid=763&group_id=1">Read the Site Docs on how to setup CVS through SSH</a><br />
-	<li>Do a <a href="http://sourceforge.net/cvs/?group_id=14963">CVS Checkout</a><br />
+	<li>Gain our trust to gain developer access.  Post patches to the mantisbt-dev mailing list.  Visiting on IRC helps.
+	<li>After gaining developer access follow <a href="http://sourceforge.net/docman/display_doc.php?docid=768&group_id=1">these instructions</a>
 </ul>
 
 <p>
@@ -109,7 +107,7 @@ NOTE: You will have to disable the CVS_RSH=ssh if you want to use that login acc
 <p>
 Read the INSTALL directions and configure your config_inc.php file.  Install the bugtracker into any database that you would like.  If you do a lot of development you will likely be building multiple installations for testing.  For example, I have one database called "bugtracker" as my primary database but also make a new one to test each release (mantis-0-15-1, mantis-0-15-2, etc.).
 <p>
-Open up your browser and test it out.  The bugtracker directory (and any subdirectories) need to be world executable.  Otherwise you will get errors about access denial or the images will fail to load.  The files will be happy with a chmod of 644.
+Open up your browser and test it out.  The bugtracker directory (and any subdirectories) need to be web server (usually world) executable.  Otherwise you will get errors about access denial or the images will fail to load.  The files will be happy with a chmod of 644.
 <p>
 
 <?php print_dev_section( "cvs", "CVS" ) ?>
@@ -160,23 +158,12 @@ Please follow the <a href="guidelines.php">Mantis Coding Conventions</a> documen
 <p>
 <?php print_dev_section( "communication", "Communication" ) ?>
 <p>
-Discussion and communication should occur in the <a href="mailinglists.php">mailing lists</a> or <a href="forums.php">forums</a>.  Any private matters should be directed to <a href="mailto:kenito@300baud.org">me</a>.  Please try to keep discussions public.  As an open source project much of the value and excitement comes from having an process that is open to the public.
+Discussion and communication should occur in the <a href="mailinglists.php">mailing lists</a>.  Please try to keep discussions public.  As an open source project much of the value and excitement comes from having an process that is open to the public.
 <p>
 <?php print_dev_section( "patches", "Patches" ) ?>
 <p>
-Patches should be appliable using the unix "patch" command.  Make sure your .patch or .diff files will be compatible or send explicit instructions on how to apply your changes.  Always specify what release you are patching against.
+Patches should be appliable using the unix "patch" command.  Make sure your .patch or .diff files will be compatible or send explicit instructions on how to apply your changes.  Always specify what release you are patching against.  We prefer unified diffs.  Please send all patches to the mantisbt-dev mailing list.
 <p>
-<?php print_dev_section( "release", "Release Management" ) ?>
-<p>
-asd
-<p>
-<?php print_dev_section( "database", "Database Development" ) ?>
-<p>
-<span class="section">MySQL Tips</span>
-<p>
-<ul>
-	<li>MySQL is pretty primitive: no foreign keys, no subselects, no trasnactions.  Can't do a CASCADE DELETE, can't rollback.  This make it very simple to read and use.<p>
-</ul>
 
 <?php print_dev_section( "editor_tips", "Editor Tips" ) ?>
 <p>
@@ -238,8 +225,8 @@ Since php is loosely typed it would try to convert to numbers if you used the + 
 </ol>
 
 <!-------------- --------------->
-<span class="section">Rules for Development</span>
-<hr size=1 noshade width="100%">
+<?php print_dev_section( "rules_for_development", "Rules for Development" ) ?>
+
 <p>
 
 <span class="section">Coding Style</span>
@@ -258,7 +245,7 @@ Occasionally you can make do with a trivial message like "updates for release" o
 <p>
 <span class="section">Communication</span>
 <p>
-Please use the <a href="mailinglists.php">mantisbt-dev mailing list</a> or <a href="forums.php">forums</a>.  You can monitor forums so that every post is emailed to you.  This way there is a public record of development. If you have a matter you would like to discuss in private them emailing me directly is fine.
+Please use the <a href="mailinglists.php">mantisbt-dev mailing list</a>.  This way there is a public record of development. If you have a matter you would like to discuss in private them emailing directly is fine.
 
 <p>
 <span class="section">Testing</span>
@@ -271,9 +258,5 @@ In general I would prefer that you test using at least two browsers.  This way m
 Make sure you signup on the bugtracker and received developer access.
 <p>
 You can mark a bug as resolved if it is commited in CVS.  Please don't close bugs until that release is publicly available.
-<p>
-
-<hr noshade size=1>
-<b><i>If have questions or comments please <a href="mailto:kenito@300baud.org">Let me know!</a></i></b>
 
 <?php include( "bot.php" ); ?>
