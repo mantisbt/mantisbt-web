@@ -53,6 +53,10 @@ please download it and reference it from your site to reduce the load on Mantis 
 		entry( 'Gruppo Tesi', 'http://www.gruppotesi.com/' );
 	section_end();
 
+	section( 'H' );
+		entry( 'Hostsharing e.G.', 'http://www.hostsharing.net/', 'https://todo.hostsharing.net/' );
+	section_end();
+
 	section( 'J' );
 		entry( 'Jack Audio Connection Kit', 'http://jackit.sourceforge.net/', 'http://jackit.sourceforge.net/mantis/' );
 	section_end();
