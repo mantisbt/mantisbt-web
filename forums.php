@@ -3,11 +3,14 @@
 <span class="page_title">Forums</span>
 <hr size=1 noshade width="100%">
 <p>
-We have <a href="http://forums.mantisbt.org/">new forums<a/> setup here.
+We have <b><a href="http://forums.mantisbt.org/">new forums setup here<a/></b>.  These are 
+provided as an alternative to mailings lists to discuss Mantis related issues.
 <p>
-Please report actual bugs to the <a href="mantis/">Development Bugtracker</a>.
+Please report actual bugs to the <a href="http://bugs.mantisbt.org/">Development Bugtracker</a>.
 <p>
-The old forums are now disabled.  They are linked here as reference only.
+<hr size=1 noshade width="100%">
+<p>
+The old Sourceforge forums are now <b><font color="#FF0000">disabled</font></b>.  They are linked here as reference only.
 <p>
 <ul>
 	<li><a href="http://sourceforge.net/forum/forum.php?forum_id=47435">Open Discussion</a>
