@@ -1,4 +1,4 @@
-<? include( "zorblogs.php" ); ?>
+<? #include( "zorblogs.php" ); ?>
 <? include( "top.php3" ); ?>
 <?
 	function db_connect($p_hostname="localhost", $p_username="root",

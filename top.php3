@@ -1,9 +1,9 @@
-<? include( "zorblogspages.php" ); ?>
+<? #include( "zorblogspages.php" ); ?>
 <? include( "mantis/constant_inc.php" ) ?>
 <? include( "mantis/default/config_inc1.php" ) ?>
 <? include( "mantis/config_inc.php" ) ?>
 <? include( "mantis/default/config_inc2.php" ) ?>
-<? countpage( $REQUEST_URI, $REQUEST_URI );  ?>
+<? #countpage( $REQUEST_URI, $REQUEST_URI );  ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -25,9 +25,9 @@
 		<a href="http://www.google.com/"><img border="0" src="images/google.gif" alt=""></a>
 	</td>
 </tr>
-<form method="GET" action="http://www.google.com/custom">
 <tr class="top">
 	<td class="middle" colspan="3">
+<form method="GET" action="http://www.google.com/custom">
 <!-- Search Google -->
 <input class="small" type="text" name="q" size="16" maxlength="255" value="">&nbsp;
 <input class="small" type="submit" name="sa" value="Search">&nbsp;
@@ -35,9 +35,9 @@
 <input class="small" type="hidden" name="domains" value="mantisbt.sourceforge.net">
 <input class="small" type="hidden" name="sitesearch" value="mantisbt.sourceforge.net" CHECKED>
 <!-- Search Google -->
+</form>
 	</td>
 </tr>
-</form>
 <tr valign="top" bgcolor="#ffffff">
 	<td class="menu_left">
 		<? include( "side_menu.php3" ); ?>
