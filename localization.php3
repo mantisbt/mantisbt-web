@@ -34,6 +34,10 @@
 					PRINT"&nbsp;";
 				}
 			PRINT "</td>";
+			PRINT "<td>";
+				$t_lang = strtolower($p_language);
+				PRINT "<a href=\"local_diff.php3?f_lang=$t_lang\">view diff</a>";
+			PRINT "</td>";
 
 		PRINT "</tr>";
 	}
