@@ -34,12 +34,13 @@ please download it and reference it from your site to reduce the load on Mantis 
 		entry( 'chan_sccp', 'http://chan-sccp.sourceforge.net/', 'http://www.czmok.de/devtrack/' );
 		entry( 'CMSform<sup>E</sup>', 'http://cmsforme.sourceforge.net/', 'http://cmsforme.sourceforge.net/bugs/' );
 	section_end();
-	
+
 	section( 'E' );
 		entry( 'eboxy', 'http://eboxy.sourceforge.net/', 'http://eboxy.sourceforge.net/mantis/' );
+		entry( 'encoway', 'http://www.encoway.de/', null );
 		entry( 'EPICS', 'http://www.aps.anl.gov/epics/', 'http://www.aps.anl.gov/epics/mantis/' );
 	section_end();
-	
+
 	section( 'F' );
 		entry( 'Forum One Communications', 'http://www.forumone.com/' );
 		entry( 'Fraunhofer IPSI', 'http://ipsi.fraunhofer.de/concert/' );
