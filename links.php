@@ -3,6 +3,15 @@
 <span class="page_title">Links</span>
 <hr size=1 noshade width="100%">
 
+<p><b>MantisConnect</b></p>
+<p>This tool allows the following applications to integrate with Mantis:</p>
+<ul>
+	<li>.NET Applications</li>
+	<li>NAnt Build Scripts</li>
+	<li>Applications that can access webservices</li>
+</ul>
+<p>For more information go to <a href="http://www.futureware.biz/mantisconnect">MantisConnect website</a>.</p>
+
 <p><b>Links to sites which gets Mantis to work with...</b></p>
 <ul>
 <li><a href="http://www.freshports.org/databases/mantis/">FreeBSD (Fresh Ports)</a></li>

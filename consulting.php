@@ -11,7 +11,7 @@ We will need remote connection and browser access.  This can be accomplished via
 <p>
 <span class="section">Customization</span>
 <p>
-Our services are avilable to customize Mantis to suit your needs.  Common customizations include:
+Our services are available to customize Mantis to suit your needs.  Common customizations include:
 <ul>
 	<li>Addition of new fields.
 	<li>Removal of unused fields.
