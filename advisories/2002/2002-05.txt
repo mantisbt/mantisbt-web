@@ -70,9 +70,9 @@ All users are recommended to upgrade to this version as soon as possible.
 
 If an upgrade is not possible, the vulnerability can be closed by inserting
 the following lines in core_API.php:
-  if ( isset($HTTP_GET_VARS['g_top_include_file']) ||
-    isset($HTTP_POST_VARS['g_top_include_file']) ||
-    isset($HTTP_COOKIE_VARS['g_top_include_file']) ) {
+  if ( isset($HTTP_GET_VARS['g_top_include_page']) ||
+    isset($HTTP_POST_VARS['g_top_include_page']) ||
+    isset($HTTP_COOKIE_VARS['g_top_include_page']) ) {
     exit;
   }
 
