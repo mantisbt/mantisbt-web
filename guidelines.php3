@@ -76,9 +76,9 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 	<b>ChangeLog</b>
 	<p>
 
-	<li>version 1.1  Fedbruary 10, 2000 - Kenzaburo Ito (prescience@300baud.org)<br>
+	<li>version 1.1  Fedbruary 10, 2000 - Kenzaburo Ito (kenito@300baud.org)<br>
 	<i>Added PHP Coding Standard document link</i>
-	<li>version 1.0  December 23, 2000 - Kenzaburo Ito (prescience@300baud.org)<br>
+	<li>version 1.0  December 23, 2000 - Kenzaburo Ito (kenito@300baud.org)<br>
 	<i>Initial creation</i>
 
 	</font>

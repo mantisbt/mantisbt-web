@@ -83,7 +83,7 @@ I won't publish the information without permission, but I would appreciate the f
 <p>
 <b><font size=+1>Credits</font></b>
 <p>
-<li><a href="mailto:prescience@300baud.org">Kenzaburo Ito</a> - programming
+<li><a href="mailto:kenito@300baud.org">Kenzaburo Ito</a> - programming
 <li>Hai Nguyen - original implementation
 </td>
 </tr>

@@ -23,38 +23,41 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 This is the Mantis feature roadmap.  It lists all the currently planned features and details the schedule for release.  These are not hard deadlines and things are subject to change.  Please feel free to suggest features, contribute, or comment.
 <p>
 
-<h3>0.14.0</h3>
-<ul>
-<li>Bug Search
-<li>Email notification
-<li>Multiple project support
-<li>One click "Assign to Me"
-<li>Move more CSS variables into config
-<li>Move more META variables into config
-<li>Add &nbsp to empty tables for NS
-</ul>
-<h3>1.x.0</h3>
+<h3>0.15.0</h3>
 <ul>
 <li>Test settings script
+<li>Icons
+<li>Bug Search
 <li>ETA support
 <li>Vote support
 <li>Priority support
 <li>Projection support
+<li>Unread/Read bugs indicator
+<li>Monitor bug (for anyone)
+</ul>
+<h3>0.15.0</h3>
+<ul>
+<li>Logged in Summary
+<li>Be able to edit bug info
+<li>Be able to edit bugnote
+<li>Show number of concurrent users
+<li>Remember bug entry fields for multiple reports
+</ul>
+<h3>1.x.0</h3>
+<ul>
 <li>Rework bug formatting
 <li>Configuration Documentation
 <li>Attach files to bugs (file upload)
-<li>Database abstraction layer (PEAR?)
+<li>Database abstraction layer
 <li>Let administrators customize additional information fields for bug report details (CPU, RAM, etc)
-<li>Let users create their own accounts and have passwords emailed to them
+<li>Finer grain control over access to projects
+<li>Abstract account management
 </ul>
 <h3>2.x.0</h3>
 <ul>
-<li>Remove all &lt;FONT&gt; tags and move towards HTML4/CSS conformance.
-<li>PHPLIB/PEAR?
-<li>HTTP Authentication?
-<li>Session support
-<li>Complete XHTML/CSS conformance?
+<li>Move towards more complete (XHTML)HTML4/CSS conformance.
 <li>Daily/Weekly report generation
+<li>Nice bar and line graph charts (phplot)
 <li>Print friendly form
 <li>IP Tracking / banning
 <li>Security Audit
@@ -64,22 +67,16 @@ This is the Mantis feature roadmap.  It lists all the currently planned features
 <li>Allow users to specify required fields
 <li>Allow user to create own required fields
 <li>Move some global settings into the database
-<li>"I forgot my password" email (requires different password storage system
+<li>"I forgot my password" email (requires different password storage system)
+<li>plaintext, one-way crypt, de/encrypt, and no password authentication modes
 </ul>
 <h3>3.x.0</h3>
 <ul>
 <li>Rewrite using objects
+<li>Templates
 </ul>
 <h3>Currently Unassigned</h3>
 <ul>
-<li>Be able to edit bug info
-<li>Be able to edit bugnote
-<li>Remeber view bug settings
-<li>Remember previous entry settings
-<li>Summary by assignee
-<li>Graphical Charts
-<li>Unread/Read bugs indicator
-<li>Clear text password authentication option
 </ul>
 
 <!-- ---------------------------------------------------------------------- -->
@@ -91,15 +88,17 @@ This is the Mantis feature roadmap.  It lists all the currently planned features
 <b>ChangeLog</b>
 <p>
 
-<li>version 1.4  January 15, 2001 - Kenzaburo Ito (prescience@300baud.org)<br>
+<li>version 1.5  February 11, 2001 - Kenzaburo Ito (kenito@300baud.org)<br>
+<i>Updated after 0.14.0 release</i>
+<li>version 1.4  January 15, 2001 - Kenzaburo Ito (kenito@300baud.org)<br>
 <i>Added Currently Unassigned.  Removed 0.13.0.  Rearranged item locations</i>
-<li>version 1.3  December 25, 2000 - Kenzaburo Ito (prescience@300baud.org)<br>
+<li>version 1.3  December 25, 2000 - Kenzaburo Ito (kenito@300baud.org)<br>
 <i>Moved several items around</i>
-<li>version 1.2  December 24, 2000 - Kenzaburo Ito (prescience@300baud.org)<br>
+<li>version 1.2  December 24, 2000 - Kenzaburo Ito (kenito@300baud.org)<br>
 <i>Removed 0.12.0 items, added 0.14.0 milestone</i>
-<li>version 1.1  December 23, 2000 - Kenzaburo Ito (prescience@300baud.org)<br>
+<li>version 1.1  December 23, 2000 - Kenzaburo Ito (kenito@300baud.org)<br>
 <i>Added FONT removal</i>
-<li>version 1.0  December 15, 2000 - Kenzaburo Ito (prescience@300baud.org)<br>
+<li>version 1.0  December 15, 2000 - Kenzaburo Ito (kenito@300baud.org)<br>
 <i>Initial creation</i>
 
 </font>
