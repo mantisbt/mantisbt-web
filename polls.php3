@@ -58,6 +58,14 @@ Please fill out some of the polls and surveys on this page.  This will provide f
 		PRINT "</tr>";
 	}
 ?>
+<tr>
+	<td colspan=3>
+	<br>
+	<b><font size=+1>Surveys</font></b><br>
+	<p>
+	<a href="survey.php3"><b>Answer Survey</b></a>
+	</td>
+</tr>
 	</table>
 </td>
 </tr>

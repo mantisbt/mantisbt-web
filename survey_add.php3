@@ -1,5 +1,5 @@
 <?
-	$f_message = substr( $f_message, 0, 10000 );
+	$f_message = stripslashes(substr( $f_message, 0, 10000 ));
 	mail("kenito@300baud.org", "[Q] Mantis Online Questionnaire", "$f_message" );
 
 	header( "Status: 302" );
