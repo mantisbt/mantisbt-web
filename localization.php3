@@ -74,12 +74,14 @@ Here you can see the latest localization files.  Some of them are included with 
 </tr>
 <?
 	print_lang( "English",     "0.14.7",  "active" );
+	print_lang( "Dutch",       "0.14.7",  "active" );
+	print_lang( "French",      "0.14.7",  "active" );
 	print_lang( "German",      "0.14.7",  "active" );
+	print_lang( "Italian",     "0.14.7",  "active" );
+	print_lang( "Norwegian",   "0.14.7",  "active" );
 	print_lang( "Spanish",     "0.14.7",  "active" );
 	print_lang( "Portuguese",  "0.14.7",  "active" );
-	print_lang( "Italian",     "0.14.7",  "active" );
-	print_lang( "French",      "0.14.7",  "active" );
-	print_lang( "Dutch",       "0.14.7",  "active" );
+	print_lang( "Turkish",  "",  "active" );
 ?>
 </table>
 
@@ -89,6 +91,8 @@ Here you can see the latest localization files.  Some of them are included with 
 <b><font size=+1>Translating</font></b>
 <p>
 Don't see your language?  Translate one of the files!  It's really quite simple.  Just take the strings file and convert away.  Then submit it back to me.  Also, you can update them when new strings make it in.  The file won't change drastically so it shouldn't be too much work to keep the files updated.
+<p>
+Currently some strings are hard-coded into the database tables or the code.  This will be fixed soon.
 </td>
 </tr>
 </table>

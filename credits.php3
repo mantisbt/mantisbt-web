@@ -41,6 +41,7 @@ Translations:
 	<li>Hellekin O. Wolf
 	<li>Luca Pescatore
 	<li>Jan-Bart de Vreede
+	<li>Espen Holje
 </td>
 </tr>
 </table>
