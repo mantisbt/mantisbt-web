@@ -36,8 +36,8 @@ installation, can make himself (m/f) an administrator of that Mantis
 installation. This particular vulnerability has been fixed in version
 0.17.3.
 
-Other vulnerabilities may exist, which are caused by the same lack of input
-checking.
+Note: Other vulnerabilities, caused by the same lack of input checking, may
+exist!
 
   3. Affected versions
 
@@ -52,7 +52,7 @@ The following versions are known to be unaffected:
 The following versions are presumed to be affected:
   All versions below Mantis 0.17.2
 
-* = But read the comments in section 2.
+* = But read the note in section 2.
 
   4. Workaround / Solution
 
@@ -72,7 +72,7 @@ take a few weeks.
 If an upgrade is not possible, Mantis 0.17.2 (and possibly lower) can be
 patched to secure the exploitable query:
 
-  In account_update.php, insert the following lines somewhere in a PHP block
+  In account_update.php, insert the following lines somewhere in a PHP block 
   before the SQL queries are executed:
     $f_username = addslashes($f_username);
     $f_email = addslashes($f_email);
@@ -100,7 +100,7 @@ For example:
         SET username='someusername', email='user@server', access_level=90, email=''
         WHERE id='$f_id'
   - This set the access_level column to a value of 90, the internal value
-    for Administrator.
+for Administrator.
 
   6. Contact details
 

@@ -1,5 +1,5 @@
 [Mantis Advisory/2002-03] Bug listings of private projects can be viewed
-                          through cookie manipulation
+through cookie manipulation
 
   0. Table of Contents
 
@@ -15,12 +15,6 @@
 Mantis is an Open Source web-based bugtracking system, written in PHP, which
 uses the MySQL database server. It is being actively developed by a small
 group of developers, and is considered to be in the beta stage.
-
-In response to the increased number of users and to the increasing number of
-discovered security vulnerabilities, the Mantis team has decided to start
-releasing advisories for all vulnerabilities in versions higher than 0.17.0.
-This is the third in a series of advisories which cover the previously
-discovered vulnerabilities in greater detail.
 
   2. Summary / Impact analysis
 
