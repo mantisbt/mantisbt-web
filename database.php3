@@ -11,7 +11,8 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 
 <p>
 <div align=center>
-<h2>Mantis</h2>
+	<h2>Mantis</h2>
+	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
 </div>
 
 <p>

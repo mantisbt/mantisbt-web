@@ -31,13 +31,11 @@ Login as:
 <li>viewer / viewer - most limited access
 <li>reporter / reporter - you can report bugs and add bugnotes
 <li>rep / rep - same
-<!--<li>updater / updater - you can edit bugs-->
+<li>updater / updater - you can edit bugs
 <li>Sign up for your own account!  You will need a valid email address.
 </ul>
 <p>
-Again, feel free to explore but please, do not mess around with any valid bug entries.  I will periodically be cleaning out any test bugs.
-<p>
-*** I've disabled the Updater account.  People couldn't behave responsibly.  I'll reactivate it after I can protect the valid project from abuse.
+Again, feel free to explore but please, <font color=#ff0000><b>do not play with any valid bug entries</b></font>.  There is a "Test Project" that you can play around with all you like.  I will periodically be cleaning out any test bugs.
 <p>
 <div align=center>
 	<a href="http://mantisbt.sourceforge.net/mantis/"><b>Demo Bugtracker</b></a>
