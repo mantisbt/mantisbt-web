@@ -3,6 +3,7 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://bugs.mantisbt.org/news_rss.php?project_id=1" />
 <title>Mantis Bug Tracker</title>
 <?php include( "mantis.css" ) ?>
 </head>
