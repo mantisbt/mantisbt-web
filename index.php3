@@ -17,7 +17,7 @@
 <table width=100%>
 <tr valign=top>
 	<? include("side_menu.php3") ?>
-<td>
+<td width=100%>
 Mantis is a php/MySQL/web based bugtracking system.  <a href="about.php3">Click here</a> to learn more about it.
 <p>
 It is currently in development and is considered beta.
@@ -99,7 +99,7 @@ It is currently in development and is considered beta.
 	</td>
 </tr>
 <tr>
-	<td bgcolor=#f8f8f8>
+	<td bgcolor=#ffffff>
 		<br>
 		<blockquote>
 			<? echo $v_body ?>

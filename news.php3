@@ -17,7 +17,7 @@
 <table width=100%>
 <tr valign=top>
 	<? include("side_menu.php3") ?>
-<td>
+<td width=100%>
 <? include( "mantis/config_inc.php" ) ?>
 <?
 	function db_connect($p_hostname="localhost", $p_username="root",
@@ -96,7 +96,7 @@
 	</td>
 </tr>
 <tr>
-	<td bgcolor=#f8f8f8>
+	<td bgcolor=#ffffff>
 		<br>
 		<blockquote>
 			<? echo $v_body ?>

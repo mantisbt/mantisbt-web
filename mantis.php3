@@ -17,7 +17,7 @@
 <table width=100%>
 <tr valign=top>
 	<? include("side_menu.php3") ?>
-<td>
+<td width=100%>
 <b><font size=+1>What is it?</font></b>
 <p>
 Mantis is a php/MySQL/web based bugtracking system.  The software resides on a webserver while any web browser should be able to function as a client.  It is released under the terms of the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a>.

@@ -17,7 +17,7 @@
 <table width=100%>
 <tr valign=top>
 	<? include("side_menu.php3") ?>
-<td>
+<td width=100%>
 <b><font size=+1>Forums</font></b>
 <p>
 The following forums are hosted at Sourceforge.  You can post anonymously.  Please report actual bugs to the <a href="demo.php3">Demo Bugtracker</a>.

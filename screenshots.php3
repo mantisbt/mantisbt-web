@@ -17,7 +17,7 @@
 <table width=100%>
 <tr valign=top>
 	<? include("side_menu.php3") ?>
-<td>
+<td width=100%>
 	<h3>Mantis Screenshots</h3>
 
 	<table cellpadding=10 border=0 cellspacing=0>

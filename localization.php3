@@ -58,7 +58,7 @@
 <table width=100%>
 <tr valign=top>
 	<? include("side_menu.php3") ?>
-<td>
+<td width=100%>
 <p>
 <b><font size=+1>Localization</font></b>
 <p>

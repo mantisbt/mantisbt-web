@@ -235,7 +235,7 @@
 <table width=100%>
 <tr valign=top>
 	<? include("side_menu.php3") ?>
-	<td>
+	<td width=100%>
 		<b><font size=+1><a name=page_top>API - <? echo $f_file ?></a></font></b>
 		<p>
 		<a href="api.php3">Back to API</a>

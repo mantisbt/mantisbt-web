@@ -7,8 +7,8 @@
 
 <p>
 <div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
+        <h2>Mantis</h2>
+        Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
 </div>
 
 <p>
@@ -16,8 +16,8 @@
 
 <table width=100%>
 <tr valign=top>
-	<? include("side_menu.php3") ?>
-<td>
+        <? include("side_menu.php3") ?>
+<td width=100%>
 <p>
 <b><font size=+1>Database Schema</font></b>
 <p>

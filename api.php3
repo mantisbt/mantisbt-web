@@ -41,7 +41,7 @@
 <table width=100%>
 <tr valign=top>
 	<? include("side_menu.php3") ?>
-	<td>
+	<td width=100%>
 		<b><font size=+1>API</font></b>
 		<p>
 		Click on the links to see a list of the functions in each file.

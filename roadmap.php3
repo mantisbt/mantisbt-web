@@ -13,7 +13,7 @@
 <table width=100%>
 <tr valign=top>
 	<? include("side_menu.php3") ?>
-<td>
+<td width=100%>
 <h3>Feature and Version Timetable</h3>
 
 <p>

@@ -181,7 +181,7 @@
 <table width=100%>
 <tr valign=top>
 	<? include("side_menu.php3") ?>
-	<td>
+	<td width=100%>
 		<b><font size=+1><a name=page_top>Localization Diff - <? echo $f_lang ?></a></font></b>
 		<p>
 		<a href="localization.php3">Back to Localization</a>

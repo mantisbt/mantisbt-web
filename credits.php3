@@ -17,7 +17,7 @@
 <table width=100%>
 <tr valign=top>
 	<? include("side_menu.php3") ?>
-<td>
+<td width=100%>
 <b><font size=+1>Credits</font></b>
 <p>
 <b>Main</b><p>
