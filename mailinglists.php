@@ -44,7 +44,7 @@ Signup for the mailing lists.  These are very low traffic since most people seem
 		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-lang">Signup</a>
 	</td>
 	<td>
-		<a href="">Archives</a>
+		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=38714">Archives</a>
 	</td>
 	<td>
 		Mantis localization efforts.
