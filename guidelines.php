@@ -74,7 +74,7 @@ $query = "SELECT *
 
 <span class="section">Miscellaneous</span>
 <ul>
-	<li>Don't use the ?: construct. It is confusing and has too much bug potential.
+	<li>Don't use the ?: construct except in very rare cases. It is confusing and has a lot of bug potential.
 	<li>Avoid magic numbers.  The only magic numbers in use should be 1 and 0 and their meaning should be obvious.
 </ul>
 
@@ -89,6 +89,7 @@ $query = "SELECT *
 	<li>Paranthesis should be right after a function name.  eg: function() not function ()
 	<li>Paranthesis should have a space right after a keyword (if, while, for) eg: for (...)
 	<li>Braces formatting is illustrating below.  We use unmatched placing.
+	<li>Arrays should be referenced with no spaces. eg: $arr['index'] not $arr[ 'index' ]
 <pre>
 for (...) {
     blah
@@ -110,9 +111,21 @@ if (...) {
 </pre>
 </ul>
 
+<span class="section">Comparisons</span>
+<ul>
+	<li>The NOT operator should be placed next to its operand. No spaces. eg: !$value
+	<li>Parenthesis should be used for grouping, especially with multiple comparisons.  eg. if ( ( null == $val ) && ( null == $val2 ) )
+</ul>
+
+<span class="section">Strings</span>
+<ul>
+	<li>Use spaces around string concating.  eg: 'str ' . $value . ' str2';
+	<li>Use ' instead of " if there are no variables or special characters.
+</ul>
+
 <span class="section">Comments</span>
 <ul>
-	<li>Use the # symbol for line commenting
+	<li>Use the # symbol for line commenting, not //
 	<li>Use /* */ for block commenting unless you nest /* */ comments.  Generally, only use this during development.
 	<li>Use @@@ followed by a brief message (BROKEN, TEMPORARY, etc) as a "look at this" indicator.  Leaving your name next to is a good idea.  This way critical items can easily be found.
 </ul>
