@@ -37,7 +37,9 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section( 'C' );
 		entry( 'CAPSHER Technology, Inc.', 'http://www.capsher.com/', null );
 		entry( 'chan_sccp', 'http://chan-sccp.sourceforge.net/', 'http://www.czmok.de/devtrack/' );
+		entry( 'clarkconnect', 'http://www.clarkconnect.org/', 'http://www.clarkconnect.org/bugs/' );
 		entry( 'CMSform<sup>E</sup>', 'http://cmsforme.sourceforge.net/', 'http://cmsforme.sourceforge.net/bugs/' );
+		entry( 'Control Engineering Group', 'http://control.ee.ethz.ch/~ceg/', 'http://control.ee.ethz.ch/~ceg/mantis/' );
 		entry( 'Convergys', 'http://www.convergys.com/locations.html/', null );
 	section_end();
 
@@ -71,6 +73,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section_end();
 
 	section( 'I' );
+		entry( 'Intra2net', 'http://www.intra2net.com/' );
 		entry( 'Institute for Computational Biomedicine (ICB)', 'http://icb.med.cornell.edu/', 'http://icbtools.med.cornell.edu/mantis/' );
 	section_end();
 
@@ -88,11 +91,16 @@ please download it and reference it from your site to reduce the load on Mantis 
 		entry( 'Nox Wizard', 'http://noxwizard.sourceforge.net/', 'http://noxwizard.sourceforge.net/mantis/' );
 	section_end();
 
+	section( 'N' );
+		entry( 'Olate', 'http://www.olate.co.uk/', 'http://www.olate.co.uk/tracker/' );
+	section_end();
+
 	section( 'P' );
 		entry( 'phpBB', 'http://phpbb-php5mod.sourceforge.net/', 'http://phpbb-php5mod.sourceforge.net/bugs/' );
 		entry( 'phpWebnotes', 'http://www.futureware.biz/webnotes/', 'http://www.futureware.biz/mantis/' );
 		entry( 'PHPlist', 'http://www.phplist.com/', 'http://mantis.tincan.co.uk/' );
 		entry( 'phpMyFAQ', 'http://www.phpmyfaq.de/', 'http://bugs.phpmyfaq.de/' );
+		entry( 'phpMyEdit', 'http://phpmyedit.org/', 'http://platon.sk/projects/main_page.php?project_id=5' );
 		entry( 'Project JEDI', 'http://homepages.borland.com/jedi/', 'http://homepages.borland.com/jedi/issuetracker/' );
 	section_end();
 
@@ -107,15 +115,22 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section_end();
 
 	section( 'S' );
+		entry( 'Scribus', 'http://www.scribus.net/', 'http://bugs.scribus.net/' );
+		entry( 'SCTV', 'http://sctv.ucsc.edu/', 'http://sctv.ucsc.edu/mantis/' );
+		entry( 'Shadow', 'https://sourceforge.net/projects/shadow/', 'http://www.open-shadow.org/mantis/' );
+		entry( 'six apart', 'http://www.sixapart.com/', 'http://sixapart.com/mantis/' );
 		entry( 'SourceFubar.Net', 'http://www.sourcefubar.net/', 'http://bugs.sourcefubar.net/' );
 		entry( 'Soft-Gems', 'http://www.soft-gems.net/', 'http://support.soft-gems.net/mantis/' );
 	section_end();
 
 	section( 'T' );
+		entry( 'Theratech', 'http://www.theratech.de/', 'http://www.support.theratech.de/' );
+		entry( 'Thornsoft Development, Inc.', 'http://www.thornsoft.com/', 'http://www.thornsoft.com/mantis/' );
 		entry( 'Twig Project', 'http://informationgateway.org/', 'http://bugs.informationgateway.org/' );
 	section_end();
 
 	section( 'U' );
+		entry( 'Uncommonplace', 'http://www.uncommonplace.com/', 'http://www.uncommonplace.com/bugs/' );
 		entry( 'USA Z&amp;P', 'http://usazyp.com.ve/' );
 	section_end();
 
