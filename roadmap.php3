@@ -45,12 +45,14 @@ This is the Mantis feature roadmap.  It lists most fo the currently planned feat
 <h3>0.16.0</h3>
 <ul>
 <li>Bug Search (Simple) - basic bug searching; search by id; search by keyword; few options
+<li>No crypt() authentication - crypt() is causing major headaches for Windows users; provide an alternative
 <li>Configuration Documentation - list basic ways in which Mantis can be customized; quickstart guide for customization needs
 <li>List modified files for each release - let users know what exactly has changed in each upgrade
 <li>Fleshed out test settings script - let admins easily diagnose if settings are correct and where possible problems in new installations may be
 </ul>
 <h3>0.17.0</h3>
 <ul>
+<li>Have user settings per project - email preferences should be configurable on a per project basis
 <li>Vote support - users may add a 'me too' vote to assist in showing which bugs are most common
 <li>ETA support -
 <li>Priority support -
@@ -71,21 +73,6 @@ This is the Mantis feature roadmap.  It lists most fo the currently planned feat
 <ul>
 <li>Mantis Logo - about time, right?
 <li>Print friendly form - user fewer table elements; more like email; also for summary and view all bugs
-</ul>
-
-<h3>0.20.0</h3>
-<ul>
-<li>set
-</ul>
-
-<h3>0.21.0</h3>
-<ul>
-<li>set
-</ul>
-
-<h3>0.22.0</h3>
-<ul>
-<li>set
 </ul>
 
 <h3>1.x.0</h3>

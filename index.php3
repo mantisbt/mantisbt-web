@@ -62,7 +62,7 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 	$result = mysql_query( $query );
     $total_news_count = mysql_result( $result, 0 );
 
-	$query = "SELECT *
+	$query = "SELECT *,UNIX_TIMESTAMP(date_posted) as date_posted
 			FROM $g_mantis_news_table
 			ORDER BY id DESC
 			LIMIT $f_offset, $g_news_view_limit";
@@ -74,7 +74,7 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 		extract( $row, EXTR_PREFIX_ALL, "v" );
 		$v_headline = string_display( $v_headline );
 		$v_body = string_display( $v_body );
-		$v_date_posted = date( "m-d H:i", sql_to_unix_time( $v_date_posted ) );
+		$v_date_posted = date( "m-d H:i", $v_date_posted );
 
 		## grab the username and email of the poster
 	    $query = "SELECT username, email

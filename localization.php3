@@ -1,8 +1,5 @@
 <?
 	$g_mantis_version = "";
-	if ( file_exists( "/home/groups/mantisbt/htdocs/mantis/config_inc.php" ) ) {
-		include( "/home/groups/mantisbt/htdocs/mantis/config_inc.php" );
-	}
 
 	function print_lang( $p_language, $p_version, $p_state ) {
 		global $g_mantis_version;
@@ -91,6 +88,7 @@ What to do if you see some errors?  Just <a href="mailto:kenito@300baud.org">sen
 </tr>
 <?
 	print_lang( "English",     "latest",  "active" );
+	print_lang( "Chinese_Traditional",       "latest",  "active" );
 	print_lang( "Dutch",       "latest",  "active" );
 	print_lang( "French",      "latest",  "active" );
 	print_lang( "German",      "latest",  "active" );

@@ -25,12 +25,14 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 <p>
 The following forums are hosted at Sourceforge.  You can post anonymously.  Please report actual bugs to the <a href="demo.php3">Demo Bugtracker</a>.
 <p>
-<li>Open Discussion
-<li>Feature Requests
-<li>Localization
-<li>Help
+<li><a href="http://sourceforge.net/forum/forum.php?forum_id=47435">Open Discussion</a>
+<li><a href="http://sourceforge.net/forum/forum.php?forum_id=55896">Feature Requests</a>
+<li><a href="http://sourceforge.net/forum/forum.php?forum_id=65760">Localization</a>
+<li><a href="http://sourceforge.net/forum/forum.php?forum_id=47436">Help</a>
 <p>
-<a href="http://sourceforge.net/forum/?group_id=14963">SourceForge Forum</a><br>
+<div align="center">
+<a href="http://sourceforge.net/forum/?group_id=14963">SourceForge Forums</a><br>
+</div>
 </td>
 </tr>
 </table>

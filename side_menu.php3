@@ -6,13 +6,13 @@
 		<tr>
 			<td>
 				<a href="mantis.php3">Mantis</a><br>
-				<a href="info.php3">Info</a><br>
 				<a href="credits.php3">Credits</a><br>
 			</td>
 		</tr>
 		<tr>
 			<td>
 				<a href="index.php3">News</a><br>
+				<a href="notes.php3">Notes</a><br>
 			</td>
 		</tr>
 		<tr>
@@ -41,7 +41,8 @@
 		<tr>
 			<td>
 				HOWTO<br>
-				&nbsp;&nbsp;&nbsp;<a href="HOWTO-mantis-phorum">phorum</a>
+				&nbsp;&nbsp;&nbsp;<a href="phorum.php3">phorum</a><br>
+				&nbsp;&nbsp;&nbsp;phpBB<br>
 			</td>
 		</tr>
 		<tr>
@@ -57,8 +58,8 @@
 		<tr>
 			<td>
 				<A href="http://sourceforge.net/projects/mantisbt/"><IMG src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo"></A><br>
-				&nbsp;&nbsp;&nbsp;<a href="mailinglists.php3">Mailing List</a><br>
-				&nbsp;&nbsp;&nbsp;<a href="forums.php3">Forum</a><br>
+				&nbsp;&nbsp;&nbsp;<a href="mailinglists.php3">Mailing Lists</a><br>
+				&nbsp;&nbsp;&nbsp;<a href="forums.php3">Forums</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="cvs.php3">CVS</a><br>
 			</td>
 		</tr>

@@ -113,10 +113,12 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 		<p>
 		<a href="localization.php3">Back to Localization</a>
 		<p>
+		Items in <font color=#ff0000>RED</font> are not translated (or are the same in english)
+		<p>
 		<table cellspacing=1 border=0 bgcolor=#888888>
 		<tr bgcolor=#8888ff>
 			<td colspan=2>
-				<b>english</b>
+				<b><? echo $f_lang ?></b>
 			</td>
 		</tr>
 		<tr bgcolor=#eeeeee>
