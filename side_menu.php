@@ -42,7 +42,7 @@
 				<a href="faq.php">FAQ</a><br />
 				<a href="irc.php">IRC</a><br />
 				<!--<a href="polls.php">Polls</a><br />-->
-				<a href="forums.php">Forums</a><br />
+				<a href="http://forums.mantisbt.org/">Forums</a><br />
 				<a href="mailinglists.php">Mailing Lists</a><br />
 			</td>
 		</tr>
