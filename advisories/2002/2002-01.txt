@@ -6,7 +6,7 @@
     2. Summary / Impact analysis
     3. Affected versions
     4. Workaround / Solution
-    5. Detailed explanation
+    5. Proof of Vulnerability
     6. Contact details
 
   1. Introduction
@@ -80,7 +80,7 @@ patched to secure the exploitable query:
 Enabling magic_quotes_gpc in your PHP configuration will also prevent the
 problem from being exploitable.
 
-  5. Detailed explanation
+  5. Proof of Vulnerability
 
 By modifying the username or the email of a Mantis account, it is possible
 to change any column of the Mantis user table (mantis_user_table by

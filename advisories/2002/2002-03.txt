@@ -98,7 +98,7 @@ the appropriate checks.
     }
     # end project selection
 
-  5. Detailed explanation
+  5. Proof of Vulnerability
 
 To take advantage of this vulnerability, the attacker would need to know the
 project_id of the private project he wishes to attack. This is not terribly

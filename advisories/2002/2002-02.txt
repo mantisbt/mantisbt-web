@@ -6,7 +6,7 @@
     2. Summary / Impact analysis
     3. Affected versions
     4. Workaround / Solution
-    5. Detailed explanation
+    5. Proof of Vulnerability
     6. Contact details
 
   1. Introduction
@@ -65,7 +65,7 @@ earlier versions:
       $f_user_id = get_current_user_field( "id" );
     }
 
-  5. Detailed explanation
+  5. Proof of Vulnerability
 
 No trickery is required to allow a reporter to see the summaries of bugs
 that (s)he did not report. The reporter just has to go to 'View Bugs', click

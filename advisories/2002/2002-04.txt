@@ -6,7 +6,7 @@
     2. Summary / Impact analysis
     3. Affected versions
     4. Workaround / Solution
-    5. Detailed explanation
+    5. Proof of Vulnerability
     6. Credit
     7. Contact details
 
@@ -71,7 +71,7 @@ the following lines at the top of summary_graph_functions.php:
       exit;
   }
 
-  5. Detailed explanation
+  5. Proof of Vulnerability
 
 To exploit this vulnerability, an attacker only has to store the PHP code
 (s)he wishes to execute in a textfile, make this available on a webserver

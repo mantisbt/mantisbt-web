@@ -7,7 +7,7 @@ vulnerability in Mantis
     2. Summary / Impact analysis
     3. Affected versions
     4. Workaround / Solution
-    5. Detailed explanation
+    5. Proof of Vulnerability
       5.1 Arbitrary code execution
       5.2 Displaying local files
     6. Credit
@@ -94,7 +94,7 @@ the following lines in core_API.php:
     exit;
   }
 
-  5. Detailed explanation
+  5. Proof of Vulnerability
 
     5.1 Arbitrary code execution
 
