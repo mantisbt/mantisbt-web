@@ -16,10 +16,10 @@
 				<span class="big">Documentation</span><br>
 				&nbsp;&nbsp;&nbsp;<a href="mantis/documentation.html">User Doc</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="mantis/configuration.html">Config Doc</a><br>
+				&nbsp;&nbsp;&nbsp;<a href="notes.php3">Notes</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="mantis/INSTALL">Installation</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="mantis/UPGRADING">Ugrading</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="mantis/ChangeLog">ChangeLog</a><br>
-				&nbsp;&nbsp;&nbsp;<a href="notes.php3">Notes</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="security.php3">Security</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="requirements.php3">Requirements</a><br>
 				&nbsp;&nbsp;&nbsp;Customization<br>
