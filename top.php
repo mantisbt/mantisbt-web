@@ -10,27 +10,33 @@
 
 <table class="outisde" cellpadding="5" cellspacing="0">
 <tr class="top">
-	<td colspan="2" class="top_right">
-		<a href="http://www.mantisbt.org/"><img border="0" src="images/mantis_logo.gif" alt="Mantis" /></a>
-	</td>
-	<td class="right">
-		<right>
-			<script type="text/javascript"><!--
-			google_ad_client = "pub-0979518001849295";
-			google_ad_width = 468;
-			google_ad_height = 60;
-			google_ad_format = "468x60_as";
-			google_ad_channel ="3585048648";
-			google_color_border = "B8B8FF";
-			google_color_bg = "FFFFFF";
-			google_color_link = "4080D0";
-			google_color_url = "3070C0";
-			google_color_text = "000000";
-			//--></script>
-			<script type="text/javascript"
-				src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-			</script>
-	</right>
+	<td colspan="3">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr valign="top">
+				<td class="top_right">
+					<a href="http://www.mantisbt.org/"><img border="0" src="images/mantis_logo.gif" alt="Mantis" /></a>
+				</td>
+				<td class="right">
+					<right>
+						<script type="text/javascript"><!--
+							google_ad_client = "pub-0979518001849295";
+							google_ad_width = 468;
+							google_ad_height = 60;
+							google_ad_format = "468x60_as";
+							google_ad_channel ="3585048648";
+							google_color_border = "B8B8FF";
+							google_color_bg = "FFFFFF";
+							google_color_link = "4080D0";
+							google_color_url = "3070C0";
+							google_color_text = "000000";
+						//--></script>
+						<script type="text/javascript"
+							src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+						</script>
+					</right>
+				</td>
+			</tr>
+		</table>
 	</td>
 </tr>
 <tr class="top">
