@@ -32,7 +32,7 @@
 <p>
 Here you can see the latest localization files.
 <p>
-What to do if you see some errors?  Just <a href="mailto:localization@mantisbt.org">send an email</a> with the corrected strings.
+What to do if you see some errors?  Just <a href="mailto:mantisbt-lang@lists.sourceforge.net">send an email</a> with the corrected strings.
 <p>
 
 <div align=left>
@@ -80,7 +80,7 @@ What to do if you see some errors?  Just <a href="mailto:localization@mantisbt.o
 <p>
 <span class="section">Translating</span>
 <p>
-Don't see your language?  Translate one of the files!  Just take the strings file, translate, and <a href="mailto:localization@mantisbt.org">submit here</a>.
+Don't see your language?  Translate one of the files!  Just take the strings file, translate, and <a href="mailto:mantisbt-lang@lists.sourceforge.net">submit here</a>.
 <p>
 <span class="section">Updating</span>
 <p>

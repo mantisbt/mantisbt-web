@@ -38,6 +38,20 @@ Signup for the mailing lists.  These are very low traffic since most people seem
 </tr>
 <tr>
 	<td>
+		mantisbt-lang
+	</td>
+	<td>
+		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-lang">Signup</a>
+	</td>
+	<td>
+		<a href="">Archives</a>
+	</td>
+	<td>
+		Mantis localization efforts.
+	</td>
+</tr>
+<tr>
+	<td>
 		mantisbt-dev
 	</td>
 	<td>
