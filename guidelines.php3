@@ -21,8 +21,8 @@ First, start off by reading the <a href="http://utvikler.start.no/code/php_codin
 	<li>Parameters and variables passed from forms that have been cleaned of any special SQL chars (i.e. slashes) should be prefixed with c_
 	<li>Uncleaned function parameters should be prefixed with p_
 	<li>Uncleaned variables passed from forms should be prefixed with f_
-	<li>Other variables are prefixed with v_, v2_, etc.
-	<li>Never prefix with lee_ or O_ or queue_ (visually confusing)
+	<li>Other variables are prefixed with v_, v2_, etc
+	<li>Never prefix with l_ or o_ or q_ (visually confusing)
 	<li>$query and $result should be used for SQL query and results respectively
 </ul>
 
