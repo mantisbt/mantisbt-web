@@ -33,10 +33,5 @@ There is a mailing list for announcements.  Announcements will be posted to it a
 </tr>
 </table>
 
-<p>
-<div align=right>
-<A href="http://sourceforge.net"> <IMG src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo"></A>
-</div>
-
 </body>
 </html>

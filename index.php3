@@ -21,6 +21,7 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 <tr valign=top>
 	<? include("side_menu.php3") ?>
 <td>
+<? include( "mantis/constant_inc.php" ) ?>
 <? include( "mantis/config_inc.php" ) ?>
 <?
 	function db_connect($p_hostname="localhost", $p_username="root",
@@ -37,7 +38,7 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 	}
 	### --------------------
 	function string_display_with_br( $p_string ) {
-		return str_replace( "&lt;br&gt;", "<br>", htmlspecialchars(stripslashes( $p_string )));
+		return htmlspecialchars(stripslashes( $p_string ));
 	}
 	### --------------------
 	function sql_to_unix_time( $p_timeString ) {
@@ -128,11 +129,6 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 </td>
 </tr>
 </table>
-
-<p>
-<div align=right>
-<A href="http://sourceforge.net"> <IMG src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo"></A>
-</div>
 
 </body>
 </html>

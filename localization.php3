@@ -111,10 +111,5 @@ Currently some strings are hard-coded into the database tables or the code.  Thi
 </tr>
 </table>
 
-<p>
-<div align=right>
-<A href="http://sourceforge.net"> <IMG src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo"></A>
-</div>
-
 </body>
 </html>

@@ -30,22 +30,31 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 
 	<p>
 
-	<h3>Naming</h3>
+	<h3>Variables</h3>
 	<ul>
 	<li>Use descriptive names (except loop variables)
+	<li>Single character variables should only be used for loop variables
 	<li>Use _ to separate words
-	<li>Always use lowercase
+	<li>Always use lowercase ( $this_is_a_variable )
 	<li>Use .php3 or .php for all file extensions.  Do not use .inc
 	<li>Form variables are prefixed with f_
-	<li>User variables are prefixed with u_
-	<li>Temporary variables are prefixed with t_
 	<li>Function parameters should be prefixed with p_
-	<li>Global varialbes should be prefixed with g_
+	<li>Global variables should be prefixed with g_
+	<li>Temporary variables are prefixed with t_
 	<li>Use the v_ prefix for primary purpose variables in a page
-	<li>$query and $result should be used for SQL query text and results respectively.
+	<li>Never prefix with l_ or o_ or q_ (visually confusing)
+	<li>$query and $result should be used for SQL query and results respectively
+	<li>Count variables should follow the format $<what>_count.  eg $bug_count
 	<li>Included files should be suffixed by _inc.php
-	<li>Count variables should follow the format $<what>_count.  eg $bug_count.
-	<li>functions that print should be prefixed with print_.
+	</ul>
+
+	<h3>Functions</h3>
+	<ul>
+	<li>Use _ to separate words
+	<li>Always use lowercase ( this_is_a_function() )
+	<li>Keep functions to 5 words or less
+	<li>Functions that print should be prefixed with print_.
+	<li>Try to use prefixes to group functions (ie, email_, news_, etc)
 	</ul>
 
 	<h3>Formatting</h3>
@@ -53,6 +62,8 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 	<li>Use TABS with a size of 4 to make the code easily readable while not wasting too much space
 	<li>Follow the table formatting of existing pages
 	<li>Break up SQL queries to be easy to read
+	<li>Use &lt;? and ?&gt; for php delimiters
+	<li>Try not to print/echo html code unless it's short or in a function loop
 	</ul>
 
 	<h3>Page Guidelines</h3>
@@ -65,34 +76,16 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 	<li>At the bottom will be the footer information and closing print_ functions.
 	</ul>
 
-	<a href="http://utvikler.start.no/code/php_coding_standard.html">PHP Coding Standard</a> has _excellent_ guidelines for php programming style.  For the most part I seem to have followed it (except for TABS vs spaces).  If something is ambiguous consult this link or email me.
+	<a href="http://utvikler.start.no/code/php_coding_standard.html">PHP Coding Standard</a> has excellent guidelines for php programming style.  For the most part I seem to have followed it (except for TABS vs spaces).  If something is ambiguous consult this link or email me.
 	Above all, write code that is easy to read and maintain.  Code that is not will be rewritten or deleted.  Comment blocks of code and functions at all times.  Get onto me if I fail to adhere to my own words.
 
 	<!-- ---------------------------------------------------------------------- -->
 	<p>
 	<hr size=1>
 	<p>
-
-	<font size=-1>
-	<b>ChangeLog</b>
-	<p>
-
-	<li>version 1.1  Fedbruary 10, 2000 - Kenzaburo Ito (kenito@300baud.org)<br>
-	<i>Added PHP Coding Standard document link</i>
-	<li>version 1.0  December 23, 2000 - Kenzaburo Ito (kenito@300baud.org)<br>
-	<i>Initial creation</i>
-
-	</font>
-	<p>
-	<hr size=1>
 </td>
 </tr>
 </table>
-
-<p>
-<div align=right>
-<A href="http://sourceforge.net"> <IMG src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo"></A>
-</div>
 
 </body>
 </html>

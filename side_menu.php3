@@ -48,6 +48,7 @@
 			<td>
 				Development<br>
 				&nbsp;&nbsp;&nbsp;<a href="roadmap.php3">Roadmap</a><br>
+				&nbsp;&nbsp;&nbsp;<a href="api.php3">API</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="guidelines.php3">Coding Guidelines</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="devnotes.php3">Developer Notes</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="database.php3">Database</a><br>
@@ -55,7 +56,7 @@
 		</tr>
 		<tr>
 			<td>
-				<A href="http://sourceforge.net/projects/mantisbt/"> <IMG src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo"></A><br>
+				<A href="http://sourceforge.net/projects/mantisbt/"><IMG src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo"></A><br>
 				&nbsp;&nbsp;&nbsp;<a href="mailinglists.php3">Mailing List</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="forums.php3">Forum</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="cvs.php3">CVS</a><br>

@@ -42,10 +42,5 @@ I would prefer that you sign up on the announcements <a href="mailinglists.php3"
 </tr>
 </table>
 
-<p>
-<div align=right>
-<A href="http://sourceforge.net"> <IMG src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo"></A>
-</div>
-
 </body>
 </html>
