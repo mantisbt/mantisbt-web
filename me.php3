@@ -31,9 +31,7 @@ I've had exposure to Scheme, Haskell, Prolog, and LISP.  I don't really think I'
 <p>
 Since then I've moved into web programming, something I used to swear I wouldn't do.  Mantis is my first real foray into PHP (and Python).
 <p>
-My ideal project would be game programming.  After that, anything to do with creative tools such as graphics or music.
-<p>
-More than the content, I'm drawn in by any well-structured programming project.  This requires strong focus, design, good planning, and top-notch execution.  I like to help glue projects together and make tasks simpler and more efficient.  Typically, I do lots of work on back-end and support software that assists the development of the primary project.
+My ideal project would be game programming.  After that, anything to do with creative tools such as graphics or music.  However, more than the content, I'm drawn in by any well-structured programming project.  This requires strong focus, design, good planning, and top-notch execution.  I like to help glue projects together and make tasks simpler and more efficient.  Typically, I do lots of work on back-end and support software that assists the development of the primary project.
 <p>
 
 <? include("bot.php3"); ?>
