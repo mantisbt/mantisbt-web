@@ -41,8 +41,8 @@
 				&nbsp;<br>
 			</td>
 			<td class="menu_items">
-				<a href="mantis/documentation.html">User Doc</a><br>
-				<a href="mantis/configuration.html">Config Doc</a><br>
+				<a href="mantis/documentation.html">User</a><br>
+				<a href="mantis/configuration.html">Configuration</a><br>
 				<a href="notes.php3">Notes</a><br>
 				<a href="installation.php3">Installation</a><br>
 				<a href="upgrading.php3">Ugrading</a><br>
@@ -124,6 +124,7 @@
 		</tr>
 		<tr>
 			<td class="menu_sf" colspan="2">
+				<p>
 				<a href="http://sourceforge.net/projects/mantisbt/"><img src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo"></a>
 				<p>
 				<a href="http://freshmeat.net/projects/mantis/"><img src="images/fmII-logo.gif" border="0" alt="Freshmeat.net"></a>
