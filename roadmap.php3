@@ -20,7 +20,7 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 <h3>Feature and Version Timetable</h3>
 
 <p>
-This is the Mantis feature roadmap.  It lists all the currently planned features and details the schedule for release.  These are not hard deadlines and things are subject to change.  Please feel free to suggest features, contribute, or comment.
+This is the Mantis feature roadmap.  It lists most fo the currently planned features and details the schedule for release.  These are not hard deadlines and things are subject to change.  Please feel free to suggest features, contribute, or comment.
 <p>
 
 <h3>0.15.0</h3>
@@ -52,6 +52,7 @@ This is the Mantis feature roadmap.  It lists all the currently planned features
 <li>Let administrators customize additional information fields for bug report details (CPU, RAM, etc)
 <li>Finer grain control over access to projects
 <li>Abstract account management
+<li>Related to bug field
 </ul>
 <h3>2.x.0</h3>
 <ul>
