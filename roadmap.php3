@@ -96,6 +96,8 @@ This is the Mantis feature roadmap.  It lists most fo the currently planned feat
 <b>ChangeLog</b>
 <p>
 
+<li>version 1.6  February 14, 2001 - Kenzaburo Ito (kenito@300baud.org)<br>
+<i>Updated after 0.14.1 release</i>
 <li>version 1.5  February 11, 2001 - Kenzaburo Ito (kenito@300baud.org)<br>
 <i>Updated after 0.14.0 release</i>
 <li>version 1.4  January 15, 2001 - Kenzaburo Ito (kenito@300baud.org)<br>
