@@ -4,7 +4,7 @@
 	function print_lang( $p_language, $p_version, $p_state ) {
 		global $g_mantis_version;
 
-		$t_file_name = "mantis/strings_".strtolower( $p_language ).".txt";
+		$t_file_name = "mantis/lang/strings_".strtolower( $p_language ).".txt";
 
 		PRINT "<tr bgcolor=#ffffff>";
 			PRINT "<td>";
@@ -79,6 +79,7 @@ What to do if you see some errors?  Just <a href="mailto:kenito@300baud.org">sen
 	print_lang( "Polish",				"latest",  "active" );
 	print_lang( "Portuguese_Brazil",			"latest",  "active" );
 	print_lang( "Portuguese_Standard",			"latest",  "active" );
+	print_lang( "Romanian",				"latest",  "active" );
 	print_lang( "Russian",				"latest",  "active" );
 	print_lang( "Spanish",				"latest",  "active" );
 	print_lang( "Turkish",				"latest",  "active" );

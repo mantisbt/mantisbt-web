@@ -7,9 +7,6 @@ These polls and surveys help chart the direction Mantis takes.
 <p>
 	<table cellpadding=4 width="100%">
 <?
-	include("mantis/constant_inc.php");
-	include("mantis/config_inc.php");
-
 	function db_connect($p_hostname="localhost", $p_username="root",
 						$p_password="", $p_database="mantis",
 						$p_port=3306 ) {

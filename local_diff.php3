@@ -79,7 +79,7 @@
 	function process_file( $p_lang ) {
 		global $p_var;
 
-		$path = "mantis/";
+		$path = "mantis/lang/";
 
 		$english = file( $path."strings_english.txt" );
 		$english_count = count( $english );

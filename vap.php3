@@ -17,8 +17,6 @@
 		$t_result = mysql_select_db( $p_database );
 	}
 
-	include("mantis/constant_inc.php");
-	include("mantis/config_inc.php");
 	require('phpPolls/phpPollConfig.php3');
 	require('phpPolls/phpPollUI.php3');
 

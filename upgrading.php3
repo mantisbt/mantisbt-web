@@ -5,7 +5,7 @@
 <p>
 
 <pre>
-<? include("mantis/UPGRADING") ?>
+<? include("mantis/doc/UPGRADING") ?>
 </pre>
 
 <? include( "bot.php3" ); ?>

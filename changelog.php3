@@ -5,7 +5,7 @@
 <p>
 
 <pre>
-<? include("mantis/ChangeLog") ?>
+<? include("mantis/doc/ChangeLog") ?>
 </pre>
 
 <? include( "bot.php3" ); ?>

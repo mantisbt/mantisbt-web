@@ -1,8 +1,5 @@
 <? include( "top.php3" ); ?>
 <?
-	include("mantis/constant_inc.php");
-	include("mantis/config_inc.php");
-
 	function db_connect($p_hostname="localhost", $p_username="root",
 						$p_password="", $p_database="mantis",
 						$p_port=3306 ) {

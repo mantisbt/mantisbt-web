@@ -8,7 +8,7 @@ Mantis is compressed in <span class="code">.tar.gz</span> format which any reaso
 <p>
 <p class="center"><a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963">Download Mantis <? echo $g_mantis_version ?></a>
 <p>
-The <a href="mantis/UPGRADING">UPGRADING</a> file contains information on upgrading from one version to the next.  Generally, micro releases just require you to copy over files.  Major and minor releases will require you to run the admin_upgrade.php script.  It is always a good idea to backup your database and files before upgrading.
+The <a href="mantis/doc/UPGRADING">UPGRADING</a> file contains information on upgrading from one version to the next.  Generally, micro releases just require you to copy over files.  Major and minor releases will require you to run the admin_upgrade.php script.  It is always a good idea to backup your database and files before upgrading.
 
 <p>
 <span class="section">Mirroring</span>

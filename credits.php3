@@ -6,7 +6,7 @@
 	<ul>
 	<b>Main</b><p>
 <?
-	$file = file("mantis/CREDITS");
+	$file = file("mantis/doc/CREDITS");
 	$count = count($file);
 	for ($i=7;$i<$count;$i++) {
 		$file[$i] = trim( $file[$i] );

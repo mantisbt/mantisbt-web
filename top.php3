@@ -1,4 +1,8 @@
-<? include("zorblogspages.php"); ?>
+<? include( "zorblogspages.php" ); ?>
+<? include( "mantis/constant_inc.php" ) ?>
+<? include( "mantis/default/config_inc1.php" ) ?>
+<? include( "mantis/config_inc.php" ) ?>
+<? include( "mantis/default/config_inc2.php" ) ?>
 <? countpage( $REQUEST_URI, $REQUEST_URI );  ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
