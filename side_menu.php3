@@ -12,7 +12,7 @@
 				&nbsp;&nbsp;&nbsp;<a class="big" href="demo.php3">Demo</a><br>
 				&nbsp;&nbsp;&nbsp;<a class="big" href="download.php3">Download</a><br>
 				&nbsp;&nbsp;&nbsp;<a class="big" href="screenshots.php3">Screenshots</a><br>
-				&nbsp;&nbsp;&nbsp;<a class="big" href="release.php3">Release Notes</a><br>
+				<!--&nbsp;&nbsp;&nbsp;<a class="big" href="release.php3">Release Notes</a><br>-->
 				<span class="big">Documentation</span><br>
 				&nbsp;&nbsp;&nbsp;<a href="mantis/documentation.html">User Doc</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="mantis/configuration.html">Config Doc</a><br>
@@ -39,6 +39,7 @@
 				&nbsp;&nbsp;&nbsp;<a href="guidelines.php3">Coding Guidelines</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="devnotes.php3">Dev Notes</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="roadmap.php3">Roadmap</a><br>
+				&nbsp;&nbsp;&nbsp;<a href="polls.php3">Polls</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="api.php3">API</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="cvs.php3">CVS</a><br>
 				&nbsp;&nbsp;&nbsp;Task List<br>
