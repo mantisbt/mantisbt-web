@@ -30,10 +30,10 @@
 				&nbsp;&nbsp;&nbsp;<a href="irc.php3">IRC</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="faq.php3">FAQ</a><br>
 				<span class="big">Modifications</span><br>
-				&nbsp;&nbsp;&nbsp;<a href="phorum.php3">phorum</a><br>
+				&nbsp;&nbsp;&nbsp;<a href="mod_phorum.php3">phorum</a><br>
 				&nbsp;&nbsp;&nbsp;phpBB<br>
-				&nbsp;&nbsp;&nbsp;daily reports<br>
-				&nbsp;&nbsp;&nbsp;<a href="jpgraphs.zip">JpGraph</a><br>
+				&nbsp;&nbsp;&nbsp;<a href="mod_daily_reports.php3">daily reports</a><br>
+				&nbsp;&nbsp;&nbsp;<a href="mod_anonymous_reports.php3">anon-reports</a><br>
 				<span class="big">Development</span><br>
 				&nbsp;&nbsp;&nbsp;<a href="starting.php3">Getting Started</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="guidelines.php3">Coding Guidelines</a><br>

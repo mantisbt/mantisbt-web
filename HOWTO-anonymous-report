@@ -1,0 +1,149 @@
+#############################################################################
+###                         HOWTO-anonymous-reports                      ####
+#############################################################################
+
+Thie file details the basic steps needed to add anonymous reports capability.
+Users can file bugs from this form but not have any other access to the bug
+tracker.  Essentially they can report but not view any other bugs.
+Furthermore, this page can be placed outside the mantis web tree to further
+isolate the bug tracker from the user.
+
+This form only supports reporting for one project.  A good addition would be
+capability for multiple projects.  Another modification would be to include
+some advanced bug fields on the report form.
+
+This is extremely simple and is more of an example or springboard for further
+modifications.  I will only give general advice (not code) for requests for
+customizations or enhancements.
+
+### Required:
+
+* Mantis 0.15.x or later
+* anonymous_report.tar.gz
+  URL: http://mantisbt.sourceforge.net/mods/anonymous_report.tar.gz
+  Contains:
+
+  - report_anon_page.php
+  - report_anon.php
+
+### Setup: We will proceed assuming the following setup:
+
+* Your web root (usually htdocs for apache) is /usr/local/apache/htdocs/
+(On a windows box it would look something like this
+C:\\apache\\htdocs\\mantis\\ instead.  Adapt to reflect your setup)
+* Mantis is installed in /usr/local/apache/htdocs/mantis/
+* Anonymous posting will be in /usr/local/apache/htdocs/products/p1
+  This is accessible via http://yourdomain/products/p1/report_anon_page.php
+
+
+### Steps:
+
+0. Prerequisites
+1. Copy the Files
+2. Setup Anonymous User
+3. Obtain User ID
+4. Obtain Project ID
+5a. Config report_anon_page.php
+5b. Config report_anon.php
+
+#################################
+ Step 0: Prerequisites
+#################################
+
+Mantis is installed and running properly.
+
+#################################
+ Step 1: Copy the Files
+#################################
+
+Install the files by unzipping it to a web accessible directory.  This
+directory should NOT be your mantis directory.
+
+On unix use the tar command:
+
+tar zxvf anonymous_report.tar.gz
+
+On Windows use Winzip or your favorite archiver.
+
+###########################################
+ Step 2: Setup Anonymous User
+###########################################
+
+You will need to create a user with at least reporting privileges.  You may
+want to set the email to something useful, like a mailing list.
+
+###########################################
+ Step 3: Obtain User ID
+###########################################
+
+Next grab the grab the user ID and keep the info handy.  You can get this from
+the "Manage -> Edit User" page.  The user ID will be in the URL:
+
+eg. http://mysite/mantis/manage_user_page.php3?f_id=<USER_ID>
+
+#####################################
+ Step 4: Obtain Project ID
+#####################################
+
+Grab the project ID of the project you want the reporter to enter by going to
+"Mange -> Manage Projects -> Edit".  The project ID will be in the URL:
+
+eg. http://mysite/mantis/manage_proj_edit_page.php3?f_project_id=<PROJECT_ID>
+
+######################################
+ Step 5a: Config report_anon_page.php
+######################################
+
+This is the file that users will go to for bug reports.  You may want to
+modify the html for company/project branding and add more detailed
+instructions.
+
+You will need to edit the portions at the top of the page.
+
+Change the paths in the include() to reflect the location of your mantis
+package. In our example this would mean:
+
+Change:
+	include( "../mantis/strings_english.txt" );
+To:
+	include( "../../mantis/strings_english.txt" );
+	 OR
+	include( "/usr/local/apache/htdocs/mantis/strings_english.txt" );
+
+Perform the same change for all the include() statements.
+
+######################################
+ Step 5b: Config report_anon_page.php
+######################################
+
+Next, set the following variables:
+
+	$f_go_to_page = "report_anon_page.php";
+	$g_project_cookie_val = 0000002;
+	$f_reporter_id = 0000005;
+
+Replace $g_project_cookie_val with the project ID.
+Replace $f_reporter_id with the user ID.
+Replace $f_go_to_page with the URL that you want the user to be redirected
+to after submitting a bug.
+
+#################################
+ Step 6: Config report_anon.php
+#################################
+
+This file does the actual work of adding the report.  It is almost exactly the
+same as report_bug.php3 and does almost the exact same thing except do access
+checks.
+
+Perform the same steps in Step 5a to this file.
+
+###################################
+ FINISHED!
+###################################
+
+You're now finished adding anonymous bug posting!  Simply create a link that
+users can use to get to the report_anon_page.php3 file.  Go ahead and test to
+make sure that bugs are reported correctly.
+
+If you wish to report any errors, comments, or suggestions please send email
+to kenito@300baud.org
