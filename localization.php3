@@ -74,7 +74,7 @@ Here you can see the latest localization files.  Some of them are included with 
 </tr>
 <?
 	print_lang( "English",     "0.14.4",  "active" );
-	print_lang( "German",      "",  "" );
+	print_lang( "German",      "0.13.1",  "active" );
 	print_lang( "Spanish",     "0.14.4",  "active" );
 	print_lang( "Portuguese",  "0.14.4",  "active" );
 	print_lang( "Italian",     "",  "" );
