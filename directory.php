@@ -30,6 +30,10 @@ your company is not listed below, or you know of an open source project that use
 please download it and reference it from your site to reduce the load on Mantis web server.</p>
 
 <?php
+	section( 'B' );
+		entry( 'BigSoft Limited', 'http://www.bigsoft.co.uk/', null );
+	section_end();
+
 	section( 'C' );
 		entry( 'CAPSHER Technology, Inc.', 'http://www.capsher.com/', null );
 		entry( 'chan_sccp', 'http://chan-sccp.sourceforge.net/', 'http://www.czmok.de/devtrack/' );
