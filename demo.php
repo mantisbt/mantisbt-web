@@ -12,7 +12,7 @@ Login with... ( username / password )
 	<li>viewer / viewer
 	<li>reporter / reporter
 	<li>updater / updater
-	<li>devloper / developer
+	<li>developer / developer
 </ul>
 <p>
 

@@ -66,7 +66,7 @@ Our rate is $50/hr (US).  Please contact us for quotes.
 		Victor Boctor
 	</td>
 	<td>
-
+		available upon request
 	</td>
 	<td>
 		Australia/Asia
@@ -74,6 +74,5 @@ Our rate is $50/hr (US).  Please contact us for quotes.
 </tr>
 </table>
 <p>
-
 
 <?php include("bot.php"); ?>
