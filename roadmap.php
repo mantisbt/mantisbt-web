@@ -2,9 +2,8 @@
 
 <span class="page_title">Roadmap</span>
 <hr size=1 noshade width="100%" />
-<br />
-<p>The following roadmap is currently out-of-date.  The development team is currently working on putting together an updated one.</p>
 <!--
+<br />
 This is the Mantis feature roadmap.  It lists most of the currently planned features and details the schedule for release.  These are not hard deadlines and are subject to change.  Occasionally things will get out of date or out of order as schedules are wont to do.  Please feel free to suggest features, contribute, or comment.
 -->
 <br />
@@ -13,7 +12,7 @@ This is the Mantis feature roadmap.  It lists most of the currently planned feat
 <ul>
 	<li>Generic email notifications for user defined statuses.</li>
 	<li>Support RSS for news syndication.</li>
-	<li>Added Lithuanian language.</li>
+	<li>Add Lithuanian language.</li>
 </ul>
 
 <span class="section">0.19.0</span>
@@ -23,6 +22,7 @@ This is the Mantis feature roadmap.  It lists most of the currently planned feat
 	<li>Support for more custom field types.</li>
 	<li>Support for release information + associated downloads.</li>
 	<li>Support merging of duplicate bugs.</li>
+	<li>Resolve issues with JpGraph integration.</li>
 </ul>
 
 <span class="section">Future</span>
