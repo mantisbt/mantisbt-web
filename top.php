@@ -20,8 +20,8 @@
 					<right>
 						<script type="text/javascript"><!--
 							google_ad_client = "pub-0979518001849295";
-							google_ad_width = 468;
-							google_ad_height = 60;
+							google_ad_width = "468";
+							google_ad_height = "60";
 							google_ad_format = "468x60_as";
 							google_ad_channel ="3585048648";
 							google_color_border = "B8B8FF";
