@@ -13,11 +13,15 @@
 	<td colspan="3">
 		<table width="100%" border="0" cellspacing="0" cellpadding="0">
 			<tr valign="top">
-				<td class="top_right">
+				<td class="top_left">
 					<a href="http://www.mantisbt.org/"><img border="0" src="images/mantis_logo.gif" alt="Mantis" /></a>
 				</td>
-				<td class="right">
-					<right>
+				<td class="top_right">
+				<div align="right">
+						<table width="508" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+						<td><a href="sponsors.php"><img src="images/banners.gif" width="20" height="60" alt="Sponsors" /></a>
+						<td>
 						<script type="text/javascript"><!--
 							google_ad_client = "pub-0979518001849295";
 							google_ad_width = "468";
@@ -33,7 +37,13 @@
 						<script type="text/javascript"
 							src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 						</script>
-					</right>
+						</td>
+						<td>
+						<td><a href="sponsors.php"><img src="images/advertise.gif" width="20" height="60" alt="Advertise" /></a>
+						</td>
+						</tr>
+						</table>
+						</div>
 				</td>
 			</tr>
 		</table>
