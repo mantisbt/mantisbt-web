@@ -40,6 +40,7 @@ Translations:
 	<li>Pablo Corral
 	<li>Hellekin O. Wolf
 	<li>Luca Pescatore
+	<li>Jan-Bart de Vreede
 </td>
 </tr>
 </table>
