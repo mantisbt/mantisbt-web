@@ -24,6 +24,12 @@
 <p>
 <hr size=1>
 <p>
+<b><a href="note_access_chart.php3">Access Level Rights Notes</a></b>
+<p>
+This note is a simple chart of what each access level is allowed to do to a bug.
+<p>
+<hr size=1>
+<p>
 <b><a href="note_email_chart.php3">Email Notes</a></b>
 <p>
 This note details how email in general works.  It, in conjunction with <a href="mantis/configuration.html#email">Configuration Documentation: Email</a>, covers how email can be configured and customized as well as how it is designed to operate.
