@@ -82,6 +82,10 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section( 'R' );
 		entry( 'RageIRCd', 'http://rageircd.sourceforge.net/', 'http://rageircd.sourceforge.net/mantis/' );
 	section_end();
+
+	section( 'S' );
+		entry( 'SourceFubar.Net', 'http://www.sourcefubar.net/', 'http://bugs.sourcefubar.net/' );
+	section_end();
 ?>
 
 <td style="padding: 4px;">
