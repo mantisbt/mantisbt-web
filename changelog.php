@@ -5,7 +5,12 @@
 <p>
 
 <pre>
-<?php include("files/ChangeLog") ?>
+<?php
+	$lines = file("files/ChangeLog");
+	foreach ( $lines as $line ) {
+		echo htmlspecialchars($line);
+	}
+?>
 </pre>
 
 <td style="padding: 4px;">
