@@ -35,8 +35,11 @@ Contributors:
 Translations:
 <p>
 	<li>Hermann-Josef Beckers
+	<li>Heiko Gierer
 	<li>Felipe Tonioli
 	<li>Pablo Corral
+	<li>Hellekin O. Wolf
+	<li>Luca Pescatore
 </td>
 </tr>
 </table>

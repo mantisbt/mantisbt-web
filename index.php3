@@ -119,10 +119,10 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 	$f_offset_prev = $f_offset - $g_news_view_limit;
 
 	if ( $f_offset_prev >= 0) {
-		PRINT "[ <a href=\"$g_main_page?f_offset=$f_offset_prev\">newer_news</a> ]";
+		PRINT "[ <a href=\"index.php3?f_offset=$f_offset_prev\">newer_news</a> ]";
 	}
 	if ( $news_count==$g_news_view_limit ) {
-		PRINT " [ <a href=\"$g_main_page?f_offset=$f_offset_next\">older_news</a> ]";
+		PRINT " [ <a href=\"index.php3?f_offset=$f_offset_next\">older_news</a> ]";
 	}
 ?>
 </td>

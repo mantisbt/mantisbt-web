@@ -25,15 +25,23 @@ This is the Mantis feature roadmap.  It lists most fo the currently planned feat
 
 <h3>0.15.0</h3>
 <ul>
+<li>Email notification perferences per user
+<li>Optional HTML escpaing
+<li>Project title in page title
+<li>Icon module
+<li>Change date_created/added to a varchar(14)
+<li>After reporting bug, allow choice of navigation
+<li>Check for already logged in status on login page
+<li>List modified files for each release
+<li>Split core_API into file modules
+<li>Add email string localizations
+<li>Eliminate strtotime()
 <li>Switch from enums to indexes
-<li>Switch from timestamp to datetime
 <li>Switch from char(3) to indexes
-<li>More options in mail config
+<li>Fleshed out test settings script
 </ul>
 <h3>0.16.0</h3>
 <ul>
-<li>Test settings script
-<li>Icons
 <li>Bug Search
 <li>ETA support
 <li>Vote support
