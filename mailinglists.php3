@@ -4,7 +4,7 @@
 <hr size=1 noshade width="100%">
 <p>
 
-Signup for the mailing lists.  These are very low traffic since most people seem to use the <a href="forums.php3">forums</a> or just email me directly (I'd rather you not if it's just a help question).
+Signup for the mailing lists.  These are very low traffic since most people seem to use the <a href="forums.php3">forums</a> or just email me directly. <b>Please use the forums or the mailing lists for general help questions.</b>
 <p>
 <ul>
 <table width="90%">
@@ -19,7 +19,7 @@ Signup for the mailing lists.  These are very low traffic since most people seem
 		<a href="http://www.geocrawler.com/redir-sf.php3?list=mantisbt-announce">Archives</a>
 	</td>
 	<td width="50%">
-		Be notified of releases and any important updates (security, etc.)
+		Be notified of releases and any important updates.
 	</td>
 </tr>
 <tr>
@@ -33,7 +33,7 @@ Signup for the mailing lists.  These are very low traffic since most people seem
 		<a href="http://www.geocrawler.com/redir-sf.php3?list=mantisbt-beta">Archives</a>
 	</td>
 	<td>
-		Be a tester between major releases (eg. 0.14.8 => 1.15.0)
+		Be a tester between major releases.
 	</td>
 </tr>
 <tr>
@@ -47,7 +47,21 @@ Signup for the mailing lists.  These are very low traffic since most people seem
 		<a href="http://www.geocrawler.com/redir-sf.php3?list=mantisbt-help">Archives</a>
 	</td>
 	<td>
-		Ask for help here or in the forums instead of emailing me directly.
+		Ask for help.
+	</td>
+</tr>
+<tr>
+	<td>
+		mantisbt-dev
+	</td>
+	<td>
+		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-dev">Signup</a>
+	</td>
+	<td>
+		<a href="http://www.geocrawler.com/redir-sf.php3?list=mantisbt-dev">Archives</a>
+	</td>
+	<td>
+		Mantis development talk.
 	</td>
 </tr>
 </table>
