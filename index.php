@@ -42,7 +42,7 @@
 	<td class="welcome" width="*">
 		Mantis is a php/MySQL/web based bugtracking system.  <a href="about.php">Learn more</a>.
 		<p>
-		The latest version is <a href="download.php"><?phpphp include("files/VERSION") ?></a>.
+		The latest version is <a href="download.php"><?php include("files/VERSION") ?></a>.
 	</td>
 	<td width="220" align="right">
 <!--		<table width="220" bgcolor="#000000" border="0" cellspacing="1" cellpadding="3">
@@ -97,7 +97,7 @@
 				extract( $row );
 				$date_submitted = date( "m-d", $date_submitted );
 				?>
-				<a class="small_bold" href="survey.php?f_id=<?phpphp echo $id ?>">Answer Survey (<?php echo $date_submitted ?>)</a>
+				<a class="small_bold" href="survey.php?f_id=<?php echo $id ?>">Answer Survey (<?php echo $date_submitted ?>)</a>
 			</td>
 		</tr>
 		</table>-->
