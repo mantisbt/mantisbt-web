@@ -44,14 +44,28 @@ These polls and surveys help chart the direction Mantis takes.
 		<br />
 	</td>
 </tr>
+
 <tr>
 	<td colspan=3>
 		<br />
-		<span class="section">Surveys</span>
+		<a name="survey"><span class="section">Surveys</span></a>
 		<p>
 		<ul>
-			<li><a href="survey.php3?f_id=3">General Questionaire</a></li>
-			<li><a href="survey.php3?f_id=4">Annoyances</a></li>
+<?php
+	$query = "SELECT *
+			FROM questions
+			ORDER BY date_submitted DESC";
+	$result = mysql_query( $query );
+	$question_count = mysql_num_rows( $result );
+	for ($i=0;$i<$question_count;$i++) {
+		$row = mysql_fetch_array( $result );
+		$t_id = $row["id"];
+		$t_subject = stripslashes( $row["subject"] );
+?>
+			<li><a href="survey.php3?f_id=<?php echo $t_id ?>"><?php echo $t_subject ?></a></li>
+<?php
+	}
+?>
 		</ul>
 	</td>
 </tr>

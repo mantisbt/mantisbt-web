@@ -97,7 +97,7 @@
 		<tr>
 			<td class="survey">
 			<?
-				$query =  "SELECT UNIX_TIMESTAMP(date_submitted) as date_submitted
+				$query =  "SELECT id, UNIX_TIMESTAMP(date_submitted) as date_submitted
 						FROM questions
 						ORDER BY id DESC
 						LIMIT 1";
@@ -106,7 +106,7 @@
 				extract( $row );
 				$date_submitted = date( "m-d", $date_submitted );
 				?>
-				<a class="small_bold" href="survey.php3?f_id=4">Answer Survey (<? echo $date_submitted ?>)</a>
+				<a class="small_bold" href="survey.php3?f_id=<?php echo $id ?>">Answer Survey (<? echo $date_submitted ?>)</a>
 			</td>
 		</tr>
 		</table>

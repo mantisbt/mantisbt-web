@@ -31,4 +31,6 @@
 		<input type=submit value="   Send   ">
 	</form>
 
+<p>
+<a href="polls.php3#survey">More Surveys</a>
 <? include( "bot.php3" ); ?>
