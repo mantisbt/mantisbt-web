@@ -41,6 +41,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 	
 	section( 'F' );
 		entry( 'Forum One Communications', 'http://www.forumone.com/' );
+		entry( 'Fraunhofer IPSI', 'http://ipsi.fraunhofer.de/concert/' );
 	section_end();
 
 	section( 'G' );
@@ -61,6 +62,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section_end();
 
 	section( 'M' );
+		entry( 'MantisConnect', 'http://www.futureware.biz/mantisconnect/', 'http://www.futureware.biz/mantis/' );
 		entry( 'MediaPortal', 'http://mediaportal.sourceforge.net/', 'http://nolanparty.com/mediaportal.sourceforge.net/mantis/' );
 	section_end();
 
