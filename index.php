@@ -146,7 +146,7 @@
 	<td class="headline">
 		<b><?php echo $v_headline ?></b> -
 		<span class="news_date"><?php echo $v_date_posted ?></span> -
-		<a href="mailto:<?php echo $t_poster_email ?>"><?php echo $t_poster_name ?></a>
+		<?php echo $t_poster_name ?>
 	</td>
 </tr>
 <tr>
