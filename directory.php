@@ -106,6 +106,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 
 	section( 'W' );
 		entry( 'Water Corporation', 'http://www.watercorporation.com.au/' );
+		entry( 'WordPress', 'http://wordpress.org/', 'http://mosquito.wordpress.org/' );
 	section_end();
 ?>
 
