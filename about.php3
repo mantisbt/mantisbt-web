@@ -13,7 +13,7 @@ Mantis is free to use and modify.  It is free to redistribute as long as you abi
 <p>
 <span class="section">History</span>
 <p>
-I and a friend originally created a bugtracker as an internal tool for our own pet project.  We searched for good, free packages but came up with nothing so we wrote our own.  Since then, I've gone ahead with a total rewrite and decided to make it available to the public.  I have no love of the GPL, but I do feel that development tools should be free.
+A friend and I originally created a bugtracker as an internal tool for our own pet project.  We searched for good, free packages but came up with nothing so we wrote our own.  Since then, I've gone ahead with a total rewrite and decided to make it available to the public.  I have no love of the GPL, but I do feel that development tools should be free.
 <p>
 Mantis was intially released to the public in November 2000.
 <p>
@@ -89,7 +89,7 @@ Currently, Mantis is considered beta software.  Version 1.0.0 will be used when 
 	<li>Give feedback and visit the <a href="polls.php3">polls</a> or <a href="survey.php3">surveys</a>
 	<li>Contribute code or tell me where to look.
 	<li><b>Let me know if you find it useful</b>.  I won't publish the information without permission, but I would appreciate the feedback.  This keeps me motivated.
-	<li><b>Buy me a book</b> off my <a href="http://www.amazon.com/exec/obidos/registry-edit-items-done/2FXMNHDUMQLA/107-9987144-7527713">wish list</a>!
+	<li>Buy me <a href="http://www.amazon.com/exec/obidos/registry-edit-items-done/2FXMNHDUMQLA/107-9987144-7527713">a book</a> or <a href="https://www.us.buy.com/retail/giftcenter/mywishlist.asp?email=amokscience@hotmail.com">some hardware</a>!
 </ul>
 
 <? include("bot.php3"); ?>
