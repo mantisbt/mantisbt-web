@@ -1,4 +1,18 @@
 <? include( "top.php3" ); ?>
+<?
+	function print_dev_section( $p_a_name, $p_section_title ) {
+		PRINT "<table width=\"100%\" border=\"0\" cellspacing=\"0\">";
+		PRINT "<tr>";
+			PRINT "<td class=\"dev_section\">";
+				PRINT "<a name=\"$p_a_name\">$p_section_title</a>";
+			PRINT "</td>";
+			PRINT "<td class=\"dev_right\">";
+				PRINT "<a href=\"general_development.php3\">Back to Top</a>";
+			PRINT "</td>";
+		PRINT "</tr>";
+		PRINT "</table>";
+	}
+?>
 
 <span class="page_title">General Development</span>
 <hr size=1 noshade width="100%">
@@ -9,36 +23,24 @@
 <ul>
 	<li><a href="#introduction">Introduction</a>
 	<li><a href="#setup">Setup</a>
-	<li><a href="#coding_style">Coding Style</a>
 	<li><a href="#cvs">CVS</a>
-	<li><a href="#discussion">Discussion</a>
+	<li><a href="#coding_style">Coding Style</a>
 	<li><a href="#communication">Communication</a>
 	<li><a href="#patches">Patches</a>
-	<li><a href="#database">Database Development</a>
 	<li><a href="#release">Release Management</a>
+	<li><a href="#database">Database Development</a>
 	<li><a href="#editor_tips">Editor Tips</a>
 	<li><a href="#php_tips">PHP Tips</a>
 </ul>
 
 <p>
-<a name="introduction"><span class="section">Introduction</span></a>
+<? print_dev_section( "introduction", "Introduction" ) ?>
 <p>
-<a name="setup"><span class="section">Setup</span></a>
+Mantis, an open source project, allows you to contribute changes you make back to the core package.  This allows others to benefit from your work and can help you from having to reimplement your chagnes after an upgrade.  This page should provide useful information on procedures to ensure development goes smoothly.
 <p>
-<a name=""><span class="section">Basic Steps to Developing in Mantis</span></a>
+<? print_dev_section( "setup", "Setup" ) ?>
 <p>
-<a name="patches"><span class="section">Patches</span></a>
-<p>
-<a name="coding_style"><span class="section">Coding Style</span></a>
-<p>
-<a name="discussion"><span class="section">Discussion</span></a>
-<p>
-<a name="communication"><span class="section">Communication</span></a>
-<p>
-<a name="database"><span class="section">Database</span></a>
-<p>
-
-<a name=""><span class="section">Setup Apache + PHP + MySQL</span></a>
+<span class="section">Install and Setup Apache + PHP + MySQL</span>
 <p>
 <ul>
 	<li><a href="http://www.apache.org/">Apache</a><br>
@@ -46,8 +48,8 @@
 	<li><a href="http://www.mysql.com/">MySQL</a><br>
 </ul>
 <p>
-Some site that will do a step by step install and setup.<p>
-
+Some site that will guide you through a step by step install and setup.
+<p>
 <ul>
 	<li><a href="http://hotwired.lycos.com/webmonkey/99/21/index2a.html">PHP/MySQL Tutorial</a> - also covers installation and setup<br>
 	<li><a href="http://www.vtwebwizard.com/tutorials/mysql/">Another Tutorial</a><br>
@@ -66,7 +68,7 @@ Some site that will do a step by step install and setup.<p>
 	<li><a href="http://www.phpwizard.net/">phpMyAdmin</a><br>
 </ul>
 <p>
-All you really need to do is edit the config.php file to be able to access your mysql installation.  Note that you will need to place phpMyAdmin in your web server directory so you can access it with your web browser.  In order to secure this you should read the documents and use a .htaccess file.  If no one will be accessing your server it's not a big deal; just use your common sense.
+All you really need to do is edit the config.php file to be able to access your mysql installation.  Note that you will need to place phpMyAdmin in your web server directory so you can access it with your web browser.  In order to secure this you should read the documents and use a .htaccess file.  If no one will be accessing your server it's not a big deal; just use common sense.
 <p>
 It may complain about magic_quotes_gpc.  You can make sure this is on by looking in your php.ini file.  Don't forget to restart apache for the settings to take effect.  If that doesn't fix the warning just ignore it.  I haven't had any problems.
 <p>
@@ -86,12 +88,12 @@ It may complain about magic_quotes_gpc.  You can make sure this is on by looking
 <p>
 You can store your SSH public key on the SF server to avoid having to type your password each access.
 <p>
-If you're in a unix all you have to do is set the following environment variable: CVS_RSH=ssh
+If you are in unix, all you have to do is set the following environment variable: CVS_RSH=ssh
 <p>
-In bash just: export CVS_RSH=ssh<br>
-In tcsh just: set CVS_RSH ssh
+In bash: export CVS_RSH=ssh<br>
+In tcsh: set CVS_RSH ssh
 <p>
-TO make this change permanent don't forget to put it in your .bash_profile, profile, .bashrc, .login, or wherever you put your environment variables.  Don't forget to relogin!
+To make this change permanent don't forget to put it in your .bash_profile, profile, .bashrc, .login, or wherever you put your environment variables.  Don't forget to relogin!
 <p>
 If you're in Windows then read the <a href="http://sourceforge.net/docman/display_doc.php?docid=766&group_id=1">SF documentation for Windows</a>
 <p>
@@ -105,14 +107,14 @@ Change into the directory and type: "cvs -n update".  The -n means no changes.  
 <p>
 NOTE: You will have to disable the CVS_RSH=ssh if you want to use that login account for non-SF ssh'ed cvs projects.
 <p>
-Read the INSTALL directions and configure your config_inc.php file.  Install the bugtracker into any database that you would like.  If you do a lot of development you will likely be building multiple installations for testing.  For example, I have one database called bugtracker as my primary database but also make a new one to test each release (mantis-0-15-1, mantis-0-15-2, etc.).
+Read the INSTALL directions and configure your config_inc.php file.  Install the bugtracker into any database that you would like.  If you do a lot of development you will likely be building multiple installations for testing.  For example, I have one database called "bugtracker" as my primary database but also make a new one to test each release (mantis-0-15-1, mantis-0-15-2, etc.).
 <p>
-Open up your browser and test it out.  The bugtracker directory (and any subdirectories) need to be executable.  The files will be happy with a chmod of 644.
+Open up your browser and test it out.  The bugtracker directory (and any subdirectories) need to be world executable.  Otherwise you will get errors about access denial or the images will fail to load.  The files will be happy with a chmod of 644.
 <p>
 
-<a name="cvs"><span class="section">CVS</span></a>
+<? print_dev_section( "cvs", "CVS" ) ?>
 <p>
-<a href="http://cvsbook.red-bean.com/cvsbook.html">CVS reference</a> - The key commands are checkout (or co), update, commit (or ci), remove, and add
+<a href="http://cvsbook.red-bean.com/cvsbook.html">CVS reference</a> - The key commands to learn are checkout (or co), update, commit (or ci), remove, and add.
 <p>
 Remeber to set your EDITOR environment variable to your favorite command line editor.  Otherwise you're likely to get dumped into vi, which is a horrible program to get stuck in for a first time user.  To exit, hit ESC then : then q! then ENTER).  The last line should look like:
 <pre>
@@ -151,22 +153,32 @@ cvs -n update
 	<li><a href="http://www.phpbuilder.net/">phpBuilder</a><br>
 	<li><a href="http://www.mysql.com/doc/">MySQL Documentation</a><p>
 </ul>
-
-<span class="section">Development Tips</span>
 <p>
-<ul>
-	<li>The file naming should be close to self-explanatory.  Please follow the convention in future development. Most of the files follow the same basic templates so you should be able to pretty much just snip at code until you are comfortable<p>
-
-	<li>To get an idea of what you can work on just read up in the roadmap section and it's got some stuff listed.  Of course, if you have a particular interest feel free to explore that as well.  I don't really care about adhering to the schedule (yet), it's just a guideline.<p>
-</ul>
-
+<? print_dev_section( "coding_style", "Coding Style" ) ?>
+<p>
+Please follow the <a href="guidelines.php3">Mantis Coding Conventions</a> document.  Code not following the convetions <b>will not be accepted</b>!
+<p>
+<? print_dev_section( "communication", "Communication" ) ?>
+<p>
+Discussion and communication should occur in the <a href="mailinglists.php3">mailing lists</a> or <a href="forums.php3">forums</a>.  Any private matters should be directed to <a href="mailto:kenito@300baud.org">me</a>.  Please try to keep discussions public.  As an open source project much of the value and excitement comes from having an process that is open to the public.
+<p>
+<? print_dev_section( "patches", "Patches" ) ?>
+<p>
+Patches should be appliable using the unix "patch" command.  Make sure your .patch or .diff files will be compatible or send explicit instructions on how to apply your changes.  Always specify what release you are patching against.
+<p>
+<? print_dev_section( "release", "Release Management" ) ?>
+<p>
+asd
+<p>
+<? print_dev_section( "database", "Database Development" ) ?>
+<p>
 <span class="section">MySQL Tips</span>
 <p>
 <ul>
 	<li>MySQL is pretty primitive: no foreign keys, no subselects, no trasnactions.  Can't do a CASCADE DELETE, can't rollback.  This make it very simple to read and use.<p>
 </ul>
 
-<a name="editor_tips"><span class="section">Editor Tips</span></a>
+<? print_dev_section( "editor_tips", "Editor Tips" ) ?>
 <ul>
 	<li>Choose an editor that you like.
 	<li>Your editor needs to have column and row numbering.
@@ -180,7 +192,7 @@ cvs -n update
 </ul>
 
 <p>
-<a name="php_tips"><span class="section">PHP Tips</span></a>
+<? print_dev_section( "php_tips", "PHP Tips" ) ?>
 <p>
 This is a short crash course in PHP and things that you should take note of when using PHP.
 
@@ -221,7 +233,43 @@ Since php is loosely typed it would try to convert to numbers if you used the + 
 <li>Functions can be defined anywhere in php code.  They must be defined before they are used (so be watchful of your include() ordering).<p>
 </ol>
 
+<!-------------- --------------->
+<span class="section">Rules for Development</span>
+<hr size=1 noshade width="100%">
+<p>
+
+<span class="section">Coding Style</span>
+<p>
+Please follow the <a href="guidelines.php3">Mantis Coding Conventions</a>.
+
+<p>
+<span class="section">CVS commits</span>
+<p>
+Please keep comits short and focused. Ideally you would check in all the files affects by your change(s) at one time.  You should try to commit after every bugfix or feature addition.  Make sure your commit note tells enough so that another developer (familiar with the project) can make sense of what changes were made.  Information might include files, functions, and variables that were modified.
+<p>
+eg.  cvs ci -m "Modified view_all_bug page so that column alignment is better across browsers" view_all_bug_page.php3
+<p>
+Occasionally you can make do with a trivial message like "updates for release" or "tweaked formatting".  This might be when you update the Changelog, or reformatted and cleaned up code, etc.
+
+<p>
+<span class="section">Communication</span>
+<p>
+Please use the <a href="mailinglists.php3">mantisbt-dev mailing list</a> or <a href="forums.php3">forums</a>.  You can monitor forums so that every post is emailed to you.  This way there is a public record of development. If you have a matter you would like to discuss in private them emailing me directly is fine.
+
+<p>
+<span class="section">Testing</span>
+<p>
+In general I would prefer that you test using at least two browsers.  This way most browser dependencies can be caught.  I recommend testing with Internet Explorer and Mozilla.  This captures the vast majority of actual users.  Others that might be considered are Opera, Netscape, Konqueror, and OmniWeb.
+
+<p>
+<span class="section">Other rules</span>
+<p>
+Make sure you signup on the bugtracker and received developer access.
+<p>
+You can mark a bug as resolved if it is commited in CVS.  Please don't close bugs until that release is publicly available.
+<p>
+
 <hr noshade size=1>
-<b><i>If you think of more points or have questions please <a href="mailto:kenito@300baud.org">Let me know!</a></i></b>
+<b><i>If have questions or comments please <a href="mailto:kenito@300baud.org">Let me know!</a></i></b>
 
 <? include( "bot.php3" ); ?>

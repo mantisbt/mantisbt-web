@@ -43,6 +43,7 @@
 			<td class="menu_items">
 				<a href="faq.php3">FAQ</a><br>
 				<a href="irc.php3">IRC</a><br>
+				<a href="polls.php3">Polls</a><br>
 				<a href="forums.php3">Forums</a><br>
 				<a href="mailinglists.php3">Mailing Lists</a><br>
 			</td>
@@ -69,16 +70,13 @@
 		<tr>
 			<td class="menu_items">
 				<a href="general_development.php3">General Information</a><br>
-				<a href="starting.php3">Getting Started</a><br>
 				<a href="guidelines.php3">Coding Guidelines</a><br>
-				<a href="rules.php3">Developer Rules</a><br>
 				<a href="devnotes.php3">Dev Notes</a><br>
 				<a href="devlog.php3">Devlog</a><br>
-				<a href="roadmap.php3">Roadmap</a><br>
-				<a href="polls.php3">Polls</a><br>
+				Task List<br>
 				<a href="api.php3">API</a><br>
 				<a href="cvs.php3">CVS</a><br>
-				Task List<br>
+				<a href="roadmap.php3">Roadmap</a><br>
 				<a href="database.php3">Database</a><br>
 				<a href="localization.php3">Localization</a><br>
 			</td>
