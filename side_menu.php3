@@ -25,7 +25,6 @@
 				&nbsp;&nbsp;&nbsp;<a href="forums.php3">Forums</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="mailinglists.php3">Mailing Lists</a><br>
 				&nbsp;&nbsp;&nbsp;FAQ<br>
-				&nbsp;&nbsp;&nbsp;IRC<br>
 				<span class="big">Modifications</span><br>
 				&nbsp;&nbsp;&nbsp;<a href="phorum.php3">phorum</a><br>
 				&nbsp;&nbsp;&nbsp;phpBB<br>

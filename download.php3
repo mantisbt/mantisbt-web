@@ -21,19 +21,18 @@
 <p>
 <b><font size=+1>Download</font></b>
 <p>
-Use the link to get to the download site for Mantis.  The package is kept in .tar.gz which any reasonable (unix systems, WInzip, Stuffit) decompression program can handle.
+Use the link to get to the download site for Mantis.  The package is kept in .tar.gz which any reasonable (unix systems, Winzip, StuffIt) decompression program can handle.
 <p>
 <div align=center>
 	<a href="http://sourceforge.net/project/showfiles.php?group_id=14963"><b>Download Mantis</b></a>
 </div>
-
 <p>
-Please check out the <a href="release.php3">Release Notes</a> for important notices and information.
+Please read the <a href="release.php3">Release Notes</a> for important notices and information.
 
 <p>
 <b><font size=+1>Mirroring</font></b>
 <p>
-I would prefer that you sign up on the announcements <a href="mailinglists.php3">mailing list</a> if you wish to mirror the software.  You should also have a link back to this page if you offer Mantis for download.
+If you wish to mirror the software, then please sign up on the announcements <a href="mailinglists.php3">mailing list</a>.  You should also place a link back to this page.
 </td>
 </tr>
 </table>

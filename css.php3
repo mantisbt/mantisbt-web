@@ -8,7 +8,7 @@ span.required { font-family:Verdana, Arial; font-size: 10pt; color: #aa0000 }
 span.bugnotedelete { font-family:Verdana, Arial; font-size: 8pt }
 span.small { font-family:Verdana, Arial; font-size: 8pt }
 span.smallcaption { font-family:Verdana, Arial; font-size: 8pt }
-td.serif { font-family: Verdana, Times, serif; font-size: 11pt; line-height: 1.3 }
-span.big { font-family: Verdana, serif; font-size: 11pt; }
-a.big { font-family: Verdana, serif; font-size: 11pt; }
+td.serif { font-family: Verdana, Times, serif; font-size: 10pt; line-height: 1.3 }
+span.big { font-family: Verdana, serif; font-size: 10pt; }
+a.big { font-family: Verdana, serif; font-size: 10pt; }
 </style>
