@@ -5,6 +5,19 @@
 <p>
 Below is a listing of all known security problems in Mantis releases. If you discover a problem not listed below, please contact <a href="mailto:jlatour@users.sourceforge.net">Jeroen Latour</a>.
 <p>
+<span class="section">Remote code execution</span> - <font color=#ff0000>Security Problem</font>
+<p>
+Through GET, POST, or COOKIE variables a user may be able to take advantage of remote script execution.  The fix is in CVS and will be in 0.18.0.  To patch insert these lines at the top of summary_graph_functions.php
+
+<pre>
+if ( isset($HTTP_GET_VARS['g_jpgraph_path']) ||
+	isset($HTTP_POST_VARS['g_jpgraph_path']) ||
+	isset($HTTP_COOKIE_VARS['g_jpgraph_path']) ) {
+		exit;
+}
+</pre>
+
+<p>
 <span class="section">Showing bug listings of private projects</span> - <font color=#ff0000>Security Problem</font>
 <p>
 Through manipulation of cookies it is possible to set a user's current project to a private project, and access the 'View Bugs' page. This has been fixed in CVS, and will appear in 0.18.0.
