@@ -38,7 +38,7 @@
 <p>
 <?php print_dev_section( "introduction", "Introduction" ) ?>
 <p>
-Mantis, an open source project, allows you to contribute changes you make back to the core package.  This allows others to benefit from your work and can help you from having to reimplement your chagnes after an upgrade.  This page should provide useful information on procedures to ensure development goes smoothly.
+Mantis, an open source project, allows you to contribute changes you make back to the core package.  This allows others to benefit from your work and can help you from having to reimplement your changes after an upgrade.  This page should provide useful information on procedures to ensure development goes smoothly.
 <p>
 <?php print_dev_section( "setup", "Setup" ) ?>
 <p>
