@@ -92,8 +92,17 @@
 
 		$path = $g_mantis_path . "lang/";
 
+		if ( !file_exists( $path."strings_english.txt" ) ) {
+			echo "File does not exist: ".$path."strings_english.txt";
+			return;
+		}
 		$english = file( $path."strings_english.txt" );
 		$english_count = count( $english );
+		
+		if ( !file_exists( $path."strings_".$p_lang.".txt" ) ) {
+			echo "File does not exist: ".$path."strings_".$p_lang.".txt";
+			return;
+		}
 		$lang = file( $path."strings_".$p_lang.".txt" );
 		$lang_count = count( $lang );
 
