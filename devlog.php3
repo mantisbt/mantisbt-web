@@ -54,10 +54,14 @@
 		$v_date_posted = date( "m-d-Y h:i a T", $v_date_posted );
 ?>
 <p>
-<table width="100%" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="4">
+<table width="100%" bgcolor="#000000" border="0" cellspacing="1" cellpadding="4">
+<tr>
+	<td class="devheadline">
+		<b><? echo $v_headline ?></b> - <span class="news_date">[ <? echo $v_date_posted ?> ]</span>
+	</td>
+</tr>
 <tr>
 	<td class="devpost">
-		<b><? echo $v_headline ?></b> - <span class="news_date">[ <? echo $v_date_posted ?> ]</span><br>
 		<? echo $v_post ?>
 	</td>
 </tr>
