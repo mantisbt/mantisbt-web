@@ -5,9 +5,9 @@
 <p>
 Login to see Mantis in action.  This installation is also used to track actual Mantis bugs and feature requests.
 <ul>
-	<li>Sign up for your own account! <b>You will need a <font color=#ff000>valid</font> email address.</b>  If you know your email address works but never get emailed then please <a href="mailto:kenito@300baud.org?subject=Signup on bugtracker failed">contact me</a>.
+	<li>Due to SourceForge's policies on email, users can no longer reliably signup for their own accounts.  Similarly, all email notificaitons have been disabled.
 </ul>
-Or you can login with... ( username / password )
+Login with... ( username / password )
 <ul>
 	<li>viewer / viewer
 	<li>reporter / reporter
