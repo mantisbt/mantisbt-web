@@ -29,11 +29,11 @@
 
 <p><b>Filters</b><p>
 	<li><b>[done]</b> Create Saved Queries</li>
-	<li>Filters will be stored in the database instead of cookies.
+	<li><b>[done]</b> Filters will be stored in the database instead of cookies.</li>
 	<li><b>[done]</b> Add date range filter</li>
 	<li><b>[done]</b> Create enhanced search to filter on all/more fields.</li>
-        <li>Create advanced search with multiple selection support for fields.</li>
 	<li><b>[done]</b> Support filtering on custom fields.</li>
+        <li>Create advanced search with multiple selection support for fields.</li>
 <p><b>Javascript</b><p>
 	<li>Rename forms to avoid conflicts
 	<li>Auto focus for entry fields
