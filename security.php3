@@ -22,6 +22,12 @@
 <b><font size=+1>Security</font></b>
 
 <p>
+<b>File Uploads</b> - <font color=#ff0000>Security Hole</font>
+<p>
+Upgrade to Mantis 0.15.6 if you use file uploads.  A user may be able to gain read access to any file on your server.  The release requries you to have PHP 3.0.17 or higher.
+
+
+<p>
 <b>Show Source</b> - Warning
 <p>
 Letting users see the complete source can be a security hazard.  This can happen if you set $g_show_source to something other than 0 or 1.  Users can replace the f_url in the URL with any file available on the system.
