@@ -1,48 +1,29 @@
 		<table class="menu" cellspacing="0">
 		<tr>
-			<td class="menu_top" colspan="2">
+			<td class="menu_top">
 				<span class="big">General</span><br>
 			</td>
 		</tr>
 		<tr>
-			<td class="indicator">
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-			</td>
 			<td class="menu_items">
 				<a class="big" href="index.php3">Home</a><br>
-				<a class="big" href="about.php3">About</a><br>
-				<a class="big" href="credits.php3">Credits</a><br>
 				<a class="big" href="demo.php3">Demo</a><br>
+				<a class="big" href="about.php3">About</a><br>
 				<a class="big" href="download.php3">Download</a><br>
 				<a class="big" href="screenshots.php3">Screenshots</a><br>
-				<!--&nbsp;&nbsp;&nbsp;<a class="big" href="release.php3">Release Notes</a><br>-->
+				<!--<a class="big" href="release.php3">Release Notes</a><br>-->
 			</td>
 		</tr>
 		<tr>
-			<td class="menu_head" colspan="2">
+			<td class="menu_head">
 				<span class="big">Documentation</span><br>
 			</td>
 		</tr>
 		<tr>
-			<td class="indicator">
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-			</td>
 			<td class="menu_items">
 				<a href="mantis/documentation.html">User</a><br>
 				<a href="mantis/configuration.html">Configuration</a><br>
+				<a class="big" href="credits.php3">Credits</a><br>
 				<a href="notes.php3">Notes</a><br>
 				<a href="installation.php3">Installation</a><br>
 				<a href="upgrading.php3">Ugrading</a><br>
@@ -54,17 +35,11 @@
 			</td>
 		</tr>
 		<tr>
-			<td class="menu_head" colspan="2">
+			<td class="menu_head">
 				<span class="big">Support</span><br>
 			</td>
 		</tr>
 		<tr>
-			<td class="indicator">
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-			</td>
 			<td class="menu_items">
 				<a href="forums.php3">Forums</a><br>
 				<a href="mailinglists.php3">Mailing Lists</a><br>
@@ -73,43 +48,27 @@
 			</td>
 		</tr>
 		<tr>
-			<td class="menu_head" colspan="2">
+			<td class="menu_head">
 				<span class="big">Modifications</span><br>
 			</td>
 		</tr>
 		<tr>
-			<td class="indicator">
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-			</td>
 			<td class="menu_items">
 				<a href="mod_phorum.php3">phorum</a><br>
 				phpBB<br>
 				<a href="mod_daily_reports.php3">daily reports</a><br>
 				<a href="mod_anonymous_reports.php3">anon-reports</a><br>
+				<a href="mod_phpwebsite.php3">phpWebSite</a><br>
 			</td>
 		</tr>
 		<tr>
-			<td class="menu_head" colspan="2">
+			<td class="menu_head">
 				<span class="big">Development</span><br>
 			</td>
 		</tr>
 		<tr>
-			<td class="indicator">
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-				&nbsp;<br>
-			</td>
 			<td class="menu_items">
+				<a href="general_development.php3">General Information</a><br>
 				<a href="starting.php3">Getting Started</a><br>
 				<a href="guidelines.php3">Coding Guidelines</a><br>
 				<a href="rules.php3">Developer Rules</a><br>
@@ -124,7 +83,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td class="menu_sf" colspan="2">
+			<td class="menu_sf">
 				<p>
 				<a href="http://sourceforge.net/projects/mantisbt/"><img src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo"></a>
 				<p>
