@@ -112,6 +112,7 @@
 			<td class="menu_items">
 				<a href="starting.php3">Getting Started</a><br>
 				<a href="guidelines.php3">Coding Guidelines</a><br>
+				<a href="rules.php3">Developer Rules</a><br>
 				<a href="devnotes.php3">Dev Notes</a><br>
 				<a href="roadmap.php3">Roadmap</a><br>
 				<a href="polls.php3">Polls</a><br>
