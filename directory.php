@@ -31,6 +31,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 
 <?php
 	section( 'C' );
+		entry( 'CAPSHER Technology, Inc.', 'http://www.capsher.com/', null );
 		entry( 'chan_sccp', 'http://chan-sccp.sourceforge.net/', 'http://www.czmok.de/devtrack/' );
 		entry( 'CMSform<sup>E</sup>', 'http://cmsforme.sourceforge.net/', 'http://cmsforme.sourceforge.net/bugs/' );
 	section_end();
