@@ -15,9 +15,9 @@
 				}
 			PRINT "</td>";
 			PRINT "<td>";
-				if (( file_exists( $t_file_name ) )&&( $p_state="active" )) {
+				if (( file_exists( $t_file_name ) )&&( $p_state=="active" )) {
 					PRINT "<a href=\"$t_file_name\">download</a>";
-				} else if ( $p_state="active" ) {
+				} else if ( $p_state=="active" ) {
 					PRINT "in progress";
 				} else {
 					PRINT"&nbsp;";
@@ -73,10 +73,10 @@ Here you can see the latest localization files.  Some of them are included with 
 	</td>
 </tr>
 <?
-	print_lang( "English",     "0.14.x",  "active" );
+	print_lang( "English",     "0.14.4",  "active" );
 	print_lang( "German",      "",  "" );
-	print_lang( "Spanish",     "",  "" );
-	print_lang( "Portuguese",  "",  "" );
+	print_lang( "Spanish",     "0.14.4",  "active" );
+	print_lang( "Portuguese",  "0.14.4",  "active" );
 	print_lang( "Italian",     "",  "" );
 	print_lang( "Dutch",       "",  "" );
 ?>
