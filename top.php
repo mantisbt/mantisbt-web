@@ -36,5 +36,5 @@
 	<td class="menu_left">
 		<?php include( "side_menu.php" ); ?>
 	</td>
-	<td class="main" colspan=2>
+	<td class="main">
 

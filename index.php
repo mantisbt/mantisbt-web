@@ -185,7 +185,7 @@ google_ad_channel ="";
 google_color_border = "B8B8FF";
 google_color_bg = "FFFFFF";
 google_color_link = "4080D0";
-google_color_url = "00D0D0";
+google_color_url = "3070C0";
 google_color_text = "000000";
 //-->
 </script>
