@@ -68,6 +68,7 @@ What to do if you see some errors?  Just <a href="mailto:kenito@300baud.org">sen
 <?
 	print_lang( "English",				"latest",  "active" );
 	print_lang( "Chinese_Traditional",	"latest",  "active" );
+	print_lang( "Czech",				"latest",  "active" );
 	print_lang( "Danish",				"latest",  "active" );
 	print_lang( "Dutch",				"latest",  "active" );
 	print_lang( "French",				"latest",  "active" );
@@ -75,6 +76,8 @@ What to do if you see some errors?  Just <a href="mailto:kenito@300baud.org">sen
 	print_lang( "German",				"latest",  "active" );
 	print_lang( "Hungarian",			"latest",  "active" );
 	print_lang( "Italian",				"latest",  "active" );
+	print_lang( "Japanese_EUC",			"latest",  "active" );
+	print_lang( "Japanese_SJIS",		"latest",  "active" );
 	print_lang( "Korean",				"latest",  "active" );
 	print_lang( "Norwegian",			"latest",  "active" );
 	print_lang( "Polish",				"latest",  "active" );
