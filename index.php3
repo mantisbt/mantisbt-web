@@ -68,7 +68,6 @@ It is currently in development and is considered beta.
 		<td width="100%">
 <?
 	$query = "SELECT * FROM vbooth_desc
-			WHERE TO_DAYS(NOW()) - TO_DAYS(timeStamp) <= '7'
 			ORDER BY timeStamp DESC
 			LIMIT 4";
 	$result = mysql_query( $query );

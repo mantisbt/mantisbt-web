@@ -3,7 +3,7 @@
 </div>
 
 <p>For more information about this faq or to make a comment or correction, please contact <a href="mailto:kenito@300baud.org">Kenzaburo Ito</a>
-<p><i>FAQ Revised: Saturday 18 August 2001 11:50:53</i></p>
+<p><i>FAQ Revised: Saturday 25 August 2001 18:11:59</i></p>
 <table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>Table of Contents</b></td></tr></table>
 <dl>
 <dt><b>1. General</b></dt>
@@ -20,80 +20,88 @@
 <li><a href="#Appearance3">2.4. I want to see a listing of bugs sorted by reporter (or assignee).</a></li>
 <li><a href="#Appearance4">2.5. I want to have a custom company logo at the top of every page</a></li>
 <li><a href="#Appearance5">2.6. I want some nice graphs when I look at bug stats.</a></li>
+<li><a href="#Appearance6">2.7. I want to change some of the CSS.</a></li>
+<li><a href="#Appearance7">2.8. What are these @null@ values that I'm seeing?</a></li>
 </ul></dd>
 <dt><b>3. Configuration</b></dt>
 <dd><ul>
 <li><a href="#Configuration0">3.1. How can I use Mantis with SSL?</a></li>
 <li><a href="#Configuration1">3.2. Can I run Mantis on a different http port, like 1080?</a></li>
 </ul></dd>
-<dt><b>4. Database</b></dt>
+<dt><b>4. Customization</b></dt>
 <dd><ul>
-<li><a href="#Database0">4.1. How do I backup the MySQL database?</a></li>
-<li><a href="#Database1">4.2. When will Mantis have Database Abstraction?</a></li>
-<li><a href="#Database2">4.3. Why did you pick MySQL?</a></li>
+<li><a href="#Customization0">4.1. I want the project to change automatically when I select it!</a></li>
+<li><a href="#Customization1">4.2. I want to change or add or remove some of the META tags.</a></li>
 </ul></dd>
-<dt><b>5. Email</b></dt>
+<dt><b>5. Database</b></dt>
 <dd><ul>
-<li><a href="#Email0">5.1. When is email notification sent out?</a></li>
-<li><a href="#Email1">5.2. Why does it take a really long time for a report to get submitted?  Everything else is pretty responsive.</a></li>
-<li><a href="#Email2">5.3. The email validation isn't working correctly.  How can I fix this?</a></li>
-<li><a href="#Email3">5.4. I forgot my password.  How can I have it automatically emailed to me?</a></li>
+<li><a href="#Database0">5.1. How do I backup the MySQL database?</a></li>
+<li><a href="#Database1">5.2. When will Mantis have Database Abstraction?</a></li>
+<li><a href="#Database2">5.3. Why did you pick MySQL?</a></li>
 </ul></dd>
-<dt><b>6. Encryption</b></dt>
+<dt><b>6. Email</b></dt>
 <dd><ul>
-<li><a href="#Encryption0">6.1. I don't have crypt() installed.  Can I run Mantis?</a></li>
-<li><a href="#Encryption1">6.2. I'm getting this error message: Fatal error: Call to unsupported or undefined function crypt() in core_user_API.php on line 134</a></li>
+<li><a href="#Email0">6.1. When is email notification sent out?</a></li>
+<li><a href="#Email1">6.2. Why does it take a really long time for a report to get submitted?  Everything else is pretty responsive.</a></li>
+<li><a href="#Email2">6.3. The email validation isn't working correctly.  How can I fix this?</a></li>
+<li><a href="#Email3">6.4. I forgot my password.  How can I have it automatically emailed to me?</a></li>
 </ul></dd>
-<dt><b>7. Errors</b></dt>
+<dt><b>7. Encryption</b></dt>
 <dd><ul>
-<li><a href="#Errors0">7.1. I'm getting the following error: Warning: Missing argument 5 for print_manage_user_sort_link() in /usr/local/share/doc/apache/mantis/core_print_API.php on line 548.  I'm using Mantis 0.15.3</a></li>
-<li><a href="#Errors1">7.2. Running Windows.  Warning: unexpected error in date() in c:\program files\nusphere\apache\htdocs\mantis\manage_page.php3 on line xxx</a></li>
+<li><a href="#Encryption0">7.1. I don't have crypt() installed.  Can I run Mantis?</a></li>
+<li><a href="#Encryption1">7.2. I'm getting this error message: Fatal error: Call to unsupported or undefined function crypt() in core_user_API.php on line 134</a></li>
 </ul></dd>
-<dt><b>8. Functionality</b></dt>
+<dt><b>8. Errors</b></dt>
 <dd><ul>
-<li><a href="#Functionality0">8.1. Can I move existing bugs to other projects?</a></li>
-<li><a href="#Functionality1">8.2. Is there bug history logging in Mantis?</a></li>
-<li><a href="#Functionality2">8.3. Does Mantis have graphs for showing bug statistics?</a></li>
-<li><a href="#Functionality3">8.4. How can I view bugs across multiple projects at the same time?</a></li>
-<li><a href="#Functionality4">8.5. Does Mantis support file uploads?</a></li>
-<li><a href="#Functionality5">8.6. Can Mantis store user-created custom queries?</a></li>
-<li><a href="#Functionality6">8.7. Does Mantis have target relapses or milestones?</a></li>
-<li><a href="#Functionality7">8.8. Does Mantis support multiple projects?</a></li>
-<li><a href="#Functionality8">8.9. Why can't I sort by multiple sort keys?</a></li>
-<li><a href="#Functionality9">8.10. I'd like a daily/weekly/monthly digest of events that have occurred.</a></li>
-<li><a href="#Functionality10">8.11. Does Mantis have fulltext searching?</a></li>
-<li><a href="#Functionality11">8.12. Can all bugs in a certain category automatically be assigned to a user?</a></li>
-<li><a href="#Functionality12">8.13. Can I customize the view bugs screen?  I want to see more fields.</a></li>
-<li><a href="#Functionality13">8.14. I'm getting permission denied errors uploading files in win2k.</a></li>
-<li><a href="#Functionality14">8.15. Can I specify which fields are required?</a></li>
-<li><a href="#Functionality15">8.16. Can I rearrange which fields are avialabel int eh simple and advanced report forms?</a></li>
+<li><a href="#Errors0">8.1. I'm getting the following error: Warning: Missing argument 5 for print_manage_user_sort_link() in /usr/local/share/doc/apache/mantis/core_print_API.php on line 548.  I'm using Mantis 0.15.3</a></li>
+<li><a href="#Errors1">8.2. Running Windows.  Warning: unexpected error in date() in c:\program files\nusphere\apache\htdocs\mantis\manage_page.php3 on line xxx</a></li>
 </ul></dd>
-<dt><b>9. License</b></dt>
+<dt><b>9. Functionality</b></dt>
 <dd><ul>
-<li><a href="#License0">9.1. What license does Mantis use?</a></li>
-<li><a href="#License1">9.2. Why did you choose the GPL?</a></li>
-<li><a href="#License2">9.3. Doesn't the GPL mean that we have to make any customizations we make available to everyone else?</a></li>
+<li><a href="#Functionality0">9.1. Can I move existing bugs to other projects?</a></li>
+<li><a href="#Functionality1">9.2. Is there bug history logging in Mantis?</a></li>
+<li><a href="#Functionality2">9.3. Does Mantis have graphs for showing bug statistics?</a></li>
+<li><a href="#Functionality3">9.4. How can I view bugs across multiple projects at the same time?</a></li>
+<li><a href="#Functionality4">9.5. Does Mantis support file uploads?</a></li>
+<li><a href="#Functionality5">9.6. Can Mantis store user-created custom queries?</a></li>
+<li><a href="#Functionality6">9.7. Does Mantis have target relapses or milestones?</a></li>
+<li><a href="#Functionality7">9.8. Does Mantis support multiple projects?</a></li>
+<li><a href="#Functionality8">9.9. Why can't I sort by multiple sort keys?</a></li>
+<li><a href="#Functionality9">9.10. I'd like a daily/weekly/monthly digest of events that have occurred.</a></li>
+<li><a href="#Functionality10">9.11. Does Mantis have fulltext searching?</a></li>
+<li><a href="#Functionality11">9.12. Can all bugs in a certain category automatically be assigned to a user?</a></li>
+<li><a href="#Functionality12">9.13. Can I customize the view bugs screen?  I want to see more fields.</a></li>
+<li><a href="#Functionality13">9.14. I'm getting permission denied errors uploading files in win2k.</a></li>
+<li><a href="#Functionality14">9.15. Can I specify which fields are required?</a></li>
+<li><a href="#Functionality15">9.16. Can I rearrange which fields are avialabel int eh simple and advanced report forms?</a></li>
+<li><a href="#Functionality16">9.17. I want a nice quick way of linking to other bugs.</a></li>
 </ul></dd>
-<dt><b>10. Localization</b></dt>
+<dt><b>10. License</b></dt>
 <dd><ul>
-<li><a href="#Localization0">10.1. Does Mantis support other languages?</a></li>
+<li><a href="#License0">10.1. What license does Mantis use?</a></li>
+<li><a href="#License1">10.2. Why did you choose the GPL?</a></li>
+<li><a href="#License2">10.3. Doesn't the GPL mean that we have to make any customizations we make available to everyone else?</a></li>
 </ul></dd>
-<dt><b>11. Modifications</b></dt>
+<dt><b>11. Localization</b></dt>
 <dd><ul>
-<li><a href="#Modifications0">11.1. Can you add a discussion forum to Mantis?</a></li>
+<li><a href="#Localization0">11.1. Does Mantis support other languages?</a></li>
 </ul></dd>
-<dt><b>12. Requirements</b></dt>
+<dt><b>12. Modifications</b></dt>
 <dd><ul>
-<li><a href="#Requirements0">12.1. What are the minimum requirements?</a></li>
-<li><a href="#Requirements1">12.2. Does this actually run on Windows?</a></li>
-<li><a href="#Requirements2">12.3. I don't use cookies.  Can I still use Mantis?</a></li>
-<li><a href="#Requirements3">12.4. Does Mantis require Javascript to be turned on?</a></li>
-<li><a href="#Requirements4">12.5. I don't have a database.  Can I still run Mantis?</a></li>
-<li><a href="#Requirements5">12.6. Could you use a flat file in place of a database?</a></li>
+<li><a href="#Modifications0">12.1. Can you add a discussion forum to Mantis?</a></li>
 </ul></dd>
-<dt><b>13. Paranoia</b></dt>
+<dt><b>13. Requirements</b></dt>
 <dd><ul>
-<li><a href="#Paranoia0">13.1. I can't use Mantis because it will infect all my software with the GNU GPL!</a></li>
+<li><a href="#Requirements0">13.1. What are the minimum requirements?</a></li>
+<li><a href="#Requirements1">13.2. Does this actually run on Windows?</a></li>
+<li><a href="#Requirements2">13.3. I don't use cookies.  Can I still use Mantis?</a></li>
+<li><a href="#Requirements3">13.4. Does Mantis require Javascript to be turned on?</a></li>
+<li><a href="#Requirements4">13.5. I don't have a database.  Can I still run Mantis?</a></li>
+<li><a href="#Requirements5">13.6. Could you use a flat file in place of a database?</a></li>
+</ul></dd>
+<dt><b>14. Paranoia</b></dt>
+<dd><ul>
+<li><a href="#Paranoia0">14.1. I can't use Mantis because it will infect all my software with the GNU GPL!</a></li>
 </ul></dd>
 </dl>
 <table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>1. General</b></td></tr></table>
@@ -122,7 +130,11 @@
 <p>
 Additionally you could modify the code in <i>core_print_API.php</i><br><br></dd>
 <dt><b><a name="Appearance5">2.6. I want some nice graphs when I look at bug stats.</a></b></dt>
-<dd>There is preliminary support available via the JpGraphs package.  You will need to download and install the package and enable use in <i>config_inc.php</i>
+<dd>There is preliminary support available via the JpGraphs package.  You will need to download and install the package and enable use in <i>config_inc.php</i><br><br></dd>
+<dt><b><a name="Appearance6">2.7. I want to change some of the CSS.</a></b></dt>
+<dd>Edit the css_inc.php file.<br><br></dd>
+<dt><b><a name="Appearance7">2.8. What are these @null@ values that I'm seeing?</a></b></dt>
+<dd>Release 0.15.0 converted the ENUM values to INT in order to achieve full localization.  As a result these INT values index into an array which corresponds to their actual text.  If the value stored in the database has no textual match then @null@ is displayed.
 
 <!-- ------------- Configuration ------------- --><br><br></dd>
 </dl>
@@ -133,14 +145,23 @@ Additionally you could modify the code in <i>core_print_API.php</i><br><br></dd>
 <dt><b><a name="Configuration1">3.2. Can I run Mantis on a different http port, like 1080?</a></b></dt>
 <dd>Just open up config_inc.php and change your $g_path variable to use <code>http://your_domain:1080/</code> (or whatever your port is) instead of <code>http://</code>
 
-<!-- ------------- Customization ------------- -->
-
+<!-- ------------- Customization ------------- --><br><br></dd>
+</dl>
+<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>4. Customization</b></td></tr></table>
+<dl>
+<dt><b><a name="Customization0">4.1. I want the project to change automatically when I select it!</a></b></dt>
+<dd>This customization uses Javascript.  Change line 157 in core_html_API.php in function print_login_info() from:<p>
+<code>PRINT "&lt;select name=f_project_id>";</code><p>
+to:<p>
+<code>PRINT "&lt;select name=\"f_project_id\"onchange=\"javascript:this.form.submit();\">";</code><br><br></dd>
+<dt><b><a name="Customization1">4.2. I want to change or add or remove some of the META tags.</a></b></dt>
+<dd>Edit the meta_inc.php file.
 
 <!-- ------------- Database ------------- --><br><br></dd>
 </dl>
-<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>4. Database</b></td></tr></table>
+<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>5. Database</b></td></tr></table>
 <dl>
-<dt><b><a name="Database0">4.1. How do I backup the MySQL database?</a></b></dt>
+<dt><b><a name="Database0">5.1. How do I backup the MySQL database?</a></b></dt>
 <dd>Run the mysqldump command and pipe the output to a file.
 <p>
 <code>
@@ -151,16 +172,16 @@ To import, just run this:
 <code>
 mysql -u[username] -p[password] [database] < [input filename]
 </code><br><br></dd>
-<dt><b><a name="Database1">4.2. When will Mantis have Database Abstraction?</a></b></dt>
+<dt><b><a name="Database1">5.2. When will Mantis have Database Abstraction?</a></b></dt>
 <dd>Sometime in the future.  It will probably make use of the ADODB package.<br><br></dd>
-<dt><b><a name="Database2">4.3. Why did you pick MySQL?</a></b></dt>
+<dt><b><a name="Database2">5.3. Why did you pick MySQL?</a></b></dt>
 <dd>The main reasons for using MySQL were that is ubiquitous, runs most anywhere, and is extremely simple.  I fully realize how it is almost laughable when compared with 'real' databases like Oracle.  Other databases will be supported as resources become available.  This will likely happen around the 1.0 release when things become more stable.
 
 <!-- ------------- Email ------------- --><br><br></dd>
 </dl>
-<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>5. Email</b></td></tr></table>
+<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>6. Email</b></td></tr></table>
 <dl>
-<dt><b><a name="Email0">5.1. When is email notification sent out?</a></b></dt>
+<dt><b><a name="Email0">6.1. When is email notification sent out?</a></b></dt>
 <dd>Email notification can be sent out on the following events
 <p>
 <ul>
@@ -172,121 +193,123 @@ mysql -u[username] -p[password] [database] < [input filename]
 <li> A bug is set to CLOSED
 <li> A bug is REOPENED (FEEDBACK)
 </ul><br><br></dd>
-<dt><b><a name="Email1">5.2. Why does it take a really long time for a report to get submitted?  Everything else is pretty responsive.</a></b></dt>
+<dt><b><a name="Email1">6.2. Why does it take a really long time for a report to get submitted?  Everything else is pretty responsive.</a></b></dt>
 <dd>The most likely cause is that the email system isn't properly configured.  Take a look at your settings and your mail server and make sure that everything is functioning correctly.
 <p>
 Otherwise your system may be under a high load.<br><br></dd>
-<dt><b><a name="Email2">5.3. The email validation isn't working correctly.  How can I fix this?</a></b></dt>
+<dt><b><a name="Email2">6.3. The email validation isn't working correctly.  How can I fix this?</a></b></dt>
 <dd>You can disable the email validation by toggling the config variable in config_inc.php.  You can try to just disable the mx record check, which checks to see that the domain supplied has a valid mail record, or also disable the email format validation check.<br><br></dd>
-<dt><b><a name="Email3">5.4. I forgot my password.  How can I have it automatically emailed to me?</a></b></dt>
+<dt><b><a name="Email3">6.4. I forgot my password.  How can I have it automatically emailed to me?</a></b></dt>
 <dd>Currently you cannot since the encryption process is one-way.  That means your password is relatively secure but  cannot be recovered.  You will need the administrator to reset your password.
 
 <!-- ------------- Encryption ------------- --><br><br></dd>
 </dl>
-<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>6. Encryption</b></td></tr></table>
+<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>7. Encryption</b></td></tr></table>
 <dl>
-<dt><b><a name="Encryption0">6.1. I don't have crypt() installed.  Can I run Mantis?</a></b></dt>
+<dt><b><a name="Encryption0">7.1. I don't have crypt() installed.  Can I run Mantis?</a></b></dt>
 <dd>Not unless you do some tweaking to the code.  You'll have to manually comment out all calls to the crypt function and manually recreate user passwords in clear-text.  A future release will allow for multiple authentication methods.<br><br></dd>
-<dt><b><a name="Encryption1">6.2. I'm getting this error message: Fatal error: Call to unsupported or undefined function crypt() in core_user_API.php on line 134</a></b></dt>
+<dt><b><a name="Encryption1">7.2. I'm getting this error message: Fatal error: Call to unsupported or undefined function crypt() in core_user_API.php on line 134</a></b></dt>
 <dd>All builds of PHP4 and up are supposed to have crypt() built-in.  However, due to some errors the 4.0.5 and possibly the 4.0.6 builds do not have this built-in.  This applies to Windows in particular but also to several other platforms (OpenBSD, etc.)
 
 <!-- ------------- Errors ------------- --><br><br></dd>
 </dl>
-<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>7. Errors</b></td></tr></table>
+<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>8. Errors</b></td></tr></table>
 <dl>
-<dt><b><a name="Errors0">7.1. I'm getting the following error: Warning: Missing argument 5 for print_manage_user_sort_link() in /usr/local/share/doc/apache/mantis/core_print_API.php on line 548.  I'm using Mantis 0.15.3</a></b></dt>
+<dt><b><a name="Errors0">8.1. I'm getting the following error: Warning: Missing argument 5 for print_manage_user_sort_link() in /usr/local/share/doc/apache/mantis/core_print_API.php on line 548.  I'm using Mantis 0.15.3</a></b></dt>
 <dd>Change the last argument in the function call to $p_hide=0<br><br></dd>
-<dt><b><a name="Errors1">7.2. Running Windows.  Warning: unexpected error in date() in c:\program files\nusphere\apache\htdocs\mantis\manage_page.php3 on line xxx</a></b></dt>
+<dt><b><a name="Errors1">8.2. Running Windows.  Warning: unexpected error in date() in c:\program files\nusphere\apache\htdocs\mantis\manage_page.php3 on line xxx</a></b></dt>
 <dd>This is a result of an error in Windows/PHP when the date is all zeroes.  Of course, the date should never be all zeroes so that's a bug on Mantis' part.  It should be fixed.  To quick fix you will need to run a sql query to update any time field that is equal to all zeroes to something non-zero.
 
 <!-- ------------- Functionality ------------- --><br><br></dd>
 </dl>
-<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>8. Functionality</b></td></tr></table>
+<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>9. Functionality</b></td></tr></table>
 <dl>
-<dt><b><a name="Functionality0">8.1. Can I move existing bugs to other projects?</a></b></dt>
+<dt><b><a name="Functionality0">9.1. Can I move existing bugs to other projects?</a></b></dt>
 <dd>Not yet<br><br></dd>
-<dt><b><a name="Functionality1">8.2. Is there bug history logging in Mantis?</a></b></dt>
+<dt><b><a name="Functionality1">9.2. Is there bug history logging in Mantis?</a></b></dt>
 <dd>Not yet<br><br></dd>
-<dt><b><a name="Functionality2">8.3. Does Mantis have graphs for showing bug statistics?</a></b></dt>
+<dt><b><a name="Functionality2">9.3. Does Mantis have graphs for showing bug statistics?</a></b></dt>
 <dd>There is preliminary support in place.  You will have to grab the JpGraph package (http://www.freshmeat.net/projects/jpgraph/)<br><br></dd>
-<dt><b><a name="Functionality3">8.4. How can I view bugs across multiple projects at the same time?</a></b></dt>
+<dt><b><a name="Functionality3">9.4. How can I view bugs across multiple projects at the same time?</a></b></dt>
 <dd>Currently you can't.<br><br></dd>
-<dt><b><a name="Functionality4">8.5. Does Mantis support file uploads?</a></b></dt>
+<dt><b><a name="Functionality4">9.5. Does Mantis support file uploads?</a></b></dt>
 <dd>Currently Mantis allows uploads to disk only.  The directories must be writable by the webserver.  Each bug can have multiple attachments and each project can have documents attached to it as well.<br><br></dd>
-<dt><b><a name="Functionality5">8.6. Can Mantis store user-created custom queries?</a></b></dt>
+<dt><b><a name="Functionality5">9.6. Can Mantis store user-created custom queries?</a></b></dt>
 <dd>Not yet.<br><br></dd>
-<dt><b><a name="Functionality6">8.7. Does Mantis have target relapses or milestones?</a></b></dt>
+<dt><b><a name="Functionality6">9.7. Does Mantis have target relapses or milestones?</a></b></dt>
 <dd>Not yet.<br><br></dd>
-<dt><b><a name="Functionality7">8.8. Does Mantis support multiple projects?</a></b></dt>
+<dt><b><a name="Functionality7">9.8. Does Mantis support multiple projects?</a></b></dt>
 <dd>Yes!  However, support is still new and immature.  There are probably kinks to work out and features and functionality that could be implemented better.<br><br></dd>
-<dt><b><a name="Functionality8">8.9. Why can't I sort by multiple sort keys?</a></b></dt>
+<dt><b><a name="Functionality8">9.9. Why can't I sort by multiple sort keys?</a></b></dt>
 <dd>The main reason is because there isn't a good way to do this given the current UI and code layout.  Eventually a more complex query builder and advanced filtering interface will allow for this to happen.<br><br></dd>
-<dt><b><a name="Functionality9">8.10. I'd like a daily/weekly/monthly digest of events that have occurred.</a></b></dt>
+<dt><b><a name="Functionality9">9.10. I'd like a daily/weekly/monthly digest of events that have occurred.</a></b></dt>
 <dd>Not yet.<br><br></dd>
-<dt><b><a name="Functionality10">8.11. Does Mantis have fulltext searching?</a></b></dt>
+<dt><b><a name="Functionality10">9.11. Does Mantis have fulltext searching?</a></b></dt>
 <dd>There is a simple bug search but not a full search through all fields.<br><br></dd>
-<dt><b><a name="Functionality11">8.12. Can all bugs in a certain category automatically be assigned to a user?</a></b></dt>
+<dt><b><a name="Functionality11">9.12. Can all bugs in a certain category automatically be assigned to a user?</a></b></dt>
 <dd>Not yet.<br><br></dd>
-<dt><b><a name="Functionality12">8.13. Can I customize the view bugs screen?  I want to see more fields.</a></b></dt>
+<dt><b><a name="Functionality12">9.13. Can I customize the view bugs screen?  I want to see more fields.</a></b></dt>
 <dd>You can do this by hand if you know a little php and html but there is currently no browser-based method to do this.<br><br></dd>
-<dt><b><a name="Functionality13">8.14. I'm getting permission denied errors uploading files in win2k.</a></b></dt>
+<dt><b><a name="Functionality13">9.14. I'm getting permission denied errors uploading files in win2k.</a></b></dt>
 <dd>Make sure the path is set properly in the project settings and that the folder has the proper security permissions.<br><br></dd>
-<dt><b><a name="Functionality14">8.15. Can I specify which fields are required?</a></b></dt>
+<dt><b><a name="Functionality14">9.15. Can I specify which fields are required?</a></b></dt>
 <dd>Not unless you modify the code.<br><br></dd>
-<dt><b><a name="Functionality15">8.16. Can I rearrange which fields are avialabel int eh simple and advanced report forms?</a></b></dt>
-<dd>Not unless you modify the code.
+<dt><b><a name="Functionality15">9.16. Can I rearrange which fields are avialabel int eh simple and advanced report forms?</a></b></dt>
+<dd>Not unless you modify the code.<br><br></dd>
+<dt><b><a name="Functionality16">9.17. I want a nice quick way of linking to other bugs.</a></b></dt>
+<dd>Just prefix a bug id with the # sign.  So if you type #742 then it will automatically create a link to bug #742.
 
 <!-- ------------- License ------------- --><br><br></dd>
 </dl>
-<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>9. License</b></td></tr></table>
+<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>10. License</b></td></tr></table>
 <dl>
-<dt><b><a name="License0">9.1. What license does Mantis use?</a></b></dt>
+<dt><b><a name="License0">10.1. What license does Mantis use?</a></b></dt>
 <dd>Mantis is distributed under the GNU General Public License (GPL).<br><br></dd>
-<dt><b><a name="License1">9.2. Why did you choose the GPL?</a></b></dt>
+<dt><b><a name="License1">10.2. Why did you choose the GPL?</a></b></dt>
 <dd>While I have no great love of the GPL it happens to best fit my personal beliefs and philosophy regarding the software.  My personal belief is that development tools should be free for others to use.  They are the ultimate tools of empowerment.
 <p>
 As a side benefit I can freely import existing code from the great many other PHP based GPL packages without worry about license conflicts.<br><br></dd>
-<dt><b><a name="License2">9.3. Doesn't the GPL mean that we have to make any customizations we make available to everyone else?</a></b></dt>
+<dt><b><a name="License2">10.3. Doesn't the GPL mean that we have to make any customizations we make available to everyone else?</a></b></dt>
 <dd>No.  The GPL states that the source code needs to be available only to those you distribute the package.  However, you cannot prevent those people from distributing the source.  The important point is that if you never distribute Mantis you never need to make the source changes available.  This includes customers who just visit the bug tracker to make a report.
 
 <!-- ------------- Localization ------------- --><br><br></dd>
 </dl>
-<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>10. Localization</b></td></tr></table>
+<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>11. Localization</b></td></tr></table>
 <dl>
-<dt><b><a name="Localization0">10.1. Does Mantis support other languages?</a></b></dt>
+<dt><b><a name="Localization0">11.1. Does Mantis support other languages?</a></b></dt>
 <dd>Yes.  The localization files are stored as .txt files.  All that is required to support a language is the translation of those language strings.
 
 <!-- ------------- Modifications ------------- --><br><br></dd>
 </dl>
-<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>11. Modifications</b></td></tr></table>
+<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>12. Modifications</b></td></tr></table>
 <dl>
-<dt><b><a name="Modifications0">11.1. Can you add a discussion forum to Mantis?</a></b></dt>
+<dt><b><a name="Modifications0">12.1. Can you add a discussion forum to Mantis?</a></b></dt>
 <dd>There is a Phorum integration HOWTO available here: <a href="http://mantisbt.sourceforge.net/">http://mantisbt.sourceforge.net/</a>
 <p>
 Other forums integrations may follow (phpbb, etc.)
 
 <!-- ------------- Requirements ------------- --><br><br></dd>
 </dl>
-<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>12. Requirements</b></td></tr></table>
+<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>13. Requirements</b></td></tr></table>
 <dl>
-<dt><b><a name="Requirements0">12.1. What are the minimum requirements?</a></b></dt>
+<dt><b><a name="Requirements0">13.1. What are the minimum requirements?</a></b></dt>
 <dd>Mantis requires a web server, PHP and MySQL.  You will need PHP 3.0.13 or higher installed and compiled with MySQL support.  You will also need a web server setup to process PHP scripts.<br><br></dd>
-<dt><b><a name="Requirements1">12.2. Does this actually run on Windows?</a></b></dt>
+<dt><b><a name="Requirements1">13.2. Does this actually run on Windows?</a></b></dt>
 <dd>Mantis is known to run on Windows NT and 2000 using a variety of web servers (IIS, APache, Bad Blue, etc.).  There are occasionally platform specific problems depending on the webserver used and the version of PHP.<br><br></dd>
-<dt><b><a name="Requirements2">12.3. I don't use cookies.  Can I still use Mantis?</a></b></dt>
+<dt><b><a name="Requirements2">13.3. I don't use cookies.  Can I still use Mantis?</a></b></dt>
 <dd>No. You must enable cookies to use the package.<br><br></dd>
-<dt><b><a name="Requirements3">12.4. Does Mantis require Javascript to be turned on?</a></b></dt>
+<dt><b><a name="Requirements3">13.4. Does Mantis require Javascript to be turned on?</a></b></dt>
 <dd>No. There are no plans to add Javascript to the package at this time.<br><br></dd>
-<dt><b><a name="Requirements4">12.5. I don't have a database.  Can I still run Mantis?</a></b></dt>
+<dt><b><a name="Requirements4">13.5. I don't have a database.  Can I still run Mantis?</a></b></dt>
 <dd>No. You must have a database running to use Mantis.<br><br></dd>
-<dt><b><a name="Requirements5">12.6. Could you use a flat file in place of a database?</a></b></dt>
+<dt><b><a name="Requirements5">13.6. Could you use a flat file in place of a database?</a></b></dt>
 <dd>No. You must have a database running to use Mantis.
 
 <!-- ------------- Paranoia ------------- --><br><br></dd>
 </dl>
-<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>13. Paranoia</b></td></tr></table>
+<table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>14. Paranoia</b></td></tr></table>
 <dl>
-<dt><b><a name="Paranoia0">13.1. I can't use Mantis because it will infect all my software with the GNU GPL!</a></b></dt>
+<dt><b><a name="Paranoia0">14.1. I can't use Mantis because it will infect all my software with the GNU GPL!</a></b></dt>
 <dd>This is an incorrect myth that is being spread by various corporations that make their living off of proprietary software.  The GPL will only come into play when you distribute your software which includes portions (or the entirety) of any other GPL software.  You may make customizations all you want and never have to open your source as long as you never distribute the software that includes GPL code.<br><br></dd>
 </dl>
 <hr size=1>
