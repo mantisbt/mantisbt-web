@@ -14,15 +14,15 @@
 				echo $p_language;
 			PRINT "</td>";
 			PRINT "<td>";
-				PRINT '<a href="'.$t_release_file_name.'">[view]</a> ';
 				if ( file_exists( $t_release_file_name ) ) {
-					echo date( "M d, Y", filemtime( $t_release_file_name ) );
+					PRINT '<a href="'.$t_release_file_name.'">[view]</a> ';
+					#echo date( "M d, Y", filemtime( $t_release_file_name ) );
 				} else {
 					echo '-';
 				}
 			PRINT "<td>";
-				PRINT '<a href="'.$t_cvs_file_name.'">[view]</a> ';
 				if ( file_exists( $t_cvs_file_name ) ) {
+					PRINT '<a href="'.$t_cvs_file_name.'">[view]</a> ';
 					echo date( "M d, Y", filemtime( $t_cvs_file_name ) );
 				} else {
 					echo '-';
