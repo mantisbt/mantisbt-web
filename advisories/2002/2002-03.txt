@@ -1,0 +1,139 @@
+[Mantis Advisory/2002-03] Bug listings of private projects can be viewed
+                          through cookie manipulation
+
+  0. Table of Contents
+
+    1. Introduction
+    2. Summary / Impact analysis
+    3. Affected versions
+    4. Workaround / Solution
+    5. Detailed explanation
+    6. Contact details
+
+  1. Introduction
+
+Mantis is an Open Source web-based bugtracking system, written in PHP, which
+uses the MySQL database server. It is being actively developed by a small
+group of developers, and is considered to be in the beta stage.
+
+In response to the increased number of users and to the increasing number of
+discovered security vulnerabilities, the Mantis team has decided to start
+releasing advisories for all vulnerabilities in versions higher than 0.17.0.
+This is the third in a series of advisories which cover the previously
+discovered vulnerabilities in greater detail.
+
+  2. Summary / Impact analysis
+
+In Mantis a user can select a project from a drop-down menu. After
+selection, all bug listings will be limited to that project.
+
+The 'View Bugs' page, which is responsible for displaying a list of bugs in
+a project, did not check whether the user actually had access to the project
+defined in the cookie. It trusted the fact that only projects accessible to
+the user were listed in the drop-down menu.
+
+This provides a malicious user with an opportunity to display the 'View
+Bugs' page with a private project selected. This has been fixed in Mantis
+0.17.4.
+
+It should be noted that this bug does not allow a user to get any more
+information than is listed in the View Bugs page. The page with more
+information about the bug is not accessible.
+Also, private bugs are still not visible in the list.
+
+  3. Affected versions
+
+The following versions are known to be affected:
+  Mantis 0.17.3
+
+The following versions are known to be unaffected:
+  Mantis 0.17.4a
+  Mantis 0.17.4
+
+The following versions are presumed to be affected:
+  Any version below Mantis 0.17.3
+
+  4. Workaround / Solution
+
+Mantis 0.17.4 adds the appropriate permission checks to the 'View Bugs'
+page.
+All users are recommended to upgrade to this version as soon as possible.
+
+If an upgrade is not an option, view_all_bug_page.php can be patched to add
+the appropriate checks.
+  To do so, add the following function to core_user_API.php:
+
+    # Check to see if the current user has access on the specified project
+    function check_access_to_project( $p_project_id ) {
+      $t_project_view_state = get_project_field( $p_project_id, 'view_state');
+
+      # Administrators ALWAYS pass.
+      if ( get_current_user_field( 'access_level' ) >= ADMINISTRATOR ) {
+        return;
+      }
+
+      # public project accept all users
+      if ( PUBLIC == $t_project_view_state ) {
+        return;
+      } else {
+        # private projects require users to be assigned
+        $t_project_access_level = get_project_access_level( $p_project_id );
+        # -1 means not assigned, kick them out to the project selection screen
+        if ( -1 == $t_project_access_level ) {
+          print_header_redirect( 'login_select_proj_page.php' );
+        } else { # passed
+          return;
+        }
+      }
+    }
+
+  And in view_all_bug_page.php, replace the following lines:
+        $t_where_clause .= ')';
+      }
+    } else {
+      $t_where_clause = " WHERE project_id='$g_project_cookie_val'";
+    }
+    # end project selection
+
+  with the following lines:
+        $t_where_clause .= ')';
+      }
+    } else {
+      check_access_to_project($g_project_cookie_val);
+      $t_where_clause = " WHERE project_id='$g_project_cookie_val'";
+    }
+    # end project selection
+
+  5. Detailed explanation
+
+To take advantage of this vulnerability, the attacker would need to know the
+project_id of the private project he wishes to attack. This is not terribly
+difficult to accomplish, as the project_id starts at 1 and increases by one
+for every project created. The attacker can just try each integer starting
+at 1, until (s)he finds the one (s)he's looking for.
+
+The next step is to log in to Mantis at least once, so that the
+MANTIS_PROJECT_COOKIE, or however the cookie is called in that particular
+set-up, is set. The user can then manually change the cookie locally, and
+fill in the desired project_id. Now all the user has to do is visit
+/view_all_bug_page.php, and the list of public bugs in that project should
+be displayed.
+
+An alternative method is by forging the HTTP headers, to send the desired
+cookie value with a request for /view_all_bug_page.php. The results are the
+same.
+
+  6. Contact details
+
+The latest version of Mantis is always available from:
+    http://mantisbt.sourceforge.net/
+The current version is 0.17.4a, which can be downloaded from
+    http://mantisbt.sourceforge.net/download.php3
+
+If you have any questions about this vulnerability, or wish to report
+another, you can contact the developers at:
+    mailto:mantisbt-security@lists.sourceforge.net
+This is a private mailinglist, readable only by a few developers.
+
+The latest version of this and other advisories can be found at:
+    http://mantisbt.sourceforge.net/security.php3

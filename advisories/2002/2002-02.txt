@@ -1,0 +1,94 @@
+[Mantis Advisory/2002-02] Limiting output to reporters can be bypassed
+
+  0. Table of Contents
+
+    1. Introduction
+    2. Summary / Impact analysis
+    3. Affected versions
+    4. Workaround / Solution
+    5. Detailed explanation
+    6. Contact details
+
+  1. Introduction
+
+Mantis is an Open Source web-based bugtracking system, written in PHP, which
+uses the MySQL database server. It is being actively developed by a small
+group of developers, and is considered to be in the beta stage.
+
+In response to the increased number of users and to the increasing number of
+discovered security vulnerabilities, the Mantis team has decided to start
+releasing advisories for all vulnerabilities in versions higher than 0.17.0.
+This is the second in a series of advisories which cover the previously
+discovered vulnerabilities in greater detail.
+
+  2. Summary / Impact analysis
+
+It is possible to instruct Mantis to show reporters only the bugs that they
+reported, by setting the limit_reporters option to ON. This will
+automatically set the 'reporter' filter on the 'View Bugs' page.
+
+The information on the 'View Bugs' page was also available in a form
+suitable for printing, by clicking on the 'Print Reports' link on the 'View
+Bugs' page. However this script, print_all_bug_page.php, did not check the
+limit_reporters option and thus allowed reporters to see the summaries of
+bugs they did not report.
+
+This has been fixed in Mantis 0.17.4.
+
+  3. Affected versions
+
+The following versions are known to be affected:
+  Mantis 0.17.3
+  Mantis 0.17.2
+  Mantis 0.17.1
+  Mantis 0.17.0
+  Mantis 0.16.1
+  Mantis 0.16.0
+
+The following versions are known to be unaffected:
+  Mantis 0.17.4a
+  Mantis 0.17.4
+  Any version below Mantis 0.16.0 (*)
+
+* = The 'Print reports' feature did not exist in those versions.
+
+  4. Workaround / Solution
+
+Mantis 0.17.4 adds the appropriate permission checks to the 'Print Reports'
+page.
+All users are recommended to upgrade to this version as soon as possible.
+
+If upgrade is not an option, print_all_bug_page.php can be patched to close
+this vulnerability.
+The following instructions apply to Mantis 0.17.3, and could apply to
+earlier versions:
+
+  In print_all_bug_page.php, after the block of assignments from
+  $t_setting_arr, insert the following lines:
+    # Limit reporters to only see their reported bugs
+    if (( ON == $g_limit_reporters ) &&
+      ( !access_level_check_greater_or_equal( UPDATER  ) )) {
+      $f_user_id = get_current_user_field( "id" );
+    }
+
+  5. Detailed explanation
+
+No trickery is required to allow a reporter to see the summaries of bugs
+that (s)he did not report. The reporter just has to go to 'View Bugs', click
+on 'Print Reports' and make sure the 'reporter' filter is set to anything
+but his/her own name.
+
+  6. Contact details
+
+The latest version of Mantis is always available from:
+    http://mantisbt.sourceforge.net/
+The current version is 0.17.4a, which can be downloaded from
+    http://mantisbt.sourceforge.net/download.php3
+
+If you have any questions about this vulnerability, or wish to report
+another, you can contact the developers at:
+    mailto:mantisbt-security@lists.sourceforge.net
+This is a private mailinglist, readable only by a few developers.
+
+The latest version of this and other advisories can be found at:
+    http://mantisbt.sourceforge.net/security.php3

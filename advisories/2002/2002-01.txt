@@ -1,0 +1,118 @@
+[Mantis Advisory/2002-01] SQL poisoning vulnerability in Mantis
+
+  0. Table of Contents
+
+    1. Introduction
+    2. Summary / Impact analysis
+    3. Affected versions
+    4. Workaround / Solution
+    5. Detailed explanation
+    6. Contact details
+
+  1. Introduction
+
+Mantis is an Open Source web-based bugtracking system, written in PHP, which
+uses the MySQL database server. It is being actively developed by a small
+group of developers, and is considered to be in the beta stage.
+
+In response to the increased number of users and to the increasing number of
+discovered security vulnerabilities, the Mantis team has decided to start
+releasing advisories for all vulnerabilities in versions higher than 0.17.0.
+This is the first in a series of advisories which cover the previously
+discovered vulnerabilities in greater detail.
+
+  2. Summary / Impact analysis
+
+Older versions of Mantis do not check all user input, especially if they do
+not come directly from form fields. This opens up a wide variety of SQL
+poisoning vulnerabilities on systems without magic_quotes_gpc enabled. Most
+of these vulnerabilities are only exploitable in a limited manner, since it
+is no longer possible to execute multiple queries using one call to
+mysql_query().
+
+There is one query which can be tricked into changing an account's access
+level, which means that a malicious user, with an account on the Mantis
+installation, can make himself (m/f) an administrator of that Mantis
+installation. This particular vulnerability has been fixed in version
+0.17.3.
+
+Other vulnerabilities may exist, which are caused by the same lack of input
+checking.
+
+  3. Affected versions
+
+The following versions are known to be affected:
+  Mantis 0.17.2
+
+The following versions are known to be unaffected:
+  Mantis 0.17.4a (*)
+  Mantis 0.17.4 (*)
+  Mantis 0.17.3 (*)
+
+The following versions are presumed to be affected:
+  All versions below Mantis 0.17.2
+
+* = But read the comments in section 2.
+
+  4. Workaround / Solution
+
+Mantis 0.17.3 fixes the exploitable query mentioned in section 2. 
+All users are recommended to upgrade to the latest version, currently
+0.17.4.
+
+Since this vulnerability was discovered, coding guidelines have been changed
+to ensure that every bit of user input that is fed to SQL queries is either
+validated or escaped. Unfortunately, these changes came too late to be
+released with Mantis 0.17.3. They have been fixed in CVS, and will be
+corrected in 0.18.0.
+Users who prefer security over using a tested version are encouraged to use
+the CVS version. 0.18.0 is currently being wrapped up, but the release may
+take a few weeks.
+
+If an upgrade is not possible, Mantis 0.17.2 (and possibly lower) can be
+patched to secure the exploitable query:
+
+  In account_update.php, insert the following lines somewhere in a PHP block
+  before the SQL queries are executed:
+    $f_username = addslashes($f_username);
+    $f_email = addslashes($f_email);
+
+Enabling magic_quotes_gpc in your PHP configuration will also prevent the
+problem from being exploitable.
+
+  5. Detailed explanation
+
+By modifying the username or the email of a Mantis account, it is possible
+to change any column of the Mantis user table (mantis_user_table by
+default).
+
+This can be done by inserting quotes in the username or email and crafting
+the value in such a manner that a valid SQL query results.
+
+For example:
+  - The email can be set to: user@server', access_level=90, email='
+  - The normal query is:
+      UPDATE mantis_user_table
+        SET username='$f_username', email='$f_email'
+        WHERE id='$f_id'
+  - With the specified value for the email field, this becomes:
+      UPDATE mantis_user_table
+        SET username='someusername', email='user@server', access_level=90, email=''
+        WHERE id='$f_id'
+  - This set the access_level column to a value of 90, the internal value
+    for Administrator.
+
+  6. Contact details
+
+The latest version of Mantis is always available from:
+    http://mantisbt.sourceforge.net/
+The current version is 0.17.4a, which can be downloaded from
+    http://mantisbt.sourceforge.net/download.php3
+
+If you have any questions about this vulnerability, or wish to report
+another, you can contact the developers at:
+    mailto:mantisbt-security@lists.sourceforge.net
+This is a private mailinglist, readable only by a few developers.
+
+The latest version of this and other advisories can be found at:
+    http://mantisbt.sourceforge.net/security.php3
