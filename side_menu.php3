@@ -17,7 +17,8 @@
 		</tr>
 		<tr>
 			<td>
-				<a href="download.php3">Download</a>
+				<a href="download.php3">Download</a><br>
+				<a href="localization.php3">Localization</a>
 			</td>
 		</tr>
 		<tr>
