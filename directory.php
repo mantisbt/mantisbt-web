@@ -24,7 +24,7 @@
 
 <p>This is a directory of companies and open source projects that are using Mantis as their issue tracking system.  If 
 your company is not listed below, or you know of an open source project that uses Mantis but is not listed below, please contact 
-"vboctor -at- sourceforge -dot- net" to update the list.</p>
+"vboctor -at- users -dot- sourceforge -dot- net" to update the list.</p>
 
 <p>When possible consider adding a link back to Mantis website.  You can use the button on the left side of the page, however, 
 please download it and reference it from your site to reduce the load on Mantis web server.</p>
@@ -89,6 +89,10 @@ please download it and reference it from your site to reduce the load on Mantis 
 
 	section( 'S' );
 		entry( 'SourceFubar.Net', 'http://www.sourcefubar.net/', 'http://bugs.sourcefubar.net/' );
+	section_end();
+
+	section( 'T' );
+		entry( 'Twig Project', 'http://informationgateway.org/', 'http://bugs.informationgateway.org/' );
 	section_end();
 ?>
 
