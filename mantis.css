@@ -2,7 +2,7 @@
 body 	{ background-color: #ffffff; font-family:Verdana, Arial; font-size: 10pt; margin: 0 }
 address { font-family:Verdana, Arial, Times, sans-serif; font-size: 8pt }
 
-p 			{ font-family:Verdana, Arial, Times, sans-serif; font-size: 10pt }
+p 			{ font-family:Verdana, Arial, Times, sans-serif; font-size: 10pt; line-height: 1.2; }
 p.center	{ text-align: center }
 
 span				{ font-family: Verdana, Arial, Times, sans-serif }
