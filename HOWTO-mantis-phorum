@@ -1,0 +1,169 @@
+#############################################################################
+###                         HOWTO-mantis-phorum                          ####
+#############################################################################
+
+This file details the steps needed to allow phorum to be smoothly integrated
+into Mantis.
+
+### Required:
+
+* Mantis 0.15.x or later
+* phorum 3.x series
+
+phorum: http://www.phorum.org/
+
+
+### Setup: We will proceed assuming the following setup:
+
+* Your web root (usually htdocs for apache) is /usr/local/apache/htdocs/
+(On a windows box it would look something like this
+C:\\apache\\htdocs\\mantis\\ instead.  Adapt to reflect your setup)
+* Mantis is installed in /usr/local/apache/htdocs/mantis/
+
+#################################
+ Step 0:
+#################################
+
+Mantis is installed and running properly.  Download phorum and store it on the
+server.
+
+#################################
+ Step 1: Install phorum
+#################################
+Install phorum by unzipping it to a directory.  We will install it in
+/usr/local/apache/htdocs/mantis/phorum/
+
+#################################
+ Step 2: Configure phorum.
+#################################
+
+Use the same database as Mantis.  Follow the rest of the phorum configuration
+steps.
+
+#####################################
+ Step 3: Add phorum link to the menu
+#####################################
+
+Open up menu_inc.php and add the following line (right after summary is a good
+idea):
+
+<a href="<? echo $g_path ?>phorum/">Forum | </a>
+
+You could wrap it in a if check (see code in menu_inc.php for examples) if
+you'd like only users with a certain access level to view the forum link.
+
+#################################
+ Step 4: Integrate with Mantis
+#################################
+
+Right now you can get to forum but there are no links with the rest of Mantis.
+It's functional but not nicely integrated.
+
+#################################
+ Step 4a: Header
+#################################
+
+Open up /usr/local/apache/htdocs/mantis/phorum/include/header.php - You may
+want to make a backup because we're going to make large modifications.
+
+Replace the file with the following lines:
+
+#-----------------------------------------------------------------------------
+<? include( "/usr/local/apache/htdocs/mantis/core_API.php" ) ?>
+<? login_cookie_check() ?>
+<?
+	db_connect($g_hostname,$g_db_username,$g_db_password,$g_database_name);
+
+	### extracts the user information for the currently logged in user
+	### and prefixes it with u_
+    $query = "SELECT *
+    		FROM $g_mantis_user_table
+			WHERE cookie_string='$g_string_cookie_val'";
+    $result = db_query( $query );
+	$row = db_fetch_array( $result );
+	if ( $row ) {
+		extract( $row, EXTR_PREFIX_ALL, "u" );
+	}
+?>
+<? print_html_top() ?>
+<? print_head_top() ?>
+<? print_title( $g_window_title." phorum" ) ?>
+<? print_css( "/usr/local/apache/htdocs/mantis/".$g_css_include_file ) ?>
+<? include( "/usr/local/apache/htdocs/mantis/".$g_meta_include_file ) ?>
+<meta name="Phorum Version" content="<?PHP echo $phorumver; ?>">
+<meta name="Phorum DB" content="<?PHP echo $DB->type; ?>">
+<meta name="PHP Version" content="<?PHP echo phpversion(); ?>">
+<? print_head_bottom() ?>
+<? print_body_top() ?>
+<? print_header( $g_page_title." ".$ForumName ) ?>
+<? print_top_page( $g_top_include_page ) ?>
+<? print_menu( "/usr/local/apache/htdocs/mantis/".$g_menu_include_file ) ?>
+<p>
+#-----------------------------------------------------------------------------
+
+This is pretty much copy+pasted from the normal mantis files with tweaks to
+make sure errors are avoided.
+
+NOTE: If you get include errors for config_inc.php then edit the top two lines
+in core_API.php
+
+	require( "/usr/local/apache/htdocs/mantis/config_inc.php" );
+	require( "/usr/local/apache/htdocs/mantis/strings_".$g_language.".txt" );
+
+For extra security in limiting users from accessing the forum you can place
+access level check code right after the db_connect() call.
+
+#################################
+ Step 4b: Footer
+#################################
+
+Replace /usr/local/apache/htdocs/mantis/phorum/include/footer.php with the
+following lines:
+
+#-----------------------------------------------------------------------------
+<br>
+<center><a href="http://phorum.org"><img src="images/button.gif" width="90"
+height="30" alt="phorum.org" border="0"></a></center>
+<p>
+<? print_bottom_page( $g_bottom_include_page ) ?>
+<? print_footer(__FILE__) ?>
+<? print_body_bottom() ?>
+<? print_html_bottom() ?>
+#-----------------------------------------------------------------------------
+
+NOTE: The show source link is likely to be broken.  It shouldn't be important
+so we won't try to make it work.
+
+###################################
+ Step 5: Auto Filling Posting Data
+###################################
+
+At this point everything is functioning acceptably.  Only users that are
+logged into Mantis can access forum thanks to the login_cookie_check() in
+phorum's header.php.
+
+Now we'll get down to making phorum a bit easier to work with.  One aspect of
+phorum is that it allows anonymous posting because it does not use a user
+authentication method.  This is one reason why it makes it fairly simple to
+integrate with Mantis.  The drawback is that you need to type in your username
+and email address constantly.  To avoid this we'll automatically fill these
+fields in by using our Mantis information.
+
+Open up /usr/local/apache/htdocs/mantis/phorum/include/form.php.
+
+Begin by adding these lines near the end of the first chunk of php code (line
+53):
+
+$p_author = get_current_user_field( "username" );
+$p_email = get_current_user_field( "email" );
+
+Now the username and email fields should be automatically filled in each time.
+
+###################################
+ FINISHED!
+###################################
+
+You're now finished integrating phorum with Mantis!
+
+If you wish to report any errors, comments, or suggestions please send email
+to kenito@300baud.org

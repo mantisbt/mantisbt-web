@@ -95,7 +95,14 @@ This is a preliminary draft of the release notes.
 
 <!-- BEGIN 0.15.0 --------------------------------------------- -->
 	<? print_release("0.1.0","July 3, 1977",
-					"This release really doesn't do much"); ?>
+"There are database modifications in this release
+<p>
+The date_created/posted/submitted fileds have been switched from TIMESTAMP to DATETIME.  There are subtle modifications in the code to handle this change.  The last_modified/updated fields are left unchanged.
+<p>
+The access level system has been replaced by a system of integer values.  The contstants used are VIEWER, REPORTER, UPDATER, DEVELOPER, MANAGER, and ADMINISTRATOR.  These map to integer values 10,25,40,55,70,90.  The values were chosen so that further customization can be done on a installation by installation basis.
+<p>
+Along with the access levels all other ENUM fields in the database have been switched over to INT(2).  Similar spacing of values has taken place to allow for installation customizations.
+<p>"); ?>
 
 	<!-- GLOBALS ------------------- -->
 	<table width=100%>
@@ -106,58 +113,61 @@ This is a preliminary draft of the release notes.
 	<? print_item("rename","g_var1","g_variable","New naming scheme") ?>
 	</table>
 
-	<!-- FILES ------------------- -->
+	<!-- FUNCTIONS ----------------- -->
+	<table width=100%>
+	<? print_table("Functions","#ddddff") ?>
+
+	<? print_item("add","news_add",			"","News API") ?>
+	<? print_item("add","news_delete",		"","News API") ?>
+	<? print_item("add","news_update",		"","News API") ?>
+	<? print_item("add","news_select",		"","News API") ?>
+	<? print_item("add","get_news_count",	"","News API") ?>
+	<? print_item("add","get_user_info_by_id_arr","","User API") ?>
+	<? print_item("add","get_user_info_by_name_arr","","User API") ?>
+	<? print_item("add","increment_login_count","","User API") ?>
+	<? print_item("add","trans_bool",		"","Helper API") ?>
+	<? print_item("add","check_access",		"","User API") ?>
+	<? print_item("add","print_enum_string_option_list",		"","Print API") ?>
+	<? print_item("remove","","print_table_field_option_list",	"Print API") ?>
+	<? print_item("add","str_pd",			"","Helper API") ?>
+	<? print_item("add","print_view_bug_sort_link",			"","Print API") ?>
+	<? print_item("add","print_manage_user_sort_link",		"","Print API") ?>
+	<? print_item("add","print_manage_project_sort_link",	"","Print API") ?>
+	<? print_item("add","print_status_icon",	"","Icon API") ?>
+	<? print_item("add","print_sort_icon",		"","Icon API") ?>
+	<? print_item("add","print_unread_icon",	"","Icon API") ?>
+	</table>
+
+	<!-- FILES --------------------- -->
 	<p>
 	<table width=100%>
 	<? print_table("Files","#ffdddd") ?>
-manage_proj_add.php3
-manage_proj_cat_add.php3
-manage_proj_cat_delete.php3
-manage_proj_cat_delete_page.php3
-manage_proj_cat_edit_page.php3
-manage_proj_cat_update.php3
-manage_proj_delete.php3
-manage_proj_delete_page.php3
-manage_proj_edit_page.php3
-manage_proj_menu_page.php3
-manage_proj_update.php3
-manage_proj_ver_add.php3
-manage_proj_ver_delete.php3
-manage_proj_ver_delete_page.php3
-manage_proj_ver_edit_page.php3
-manage_proj_ver_update.php3
-manage_project_category_add.php3
-	<? print_item("rename","manage_project_add.php3","manage_proj_add.php3","Renamed for MacOS") ?>
-	<? print_item("rename","manage_project_cat_add.php3","manage_proj_cat_add.php3","Renamed for MacOS") ?>
-	<? print_item("rename","manage_project_cat_delete.php3","manage_proj_cat_delete.php3","Renamed for MacOS") ?>
-	<? print_item("rename","manage_project_cat_delete_page.php3","manage_proj_cat_delete_page.php3","Renamed for MacOS") ?>
-	<? print_item("rename","manage_project_cat_edit_page.php3","manage_proj_cat_edit_page.php3","Renamed for MacOS") ?>
-	<? print_item("rename","manage_project_cat_update.php3","manage_proj_cat_update.php3","Renamed for MacOS") ?>
-	<? print_item("rename","manage_project_delete.php3","manage_proj_delete.php3","Renamed for MacOS") ?>
-	<? print_item("rename","manage_project_delete_page.php3","manage_proj_delete_page.php3","Renamed for MacOS") ?>
-	<? print_item("rename","manage_project_edit_page.php3","manage_proj_edit_page.php3","Renamed for MacOS") ?>
-	<? print_item("rename","manage_project_menu_page.php3","manage_proj_menu_page.php3","Renamed for MacOS") ?>
-	<? print_item("rename","manage_project_update.php3","manage_proj_update.php3","Renamed for MacOS") ?>
-	<? print_item("rename","manage_project_ver_add.php3","manage_proj_ver_add.php3","Renamed for MacOS") ?>
-	<? print_item("rename","manage_project_ver_delete.php3","manage_proj_ver_delete.php3","Renamed for MacOS") ?>
-	<? print_item("rename","manage_project_ver_delete_page.php3","manage_proj_ver_delete_page.php3","Renamed for MacOS") ?>
-	<? print_item("rename","manage_project_ver_edit_page.php3","manage_proj_ver_edit_page.php3","Renamed for MacOS") ?>
-	<? print_item("rename","manage_project_ver_update.php3","manage_proj_ver_update.php3","Renamed for MacOS") ?>
-	<? print_item("rename","manage_project_category_add.php3","manage_project_category_add.php3","Renamed for MacOS") ?>
-	<? print_item("rename","old","new","Renamed for MacOS") ?>
-	<? print_item("rename","old","new","Renamed for MacOS") ?>
-	<? print_item("rename","old","new","Renamed for MacOS") ?>
-	<? print_item("rename","old","new","Renamed for MacOS") ?>
-	<? print_item("rename","old","new","Renamed for MacOS") ?>
-	<? print_item("rename","old","new","Renamed for MacOS") ?>
-	<? print_item("rename","old","new","Renamed for MacOS") ?>
-	<? print_item("rename","old","new","Renamed for MacOS") ?>
-	<? print_item("rename","old","new","Renamed for MacOS") ?>
-	<? print_item("rename","old","new","Renamed for MacOS") ?>
-	<? print_item("rename","old","new","Renamed for MacOS") ?>
-	<? print_item("rename","old","new","Renamed for MacOS") ?>
+
+	<? print_item("rename","manage_project_add.php3",				"manage_proj_add.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_category_add.php3",		"manage_proj_cat_add.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_category_delete.php3",	"manage_proj_cat_delete.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_category_delete_page.php3","manage_proj_cat_delete_page.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_category_edit_page.php3","manage_proj_cat_edit_page.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_category_update.php3",	"manage_proj_cat_update.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_delete.php3",			"manage_proj_delete.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_delete_page.php3",		"manage_proj_delete_page.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_edit_page.php3",			"manage_proj_edit_page.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_menu_page.php3",			"manage_proj_menu_page.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_update.php3",			"manage_proj_update.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_version_add.php3",		"manage_proj_ver_add.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_version_delete.php3",	"manage_proj_ver_delete.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_version_delete_page.php3","manage_proj_ver_delete_page.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_version_edit_page.php3",	"manage_proj_ver_edit_page.php3","Renamed for MacOS") ?>
+	<? print_item("rename","manage_project_version_update.php3",	"manage_proj_ver_update.php3","Renamed for MacOS") ?>
+	<? print_item("rename","account_profile_add.php3",				"account_prof_add.php3","Renamed for MacOS") ?>
+	<? print_item("rename","account_profile_delete.php3",			"account_prof_delete.php3","Renamed for MacOS") ?>
+	<? print_item("rename","account_profile_edit_page.php3",		"account_prof_edit_page.php3","Renamed for MacOS") ?>
+	<? print_item("rename","account_profile_make_default.php3",		"account_prof_make_default.php3","Renamed for MacOS") ?>
+	<? print_item("rename","account_profile_manage_page.php3",		"account_prof_manage_page.php3","Renamed for MacOS") ?>
+	<? print_item("rename","account_profile_update.php3",			"account_prof_update.php3","Renamed for MacOS") ?>
 	<? print_item("rename","old","new","Renamed for MacOS") ?>
 	<? print_item("add","","new_page_me.php","") ?>
+	<? print_item("add","","core_icon_API.php","Icon module") ?>
 	<? print_item("rename","ok.php","better.php","") ?>
 	</table>
 	<p>

@@ -40,9 +40,16 @@
 		</tr>
 		<tr>
 			<td>
+				HOWTO<br>
+				&nbsp;&nbsp;&nbsp;<a href="HOWTO-mantis-phorum">phorum</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
 				Development<br>
 				&nbsp;&nbsp;&nbsp;<a href="roadmap.php3">Roadmap</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="guidelines.php3">Coding Guidelines</a><br>
+				&nbsp;&nbsp;&nbsp;<a href="devnotes.php3">Developer Notes</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="database.php3">Database</a><br>
 			</td>
 		</tr>
