@@ -23,7 +23,7 @@
 		</tr>
 		<tr>
 			<td class="menu_items">
-				<a href="manual/">Manual</a><br />
+				<a href="http://manual.mantisbt.org/">Manual</a><br />
 				<a href="credits.php">Credits</a><br />
 				<a href="changelog.php">ChangeLog</a><br />
 				<a href="links.php">Links</a><br />
