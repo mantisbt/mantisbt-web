@@ -3,32 +3,29 @@
 <span class="page_title">Security</span>
 <hr size=1 noshade width="100%">
 <p>
-Below is a listing of all known security problems in Mantis releases. If you discover a problem not listed below, please contact <a href="mailto:jlatour@users.sourceforge.net">Jeroen Latour</a>.
+Below is a listing of all known security problems in Mantis releases. If you discover a problem not listed below, please contact <a href="mailto:mantisbt-security@lists.sourceforge.net">the Mantis Team</a>.
 <p>
-<span class="section">Remote code execution</span> - <font color=#ff0000>Security Problem</font>
+<span class="section">[ <a href="advisories/2002/2002-05.txt">Advisory</a> ] Remote code execution + reading files readable by the webserver user</span> - <font color=#ff0000>Security Problem</font>
 <p>
-Through GET, POST, or COOKIE variables a user may be able to take advantage of remote script execution.  The fix is in CVS and will be in 0.18.0.  To patch insert these lines at the top of summary_graph_functions.php
-
-<pre>
-if ( isset($HTTP_GET_VARS['g_jpgraph_path']) ||
-	isset($HTTP_POST_VARS['g_jpgraph_path']) ||
-	isset($HTTP_COOKIE_VARS['g_jpgraph_path']) ) {
-		exit;
-}
-</pre>
+Through GET, POST, or COOKIE variables a user may be able to take advantage of remote script execution. It is also possible to read any file on the webserver that is readable by the user that the script is running onder. Both problems have been fixed in 0.17.4.
 
 <p>
-<span class="section">Showing bug listings of private projects</span> - <font color=#ff0000>Security Problem</font>
+<span class="section">[ <a href="advisories/2002/2002-04.txt">Advisory</a> ] Remote code execution</span> - <font color=#ff0000>Security Problem</font>
 <p>
-Through manipulation of cookies it is possible to set a user's current project to a private project, and access the 'View Bugs' page. This has been fixed in CVS, and will appear in 0.18.0.
+Through GET, POST, or COOKIE variables a user may be able to take advantage of remote script execution. This has been fixed in Mantis 0.17.4.
 
 <p>
-<span class="section">Limiting output to reporters</span> - <font color=#ff0000>Security Problem</font>
+<span class="section">[ <a href="advisories/2002/2002-03.txt">Advisory</a> ] Showing bug listings of private projects</span> - <font color=#ff0000>Security Problem</font>
+<p>
+Through manipulation of cookies it is possible to set a user's current project to a private project, and access the 'View Bugs' page. This has been fixed in Mantis 0.17.4.
+
+<p>
+<span class="section">[ <a href="advisories/2002/2002-02.txt">Advisory</a> ] Limiting output to reporters</span> - <font color=#ff0000>Security Problem</font>
 <p>
 There is an option in Mantis which limits the bug reports shown to reporters. This option was not checked on the 'Print Reports' page. This has been fixed in CVS, and will appear in 0.18.0.
 
 <p>
-<span class="section">Input validation</span> - <font color=#ff0000>Security Problem</font>
+<span class="section">[ <a href="advisories/2002/2002-01.txt">Advisory</a> ] Input validation</span> - <font color=#ff0000>Security Problem</font>
 <p>
 Upgrade to Mantis 0.17.3 if you do not have magic_quotes_gpc enabled in your PHP installation. Input was not checked in account_update.php (and a lot of other files), which allowed anyone with an account on the system to become administrator in your Mantis installation. Input validation has been added to account_update.php for 0.17.3, and for all other files in the upcoming 0.18.0 (or in CVS).
 
