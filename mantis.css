@@ -40,8 +40,8 @@ td.main 		{ background-color: #ffffff; font-size: 10pt; line-height: 1.1; text-a
 
 td.indicator	{ font-family: courier new; background-color: #ffffff; font-size: 10pt; line-height: 1.1; text-align: right; width: 1% }
 td.bar			{ background-color: #a8a8ff; font-size: 1pt; text-align: left; width: 100%; border-top: 1px solid #999999 }
-td.caption		{ background-color: #ddddff; font-size: 10pt; text-align: center; width: 100%; border-top: 1px solid #000000; border-bottom: 0px solid #000000 }
-td.screenshot	{ background-color: #ffffff; font-size: 1pt; text-align: center; width: 100% }
+td.caption		{ background-color: #ddddff; font-size: 10pt; text-align: center; width: 33%; border-top: 1px solid #000000; border-bottom: 0px solid #000000 }
+td.screenshot	{ background-color: #ffffff; font-size: 1pt; text-align: center; width: 33% }
 
 td.poll_date	{ background-color: #ffffff; font-size: 8pt;  text-align: center; width: 20%; border-right: 1px solid #000000 }
 td.poll_question{ background-color: #ffffff; font-size: 10pt; text-align: left;   width: 60%; border-right: 1px solid #000000 }

@@ -13,7 +13,7 @@ This is the Mantis feature roadmap.  It lists most of the currently planned feat
 	<li>Configuration Documentation - list basic ways in which Mantis can be customized; quickstart guide for customization needs
 	<li>List modified files for each release - let users know what exactly has changed in each upgrade
 	<li>Fleshed out test settings script - let admins easily diagnose if settings are correct
-	<li>Print friendly form - user fewer table elements; more like email; also for summary and view all bugs
+	<li>Print friendly form - use fewer table elements; more like email; also for summary and view all bugs
 	<li>Break up config_inc.php into commonly modified items to avoid upgrade headaches
 	<li>Lockdown security permissions
 	<li>Allow for project/bug_id email links to work properly.

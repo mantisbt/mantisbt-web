@@ -19,7 +19,7 @@ This page contains several additional notes which should supplement the document
 <p><a name="change_text"></a>
 <b><a href="note_change_string.php3">Changing the wording</a></b>
 <p>
-THis note details the steps necessary to change the wording of some text in drop down lists.  It also lists ways to remove or add strings.
+This note details the steps necessary to change the wording of some text in drop down lists.  It also lists ways to remove or add strings.
 <p>
 <!-- -------------------------------------------------------------------- -->
 <hr size=1>

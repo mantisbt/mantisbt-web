@@ -3,7 +3,7 @@
 <span class="page_title">Screenshots</span>
 <hr size=1 noshade width="100%">
 <p>
-	<table cellpadding="10" border="0" cellspacing="0">
+	<table width="100%" cellpadding="10" border="0" cellspacing="0">
 	<tr>
 		<td class="caption">
 			Main

@@ -19,17 +19,7 @@ Mantis was intially released to the public in November 2000.
 <p>
 <span class="section">Requirements</span>
 <p>
-Mantis runs on the platforms that these programs run on.  This includes Windows, MacOS, and Unix.
-<ul>
-	<li><a href="http://www.php.net/">PHP</a> 3.0.13 and higher
-	<li><a href="http://www.mysql.com/">MySQL database</a> (alternate database support is planned)
-	<li>Web server (<a href="http://httpd.apache.org/">Apache</a>, IIS, etc.)
-</ul>
-Additionally, you will need to know basic administration of MySQL (login, create new database, run a SQL query).  The webserver needs to be configured to handle PHP files.  The <a href="http://www.php.net/manual/en/">PHP manual</a> has excellent instructions.
-<p>
-It also helps a great deal to at least be able to tinker with PHP scripts (when there's a little bug or you want to tweak something).  Of course, knowing HTML is essential for any custom display formatting.
-<p>
-I highly recommend using <a href="http://www.phpwizard.net">phpMyAdmin</a> to administer MySQL.  It allows you to have a web based interface to interact with your database and is much more convenient than using the command line.
+See the <a href="requirements.php3">requirements page</a>.
 
 <p>
 <span class="section">Features and Benefits</span>

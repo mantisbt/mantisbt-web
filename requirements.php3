@@ -5,9 +5,9 @@
 <p>
 Mantis runs on Windows, MacOS, OS/2, Linux, Solaris, the BSDs, and just about anything that supports the required server software.
 <p>
-Mantis has modest software and hardware requirements.  You need a computer to run the server on along with the server software.  All of the required software is free for commercial or non-commercial use.  All are the most popularly used products in their respective categories.  This doesn't mean they are necessarly the best, but there will be a lot of content and knowledge about each.
+Mantis has modest software and hardware requirements.  You need a computer to run the server on along with the server software.  All of the required software is free for commercial or non-commercial use.  Each is the most popularly used product in its respective category.  This doesn't mean they are necessarly the best, but there will be a lot of web content and support knowledge about each.
 <p>
-The computer can be a shared public web server or a dedicated co-loc box.  It can even run on an office machine.  Any Pentium class computer should be adequate for light usage.  You'll just need enough diskspace for the database to grow and enough memory to avoid virtual memory thrashing.  I make do with a Pentium 233 with 128MBs of RAM but the more users you have the more memory you will need.
+The computer can be a shared public web server or a dedicated co-loc box.  It can even run on an office machine.  Any Pentium class computer should be adequate for moderate usage.  You'll just need enough diskspace for the database to grow and enough memory to avoid virtual memory thrashing.  My development machine is a Pentium 233 with 128MBs of RAM.
 <p>
 <span class="section">Software</span>
 <ul>
@@ -17,7 +17,7 @@ The computer can be a shared public web server or a dedicated co-loc box.  It ca
 </ul>
 <span class="section">Cost</span>
 <p>
-Mantis is free. The net cost to use Mantis is the time to download, install, and configure the software plus any potential hardware costs.
+Mantis is free. The net cost to use Mantis is the time to download, install, and configure the software plus any potential hardware costs.  Continued maintenance should be minimal unless you are tweaking the package.
 <p>
 <span class="section">Time</span>
 <p>
@@ -46,6 +46,6 @@ Basic administration of MySQL is necessary.  At a minimum you should be able to:
 <p>
 <span class="section">Webserver</span>
 <p>
-The webserver needs to be configured to handle PHP files.  In Apache, this monumental task requires <a href="http://www.php.net/manual/en/install.apache.php">one line in the configuration file</a>.  There are even instructions for <a href="http://www.php.net/manual/en/install.iis.php">IIS</a>, <a href="http://www.php.net/manual/en/install.netscape-enterprise.php">iPlanet/Netscape</a>, <a href="http://www.php.net/manual/en/install.xitami.php">Xitami</a>, and more.  I think you get the idea: use <a href="http://www.php.net/manual/en/">The PHP Manual</a>!
+The webserver needs to be configured to handle PHP files.  In Apache, this monumental task requires all of <a href="http://www.php.net/manual/en/install.apache.php">one line in the configuration file</a>.  There are even instructions for <a href="http://www.php.net/manual/en/install.iis.php">IIS</a>, <a href="http://www.php.net/manual/en/install.netscape-enterprise.php">iPlanet/Netscape</a>, <a href="http://www.php.net/manual/en/install.xitami.php">Xitami</a>, and more.  I think you get the idea: use <a href="http://www.php.net/manual/en/">The PHP Manual</a>!
 
 <? include( "bot.php3" ); ?>

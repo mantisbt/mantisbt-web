@@ -3,14 +3,15 @@
 </div>
 
 <p>For more information about this faq or to make a comment or correction, please contact <a href="mailto:kenito@300baud.org">Kenzaburo Ito</a>
-<p><i>FAQ Revised: Saturday 25 August 2001 18:11:59</i></p>
+<p><i>FAQ Revised: Monday 29 October 2001 17:46:00</i></p>
 <table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>Table of Contents</b></td></tr></table>
 <dl>
 <dt><b>1. General</b></dt>
 <dd><ul>
 <li><a href="#General0">1.1. What is Mantis?</a></li>
 <li><a href="#General1">1.2. Will you port Mantis to use Perl?</a></li>
-<li><a href="#General2">1.3. Will you integrate Mantis into phpWebSite?  How about phpGroupWare?</a></li>
+<li><a href="#General2">1.3. Will you port Mantis to use Java?</a></li>
+<li><a href="#General3">1.4. Will you integrate Mantis into phpWebSite?  How about phpGroupWare?</a></li>
 </ul></dd>
 <dt><b>2. Appearance</b></dt>
 <dd><ul>
@@ -22,6 +23,7 @@
 <li><a href="#Appearance5">2.6. I want some nice graphs when I look at bug stats.</a></li>
 <li><a href="#Appearance6">2.7. I want to change some of the CSS.</a></li>
 <li><a href="#Appearance7">2.8. What are these @null@ values that I'm seeing?</a></li>
+<li><a href="#Appearance8">2.9. The tables are all centered in IE6.</a></li>
 </ul></dd>
 <dt><b>3. Configuration</b></dt>
 <dd><ul>
@@ -38,6 +40,8 @@
 <li><a href="#Database0">5.1. How do I backup the MySQL database?</a></li>
 <li><a href="#Database1">5.2. When will Mantis have Database Abstraction?</a></li>
 <li><a href="#Database2">5.3. Why did you pick MySQL?</a></li>
+<li><a href="#Database3">5.4. I need transactions!</a></li>
+<li><a href="#Database4">5.5. I need support for PostgreSQL/Oracle/MSSQL</a></li>
 </ul></dd>
 <dt><b>6. Email</b></dt>
 <dd><ul>
@@ -45,6 +49,7 @@
 <li><a href="#Email1">6.2. Why does it take a really long time for a report to get submitted?  Everything else is pretty responsive.</a></li>
 <li><a href="#Email2">6.3. The email validation isn't working correctly.  How can I fix this?</a></li>
 <li><a href="#Email3">6.4. I forgot my password.  How can I have it automatically emailed to me?</a></li>
+<li><a href="#Email4">6.5. I don't want all developers to recieve email from projects they aren't a part of.</a></li>
 </ul></dd>
 <dt><b>7. Encryption</b></dt>
 <dd><ul>
@@ -55,6 +60,7 @@
 <dd><ul>
 <li><a href="#Errors0">8.1. I'm getting the following error: Warning: Missing argument 5 for print_manage_user_sort_link() in /usr/local/share/doc/apache/mantis/core_print_API.php on line 548.  I'm using Mantis 0.15.3</a></li>
 <li><a href="#Errors1">8.2. Running Windows.  Warning: unexpected error in date() in c:\program files\nusphere\apache\htdocs\mantis\manage_page.php3 on line xxx</a></li>
+<li><a href="#Errors2">8.3. I'm getting this error message: Fatal error: Call to unsupported or undefined function XYZ in ABC.php on line 123</a></li>
 </ul></dd>
 <dt><b>9. Functionality</b></dt>
 <dd><ul>
@@ -75,6 +81,7 @@
 <li><a href="#Functionality14">9.15. Can I specify which fields are required?</a></li>
 <li><a href="#Functionality15">9.16. Can I rearrange which fields are avialabel int eh simple and advanced report forms?</a></li>
 <li><a href="#Functionality16">9.17. I want a nice quick way of linking to other bugs.</a></li>
+<li><a href="#Functionality17">9.18. I'm using Netscape in a Unix and the pages don't automatically redirect.</a></li>
 </ul></dd>
 <dt><b>10. License</b></dt>
 <dd><ul>
@@ -98,6 +105,7 @@
 <li><a href="#Requirements3">13.4. Does Mantis require Javascript to be turned on?</a></li>
 <li><a href="#Requirements4">13.5. I don't have a database.  Can I still run Mantis?</a></li>
 <li><a href="#Requirements5">13.6. Could you use a flat file in place of a database?</a></li>
+<li><a href="#Requirements6">13.7. Do you require register_globals to be set to On?</a></li>
 </ul></dd>
 <dt><b>14. Paranoia</b></dt>
 <dd><ul>
@@ -110,7 +118,9 @@
 <dd>Mantis is a php/MySQL/web based bug tracking system.  It is free for all to use and is distributed under the conditions of the GNU GPL.<br><br></dd>
 <dt><b><a name="General1">1.2. Will you port Mantis to use Perl?</a></b></dt>
 <dd>I have no plans to port Mantis to any other scripting language.  However, this does not stop you or anyone else from doing so.  In fact, Mantis has been ported over to Cold Fusion and was also modified to work with Midgard.<br><br></dd>
-<dt><b><a name="General2">1.3. Will you integrate Mantis into phpWebSite?  How about phpGroupWare?</a></b></dt>
+<dt><b><a name="General2">1.3. Will you port Mantis to use Java?</a></b></dt>
+<dd>I have no plans to port Mantis to any other language.  However, this does not stop you or anyone else from doing so.  In fact, Mantis has been ported over to Cold Fusion and was also modified to work with Midgard.<br><br></dd>
+<dt><b><a name="General3">1.4. Will you integrate Mantis into phpWebSite?  How about phpGroupWare?</a></b></dt>
 <dd>I will be waiting until Mantis is fully mature before thinking about such issues.  I realize this may cause more work but it's more important to have a fully functional stand-alone product at this point.
 
 <!-- ------------- Appearance ------------- --><br><br></dd>
@@ -134,7 +144,9 @@ Additionally you could modify the code in <i>core_print_API.php</i><br><br></dd>
 <dt><b><a name="Appearance6">2.7. I want to change some of the CSS.</a></b></dt>
 <dd>Edit the css_inc.php file.<br><br></dd>
 <dt><b><a name="Appearance7">2.8. What are these @null@ values that I'm seeing?</a></b></dt>
-<dd>Release 0.15.0 converted the ENUM values to INT in order to achieve full localization.  As a result these INT values index into an array which corresponds to their actual text.  If the value stored in the database has no textual match then @null@ is displayed.
+<dd>Release 0.15.0 converted the ENUM values to INT in order to achieve full localization.  As a result these INT values index into an array which corresponds to their actual text.  If the value stored in the database has no textual match then @null@ is displayed.<br><br></dd>
+<dt><b><a name="Appearance8">2.9. The tables are all centered in IE6.</a></b></dt>
+<dd>This issue is in progress.
 
 <!-- ------------- Configuration ------------- --><br><br></dd>
 </dl>
@@ -175,7 +187,11 @@ mysql -u[username] -p[password] [database] < [input filename]
 <dt><b><a name="Database1">5.2. When will Mantis have Database Abstraction?</a></b></dt>
 <dd>Sometime in the future.  It will probably make use of the ADODB package.<br><br></dd>
 <dt><b><a name="Database2">5.3. Why did you pick MySQL?</a></b></dt>
-<dd>The main reasons for using MySQL were that is ubiquitous, runs most anywhere, and is extremely simple.  I fully realize how it is almost laughable when compared with 'real' databases like Oracle.  Other databases will be supported as resources become available.  This will likely happen around the 1.0 release when things become more stable.
+<dd>The main reasons for using MySQL were that is ubiquitous, runs most anywhere, and is extremely simple.  I fully realize how it is almost laughable when compared with 'real' databases like Oracle.  Other databases will be supported as resources become available.  This will likely happen around the 1.0 release when things become more stable.<br><br></dd>
+<dt><b><a name="Database3">5.4. I need transactions!</a></b></dt>
+<dd>Probably not.  In any case, MySQL is not in a position to support these by default anytime soon.  It seems to have served the Mozilla project just fine.<br><br></dd>
+<dt><b><a name="Database4">5.5. I need support for PostgreSQL/Oracle/MSSQL</a></b></dt>
+<dd>While I have an Oracle port it is not ready to release.  Nor would it integrate nicely with the current implementation of Mantis.  In the interests of progress, all database abstraction/support actions will be held off until 1.0.0 is reached.
 
 <!-- ------------- Email ------------- --><br><br></dd>
 </dl>
@@ -196,18 +212,22 @@ mysql -u[username] -p[password] [database] < [input filename]
 <dt><b><a name="Email1">6.2. Why does it take a really long time for a report to get submitted?  Everything else is pretty responsive.</a></b></dt>
 <dd>The most likely cause is that the email system isn't properly configured.  Take a look at your settings and your mail server and make sure that everything is functioning correctly.
 <p>
-Otherwise your system may be under a high load.<br><br></dd>
+Otherwise your system may be under high system load.<br><br></dd>
 <dt><b><a name="Email2">6.3. The email validation isn't working correctly.  How can I fix this?</a></b></dt>
 <dd>You can disable the email validation by toggling the config variable in config_inc.php.  You can try to just disable the mx record check, which checks to see that the domain supplied has a valid mail record, or also disable the email format validation check.<br><br></dd>
 <dt><b><a name="Email3">6.4. I forgot my password.  How can I have it automatically emailed to me?</a></b></dt>
 <dd>Currently you cannot since the encryption process is one-way.  That means your password is relatively secure but  cannot be recovered.  You will need the administrator to reset your password.
+<p>
+If email is enabled then the password is recreated and emailed.  Otherwise it is set to blank.<br><br></dd>
+<dt><b><a name="Email4">6.5. I don't want all developers to recieve email from projects they aren't a part of.</a></b></dt>
+<dd>You should set each project to be private and raise the access threshold to above developer.  Then manually add each user that you want into that project.  Alernatively, you can add the developer to a project and 'demote' his access level.
 
 <!-- ------------- Encryption ------------- --><br><br></dd>
 </dl>
 <table width="97%"><tr><td align="left" bgcolor=#e0e0ff>&nbsp;<font color=#444444 size=+1><b>7. Encryption</b></td></tr></table>
 <dl>
 <dt><b><a name="Encryption0">7.1. I don't have crypt() installed.  Can I run Mantis?</a></b></dt>
-<dd>Not unless you do some tweaking to the code.  You'll have to manually comment out all calls to the crypt function and manually recreate user passwords in clear-text.  A future release will allow for multiple authentication methods.<br><br></dd>
+<dd>Yes!  Previously you could not.  Now you can choose to use MD5 or plaintext.  MD5 is similar to crypt() but should be supported across all PHP platforms.  Like crypt it is also one-way so you cannot retrieve the original password.  PLaintext is self-explanatory.  Just remember that anyone who can read the database can read your password, so don't pick a critical password!<br><br></dd>
 <dt><b><a name="Encryption1">7.2. I'm getting this error message: Fatal error: Call to unsupported or undefined function crypt() in core_user_API.php on line 134</a></b></dt>
 <dd>All builds of PHP4 and up are supposed to have crypt() built-in.  However, due to some errors the 4.0.5 and possibly the 4.0.6 builds do not have this built-in.  This applies to Windows in particular but also to several other platforms (OpenBSD, etc.)
 
@@ -218,7 +238,9 @@ Otherwise your system may be under a high load.<br><br></dd>
 <dt><b><a name="Errors0">8.1. I'm getting the following error: Warning: Missing argument 5 for print_manage_user_sort_link() in /usr/local/share/doc/apache/mantis/core_print_API.php on line 548.  I'm using Mantis 0.15.3</a></b></dt>
 <dd>Change the last argument in the function call to $p_hide=0<br><br></dd>
 <dt><b><a name="Errors1">8.2. Running Windows.  Warning: unexpected error in date() in c:\program files\nusphere\apache\htdocs\mantis\manage_page.php3 on line xxx</a></b></dt>
-<dd>This is a result of an error in Windows/PHP when the date is all zeroes.  Of course, the date should never be all zeroes so that's a bug on Mantis' part.  It should be fixed.  To quick fix you will need to run a sql query to update any time field that is equal to all zeroes to something non-zero.
+<dd>This is a result of an error in Windows/PHP when the date is all zeroes.  Of course, the date should never be all zeroes so that's a bug on Mantis' part.  It should be fixed.  To quick fix you will need to run a sql query to update any time field that is equal to all zeroes to something non-zero.<br><br></dd>
+<dt><b><a name="Errors2">8.3. I'm getting this error message: Fatal error: Call to unsupported or undefined function XYZ in ABC.php on line 123</a></b></dt>
+<dd>Your particular build of PHP does not have these functions builtin.  You may have to upgrade or recompile to fix these errors.  In some cases, Mantis has global variables that can disable the usage of these functions.  Particularly problematic functions are crypt(), is_uploaded_file, getmxrr().
 
 <!-- ------------- Functionality ------------- --><br><br></dd>
 </dl>
@@ -257,7 +279,9 @@ Otherwise your system may be under a high load.<br><br></dd>
 <dt><b><a name="Functionality15">9.16. Can I rearrange which fields are avialabel int eh simple and advanced report forms?</a></b></dt>
 <dd>Not unless you modify the code.<br><br></dd>
 <dt><b><a name="Functionality16">9.17. I want a nice quick way of linking to other bugs.</a></b></dt>
-<dd>Just prefix a bug id with the # sign.  So if you type #742 then it will automatically create a link to bug #742.
+<dd>Just prefix a bug id with the # sign.  So if you type #742 then it will automatically create a link to bug #742.<br><br></dd>
+<dt><b><a name="Functionality17">9.18. I'm using Netscape in a Unix and the pages don't automatically redirect.</a></b></dt>
+<dd>The print_meta_redirect() calls need to come before the css inclusion.  As of the 0.15.7 release you will still need to manually rearrange these lines by hand in each file that requires this behavior.
 
 <!-- ------------- License ------------- --><br><br></dd>
 </dl>
@@ -286,7 +310,7 @@ As a side benefit I can freely import existing code from the great many other PH
 <dt><b><a name="Modifications0">12.1. Can you add a discussion forum to Mantis?</a></b></dt>
 <dd>There is a Phorum integration HOWTO available here: <a href="http://mantisbt.sourceforge.net/">http://mantisbt.sourceforge.net/</a>
 <p>
-Other forums integrations may follow (phpbb, etc.)
+Other forum integrations may follow (phpbb, etc.)
 
 <!-- ------------- Requirements ------------- --><br><br></dd>
 </dl>
@@ -303,7 +327,9 @@ Other forums integrations may follow (phpbb, etc.)
 <dt><b><a name="Requirements4">13.5. I don't have a database.  Can I still run Mantis?</a></b></dt>
 <dd>No. You must have a database running to use Mantis.<br><br></dd>
 <dt><b><a name="Requirements5">13.6. Could you use a flat file in place of a database?</a></b></dt>
-<dd>No. You must have a database running to use Mantis.
+<dd>No. You must have a database running to use Mantis.<br><br></dd>
+<dt><b><a name="Requirements6">13.7. Do you require register_globals to be set to On?</a></b></dt>
+<dd>Yes. A future version will work around this requirement.
 
 <!-- ------------- Paranoia ------------- --><br><br></dd>
 </dl>
