@@ -34,11 +34,9 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 	}
 	### --------------------
 	function string_display( $p_string ) {
-		return htmlspecialchars(stripslashes( $p_string ));
-	}
-	### --------------------
-	function string_display_with_br( $p_string ) {
-		return htmlspecialchars(stripslashes( $p_string ));
+		$p_string = stripslashes( $p_string );
+		$p_string = nl2br( $p_string );
+		return $p_string;
 	}
 	### --------------------
 	function sql_to_unix_time( $p_timeString ) {
@@ -75,7 +73,7 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 		$row = mysql_fetch_array($result);
 		extract( $row, EXTR_PREFIX_ALL, "v" );
 		$v_headline = string_display( $v_headline );
-		$v_body = string_display_with_br( $v_body );
+		$v_body = string_display( $v_body );
 		$v_date_posted = date( "m-d H:i", sql_to_unix_time( $v_date_posted ) );
 
 		## grab the username and email of the poster
