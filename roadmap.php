@@ -6,10 +6,10 @@
 <span class="section">0.19.0</span>
 <ul>
 <p><p><b>Database abstraction</b><p>
-	<li>[done] Ready the code for ADODB (http://php.weblogs.com/ADODB)?</li>
+	<li><b>[done]</b> Ready the code for ADODB (http://php.weblogs.com/ADODB)?</li>
 <p><p><b>Re-implement Email Notifications</b><p>
-	<li>Only support PHPMailer for sending emails. Bundle Mantis with PHPMailer.
-	<li>[done] Send an email per user.</li>
+	<li><b>[done]</b> Only support PHPMailer for sending emails. Bundle Mantis with PHPMailer.
+	<li><b>[done]</b> Send an email per user.</li>
 	<li>Support Bugzilla style emails where the changes in the bug are highlighted in the email (similar to cvs diff -u for old / new bug email)
 	<li>Add optional support for HTML emails.
 	<li>Add email templates (where the user can provide a template for the email message, and values can be substitute in the user's template).
@@ -22,22 +22,22 @@
 <p><b>RSS</b><p>
 	<li>Replace existing RSS with http://freshmeat.net/projects/feedcreator/ to be compliant with GPL.
 <p><b>Custom Fields</b><p>
-	<li>Support date custom fields
+	<li>Support date custom fields.
 	<li>Support custom fields in resolved/closed bug page.
 	<li>Make custom fields mandatory at reporting, updating, resolving, or closing stage.
 	<li>Custom fields should support being a listbox type.
 
 <p><b>Filters</b><p>
-	<li>[done] Create Saved Queries</li>
+	<li><b>[done]</b> Create Saved Queries</li>
 	<li>Filters will be stored in the database instead of cookies.
-	<li>[done] Add date range filter</li>
-	<li>[done] Create enhanced search to filter on all/more fields.</li>
+	<li><b>[done]</b> Add date range filter</li>
+	<li><b>[done]</b> Create enhanced search to filter on all/more fields.</li>
         <li>Create advanced search with multiple selection support for fields.</li>
-	<li>[done] Support filtering on custom fields.</li>
+	<li><b>[done]</b> Support filtering on custom fields.</li>
 <p><b>Javascript</b><p>
 	<li>Rename forms to avoid conflicts
 	<li>Auto focus for entry fields
-	<li>Disable Sumbit Button after clicking to prevent double entry Javascript
+	<li>Disable Submit Button after clicking to prevent double entry Javascript
 	<li>Add Select All for view all bugs page
 	<li>Highlight Table Rows on mouse over.  Clicking will make highlight sticky.
 <p><b>Passwords</b><p>

@@ -5,9 +5,7 @@
 <p>
 <span class="section">What is it?</span>
 <p>
-Mantis is a web-based bugtracking system.  It is in active development and is considered beta (although fairly stable).
-<p>
-It is written in the <a href="http://www.php.net/">PHP</a> scripting language and requires the <a href="http://www.mysql.com/">MySQL</a> database and a webserver.  Mantis has been installed on Windows, MacOS, OS/2, and a variety of Unix operating systems.  Almost any web browser should be able to function as a client.  It is released under the terms of the <a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License</a> (GPL).
+Mantis is a web-based bugtracking system.  It is written in the <a href="http://www.php.net/">PHP</a> scripting language and requires the <a href="http://www.mysql.com/">MySQL</a> database and a webserver.  Mantis has been installed on Windows, MacOS, OS/2, and a variety of Unix operating systems.  Almost any web browser should be able to function as a client.  It is released under the terms of the <a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License</a> (GPL).
 <p>
 Mantis is free to use and modify.  It is free to redistribute as long as you abide by the distribution terms of the <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a>.
 <p>
@@ -46,7 +44,7 @@ Check the <a href="roadmap.php">Roadmap</a> for a more detailed and sometimes up
 <p>
 <span class="section">Versioning</span>
 <p>
-The release numbering convention used is <b>major.minor.micro</b> (eg. 0.15.8).
+The release numbering convention used is <b>major.minor.micro</b> (eg. 0.18.2).
 <ul>
 	<li>Major - Indicates a very large change in the core package.  Rewrites or major milestones.
 	<li>Minor - Significant amount of feature addition/modification.
