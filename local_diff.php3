@@ -164,7 +164,8 @@
 <html>
 <head>
 <? include( "css.php3" ) ?>
-<title>Mantis</title>
+	<title>Mantis</title>
+	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
 </head>
 <body>
 
