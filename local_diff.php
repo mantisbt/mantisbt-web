@@ -1,4 +1,9 @@
 <?php
+	$f_lang = '';
+	if ( isset( $_GET['f_lang'] ) {
+		$f_lang = $_GET['f_lang'];
+	}
+
 	function find_var( $p_lang_arr, $p_lang_count, $p_eng_var ) {
 		for ($i=0;$i<$p_lang_count;$i++) {
 			#echo "============".$p_lang_arr[$i]." ==== $i - $p_eng_var<br />";
