@@ -43,6 +43,7 @@
 	<ul>
 		<li><b>[done]</b> Support custom fields in resolved/closed bug page.</li>
 		<li><b>[done]</b> Make custom fields mandatory at reporting, updating, resolving, or closing stage.</li>
+		<li><b>[done]</b> Support list box custom fields</li>
 	</ul>
 
 	<br />
@@ -103,7 +104,6 @@
 	<ul>
 		<li>Support auto-populated custom fields (eg: version), this will probably use custom functions.</li>
 		<li>Support date custom fields</li>
-		<li>Support list box custom fields</li>
 	</ul>
 
 	<br />
