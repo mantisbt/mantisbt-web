@@ -87,6 +87,7 @@ What to do if you see some errors?  Just <a href="mailto:kenito@300baud.org">sen
 	print_lang( "Russian",				"latest",  "active" );
 	print_lang( "Russian_KOI8",			"latest",  "active" );
 	print_lang( "Spanish",				"latest",  "active" );
+	print_lang( "Swedish",				"latest",  "active" );
 	print_lang( "Turkish",				"latest",  "active" );
 ?>
 </table>
