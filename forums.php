@@ -3,7 +3,11 @@
 <span class="page_title">Forums</span>
 <hr size=1 noshade width="100%">
 <p>
-The following forums are hosted at Sourceforge.  You can post anonymously.  Please report actual bugs to the <a href="mantis/">Development Bugtracker</a>.
+We have <a href="http://forums.mantisbt.org/">new forums<a/> setup here.
+<p>
+Please report actual bugs to the <a href="mantis/">Development Bugtracker</a>.
+<p>
+The old forums are now disabled.  They are linked here as reference only.
 <p>
 <ul>
 	<li><a href="http://sourceforge.net/forum/forum.php?forum_id=47435">Open Discussion</a>
