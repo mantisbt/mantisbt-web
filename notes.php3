@@ -6,12 +6,20 @@
 This page contains several additional notes which should supplement the documentation.  Eventually, this information will probbaly be rolled into the core documentation.
 
 <ul>
-	<li><a href="#access_level">Access Level Rights Notes</a>
+	<li><a href="#change_text">Changing the wording</a>
+	<li><a href="#change_text">Access Level Rights Notes</a>
 	<li><a href="#email_notes">Email Notes</a>
 	<li><a href="#example_of_use">Example of Use</a>
 	<li><a href="#navigation">Navigation</a>
 </ul>
 
+<p>
+<!-- -------------------------------------------------------------------- -->
+<hr size=1>
+<p><a name="change_text"></a>
+<b><a href="note_change_string.php3">Changing the wording</a></b>
+<p>
+THis note details the steps necessary to change the wording of some text in drop down lists.  It also lists ways to remove or add strings.
 <p>
 <!-- -------------------------------------------------------------------- -->
 <hr size=1>

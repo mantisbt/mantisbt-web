@@ -17,11 +17,11 @@ The computer can be a shared public web server or a dedicated co-loc box.  It ca
 </ul>
 <span class="section">Cost</span>
 <p>
-Net cost to use Mantis: the time to download, install, and configure the software plus any potential hardware costs.
+Mantis is free. The net cost to use Mantis is the time to download, install, and configure the software plus any potential hardware costs.
 <p>
 <span class="section">Time</span>
 <p>
-If you've done this sort of thing before it will probably take about 5-60 minutes.  If not, plan on around 1-8 hours depending on the problems you run into.  If you're unlucky then plan on more, or just give up now.
+If you've done this sort of thing before it will probably take about 5-60 minutes.  If not, plan on around 1-8 hours depending on the problems you run into.  If you're unlucky then plan on more, or just give up now *wink*.
 <p>
 <span class="section">PHP</span>
 <p>

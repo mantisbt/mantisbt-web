@@ -13,12 +13,13 @@
 	}
 
 	db_connect( $g_hostname, $g_db_username, $g_db_password, $g_database_name );
-	$query = "SELECT question
+	$query = "SELECT *
 			FROM questions
-			ORDER BY date_submitted DESC
-			LIMIT 1";
+			WHERE id='$f_id'";
 	$result = mysql_query( $query );
-	$f_question = stripslashes( mysql_result( $result, 0, 0 ) );
+	$row = mysql_fetch_array( $result );
+	extract( $row );
+	$question = stripslashes( $question );
 ?>
 
 <span class="page_title">Survey</span>
@@ -28,7 +29,8 @@
 	<p>
 	<font size=-1>There is a limit of 10,000 characters.  The system will be disabled if abused.</font>
 	<form action="survey_add.php3" method="POST">
-		<textarea name="f_message" cols=72 rows=25><? echo $f_question ?></textarea><br>
+		<input type=hidden name="f_subject" value="<? echo $subject ?>">
+		<textarea name="f_message" cols=72 rows=25><? echo $question ?></textarea><br>
 		<input type=submit value="   Send   ">
 	</form>
 

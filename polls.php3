@@ -52,7 +52,10 @@ These polls and surveys help chart the direction Mantis takes.
 		<br>
 		<span class="section">Surveys</span>
 		<p>
-		<a href="survey.php3"><b>Answer Survey</b></a>
+		<ul>
+			<li><a href="survey.php3?f_id=3">General Questionaire</a></li>
+			<li><a href="survey.php3?f_id=4">Annoyances</a></li>
+		</ul>
 	</td>
 </tr>
 	</table>

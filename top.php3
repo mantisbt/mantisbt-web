@@ -3,8 +3,8 @@
 
 <html>
 <head>
-<? include( "css.php3" ) ?>
 <title>Mantis</title>
+<? include( "mantis.css" ) ?>
 </head>
 <body>
 

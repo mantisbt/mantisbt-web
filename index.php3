@@ -80,6 +80,7 @@
 
 	$query =  "SELECT *, (pollID*0+RAND()) as rand
 			FROM vbooth_desc
+			WHERE pollID<>'$pollID'
 			ORDER BY rand LIMIT 2";
 	$result = mysql_query( $query );
 	$poll_count = mysql_num_rows( $result );
@@ -97,7 +98,17 @@
 		</tr>
 		<tr>
 			<td class="survey">
-				<a class="small_bold" href="survey.php3">Answer Survey</a>
+			<?
+				$query =  "SELECT UNIX_TIMESTAMP(date_submitted) as date_submitted
+						FROM questions
+						ORDER BY id DESC
+						LIMIT 1";
+				$result = mysql_query( $query );
+				$row = mysql_fetch_array( $result );
+				extract( $row );
+				$date_submitted = date( "m-d", $date_submitted );
+				?>
+				<a class="small_bold" href="survey.php3?f_id=4">Answer Survey (<? echo $date_submitted ?>)</a>
 			</td>
 		</tr>
 		</table>
