@@ -52,6 +52,7 @@
 				&nbsp;&nbsp;&nbsp;<a href="api.php3">API</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="guidelines.php3">Coding Guidelines</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="devnotes.php3">Developer Notes</a><br>
+				&nbsp;&nbsp;&nbsp;<a href="starting.php3">Getting Started</a><br>
 				&nbsp;&nbsp;&nbsp;<a href="database.php3">Database</a><br>
 			</td>
 		</tr>

@@ -26,7 +26,7 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 	<h3>Mantis Coding Conventions</h3>
 
 	<p>
-	This is the Mantis coding conventions document.  It lists all the basic conventions that I have followed in order to make the code easy to read and maintain.  ANyone working on the code, adding features, or wanting to send in a patch should take a quick look through this document.  Currently the code is very flat and procedure based.  A future version may switch to objects at which point some of these conventions may change or be added to.
+	This is the Mantis coding conventions document.  It lists all the basic conventions that I have followed in order to make the code easy to read and maintain.  <i>Code not following these conventions will be modified or (in extreme cases) rejected.</i> Anyone working on the code, adding features, or wanting to send in a patch should take a quick look through this document.  Currently the code is very flat and procedure based.  A future version may switch to objects at which point some of these conventions may change or be added to.  If you have suggestions are a good argument for changing some of these then feel free to <a href="mailto:kenito@300baud.org">let me know</a>.
 
 	<p>
 
@@ -62,6 +62,7 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 	<li>Use TABS with a size of 4 to make the code easily readable while not wasting too much space
 	<li>Follow the table formatting of existing pages
 	<li>Break up SQL queries to be easy to read
+	<li>CAPITALIZE SQL keywords
 	<li>Use &lt;? and ?&gt; for php delimiters
 	<li>Try not to print/echo html code unless it's short or in a function loop
 	</ul>
@@ -74,6 +75,7 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 	<li>Next will be the various html print_ functions.
 	<li>The main body of the page will follow
 	<li>At the bottom will be the footer information and closing print_ functions.
+	<li>Use @@@ followed by a brief message (BROKEN, TEMPORARY, etc) as a "look at this" indicator.  Leaving your name next to it might be a good idea as well.
 	</ul>
 
 	<a href="http://utvikler.start.no/code/php_coding_standard.html">PHP Coding Standard</a> has excellent guidelines for php programming style.  For the most part I seem to have followed it (except for TABS vs spaces).  If something is ambiguous consult this link or email me.

@@ -91,6 +91,7 @@ What to do if you see some errors?  Just <a href="mailto:kenito@300baud.org">sen
 	print_lang( "Chinese_Traditional",       "latest",  "active" );
 	print_lang( "Dutch",       "latest",  "active" );
 	print_lang( "French",      "latest",  "active" );
+	print_lang( "French2",      "alternate",  "active" );
 	print_lang( "German",      "latest",  "active" );
 	print_lang( "Italian",     "latest",  "active" );
 	print_lang( "Korean",      "0.14.8 (separate)",  "active" );
@@ -106,9 +107,15 @@ What to do if you see some errors?  Just <a href="mailto:kenito@300baud.org">sen
 <p>
 <b><font size=+1>Translating</font></b>
 <p>
-Don't see your language?  Translate one of the files!  It's really quite simple.  Just take the strings file and convert away.  Then <a href="mailto:kenito@300baud.org">submit it</a> back to me.  Also, you can update them when new strings make it in.  The file won't change drastically so it shouldn't be too much work to keep the files updated.
+Don't see your language?  Translate one of the files!  It's really quite simple.  Just take the strings file and convert away.  Then <a href="mailto:kenito@300baud.org">submit it</a> back to me.
 <p>
-Currently some strings are hard-coded into the database tables or the code.  This will be fixed soon.
+<b><font size=+1>Updating</font></b>
+<p>
+Also, you can update them when new strings make it in.  The file won't change drastically so it shouldn't be too much work to keep the files updated. Just click on the "view diff" link to see what strings might need translating.  I'll usually send a email out to translators when a new bunch of strings is ready.
+<p>
+<b><font size=+1>Notes</font></b>
+<p>
+Currently some strings are hard-coded into the database tables or the code.  This should be fixed after the 0.15.0 release.
 </td>
 </tr>
 </table>

@@ -23,28 +23,21 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 <td>
 <b><font size=+1>Credits</font></b>
 <p>
-	<li><a href="mailto:kenito@300baud.org">Kenzaburo Ito</a> - programming
-	<li>Hai Nguyen - original implementation
-	<li>Scott Roberts - original news code
-<p>
-Contributors:
-<p>
-	<li>Sean Phelan
-	<li>Steve Davies
-	<li>Jason Stewart
-<p>
-Translations:
-<p>
-	<li>Hermann-Josef Beckers
-	<li>Heiko Gierer
-	<li>Felipe Tonioli
-	<li>Pablo Corral
-	<li>Hellekin O. Wolf
-	<li>Luca Pescatore
-	<li>Jan-Bart de Vreede
-	<li>Espen Holje
-	<li>J.I. Kim
-	<li>Oktay Altunergil
+<b>Main</b><p>
+<?
+	$file = file("mantis/CREDITS");
+	$count = count($file);
+	for ($i=7;$i<$count;$i++) {
+		$file[$i] = trim( $file[$i] );
+		if ( strpos( $file[$i], ":" ) > 0 ) {
+			echo "<p><b>".$file[$i]."</b><p>";
+		} else if ( !empty( $file[$i] ) ) {
+			echo "<li>".$file[$i]."<br>";
+		} else {
+			echo $file[$i]."";
+		}
+	}
+?>
 </td>
 </tr>
 </table>
