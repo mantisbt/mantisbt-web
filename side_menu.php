@@ -9,7 +9,7 @@
 				<a class="big" href="index.php">Home</a><br />
 				<a class="big" href="about.php">About</a><br />
 				<a class="big" href="demo.php">Demo</a><br />
-				<a class="big" href="mantis/">Bugtracker</a><br />
+				<a class="big" href="http://bugs.mantisbt.org/">Bugtracker</a><br />
 				<a class="big" href="download.php">Download</a><br />
 				<!--<a class="big" href="screenshots.php">Screenshots</a><br />-->
 				<!--<a class="big" href="me.php">Author</a><br />-->
