@@ -3,21 +3,18 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
-<title>Mantis</title>
+<title>Mantis Bug Tracker</title>
 <?php include( "mantis.css" ) ?>
 </head>
 <body>
 
-<table class="outisde" cellpadding="0" cellspacing="0">
+<table class="outisde" cellpadding="5" cellspacing="0">
 <tr class="top">
-	<td class="top_left">
-		&nbsp;
-	</td>
-	<td class="top_right">
-		<a href="http://www.mantisbt.org/"><img border="0" src="images/banner.gif" alt=""></a>
+	<td colspan="2" class="top_right">
+		<a href="http://www.mantisbt.org/"><img border="0" src="images/mantis_logo.gif" alt="Mantis" /></a>
 	</td>
 	<td class="right">
-		<a href="http://www.google.com/"><img border="0" src="images/google.gif" alt=""></a>
+		<a href="http://www.mantisbt.org"><img src="images/mantis_logo_button.gif" width="88" height="35" border="0" alt="Mantis"></a>
 	</td>
 </tr>
 <tr class="top">
