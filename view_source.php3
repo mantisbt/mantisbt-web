@@ -20,7 +20,7 @@
 
 	# create the API links
 	function process_file( $p_file ) {
-		$path = "./../";
+		$path = "mantis/";
 
 		$buf = file( $path.$p_file );
 		$num = count( $buf );
@@ -108,7 +108,7 @@
 	}
 
 	function process_function_file( $p_file ) {
-		$path = "./../";
+		$path = "mantis/";
 
 		### error
 		if (!( strpos( $p_file, "ore_" ) > 0 )) {
@@ -215,25 +215,14 @@
 		# @@@ Delete temp file?# @@@ Delete temp file?
 	}
 ?>
-<html>
-<head>
-<? include( "css.php3" ) ?>
-	<title>Mantis</title>
-</head>
-<body>
+<? include( "top.php3" ); ?>
 
+<span class="page_title">View API</span>
+<hr size=1 noshade width="100%">
 <p>
-<div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
-
-<p>
-<div align=center>
 
 <table width=100%>
 <tr valign=top>
-	<? include("side_menu.php3") ?>
 	<td width=100%>
 		<b><font size=+1><a name=page_top>API - <? echo $f_file ?></a></font></b>
 		<p>
@@ -261,5 +250,4 @@
 </tr>
 </table>
 
-</body>
-</html>
+<? include( "bot.php3" ); ?>

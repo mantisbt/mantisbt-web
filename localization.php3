@@ -39,28 +39,10 @@
 		PRINT "</tr>";
 	}
 ?>
-<html>
-<head>
-<? include( "css.php3" ) ?>
-<title>Mantis</title>
-</head>
-<body>
+<? include( "top.php3" ); ?>
 
-<p>
-<div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
-
-<p>
-<div align=center>
-
-<table width=100%>
-<tr valign=top>
-	<? include("side_menu.php3") ?>
-<td width=100%>
-<p>
-<b><font size=+1>Localization</font></b>
+<span class="page_title">Localization</span>
+<hr size=1 noshade width="100%">
 <p>
 Here you can see the latest localization files.  Some of them are included with a release (as indicated).  Others tend to lag slightly behind the newest releases so if your language isn't supported check back a few days after a big release.
 <p>
@@ -103,20 +85,16 @@ What to do if you see some errors?  Just <a href="mailto:kenito@300baud.org">sen
 </div>
 
 <p>
-<b><font size=+1>Translating</font></b>
+<span class="section">Translating</span>
 <p>
 Don't see your language?  Translate one of the files!  It's really quite simple.  Just take the strings file and convert away.  Then <a href="mailto:kenito@300baud.org">submit it</a> back to me.
 <p>
-<b><font size=+1>Updating</font></b>
+<span class="section">Updating</span>
 <p>
 Also, you can update them when new strings make it in.  The file won't change drastically so it shouldn't be too much work to keep the files updated. Just click on the "view diff" link to see what strings might need translating.  I'll usually send a email out to translators when a new bunch of strings is ready.
 <p>
-<b><font size=+1>Notes</font></b>
+<span class="section">Notes</span>
 <p>
 Currently some strings are hard-coded into the database tables or the code.  This should be fixed after the 0.15.0 release.
-</td>
-</tr>
-</table>
 
-</body>
-</html>
+<? include( "bot.php3" ); ?>

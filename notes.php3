@@ -1,26 +1,7 @@
-<html>
-<head>
-<? include( "css.php3" ) ?>
-<title>Mantis</title>
-</head>
-<body>
+<? include( "top.php3" ); ?>
 
-<p>
-<div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
-
-<p>
-<div align=center>
-
-<table width=100%>
-<tr valign=top>
-	<? include("side_menu.php3") ?>
-<td width=100%>
-<p>
-<b><font size=+1>Notes</font></b>
-
+<span class="page_title">Notes</span>
+<hr size=1 noshade width="100%">
 <p>
 This page contains several additional notes which should supplement the documentation.  Eventually, this information will probbaly be rolled into the core documentation.
 
@@ -101,10 +82,4 @@ This procedure is very basic and is certainly not the only wayt the product can 
 The navigation in Mantis is designed to be simple to use and hard to get lost in.  Mantis should not waste your time making you figure out what exactly 'create query' entails or ask you to remember 7 digit bug IDs or hide information that you want to see.
 <p>
 All the major sections are linked in the menu across the top of every page and can be configured to be displayed at the bottom as well.
-<hr size=1>
-</td>
-</tr>
-</table>
-
-</body>
-</html>
+<? include( "bot.php3" ); ?>

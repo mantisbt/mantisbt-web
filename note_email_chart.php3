@@ -1,34 +1,21 @@
-<html>
-<head>
-<? include( "css.php3" ) ?>
-<title>Mantis</title>
-</head>
-<body bgcolor=#ffffff>
+<? include( "top.php3" ); ?>
 
+<span class="page_title">Email Scheme</span>
+<hr size=1 noshade width="100%">
 <p>
-<div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
 
+<span class="section">Introduction</span>
 <p>
-<div align=center>
-
-<table width=100%>
-<tr valign=top>
-	<? include("side_menu.php3") ?>
-<td width=100%>
-	<h3>Email Scheme</h3>
-
-<b>Introduction</b><p>
 	Mantis provides basic email functionality for user signup and bug notification.  You will need to have a working email server (SMTP server) on your mantis server.  For unix machines this is normally sendmail.  You may find more help at the php.net manual page here: <a href="http://www.php.net/manual/en/function.mail.php">http://www.php.net/manual/en/function.mail.php</a>
 	<p>
 	Read more about the setup in the <a href="mantis/configuration.html#email">Configuration Documentation: Email</a>
 <p>
-<b>Signup</b><p>
+<span class="section">Signup</span>
+<p>
 	For signup the administrator must set the $g_allow_signup global in config_inc.php to be true (on by default).  Users must specify a valid email address to signup.  A password will be randomnly generated and sent to the user.  If the email validation is breaking on valid addresses then you may want to disable the MX record check.  If further errors occur then disable the validation altogether.  This is covered in the <a href="mantis/configuration.html#email">Configuration Documentation: Email</a>
 <p>
-<b>Notification</b><p>
+<span class="section">Notification</span>
+<p>
 	Each user can control which email events he receives.  The site admin gets to specify what the default values are but each user can edit their settings after their account is created.  These values currently apply to all projects.  Per project user email settings are in the works.
 	<p>
 	Email is sent FROM [$g_from_email] TO [$g_to_email].  Generally these can be fake email addresses as long as the email is sent.  One good use of the TO address is to send everything to an internal email or mailing list (and later, perhaps a news server).  The users who should be notified are included in the bcc: field.  This is Blind Carbon Copy.  This means that the users do not know who else may have received the message.  They will see the message sender, recipient, and they will be listed under cc or bcc.
@@ -102,9 +89,4 @@
 	</tr>
 	</table>
 
-</td>
-</tr>
-</table>
-
-</body>
-</html>
+<? include( "bot.php3" ); ?>

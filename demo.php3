@@ -1,45 +1,23 @@
-<html>
-<head>
-<? include( "css.php3" ) ?>
-<title>Mantis</title>
-</head>
-<body>
+<? include( "top.php3" ); ?>
 
+<span class="page_title">Demo</span>
+<hr size=1 noshade width="100%">
 <p>
-<div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
-
-<p>
-<div align=center>
-
-<table width=100%>
-<tr valign=top>
-	<? include("side_menu.php3") ?>
-<td width=100%>
-<p>
-<b><font size=+1>Demo Bugtracker</font></b>
-<p>
-Here you can login to report actual bugs in Mantis.  You may also log feature requests as well.  Finally, just use it to play around and see if it meets your needs.
-<p>
-Login as:
+Login to see Mantis in action.  This installation is also used to track actual Mantis bugs and feature requests.
 <ul>
-<li>viewer / viewer - most limited access
-<li>reporter / reporter - you can report bugs and add bugnotes
-<li>rep / rep - same
-<li>updater / updater - you can edit bugs
-<li>Sign up for your own account!  <b>You will need a <font color=#ff000>valid</font> email address.</b>  If you know your email address works but never get emailed then please <a href="mailto:kenito@300baud.org">contact me</a>.
+	<li>Sign up for your own account! <b>You will need a <font color=#ff000>valid</font> email address.</b>  If you know your email address works but never get emailed then please <a href="mailto:kenito@300baud.org">contact me</a>.
+</ul>
+Or you can login with... ( username / password )
+<ul>
+	<li>viewer / viewer
+	<li>reporter / reporter
+	<li>updater / updater
 </ul>
 <p>
-Again, feel free to explore but please, <font color=#ff0000><b>do not play with any valid bug entries</b></font>.  There is a "Test Project" that you can play around with all you like.  I will periodically be cleaning out any test bugs.
+<font size=+1 color=#ff0000><b>Please do not play with any valid bug entries</b></font>. <p>
+There is a "Test Project" that you can play around with all you like.
 <p>
-<div align=center>
-	<a href="http://mantisbt.sourceforge.net/mantis/"><b>Demo Bugtracker</b></a>
-</div>
-</td>
-</tr>
-</table>
 
-</body>
-</html>
+<p class="center"><a class="bold" href="http://mantisbt.sourceforge.net/mantis/">Enter Bugtracker</a>
+
+<? include( "bot.php3" ); ?>

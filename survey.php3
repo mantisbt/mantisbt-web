@@ -1,3 +1,4 @@
+<? include( "top.php3" ); ?>
 <?
 	include("mantis/constant_inc.php");
 	include("mantis/config_inc.php");
@@ -20,29 +21,9 @@
 	$f_question = stripslashes( mysql_result( $result, 0, 0 ) );
 ?>
 
-<html>
-<head>
-<? include( "css.php3" ) ?>
-<title>Mantis</title>
-</head>
-<body>
-
+<span class="page_title">Survey</span>
+<hr size=1 noshade width="100%">
 <p>
-<div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
-
-<p>
-<div align=center>
-
-<table width=100%>
-<tr valign=top>
-	<? include("side_menu.php3") ?>
-<td width=100%>
-	<p>
-	<b><font size=+1>Survey</font></b>
-	<p>
 	Please respond to the following questions.  These will change from time to time as input is received.  Feel free to ignore certain questions but please be honest in your responses.  Your message will be emailed anonymously to the author.  You will automatically be redirected to the index page after submission.  Thanks!
 	<p>
 	<font size=-1>There is a limit of 10,000 characters.  The system will be disabled if abused.</font>
@@ -51,10 +32,4 @@
 		<input type=submit value="   Send   ">
 	</form>
 
-</td>
-</tr>
-</table>
-</div>
-
-</body>
-</html>
+<? include( "bot.php3" ); ?>

@@ -1,27 +1,11 @@
-<html>
-<head>
-<? include( "css.php3" ) ?>
-<title>Mantis</title>
-</head>
-<body bgcolor=#ffffff>
+<? include( "top.php3" ); ?>
 
+<span class="page_title">User Access Level Rights</span>
+<hr size=1 noshade width="100%">
 <p>
-<div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
 
+	<span class="section">Chart</span>
 <p>
-<div align=center>
-
-	<table width=100%>
-	<tr valign=top>
-		<? include("side_menu.php3") ?>
-	<td width=100%>
-		<h3>User Access Level Rights</h3>
-
-	<b>Chart</b><p>
-
 	<table cellpadding=4 border=0 cellspacing=1 bgcolor=#aaaaaa>
 	<tr bgcolor=#ddddff>
 		<td bgcolor=#ffffff>&nbsp;</td>
@@ -101,9 +85,4 @@
 		<td bgcolor=#bbeebb>Y</td>
 	</tr>
 	</table>
-</td>
-</tr>
-</table>
-
-</body>
-</html>
+<? include( "bot.php3" ); ?>

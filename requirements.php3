@@ -1,38 +1,51 @@
-<html>
-<head>
-<? include( "css.php3" ) ?>
-<title>Mantis</title>
-</head>
-<body>
+<? include( "top.php3" ); ?>
 
+<span class="page_title">Requirements</span>
+<hr size=1 noshade width="100%">
 <p>
-<div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
+Mantis runs on Windows, MacOS, OS/2, Linux, Solaris, the BSDs, and just about anything that supports the required server software.
+<p>
+Mantis has modest software and hardware requirements.  You need a computer to run the server on along with the server software.  All of the required software is free for commercial or non-commercial use.  All are the most popularly used products in their respective categories.  This doesn't mean they are necessarly the best, but there will be a lot of content and knowledge about each.
+<p>
+The computer can be a shared public web server or a dedicated co-loc box.  It can even run on an office machine.  Any Pentium class computer should be adequate for light usage.  You'll just need enough diskspace for the database to grow and enough memory to avoid virtual memory thrashing.  I make do with a Pentium 233 with 128MBs of RAM but the more users you have the more memory you will need.
+<p>
+<span class="section">Software</span>
+<ul>
+	<li><a href="http://www.php.net/">PHP</a> 3.0.13 and higher
+	<li><a href="http://www.mysql.com/">MySQL database</a> (alternate database support is planned)
+	<li>Web server (<a href="http://httpd.apache.org/">Apache</a>, IIS, etc.)
+</ul>
+<span class="section">Cost</span>
+<p>
+Net cost to use Mantis: the time to download, install, and configure the software plus any potential hardware costs.
+<p>
+<span class="section">Time</span>
+<p>
+If you've done this sort of thing before it will probably take about 5-60 minutes.  If not, plan on around 1-8 hours depending on the problems you run into.  If you're unlucky then plan on more, or just give up now.
+<p>
+<span class="section">PHP</span>
+<p>
+You don't have to know a thing about PHP to use Mantis, unless something goes wrong.  Then it helps to be able to tinker with PHP scripts (when there's a little bug or you want to tweak something).
+<p>
+PHP is a simple scripting language and syntacticaly resembles C.  It is not something to be afraid of.  There are very few new concepts to learn.  In fact, it makes normally difficult tasks so ridiculously easy that you'll want to use it for lots of simple tasks (like washing dishes).
+<p>
+The <a href="http://www.php.net/manual/en/">PHP Manual</a> is *phenomenal*.  If you ever have a question about a php function then run to it.  The user comments always shed light into issues that others like you have expereinced.
+<p>
+There are many sites that offer basic tutorial to using PHP and/or MySQL( <a href="http://www.devshed.com/">DevShed</a> | <a href="http://www.webmonkey.com/">WebMonkey</a> ).
+<p>
+<span class="section">MySQL</span>
+<p>
+Basic administration of MySQL is necessary.  At a minimum you should be able to:
+<ul>
+	<li>login
+	<li>create a new user
+	<li>give the user permissions
+</ul>
+<p>
+<a href="http://www.mysql.com/doc/">MySQL.com</a> has excellent documentation.  I also highly recommend using <a href="http://www.phpwizard.net">phpMyAdmin</a> to administer your MySQL database.  You can create a new database and edit tables with this excellent package.  All you need to do beforehand is setup the database user(s).
+<p>
+<span class="section">Webserver</span>
+<p>
+The webserver needs to be configured to handle PHP files.  In Apache, this monumental task requires <a href="http://www.php.net/manual/en/install.apache.php">one line in the configuration file</a>.  There are even instructions for <a href="http://www.php.net/manual/en/install.iis.php">IIS</a>, <a href="http://www.php.net/manual/en/install.netscape-enterprise.php">iPlanet/Netscape</a>, <a href="http://www.php.net/manual/en/install.xitami.php">Xitami</a>, and more.  I think you get the idea: use <a href="http://www.php.net/manual/en/">The PHP Manual</a>!
 
-<p>
-<div align=center>
-
-<table width=100%>
-<tr valign=top>
-	<? include("side_menu.php3") ?>
-<td width=100%>
-<p>
-<b><font size=+1>Requirements</font></b>
-<p>
-<li><a href="http://www.php.net/">php</a> 3.0.13 and higher (this might drop back down to 3.0.7)
-<li><a href="http://www.mysql.com/">MySQL database</a> (more support is planned)
-<li>Web server (<a href="http://www.apache.org/">apache</a>, IIS, etc.)
-<p>
-Additionally you will need to know basic administration of MySQL (login, create new database, run a SQL query).  The webserver needs to be configured to handle php files at a minimum.
-<p>
-It also helps a great deal to at least be able to tinker with php scripts (when there's a little bug or you want to tweak something).  Of course, knowing HTML is essential to do any custom formatting.  Along the lines of appearance, I have tried to use my best judgement in colors, layout, and feel.  Eventually I hope to be able to customize the look and feel from a single CSS file.
-<p>
-I highly recommend using <a href="http://www.phpwizard.net">phpMyAdmin</a> to administer your mysql database.
-</td>
-</tr>
-</table>
-
-</body>
-</html>
+<? include( "bot.php3" ); ?>

@@ -1,66 +1,48 @@
-<html>
-<head>
-<? include( "css.php3" ) ?>
-<title>Mantis</title>
-</head>
-<body>
+<? include( "top.php3" ); ?>
 
+<span class="page_title">Database</span>
+<hr size=1 noshade width="100%">
 <p>
-<div align=center>
-        <h2>Mantis</h2>
-        Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
-
+Mantis uses <a href="http://www.mysql.com/">MySQL</a> for it's database needs.  Other database support will follow.
 <p>
-<div align=center>
-
-<table width=100%>
-<tr valign=top>
-        <? include("side_menu.php3") ?>
-<td width=100%>
-<p>
-<b><font size=+1>Database Schema</font></b>
-<p>
-This is a basic view of the database schema used in Mantis.  In my defense it was my first try at a decently sized project and the project has grown out of its original design.  It should and will be re-normalized 'soon'.  The schemas are a bit rough right now.  I should add indicators for index, primary keys, 'foreign keys' (mysql doesn't support these, you have to fake them), unique fields, and relationships (1 to 1, 1 to many, etc).
+This is a basic view of the database schema used in Mantis.  Note that MySQL doesn't have real foreign keys.
 <p>
 <ul>
-<li><a href="images/mantis-0.15.0.gif">version 0.15.x</a> <? echo round(filesize("images/mantis-0.15.0.gif") / 1024) ?>KB
-<li><a href="images/mantis-0.14.0.gif">version 0.14.1</a> <? echo round(filesize("images/mantis-0.14.0.gif") / 1024) ?>KB
-<li><a href="images/mantis-0.13.0.gif">version 0.9.0 to 0.13.1</a> <? echo round(filesize("images/mantis-0.13.0.gif") / 1024) ?>KB
+	<li><a href="images/mantis-0.15.0.gif">version 0.15.x</a> <? echo round(filesize("images/mantis-0.15.0.gif") / 1024) ?>KB
+	<li><a href="images/mantis-0.14.0.gif">version 0.14.1</a> <? echo round(filesize("images/mantis-0.14.0.gif") / 1024) ?>KB
+	<li><a href="images/mantis-0.13.0.gif">version 0.9.0 to 0.13.1</a> <? echo round(filesize("images/mantis-0.13.0.gif") / 1024) ?>KB
 </ul>
 <p>
-Any database experts who'd like to offer their insights can email me.
+I made these graphs using <a href="http://www.smartdraw.com/">SmartDraw</a>.  I may be using <a href="http://www.microsoft.com/visio/">Visio</a> in the future.  They are both commercial programs.
 <p>
-<b><font size=+1>Porting</font></b>
+Any database experts who'd like to offer their insights can <a href="mailto:kenito@300baud.org">email me</a>.  These changes will likely take place after version 1.0.0
 <p>
-This project has a stated goal of database independence.  The following provide some information to aid in this goal.
+<span class="section">Porting</span>
 <p>
-The core package has been developed with mysql.  As a true database mysql is severly lacking in core features, however, in our case it is sufficient.  Just remember to backup your database every few days.
+This project has a stated goal of database independence.  Unfortunately, even with a database abstraction packages, this is a rather large task.  More than just the access mechanisms need to be available.  The table data and query behaviors also need to be emulated correctly.  Work will be devoted to this task after the 1.0.0 release.
 <p>
-One of the unforseen 'benefits' of using mysql is that most of the SQL is very simple.  There are no SUB-SELECTS, no foreign keys, no stored procedures.  Porting efforts should be relatively simple.  Here are some of the key points that require attention in porting efforts.
+As a true database, MySQL is severly lacking in core features, however, in our case it is sufficient.  Just remember to backup your database every few days.
 <p>
-
-<b>Basic database functions:</b>
+One of the unforseen benefits of using MySQL is that most of the SQL is very simple.  There are no SUB-SELECTS, no foreign keys, no stored procedures.  Porting efforts should be relatively simple.  Here are some of the key points that require attention in porting efforts.
+<p>
+<span class="section">Basic database functions:</span>
 <ul>
-<li>db_connect()
-<li>db_select_db()
-<li>db_query()
-<li>db_result()
-<li>db_num_rows()
-<li>db_fetch_array()
-<li>db_insert_id()
-<li>db_close()
+	<li>db_connect()
+	<li>db_select_db()
+	<li>db_query()
+	<li>db_result()
+	<li>db_num_rows()
+	<li>db_fetch_array()
+	<li>db_insert_id()
+	<li>db_close()
 </ul>
 
-<b>Some notes:</b>
+<span class="section">Some notes:</span>
 <ul>
-<li>AUTO_INCREMENT - There must be a method for generating a unique id for every entry in a table.  I believe Oracle uses SEQUENCES.
-<li>LAST_INSERT_ID() - There needs to be a database mechanism to retrieve the ID of the record that was just inserted.  There are several places in Mantis where multiple inserts take place in one script and each script needs the ID of the previously inserted record.  I had some feedback that MSSQL uses something like "SELECT @@IDENTITY AS 'id'" to accomplish this.
-<li>count returned rows - There should be a way to count the number of returned rows.  Mantis uses mysql_num_rows() to get this number.  An alternative is to return a COUNT() in a SQL query.
+	<li>AUTO_INCREMENT - There must be a method for generating a unique id for every entry in a table.  Oracle uses SEQUENCES and TRIGGERS.
+	<li>LAST_INSERT_ID() - There needs to be a database mechanism to retrieve the ID of the record that was just inserted.  There are several places in Mantis where multiple inserts take place in one script and each script needs the ID of the previously inserted record.  MSSQL uses something like "SELECT @@IDENTITY AS 'id'" to accomplish this.  Oracle uses the SEQUENCE's currval field.
+	<li>count selected rows - Mantis uses mysql_num_rows() to get this number.  An alternative is to return a COUNT(*) in a SQL query.  The COUNT(*) method should work on most databases.
+	<li>Transactions - Most databases support transactions except for MySQL.  A support mechanism needs to be built.
 </ul>
-</td>
-</tr>
-</table>
-
-</body>
-</html>
+A good candidate for the database abstraction class is <a href=http://adodb.sourceforge.net/">ADODB</a>
+<? include( "bot.php3" ); ?>

@@ -62,29 +62,10 @@
 		PRINT "</table>";
 	}
 ?>
-<html>
-<head>
-<? include( "css.php3" ) ?>
-<title>Mantis</title>
-</head>
-<body>
+<? include( "top.php3" ); ?>
 
-<p>
-<div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
-
-<p>
-<div align=center>
-
-<table width=100%>
-<tr valign=top>
-	<? include("side_menu.php3") ?>
-<td width=100%>
-<p>
-<b><font size=+1>Release Notes</font></b>
-
+<span class="page_title">Release Notes</span>
+<hr size=1 noshade width="100%">
 <p>
 This is a preliminary draft of the release notes.
 <p>
@@ -173,9 +154,4 @@ Along with the access levels all other ENUM fields in the database have been swi
 	<hr>
 <!-- END 0.15.0 --------------------------------------------- -->
 
-</td>
-</tr>
-</table>
-
-</body>
-</html>
+<? include( "bot.php3" ); ?>

@@ -1,23 +1,5 @@
-<html>
-<head>
-<? include( "css.php3" ) ?>
-<title>Mantis</title>
-</head>
-<body bgcolor=#ffffff>
-
-<p>
-<div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
-
-<p>
-<div align=center>
-
-<table width=100%>
-<tr valign=top>
-	<? include("side_menu.php3") ?>
-<td width=100%>
+<? include( "zorblogs.php" ); ?>
+<? include( "top.php3" ); ?>
 <? include( "mantis/constant_inc.php" ) ?>
 <? include( "mantis/config_inc.php" ) ?>
 <?
@@ -45,50 +27,80 @@
 					   substr( $p_timeString, 0, 4 ) );
 	}
 	### --------------------
+	function update_visits() {
+		global $REMOTE_ADDR, $HTTP_REFERER, $HTTP_USER_AGENT;
+
+		$t_ip 			= $REMOTE_ADDR;
+		$t_referer 		= $HTTP_REFERER;
+		$t_user_agent 	= $HTTP_USER_AGENT;
+		$query = "INSERT INTO visitors
+					(id, ip, visit_time, user_agent, referer)
+					VALUES
+					(null, '$t_ip', NOW(), '$t_user_agent', '$t_referer')";
+		mysql_query( $query );
+	}
 
 	db_connect( $g_hostname, $g_db_username, $g_db_password, $g_database_name );
+
+	update_visits();
 ?>
-<p>
-<div align="center">
-<table>
+
+<span class="page_title">Home</span>
+<hr size=1 noshade width="100%">
+<p class="center">
+<table bgcolor=#ffffff width="100%" border=0 cellspacing=0 cellpadding=4>
 <tr valign="top">
-	<td width=60%>
-Mantis is a php/MySQL/web based bugtracking system.  <a href="mantis.php3">Click here</a> to learn more about it.
-<p>
-It is currently in development and is considered beta.
+	<td class="welcome" width="*">
+		Mantis is a php/MySQL/web based bugtracking system.  <a href="mantis.php3">Click here</a> to learn more about it.
+		<p>
+		It is currently in development and is considered beta.
 	</td>
-	<td width=40% align="right">
-	<table bgcolor=#888888 border=0 cellspacing=1 cellpadding=3>
-	<tr bgcolor=#e0e0ff>
-		<td width="100%" align="center">
-		<a href="polls.php3"><b>Recent Polls</b></a>
-		</td>
-	</tr>
-	<tr bgcolor=#ffffff>
-		<td width="100%">
+	<td width="220" align="right">
+		<table width="220" bgcolor=#000000 border=0 cellspacing=1 cellpadding=3>
+		<tr>
+			<td class="poll_header" class="poll_header">
+				<a class="small_bold" href="polls.php3">Recent Polls</a>
+			</td>
+		</tr>
+		<tr>
+			<td class="poll">
 <?
-	$query = "SELECT * FROM vbooth_desc
-			ORDER BY timeStamp DESC
-			LIMIT 4";
+	$query =  "SELECT *
+			FROM vbooth_desc
+			ORDER BY pollID DESC
+			LIMIT 1";
+	$result = mysql_query( $query );
+	$row = mysql_fetch_array( $result );
+	extract( $row );
+	$pollTitle = stripslashes( $pollTitle );
+	if ( strlen($pollTitle) > 29 ) {
+		$pollTitle = substr( $pollTitle, 0, 29 )."...";
+	}
+	PRINT "<li><a class=\"small\" href=\"view_poll.php3?f_poll_id=$pollID\">$pollTitle</a></li>";
+
+	$query =  "SELECT *, (pollID*0+RAND()) as rand
+			FROM vbooth_desc
+			ORDER BY rand LIMIT 2";
 	$result = mysql_query( $query );
 	$poll_count = mysql_num_rows( $result );
 	for ($i=0;$i<$poll_count;$i++) {
 		$row = mysql_fetch_array( $result );
 		extract( $row );
-		if ( strlen($pollTitle) > 30 ) {
-			$pollTitle = substr( $pollTitle, 0, 30 )."...";
+		$pollTitle = stripslashes( $pollTitle );
+		if ( strlen($pollTitle) > 29 ) {
+			$pollTitle = substr( $pollTitle, 0, 29 )."...";
 		}
-		PRINT "<a href=\"view_poll.php3?f_poll_id=$pollID\">$pollTitle</a><br>";
+		PRINT "<li><a class=\"small\" href=\"view_poll.php3?f_poll_id=$pollID\">$pollTitle</a></li>";
 	}
 ?>
-		</td>
-	</tr>
-	<tr bgcolor=#e0e0ff>
-		<td width="100%" align="center">
-		<a href="survey.php3"><b>Answer Survey</b></a>
-		</td>
-	</tr>
-	</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="survey">
+				<a class="small_bold" href="survey.php3">Answer Survey</a>
+			</td>
+		</tr>
+		</table>
 	</td>
 </tr>
 </table>
@@ -117,7 +129,7 @@ It is currently in development and is considered beta.
 		extract( $row, EXTR_PREFIX_ALL, "v" );
 		$v_headline = string_display( $v_headline );
 		$v_body = string_display( $v_body );
-		$v_date_posted = date( "m-d-Y H:i", $v_date_posted );
+		$v_date_posted = date( "m-d-Y H:i T", $v_date_posted );
 
 		## grab the username and email of the poster
 	    $query = "SELECT username, email
@@ -132,30 +144,25 @@ It is currently in development and is considered beta.
 ?>
 <p>
 <div align=center>
-<table width=97% bgcolor=#dddddd>
+<table width="99%" border=0 cellspacing=0 cellpadding=4 bgcolor=#000000>
 <tr>
-	<td bgcolor=#e8e8e8>
+	<td class="headline">
 		<b><? echo $v_headline ?></b> -
-		<i><? echo $v_date_posted ?></i> -
+		<span class="news_date"><? echo $v_date_posted ?></span> -
 		<a href="mailto:<? echo $t_poster_email ?>"><? echo $t_poster_name ?></a>
 	</td>
 </tr>
 <tr>
-	<td bgcolor=#ffffff>
-		<br>
-		<blockquote>
-			<? echo $v_body ?>
-		</blockquote>
+	<td class="body">
+		<? echo $v_body ?>
 	</td>
 </tr>
 </table>
-</div>
 <?
 	}
 ?>
 
-<p>
-<div align=center>
+<p class="center">
 <?
 	$f_offset_next = $f_offset + $g_news_view_limit;
 	$f_offset_prev = $f_offset - $g_news_view_limit;
@@ -167,9 +174,4 @@ It is currently in development and is considered beta.
 		PRINT " [ <a href=\"index.php3?f_offset=$f_offset_next\">older_news</a> ]";
 	}
 ?>
-</td>
-</tr>
-</table>
-
-</body>
-</html>
+<? include( "bot.php3" ); ?>

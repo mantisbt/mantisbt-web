@@ -1,35 +1,18 @@
-<html>
-<head>
-<? include( "css.php3" ) ?>
-<title>Mantis</title>
-</head>
-<body bgcolor=#ffffff>
+<? include( "top.php3" ); ?>
 
-<p>
-<div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
-
-<p>
-<div align=center>
-
-<table width=100%>
-<tr valign=top>
-	<? include("side_menu.php3") ?>
-<td width=100%>
-<b><font size=+1>Phorum Integration</font></b>
+<span class="page_title">Phorum Integration</span>
+<hr size=1 noshade width="100%">
 <p>
 The <a href="HOWTO-mantis-phorum">phorum HOWTO</a> illustrates how you can modify Mantis to integrate a simple forum package.
 <p>
-<b><font size=+1>Screenshots</font></b>
+<span class="section">Screenshots</span>
 <p>
-<li><a href="images/phorum1.gif">view phorum</a> - <? echo round(filesize("images/phorum1.gif") / 1024) ?> KB - bits blurred to protect the innocent (yeah, right!)
-<p>
-<a href="http://www.phorum.org/">Obtain Phorum here</a>
-</td>
-</tr>
-</table>
+<ul>
+	<li><a href="images/phorum1.gif">view screenshot</a> - <? echo round(filesize("images/phorum1.gif") / 1024) ?> KB - Sorry about the blurred text.  My camera was out of focus.
+</ul>
 
-</body>
-</html>
+<span class="section">Files</span>
+<p>
+<a href="http://www.phorum.org/">Phorum</a>
+
+<? include( "bot.php3" ); ?>

@@ -1,29 +1,10 @@
-<html>
-<head>
-<? include( "css.php3" ) ?>
-<title>Mantis</title>
-</head>
-<body>
+<? include( "top.php3" ); ?>
 
+<span class="page_title">View Poll</span>
+<hr size=1 noshade width="100%">
 <p>
-<div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
-
-<p>
-<div align=center>
-
-<table width=100%>
-<tr valign=top>
-	<? include("side_menu.php3") ?>
-<td width=100%>
-<p>
-<b><font size=+1>Polls</font></b>
-
-<p>
-
 <?
+	error_reporting(E_ERROR);
 	function db_connect($p_hostname="localhost", $p_username="root",
 						$p_password="", $p_database="mantis",
 						$p_port=3306 ) {
@@ -49,11 +30,6 @@
 	}
 ?>
 <p>
-<b><a href="polls.php3">Go back to the Polls</a></b>
+<a class="bold" href="polls.php3">Go back to the Polls</a>
 
-</td>
-</tr>
-</table>
-
-</body>
-</html>
+<? include( "bot.php3" ); ?>

@@ -1,31 +1,13 @@
-<html>
-<head>
-<? include( "css.php3" ) ?>
-<title>Mantis</title>
-</head>
-<body bgcolor=#ffffff>
+<? include( "top.php3" ); ?>
 
+<span class="page_title">Mantis Coding Conventions</span>
+<hr size=1 noshade width="100%">
 <p>
-<div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
-
-<p>
-<div align=center>
-
-<table width=100%>
-<tr valign=top>
-	<? include("side_menu.php3") ?>
-<td width=100%>
-	<h3>Mantis Coding Conventions</h3>
-
-	<p>
 	This is the Mantis coding conventions document.  It lists all the basic conventions that I have followed in order to make the code easy to read and maintain.  <b>Code not following these conventions will be modified or (in extreme cases) rejected.</b> Anyone working on the code, adding features, or wanting to send in a patch should take a quick look through this document.  Currently the code is very flat and procedure based.  A future version may switch to objects at which point some of these conventions may change or be added to.  If you have additional suggestions or a good argument for changing some of these guidelines then <a href="mailto:kenito@300baud.org">send a message</a> or <a href="forums.php3">post in the forums</a>.
 
 	<p>
 
-	<h3>Variables</h3>
+	<span class="section">Variables</span>
 	<ul>
 	<li>Use descriptive names (except loop variables)
 	<li>Single character variables should only be used for loop variables
@@ -43,7 +25,7 @@
 	<li>Included files should be suffixed by _inc.php
 	</ul>
 
-	<h3>Functions</h3>
+	<span class="section">Functions</span>
 	<ul>
 	<li>Use _ to separate words
 	<li>Always use lowercase ( this_is_a_function() )
@@ -52,7 +34,7 @@
 	<li>Try to use prefixes to group functions (ie, email_, news_, etc)
 	</ul>
 
-	<h3>Formatting</h3>
+	<span class="section">Formatting</span>
 	<ul>
 	<li>Use TABS with a size of 4 to make the code easily readable while not wasting too much space
 	<li>Follow the table formatting of existing pages
@@ -62,7 +44,7 @@
 	<li>Try not to print/echo html code unless it's short or in a function loop
 	</ul>
 
-	<h3>Page Guidelines</h3>
+	<span class="section">Page Guidelines</span>
 	<ul>
 	<li>The first item should be the copyright notice
 	<li>The next line should be a cookie check to see if the user is logged in
@@ -80,9 +62,4 @@
 	<p>
 	<hr size=1>
 	<p>
-</td>
-</tr>
-</table>
-
-</body>
-</html>
+<? include( "bot.php3" ); ?>

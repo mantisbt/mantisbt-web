@@ -1,30 +1,11 @@
-<html>
-<head>
-<? include( "css.php3" ) ?>
-<title>Mantis</title>
-</head>
-<body>
+<? include( "top.php3" ); ?>
 
+<span class="page_title">Polls</span>
+<hr size=1 noshade width="100%">
 <p>
-<div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
-
+These polls and surveys help chart the direction Mantis takes.
 <p>
-<div align=center>
-
-<table width=100%>
-<tr valign=top>
-	<? include("side_menu.php3") ?>
-<td width=100%>
-<p>
-<b><font size=+1>Polls</font></b>
-
-<p>
-Please fill out some of the polls and surveys on this page.  This will provide feedback and help chart the direction Mantis goes in.
-<p>
-	<table cellpadding=4>
+	<table cellpadding=4 width="100%">
 <?
 	include("mantis/constant_inc.php");
 	include("mantis/config_inc.php");
@@ -47,30 +28,33 @@ Please fill out some of the polls and surveys on this page.  This will provide f
 	for ($i=0;$i<$poll_count;$i++) {
 		$row = mysql_fetch_array( $result );
 		$t_poll_id = $row["pollID"];
-		$t_poll_title = $row["pollTitle"];
+		$t_poll_title = stripslashes( $row["pollTitle"] );
 		$t_poll_timeStamp = $row["timeStamp"];
 
 		$t_poll_timeStamp = date( "m-d-Y", $t_poll_timeStamp );
 
 		PRINT "<tr>";
-		PRINT "<td width=\"15%\">[ $t_poll_timeStamp ]</td>";
-		PRINT "<td width=\"70%\"><a href=\"view_poll.php3?f_poll_id=$t_poll_id\">$t_poll_title</a></td>";
-		PRINT "<td width=\"15%\">[ <a href=\"http://mantisbt.sourceforge.net/view_poll.php3?f_done=1&f_poll_id=$t_poll_id\"><font size=-1>view results</font></a> ]</td>";
+			PRINT "<td class=\"poll_date\">[ $t_poll_timeStamp ]</td>";
+			PRINT "<td class=\"poll_question\"><a href=\"view_poll.php3?f_poll_id=$t_poll_id\">$t_poll_title</a></td>";
+			PRINT "<td class=\"poll_results\">[ <a href=\"http://mantisbt.sourceforge.net/view_poll.php3?f_done=1&f_poll_id=$t_poll_id\"><font size=-1>view results</font></a> ]</td>";
 		PRINT "</tr>";
 	}
 ?>
 <tr>
 	<td colspan=3>
-	<br>
-	<b><font size=+1>Surveys</font></b><br>
-	<p>
-	<a href="survey.php3"><b>Answer Survey</b></a>
+		<br>
+		<a class="center" href="vap.php3">View All Polls</a>
+		<br>
+	</td>
+</tr>
+<tr>
+	<td colspan=3>
+		<br>
+		<span class="section">Surveys</span>
+		<p>
+		<a href="survey.php3"><b>Answer Survey</b></a>
 	</td>
 </tr>
 	</table>
-</td>
-</tr>
-</table>
 
-</body>
-</html>
+<? include( "bot.php3" ); ?>

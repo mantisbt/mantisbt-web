@@ -79,7 +79,7 @@
 	function process_file( $p_lang ) {
 		global $p_var;
 
-		$path = "./../";
+		$path = "mantis/";
 
 		$english = file( $path."strings_english.txt" );
 		$english_count = count( $english );
@@ -161,25 +161,14 @@
 		}
 	}
 ?>
-<html>
-<head>
-<? include( "css.php3" ) ?>
-	<title>Mantis</title>
-</head>
-<body>
+<? include( "top.php3" ); ?>
 
+<span class="page_title">Localization Diff</span>
+<hr size=1 noshade width="100%">
 <p>
-<div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
-
-<p>
-<div align=center>
 
 <table width=100%>
 <tr valign=top>
-	<? include("side_menu.php3") ?>
 	<td width=100%>
 		<b><font size=+1><a name=page_top>Localization Diff - <? echo $f_lang ?></a></font></b>
 		<p>
@@ -205,5 +194,4 @@
 </tr>
 </table>
 
-</body>
-</html>
+<? include( "bot.php3" ); ?>

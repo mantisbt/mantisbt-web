@@ -1,7 +1,6 @@
 <?
 	function print_core_links() {
-		#$path = "/home/www/mantis/";
-		$path = "./../";
+		$path = "mantis/";
 
 		$files = 0;
 		$xfile = array();
@@ -22,34 +21,15 @@
 		}
 	}
 ?>
-<html>
-<head>
-<? include( "css.php3" ) ?>
-<title>Mantis</title>
-</head>
-<body>
+<? include( "top.php3" ); ?>
 
+<span class="page_title">API</span>
+<hr size=1 noshade width="100%">
 <p>
-<div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
-
+Click on the links to see a list of the functions in each file.
 <p>
-<div align=center>
+<ul>
+<? print_core_links() ?>
+</ul>
 
-<table width=100%>
-<tr valign=top>
-	<? include("side_menu.php3") ?>
-	<td width=100%>
-		<b><font size=+1>API</font></b>
-		<p>
-		Click on the links to see a list of the functions in each file.
-		<p>
-		<? print_core_links() ?>
-	</td>
-</tr>
-</table>
-
-</body>
-</html>
+<? include( "bot.php3" ); ?>

@@ -1,48 +1,57 @@
-<html>
-<head>
-<? include( "css.php3" ) ?>
-<title>Mantis</title>
-</head>
-<body bgcolor=#ffffff>
+<? include( "top.php3" ); ?>
 
+<span class="page_title">Mailing Lists</span>
+<hr size=1 noshade width="100%">
 <p>
-<div align=center>
-	<h2>Mantis</h2>
-	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
-</div>
 
-<p>
-<div align=center>
-
-<table width=100%>
-<tr valign=top>
-	<? include("side_menu.php3") ?>
-<td width=100%>
-<b><font size=+1>Mailing Lists</font></b>
-<p>
-There is a mailing list for announcements.  Announcements will be posted to it after each release.  There is also a help mailing list and a beta testers mailing list.
+Signup for the mailing lists.  These are very low traffic since most people seem to use the <a href="forums.php3">forums</a> or just email me directly (I'd rather you not if it's just a help question).
 <p>
 <ul>
-<li>mantisbt-announce -
-<a href="http://www.geocrawler.com/redir-sf.php3?list=mantisbt-announce">Archives</a>
-<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-announce">Signup</a>
-<p>
-<li>mantisbt-beta -
-<a href="http://www.geocrawler.com/redir-sf.php3?list=mantisbt-beta">Archives</a>
-<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-beta">Signup</a>
-<p>
-<li>mantisbt-help -
-<a href="http://www.geocrawler.com/redir-sf.php3?list=mantisbt-help">Archives</a>
-<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-help">Signup</a>
-</ul>
-
-<div align=center>
-<b><a href="http://sourceforge.net/mail/?group_id=14963">SourceForge Mailing Lists</a></b>
-</div>
-
-</td>
+<table width="90%">
+<tr>
+	<td width="20%">
+		mantisbt-announce
+	</td>
+	<td width="15%">
+		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-announce">Signup</a>
+	</td>
+	<td width="15%">
+		<a href="http://www.geocrawler.com/redir-sf.php3?list=mantisbt-announce">Archives</a>
+	</td>
+	<td width="50%">
+		Be notified of releases and any important updates (security, etc.)
+	</td>
+</tr>
+<tr>
+	<td>
+		mantisbt-beta
+	</td>
+	<td>
+		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-beta">Signup</a>
+	</td>
+	<td>
+		<a href="http://www.geocrawler.com/redir-sf.php3?list=mantisbt-beta">Archives</a>
+	</td>
+	<td>
+		Be a tester between major releases (eg. 0.14.8 => 1.15.0)
+	</td>
+</tr>
+<tr>
+	<td>
+		mantisbt-help
+	</td>
+	<td>
+		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-help">Signup</a>
+	</td>
+	<td>
+		<a href="http://www.geocrawler.com/redir-sf.php3?list=mantisbt-help">Archives</a>
+	</td>
+	<td>
+		Ask for help here or in the forums instead of emailing me directly.
+	</td>
 </tr>
 </table>
 
-</body>
-</html>
+<p class="center"><a class="bold" href="http://sourceforge.net/mail/?group_id=14963">SourceForge Mailing Lists</a>
+
+<? include( "bot.php3" ); ?>
