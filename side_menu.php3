@@ -12,7 +12,6 @@
 				<a class="big" href="download.php3">Download</a><br>
 				<a class="big" href="screenshots.php3">Screenshots</a><br>
 				<a class="big" href="me.php3">Author</a><br>
-				<!--<a class="big" href="release.php3">Release Notes</a><br>-->
 			</td>
 		</tr>
 		<tr>
