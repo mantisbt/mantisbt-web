@@ -50,6 +50,34 @@ Signup for the mailing lists.  These are very low traffic since most people seem
 		Mantis development talk.
 	</td>
 </tr>
+<tr>
+	<td>
+		mantisbt-cvs
+	</td>
+	<td>
+		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-cvs">Signup</a>
+	</td>
+	<td>
+		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=9396">Archives</a>
+	</td>
+	<td>
+		Mantis development talk.
+	</td>
+</tr>
+<tr>
+	<td>
+		mantisbt-security
+	</td>
+	<td>
+		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-security">Signup</a>
+	</td>
+	<td>
+		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=3264">Archives</a>
+	</td>
+	<td>
+		Mantis development talk.
+	</td>
+</tr>
 </table>
 
 <p class="center"><a class="bold" href="http://sourceforge.net/mail/?group_id=14963">SourceForge Mailing Lists</a>

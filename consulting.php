@@ -23,7 +23,7 @@ Our services are avilable to customize Mantis to suit your needs.  Common custom
 <p>
 We recommend you use Mantis for a short period to see what changes would best fit your organization.  We may also be available for other web related projects.  Please contact us with your inquiries.
 <p>
-Our rate is $50/hr (US).  Please contact us for quotes.
+Our rate is $50/hr (USD) [<a href="http://www.x-rates.com/cgi-bin/cgicalc.cgi?value=50&base=USD">convert currency</a>].  Please contact us for quotes.
 <p>
 <span class="section">Contact</span>
 <table border="0" cellspacing="0" cellpadding="4" width="50%">

@@ -1,9 +1,10 @@
 config_inc.php
-dev/*
-files/*
-htdocs/*
-mantis/*
+dev
+files
+htdocs
+mantis
 manual
-webnotes/*
+webnotes
+files
 .#*
 
