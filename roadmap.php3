@@ -1,7 +1,7 @@
 <? include( "top.php3" ); ?>
 
 <span class="page_title">Roadmap</span>
-<hr size=1 noshade width="100%">
+<hr size=1 noshade width="100%" />
 <p>
 This is the Mantis feature roadmap.  It lists most of the currently planned features and details the schedule for release.  These are not hard deadlines and are subject to change.  Occasionally things will get out of date or out of order as schedules are wont to do.  Please feel free to suggest features, contribute, or comment.
 <p>

@@ -1,7 +1,7 @@
 <? include( "top.php3" ); ?>
 
 <span class="page_title">Mantis Coding Conventions</span>
-<hr size=1 noshade width="100%">
+<hr size=1 noshade width="100%" />
 <p>
 This is the Mantis coding conventions document.  This should assist anyone who wants to modify the code or work on active development.  Anyone who wishes to contribute code must adhere to these guidelines.  <b>Code not following these conventions will be modified or (in extreme cases) rejected.</b>  If you have additional suggestions or a good argument for changing some of these guidelines then <a href="mailto:kenito@300baud.org">send a message</a> or <a href="forums.php3">post in the forums</a>.
 <p>

@@ -1,7 +1,7 @@
 <? include( "top.php3" ); ?>
 
 <span class="page_title">Database</span>
-<hr size=1 noshade width="100%">
+<hr size=1 noshade width="100%" />
 <p>
 Mantis uses <a href="http://www.mysql.com/">MySQL</a> for it's database needs.  Other database support will follow.
 <p>

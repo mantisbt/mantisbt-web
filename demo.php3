@@ -1,7 +1,7 @@
 <? include( "top.php3" ); ?>
 
 <span class="page_title">Demo</span>
-<hr size=1 noshade width="100%">
+<hr size=1 noshade width="100%" />
 <p>
 Login to see Mantis in action.  This installation is also used to track actual Mantis bugs and feature requests.
 <ul>

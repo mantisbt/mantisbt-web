@@ -1,7 +1,7 @@
 <? include( "top.php3" ); ?>
 
 <span class="page_title">Download</span>
-<hr size=1 noshade width="100%">
+<hr size=1 noshade width="100%" />
 <p>
 Mantis is compressed in <span class="code">.tar.gz</span> format which any reasonable decompression program can handle (Unix tar/gunzip, <a href="http://www.winzip.com/">Winzip</a>, <a href="http://www.aladdinsys.com">StuffIt</a>).
 <p>

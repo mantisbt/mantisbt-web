@@ -1,7 +1,7 @@
 <? include( "top.php3" ); ?>
 
 <span class="page_title">Mailing Lists</span>
-<hr size=1 noshade width="100%">
+<hr size=1 noshade width="100%" />
 <p>
 
 Signup for the mailing lists.  These are very low traffic since most people seem to use the <a href="forums.php3">forums</a> or just email me directly. <b>Please use the forums or the mailing lists for general help questions.</b>
