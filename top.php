@@ -14,7 +14,7 @@
 		&nbsp;
 	</td>
 	<td class="top_right">
-		<a href="http://mantisbt.sourceforge.net/"><img border="0" src="images/banner.gif" alt=""></a>
+		<a href="http://www.mantisbt.org/"><img border="0" src="images/banner.gif" alt=""></a>
 	</td>
 	<td class="right">
 		<a href="http://www.google.com/"><img border="0" src="images/google.gif" alt=""></a>
