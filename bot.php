@@ -11,7 +11,7 @@
 		</table>
 
 		<table width="100%">
-			<tr valign="center">
+			<tr valign="MIDDLE">
 				<td>
 					<address>&nbsp;&nbsp;&nbsp;Last modified: <?php echo date( "M d, Y - H:m T", getlastmod() )?></address>
 					<address>&nbsp;&nbsp;&nbsp;Copyright (C) 2000-2004</address>
