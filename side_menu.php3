@@ -86,6 +86,8 @@
 				<p>
 				<a href="http://sourceforge.net/projects/mantisbt/"><img src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo"></a>
 				<p>
+				<a href="http://www.php.net/"><img src="images/php-small-white.gif" border="0" alt="PHP"></a>
+				<p>
 				<a href="http://freshmeat.net/projects/mantis/"><img src="images/fmII-logo.gif" border="0" alt="Freshmeat.net"></a>
 				<p>
 				<a href="http://www.aditus.nu/jpgraph/index.php"><img src="images/jpgraph.jpg" border="0" alt="JpGraph"></a>
