@@ -163,3 +163,10 @@ Since php is loosely typed it would try to convert to numbers if you used the + 
 
 <hr size=1>
 <b><i>If you think of more points or have questions please <a href="mailto:kenito@300baud.org">Let me know!</a></i></b>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
