@@ -77,7 +77,8 @@ What to do if you see some errors?  Just <a href="mailto:kenito@300baud.org">sen
 	print_lang( "Korean",				"latest",  "active" );
 	print_lang( "Norwegian",			"latest",  "active" );
 	print_lang( "Polish",				"latest",  "active" );
-	print_lang( "Portuguese",			"latest",  "active" );
+	print_lang( "Portuguese_Brazil",			"latest",  "active" );
+	print_lang( "Portuguese_Standard",			"latest",  "active" );
 	print_lang( "Russian",				"latest",  "active" );
 	print_lang( "Spanish",				"latest",  "active" );
 	print_lang( "Turkish",				"latest",  "active" );
