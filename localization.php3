@@ -66,20 +66,20 @@ Here you can see the latest localization files.  Some of them are included with 
 		<b>Version</b>
 	</td>
 	<td>
-		<b>Date Added</b>
+		<b>Date Updated</b>
 	</td>
 	<td>
 		&nbsp;
 	</td>
 </tr>
 <?
-	print_lang( "English",     "0.14.5",  "active" );
-	print_lang( "German",      "0.14.5",  "active" );
-	print_lang( "Spanish",     "0.14.5",  "active" );
-	print_lang( "Portuguese",  "0.14.5",  "active" );
-	print_lang( "Italian",     "0.14.6",  "" );
-	print_lang( "French",     "0.14.6",  "" );
-	print_lang( "Dutch",       "0.14.7",  "" );
+	print_lang( "English",     "0.14.6",  "active" );
+	print_lang( "German",      "0.14.6",  "active" );
+	print_lang( "Spanish",     "0.14.6",  "active" );
+	print_lang( "Portuguese",  "0.14.6",  "active" );
+	print_lang( "Italian",     "0.14.6",  "active" );
+	print_lang( "French",      "0.14.6",  "active" );
+	print_lang( "Dutch",       "0.14.7",  "active" );
 ?>
 </table>
 

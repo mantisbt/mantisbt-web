@@ -11,6 +11,7 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 
 <div align=center>
 	<h2>Mantis Roadmap</h2>
+	Last modified: <? echo date( "M d, Y - H:m", getlastmod() )?>
 </div>
 
 <table width=100%>
@@ -93,31 +94,13 @@ This is the Mantis feature roadmap.  It lists most fo the currently planned feat
 </ul>
 <h3>Currently Unassigned</h3>
 <ul>
+<li>Document manager (per project)
+<li>Complex user profiles
+<li>Voting
+<li>Moderation queue (?)
+<li>Multiple sort keys (?)
+<li>Show unread bugs
 </ul>
-
-<!-- ---------------------------------------------------------------------- -->
-<p>
-<hr size=1>
-<p>
-
-<font size=-1>
-<b>ChangeLog</b>
-<p>
-
-<li>version 1.6  February 14, 2001 - Kenzaburo Ito (kenito@300baud.org)<br>
-<i>Updated after 0.14.1 release</i>
-<li>version 1.5  February 11, 2001 - Kenzaburo Ito (kenito@300baud.org)<br>
-<i>Updated after 0.14.0 release</i>
-<li>version 1.4  January 15, 2001 - Kenzaburo Ito (kenito@300baud.org)<br>
-<i>Added Currently Unassigned.  Removed 0.13.0.  Rearranged item locations</i>
-<li>version 1.3  December 25, 2000 - Kenzaburo Ito (kenito@300baud.org)<br>
-<i>Moved several items around</i>
-<li>version 1.2  December 24, 2000 - Kenzaburo Ito (kenito@300baud.org)<br>
-<i>Removed 0.12.0 items, added 0.14.0 milestone</i>
-<li>version 1.1  December 23, 2000 - Kenzaburo Ito (kenito@300baud.org)<br>
-<i>Added FONT removal</i>
-<li>version 1.0  December 15, 2000 - Kenzaburo Ito (kenito@300baud.org)<br>
-<i>Initial creation</i>
 
 </font>
 <p>
