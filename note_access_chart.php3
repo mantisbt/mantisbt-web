@@ -49,7 +49,7 @@
 		<td bgcolor=#ddddff>Reporter</td>
 		<td bgcolor=#bbeebb>Y</td>
 		<td bgcolor=#bbeebb>Y</td>
-		<td bgcolor=#bbeebb>Y</td>
+		<td bgcolor=#ffbbbb>N</td>
 		<td bgcolor=#ffbbbb>N</td>
 		<td bgcolor=#ffbbbb>N</td>
 		<td bgcolor=#ffbbbb>N</td>
@@ -61,8 +61,8 @@
 		<td bgcolor=#bbeebb>Y</td>
 		<td bgcolor=#bbeebb>Y</td>
 		<td bgcolor=#bbeebb>Y</td>
-		<td bgcolor=#ffbbbb>N</td>
-		<td bgcolor=#ffbbbb>N</td>
+		<td bgcolor=#bbeebb>Y</td>
+		<td bgcolor=#bbeebb>Y</td>
 		<td bgcolor=#bbeebb>Y</td>
 		<td bgcolor=#bbeebb>Y</td>
 		<td bgcolor=#ffbbbb>N</td>
@@ -76,7 +76,7 @@
 		<td bgcolor=#bbeebb>Y</td>
 		<td bgcolor=#bbeebb>Y</td>
 		<td bgcolor=#bbeebb>Y</td>
-		<td bgcolor=#ffbbbb>N</td>
+		<td bgcolor=#bbeebb>Y</td>
 	</tr>
 	<tr bgcolor=#ffffff>
 		<td bgcolor=#ddddff>Manager</td>
