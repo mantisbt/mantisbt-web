@@ -49,8 +49,11 @@ idea):
 
 <a href="<? echo $g_path ?>phorum/">Forum | </a>
 
-You could wrap it in a if check (see code in menu_inc.php for examples) if
+You could wrap it in an if check (see code in menu_inc.php for examples) if
 you'd like only users with a certain access level to view the forum link.
+
+REPORT: You may need to set the absolute path in menu_inc.php for the phorum
+link.
 
 #################################
  Step 4: Integrate with Mantis
@@ -158,6 +161,23 @@ $p_author = get_current_user_field( "username" );
 $p_email = get_current_user_field( "email" );
 
 Now the username and email fields should be automatically filled in each time.
+
+###################################
+ Step 6: Alter core_API.php
+###################################
+
+This applies to 0.15.x and up:
+
+You will need to set the absolute path in core_API.php
+
+	require( "constant_inc.php" );
+
+Needs to be changed to:
+
+	require( "/usr/local/apache/htdocs/mantis/constant_inc.php" );
+
+Do the same for all of the require() and include() lines.  There should be 12
+require() and 2 include().
 
 ###################################
  FINISHED!
