@@ -5,7 +5,7 @@
 <p>
 <span class="section">Installation</span>
 <p>
-We offer installation and setup for a time fee of $100 (US).
+We offer installation and setup for a fee.
 <p>
 We will need remote connection and browser access.  This can be accomplished via telnet/ssh, terminal services, VNC, or some other remote access mechanism.
 <p>
@@ -21,9 +21,7 @@ Our services are available to customize Mantis to suit your needs.  Common custo
 	<li>Integration with other web apps.
 </ul>
 <p>
-We recommend you use Mantis for a short period to see what changes would best fit your organization.  We may also be available for other web related projects.  Please contact us with your inquiries.
-<p>
-Our rate is $50/hr (USD) [<a href="http://www.x-rates.com/cgi-bin/cgicalc.cgi?value=50&base=USD">convert currency</a>].  Please contact us for quotes.
+We recommend you use Mantis for a short period to see what changes would best fit your organization.  We may also be available for other web related projects.  Please contact us with your inquiries and quotes.
 <p>
 <span class="section">Contact</span>
 <table border="0" cellspacing="0" cellpadding="4" width="50%">
@@ -43,7 +41,7 @@ Our rate is $50/hr (USD) [<a href="http://www.x-rates.com/cgi-bin/cgicalc.cgi?va
 		Kenzaburo Ito
 	</td>
 	<td>
-		<a href="resume/Kenzaburo-Ito-Resume.html">HTML</a> |
+		HTML |
 		<a href="resume/Kenzaburo-Ito-Resume.doc">Word</a>
 	</td>
 	<td>
