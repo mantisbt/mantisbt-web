@@ -97,7 +97,7 @@
 	}
 
 	function print_code( $p_file_name, $p_block_num, $p_name ) {
-		$t_color = alternate_colors( $p_block_num, "#eef4ff", "#fff4ee" );
+		$t_color = alternate_colors( $p_block_num, "#eef4ff", "#d8e0ff" );
 		echo "<tr bgcolor=$t_color><td>";
 		PRINT "<a name=\"$p_name\"></a>";
 		echo "<font face=\"courier new\">";
