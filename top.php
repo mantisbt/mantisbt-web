@@ -25,9 +25,9 @@
 <!-- Search Google -->
 <input class="small" type="text" name="q" size="16" maxlength="255" value="" />&nbsp;
 <input class="small" type="submit" name="sa" value="Search" />&nbsp;
-<input class="small" type="hidden" name="cof" value="L:http://mantisbt.sourceforge.net/images/banner.gif;AH:center;AWFID:124d3521c6d75a4f;" />
-<input class="small" type="hidden" name="domains" value="mantisbt.sourceforge.net" />
-<input class="small" type="hidden" name="sitesearch" value="mantisbt.sourceforge.net" checked="checked" />
+<input class="small" type="hidden" name="cof" value="L:http://www.mantisbt.org/images/banner.gif;AH:center;AWFID:124d3521c6d75a4f;" />
+<input class="small" type="hidden" name="domains" value="www.mantisbt.org" />
+<input class="small" type="hidden" name="sitesearch" value="www.mantisbt.org" checked="checked" />
 <!-- Search Google -->
 </form>
 	</td>
