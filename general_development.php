@@ -259,4 +259,8 @@ Make sure you signup on the bugtracker and received developer access.
 <p>
 You can mark a bug as resolved if it is commited in CVS.  Please don't close bugs until that release is publicly available.
 
+<td style="padding: 4px;">
+<?php include( "adsense_vertical_inc.php" ); ?>
+</td>
+
 <?php include( "bot.php" ); ?>

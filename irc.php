@@ -8,4 +8,8 @@ You can find us on IRC in #mantishelp on <a href="http://freenode.info/irc_serve
 Idling is a way of life on IRC so do not expect an immediate response.  If you want to be a developer, spending time in IRC is a good way to familiarize yourself with the team.
 <p>
 
+<td style="padding: 4px;">
+<?php include( "adsense_vertical_inc.php" ); ?>
+</td>
+
 <?php include( "bot.php" ); ?>

@@ -75,4 +75,8 @@ Our rate is $50/hr (USD) [<a href="http://www.x-rates.com/cgi-bin/cgicalc.cgi?va
 </table>
 <p>
 
+<td style="padding: 4px;">
+<?php include( "adsense_vertical_inc.php" ); ?>
+</td>
+
 <?php include("bot.php"); ?>

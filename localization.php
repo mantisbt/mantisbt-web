@@ -108,4 +108,8 @@ Note: You cannot submit ZIP files through sourceforge.  However, you can just ap
 Also, you can update when new strings make it in.  Just click on the "view diff" link to see what strings might need translating and make the changes.
 <p>
 
+<td style="padding: 4px;">
+<?php include( "adsense_vertical_inc.php" ); ?>
+</td>
+
 <?php include( "bot.php" ); ?>

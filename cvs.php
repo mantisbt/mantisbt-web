@@ -10,4 +10,8 @@ Follow the link and follow the commands there.  The module name you want to use 
 <p class="center"><a class="bold" href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/mantisbt">Browse Mantis CVS</a>
 <p class="center"><a class="bold" href="http://cvs.sourceforge.net/cvstarballs/mantisbt-cvsroot.tar.bz2">Download Nightly Tarball</a>
 
+<td style="padding: 4px;">
+<?php include( "adsense_vertical_inc.php" ); ?>
+</td>
+
 <?php include( "bot.php" ); ?>

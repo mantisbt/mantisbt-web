@@ -15,4 +15,8 @@ The following forums are hosted at Sourceforge.  You can post anonymously.  Plea
 <p>
 <p class="center"><a class="bold" href="http://sourceforge.net/forum/?group_id=14963">SourceForge Forums</a>
 
+<td style="padding: 4px;">
+<?php include( "adsense_vertical_inc.php" ); ?>
+</td>
+
 <?php include( "bot.php" ); ?>

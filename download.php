@@ -13,4 +13,8 @@ The <a href="http://manual.mantisbt.org/manual.installation.upgrading.php">UPGRA
 <p>
 If you choose to mirror the software, then please sign up on the <a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-announce">announcements mailing list</a>.  You should also place a link back to this site.
 
+<td style="padding: 4px;">
+<?php include( "adsense_vertical_inc.php" ); ?>
+</td>
+
 <?php include("bot.php"); ?>

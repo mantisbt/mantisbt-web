@@ -60,4 +60,8 @@ The release numbering convention used is <b>major.minor.micro</b> (eg. 0.18.2).
 	<li><b>Let us know if you find it useful</b>.  We won't publish the information without permission, but we appreciate the feedback!
 </ul>
 
+<td style="padding: 4px;">
+<?php include( "adsense_vertical_inc.php" ); ?>
+</td>
+
 <?php include("bot.php"); ?>

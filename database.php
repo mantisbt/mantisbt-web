@@ -47,4 +47,9 @@ One of the unforseen benefits of using MySQL is that most of the SQL is very sim
 	<li>Transactions - Most databases support transactions except for MySQL.  A support mechanism needs to be built.
 </ul>
 A good candidate for the database abstraction class is <a href="http://php.weblogs.com/ADODB">ADODB</a>
+
+<td style="padding: 4px;">
+<?php include( "adsense_vertical_inc.php" ); ?>
+</td>
+
 <?php include( "bot.php" ); ?>

@@ -18,4 +18,8 @@ Login with... ( username / password )
 
 <p class="center"><a class="bold" href="http://mantisbt.sourceforge.net/mantis/">Enter Demo Bugtracker</a>
 
+<td style="padding: 4px;">
+<?php include( "adsense_vertical_inc.php" ); ?>
+</td>
+
 <?php include( "bot.php" ); ?>

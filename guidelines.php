@@ -141,5 +141,8 @@ if (...) {
 
 <!-- --------------------------------------------------------------------- -->
 
+<td style="padding: 4px;">
+<?php include( "adsense_vertical_inc.php" ); ?>
+</td>
 
 <?php include( "bot.php" ); ?>

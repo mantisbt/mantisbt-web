@@ -64,4 +64,9 @@ These links are software packages that are related to Mantis use and development
 	</td>
 </tr>
 </table>
+
+<td style="padding: 4px;">
+<?php include( "adsense_vertical_inc.php" ); ?>
+</td>
+
 <?php include( "bot.php" ); ?>
