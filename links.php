@@ -12,6 +12,11 @@
 </ul>
 <p>For more information go to <a href="http://www.futureware.biz/mantisconnect">MantisConnect website</a>.</p>
 
+<p><b>Integration with Source Control</b></p>
+<ul>
+<li><a href="http://freshmeat.net/projects/scmbug/">Scmbug: Integrates Mantis with several Source Control tools like CVS, Subversion, and Arch.</a></li>
+</ul>
+
 <p><b>Links to sites which gets Mantis to work with...</b></p>
 <ul>
 <li><a href="http://www.freshports.org/databases/mantis/">FreeBSD (Fresh Ports)</a></li>
