@@ -1,5 +1,24 @@
 <?php include( "top.php" ); ?>
 
+<?php
+	function section( $p_letter ) {
+		echo "<p><a name=\"$p_letter\" id=\"$p_letter\" /><span class=\"section\">- $p_letter -</span></p>\n";
+		echo "<ul>\n";
+	}
+
+	function entry( $p_name, $p_url, $p_mantis_url = null ) {
+		if ( null === $p_mantis_url ) {
+			echo "<li><a href=\"$p_url\" target=\"_blank\">$p_name</a></li>\n";
+		} else {
+			echo "<li><a href=\"$p_url\" target=\"_blank\">$p_name</a> (<a href=\"$p_mantis_url\" target=\"_blank\">public</a>)</li>\n";
+		}
+	}
+	
+	function section_end() {
+		echo "</ul>\n\n";
+	}
+?>
+
 <span class="page_title">Users Directory</span>
 <hr size=1 noshade width="100%">
 
@@ -10,60 +29,56 @@ your company is not listed below, or you know of an open source project that use
 <p>When possible consider adding a link back to Mantis website.  You can use the button on the left side of the page, however, 
 please download it and reference it from your site to reduce the load on Mantis web server.</p>
 
-<!-- <li><a href="http://webnotes.sourceforge.net/">phpWebnotes</a> (<a href="http://webnotes.futureware.biz/mantis">public</a>)</li> -->
+<?php
+	section( 'C' );
+		entry( 'chan_sccp', 'http://chan-sccp.sourceforge.net/', 'http://www.czmok.de/devtrack/' );
+	section_end();
+	
+	section( 'E' );
+		entry( 'eboxy', 'http://eboxy.sourceforge.net/', 'http://eboxy.sourceforge.net/mantis/' );
+		entry( 'EPICS', 'http://www.aps.anl.gov/epics/', 'http://www.aps.anl.gov/epics/mantis/' );
+	section_end();
+	
+	section( 'F' );
+		entry( 'Forum One Communications', 'http://www.forumone.com/' );
+	section_end();
+	
+	section( 'G' );
+		entry( 'Gruppo Tesi', 'http://www.gruppotesi.com/' );
+	section_end();
 
-<p><a name="C" id="C" /><span class="section">C</span></p>
-<ul>
-<li><a href="http://chan-sccp.sourceforge.net/">chan_sccp</a> (<a href="http://www.czmok.de/devtrack">public</a>)</li>
-</ul>
+	section( 'J' );
+		entry( 'Jack Audio Connection Kit', 'http://jackit.sourceforge.net/', 'http://jackit.sourceforge.net/mantis/' );
+	section_end();
 
-<p><a name="E" id="E" /><span class="section">E</span></p>
-<ul>
-<li><a href="http://eboxy.sourceforge.net/">eboxy</a> (<a href="http://eboxy.sourceforge.net/mantis/">public</a>)</li>
-</ul>
+	section( 'L' );
+		entry( 'LanAction', 'http://lanaction.sourceforge.net/', 'http://lanaction.sourceforge.net/bugtracker/' );
+	section_end();
 
-<p><a name="F" id="F" /><span class="section">F</span></p>
-<ul>
-<li><a href="http://www.forumone.com/">Forum One Communications</a></li>
-</ul>
+	section( 'M' );
+		entry( 'MediaPortal', 'http://mediaportal.sourceforge.net/', 'http://nolanparty.com/mediaportal.sourceforge.net/mantis/' );
+	section_end();
 
-<p><a name="J" id="J" /><span class="section">J</span></p>
-<ul>
-<li><a href="http://jackit.sourceforge.net/">Jack Audio Connection Kit</a> (<a href="http://jackit.sourceforge.net/mantis/">public</a>)</li>
-</ul>
+	section( 'N' );
+		entry( 'National Centre for Applied Learning Technologies (NCALT)', 'http://www.ncalt.com' );
+		entry( 'Nox Wizard', 'http://noxwizard.sourceforge.net/', 'http://noxwizard.sourceforge.net/mantis/' );
+	section_end();
 
-<p><a name="L" id="L" /><span class="section">L</span></p>
-<ul>
-<li><a href="http://lanaction.sourceforge.net/">LanAction</a> (<a href="http://lanaction.sourceforge.net/bugtracker/">public</a>)</li>
-</ul>
+	section( 'P' );
+		entry( 'phpBB', 'http://phpbb-php5mod.sourceforge.net/', 'http://phpbb-php5mod.sourceforge.net/bugs/' );
+		entry( 'phpWebnotes', 'http://www.futureware.biz/webnotes/', 'http://www.futureware.biz/mantis/' );
+		entry( 'Project JEDI', 'http://homepages.borland.com/jedi/', 'http://homepages.borland.com/jedi/issuetracker/' );
+	section_end();
 
-<p><a name="M" id="M" /><span class="section">M</span></p>
-<ul>
-<li><a href="http://mediaportal.sourceforge.net/">MediaPortal</a> (<a href="http://nolanparty.com/mediaportal.sourceforge.net/mantis/">public</a>)</li>
-</ul>
+	section( 'Q' );
+		entry( 'QEM', 'http://www.qem.it/en/fr_en_home/pg_en_home.htm' );
+		entry( 'QtParted', 'http://qtparted.sourceforge.net/', 'http://qtparted.sourceforge.net/bugs/' );
+	section_end();
 
-<p><a name="N" id="N" /><span class="section">N</span></p>
-<ul>
-<li><a href="http://www.ncalt.com">National Centre for Applied Learning Technologies (NCALT)</a></li>
-<li><a href="http://noxwizard.sourceforge.net/">Nox Wizard</a> (<a href="http://noxwizard.sourceforge.net/mantis/">public</a>)</li>
-</ul>
-
-<p><a name="P" id="P" /><span class="section">P</span></p>
-<ul>
-<li><a href="http://phpbb-php5mod.sourceforge.net/">phpBB</a> (<a href="http://phpbb-php5mod.sourceforge.net/bugs/">public</a>)</li>
-<li><a href="http://homepages.borland.com/jedi/">Project JEDI</a> (<a href="http://homepages.borland.com/jedi/issuetracker/">public</a>)</li>
-</ul>
-
-<p><a name="Q" id="Q" /><span class="section">Q</span></p>
-<ul>
-<li><a href="http://www.qem.it/en/fr_en_home/pg_en_home.htm">QEM</a></li>
-<li><a href="http://qtparted.sourceforge.net/">QtParted</a> (<a href="http://qtparted.sourceforge.net/bugs/">public</a>)</li>
-</ul>
-
-<p><a name="R" id="R" /><span class="section">R</span></p>
-<ul>
-<li><a href="http://rageircd.sourceforge.net/">RageIRCd</a> (<a href="http://rageircd.sourceforge.net/mantis/">public</a>)</li>
-</ul>
+	section( 'R' );
+		entry( 'RageIRCd', 'http://rageircd.sourceforge.net/', 'http://rageircd.sourceforge.net/mantis/' );
+	section_end();
+?>
 
 <td style="padding: 4px;">
 <?php include( "adsense_vertical_inc.php" ); ?>
