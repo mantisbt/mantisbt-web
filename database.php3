@@ -9,6 +9,7 @@ This is a basic view of the database schema used in Mantis.  Note that MySQL doe
 <p>
 <ul>
 	<li><a href="mantis/sql/db_generate.sql">Text of current release (<?php echo $g_mantis_version ?>)</a>
+	<li><a href="images/mantis-0.17.0.gif">version 0.17.x</a> <? echo round(filesize("images/mantis-0.17.0.gif") / 1024) ?>KB
 	<li><a href="images/mantis-0.15.0.gif">version 0.15.x</a> <? echo round(filesize("images/mantis-0.15.0.gif") / 1024) ?>KB
 	<li><a href="images/mantis-0.14.0.gif">version 0.14.1</a> <? echo round(filesize("images/mantis-0.14.0.gif") / 1024) ?>KB
 	<li><a href="images/mantis-0.13.0.gif">version 0.9.0 to 0.13.1</a> <? echo round(filesize("images/mantis-0.13.0.gif") / 1024) ?>KB
