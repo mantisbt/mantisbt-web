@@ -101,6 +101,10 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section( 'T' );
 		entry( 'Twig Project', 'http://informationgateway.org/', 'http://bugs.informationgateway.org/' );
 	section_end();
+	
+	section( 'W' );
+		entry( 'Water Corporation', 'http://www.watercorporation.com.au/' );
+	section_end();
 ?>
 
 <td style="padding: 4px;">
