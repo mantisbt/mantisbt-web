@@ -16,7 +16,7 @@
 		sort ( $xfile );
 		$tmp = 0;
 		while ( $tmp < $files ) {
-			PRINT "<li><A HREF=\"view_source.php3?f_file=$xfile[$tmp]\">$xfile[$tmp]</A>";
+			PRINT "<li><A HREF=\"view_source2.php3?f_file=$xfile[$tmp]\">$xfile[$tmp]</A>";
 			$tmp++;
 		}
 	}
