@@ -39,14 +39,14 @@ These polls and surveys help chart the direction Mantis takes.
 ?>
 <tr>
 	<td colspan=3>
-		<br>
+		<br />
 		<a class="center" href="vap.php3">View All Polls</a>
-		<br>
+		<br />
 	</td>
 </tr>
 <tr>
 	<td colspan=3>
-		<br>
+		<br />
 		<span class="section">Surveys</span>
 		<p>
 		<ul>

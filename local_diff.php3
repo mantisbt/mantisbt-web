@@ -1,9 +1,9 @@
 <?
 	function find_var( $p_lang_arr, $p_lang_count, $p_eng_var ) {
 		for ($i=0;$i<$p_lang_count;$i++) {
-			#echo "============".$p_lang_arr[$i]." ==== $i - $p_eng_var<br>";
+			#echo "============".$p_lang_arr[$i]." ==== $i - $p_eng_var<br />";
 			if ( get_variable( $p_lang_arr[$i] ) == $p_eng_var ) {
-				#echo $i." aaaa ".$p_lang_arr[$i]." AAAAAAA $p_eng_var ZZZZZZZ<BR>";
+				#echo $i." aaaa ".$p_lang_arr[$i]." AAAAAAA $p_eng_var ZZZZZZZ<br />";
 				return $i;
 			}
 		}
@@ -57,23 +57,23 @@
 	}
 
 	function print_blue( $p_string ) {
-		echo "<font color=#0000ff><b>".htmlspecialchars( $p_string )."</b></font><br>";
+		echo "<font color=#0000ff><b>".htmlspecialchars( $p_string )."</b></font><br />";
 	}
 
 	function print_green( $p_string ) {
-		echo "<font color=#00ff00><b>".htmlspecialchars( $p_string )."</b></font><br>";
+		echo "<font color=#00ff00><b>".htmlspecialchars( $p_string )."</b></font><br />";
 	}
 
 	function print_red( $p_string ) {
-		echo "<font color=#ff0000><b>".htmlspecialchars( $p_string )."</b></font><br>";
+		echo "<font color=#ff0000><b>".htmlspecialchars( $p_string )."</b></font><br />";
 	}
 
 	function print_line( $p_string ) {
-		echo htmlspecialchars( $p_string )."<br>";
+		echo htmlspecialchars( $p_string )."<br />";
 	}
 
 	function print_italics( $p_string ) {
-		echo "<i>".htmlspecialchars( $p_string )."</i><br>";
+		echo "<i>".htmlspecialchars( $p_string )."</i><br />";
 	}
 
 	function process_file( $p_lang ) {
@@ -89,7 +89,7 @@
 		### print beginning top page stuff
 		$lang_counter = 0;
 		while ( trim( $lang[$lang_counter] ) != "# General Strings" ) {
-			echo htmlspecialchars( $lang[$lang_counter++] )."<br>";
+			echo htmlspecialchars( $lang[$lang_counter++] )."<br />";
 		}
 
 		### bring $english in sync with $lang
@@ -98,8 +98,8 @@
 			$eng_counter++;
 		}
 
-		#echo "333 - $lang[$lang_counter] <br>";
-		#echo "444 - $lang[$eng_counter] <br>";
+		#echo "333 - $lang[$lang_counter] <br />";
+		#echo "444 - $lang[$eng_counter] <br />";
 
 		### parse variables, look for missing
 		$t_not_found = 0;
@@ -132,7 +132,7 @@
 				print_line( $lang_str );
 			} else {
 				$s_var = $eng_var;
-				#echo "ZOP ZOP ZOP : $s_var<br>";
+				#echo "ZOP ZOP ZOP : $s_var<br />";
 				$location = find_var( $lang, $lang_count, $s_var );
 				if ( $location > -1 ) {
 					#echo "AAA - $location : $lang[$location] : $lang_counter : ";
@@ -174,9 +174,9 @@
 		<p>
 		<a href="localization.php3">Back to Localization</a>
 		<p>
-		Items in <font color=#ff0000>RED</font> are not translated (or are the same as in english)<br>
-		Items in <font color=#0000ff>BLUE</font> are out of order.<br>
-		Items in <font color=#00ff00>GREEN</font> are missing.<br>
+		Items in <font color=#ff0000>RED</font> are not translated (or are the same as in english)<br />
+		Items in <font color=#0000ff>BLUE</font> are out of order.<br />
+		Items in <font color=#00ff00>GREEN</font> are missing.<br />
 		<p>
 		<table cellspacing=1 border=0 bgcolor=#888888>
 		<tr bgcolor=#8888ff>

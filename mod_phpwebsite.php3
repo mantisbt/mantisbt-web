@@ -7,8 +7,8 @@ This document illustrates how you can integrate Mantis into <a href="http://phpw
 <p>
 <span class="section">USING PHPWEBSITE THEMES AUTOMATICALLY IN MANTIS</span>
 <p>
-By <a href="mailto:Talal@mi4.com">Talal Nehme</a>:<br>
-<a href="http://www.mi4.com">http://www.mi4.com</a><br>
+By <a href="mailto:Talal@mi4.com">Talal Nehme</a>:<br />
+<a href="http://www.mi4.com">http://www.mi4.com</a><br />
 <a href="http://www.Talloula.com">http://www.Talloula.com</a>
 
 <pre>

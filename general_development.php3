@@ -43,29 +43,29 @@ Mantis, an open source project, allows you to contribute changes you make back t
 <span class="section">Install and Setup Apache + PHP + MySQL</span>
 <p>
 <ul>
-	<li><a href="http://www.apache.org/">Apache</a><br>
-	<li><a href="http://www.php.net/">PHP</a><br>
-	<li><a href="http://www.mysql.com/">MySQL</a><br>
+	<li><a href="http://www.apache.org/">Apache</a><br />
+	<li><a href="http://www.php.net/">PHP</a><br />
+	<li><a href="http://www.mysql.com/">MySQL</a><br />
 </ul>
 <p>
 Some site that will guide you through a step by step install and setup.
 <p>
 <ul>
-	<li><a href="http://hotwired.lycos.com/webmonkey/99/21/index2a.html">PHP/MySQL Tutorial</a> - also covers installation and setup<br>
-	<li><a href="http://www.vtwebwizard.com/tutorials/mysql/">Another Tutorial</a><br>
+	<li><a href="http://hotwired.lycos.com/webmonkey/99/21/index2a.html">PHP/MySQL Tutorial</a> - also covers installation and setup<br />
+	<li><a href="http://www.vtwebwizard.com/tutorials/mysql/">Another Tutorial</a><br />
 	<li><a href="http://php.vamsi.net/mysql/index.php">And Another!</a>
 </ul>
 <ul>
-	<li><a href="http://badblue.com/helpphp.htm">Bad Blue</a> - simple webserver with php support for Windows<br>
-	<li><a href="http://www.thickbook.com/extra/php_apachephp4_win.phtml">Apache+PHP</a> - installation instructions<br>
-	<li><a href="http://sourceforge.net/projects/phptriad/">PHPTriad</a> - Apache, MySQL, PHP, PHPLIB, phpMyAdmin all in one!  A bit outdated but still useful<br>
+	<li><a href="http://badblue.com/helpphp.htm">Bad Blue</a> - simple webserver with php support for Windows<br />
+	<li><a href="http://www.thickbook.com/extra/php_apachephp4_win.phtml">Apache+PHP</a> - installation instructions<br />
+	<li><a href="http://sourceforge.net/projects/phptriad/">PHPTriad</a> - Apache, MySQL, PHP, PHPLIB, phpMyAdmin all in one!  A bit outdated but still useful<br />
 </ul>
 <p>
 <span class="section">Install phpMyAdmin</span>
 <p>
 
 <ul>
-	<li><a href="http://www.phpwizard.net/">phpMyAdmin</a><br>
+	<li><a href="http://www.phpwizard.net/">phpMyAdmin</a><br />
 </ul>
 <p>
 All you really need to do is edit the config.php file to be able to access your mysql installation.  Note that you will need to place phpMyAdmin in your web server directory so you can access it with your web browser.  In order to secure this you should read the documents and use a .htaccess file.  If no one will be accessing your server it's not a big deal; just use common sense.
@@ -77,12 +77,12 @@ It may complain about magic_quotes_gpc.  You can make sure this is on by looking
 <p>
 
 <ul>
-	<li>Get an account at <a href="http://www.sourceforge.net/">SourceForge</a><br>
-	<li><a href="http://sourceforge.net/docman/display_doc.php?docid=763&group_id=1">Login</a> (to the shell server)<br>
-	<li><a href="http://sourceforge.net/docman/display_doc.php?docid=763&group_id=1">Login Again</a> (to the cvs server)<br>
-	<li>Get me to <a href="mailto:kenito@300baud.org">add you</a> to the development team<br>
-	<li><a href="http://sourceforge.net/docman/display_doc.php?docid=763&group_id=1">Read the Site Docs on how to setup CVS through SSH</a><br>
-	<li>Do a <a href="http://sourceforge.net/cvs/?group_id=14963">CVS Checkout</a><br>
+	<li>Get an account at <a href="http://www.sourceforge.net/">SourceForge</a><br />
+	<li><a href="http://sourceforge.net/docman/display_doc.php?docid=763&group_id=1">Login</a> (to the shell server)<br />
+	<li><a href="http://sourceforge.net/docman/display_doc.php?docid=763&group_id=1">Login Again</a> (to the cvs server)<br />
+	<li>Get me to <a href="mailto:kenito@300baud.org">add you</a> to the development team<br />
+	<li><a href="http://sourceforge.net/docman/display_doc.php?docid=763&group_id=1">Read the Site Docs on how to setup CVS through SSH</a><br />
+	<li>Do a <a href="http://sourceforge.net/cvs/?group_id=14963">CVS Checkout</a><br />
 </ul>
 
 <p>
@@ -90,7 +90,7 @@ You can store your SSH public key on the SF server to avoid having to type your 
 <p>
 If you are in unix, all you have to do is set the following environment variable: CVS_RSH=ssh
 <p>
-In bash: export CVS_RSH=ssh<br>
+In bash: export CVS_RSH=ssh<br />
 In tcsh: set CVS_RSH ssh
 <p>
 To make this change permanent don't forget to put it in your .bash_profile, profile, .bashrc, .login, or wherever you put your environment variables.  Don't forget to relogin!
@@ -129,28 +129,28 @@ cvs -n update
 </pre> will pretend to do an update.  This is useful to check and see what files have been modifed without modifying your files locally.<p>
 
 <ul>
-	<li>Signup on the <a href="http://mantisbt.sourceforge.net/mantis/">demo bugtracker</a><br>
-	<li>Signup on the <a href="http://mantisbt.sourceforge.net/mailinglists.php3">developer mailing list</a><br>
+	<li>Signup on the <a href="http://mantisbt.sourceforge.net/mantis/">demo bugtracker</a><br />
+	<li>Signup on the <a href="http://mantisbt.sourceforge.net/mailinglists.php3">developer mailing list</a><br />
 </ul>
 <ul>
-	<li>Files ending in just .php (not .php3) are files of some note<br>
+	<li>Files ending in just .php (not .php3) are files of some note<br />
 </ul>
 <ul>
-	<li>config_inc.php has all the global sitewaide variable settings<br>
-	<li>constants_inc.php has all CONSTANT values (they are UPPERCASE)<br>
-	<li>core_* files contain all the functions used in the package - When you begin development you might want to make your own core_* file for your own test functions.<br>
+	<li>config_inc.php has all the global sitewaide variable settings<br />
+	<li>constants_inc.php has all CONSTANT values (they are UPPERCASE)<br />
+	<li>core_* files contain all the functions used in the package - When you begin development you might want to make your own core_* file for your own test functions.<br />
 </ul>
 <ul>
-	<li>The localization files are the .txt files<br>
-	<li>The images are in the images/ directory (The directory structure will undergo changes shortly)<br>
+	<li>The localization files are the .txt files<br />
+	<li>The images are in the images/ directory (The directory structure will undergo changes shortly)<br />
 </ul>
 <p>
 
 <span class="section">Help and Reference sites</span>
 <p>
 <ul>
-	<li><a href="http://www.php.net/manual/en/">PHP Manual</a><br>
-	<li><a href="http://www.phpbuilder.net/">phpBuilder</a><br>
+	<li><a href="http://www.php.net/manual/en/">PHP Manual</a><br />
+	<li><a href="http://www.phpbuilder.net/">phpBuilder</a><br />
 	<li><a href="http://www.mysql.com/doc/">MySQL Documentation</a><p>
 </ul>
 <p>

@@ -16,7 +16,7 @@
 		if ( strpos( $file[$i], ":" ) > 0 ) {
 			echo "<p><b>".$file[$i]."</b><p>";
 		} else if ( !empty( $file[$i] ) ) {
-			echo "<li>".$file[$i]."<br>";
+			echo "<li>".$file[$i]."<br />";
 		} else {
 			echo $file[$i]."";
 		}

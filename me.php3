@@ -13,7 +13,7 @@ I love to code.  My favorite mode of development is Object Oriented Programming,
 <span class="section">Work</span>
 <p>
 I am available for contract work on Mantis for $50/hr.  I am also currently seeking full-time employment.<p>
-<a href="Kenzaburo-Ito-Resume.html">Resume (HTML)</a><br>
+<a href="Kenzaburo-Ito-Resume.html">Resume (HTML)</a><br />
 <a href="Kenzaburo-Ito-Resume.doc">Resume (Word format)</a>
 <p>
 
