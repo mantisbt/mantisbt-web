@@ -54,7 +54,7 @@
 <table class="devlog" border="0" cellspacing="1" cellpadding="4">
 <tr>
 	<td class="devheadline">
-		<b><font size=+1><? echo $v_headline ?></font></b><br />
+		<b><font size=+0><? echo $v_headline ?></font></b><br />
 		<span class="news_date"><? echo $v_date_posted ?></span>
 	</td>
 </tr>

@@ -16,8 +16,9 @@ span.page_title		{ font-weight: bold; font-size: 13pt; }
 span.center_link	{ font-weight: bold; font-size: 10pt; text-align: center }
 span.news_date		{ font-size: 8pt; font-style: italic }
 
-table.outside	{ width: 100% }
-table.menu		{ width: 150px; background-color: #ffffff }
+table.outside	{ width: 100%; }
+table.menu		{ width: 150px; background-color: #ffffff; }
+table.devlog	{ width: 100%; }
 tr.top	 		{ vertical-align: top; padding: 0 }
 
 td				{ font-family: Verdana, Arial, Times, sans-serif; font-size: 10pt; text-align: left }
@@ -28,8 +29,8 @@ td.right		{ background-color: #b8b8ff; height: 1px;  font-size: 2pt; line-height
 
 td.dev_section	{ background-color: #b8b8ff; line-height: 1.2; font-weight: bold; padding: 4px }
 td.dev_right	{ background-color: #b8b8ff; line-height: 1.2; text-align: right; font-weight: bold; padding: 4px }
-td.devheadline	{ background-color: #f0f0ff; line-height: 1.2; padding: 4px }
-td.devpost		{ background-color: #ffffff; line-height: 1.2; padding: 4px }
+td.devheadline	{ background-color: #f0f0ff; line-height: 1.2; padding: 4px; border-top: 1px solid #4477aa; }
+td.devpost		{ background-color: #ffffff; line-height: 1.2; padding: 4px; border-bottom: 1px solid #4477aa; }
 
 td.middle		{ background-color: #8888e8; height: 5px; font-size: 2pt; border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 0px solid #000000; text-align: right }
 
