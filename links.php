@@ -2,9 +2,17 @@
 
 <span class="page_title">Links</span>
 <hr size=1 noshade width="100%">
-<p>
-These links are software packages that are related to Mantis use and development.
-<p>
+
+<p>Links to work which integrates Mantis into...</p>
+<ul>
+<li><a href="http://dev.xoops.org/modules/xfmod/project/?mantis">XOOPS</a></li>
+<li><a href="http://lottasophie.sourceforge.net/modules.php?op=modload&name=Sections&file=index&req=viewarticle&artid=15&page=1">Postnuke</a></li>
+<li><a href="http://www.phprojekt.com/modules.php?op=modload&name=Downloads&file=index&req=viewdownloaddetails&lid=69&ttitle=Mantis_(bugtracker)_as_addon">PHProject</a></li>
+<li><a href="http://sourceforge.net/project/showfiles.php?group_id=68255&package_id=108965">Geeklog</a></li>
+</ul>
+
+<br/>
+<p>These links are software packages that are related to Mantis use and development.</p>
 <table width=100%>
 <tr valign="top">
 	<td>
