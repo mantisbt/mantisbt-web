@@ -51,7 +51,7 @@
 <table bgcolor="#ffffff" width="100%" border="0" cellspacing="0" cellpadding="4">
 <tr valign="top">
 	<td class="welcome" width="*">
-		Mantis is a php/MySQL/web based bugtracking system.  <a href="mantis.php3">Click here</a> to learn more about it.
+		Mantis is a php/MySQL/web based bugtracking system.  <a href="about.php3">Click here</a> to learn more about it.
 		<p>
 		It is currently in development and is considered beta.
 	</td>

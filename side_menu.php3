@@ -15,7 +15,7 @@
 			</td>
 			<td class="menu_items">
 				<a class="big" href="index.php3">Home</a><br>
-				<a class="big" href="mantis.php3">About</a><br>
+				<a class="big" href="about.php3">About</a><br>
 				<a class="big" href="credits.php3">Credits</a><br>
 				<a class="big" href="demo.php3">Demo</a><br>
 				<a class="big" href="download.php3">Download</a><br>

@@ -13,23 +13,23 @@ Mantis is free to use and modify.  It is free to redistribute as long as you abi
 <p>
 <span class="section">History</span>
 <p>
-I and a friend originally created a bugtracker as an internal tool for our own pet project.  We searched for good, free packages but came up with nothing so we wrote our own.  Since then, I've gone ahead with a total rewrite and decided to make it available to the public.  I have no strong love of the GPL, but I do feel that development tools should be free.
+I and a friend originally created a bugtracker as an internal tool for our own pet project.  We searched for good, free packages but came up with nothing so we wrote our own.  Since then, I've gone ahead with a total rewrite and decided to make it available to the public.  I have no love of the GPL, but I do feel that development tools should be free.
 <p>
 Mantis was intially released to the public in November 2000.
 <p>
 <span class="section">Requirements</span>
 <p>
-Mantis runs on the platforms that these programs run on.  This include Windows, MacOS, and Unix.
+Mantis runs on the platforms that these programs run on.  This includes Windows, MacOS, and Unix.
 <ul>
 	<li><a href="http://www.php.net/">PHP</a> 3.0.13 and higher
 	<li><a href="http://www.mysql.com/">MySQL database</a> (alternate database support is planned)
-	<li>Web server (<a href="http://www.apache.org/">Apache</a>, IIS, etc.)
+	<li>Web server (<a href="http://httpd.apache.org/">Apache</a>, IIS, etc.)
 </ul>
 Additionally, you will need to know basic administration of MySQL (login, create new database, run a SQL query).  The webserver needs to be configured to handle PHP files.  The <a href="http://www.php.net/manual/en/">PHP manual</a> has excellent instructions.
 <p>
 It also helps a great deal to at least be able to tinker with PHP scripts (when there's a little bug or you want to tweak something).  Of course, knowing HTML is essential for any custom display formatting.
 <p>
-I highly recommend using <a href="http://www.phpwizard.net">phpMyAdmin</a> to administer MySQL.
+I highly recommend using <a href="http://www.phpwizard.net">phpMyAdmin</a> to administer MySQL.  It allows you to have a web based interface to interact with your database and is much more convenient than using the command line.
 
 <p>
 <span class="section">Features and Benefits</span>
@@ -50,7 +50,7 @@ I highly recommend using <a href="http://www.phpwizard.net">phpMyAdmin</a> to ad
 <p>
 <span class="section">Upcoming Features</span>
 <p>
-Check the <a href="roadmap.php3">Roadmap</a> for a more detailed and up to date list of items.
+Check the <a href="roadmap.php3">Roadmap</a> for a more detailed and somewhat up to date list of items.
 
 <p>
 <span class="section">Goals</span>
