@@ -24,20 +24,6 @@ Signup for the mailing lists.  These are very low traffic since most people seem
 </tr>
 <tr>
 	<td>
-		mantisbt-beta
-	</td>
-	<td>
-		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-beta">Signup</a>
-	</td>
-	<td>
-		<a href="http://www.geocrawler.com/redir-sf.php3?list=mantisbt-beta">Archives</a>
-	</td>
-	<td>
-		Be a tester between major releases.
-	</td>
-</tr>
-<tr>
-	<td>
 		mantisbt-help
 	</td>
 	<td>
