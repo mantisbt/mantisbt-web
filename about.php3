@@ -13,9 +13,7 @@ Mantis is free to use and modify.  It is free to redistribute as long as you abi
 <p>
 <span class="section">History</span>
 <p>
-A friend and I originally created a bugtracker as an internal tool for our own pet project.  We searched for good, free packages but came up with nothing so we wrote our own.  Since then, I've gone ahead with a total rewrite and decided to make it available to the public.  I have no love of the GPL, but I do feel that development tools should be free.
-<p>
-Mantis was intially released to the public in November 2000.
+A friend and I originally created a bugtracker as an internal tool for our own pet project.  We searched for good, free packages but came up with nothing so we wrote our own.  Since then, I've gone ahead with a total rewrite and decided to make it available to the public.  I have no love of the GPL, but I do feel that development tools should be free.  I'm not above asking for gifts though =)
 <p>
 <span class="section">Requirements</span>
 <p>
