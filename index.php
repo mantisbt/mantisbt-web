@@ -104,9 +104,11 @@
 </tr>
 </table>
 
-<?php
-	if ( !isset( $f_offset ) ) {
+<?php	
+	if ( !isset( $_GET['f_offset'] ) ) {
 		$f_offset = 0;
+	} else {
+		$f_offset = $_GET['f_offset'];
 	}
 
 	### get news count
