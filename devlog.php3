@@ -33,7 +33,7 @@
 ?>
 
 <span class="page_title">Devlog</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade width="100%">
 <p>
 <i>This section is devoted to commentary on checkins in the Changelog and anything else that doesn't make it onto the front page.</i>
 <p>
@@ -49,13 +49,13 @@
 		extract( $row, EXTR_PREFIX_ALL, "v" );
 		$v_headline = string_display( $v_headline );
 		$v_post = string_display( $v_post );
-		$v_date_posted = date( "m-d-Y h:i a T", $v_date_posted );
+		$v_date_posted = date( "M, d Y h:i a T", $v_date_posted );
 ?>
-<p>
-<table width="100%" bgcolor="#000000" border="0" cellspacing="1" cellpadding="4">
+<table class="devlog" border="0" cellspacing="1" cellpadding="4">
 <tr>
 	<td class="devheadline">
-		<b><? echo $v_headline ?></b> - <span class="news_date">[ <? echo $v_date_posted ?> ]</span>
+		<b><font size=+1><? echo $v_headline ?></font></b><br />
+		<span class="news_date"><? echo $v_date_posted ?></span>
 	</td>
 </tr>
 <tr>
@@ -79,4 +79,4 @@
 		PRINT " [ <a href=\"devlog.php3?f_offset=$f_offset_next\">older posts</a> ]";
 	}
 ?>
-<? include( "../bot.php3" ); ?>
+<? include( "bot.php3" ); ?>
