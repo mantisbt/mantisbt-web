@@ -18,10 +18,6 @@
 <tr valign=top>
 	<? include("side_menu.php3") ?>
 <td width=100%>
-Mantis is a php/MySQL/web based bugtracking system.  <a href="mantis.php3">Click here</a> to learn more about it.
-<p>
-It is currently in development and is considered beta.
-<hr size=1>
 <? include( "mantis/constant_inc.php" ) ?>
 <? include( "mantis/config_inc.php" ) ?>
 <?
@@ -49,10 +45,57 @@ It is currently in development and is considered beta.
 					   substr( $p_timeString, 0, 4 ) );
 	}
 	### --------------------
-?>
-<?
-	db_connect( $g_hostname, $g_db_username, $g_db_password, $g_database_name );
 
+	db_connect( $g_hostname, $g_db_username, $g_db_password, $g_database_name );
+?>
+<p>
+<div align="center">
+<table>
+<tr valign="top">
+	<td width=60%>
+Mantis is a php/MySQL/web based bugtracking system.  <a href="mantis.php3">Click here</a> to learn more about it.
+<p>
+It is currently in development and is considered beta.
+	</td>
+	<td width=40% align="right">
+	<table bgcolor=#888888 border=0 cellspacing=1 cellpadding=3>
+	<tr bgcolor=#e0e0ff>
+		<td width="100%" align="center">
+		<a href="polls.php3"><b>Recent Polls</b></a>
+		</td>
+	</tr>
+	<tr bgcolor=#ffffff>
+		<td width="100%">
+<?
+	$query = "SELECT * FROM vbooth_desc
+			WHERE TO_DAYS(NOW()) - TO_DAYS(timeStamp) <= '7'
+			ORDER BY timeStamp DESC
+			LIMIT 4";
+	$result = mysql_query( $query );
+	$poll_count = mysql_num_rows( $result );
+	for ($i=0;$i<$poll_count;$i++) {
+		$row = mysql_fetch_array( $result );
+		extract( $row );
+		if ( strlen($pollTitle) > 30 ) {
+			$pollTitle = substr( $pollTitle, 0, 30 )."...";
+		}
+		PRINT "<a href=\"view_poll.php3?f_poll_id=$pollID\">$pollTitle</a><br>";
+	}
+?>
+		</td>
+	</tr>
+	<tr bgcolor=#e0e0ff>
+		<td width="100%" align="center">
+		<a href="survey.php3"><b>Answer Survey</b></a>
+		</td>
+	</tr>
+	</table>
+	</td>
+</tr>
+</table>
+</div>
+
+<?
 	if ( !isset( $f_offset ) ) {
 		$f_offset = 0;
 	}
@@ -75,7 +118,7 @@ It is currently in development and is considered beta.
 		extract( $row, EXTR_PREFIX_ALL, "v" );
 		$v_headline = string_display( $v_headline );
 		$v_body = string_display( $v_body );
-		$v_date_posted = date( "m-d H:i", $v_date_posted );
+		$v_date_posted = date( "m-d-Y H:i", $v_date_posted );
 
 		## grab the username and email of the poster
 	    $query = "SELECT username, email

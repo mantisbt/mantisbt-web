@@ -26,6 +26,7 @@ The following forums are hosted at Sourceforge.  You can post anonymously.  Plea
 <li><a href="http://sourceforge.net/forum/forum.php?forum_id=55896">Feature Requests</a>
 <li><a href="http://sourceforge.net/forum/forum.php?forum_id=65760">Localization</a>
 <li><a href="http://sourceforge.net/forum/forum.php?forum_id=47436">Help</a>
+<li><a href="http://sourceforge.net/forum/forum.php?forum_id=47437">Developers</a>
 <p>
 <div align="center">
 <a href="http://sourceforge.net/forum/?group_id=14963">SourceForge Forums</a><br>

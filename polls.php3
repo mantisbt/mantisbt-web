@@ -24,7 +24,10 @@
 <p>
 Please fill out some of the polls and surveys on this page.  This will provide feedback and help chart the direction Mantis goes in.
 <p>
+	<table cellpadding=4>
 <?
+	include("mantis/config_inc.php");
+
 	function db_connect($p_hostname="localhost", $p_username="root",
 						$p_password="", $p_database="mantis",
 						$p_port=3306 ) {
@@ -33,17 +36,6 @@ Please fill out some of the polls and surveys on this page.  This will provide f
 									$p_username, $p_password );
 		$t_result = mysql_select_db( $p_database );
 	}
-
-	function sql_to_unix_time( $p_timeString ) {
-		return mktime( substr( $p_timeString, 8, 2 ),
-					   substr( $p_timeString, 10, 2 ),
-					   substr( $p_timeString, 12, 2 ),
-					   substr( $p_timeString, 4, 2 ),
-					   substr( $p_timeString, 6, 2 ),
-					   substr( $p_timeString, 0, 4 ) );
-	}
-
-	include("mantis/config_inc.php");
 
 	db_connect( $g_hostname, $g_db_username, $g_db_password, $g_database_name );
 	$query = "SELECT *, UNIX_TIMESTAMP(timeStamp) as timeStamp
@@ -59,11 +51,14 @@ Please fill out some of the polls and surveys on this page.  This will provide f
 
 		$t_poll_timeStamp = date( "m-d-Y", $t_poll_timeStamp );
 
-		PRINT "<li>[ $t_poll_timeStamp ] <a href=\"view_poll.php3?f_poll_id=$t_poll_id\">$t_poll_title</a>";
-		PRINT " [ <a href=\"http://mantisbt.sourceforge.net/view_poll.php3?f_done=1&f_poll_id=$t_poll_id\"><font size=-1>view results</font></a> ]<br>";
+		PRINT "<tr>";
+		PRINT "<td width=\"15%\">[ $t_poll_timeStamp ]</td>";
+		PRINT "<td width=\"70%\"><a href=\"view_poll.php3?f_poll_id=$t_poll_id\">$t_poll_title</a></td>";
+		PRINT "<td width=\"15%\">[ <a href=\"http://mantisbt.sourceforge.net/view_poll.php3?f_done=1&f_poll_id=$t_poll_id\"><font size=-1>view results</font></a> ]</td>";
+		PRINT "</tr>";
 	}
 ?>
-
+	</table>
 </td>
 </tr>
 </table>

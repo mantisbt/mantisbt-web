@@ -96,6 +96,7 @@ Version 1.0.0 will be used when I consider Mantis to be production quality.  Thi
 <p>
 <li>Report any bugs at the <a href="demo.php3">Demo Bugtracker</a>
 <li>Suggest (reasonable) features
+<li>Give feedback and visit the <a href="polls.php3">polls</a>
 <li>Contribute code or tell me where to look
 <li><b>Let me know if you use it and find it useful</b>.  I won't publish the information without permission, but I would appreciate the feedback.  This, more than any one thing, keeps me motivated.
 <li><b>Buy me a book</b> off my <a href="http://www.amazon.com/exec/obidos/registry-edit-items-done/2FXMNHDUMQLA/107-9987144-7527713">wish list</a>! (or from another site if you won't deal with Amazon)

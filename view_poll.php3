@@ -38,13 +38,6 @@
 	require('phpPolls/phpPollUI.php3');
 
 	db_connect( $g_hostname, $g_db_username, $g_db_password, $g_database_name );
-	$query = "SELECT pollTitle
-			FROM vbooth_desc
-			WHERE pollID='$f_poll_id'";
-	$result = mysql_query( $query );
-	$t_project_name = mysql_result( $result, 0, 0 );
-
-	PRINT "<p>$t_project_name<p>";
 
 	if ( !isset( $f_done ) ) {
 		poll_generateUI( $f_poll_id, "http://mantisbt.sourceforge.net/view_poll.php3?f_done=1&f_poll_id=$f_poll_id" );
