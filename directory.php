@@ -50,6 +50,10 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section( 'J' );
 		entry( 'Jack Audio Connection Kit', 'http://jackit.sourceforge.net/', 'http://jackit.sourceforge.net/mantis/' );
 	section_end();
+	
+	section( 'I' );
+		entry( 'Institute for Computational Biomedicine (ICB)', 'http://icb.med.cornell.edu/', 'http://icbtools.med.cornell.edu/mantis/' );
+	section_end();
 
 	section( 'L' );
 		entry( 'LanAction', 'http://lanaction.sourceforge.net/', 'http://lanaction.sourceforge.net/bugtracker/' );
