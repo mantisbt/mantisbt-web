@@ -21,69 +21,110 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 <tr valign=top>
 	<? include("side_menu.php3") ?>
 <td>
-<b><font size=+1>What is it?</font></b>
+<? include( "mantis/config_inc.php" ) ?>
+<?
+	function db_connect($p_hostname="localhost", $p_username="root",
+						$p_password="", $p_database="mantis",
+						$p_port=3306 ) {
+
+		$t_result = mysql_connect(  $p_hostname.":".$p_port,
+									$p_username, $p_password );
+		$t_result = mysql_select_db( $p_database );
+	}
+	### --------------------
+	function string_display( $p_string ) {
+		return htmlspecialchars(stripslashes( $p_string ));
+	}
+	### --------------------
+	function string_display_with_br( $p_string ) {
+		return str_replace( "&lt;br&gt;", "<br>", htmlspecialchars(stripslashes( $p_string )));
+	}
+	### --------------------
+	function sql_to_unix_time( $p_timeString ) {
+		return mktime( substr( $p_timeString, 8, 2 ),
+					   substr( $p_timeString, 10, 2 ),
+					   substr( $p_timeString, 12, 2 ),
+					   substr( $p_timeString, 4, 2 ),
+					   substr( $p_timeString, 6, 2 ),
+					   substr( $p_timeString, 0, 4 ) );
+	}
+	### --------------------
+?>
+<?
+	db_connect( $g_hostname, $g_db_username, $g_db_password, $g_database_name );
+
+	if ( !isset( $f_offset ) ) {
+		$f_offset = 0;
+	}
+
+	### get news count
+	$query = "SELECT COUNT(id)
+			FROM $g_mantis_news_table";
+	$result = mysql_query( $query );
+    $total_news_count = mysql_result( $result, 0 );
+
+	$query = "SELECT *
+			FROM $g_mantis_news_table
+			ORDER BY id DESC
+			LIMIT $f_offset, $g_news_view_limit";
+	$result = mysql_query( $query );
+    $news_count = mysql_num_rows( $result );
+
+	for ($i=0;$i<$news_count;$i++) {
+		$row = mysql_fetch_array($result);
+		extract( $row, EXTR_PREFIX_ALL, "v" );
+		$v_headline = string_display( $v_headline );
+		$v_body = string_display_with_br( $v_body );
+		$v_date_posted = date( "m-d H:i", sql_to_unix_time( $v_date_posted ) );
+
+		## grab the username and email of the poster
+	    $query = "SELECT username, email
+	    		FROM $g_mantis_user_table
+	    		WHERE id='$v_poster_id'";
+	    $result2 = mysql_query( $query );
+	    if ( $result2 ) {
+	    	$row = mysql_fetch_array( $result2 );
+			$t_poster_name	= $row["username"];
+			$t_poster_email	= $row["email"];
+		}
+?>
 <p>
-Mantis is a php/MySQL/web based bugtracking system.  The software resides on a webserver while any web browser should be able to function as a client.  It is released under the terms of the <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL license</a>.
-<p>
-I and a friend originally created a bugtracker as an internal tool for our own pet project.  Since then I've gone ahead with a total rewrite and decided to make it available to the public.  A check on the web in early 2000 revealed that there were no free php based bug tracking packages that were usable (I may be mistaken).  Hopefully, this package helps fill that niche.  I have no strong love of the GPL but I do feel that development tools should be free for developers, thus my choice of license.
-<p>
-The release numbering convention I'm using is major.minor.micro.  Major indicates a large change in the core package, minor a significant amount of feature addition/modification, micro for mostly bug fixes.  I am leaning towards releasing a new version for a significant bugfix as often as daily.
+<div align=center>
+<table width=97% bgcolor=#dddddd>
+<tr>
+	<td bgcolor=#e8e8e8>
+		<b><? echo $v_headline ?></b> -
+		<i><? echo $v_date_posted ?></i> -
+		<a href="mailto:<? echo $t_poster_email ?>"><? echo $t_poster_name ?></a>
+	</td>
+</tr>
+<tr>
+	<td bgcolor=#f8f8f8>
+		<br>
+		<blockquote>
+			<? echo $v_body ?>
+		</blockquote>
+	</td>
+</tr>
+</table>
+</div>
+<?
+	}
+?>
 
 <p>
-<b><font size=+1>Goals</font></b>
-<p>
-The stated goals for this project are to produce and maintain a lightweight, simple bugtracking system.  Additions of complexity/features should be modular so that users can be shielded from unwanted complexity.  Thus, much of the package allows for a simple version of a feature along with a more fully developed but complex version.  In the 'core' package the goal is to have the most important, most used, most time saving portions of a bugtracking system.  Hopefully this gives you 90% of the functionality that you need. The product is designed, to the best of the developer's abilities, to be easily modifiable and customizable and upgradeable.
+<div align=center>
+<?
+	$f_offset_next = $f_offset + $g_news_view_limit;
+	$f_offset_prev = $f_offset - $g_news_view_limit;
 
-<p>
-<b><font size=+1>Requirements</font></b>
-<p>
-<li><a href="http://www.php.net/">php</a> 3.0.13 and higher
-<li><a href="http://www.mysql.com/">MySQL database</a> (check back to see when new databases are added)
-<li>Web server (<a href="http://www.apache.org/">apache</a>, IIS, etc.)
-<p>
-Additionally you will need to know basic administration of MySQL (login, create new database, run a SQL query).  The webserver needs to be configured to handle php files at a minimum.  It also helps a great deal to at least be able to tinker with php scripts (when there's a little bug or you want to tweak something).  Of course, knowing HTML is essential to do any custom formatting.  Along the lines of appearance, I have tried to use my best judgement in colors, layout, and feel.  Eventually I hope to be able to customize the look and feel from a single CSS file.
-
-<p>
-<b><font size=+1>Features and Benefits</font></b>
-<p>
-<li>Web based and platform independent
-<li>Supports PHP3 and PHP4
-<li>Configuration files allow for for site-wide control
-<li>Integrated user and site management
-<li>Integrated news management
-<li>Color coding according to bug status
-<li>Note addition capability for each bug
-<li>ETA and projection for each bug
-<li>Shows which bugs have been modified in last X hours
-<li>Stored profiles
-<li>Complex viewing filters
-<li>Detailed summary reports
-
-<p>
-<b><font size=+1>Upcoming Features</font></b>
-<p>
-<li>Mailing module
-<li>Multiple project support
-<li>File upload module
-<li>Support for PostgreSQL/Database abstraction layer
-<li>Weekly progress reports
-<li>Bug searching
-Check the <a href="roadmap.php3">Roadmap</a> for a more detailed and up to date list of items.
-<p>
-<b><font size=+1>How to Help</font></b>
-<p>
-<li>Report any bugs at the <a href="demo.php3">Demo Bugtracker</a>
-<li>Suggest (reasonable) features
-<li>Contribute code or tell me where to look
-<li>Join the development team!  Send me an email detailing what you would like to help out on.
-<li>Let me know if you use it and find it useful.
-I won't publish the information without permission, but I would appreciate the feedback.  It keeps me motivated.
-
-<p>
-<b><font size=+1>Credits</font></b>
-<p>
-<li><a href="mailto:kenito@300baud.org">Kenzaburo Ito</a> - programming
-<li>Hai Nguyen - original implementation
+	if ( $f_offset_prev >= 0) {
+		PRINT "[ <a href=\"$g_main_page?f_offset=$f_offset_prev\">newer_news</a> ]";
+	}
+	if ( $news_count==$g_news_view_limit ) {
+		PRINT " [ <a href=\"$g_main_page?f_offset=$f_offset_next\">older_news</a> ]";
+	}
+?>
 </td>
 </tr>
 </table>

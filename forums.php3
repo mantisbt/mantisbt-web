@@ -21,20 +21,19 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 <tr valign=top>
 	<? include("side_menu.php3") ?>
 <td>
-<b><font size=+1>CVS</font></b>
+<b><font size=+1>Forums</font></b>
 <p>
-Mantis uses <a href="http://www.cyclic.com/">CVS</a> to store and control its source code.  Anonymous cvs access allows anyone to download the most current snapshot of the code.  Be warned: the latest build may not always function correctly.
+The following forums are hosted at Sourceforge.  You can post anonymously.  Please report actual bugs to the <a href="demo.php3">Demo Bugtracker</a>.
 <p>
-Follow the link and follow the commands there.  The module name you want to use is <i>mantisbt</i>.
+<li>Open Discussion
+<li>Feature Requests
+<li>Localization
+<li>Help
 <p>
-<div align=center>
-<b><a href="http://sourceforge.net/cvs/?group_id=14963">Mantis CVS</a></b>
-</div>
-
+<a href="http://sourceforge.net/forum/?group_id=14963">SourceForge Forum</a><br>
 </td>
 </tr>
 </table>
-
 
 <p>
 <div align=right>

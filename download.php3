@@ -27,7 +27,7 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 Use the link to get to the download site for Mantis.  The package is kept in .tar.gz which any reasonable (unix systems, WInzip, Stuffit) decompression program can handle.
 <p>
 <div align=center>
-	<a href="http://sourceforge.net/project/showfiles.php?group_id=14963&release_id=19129"><b>Download Mantis</b></a>
+	<a href="http://sourceforge.net/project/showfiles.php?group_id=14963&release_id=24265"><b>Download Mantis</b></a>
 </div>
 
 <b><font size=+1>Mirroring</font></b>
