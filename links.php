@@ -3,17 +3,24 @@
 <span class="page_title">Links</span>
 <hr size=1 noshade width="100%">
 
-<p><b>Links to work which integrates Mantis into...</b></p>
+<p><b>Links to sites which gets Mantis to work with...</b></p>
 <ul>
-<li><a href="http://dev.xoops.org/modules/xfmod/project/?mantis" target="_blank">XOOPS</a></li>
-<li><a href="http://lottasophie.sourceforge.net/modules.php?op=modload&name=Sections&file=index&req=viewarticle&artid=15&page=1" target="_blank">Postnuke</a></li>
-<li><a href="http://www.phprojekt.com/modules.php?op=modload&name=Downloads&file=index&req=viewdownloaddetails&lid=69&ttitle=Mantis_(bugtracker)_as_addon" target="_blank">PHProject</a></li>
+<li><a href="http://www.freshports.org/databases/mantis/">FreeBSD (Fresh Ports)</a></li>
 <li><a href="http://sourceforge.net/project/showfiles.php?group_id=68255&package_id=108965" target="_blank">Geeklog</a></li>
+<li><a href="http://www.phprojekt.com/modules.php?op=modload&name=Downloads&file=index&req=viewdownloaddetails&lid=69&ttitle=Mantis_(bugtracker)_as_addon" target="_blank">PHProject</a></li>
+<li><a href="http://lottasophie.sourceforge.net/modules.php?op=modload&name=Sections&file=index&req=viewarticle&artid=15&page=1" target="_blank">Postnuke</a></li>
+<li><a href="http://dev.xoops.org/modules/xfmod/project/?mantis" target="_blank">XOOPS</a></li>
 </ul>
 
 <p><b>Migration Tools</b></p>
 <ul>
 <li>Bugzilla to Mantis (<a href="http://crisdaniluk.com/bugzilla2mantis/bugzilla2mantis.pl" target="_blank">Perl script</a>) by <a href="http://crisdaniluk.com/" target="_blank">Cris Daniluk</a></li>
+</ul>
+
+<p><b>Articles and Reviews</b></p>
+<ul>
+<li><a href="http://www.linuxjournal.com/article.php?sid=6859">Linux Review: Product Review: Mantis Bug Tracker</a></li>
+<li><a href="http://www.lintellect.org/downloads/php-good-great-obscure-presentation.pdf">PHP: The Good, The Great, The Obscure</a></li>
 </ul>
 
 <br/>
