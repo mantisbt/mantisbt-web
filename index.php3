@@ -37,7 +37,7 @@ The stated goals for this project are to produce and maintain a lightweight, sim
 <p>
 <b><font size=+1>Requirements</font></b>
 <p>
-<li><a href="http://www.php.net/">php</a> 3.0.7 and higher
+<li><a href="http://www.php.net/">php</a> 3.0.13 and higher
 <li><a href="http://www.mysql.com/">MySQL database</a> (check back to see when new databases are added)
 <li>Web server (<a href="http://www.apache.org/">apache</a>, IIS, etc.)
 <p>
