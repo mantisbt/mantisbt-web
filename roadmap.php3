@@ -25,6 +25,13 @@ This is the Mantis feature roadmap.  It lists most fo the currently planned feat
 
 <h3>0.15.0</h3>
 <ul>
+<li>Switch from enums to indexes
+<li>Switch from timestamp to datetime
+<li>Switch from char(3) to indexes
+<li>More options in mail config
+</ul>
+<h3>0.16.0</h3>
+<ul>
 <li>Test settings script
 <li>Icons
 <li>Bug Search
@@ -35,7 +42,7 @@ This is the Mantis feature roadmap.  It lists most fo the currently planned feat
 <li>Unread/Read bugs indicator
 <li>Monitor bug (for anyone)
 </ul>
-<h3>0.15.0</h3>
+<h3>0.17.0</h3>
 <ul>
 <li>Logged in Summary
 <li>Be able to edit bug info
