@@ -26,7 +26,8 @@ Follow the link and follow the commands there.  The module name you want to use 
 <p>
 <div align=center>
 <b><a href="http://sourceforge.net/cvs/?group_id=14963">Mantis CVS</a></b><p>
-<b><a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/mantisbt">Browse Mantis CVS</a></b>
+<b><a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/mantisbt">Browse Mantis CVS</a></b><p>
+<b><a href="http://cvs.sourceforge.net/cvstarballs/mantisbt-cvsroot.tar.gz">Download Nightly Tarball</a></b>
 </div>
 
 </td>
