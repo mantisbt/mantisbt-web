@@ -11,8 +11,8 @@ The computer can be a shared public web server or a dedicated co-loc box.  It ca
 <p>
 <span class="section">Software</span>
 <ul>
-	<li><a href="http://www.php.net/">PHP</a> 3.0.13 and higher
-	<li><a href="http://www.mysql.com/">MySQL database</a> (alternate database support is planned)
+	<li><a href="http://www.php.net/">PHP</a> 4.0.3 and higher
+	<li><a href="http://www.mysql.com/">MySQL database</a> 3.23.2 and higher (alternate database support is planned for 2.0)
 	<li>Web server (<a href="http://httpd.apache.org/">Apache</a>, IIS, etc.)
 </ul>
 <span class="section">Cost</span>
