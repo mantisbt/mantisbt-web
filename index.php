@@ -1,7 +1,5 @@
 <?php include( "top.php" ); ?>
 <?php
-	#include( 'config_defaults_inc.php' );
-
 	function db_connect($p_hostname="localhost", $p_username="root",
 						$p_password="", $p_database="mantis",
 						$p_port=3306 ) {
