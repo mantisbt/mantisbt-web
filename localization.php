@@ -30,7 +30,7 @@
 			PRINT "</td>";
 			PRINT "<td>";
 				$t_lang = strtolower($p_language);
-				#PRINT "<a href=\"local_diff.php?f_lang=$t_lang\">view diff</a>";
+				PRINT "<a href=\"local_diff.php?f_lang=$t_lang\">view diff</a>";
 			PRINT "</td>";
 
 		PRINT "</tr>";
@@ -40,7 +40,7 @@
 <span class="page_title">Localization</span>
 <hr size="1" noshade="noshade" width="100%">
 <p>
-Here you can see the latest localization files.
+Here you can see the latest localization files.  The Latest Release column indicates the files were included in the most recent release of Mantis.  The CVS indicates what is currently in CVS.  Any updates should be made to the CVS version.
 <p>
 What to do if you see some errors?  Just <a href="mailto:mantisbt-lang@lists.sourceforge.net">send an email</a> with the corrected strings.
 <p>
@@ -52,7 +52,7 @@ What to do if you see some errors?  Just <a href="mailto:mantisbt-lang@lists.sou
 		<b>Language</b>
 	</td>
 	<td>
-		<b>Release Date</b>
+		<b>Latest Release</b>
 	</td>
 	<td>
 		<b>CVS Date</b>

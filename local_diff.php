@@ -23,7 +23,13 @@
 			$p_string = trim( $p_string );
 
 			$arr = explode( " ", $p_string );
-			return $arr[0].$arr[1];
+
+			# need to catch situation where it matches against the ##### string at the top of the file
+			if ( isset( $arr[1] ) ) {
+				return $arr[0].$arr[1];
+			} else {
+				return $arr[0];
+			}
 		} else {
 			$p_string = trim( $p_string );
 
@@ -107,6 +113,10 @@
 			$eng_counter++;
 			$lang_counter++;
 
+			# check if there are more english strings than in the language file
+			if ( !isset( $lang[$lang_counter] ) ) {
+				continue;
+			}
 			$lang_str = $lang[$lang_counter];
 			$eng_str = $english[$eng_counter];
 			$lang_str_trim = trim( $lang_str );
@@ -122,13 +132,13 @@
 				} else {
 					print_line( $lang_str );
 				}
-			} else if (( $lang_str_trim == "" ) && ( $eng_str_trim == "" )) {
-				print_line( "" );
+			} else if ( empty( $lang_str_trim ) && empty( $eng_str_trim )) {
+				print_line( '' );
 			} else if (is_comment( $lang_str ) &&
 						is_comment( $eng_str ) &&
 						( $lang_str_trim == $eng_str_trim ) ) {
 				print_italics( $lang_str );
-			} else if ( $lang_str_trim == "?>" ) {
+			} else if ( $lang_str_trim == '?>' ) {
 				print_line( $lang_str );
 			} else {
 				$s_var = $eng_var;
