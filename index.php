@@ -32,10 +32,6 @@
 	# Detect URLs and email addresses in the string and replace them with href anchors
 	function string_insert_hrefs( $p_string ) {
 		$t_change_quotes = false;
-		if( ini_get_bool( 'magic_quotes_sybase' ) ) {
-			$t_change_quotes = true;
-			ini_set( 'magic_quotes_sybase', false );
-		}
 
 		# Find any URL in a string and replace it by a clickable link
 		$p_string = preg_replace( '/(([[:alpha:]][-+.[:alnum:]]*):\/\/(%[[:digit:]A-Fa-f]{2}|[-_.!~*\';\/?%^\\\\:@&={\|}+$#\(\),\[\][:alnum:]])+)/se',
