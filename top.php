@@ -14,7 +14,23 @@
 		<a href="http://www.mantisbt.org/"><img border="0" src="images/mantis_logo.gif" alt="Mantis" /></a>
 	</td>
 	<td class="right">
-		<a href="http://www.mantisbt.org"><img src="images/mantis_logo_button.gif" width="88" height="35" border="0" alt="Mantis"></a>
+		<right>
+			<script type="text/javascript"><!--
+			google_ad_client = "pub-0979518001849295";
+			google_ad_width = 468;
+			google_ad_height = 60;
+			google_ad_format = "468x60_as";
+			google_ad_channel ="3585048648";
+			google_color_border = "B8B8FF";
+			google_color_bg = "FFFFFF";
+			google_color_link = "4080D0";
+			google_color_url = "3070C0";
+			google_color_text = "000000";
+			//--></script>
+			<script type="text/javascript"
+				src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script>
+	</right>
 	</td>
 </tr>
 <tr class="top">
