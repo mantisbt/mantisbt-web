@@ -114,7 +114,11 @@
 
 		### parse variables, look for missing
 		$t_not_found = 0;
+		$t_failsafe_counter = 0;
 		while ( $eng_counter < $english_count ) {
+			if ( $t_failsafe_counter++ > 10000 ) {
+				return;
+			}
 			$eng_counter++;
 			$lang_counter++;
 
