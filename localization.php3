@@ -73,12 +73,13 @@ What to do if you see some errors?  Just <a href="mailto:kenito@300baud.org">sen
 	print_lang( "French",				"latest",  "active" );
 	print_lang( "French2",				"latest",  "active" );
 	print_lang( "German",				"latest",  "active" );
+	print_lang( "Hungarian",			"latest",  "active" );
 	print_lang( "Italian",				"latest",  "active" );
 	print_lang( "Korean",				"latest",  "active" );
 	print_lang( "Norwegian",			"latest",  "active" );
 	print_lang( "Polish",				"latest",  "active" );
-	print_lang( "Portuguese_Brazil",			"latest",  "active" );
-	print_lang( "Portuguese_Standard",			"latest",  "active" );
+	print_lang( "Portuguese_Brazil",	"latest",  "active" );
+	print_lang( "Portuguese_Standard",	"latest",  "active" );
 	print_lang( "Romanian",				"latest",  "active" );
 	print_lang( "Russian",				"latest",  "active" );
 	print_lang( "Spanish",				"latest",  "active" );
