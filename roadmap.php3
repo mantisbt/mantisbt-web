@@ -1,11 +1,7 @@
 <html>
 <head>
+<? include( "css.php3" ) ?>
 <title>Mantis Roadmap</title>
-<style>
-body { background-color:<? echo $g_white_color ?>; font-family:Verdana, Arial; font-size=10pt }
-td {  font-family:Verdana, Arial; font-size=10pt }
-p {  font-family:Verdana, Arial; font-size=10pt }
-</style>
 </head>
 <body>
 

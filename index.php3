@@ -1,10 +1,6 @@
 <html>
 <head>
-<style>
-body { background-color:#ffffff; font-family:Verdana, Arial; font-size=10pt }
-td {  font-family:Verdana, Arial; font-size=10pt }
-p {  font-family:Verdana, Arial; font-size=10pt }
-</style>
+<? include( "css.php3" ) ?>
 <title>Mantis</title>
 </head>
 <body bgcolor=#ffffff>
@@ -21,6 +17,10 @@ p {  font-family:Verdana, Arial; font-size=10pt }
 <tr valign=top>
 	<? include("side_menu.php3") ?>
 <td>
+Mantis is a php/MySQL/web based bugtracking system.  <a href="about.php3">Click here</a> to learn more about it.
+<p>
+It is currently in development and is considered beta.
+<hr size=1>
 <? include( "mantis/constant_inc.php" ) ?>
 <? include( "mantis/config_inc.php" ) ?>
 <?

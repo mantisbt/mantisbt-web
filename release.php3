@@ -64,11 +64,7 @@
 ?>
 <html>
 <head>
-<style>
-body { background-color:#ffffff; font-family:Verdana, Arial; font-size=10pt }
-td {  font-family:Verdana, Arial; font-size=10pt }
-p {  font-family:Verdana, Arial; font-size=10pt }
-</style>
+<? include( "css.php3" ) ?>
 <title>Mantis</title>
 </head>
 <body>
