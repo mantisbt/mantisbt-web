@@ -26,6 +26,7 @@ Please fill out some of the polls and surveys on this page.  This will provide f
 <p>
 	<table cellpadding=4>
 <?
+	include("mantis/constant_inc.php");
 	include("mantis/config_inc.php");
 
 	function db_connect($p_hostname="localhost", $p_username="root",
