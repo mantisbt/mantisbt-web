@@ -37,6 +37,10 @@ please download it and reference it from your site to reduce the load on Mantis 
 		entry( 'Convergys', 'http://www.convergys.com/locations.html/', null );
 	section_end();
 
+	section( 'D' );
+		entry( 'Dr. WEB', 'http://www.drweb.com/', 'http://bugs.drweb.com/' );
+	section_end();
+
 	section( 'E' );
 		entry( 'eboxy', 'http://eboxy.sourceforge.net/', 'http://eboxy.sourceforge.net/mantis/' );
 		entry( 'encoway', 'http://www.encoway.de/', null );
@@ -59,6 +63,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 
 	section( 'J' );
 		entry( 'Jack Audio Connection Kit', 'http://jackit.sourceforge.net/', 'http://jackit.sourceforge.net/mantis/' );
+		entry( 'julitec', 'http://www.julitec.de/' );
 	section_end();
 
 	section( 'I' );
@@ -83,6 +88,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 		entry( 'phpBB', 'http://phpbb-php5mod.sourceforge.net/', 'http://phpbb-php5mod.sourceforge.net/bugs/' );
 		entry( 'phpWebnotes', 'http://www.futureware.biz/webnotes/', 'http://www.futureware.biz/mantis/' );
 		entry( 'PHPlist', 'http://www.phplist.com/', 'http://mantis.tincan.co.uk/' );
+		entry( 'phpMyFAQ', 'http://www.phpmyfaq.de/', 'http://bugs.phpmyfaq.de/' );
 		entry( 'Project JEDI', 'http://homepages.borland.com/jedi/', 'http://homepages.borland.com/jedi/issuetracker/' );
 	section_end();
 
@@ -93,6 +99,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 
 	section( 'R' );
 		entry( 'RageIRCd', 'http://rageircd.sourceforge.net/', 'http://rageircd.sourceforge.net/mantis/' );
+		entry( 'Ritlabs', 'http://www.ritlabs.com/', 'http://www.ritlabs.com/bt/' );
 	section_end();
 
 	section( 'S' );
