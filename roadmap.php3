@@ -3,19 +3,20 @@
 <span class="page_title">Roadmap</span>
 <hr size=1 noshade width="100%">
 <p>
-This is the Mantis feature roadmap.  It lists most fo the currently planned features and details the schedule for release.  These are not hard deadlines and things are subject to change.  Please feel free to suggest features, contribute, or comment.
+This is the Mantis feature roadmap.  It lists most of the currently planned features and details the schedule for release.  These are not hard deadlines and are subject to change.  Please feel free to suggest features, contribute, or comment.
 <p>
-*** I've broken the releases into (hopefully) smaller chunks of work.  This is an attempt to speed up the frequency of releases.  Also, smaller releases are easier to manage.
 
-<p>
 <span class="section">0.16.0</span>
 <ul>
 	<li>Rework HTML posting
 	<li>Create file hierarchy for docs, config, etc.
-	<li>No crypt() authentication - crypt() is causing major headaches for Windows users; provide an alternative
 	<li>Configuration Documentation - list basic ways in which Mantis can be customized; quickstart guide for customization needs
 	<li>List modified files for each release - let users know what exactly has changed in each upgrade
-	<li>Fleshed out test settings script - let admins easily diagnose if settings are correct and where possible problems in new installations may be
+	<li>Fleshed out test settings script - let admins easily diagnose if settings are correct
+	<li>Print friendly form - user fewer table elements; more like email; also for summary and view all bugs
+	<li>Break up config_inc.php into commonly modified items to avoid upgrade headaches
+	<li>Lockdown security permissions
+	<li>Allow for project/bug_id email links to work properly.
 </ul>
 <span class="section">0.17.0</span>
 <ul>
@@ -24,7 +25,6 @@ This is the Mantis feature roadmap.  It lists most fo the currently planned feat
 	<li>ETA support -
 	<li>Priority support -
 	<li>Projection support -
-	<li>Be able to edit bugnote - let users edit instead of having to delete and re-add
 	<li>Logged in Summary ( bugs reported, assigned, new in last week, high priority, open long time, etc. )
 	<li>Show number of concurrent users - like Freshmeat.net
 </ul>
@@ -33,13 +33,14 @@ This is the Mantis feature roadmap.  It lists most fo the currently planned feat
 	<li>Bug Search (Advanced) - fleshed out search with multiple options (search in bugnotes, categories, etc)
 	<li>Multiple sort keys (?) - let people select more than one ordering for searches (complicated interface)
 	<li>Monitor bug (for anyone) - users can click a 'Monitor Bug' option to let them be included in the email notifications
-	<li>Unread/Read bugs indicator - developers and updaters will see a icon indicating an unread bug
+	<li>Unread/Read bugs indicator - developers and above will see a icon indicating an unread bug
 </ul>
 
 <span class="section">0.19.0</span>
 <ul>
 	<li>Mantis Logo - about time, right?
-	<li>Print friendly form - user fewer table elements; more like email; also for summary and view all bugs
+	<li>Little glyphs and graphics for site - asthetic niceties
+	<li>Break up Mantis into subdirectories (docs, config, images, etc.)
 </ul>
 
 <span class="section">1.x.x</span>
@@ -52,11 +53,10 @@ This is the Mantis feature roadmap.  It lists most fo the currently planned feat
 <span class="section">2.x.x</span>
 <ul>
 	<li>Database abstraction layer - allow for Postgres, MS, and more
-	<li>Little glyphs and graphics for site - asthetic niceties
-	<li>Move towards more complete (XHTML)HTML4/CSS conformance - except for form handling which requires nonstandard formatting
 	<li>Daily/Weekly report generation - generate a complex summary of the past day/week/month/year either on demand or via a cronjob or scheduled task
+	<li>Move towards more complete (XHTML)HTML4/CSS conformance - except for form handling which requires nonstandard formatting
 	<li>PDF report generation - same as report generation expect into PDF format
-	<li>Nice bar and line graph charts (phplot) - generate plots based on the stats
+	<li>Nice bar and line graph charts (phplot/jpgraph) - generate plots based on the stats
 	<li>IP Tracking / banning - prevent spamming or harrassment from users
 	<li>Security Audit - examine every line, form, cookies, passwords, authetication for security weaknesses
 	<li>String/form handling Audit - make sure illegal and unsafe input is not allowed
@@ -73,7 +73,7 @@ This is the Mantis feature roadmap.  It lists most fo the currently planned feat
 	<li>Templates
 </ul>
 
-<span class="section">Currently Unassigned</span>
+<span class="section">Unassigned</span>
 <ul>
 	<li>Eliminate strtotime()
 	<li>Complex user profiles

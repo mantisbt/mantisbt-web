@@ -55,14 +55,14 @@ Check the <a href="roadmap.php3">Roadmap</a> for a more detailed and somewhat up
 <p>
 <span class="section">Goals</span>
 <p>
-The goals for this project are to produce and maintain a lightweight, simple bugtracking system.  Additions of complexity/features should be modular so that users can be shielded from unwanted clutter.  Thus, much of the package allows for a simple version of a feature along with a more fully developed version.
+The goals for this project are to produce and maintain a lightweight, simple bugtracking system.  Additions of complexity/features are modular so that users can be shielded from unwanted clutter.  Thus, much of the package has a simple version of a feature along with a more fully developed version.
 <p>
-In the 'core' package the goal is to have the most important, most used, most time saving portions of a bugtracking system.  Hopefully this gives you 90% of the functionality that you need. The product is designed to be easily modifiable, customizable, upgradeable.  Anyone with intermediate PHP and MySQL experience should be able to customize Mantis to suit their needs.
+In the 'core' package the goal is to have the most important, most used, most time saving portions of a bugtracking system.  The product is designed to be easily modifiable, customizable, and upgradeable.  Anyone with intermediate PHP and MySQL experience should be able to customize Mantis to suit their needs.
 
 <p>
 <span class="section">Guidelines</span>
 <p>
-Here are some of the guidelines that I have decided upon:
+Here are some of the guidelines that I follow:
 <ul>
 	<li>Quick access to "What I want to do"
 	<li>Simple navigation
@@ -76,7 +76,7 @@ Here are some of the guidelines that I have decided upon:
 	<li>No Javascript
 </ul>
 <p>
-I realize I have some problems with some of the above items.  I'll be addressing them as they come to my notice or cross my annoyance threshold.
+I realize there are problems with some of the listed guidelines.  I'll be addressing them as they come to my notice or cross my annoyance threshold.
 
 <p>
 <span class="section">Versioning</span>
