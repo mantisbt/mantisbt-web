@@ -47,7 +47,7 @@
 
 	<br />
 
-	<li><b>Miscellenous</b></li>
+	<li><b>Miscellaneous</b></li>
 	<ul>
 		<li><b>[done]</b> Remove Documentation links</li>
 		<li><b>[done]</b> Fixed in Version</li>
@@ -108,7 +108,7 @@
 
 	<br />
 
-	<li><b>Miscellenous</b></li>
+	<li><b>Miscellaneous</b></li>
 	<ul>
 		<li>Forgot password support</li>
 	</ul>
