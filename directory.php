@@ -42,8 +42,9 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section( 'F' );
 		entry( 'Forum One Communications', 'http://www.forumone.com/' );
 	section_end();
-	
+
 	section( 'G' );
+		entry( 'Gambit Consulting', 'http://www.gambit.de/' );
 		entry( 'Gruppo Tesi', 'http://www.gruppotesi.com/' );
 	section_end();
 
