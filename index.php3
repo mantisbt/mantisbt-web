@@ -48,7 +48,7 @@
 <span class="page_title">Home</span>
 <hr size=1 noshade width="100%">
 <p class="center">
-<table bgcolor=#ffffff width="100%" border=0 cellspacing=0 cellpadding=4>
+<table bgcolor="#ffffff" width="100%" border="0" cellspacing="0" cellpadding="4">
 <tr valign="top">
 	<td class="welcome" width="*">
 		Mantis is a php/MySQL/web based bugtracking system.  <a href="mantis.php3">Click here</a> to learn more about it.
@@ -56,9 +56,9 @@
 		It is currently in development and is considered beta.
 	</td>
 	<td width="220" align="right">
-		<table width="220" bgcolor=#000000 border=0 cellspacing=1 cellpadding=3>
+		<table width="220" bgcolor="#000000" border="0" cellspacing="1" cellpadding="3">
 		<tr>
-			<td class="poll_header" class="poll_header">
+			<td class="poll_header">
 				<a class="small_bold" href="polls.php3">Recent Polls</a>
 			</td>
 		</tr>
@@ -115,7 +115,6 @@
 	</td>
 </tr>
 </table>
-</div>
 
 <?
 	if ( !isset( $f_offset ) ) {
@@ -154,8 +153,7 @@
 		}
 ?>
 <p>
-<div align=center>
-<table width="99%" border=0 cellspacing=0 cellpadding=4 bgcolor=#000000>
+<table width="99%" bgcolor="#000000" border="0" cellspacing="0" cellpadding="4">
 <tr>
 	<td class="headline">
 		<b><? echo $v_headline ?></b> -

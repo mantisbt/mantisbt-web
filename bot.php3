@@ -5,7 +5,7 @@
 		<table width="100%">
 		<tr>
 			<td class="bar">
-				<img src="images/space.gif">
+				<img src="images/space.gif" alt="">
 			</td>
 		</tr>
 		</table>
