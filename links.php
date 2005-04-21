@@ -28,7 +28,7 @@
 
 <p><b>Migration Tools</b></p>
 <ul>
-<li>Bugzilla to Mantis (<a href="http://crisdaniluk.com/bugzilla2mantis/bugzilla2mantis.pl" target="_blank">Perl script</a>) by <a href="http://crisdaniluk.com/" target="_blank">Cris Daniluk</a></li>
+<li><a href="http://www.cadencetools.org/projects/bugzilla2mantis/" target="_blank">Bugzilla to Mantis</a> (Perl) by <a href="http://crisdaniluk.com/" target="_blank">Cris Daniluk</a></li>
 </ul>
 
 <p><b>Articles and Reviews</b></p>
