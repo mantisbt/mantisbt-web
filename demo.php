@@ -3,7 +3,7 @@
 <span class="page_title">Demo</span>
 <hr size=1 noshade width="100%" />
 
-<p><b>The demo version (0.18.0) is about a year old, since then we have released four stable releases.  The demo version will be updated soon.</b></p>
+<p><b>The demo version (0.18.0) is about two years old, since then we have released four stable releases.  The demo version will be updated soon.</b></p>
 <p><a href="http://mantisbt.sourceforge.net/mantis/">Login</a> to see Mantis in action.</p>
 <ul>
 	<li>NOTE: Email notifications have been disabled</li>
