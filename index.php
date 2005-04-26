@@ -151,7 +151,7 @@
 </tr>
 </table>
 
-<?php	
+<?php
 	if ( !isset( $_GET['f_offset'] ) ) {
 		$f_offset = 0;
 	} else {
@@ -160,7 +160,8 @@
 
 	### get news count
 	$query = "SELECT COUNT(id)
-			FROM $g_mantis_news_table";
+			FROM $g_mantis_news_table
+			WHERE view_state = 10";
 	$result = mysql_query( $query );
     $total_news_count = mysql_result( $result, 0 );
 
