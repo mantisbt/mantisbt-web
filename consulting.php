@@ -23,16 +23,20 @@ Our services are available to customize Mantis to suit your needs.  Common custo
 <p>
 We recommend you use Mantis for a short period to see what changes would best fit your organization.  We may also be available for other web related projects.  Please contact us with your inquiries and quotes.
 <p>
-<span class="section">Contact</span>
-<table border="0" cellspacing="0" cellpadding="4" width="50%">
+<span class="section">Consultants</span>
+<p>Following is a list of Mantis consultants (listed in alphabetical order):</p>
+<table border="0" cellspacing="0" cellpadding="4" width="75%">
 <tr>
-	<td width="33%">
-		&nbsp;
+	<td width="25%">
+		<b>Name</b>
 	</td>
-	<td width="33%">
+	<td width="25%">
+		<b>Role</b>
+	</td>
+	<td width="25%">
 		<b>Resume</b>
 	</td>
-	<td width="33%">
+	<td width="25%">
 		<b>Region</b>
 	</td>
 </tr>
@@ -50,7 +54,24 @@ We recommend you use Mantis for a short period to see what changes would best fi
 </tr>-->
 <tr>
 	<td>
+		Glenn Henshaw
+	</td>
+	<td>
+		Developer
+	</td>
+	<td>
+		available upon request
+	</td>
+	<td>
+		Canada
+	</td>
+</tr>
+<tr>
+	<td>
 		Jeroen Latour
+	</td>
+	<td>
+		Administrator
 	</td>
 	<td>
 		<a href="http://www.calaquendi.net/resume.html">HTML</a>
@@ -62,6 +83,9 @@ We recommend you use Mantis for a short period to see what changes would best fi
 <tr>
 	<td>
 		Victor Boctor
+	</td>
+	<td>
+		Administrator
 	</td>
 	<td>
 		available upon request
