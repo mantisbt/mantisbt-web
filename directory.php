@@ -127,6 +127,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 		entry( 'Theratech', 'http://www.theratech.de/', 'http://www.support.theratech.de/' );
 		entry( 'Thornsoft Development, Inc.', 'http://www.thornsoft.com/', 'http://www.thornsoft.com/mantis/' );
 		entry( 'Truelite', 'http://www.truelite.it/', 'http://bugs.truelite.it/' );
+		entry( 'Turkix', 'http://www.turkix.org/', 'http://bug.turkix.org/' );
 		entry( 'Twig Project', 'http://informationgateway.org/', 'http://bugs.informationgateway.org/' );
 	section_end();
 
