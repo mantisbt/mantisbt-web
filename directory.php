@@ -30,6 +30,10 @@ your company is not listed below, or you know of an open source project that use
 please download it and reference it from your site to reduce the load on Mantis web server.</p>
 
 <?php
+	section( 'A' );
+		entry( 'Axon Pro', 'http://www.axonpro.sk/', null );
+	section_end();
+
 	section( 'B' );
 		entry( 'BigSoft Limited', 'http://www.bigsoft.co.uk/', null );
 	section_end();
@@ -67,14 +71,14 @@ please download it and reference it from your site to reduce the load on Mantis 
 		entry( 'Hostsharing e.G.', 'http://www.hostsharing.net/', 'https://todo.hostsharing.net/' );
 	section_end();
 
-	section( 'J' );
-		entry( 'Jack Audio Connection Kit', 'http://jackit.sourceforge.net/', 'http://jackit.sourceforge.net/mantis/' );
-		entry( 'julitec', 'http://www.julitec.de/' );
-	section_end();
-
 	section( 'I' );
 		entry( 'Intra2net', 'http://www.intra2net.com/' );
 		entry( 'Institute for Computational Biomedicine (ICB)', 'http://icb.med.cornell.edu/', 'http://icbtools.med.cornell.edu/mantis/' );
+	section_end();
+
+	section( 'J' );
+		entry( 'Jack Audio Connection Kit', 'http://jackit.sourceforge.net/', 'http://jackit.sourceforge.net/mantis/' );
+		entry( 'julitec', 'http://www.julitec.de/' );
 	section_end();
 
 	section( 'L' );
@@ -91,7 +95,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 		entry( 'Nox Wizard', 'http://noxwizard.sourceforge.net/', 'http://noxwizard.sourceforge.net/mantis/' );
 	section_end();
 
-	section( 'N' );
+	section( 'O' );
 		entry( 'Olate', 'http://www.olate.co.uk/', 'http://www.olate.co.uk/tracker/' );
 	section_end();
 
