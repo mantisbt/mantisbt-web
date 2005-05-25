@@ -44,7 +44,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 		entry( 'clarkconnect', 'http://www.clarkconnect.org/', 'http://www.clarkconnect.org/bugs/' );
 		entry( 'CMSform<sup>E</sup>', 'http://cmsforme.sourceforge.net/', 'http://cmsforme.sourceforge.net/bugs/' );
 		entry( 'Control Engineering Group', 'http://control.ee.ethz.ch/~ceg/', 'http://control.ee.ethz.ch/~ceg/mantis/' );
-		entry( 'Convergys', 'http://www.convergys.com/locations.html/', null );
+		entry( 'Convergys', 'http://www.convergys.com/', null );
 	section_end();
 
 	section( 'D' );
