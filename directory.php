@@ -138,6 +138,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 
 	section( 'U' );
 		entry( 'Uncommonplace', 'http://www.uncommonplace.com/', 'http://www.uncommonplace.com/bugs/' );
+		entry( 'UnrealIRCd', 'http://www.unrealircd.org/', 'http://bugs.unrealircd.org/' );
 		entry( 'USA Z&amp;P', 'http://usazyp.com.ve/' );
 	section_end();
 
