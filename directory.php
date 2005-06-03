@@ -35,6 +35,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section_end();
 
 	section( 'B' );
+		entry( 'Base4 Sistemas', 'http://www.base4.com.br/', null );
 		entry( 'BigSoft Limited', 'http://www.bigsoft.co.uk/', null );
 	section_end();
 
