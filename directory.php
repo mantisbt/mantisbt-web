@@ -70,6 +70,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section_end();
 
 	section( 'H' );
+		entry( 'Hitflip', 'http://www.hitflip.de/', null );
 		entry( 'Hostsharing e.G.', 'http://www.hostsharing.net/', 'https://todo.hostsharing.net/' );
 	section_end();
 
