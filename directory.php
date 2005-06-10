@@ -36,6 +36,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 
 	section( 'B' );
 		entry( 'Base4 Sistemas', 'http://www.base4.com.br/', null );
+		entry( 'Beyond Ordinary Software Solutions', 'http://www.beyond-ordinary.com/', null );
 		entry( 'BigSoft Limited', 'http://www.bigsoft.co.uk/', null );
 	section_end();
 
@@ -46,6 +47,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 		entry( 'CMSform<sup>E</sup>', 'http://cmsforme.sourceforge.net/', 'http://cmsforme.sourceforge.net/bugs/' );
 		entry( 'Control Engineering Group', 'http://control.ee.ethz.ch/~ceg/', 'http://control.ee.ethz.ch/~ceg/mantis/' );
 		entry( 'Convergys', 'http://www.convergys.com/', null );
+		entry( 'csUnit', 'http://www.csunit.org/', null );
 	section_end();
 
 	section( 'D' );
