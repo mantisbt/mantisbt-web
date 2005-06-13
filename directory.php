@@ -35,6 +35,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section_end();
 
 	section( 'B' );
+		entry( 'Backslash', 'http://www.backslash.com.au/', null );
 		entry( 'Base4 Sistemas', 'http://www.base4.com.br/', null );
 		entry( 'Beyond Ordinary Software Solutions', 'http://www.beyond-ordinary.com/', null );
 		entry( 'BigSoft Limited', 'http://www.bigsoft.co.uk/', null );
