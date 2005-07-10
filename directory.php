@@ -123,6 +123,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section( 'R' );
 		entry( 'RageIRCd', 'http://rageircd.sourceforge.net/', 'http://rageircd.sourceforge.net/mantis/' );
 		entry( 'Ritlabs', 'http://www.ritlabs.com/', 'http://www.ritlabs.com/bt/' );
+		entry( 'rsbac', 'http://www.rsbac.org/', 'http://bugtracker.rsbac.org/' );
 	section_end();
 
 	section( 'S' );
