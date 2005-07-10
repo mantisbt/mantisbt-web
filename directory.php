@@ -65,6 +65,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section( 'F' );
 		entry( 'Forum One Communications', 'http://www.forumone.com/' );
 		entry( 'Fraunhofer IPSI', 'http://ipsi.fraunhofer.de/concert/' );
+		entry( 'FTPEditor', 'http://www.ftpeditor.com/', 'http://www.ftpeditor.com/support/mantis/' );
 	section_end();
 
 	section( 'G' );
