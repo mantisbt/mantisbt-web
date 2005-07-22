@@ -122,6 +122,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 
 	section( 'R' );
 		entry( 'RageIRCd', 'http://rageircd.sourceforge.net/', 'http://rageircd.sourceforge.net/mantis/' );
+		entry( 'RealDecoy', 'http://www.realdecoy.com/' );
 		entry( 'Ritlabs', 'http://www.ritlabs.com/', 'http://www.ritlabs.com/bt/' );
 		entry( 'rsbac', 'http://www.rsbac.org/', 'http://bugtracker.rsbac.org/' );
 	section_end();
@@ -152,6 +153,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section( 'W' );
 		entry( 'Wash One', 'http://www.wash-one.com/' );
 		entry( 'Water Corporation', 'http://www.watercorporation.com.au/' );
+		entry( 'Web-CP', 'http://www.web-cp.net/', 'http://www.web-cp.net/mantis/' );
 		entry( 'WordPress', 'http://wordpress.org/', 'http://mosquito.wordpress.org/' );
 	section_end();
 ?>
