@@ -90,6 +90,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 
 	section( 'L' );
 		entry( 'LanAction', 'http://lanaction.sourceforge.net/', 'http://lanaction.sourceforge.net/bugtracker/' );
+		entry( 'LIVEwwware', 'http://www.livewwware.com/', 'http://mantis.livewwware.com/' );
 	section_end();
 
 	section( 'M' );
