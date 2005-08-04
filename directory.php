@@ -52,6 +52,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section_end();
 
 	section( 'D' );
+		entry( 'Dataprom', 'http://www.dataprom.com' );
 		entry( 'Dr. WEB', 'http://www.drweb.com/', 'http://bugs.drweb.com/' );
 		entry( 'dotProject', 'http://www.dotproject.net/', 'http://www.dotproject.net/mantis/' );
 	section_end();
