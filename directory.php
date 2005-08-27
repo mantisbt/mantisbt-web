@@ -49,6 +49,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 		entry( 'Control Engineering Group', 'http://control.ee.ethz.ch/~ceg/', 'http://control.ee.ethz.ch/~ceg/mantis/' );
 		entry( 'Convergys', 'http://www.convergys.com/', null );
 		entry( 'csUnit', 'http://www.csunit.org/', null );
+		entry( 'CVn', 'http://www.cavern.pl' );
 	section_end();
 
 	section( 'D' );
@@ -125,6 +126,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section( 'R' );
 		entry( 'RageIRCd', 'http://rageircd.sourceforge.net/', 'http://rageircd.sourceforge.net/mantis/' );
 		entry( 'RealDecoy', 'http://www.realdecoy.com/' );
+		entry( 'Reebok Poland S.A.', 'http://www.reebok.pl', 'http://mantis.reebok.pl' );
 		entry( 'Ritlabs', 'http://www.ritlabs.com/', 'http://www.ritlabs.com/bt/' );
 		entry( 'rsbac', 'http://www.rsbac.org/', 'http://bugtracker.rsbac.org/' );
 	section_end();
