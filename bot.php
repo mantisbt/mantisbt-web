@@ -17,11 +17,17 @@
 					<address>&nbsp;&nbsp;&nbsp;Copyright (C) 2000-2004</address>
 				</td>
 				<td>
+<p align="right">Sponsors:
+<a href="http://domainunion.de" target="_blank">domain</a>,
+<a href="http://www.dasschoenstekind.de" title="Rammstein Music" target="_blank">Rammstein Music</a>,
+<a href="http://www.ecoupons.com" target="_blank">eCoupons.com Inc.</a>.
+</p>
+
+<!-- Add this logo when the site is XHTML compatible
 					<p align="right">
 						<a href="http://validator.w3.org/check/referer">Check XHTML Validity</a>
 					</p>
 
-<!-- Add this logo when the site is XHTML compatible
 					<a href="http://validator.w3.org/check/referer"><img border="0"
 						src="http://www.w3.org/Icons/valid-xhtml10" height="31" width="88"
 						alt="Valid XHTML 1.0!" /></a>
