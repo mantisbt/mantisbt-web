@@ -14,11 +14,12 @@
 			<tr valign="MIDDLE">
 				<td>
 					<address>&nbsp;&nbsp;&nbsp;Last modified: <?php echo date( "M d, Y - H:m T", getlastmod() )?></address>
-					<address>&nbsp;&nbsp;&nbsp;Copyright (C) 2000-2004</address>
+					<address>&nbsp;&nbsp;&nbsp;Copyright (C) 2000-2005</address>
 				</td>
 				<td>
 <p align="right">Sponsors:
-<a href="http://domainunion.de" target="_blank">domain</a>,
+<a href="http://www.resperate.com/" title="RESPeRATE To Lower Blood Pressure" target="_blank">RESPeRATE</a>,
+<a href="http://domainunion.de" title="domains from germany" target="_blank">domain</a><u>union.de</u>,
 <a href="http://www.dasschoenstekind.de" title="Rammstein Music" target="_blank">Rammstein Music</a>,
 <a href="http://www.ecoupons.com" target="_blank">eCoupons.com Inc.</a>.
 </p>
