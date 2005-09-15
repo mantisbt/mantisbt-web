@@ -6,6 +6,14 @@
 <p>Mantis team is proud to feature the following companies as sponsors of our site.  For information on joining our sponsor group please contact "vboctor at users dot sourceforge dot net".</p>
 
 <table border="0" cellspacing="0" cellpadding="10">
+	<?php /* Sponsor ad placed on 15-SEP-2005 */ ?>
+	<tr>
+		<td><a href="http://www.exit15.com/" target="_blank"><img src="images/sponsors/exit15logo.gif" border="0" alt="Exit 15" width="175" height="80" /></a></td>
+		<td>
+			<a href="http://www.exit15.com/">Exit 15 Corporation</a> is a retailer of personal care and wellness products, medical devices, and various products to help improve your quality of life at home and in your office. On our site you will find a unique selection of brands such as Avotone, Bioque, Avatrol, Actimine, Thyax, Epiderm, Rhythm Touch Q, Sheer Miracle Mineral Make Up and many more.
+		</td>
+	</tr>
+
 	<?php /* Sponsor ad placed on 13-SEP-2005 */ ?>
 	<tr>
 		<td><a href="http://www.resperate.com/" target="_blank"><img src="images/sponsors/resperatelogo.gif" border="0" alt="RESPeRATE" width="200" height="68" /></a></td>

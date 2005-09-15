@@ -18,10 +18,11 @@
 				</td>
 				<td>
 <p align="right">Sponsors:
+<a href="http://www.exit15.com/" title="Exit 15" target="_blank">Exit 15</a>,
 <a href="http://www.resperate.com/" title="RESPeRATE To Lower Blood Pressure" target="_blank">RESPeRATE</a>,
 <a href="http://domainunion.de" title="domains from germany" target="_blank">domain</a><u>union.de</u>,
 <a href="http://www.dasschoenstekind.de" title="Rammstein Music" target="_blank">Rammstein Music</a>,
-<a href="http://www.ecoupons.com" target="_blank">eCoupons.com Inc.</a>.
+<a href="http://www.ecoupons.com" title="eCoupons" target="_blank">eCoupons.com Inc.</a>.
 </p>
 
 <!-- Add this logo when the site is XHTML compatible
