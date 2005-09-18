@@ -2,17 +2,27 @@
 
 <span class="page_title">Roadmap</span>
 <hr size="1" noshade="noshade" width="100%" />
-<br /><span class="section">Mantis 0.19.0</span><ul>	<li><b>Main Features</b></li>
-	<ul>		<li><b>[done]</b> Sponsorships</li>
+<br />
+<span class="section">Mantis 0.19.0</span>
+<ul>
+	<li><b>Main Features</b></li>
+	<ul>
+		<li><b>[done]</b> Sponsorships</li>
 		<li><b>[done]</b> Issue relationships (Duplicate of, Related to, Parent of, etc.)</li>
-		<li><b>[done]</b> My View page for providing the user with a one page summary of relevant information.</li>		<li><b>[done]</b> Database abstraction through using ADODB (http://php.weblogs.com/ADODB).</li>
+		<li><b>[done]</b> My View page for providing the user with a one page summary of relevant information.</li>
+		<li><b>[done]</b> Database abstraction through using ADODB (http://php.weblogs.com/ADODB).</li>
 		<li><b>[done]</b> Advanced Filters</li>
 		<li><b>[done]</b> Changelog</li>
 	</ul>
 	<br />
 
 	<li><b>Filters</b></li>
-	<ul>		<li><b>[done]</b> Support saving of filters.</li>		<li><b>[done]</b> Support filtering by date range.</li>		<li><b>[done]</b> Support filtering on custom fields.</li>		<li><b>[done]</b> Store filters in database rather than cookies.</li>		<li><b>[done]</b> Create enhanced filters on all/more fields (eg: resolution, monitored by, fixed in version, ...etc).</li>
+	<ul>
+		<li><b>[done]</b> Support saving of filters.</li>
+		<li><b>[done]</b> Support filtering by date range.</li>
+		<li><b>[done]</b> Support filtering on custom fields.</li>
+		<li><b>[done]</b> Store filters in database rather than cookies.</li>
+		<li><b>[done]</b> Create enhanced filters on all/more fields (eg: resolution, monitored by, fixed in version, ...etc).</li>
         <li><b>[done]</b> Create advanced filters with multiple selection support.</li>
 	</ul>
 
@@ -26,13 +36,20 @@
 	<br />
 
 	<li><b>Custom Fields</b></li>
-	<ul>		<li><b>[done]</b> Support custom fields in resolved/closed bug page.</li>		<li><b>[done]</b> Make custom fields mandatory at reporting, updating, resolving, or closing stage.</li>		<li><b>[done]</b> Support list box custom fields</li>	</ul>
+	<ul>
+		<li><b>[done]</b> Support custom fields in resolved/closed bug page.</li>
+		<li><b>[done]</b> Make custom fields mandatory at reporting, updating, resolving, or closing stage.</li>
+		<li><b>[done]</b> Support list box custom fields</li>
+	</ul>
 	<br />
 
 	<li><b>Miscellaneous</b></li>
 	<ul>
-		<li><b>[done]</b> Remove Documentation links</li>		<li><b>[done]</b> Fixed in Version</li>		<li><b>[done]</b> Forgot password support</li>
-	</ul></ul>
+		<li><b>[done]</b> Remove Documentation links</li>
+		<li><b>[done]</b> Fixed in Version</li>
+		<li><b>[done]</b> Forgot password support</li>
+	</ul>
+</ul>
 <br />
 
 <span class="section">Mantis 0.19.1</span>
@@ -48,7 +65,9 @@
 </ul>
 
 
-<span class="section">Mantis 1.0.0</span><ul>	<li><b>General</b></li>
+<span class="section">Mantis 1.0.0</span>
+<ul>
+	<li><b>General</b></li>
 	<ul>
 		<li>Mantis Logo</li>
 		<li>Support PHP v5</li>
