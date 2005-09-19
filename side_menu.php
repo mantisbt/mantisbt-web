@@ -39,7 +39,6 @@
 		</tr>
 		<tr>
 			<td class="menu_items">
-				<a href="faq.php">FAQ</a><br />
 				<a href="irc.php">IRC</a><br />
 				<!--<a href="polls.php">Polls</a><br />-->
 				<a href="http://forums.mantisbt.org/">Forums</a><br />
