@@ -222,8 +222,6 @@
 	}
 ?>
 
-</td>
-<td style="padding: 4px;">
 <?php include( "adsense_vertical_inc.php" ); ?>
 
 <?php include( "bot.php" ); ?>
