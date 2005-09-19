@@ -14,4 +14,11 @@
 		document.write ('&amp;referer=' + escape(document.referer));
 	document.write ('"><\/script>');
 //-->
-</script><noscript><a href="http://www.mantisbt.org/ads/adclick.php?n=a54dfa62" target="_blank"><img src="http://www.mantisbt.org/ads/adview.php?what=zone:3&amp;n=a54dfa62" border="0" alt=""></a></noscript>
+</script>
+<noscript>
+<!--
+	<a href="http://www.mantisbt.org/ads/adclick.php?n=a54dfa62" target="_blank">
+		<img src="http://www.mantisbt.org/ads/adview.php?what=zone:3&amp;n=a54dfa62" border="0" alt="">
+	</a>
+-->
+</noscript>
