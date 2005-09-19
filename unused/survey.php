@@ -20,7 +20,7 @@
 ?>
 
 <span class="page_title">Survey</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 	Please respond to the following questions.  These will change from time to time as input is received.  Feel free to ignore certain questions but please be honest in your responses.  Your message will be emailed anonymously to the author.  You will automatically be redirected to the index page after submission.  Thanks!
 	<p>

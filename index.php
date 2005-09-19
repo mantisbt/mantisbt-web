@@ -81,11 +81,11 @@
 ?>
 
 <span class="page_title">Home</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p class="center">
 <table bgcolor="#ffffff" width="100%" border="0" cellspacing="0" cellpadding="4">
 <tr valign="top">
-	<td class="welcome" width="*">
+	<td class="welcome">
 		Mantis is a php/MySQL/web based bugtracking system.  <a href="about.php">Learn more</a>.
 		<p>
 		The latest version is <a href="download.php"><?php include("files/VERSION") ?></a>.
@@ -223,9 +223,7 @@
 ?>
 
 </td>
-
 <td style="padding: 4px;">
 <?php include( "adsense_vertical_inc.php" ); ?>
-</td>
 
 <?php include( "bot.php" ); ?>

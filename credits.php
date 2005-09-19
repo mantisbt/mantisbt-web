@@ -1,9 +1,9 @@
 <?php include( "top.php" ); ?>
 
 <span class="page_title">Credits</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p>
-        <ul>
+<ul>
 <?php
         $file = file( "files/CREDITS");
         $count = count($file);
@@ -17,17 +17,15 @@
                         $state = 2;
                 } else if (ereg('^-+$', $file[$i])) {
                 } else if ( !empty( $file[$i] ) ) {
-                        echo "<li>".$file[$i]."<br />";
+                        echo '<li>' . $file[$i] . '</li>';
                         $state = 0;
                 } else if ($state == 0) {
                         $state = 1;
                 }
         }
 ?>
-        </ul>
+</ul>
 
-<td style="padding: 4px;">
 <?php include( "adsense_vertical_inc.php" ); ?>
-</td>
 
 <?php include( "bot.php" ); ?>

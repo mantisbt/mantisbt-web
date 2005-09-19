@@ -1,7 +1,7 @@
 <?php include( "top.php" ); ?>
 
 <span class="page_title">Kenzaburo Ito</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 <span class="section">About me</span>
 <p>

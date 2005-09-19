@@ -1,4 +1,5 @@
 <?php include( "top.php" ); ?>
+
 <?php
 	function print_lang( $p_language ) {
 		global $g_mantis_path, $g_lang_cvs_path;
@@ -9,7 +10,7 @@
 		$t_release_file_name = $g_release_lang_path.'strings_'.strtolower( $p_language ).".txt";
 		$t_cvs_file_name = $g_lang_cvs_path.'strings_'.strtolower( $p_language ).".txt";
 
-		PRINT "<tr bgcolor=#ffffff>";
+		PRINT '<tr bgcolor="#ffffff">';
 			PRINT "<td>";
 				echo $p_language;
 			PRINT "</td>";
@@ -38,16 +39,16 @@
 ?>
 
 <span class="page_title">Localization</span>
-<hr size="1" noshade="noshade" width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 Here you can see the latest localization files.  The Latest Release column indicates the files were included in the most recent release of Mantis.  The CVS indicates what is currently in CVS.  Any updates should be made to the CVS version.
 <p>
 What to do if you see some errors?  Just <a href="mailto:mantisbt-lang@lists.sourceforge.net">send an email</a> with the corrected strings.
 <p>
 
-<div align=left>
+<div align="left">
 <table width="100%" cellpadding="5" cellspacing="1" bgcolor="#ffffff">
-<tr bgcolor=#ffffff>
+<tr bgcolor="#ffffff">
 	<td>
 		<b>Language</b>
 	</td>
@@ -108,8 +109,6 @@ Note: You cannot submit ZIP files through sourceforge.  However, you can just ap
 Also, you can update when new strings make it in.  Just click on the "view diff" link to see what strings might need translating and make the changes.
 <p>
 
-<td style="padding: 4px;">
 <?php include( "adsense_vertical_inc.php" ); ?>
-</td>
 
 <?php include( "bot.php" ); ?>

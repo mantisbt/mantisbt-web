@@ -33,7 +33,7 @@
 ?>
 
 <span class="page_title">Tasks</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 <i>I'd like volunteers to take these tasks on.  Find one you like and <a href="mailto:kenito@300baud.org">email me</a>.</i>
 <p>

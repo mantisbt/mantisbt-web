@@ -1,7 +1,7 @@
 <?php include( "top.php" ); ?>
 
 <span class="page_title">Developer Notes</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 If you wish to join the development team please <a href="mailto:kenito@300baud.org">email me</a>.  Before you are accepted you will need to hang around the project for several weeks on the mailing lists and/or on IRC.  We will also be evaluating the quality of any patches you submit.
 

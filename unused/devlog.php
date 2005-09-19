@@ -35,7 +35,7 @@
 ?>
 
 <span class="page_title">Devlog</span>
-<hr size="1" noshade width="100%" />
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 <i>This section is devoted to commentary on checkins in the Changelog and anything else that doesn't make it onto the front page.</i>
 <p>

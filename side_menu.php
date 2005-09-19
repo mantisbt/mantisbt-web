@@ -79,7 +79,7 @@
 		</tr>
 		<tr>
 			<td class="menu_sf">
-				<br /><a href="http://www.mantisbt.org"><img src="images/mantis_logo_button.gif" width="88" height="35" border="0" alt="Mantis"></a><br />
+				<br /><a href="http://www.mantisbt.org/"><img src="images/mantis_logo_button.gif" width="88" height="35" border="0" alt="Mantis"></a><br />
 				<br /><a href="http://sourceforge.net/projects/mantisbt/"><img src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo"></a><br />
 				<br /><a href="http://www.php.net/"><img src="images/php-small-white.gif" border="0" alt="PHP"></a><br />
 				<br /><a href="http://freshmeat.net/projects/mantis/"><img src="images/fmII-logo.gif" border="0" alt="Freshmeat.net"></a><br />

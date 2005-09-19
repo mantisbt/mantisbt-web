@@ -1,7 +1,7 @@
 <?php include( "top.php" ); ?>
 
 <span class="page_title">Changing the wording</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 
 <span class="section">Introduction</span>

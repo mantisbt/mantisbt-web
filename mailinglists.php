@@ -1,7 +1,7 @@
 <?php include( "top.php" ); ?>
 
 <span class="page_title">Mailing Lists</span>
-<hr size=1 noshade width="100%" />
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 
 Signup for the mailing lists.  These are very low traffic since most people seem to use the <a href="forums.php">forums</a> or just email me directly. <b>Please use the forums or the mailing lists for general help questions.</b>
@@ -80,10 +80,8 @@ Signup for the mailing lists.  These are very low traffic since most people seem
 </tr>
 </table>
 
-<p class="center"><a class="bold" href="http://sourceforge.net/mail/?group_id=14963">SourceForge Mailing Lists</a>
+<p class="center"><a class="bold" href="http://sourceforge.net/mail/?group_id=14963">SourceForge Mailing Lists</a></p>
 
-<td style="padding: 4px;">
 <?php include( "adsense_vertical_inc.php" ); ?>
-</td>
 
 <?php include( "bot.php" ); ?>

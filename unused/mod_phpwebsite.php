@@ -1,7 +1,7 @@
 <?php include( "top.php" ); ?>
 
 <span class="page_title">phpWebSite Integration</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 This document illustrates how you can integrate Mantis into <a href="http://phpwebsite.appstate.edu">phpWebSite</a>.
 <p>

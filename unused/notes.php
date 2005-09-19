@@ -1,7 +1,7 @@
 <?php include( "top.php" ); ?>
 
 <span class="page_title">Notes</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 This page contains several additional notes which should supplement the documentation.  Eventually, this information will probbaly be rolled into the core documentation.
 

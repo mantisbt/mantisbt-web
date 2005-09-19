@@ -192,7 +192,7 @@
 <?php include( "top.php" ); ?>
 
 <span class="page_title">Localization Diff</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 
 <table width=100%>

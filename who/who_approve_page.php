@@ -19,7 +19,7 @@
 ?>
 
 <span class="page_title">Who Approve</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 <a href="../who.php">Who Page</a>
 <p>

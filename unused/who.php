@@ -18,7 +18,7 @@
 	db_connect( $g_hostname, $g_db_username, $g_db_password, $g_database_name );
 ?>
 <span class="page_title">User Testimonials</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 
 <span class="section">Praise</span>

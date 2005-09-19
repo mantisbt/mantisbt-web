@@ -1,18 +1,18 @@
 <?php include( "top.php" ); ?>
 
 <span class="page_title">Database</span>
-<hr size=1 noshade width="100%" />
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 Mantis uses <a href="http://www.mysql.com/">MySQL</a> for it's database needs.  Other database support will follow.
 <p>
 This is a basic view of the database schema used in Mantis.  Note that MySQL doesn't have real foreign keys.
 <p>
 <ul>
-	<li><a href="mantis/sql/db_generate.sql">Text of current release (<?php include("files/VERSION") ?>)</a>
-	<li><a href="images/mantis-0.17.0.gif">version 0.17.x</a> <?php echo round(filesize("images/mantis-0.17.0.gif") / 1024) ?>KB
-	<li><a href="images/mantis-0.15.0.gif">version 0.15.x</a> <?php echo round(filesize("images/mantis-0.15.0.gif") / 1024) ?>KB
-	<li><a href="images/mantis-0.14.0.gif">version 0.14.1</a> <?php echo round(filesize("images/mantis-0.14.0.gif") / 1024) ?>KB
-	<li><a href="images/mantis-0.13.0.gif">version 0.9.0 to 0.13.1</a> <?php echo round(filesize("images/mantis-0.13.0.gif") / 1024) ?>KB
+	<li><a href="mantis/sql/db_generate.sql">Text of current release (<?php include("files/VERSION") ?>)</a></li>
+	<li><a href="images/mantis-0.17.0.gif">version 0.17.x</a> <?php echo round(filesize("images/mantis-0.17.0.gif") / 1024) ?>KB</li>
+	<li><a href="images/mantis-0.15.0.gif">version 0.15.x</a> <?php echo round(filesize("images/mantis-0.15.0.gif") / 1024) ?>KB</li>
+	<li><a href="images/mantis-0.14.0.gif">version 0.14.1</a> <?php echo round(filesize("images/mantis-0.14.0.gif") / 1024) ?>KB</li>
+	<li><a href="images/mantis-0.13.0.gif">version 0.9.0 to 0.13.1</a> <?php echo round(filesize("images/mantis-0.13.0.gif") / 1024) ?>KB</li>
 </ul>
 <p>
 I made these graphs using <a href="http://www.smartdraw.com/">SmartDraw</a>.  I may be using <a href="http://www.microsoft.com/visio/">Visio</a> in the future.  They are both commercial programs.
@@ -25,14 +25,12 @@ This project has a stated goal of database independence.  Unfortunately, even wi
 <p>
 <span class="section">Porting concerns:</span>
 <ul>
-	<li>AUTO_INCREMENT - There must be a method for generating a unique id for every entry in a table.  Oracle uses SEQUENCES and TRIGGERS.
-	<li>LAST_INSERT_ID() - There needs to be a database mechanism to retrieve the ID of the record that was just inserted.  There are several places in Mantis where multiple inserts take place in one script and each script needs the ID of the previously inserted record.  MSSQL uses something like "SELECT @@IDENTITY AS 'id'" to accomplish this.  Oracle uses the SEQUENCE's currval field.
-	<li>count selected rows - Mantis uses mysql_num_rows() to get this number.  An alternative is to return a COUNT(*) in a SQL query.  The COUNT(*) method should work on most databases.
-	<li>Transactions - Mantis currently doesn't use this but will switch once MySQL 3.x support is dropped.
+	<li>AUTO_INCREMENT - There must be a method for generating a unique id for every entry in a table.  Oracle uses SEQUENCES and TRIGGERS.</li>
+	<li>LAST_INSERT_ID() - There needs to be a database mechanism to retrieve the ID of the record that was just inserted.  There are several places in Mantis where multiple inserts take place in one script and each script needs the ID of the previously inserted record.  MSSQL uses something like "SELECT @@IDENTITY AS 'id'" to accomplish this.  Oracle uses the SEQUENCE's currval field.</li>
+	<li>count selected rows - Mantis uses mysql_num_rows() to get this number.  An alternative is to return a COUNT(*) in a SQL query.  The COUNT(*) method should work on most databases.</li>
+	<li>Transactions - Mantis currently doesn't use this but will switch once MySQL 3.x support is dropped.</li>
 </ul>
 
-<td style="padding: 4px;">
 <?php include( "adsense_vertical_inc.php" ); ?>
-</td>
 
 <?php include( "bot.php" ); ?>

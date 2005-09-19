@@ -1,4 +1,5 @@
 <?php include( "top.php" ); ?>
+
 <?php
 	function print_dev_section( $p_a_name, $p_section_title ) {
 		PRINT "<table width=\"100%\" border=\"0\" cellspacing=\"0\">";
@@ -15,23 +16,23 @@
 ?>
 
 <span class="page_title">General Development</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 <span class="section">Table of Contents</span>
 <p>
 
 <ul>
-	<li><a href="#introduction">Introduction</a>
-	<li><a href="#setup">Setup</a>
-	<li><a href="#cvs">CVS</a>
-	<li><a href="#coding_style">Coding Style</a>
-	<li><a href="#communication">Communication</a>
-	<li><a href="#patches">Patches</a>
-	<li><a href="#release">Release Management</a>
-	<li><a href="#database">Database Development</a>
-	<li><a href="#editor_tips">Editor Tips</a>
-	<li><a href="#php_tips">PHP Tips</a>
-	<li><a href="#rules_for_development">Rules for Development</a>
+	<li><a href="#introduction">Introduction</a></li>
+	<li><a href="#setup">Setup</a></li>
+	<li><a href="#cvs">CVS</a></li>
+	<li><a href="#coding_style">Coding Style</a></li>
+	<li><a href="#communication">Communication</a></li>
+	<li><a href="#patches">Patches</a></li>
+	<li><a href="#release">Release Management</a></li>
+	<li><a href="#database">Database Development</a></li>
+	<li><a href="#editor_tips">Editor Tips</a></li>
+	<li><a href="#php_tips">PHP Tips</a></li>
+	<li><a href="#rules_for_development">Rules for Development</a></li>
 
 </ul>
 
@@ -42,49 +43,49 @@ Mantis, an open source project, allows you to contribute changes you make back t
 <p>
 <?php print_dev_section( "setup", "Setup" ) ?>
 <p>
-<span class="section">Install and Setup Apache + PHP + MySQL</span>
+<span class="section">Install and Set Up Apache + PHP + MySQL</span>
 <p>
 <ul>
-	<li><a href="http://www.apache.org/">Apache</a><br />
-	<li><a href="http://www.php.net/">PHP</a><br />
-	<li><a href="http://www.mysql.com/">MySQL</a><br />
+	<li><a href="http://www.apache.org/">Apache</a></li>
+	<li><a href="http://www.php.net/">PHP</a></li>
+	<li><a href="http://www.mysql.com/">MySQL</a></li>
 </ul>
 <p>
-Some site that will guide you through a step by step install and setup.
+Some sites that will guide you through a step-by-step installation and setup process.
 <p>
 <ul>
-	<li><a href="http://hotwired.lycos.com/webmonkey/99/21/index2a.html">PHP/MySQL Tutorial</a> - also covers installation and setup<br />
-	<li><a href="http://www.vtwebwizard.com/tutorials/mysql/">Another Tutorial</a><br />
-	<li><a href="http://php.vamsi.net/mysql/index.php">And Another!</a>
+	<li><a href="http://hotwired.lycos.com/webmonkey/99/21/index2a.html">PHP/MySQL Tutorial</a> - also covers installation and setup</li>
+	<li><a href="http://www.vtwebwizard.com/tutorials/mysql/">Another tutorial</a></li>
+	<li><a href="http://php.vamsi.net/mysql/index.php">And another!</a></li>
 </ul>
 <ul>
-	<li><a href="http://badblue.com/helpphp.htm">Bad Blue</a> - simple webserver with php support for Windows<br />
-	<li><a href="http://www.thickbook.com/extra/php_apachephp4_win.phtml">Apache+PHP</a> - installation instructions<br />
-	<li><a href="http://sourceforge.net/projects/phptriad/">PHPTriad</a> - Apache, MySQL, PHP, PHPLIB, phpMyAdmin all in one!  A bit outdated but still useful<br />
+	<li><a href="http://badblue.com/helpphp.htm">Bad Blue</a> - simple webserver with PHP support for Windows</li>
+	<li><a href="http://www.thickbook.com/extra/php_apachephp4_win.phtml">Apache+PHP</a> - installation instructions</li>
+	<li><a href="http://sourceforge.net/projects/phptriad/">PHPTriad</a> - Apache, MySQL, PHP, PHPLIB, phpMyAdmin all in one!  A bit outdated but still useful</li>
 </ul>
 <p>
 <span class="section">Install phpMyAdmin</span>
 <p>
 
 <ul>
-	<li><a href="http://www.phpwizard.net/">phpMyAdmin</a><br />
+	<li><a href="http://www.phpwizard.net/">phpMyAdmin</a></li>
 </ul>
 <p>
-All you really need to do is edit the config.php file to be able to access your mysql installation.  Note that you will need to place phpMyAdmin in your web server directory so you can access it with your web browser.  In order to secure this you should read the documents and use a .htaccess file.  If no one will be accessing your server it's not a big deal; just use common sense.
+All you really need to do is edit the config.php file to be able to access your MySQL installation.  Note that you will need to place phpMyAdmin in your web server directory so you can access it with your web browser.  In order to secure this you should read the documentation and use a .htaccess file.  If no one will be accessing your server it's not a big deal; just use common sense.
 <p>
 It may complain about magic_quotes_gpc.  You can make sure this is on by looking in your php.ini file.  Don't forget to restart apache for the settings to take effect.  If that doesn't fix the warning just ignore it.  I haven't had any problems.
 <p>
 
-<span class="section">Setup CVS/SSH</span>
+<span class="section">Set Up CVS/SSH</span>
 <p>
 
 <ul>
 	<li>Gain our trust to gain developer access.  Post patches to the mantisbt-dev mailing list.  Visiting on IRC helps.
-	<li>After gaining developer access follow <a href="http://sourceforge.net/docman/display_doc.php?docid=768&group_id=1">these instructions</a>
+	<li>After gaining developer access follow <a href="http://sourceforge.net/docman/display_doc.php?docid=768&amp;group_id=1">these instructions</a></li>
 </ul>
 
 <p>
-You can store your SSH public key on the SF server to avoid having to type your password each access.
+You can store your SSH public key on the SourceForge server to avoid having to type your password each access.
 <p>
 If you are in unix, all you have to do is set the following environment variable: CVS_RSH=ssh
 <p>
@@ -93,9 +94,9 @@ In tcsh: set CVS_RSH ssh
 <p>
 To make this change permanent don't forget to put it in your .bash_profile, profile, .bashrc, .login, or wherever you put your environment variables.  Don't forget to relogin!
 <p>
-If you're in Windows then read the <a href="http://sourceforge.net/docman/display_doc.php?docid=766&group_id=1">SF documentation for Windows</a>
+If you're in Windows then read the <a href="http://sourceforge.net/docman/display_doc.php?docid=766&amp;group_id=1">SF documentation for Windows</a>
 <p>
-Now checkout the package:
+Now check out the package:
 <p>
 cvs -z3 -d &lt;username&gt;@cvs.mantisbt.sourceforge.net:/cvsroot/mantisbt co mantisbt
 <p>
@@ -114,7 +115,7 @@ Open up your browser and test it out.  The bugtracker directory (and any subdire
 <p>
 <a href="http://cvsbook.red-bean.com/cvsbook.html">CVS reference</a> - The key commands to learn are checkout (or co), update, commit (or ci), remove, and add.
 <p>
-Remeber to set your EDITOR environment variable to your favorite command line editor.  Otherwise you're likely to get dumped into vi, which is a horrible program to get stuck in for a first time user.  To exit, hit ESC then : then q! then ENTER).  The last line should look like:
+Remember to set your EDITOR environment variable to your favorite command line editor.  Otherwise you're likely to get dumped into vi, which is a horrible program to get stuck in for a first time user.  To exit, hit ESC then : then q! then ENTER).  The last line should look like:
 <pre>
 :q!
 </pre>
@@ -127,29 +128,29 @@ cvs -n update
 </pre> will pretend to do an update.  This is useful to check and see what files have been modifed without modifying your files locally.<p>
 
 <ul>
-	<li>Signup on the <a href="http://mantisbt.sourceforge.net/mantis/">demo bugtracker</a><br />
-	<li>Signup on the <a href="http://mantisbt.sourceforge.net/mailinglists.php">developer mailing list</a><br />
+	<li>Signup on the <a href="http://mantisbt.sourceforge.net/mantis/">demo bugtracker</a></li>
+	<li>Signup on the <a href="http://mantisbt.sourceforge.net/mailinglists.php">developer mailing list</a></li>
 </ul>
 <ul>
-	<li>Files ending in just .php (not .php) are files of some note<br />
+	<li>Files ending in just .php <!-- (not .php) --> are files of some note</li>
 </ul>
 <ul>
-	<li>config_inc.php has all the global sitewaide variable settings<br />
-	<li>constants_inc.php has all CONSTANT values (they are UPPERCASE)<br />
-	<li>core_* files contain all the functions used in the package - When you begin development you might want to make your own core_* file for your own test functions.<br />
+	<li>config_inc.php has all the global sitewaide variable settings</li>
+	<li>constants_inc.php has all CONSTANT values (they are UPPERCASE)</li>
+	<li>core_* files contain all the functions used in the package - When you begin development you might want to make your own core_* file for your own test functions.</li>
 </ul>
 <ul>
-	<li>The localization files are the .txt files<br />
-	<li>The images are in the images/ directory (The directory structure will undergo changes shortly)<br />
+	<li>The localization files are the .txt files</li>
+	<li>The images are in the images/ directory (The directory structure will undergo changes shortly)</li>
 </ul>
 <p>
 
 <span class="section">Help and Reference sites</span>
 <p>
 <ul>
-	<li><a href="http://www.php.net/manual/en/">PHP Manual</a><br />
-	<li><a href="http://www.phpbuilder.net/">phpBuilder</a><br />
-	<li><a href="http://www.mysql.com/doc/">MySQL Documentation</a><p>
+	<li><a href="http://www.php.net/manual/en/">PHP Manual</a></li>
+	<li><a href="http://www.phpbuilder.net/">phpBuilder</a></li>
+	<li><a href="http://dev.mysql.com/doc/mysql/en/">MySQL Documentation</a></li>
 </ul>
 <p>
 <?php print_dev_section( "coding_style", "Coding Style" ) ?>
@@ -167,19 +168,19 @@ Patches should be appliable using the unix "patch" command.  Make sure your .pat
 
 <?php print_dev_section( "editor_tips", "Editor Tips" ) ?>
 <p>
-You'll want, of course, to use an editor you like.  I myself do my development in windows and use Ultraedit.  You're free to use what you like and here are some features that you'll probably want.
+You'll want, of course, to use an editor you like.  I myself do my development in Windows and use UltraEdit.  You're free to use what you like and here are some features that you'll probably want.
 <p>
 <ul>
-	<li>Column and row numbering.
-	<li>Goto Line Number
-	<li>Word wrap toggle.
-	<li>Multiple files.
-	<li>Searching across multiple files and recursively down directories.
-	<li>Search and replace across multiple files.
-	<li>Specify TAB spaces (I use 4).
-	<li>Syntax highlighting
-	<li>Trim trailing whitespace
-	<li>DOS 2 UNIX CR/LF conversions.  Your editor must be able to save files with unix style line breaks.  This means the \n character instead of the \r (Mac style) or \r\n (Windows style).  You can confirm this by viewing the file in a hex editor.
+	<li>Column and row numbering.</li>
+	<li>Goto Line Number</li>
+	<li>Word wrap toggle.</li>
+	<li>Multiple files.</li>
+	<li>Searching across multiple files and recursively down directories.</li>
+	<li>Search and replace across multiple files.</li>
+	<li>Specify TAB spaces (I use 4).</li>
+	<li>Syntax highlighting</li>
+	<li>Trim trailing whitespace</li>
+	<li>DOS 2 UNIX CR/LF conversions.  Your editor must be able to save files with Unix-style line breaks.  This means the \n character instead of the \r (Mac style) or \r\n (Windows style).  You can confirm this by viewing the file in a hex editor.</li>
 </ul>
 
 <p>
@@ -197,9 +198,9 @@ $c = $a + $b;
 echo $c;
 </pre>
 
-The preceding code creates variables $a, $b, and $c and prints the number 3.  Defining a variable is enough to create a variable in php.<p>
+The preceding code creates variables $a, $b and $c and prints the number 3.  Defining a variable is enough to create a variable in PHP.<p>
 
-<li>PHP is also very loosely typed and does type conversions on the fly.
+<li>PHP is also very loosely-typed and does type conversions on the fly.
 
 <li>You have to use the printf method of debugging (use the echo or PRINT command)<p>
 
@@ -211,17 +212,17 @@ The preceding code creates variables $a, $b, and $c and prints the number 3.  De
 
 <li>include()s are like C #includes, ie: makes everything look like one big text file<p>
 
-<li> PHP has lots of string and date manipulation functions.  If you think of a common action there is likely already a function that does it in php.<p>
+<li>PHP has lots of string and date manipulation functions.  If you think of a common action there is likely already a function that does it in PHP.<p>
 
-<li>The string concat operand is the . symbol (period)<p>
+<li>The string concatenation operator is the . symbol (period)<p>
 
 "this plus"." this" is "this plus this"<p>
 
-Since php is loosely typed it would try to convert to numbers if you used the + operator.<p>
+Since PHP is loosely-typed it would try to convert to numbers if you used the + operator.<p>
 
-<li>PHP has garbage collection.  You don't need to free resources unless you are using a lot in a single script(page).  So unless you've decided to select all 50,000,000 records from your Big Brother database you probably don't have to worry about freeing database handles or closing files, etc.  All open resources are automatically closed when the script finished execution (when the page loads in the browser).  In general, don't worry about resources/performance until you get something to work first.  After doing so you will probably have some insights into a better way to implement the feature(s).<p>
+<li>PHP has garbage collection.  You don't need to free resources unless you are using a lot in a single script (page).  So unless you've decided to select all 50,000,000 records from your Big Brother database you probably don't have to worry about freeing database handles or closing files, etc.  All open resources are automatically closed when the script finished execution (when the page loads in the browser).  In general, don't worry about resources/performance until you get something to work first.  After doing so you will probably have some insights into a better way to implement the feature(s).<p>
 
-<li>Functions can be defined anywhere in php code.  They must be defined before they are used (so be watchful of your include() ordering).<p>
+<li>Functions can be defined anywhere in PHP code.  They must be defined before they are used (so be watchful of your include() ordering).<p>
 </ol>
 
 <!-------------- --------------->
@@ -236,11 +237,11 @@ Please follow the <a href="guidelines.php">Mantis Coding Conventions</a>.
 <p>
 <span class="section">CVS commits</span>
 <p>
-Please keep comits short and focused. Ideally you would check in all the files affects by your change(s) at one time.  You should try to commit after every bugfix or feature addition.  Make sure your commit note tells enough so that another developer (familiar with the project) can make sense of what changes were made.  Information might include files, functions, and variables that were modified.
+Please keep comits short and focused. Ideally you would check in all the files affects by your change(s) at one time.  You should try to commit after every bugfix or feature addition.  Make sure your commit note tells enough so that another developer (familiar with the project) can make sense of what changes were made.  Information might include files, functions and variables that were modified.
 <p>
-eg.  cvs ci -m "Modified view_all_bug page so that column alignment is better across browsers" view_all_bug_page.php
+e.g. cvs ci -m "Modified view_all_bug page so that column alignment is better across browsers" view_all_bug_page.php
 <p>
-Occasionally you can make do with a trivial message like "updates for release" or "tweaked formatting".  This might be when you update the Changelog, or reformatted and cleaned up code, etc.
+Occasionally you can make do with a trivial message like "updates for release" or "tweaked formatting."  This might be when you update the Changelog, or reformatted and cleaned up code, etc.
 
 <p>
 <span class="section">Communication</span>
@@ -250,17 +251,15 @@ Please use the <a href="mailinglists.php">mantisbt-dev mailing list</a>.  This w
 <p>
 <span class="section">Testing</span>
 <p>
-In general I would prefer that you test using at least two browsers.  This way most browser dependencies can be caught.  I recommend testing with Internet Explorer and Mozilla.  This captures the vast majority of actual users.  Others that might be considered are Opera, Netscape, Konqueror, and OmniWeb.
+In general I would prefer that you test using at least two browsers.  This way most browser dependencies can be caught.  I recommend testing with Internet Explorer for Windows and one of Firefox, Mozilla or Netscape.  This captures the vast majority of actual users.  Others that might be considered are Opera, Konqueror, Safari and OmniWeb.
 
 <p>
 <span class="section">Other rules</span>
 <p>
-Make sure you signup on the bugtracker and received developer access.
+Make sure you sign up on the bugtracker and received developer access.
 <p>
 You can mark a bug as resolved if it is commited in CVS.  Please don't close bugs until that release is publicly available.
 
-<td style="padding: 4px;">
 <?php include( "adsense_vertical_inc.php" ); ?>
-</td>
 
 <?php include( "bot.php" ); ?>

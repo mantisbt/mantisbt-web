@@ -1,7 +1,7 @@
 <?php include( "top.php" ); ?>
 
 <span class="page_title">Security</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 Below is a listing of all known security problems in Mantis releases. If you discover a problem not listed below, please contact <a href="mailto:mantisbt-security@lists.sourceforge.net">the Mantis Team</a>.
 <p>

@@ -1,7 +1,7 @@
 <?php include( "top.php" ); ?>
 
 <span class="page_title">Phorum Integration</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 The <a href="HOWTO-mantis-phorum">phorum HOWTO</a> illustrates how you can modify Mantis to integrate a simple forum package.
 <p>

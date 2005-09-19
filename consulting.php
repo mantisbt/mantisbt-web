@@ -1,7 +1,7 @@
 <?php include( "top.php" ); ?>
 
 <span class="page_title">Consulting</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 <span class="section">Installation</span>
 <p>
@@ -13,12 +13,12 @@ We will need remote connection and browser access.  This can be accomplished via
 <p>
 Our services are available to customize Mantis to suit your needs.  Common customizations include:
 <ul>
-	<li>Addition of new fields.
-	<li>Removal of unused fields.
-	<li>Customization of view, report and update screens.
-	<li>Customization of workflow.
-	<li>Customization of terminology.
-	<li>Integration with other web apps.
+	<li>Addition of new fields.</li>
+	<li>Removal of unused fields.</li>
+	<li>Customization of view, report and update screens.</li>
+	<li>Customization of workflow.</li>
+	<li>Customization of terminology.</li>
+	<li>Integration with other web apps.</li>
 </ul>
 <p>
 We recommend you use Mantis for a short period to see what changes would best fit your organization.  We may also be available for other web related projects.  Please contact us with your inquiries and quotes.
@@ -97,8 +97,6 @@ We recommend you use Mantis for a short period to see what changes would best fi
 </table>
 <p>
 
-<td style="padding: 4px;">
 <?php include( "adsense_vertical_inc.php" ); ?>
-</td>
 
 <?php include("bot.php"); ?>

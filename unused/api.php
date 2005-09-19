@@ -27,7 +27,7 @@
 ?>
 
 <span class="page_title">API</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 <p>
 Click on the links to see a list of the functions in each file.
 <p>

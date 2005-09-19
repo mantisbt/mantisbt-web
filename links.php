@@ -1,7 +1,7 @@
 <?php include( "top.php" ); ?>
 
 <span class="page_title">Links</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 
 <p><b>MantisConnect</b></p>
 <p>This tool allows the following applications to integrate with Mantis:</p>
@@ -10,7 +10,7 @@
 	<li>NAnt Build Scripts</li>
 	<li>Applications that can access webservices</li>
 </ul>
-<p>For more information go to <a href="http://www.futureware.biz/mantisconnect">MantisConnect website</a>.</p>
+<p>For more information go to <a href="http://www.futureware.biz/mantisconnect/">MantisConnect website</a>.</p>
 
 <p><b>Integration with Source Control</b></p>
 <ul>
@@ -20,9 +20,9 @@
 <p><b>Links to sites which gets Mantis to work with...</b></p>
 <ul>
 <li><a href="http://www.freshports.org/databases/mantis/">FreeBSD (Fresh Ports)</a></li>
-<li><a href="http://sourceforge.net/project/showfiles.php?group_id=68255&package_id=108965" target="_blank">Geeklog</a></li>
-<li><a href="http://www.phprojekt.com/modules.php?op=modload&name=Downloads&file=index&req=viewdownloaddetails&lid=69&ttitle=Mantis_(bugtracker)_as_addon" target="_blank">PHProject</a></li>
-<li><a href="http://lottasophie.sourceforge.net/modules.php?op=modload&name=Sections&file=index&req=viewarticle&artid=15&page=1" target="_blank">Postnuke</a></li>
+<li><a href="http://sourceforge.net/project/showfiles.php?group_id=68255&amp;package_id=108965" target="_blank">Geeklog</a></li>
+<li><a href="http://www.phprojekt.com/modules.php?op=modload&amp;name=Downloads&amp;file=index&amp;req=viewdownloaddetails&amp;lid=69&amp;ttitle=Mantis_(bugtracker)_as_addon" target="_blank">PHProject</a></li>
+<li><a href="http://lottasophie.sourceforge.net/modules.php?op=modload&amp;name=Sections&amp;file=index&amp;req=viewarticle&amp;artid=15&amp;page=1" target="_blank">Postnuke</a></li>
 <li><a href="http://dev.xoops.org/modules/xfmod/project/?mantis" target="_blank">XOOPS</a></li>
 </ul>
 
@@ -39,14 +39,14 @@
 
 <br/>
 <p><b>These links are software packages that are related to Mantis use and development.</b></p>
-<table width=100%>
+<table width="100%">
 <tr valign="top">
 	<td>
 	<span class="section">Essentials</span>
 	<ul>
-		<li><a href="http://www.php.net" target="_blank">PHP</a>
-		<li><a href="http://www.apache.org" target="_blank">Apache</a>
-		<li><a href="http://www.mysql.com" target="_blank">MySQL</a>
+		<li><a href="http://www.php.net/" target="_blank">PHP</a>
+		<li><a href="http://www.apache.org/" target="_blank">Apache</a>
+		<li><a href="http://www.mysql.com/" target="_blank">MySQL</a>
 	</ul>
 	<span class="section">Helpful</span>
 	<ul>
@@ -91,16 +91,14 @@
 	</ul>
 	<span class="section">Alternatives</span>
 	<ul>
-		<li><a href="http://bugzilla.mozilla.org" target="_blank">Bugzilla</a>
-		<li><a href="http://dcl.sourceforge.net" target="_blank">Double Chocolate Latte</a>
-		<li><a href="http://scarab.tigris.org" target="_blank">Scarab</a>
+		<li><a href="http://bugzilla.mozilla.org/" target="_blank">Bugzilla</a>
+		<li><a href="http://dcl.sourceforge.net/" target="_blank">Double Chocolate Latte</a>
+		<li><a href="http://scarab.tigris.org/" target="_blank">Scarab</a>
 	</ul>
 	</td>
 </tr>
 </table>
 
-<td style="padding: 4px;">
 <?php include( "adsense_vertical_inc.php" ); ?>
-</td>
 
 <?php include( "bot.php" ); ?>

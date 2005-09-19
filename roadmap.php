@@ -210,9 +210,9 @@
 	<li>User definable display fields (view all bugs page)</li>
 	<li>NNTP Mirroring (with threading)</li>
 
-	<li>Alert Engine - Cronjob that will generate Alerts based on user constructed rules. Alerts on a per project, per user basis.
-	<li>Multiple transports beyond just emails (SMS, IM, etc.)
-	<li>Attempt to interface with emails via procmail.
+	<li>Alert Engine - Cronjob that will generate Alerts based on user constructed rules. Alerts on a per project, per user basis.</li>
+	<li>Multiple transports beyond just emails (SMS, IM, etc.)</li>
+	<li>Attempt to interface with emails via procmail.</li>
 	<li>BBCode style markup notation.</li>
 	<li>Support Bugzilla style emails where the changes in the bug are highlighted in the email (similar to cvs diff -u for old / new bug email)</li>
 </ul>
@@ -220,8 +220,6 @@
 */
 ?>
 
-<td style="padding: 4px;">
 <?php include( "adsense_vertical_inc.php" ); ?>
-</td>
 
 <?php include( "bot.php" ); ?>

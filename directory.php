@@ -20,14 +20,14 @@
 ?>
 
 <span class="page_title">Users Directory</span>
-<hr size=1 noshade width="100%">
+<hr size="1" noshade="noshade" width="100%" />
 
 <p>This is a directory of companies and open source projects that are using Mantis as their issue tracking system.  If
 your company is not listed below, or you know of an open source project that uses Mantis but is not listed below, please contact
 "vboctor -at- users -dot- sourceforge -dot- net" to update the list.</p>
 
-<p>When possible consider adding a link back to Mantis website.  You can use the button on the left side of the page, however,
-please download it and reference it from your site to reduce the load on Mantis web server.</p>
+<p>When possible consider adding a link back to Mantis website.  You can use the button on the left side of the page, but
+please download it and reference it from your site to reduce the load on the Mantis web server.</p>
 
 <?php
 	section( 'A' );
@@ -53,7 +53,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section_end();
 
 	section( 'D' );
-		entry( 'Dataprom', 'http://www.dataprom.com' );
+		entry( 'Dataprom', 'http://www.dataprom.com/' );
 		entry( 'Dr. WEB', 'http://www.drweb.com/', 'http://bugs.drweb.com/' );
 		entry( 'dotProject', 'http://www.dotproject.net/', 'http://www.dotproject.net/mantis/' );
 	section_end();
@@ -126,7 +126,7 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section( 'R' );
 		entry( 'RageIRCd', 'http://rageircd.sourceforge.net/', 'http://rageircd.sourceforge.net/mantis/' );
 		entry( 'RealDecoy', 'http://www.realdecoy.com/' );
-		entry( 'Reebok Poland S.A.', 'http://www.reebok.pl', 'http://mantis.reebok.pl' );
+		entry( 'Reebok Poland S.A.', 'http://www.reebok.pl/', 'http://mantis.reebok.pl/' );
 		entry( 'Ritlabs', 'http://www.ritlabs.com/', 'http://www.ritlabs.com/bt/' );
 		entry( 'rsbac', 'http://www.rsbac.org/', 'http://bugtracker.rsbac.org/' );
 	section_end();
@@ -162,8 +162,6 @@ please download it and reference it from your site to reduce the load on Mantis 
 	section_end();
 ?>
 
-<td style="padding: 4px;">
 <?php include( "adsense_vertical_inc.php" ); ?>
-</td>
 
 <?php include( "bot.php" ); ?>

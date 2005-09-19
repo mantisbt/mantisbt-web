@@ -3,13 +3,13 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
-<link rel="alternate" type="application/rss+xml" title="RSS" href="http://bugs.mantisbt.org/news_rss.php?project_id=1" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://bugs.mantisbt.org/news_rss.php?project_id=1">
 <title>Mantis Bug Tracker</title>
 <?php include( "mantis.css" ) ?>
 </head>
 <body>
 
-<table class="outisde" cellpadding="5" cellspacing="0">
+<table class="outside" cellpadding="5" cellspacing="0">
 <tr class="top">
 	<td colspan="3">
 		<table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -18,10 +18,10 @@
 					<a href="http://www.mantisbt.org/"><img border="0" src="images/mantis_logo.gif" alt="Mantis" /></a>
 				</td>
 				<td class="top_right">
-				<div align="right">
+					<div align="right">
 						<table width="508" border="0" cellspacing="0" cellpadding="0">
 						<tr>
-						<td><a href="sponsors.php"><img src="images/banners.gif" width="20" height="60" alt="Sponsors" /></a>
+						<td><a href="sponsors.php"><img src="images/banners.gif" width="20" height="60" border="0" alt="Sponsors" /></a></td>
 						<td>
 						<script type="text/javascript"><!--
 							google_ad_client = "pub-0979518001849295";
@@ -39,12 +39,10 @@
 							src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 						</script>
 						</td>
-						<td>
-						<td><a href="sponsors.php"><img src="images/advertise.gif" width="20" height="60" alt="Advertise" /></a>
-						</td>
+						<td><a href="sponsors.php"><img src="images/advertise.gif" width="20" height="60" border="0" alt="Advertise" /></a></td>
 						</tr>
 						</table>
-						</div>
+					</div>
 				</td>
 			</tr>
 		</table>
@@ -52,27 +50,25 @@
 </tr>
 <tr class="top">
 	<td class="middle" colspan="3">
-<form method="GET" action="http://www.google.com/search">
 <!-- SiteSearch Google -->
 <form method="get" action="http://www.google.com/custom" target="_top">
-<input type="hidden" name="domains" value="mantisbt.org"></input>
-<input type="radio" name="sitesearch" value=""></input>
+<input type="hidden" name="domains" value="mantisbt.org">
+<input type="radio" name="sitesearch" value="">
 <font size="-1" color="#000000">Web</font>
-<input type="radio" name="sitesearch" value="mantisbt.org" checked="checked"></input>
+<input type="radio" name="sitesearch" value="mantisbt.org" checked="checked">
 <font size="-1" color="#000000">mantisbt.org</font>
 &nbsp;
-<input type="text" name="q" size="25" maxlength="255" value=""></input>
-<input type="submit" name="sa" value="Search"></input>
-<input type="hidden" name="client" value="pub-0979518001849295"></input>
-<input type="hidden" name="forid" value="1"></input>
-<input type="hidden" name="channel" value="0813631605"></input>
-<input type="hidden" name="ie" value="ISO-8859-1"></input>
-<input type="hidden" name="oe" value="ISO-8859-1"></input>
-<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;"></input>
-<input type="hidden" name="hl" value="en"></input>
+<input type="text" name="q" size="25" maxlength="255" value="">
+<input type="submit" name="sa" value="Search">
+<input type="hidden" name="client" value="pub-0979518001849295">
+<input type="hidden" name="forid" value="1">
+<input type="hidden" name="channel" value="0813631605">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input type="hidden" name="oe" value="ISO-8859-1">
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;">
+<input type="hidden" name="hl" value="en">
 </form>
 <!-- SiteSearch Google -->
-</form>
 	</td>
 </tr>
 <tr valign="top" bgcolor="#ffffff">
