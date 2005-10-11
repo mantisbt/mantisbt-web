@@ -86,9 +86,9 @@
 <table bgcolor="#ffffff" width="100%" border="0" cellspacing="0" cellpadding="4">
 <tr valign="top">
 	<td class="welcome">
-		Mantis is a php/MySQL/web based bugtracking system.  <a href="about.php">Learn more</a>.
-		<p>
-		The latest version is <a href="download.php"><?php include("files/VERSION") ?></a>.
+		<p>Mantis is a php/MySQL/web based bugtracking system.  <a href="about.php">Learn more</a>.</p>
+		<p>The latest stable version is <a href="download.php"><?php include("files/VERSION_STABLE") ?></a>.</p>
+		<p>The latest development version is <a href="download.php"><?php include("files/VERSION") ?></a>.</p>
 	</td>
 	<td width="220" align="right">
 <!--		<table width="220" bgcolor="#000000" border="0" cellspacing="1" cellpadding="3">
