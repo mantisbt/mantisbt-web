@@ -43,6 +43,7 @@ please download it and reference it from your site to reduce the load on the Man
 	section_end();
 
 	section( 'C' );
+		entry( 'Candis Group (Beijing)', 'http://www.candis.com.cn/', null );
 		entry( 'CAPSHER Technology, Inc.', 'http://www.capsher.com/', null );
 		entry( 'chan_sccp', 'http://chan-sccp.sourceforge.net/', 'http://www.czmok.de/devtrack/' );
 		entry( 'clarkconnect', 'http://www.clarkconnect.org/', 'http://www.clarkconnect.org/bugs/' );
@@ -108,6 +109,7 @@ please download it and reference it from your site to reduce the load on the Man
 
 	section( 'O' );
 		entry( 'Olate', 'http://www.olate.co.uk/', 'http://www.olate.co.uk/tracker/' );
+		entry( 'OpenFlyers', 'http://openflyers.org/', 'http://bts.openflyers.org/' );
 	section_end();
 
 	section( 'P' );
@@ -133,6 +135,7 @@ please download it and reference it from your site to reduce the load on the Man
 	section_end();
 
 	section( 'S' );
+		entry( 'Saab', 'http://www.saab.se/' );
 		entry( 'Scribus', 'http://www.scribus.net/', 'http://bugs.scribus.net/' );
 		entry( 'SCTV', 'http://sctv.ucsc.edu/', 'http://sctv.ucsc.edu/mantis/' );
 		entry( 'Shadow', 'https://sourceforge.net/projects/shadow/', 'http://www.open-shadow.org/mantis/' );
@@ -153,6 +156,10 @@ please download it and reference it from your site to reduce the load on the Man
 		entry( 'Uncommonplace', 'http://www.uncommonplace.com/', 'http://www.uncommonplace.com/bugs/' );
 		entry( 'UnrealIRCd', 'http://www.unrealircd.org/', 'http://bugs.unrealircd.org/' );
 		entry( 'USA Z&amp;P', 'http://usazyp.com.ve/' );
+	section_end();
+
+	section( 'V' );
+		entry( 'Vicus eBusiness Solutions', 'www.vicus.nl/ticketmanagement' );
 	section_end();
 
 	section( 'W' );
