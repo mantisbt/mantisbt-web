@@ -8,6 +8,14 @@
 <table border="0" cellspacing="0" cellpadding="10">
 	<?php /* Sponsor ad placed on 29-AUG-2005 */ ?>
 	<tr>
+		<td><a href="http://dasschoenstekind.de" target="_blank"><img src="images/sponsors/rammsteinlogo.jpg " border="0" alt="dasschoenstekind.de" width="200" height="55" /></a></td>
+		<td>
+			<a href="http://dasschoenstekind.de">dasschoenstekind.de</a> is a fan site of the German music group Rammstein.  Dasschoenstekind includes lyrics, discography, biography, merchandising and concert tickets.
+		</td>
+	</tr>
+
+	<?php /* Sponsor ad placed on 29-AUG-2005 */ ?>
+	<tr>
 		<td><a href="http://domainunion.de" target="_blank"><img src="images/sponsors/domainunionlogo.gif" border="0" alt="domainunion.de" width="200" height="55" /></a></td>
 		<td>
 			<a href="http://domainunion.de">Domain Union</a> is a low cost German domain registrar for .de, .com, .net, .org, .info, and .biz.  Register your domain now and have it up and running within hours.  German domains are available for international customers.
