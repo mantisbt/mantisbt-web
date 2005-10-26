@@ -159,7 +159,7 @@ please download it and reference it from your site to reduce the load on the Man
 	section_end();
 
 	section( 'V' );
-		entry( 'Vicus eBusiness Solutions', 'www.vicus.nl/ticketmanagement' );
+		entry( 'Vicus eBusiness Solutions', 'http://www.vicus.nl/ticketmanagement' );
 	section_end();
 
 	section( 'W' );

@@ -8,7 +8,15 @@
 <table border="0" cellspacing="0" cellpadding="10">
 	<?php /* Sponsor ad placed on 29-AUG-2005 */ ?>
 	<tr>
-		<td><a href="http://dasschoenstekind.de" target="_blank"><img src="images/sponsors/rammsteinlogo.jpg " border="0" alt="dasschoenstekind.de" width="200" height="55" /></a></td>
+		<td><a href="http://www.training-classes.com/" target="_blank"><img src="images/sponsors/trainingclasseslogo.gif" border="0" alt="dasschoenstekind.de" width="200" height="60" /></a></td>
+		<td>
+			<a href="http://www.training-classes.com/">#1 Training Directory</a> Connecting people who want to learn with people who love to teach since 1998: Happy to use Mantis and proud to support this excellent bug tracking package.
+		</td>
+	</tr>
+
+	<?php /* Sponsor ad placed on 29-AUG-2005 */ ?>
+	<tr>
+		<td><a href="http://dasschoenstekind.de" target="_blank"><img src="images/sponsors/rammsteinlogo.jpg" border="0" alt="dasschoenstekind.de" width="200" height="55" /></a></td>
 		<td>
 			<a href="http://dasschoenstekind.de">dasschoenstekind.de</a> is a fan site of the German music group Rammstein.  Dasschoenstekind includes lyrics, discography, biography, merchandising and concert tickets.
 		</td>

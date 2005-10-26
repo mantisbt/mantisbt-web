@@ -18,6 +18,7 @@
 				</td>
 				<td>
 <p align="right">Sponsors:
+<a href="http://www.training-classes.com/" title="#1 Training Directory" target="_blank">#1 Training Directory</a>,
 <a href="http://www.exit15.com/" title="Exit 15" target="_blank">Exit 15</a>,
 <a href="http://www.resperate.com/" title="RESPeRATE To Lower Blood Pressure" target="_blank">RESPeRATE</a>,
 <a href="http://domainunion.de/" title="domains from germany" target="_blank">domainunion.de</a>,
