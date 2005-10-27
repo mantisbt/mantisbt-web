@@ -8,7 +8,7 @@
 <table border="0" cellspacing="0" cellpadding="10">
 	<?php /* Sponsor ad placed on 29-AUG-2005 */ ?>
 	<tr>
-		<td><a href="http://www.training-classes.com/" target="_blank"><img src="images/sponsors/trainingclasseslogo.gif" border="0" alt="dasschoenstekind.de" width="200" height="60" /></a></td>
+		<td><a href="http://www.training-classes.com/" target="_blank"><img src="images/sponsors/trainingclasseslogo.gif" border="0" alt="Training" width="200" height="60" /></a></td>
 		<td>
 			<a href="http://www.training-classes.com/">#1 Training Directory</a> Connecting people who want to learn with people who love to teach since 1998: Happy to use Mantis and proud to support this excellent bug tracking package.
 		</td>
