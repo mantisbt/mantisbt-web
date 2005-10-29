@@ -119,6 +119,7 @@ please download it and reference it from your site to reduce the load on the Man
 		entry( 'phpMyFAQ', 'http://www.phpmyfaq.de/', 'http://bugs.phpmyfaq.de/' );
 		entry( 'phpMyEdit', 'http://phpmyedit.org/', 'http://platon.sk/projects/main_page.php?project_id=5' );
 		entry( 'Project JEDI', 'http://homepages.borland.com/jedi/', 'http://homepages.borland.com/jedi/issuetracker/' );
+		entry( 'purepistos.net', 'http://www.purepistos.net/', 'http://purepistos.net/mantis/' );
 	section_end();
 
 	section( 'Q' );
