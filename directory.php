@@ -85,6 +85,7 @@ please download it and reference it from your site to reduce the load on the Man
 	section( 'I' );
 		entry( 'Intra2net', 'http://www.intra2net.com/' );
 		entry( 'Institute for Computational Biomedicine (ICB)', 'http://icb.med.cornell.edu/', 'http://icbtools.med.cornell.edu/mantis/' );
+		entry( 'I-Tul Design & Software', 'http://www.i-tul.com/' );
 	section_end();
 
 	section( 'J' );
@@ -113,6 +114,7 @@ please download it and reference it from your site to reduce the load on the Man
 	section_end();
 
 	section( 'P' );
+		entry( 'Particracy', 'http://www.particracy.net/' );
 		entry( 'phpBB', 'http://phpbb-php5mod.sourceforge.net/', 'http://phpbb-php5mod.sourceforge.net/bugs/' );
 		entry( 'phpWebnotes', 'http://www.futureware.biz/webnotes/', 'http://www.futureware.biz/mantis/' );
 		entry( 'PHPlist', 'http://www.phplist.com/', 'http://mantis.tincan.co.uk/' );
