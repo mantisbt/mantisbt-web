@@ -8,7 +8,7 @@
 			<td class="menu_items">
 				<a class="big" href="index.php">Home</a><br />
 				<a class="big" href="about.php">About</a><br />
-				<a class="big" href="demo.php">Demo</a><br />
+				<!-- <a class="big" href="demo.php">Demo</a><br /> -->
 				<a class="big" href="http://bugs.mantisbt.org/">Report Issues</a><br />
 				<a class="big" href="download.php">Download</a><br />
 				<!--<a class="big" href="screenshots.php">Screenshots</a><br />-->
