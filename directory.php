@@ -83,6 +83,7 @@ please download it and reference it from your site to reduce the load on the Man
 	section_end();
 
 	section( 'I' );
+		entry( 'IDSecuritySuite', 'http://www.idsecuritysuite.com/' );
 		entry( 'Intra2net', 'http://www.intra2net.com/' );
 		entry( 'Institute for Computational Biomedicine (ICB)', 'http://icb.med.cornell.edu/', 'http://icbtools.med.cornell.edu/mantis/' );
 		entry( 'I-Tul Design & Software', 'http://www.i-tul.com/' );
