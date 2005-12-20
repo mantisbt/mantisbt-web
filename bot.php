@@ -18,12 +18,14 @@
 				</td>
 				<td>
 <p align="right">Sponsors:
-<a href="http://www.training-classes.com/" title="#1 Training Directory" target="_blank">#1 Training Directory</a>,
-<a href="http://www.exit15.com/" title="Exit 15" target="_blank">Exit 15</a>,
+<a href="http://www.merchantzoo.com/" title="Merchant Zoo" target="_blank">MerchantZoo</a>,
+<a href="http://www.playwhat.com" title="Playwhat" target="_blank">Playwhat</a>,
+<a href="http://www.training-classes.com/" title="#1 Training Directory" target="_blank">#1&nbsp;Training&nbsp;Directory</a>,
+<a href="http://www.exit15.com/" title="Exit 15" target="_blank">Exit&nbsp;15</a>,
 <a href="http://www.resperate.com/" title="RESPeRATE To Lower Blood Pressure" target="_blank">RESPeRATE</a>,
 <a href="http://domainunion.de/" title="domains from germany" target="_blank">domainunion.de</a>,
-<a href="http://www.dasschoenstekind.de/" title="Rammstein Music" target="_blank">Rammstein Music</a>,
-<a href="http://www.ecoupons.com/" title="eCoupons" target="_blank">eCoupons.com Inc.</a>
+<a href="http://www.dasschoenstekind.de/" title="Rammstein Music" target="_blank">Rammstein&nbsp;Music</a>,
+<a href="http://www.ecoupons.com/" title="eCoupons" target="_blank">eCoupons.com&nbsp;Inc.</a>
 </p>
 
 <!-- Add this logo when the site is XHTML compatible

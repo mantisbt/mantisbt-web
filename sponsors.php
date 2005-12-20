@@ -6,6 +6,22 @@
 <p>Mantis team is proud to feature the following companies as sponsors of our site.  For information on joining our sponsor group please contact "vboctor at users dot sourceforge dot net".</p>
 
 <table border="0" cellspacing="0" cellpadding="10">
+	<?php /* Sponsor ad placed on 20-DEC-2005 */ ?>
+	<tr>
+		<td><a href="http://www.merchantzoo.com/" target="_blank"><img src="images/sponsors/merchantzoologo.jpg" border="0" alt="MerchantZoo" width="200" height="85" /></a></td>
+		<td>
+			<a href="http://www.merchantzoo.com/">Affiliate Programs</a> from MerchantZoo.com offer the highest payouts to affiliates, deep linking capabilities, reliable reporting, and more to our network of affiliates.  Merchants can take advantage of our proprietary affiliate tracking software as they get the top 3rd party affiliate management solution on the web.
+		</td>
+	</tr>
+
+	<?php /* Sponsor ad placed on 20-DEC-2005 */ ?>
+	<tr>
+		<td><a href="http://www.playwhat.com/" target="_blank"><img src="images/sponsors/playwhatlogo.jpg" border="0" alt="PlayWhat" width="200" height="88" /></a></td>
+		<td>
+			<a href="http://www.playwhat.com">Free Game Downloads</a> at Playwhat.com are the best source for new and old games of all genre's.  Download games for free, see screenshots, get demos and reviews on all the latest game releases.
+		</td>
+	</tr>
+
 	<?php /* Sponsor ad placed on 29-AUG-2005 */ ?>
 	<tr>
 		<td><a href="http://www.training-classes.com/" target="_blank"><img src="images/sponsors/trainingclasseslogo.gif" border="0" alt="Training" width="200" height="60" /></a></td>
