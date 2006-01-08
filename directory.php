@@ -45,6 +45,7 @@ please download it and reference it from your site to reduce the load on the Man
 	section( 'C' );
 		entry( 'Candis Group (Beijing)', 'http://www.candis.com.cn/', null );
 		entry( 'CAPSHER Technology, Inc.', 'http://www.capsher.com/', null );
+		entry( 'Cel Kunststoffen', 'http://celkunststoffen.khlim.be/cel/', null );
 		entry( 'chan_sccp', 'http://chan-sccp.sourceforge.net/', 'http://www.czmok.de/devtrack/' );
 		entry( 'clarkconnect', 'http://www.clarkconnect.org/', 'http://www.clarkconnect.org/bugs/' );
 		entry( 'CMSform<sup>E</sup>', 'http://cmsforme.sourceforge.net/', 'http://cmsforme.sourceforge.net/bugs/' );
@@ -63,6 +64,7 @@ please download it and reference it from your site to reduce the load on the Man
 
 	section( 'E' );
 		entry( 'eboxy', 'http://eboxy.sourceforge.net/', 'http://eboxy.sourceforge.net/mantis/' );
+		entry( 'Edoceo, Inc.', 'http://www.edoceo.com/', null );
 		entry( 'encoway', 'http://www.encoway.de/', null );
 		entry( 'EPICS', 'http://www.aps.anl.gov/epics/', 'http://www.aps.anl.gov/epics/mantis/' );
 	section_end();
