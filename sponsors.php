@@ -6,6 +6,14 @@
 <p>Mantis team is proud to feature the following companies as sponsors of our site.  For information on joining our sponsor group please contact "vboctor at users dot sourceforge dot net".</p>
 
 <table border="0" cellspacing="0" cellpadding="10">
+	<?php /* Sponsor ad placed on 10-JAN-2006 */ ?>
+	<tr>
+		<td><a href="http://www.ezloandocs.com/" target="_blank"><img src="images/sponsors/ezloandocslogo.gif" border="0" alt="Mortgage Web Design" width="200" height="80" /></a></td>
+		<td>
+			<a href="http://www.ezloandocs.com/">Mortgage Web Design</a> and online 1003 application forms provided by EZ Loandocs. We offer industry leading web sites providing outstanding design and functionality. Solutions range from loan officer templates websites to custom web development for major lenders.
+		</td>
+	</tr>
+
 	<?php /* Sponsor ad placed on 20-DEC-2005 */ ?>
 	<tr>
 		<td><a href="http://www.merchantzoo.com/" target="_blank"><img src="images/sponsors/merchantzoologo.jpg" border="0" alt="MerchantZoo" width="200" height="85" /></a></td>
