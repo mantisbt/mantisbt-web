@@ -58,11 +58,13 @@ please download it and reference it from your site to reduce the load on the Man
 	section( 'D' );
 		entry( 'Dataprom', 'http://www.dataprom.com/' );
 		entry( 'DeniX Solutions', 'http://denixsolutions.com/' );
+		entry( 'Digital Edge Software &amp; Consulting', 'http://www.digitaledgesw.com' );
 		entry( 'Dr. WEB', 'http://www.drweb.com/', 'http://bugs.drweb.com/' );
 		entry( 'dotProject', 'http://www.dotproject.net/', 'http://www.dotproject.net/mantis/' );
 	section_end();
 
 	section( 'E' );
+		entry( 'Earth Systems Science Computational Centre (ESSCC)', 'http://www.esscc.uq.edu.au' );
 		entry( 'eboxy', 'http://eboxy.sourceforge.net/', 'http://eboxy.sourceforge.net/mantis/' );
 		entry( 'Edoceo, Inc.', 'http://www.edoceo.com/', null );
 		entry( 'encoway', 'http://www.encoway.de/', null );
@@ -137,7 +139,9 @@ please download it and reference it from your site to reduce the load on the Man
 	section( 'R' );
 		entry( 'RageIRCd', 'http://rageircd.sourceforge.net/', 'http://rageircd.sourceforge.net/mantis/' );
 		entry( 'RealDecoy', 'http://www.realdecoy.com/' );
+		entry( 'Redwood Custom Communications', 'http://www.redwoodcc.com/' );
 		entry( 'Reebok Poland S.A.', 'http://www.reebok.pl/', 'http://mantis.reebok.pl/' );
+		entry( 'Risse Design', 'http://risse.org/' );
 		entry( 'Ritlabs', 'http://www.ritlabs.com/', 'http://www.ritlabs.com/bt/' );
 		entry( 'rsbac', 'http://www.rsbac.org/', 'http://bugtracker.rsbac.org/' );
 	section_end();
@@ -145,9 +149,11 @@ please download it and reference it from your site to reduce the load on the Man
 	section( 'S' );
 		entry( 'Saab', 'http://www.saab.se/' );
 		entry( 'Scribus', 'http://www.scribus.net/', 'http://bugs.scribus.net/' );
+		entry( 'SCS Software', 'http://www.scssoft.com' );
 		entry( 'SCTV', 'http://sctv.ucsc.edu/', 'http://sctv.ucsc.edu/mantis/' );
 		entry( 'Shadow', 'https://sourceforge.net/projects/shadow/', 'http://www.open-shadow.org/mantis/' );
 		entry( 'six apart', 'http://www.sixapart.com/', 'http://sixapart.com/mantis/' );
+		entry( 'SkyGate International', 'http://www.skygate.dk/' );
 		entry( 'SourceFubar.Net', 'http://www.sourcefubar.net/', 'http://bugs.sourcefubar.net/' );
 		entry( 'Soft-Gems', 'http://www.soft-gems.net/', 'http://support.soft-gems.net/mantis/' );
 	section_end();
@@ -155,6 +161,7 @@ please download it and reference it from your site to reduce the load on the Man
 	section( 'T' );
 		entry( 'Theratech', 'http://www.theratech.de/', 'http://www.support.theratech.de/' );
 		entry( 'Thornsoft Development, Inc.', 'http://www.thornsoft.com/', 'http://www.thornsoft.com/mantis/' );
+		entry( 'Timber Windows', 'http://www.timberwindows.com/' );
 		entry( 'Truelite', 'http://www.truelite.it/', 'http://bugs.truelite.it/' );
 		entry( 'Turkix', 'http://www.turkix.org/', 'http://bug.turkix.org/' );
 		entry( 'Twig Project', 'http://informationgateway.org/', 'http://bugs.informationgateway.org/' );
