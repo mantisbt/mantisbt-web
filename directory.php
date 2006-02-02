@@ -117,6 +117,7 @@ please download it and reference it from your site to reduce the load on the Man
 	section( 'O' );
 		entry( 'Olate', 'http://www.olate.co.uk/', 'http://www.olate.co.uk/tracker/' );
 		entry( 'OpenFlyers', 'http://openflyers.org/', 'http://bts.openflyers.org/' );
+		entry( 'OtwarteRozwiazania', 'http://www.OtwarteRozwiazania.com/', 'http://mantis.OtwarteRozwiazania.com/' );
 	section_end();
 
 	section( 'P' );
@@ -174,6 +175,7 @@ please download it and reference it from your site to reduce the load on the Man
 	section_end();
 
 	section( 'V' );
+		entry( 'Vantage Controls', 'http://www.vantagecontrols.com' );
 		entry( 'Vicus eBusiness Solutions', 'http://www.vicus.nl/ticketmanagement' );
 	section_end();
 
