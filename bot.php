@@ -12,12 +12,13 @@
 
 		<table width="100%">
 			<tr valign="MIDDLE">
-				<td>
+				<td width="50%">
 					<address>&nbsp;&nbsp;&nbsp;Last modified: <?php echo date( "M d, Y - H:m T", getlastmod() )?></address>
-					<address>&nbsp;&nbsp;&nbsp;Copyright (C) 2000-2005</address>
+					<address>&nbsp;&nbsp;&nbsp;Copyright (C) 2000-2006</address>
 				</td>
-				<td>
+				<td width="50%">
 <p align="right">Sponsors:
+<a href="http://www.webservertalk.com/" title="Forum for IT admins" target="_blank">Web Server Talk</a>,
 <a href="http://www.ezloandocs.com/" title="Mortgage Web Design" target="_blank">EZ Loandocs</a>,
 <a href="http://www.merchantzoo.com/" title="Merchant Zoo" target="_blank">MerchantZoo</a>,
 <a href="http://www.playwhat.com" title="Playwhat" target="_blank">Playwhat</a>,

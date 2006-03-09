@@ -6,6 +6,14 @@
 <p>Mantis team is proud to feature the following companies as sponsors of our site.  For information on joining our sponsor group please contact "vboctor at users dot sourceforge dot net".</p>
 
 <table border="0" cellspacing="0" cellpadding="10">
+	<?php /* Sponsor ad placed on 09-MAR-2006 */ ?>
+	<tr>
+		<td><a href="http://www.webservertalk.com/" target="_blank"><img src="images/sponsors/webserverlogo.jpg" border="0" alt="Forum for IT admins" width="200" height="54" /></a></td>
+		<td>
+			<a href="http://www.webservertalk.com/">Forum for IT admins</a>
+		</td>
+	</tr>
+
 	<?php /* Sponsor ad placed on 10-JAN-2006 */ ?>
 	<tr>
 		<td><a href="http://www.ezloandocs.com/" target="_blank"><img src="images/sponsors/ezloandocslogo.gif" border="0" alt="Mortgage Web Design" width="200" height="80" /></a></td>
