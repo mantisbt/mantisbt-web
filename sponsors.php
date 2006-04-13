@@ -6,6 +6,14 @@
 <p>Mantis team is proud to feature the following companies as sponsors of our site.  For information on joining our sponsor group please contact "vboctor at users dot sourceforge dot net".</p>
 
 <table border="0" cellspacing="0" cellpadding="10">
+	<?php /* Sponsor ad placed on 13-APR-2006 */ ?>
+	<tr>
+		<td><a href="http://www.solidstatenetworks.com/" target="_blank"><img src="images/sponsors/ssnlogo.gif" border="0" alt="Content Delivery Network" width="200" height="65" /></a></td>
+		<td>
+			<a href="http://www.solidstatenetworks.com/">Content Delivery Network</a> from SolidStateNetworks.com is peer assisted content delivery network (CDN) using the peer to peer protocol BitTorrent.
+		</td>
+	</tr>
+
 	<?php /* Sponsor ad placed on 09-MAR-2006 */ ?>
 	<tr>
 		<td><a href="http://www.webservertalk.com/" target="_blank"><img src="images/sponsors/webserverlogo.jpg" border="0" alt="Forum for IT admins" width="200" height="54" /></a></td>

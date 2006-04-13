@@ -18,6 +18,7 @@
 				</td>
 				<td width="50%">
 <p align="right">Sponsors:
+<a href="http://www.solidstatenetworks.com" title="Content Delivery Network" target="_blank">Content Delivery Network</a>, 
 <a href="http://www.webservertalk.com/" title="Forum for IT admins" target="_blank">Web Server Talk</a>,
 <a href="http://www.ezloandocs.com/" title="Mortgage Web Design" target="_blank">EZ Loandocs</a>,
 <a href="http://www.merchantzoo.com/" title="Merchant Zoo" target="_blank">MerchantZoo</a>,
