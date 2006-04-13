@@ -29,6 +29,7 @@
 <p><b>Migration Tools</b></p>
 <ul>
 <li><a href="http://www.cadencetools.org/projects/bugzilla2mantis/" target="_blank">Bugzilla to Mantis</a> (Perl) by <a href="http://crisdaniluk.com/" target="_blank">Cris Daniluk</a></li>
+<li><a href="http://bugs.mantisbt.org/view.php?id=6934" target="_blank">GNATs to Mantis</a> (Perl) by Colin Pitrat</li>
 </ul>
 
 <p><b>Articles and Reviews</b></p>
