@@ -7,9 +7,13 @@
 <p>This tool allows the following applications to integrate with Mantis:</p>
 <ul>
 	<li>.NET Applications</li>
+	<li>Java Applications</li>
+	<li>Cocoa Applications</li>
+	<li>Eclipse IDE</li>
 	<li>NAnt Build Scripts</li>
 	<li>Applications that can access webservices</li>
 </ul>
+
 <p>For more information go to <a href="http://www.futureware.biz/mantisconnect/">MantisConnect website</a>.</p>
 
 <p><b>Integration with Source Control</b></p>
