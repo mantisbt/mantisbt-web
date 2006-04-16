@@ -6,6 +6,14 @@
 <p>Mantis team is proud to feature the following companies as sponsors of our site.  For information on joining our sponsor group please contact "vboctor at users dot sourceforge dot net".</p>
 
 <table border="0" cellspacing="0" cellpadding="10">
+	<?php /* Sponsor ad placed on 16-APR-2006 */ ?>
+	<tr>
+		<td><a href="http://www.dubaiapartments.biz/" target="_blank"><img src="images/sponsors/dalogo.gif" border="0" alt="Content Delivery Network" width="187" height="51" /></a></td>
+		<td>
+			<a href="http://www.dubaiapartments.biz/">http://www.dubaiapartments.biz</a> is an on-line portal which connects landlords of Dubai furnished apartments, non furnished apartments, villas, and offices to tenants and people from all around the world who want to rent an apartment either for short term rental basis or long term apartments, in Dubai.
+		</td>
+	</tr>
+
 	<?php /* Sponsor ad placed on 13-APR-2006 */ ?>
 	<tr>
 		<td><a href="http://www.solidstatenetworks.com/" target="_blank"><img src="images/sponsors/ssnlogo.gif" border="0" alt="Content Delivery Network" width="200" height="65" /></a></td>
