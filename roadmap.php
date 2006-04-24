@@ -3,79 +3,44 @@
 <span class="page_title">Roadmap</span>
 <hr size="1" noshade="noshade" width="100%" />
 <br />
-<span class="section">Mantis 0.19.0</span>
+
+<span class="section">Mantis 1.1.0</span>
 <ul>
-	<li><b>Main Features</b></li>
+	<li><b>Databases</b></li>
 	<ul>
-		<li><b>[done]</b> Sponsorships</li>
-		<li><b>[done]</b> Issue relationships (Duplicate of, Related to, Parent of, etc.)</li>
-		<li><b>[done]</b> My View page for providing the user with a one page summary of relevant information.</li>
-		<li><b>[done]</b> Database abstraction through using ADODB (http://php.weblogs.com/ADODB).</li>
-		<li><b>[done]</b> Advanced Filters</li>
-		<li><b>[done]</b> Changelog</li>
-	</ul>
-	<br />
-
-	<li><b>Filters</b></li>
-	<ul>
-		<li><b>[done]</b> Support saving of filters.</li>
-		<li><b>[done]</b> Support filtering by date range.</li>
-		<li><b>[done]</b> Support filtering on custom fields.</li>
-		<li><b>[done]</b> Store filters in database rather than cookies.</li>
-		<li><b>[done]</b> Create enhanced filters on all/more fields (eg: resolution, monitored by, fixed in version, ...etc).</li>
-        <li><b>[done]</b> Create advanced filters with multiple selection support.</li>
+		<li>Official support for MS SQL Server (several fixes during installation and normal usage).</li>
+		<li>Add experimental Oracle support.</li>
 	</ul>
 
 	<br />
 
-	<li><b>Email Notifications</b></li>
+	<li><b>Configuration</b></li>
 	<ul>
-		<li><b>[done]</b> Only support PHPMailer for sending emails. Bundle PHPMailer with Mantis.</li>
-		<li><b>[done]</b> Send an email per user.</li>
+		<li>Provide a screen that reports all the configuration data stored in the database.</li>
+		<li>Provide means for administrators to set configuration from Mantis UI.</li>
+		<li>Provide means for administrators to set general, project specific, user specifc, project+user specific configurations.</li>
 	</ul>
+
 	<br />
 
-	<li><b>Custom Fields</b></li>
+	<li><b>Features</b></li>
 	<ul>
-		<li><b>[done]</b> Support custom fields in resolved/closed bug page.</li>
-		<li><b>[done]</b> Make custom fields mandatory at reporting, updating, resolving, or closing stage.</li>
-		<li><b>[done]</b> Support list box custom fields</li>
+		<li>Support authenticated RSS feeds for news, issues and issue filters.</li>
 	</ul>
+
 	<br />
 
-	<li><b>Miscellaneous</b></li>
+	<li><b>Packages</b></li>
 	<ul>
-		<li><b>[done]</b> Remove Documentation links</li>
-		<li><b>[done]</b> Fixed in Version</li>
-		<li><b>[done]</b> Forgot password support</li>
+		<li>Upgrade to ADODB v4.80.</li>
+		<li>Upgrade to PHPMailer 1.73.</li>
 	</ul>
 </ul>
+
 <br />
 
-<span class="section">Mantis 0.19.1</span>
+<span class="section">Mantis 2.0</span>
 <ul>
-	<li><b>General</b></li>
-	<ul>
-		<li><b>[done]</b> Relationship graphs.</li>
-		<li><b>[done]</b> Fixing search in notes.</li>
-		<li><b>[done]</b> Ability to specify project id on changelog url.</li>
-		<li><b>[done]</b> Add [prev] / [next] to navigate between issues.</li>
-		<li><b>[done]</b> Summary should only show information about accessible projects.</li>
-	</ul>
-</ul>
-
-
-<span class="section">Mantis 1.0.0</span>
-<ul>
-	<li><b>General</b></li>
-	<ul>
-		<li>Mantis Logo</li>
-		<li>Support PHP v5</li>
-		<li>Provide API to allow users to implement custom linking with external user database (eg: NIS, LDAP, Content Management, Email Server)</li>
-	</ul>
-
-	<br />
-
 	<li><b>Templates (probably http://smarty.php.net)</b></li>
 	<ul>
 		<li>Allow users to choose any subset of supported fields in view/update/print pages.</li>
@@ -89,39 +54,17 @@
 
 	<br />
 
-	<li><b>Move configurations to database</b></li>
-	<ul>
-		<li>Allow control such configuration through web pages.</li>
-		<li>Allow per project settings, per user settings, per user/per project settings.</li>
-	</ul>
-
-	<br />
-
 	<li><b>Database</b></li>
 	<ul>
-		<li>Official support for MS SQL</li>
-		<li>Official support for PostgreSQL</li>
-		<li>Change database upgrade system to get rid of db_generate (version per DBMS) and to have a db version rather than upgrade list</li>
-		<li>Add primary key (category_id) to category table.</li>
+		<li>Add primary key to every table (eg category lack this)</li>
 		<li>Add indices to improve performance, specially for the free text search feature.</li>
 	</ul>
 
 	<br />
 
-	<li><b>Custom Fields</b></li>
-	<ul>
-		<li>Support auto-populated custom fields (eg: version), this will probably use custom functions.</li>
-		<li>Support date custom fields</li>
-	</ul>
-</ul>
-
-<?php
-/*
-?>
-<span class="section">Future</span>
-<ul>
 	<li><b>Email Notifications</b></li>
 	<ul>
+		<li>Optional support for queueing email notifications in a database table, and sending them using a cronjob.</li>
 		<li>Add optional support for HTML emails.</li>
 		<li>Add email templates (where the user can provide a template for the email message, and values can be substitute in the user's template).</li>
 		<li>Email footer and header templates.</li>
@@ -131,24 +74,22 @@
 	</ul>
 
 	<br />
+</ul>
+
+<?php
+/*
+?>
+<span class="section">Future</span>
+<ul>
+
+	<br />
 
 	<li><b>Javascript</b></li>
 	<ul>
 		<li>Rename forms to avoid conflicts</li>
 		<li>Auto focus for entry fields</li>
 		<li>Disable Submit Button after clicking to prevent double entry Javascript</li>
-		<li>Add Select All for view all bugs page</li>
 		<li>Highlight Table Rows on mouse over.  Clicking will make highlight sticky.</li>
-	</ul>
-
-	<br />
-
-	<li><b>Database</b></li>
-	<ul>
-		<li>Add Database Indexes</li>
-		<li>Add PK to every bug table (eg version and category lack this)</li>
-		<li>Renamed id to more descriptive names (bug_id, project_id, etc.)</li>
-		<li>Move configuration variables into the database</li>
 	</ul>
 
 	<br />
@@ -158,7 +99,6 @@
 		<li>Breakup Report bug page into sections to improve readability.</li>
 		<li>Breakup per project access list like user list (alpha groupings).</li>
 		<li>Remove Operation Succeed messages.</li>
-		<li>Make sure all delete operations have a confirmation page.</li>
 	</ul>
 
 	<br />
@@ -174,7 +114,6 @@
 	<li><b>RSS</b></li>
 	<ul>
 		<li>Replace existing RSS with http://freshmeat.net/projects/feedcreator/ to be compliant with GPL.</li>
-		<li>RSS for Issues.</li>
 	</ul>
 
 	<br />
