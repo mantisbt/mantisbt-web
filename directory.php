@@ -42,6 +42,7 @@ please download it and reference it from your site to reduce the load on the Man
 		entry( 'AlphaCarina Software GmbH', 'http://www.alphacarina.de/' );
 		entry( 'Applied Informatics', 'http://www.appinf.com/' );
 		entry( 'Asterisk Project', 'http://www.digium.com/', 'http://bugs.digium.com/' );
+		entry( 'Asystance', 'http://www.asystance.nl/' );
 		entry( 'Avenity', 'http://www.avenity.com/' );
 		entry( 'Axon Pro', 'http://www.axonpro.sk/', null );
 		entry( 'AYS Systems', 'http://www.ayssystems.co.uk/', null );
@@ -82,6 +83,7 @@ please download it and reference it from your site to reduce the load on the Man
 		entry( 'Easy To Work', 'http://www.easytowork.nl/' );
 		entry( 'eboxy', 'http://eboxy.sourceforge.net/', 'http://eboxy.sourceforge.net/mantis/' );
 		entry( 'Edoceo, Inc.', 'http://www.edoceo.com/', null );
+		entry( 'Emphasis Development', 'http://www.emphasisdevelopment.com/', 'http://www.emphasisdevelopment.com/mantis/' );
 		entry( 'encoway', 'http://www.encoway.de/', null );
 		entry( 'EPICS', 'http://www.aps.anl.gov/epics/', 'http://www.aps.anl.gov/epics/mantis/' );
 	section_end();
@@ -95,6 +97,7 @@ please download it and reference it from your site to reduce the load on the Man
 
 	section( 'G' );
 		entry( 'Gambit Consulting', 'http://www.gambit.de/' );
+		entry( 'German Aerospace Center (DLR)', 'http://www.dlr.de/' );
 		entry( 'GROU.PS', 'http://grou.ps/' );
 		entry( 'Gruppo Tesi', 'http://www.gruppotesi.com/' );
 	section_end();
@@ -134,6 +137,7 @@ please download it and reference it from your site to reduce the load on the Man
 	section( 'M' );
 		entry( 'MantisConnect', 'http://www.futureware.biz/mantisconnect/', 'http://www.futureware.biz/mantis/' );
 		entry( 'MediaPortal', 'http://mediaportal.sourceforge.net/', 'http://nolanparty.com/mediaportal.sourceforge.net/mantis/' );
+		entry( 'Mfatix Co., Ltd.', 'http://www.mfatix.com/', 'http://www.mfatix/com/issues/' );
 	section_end();
 
 	section( 'N' );
@@ -150,6 +154,7 @@ please download it and reference it from your site to reduce the load on the Man
 
 	section( 'P' );
 		entry( 'Particracy', 'http://www.particracy.net/' );
+		entry( 'phpayment', 'http://www.phpayment.de/', 'http://bugs.phpayment.de/' );
 		entry( 'phpBB', 'http://phpbb-php5mod.sourceforge.net/', 'http://phpbb-php5mod.sourceforge.net/bugs/' );
 		entry( 'phpWebnotes', 'http://www.futureware.biz/webnotes/', 'http://www.futureware.biz/mantis/' );
 		entry( 'PHPlist', 'http://www.phplist.com/', 'http://mantis.tincan.co.uk/' );
@@ -183,14 +188,17 @@ please download it and reference it from your site to reduce the load on the Man
 		entry( 'SCS Software', 'http://www.scssoft.com' );
 		entry( 'SCTV', 'http://sctv.ucsc.edu/', 'http://sctv.ucsc.edu/mantis/' );
 		entry( 'SELEX SI - Gematronik Weather Radar Systems', 'http://www.gematronik.com/' );
+		entry( 'seracom gmbh', 'http://seracom.org/' );
 		entry( 'Shadow', 'https://sourceforge.net/projects/shadow/', 'http://www.open-shadow.org/mantis/' );
 		entry( 'six apart', 'http://www.sixapart.com/', 'http://sixapart.com/mantis/' );
 		entry( 'SkyGate International', 'http://www.skygate.dk/' );
 		entry( 'SourceFubar.Net', 'http://www.sourcefubar.net/', 'http://bugs.sourcefubar.net/' );
+		entry( 'Soficol', 'http://www.soficol.com/' );
 		entry( 'Soft-Gems', 'http://www.soft-gems.net/', 'http://support.soft-gems.net/mantis/' );
 	section_end();
 
 	section( 'T' );
+		entry( 'TanuSoft', 'http://www.tanusoft.com/' );
 		entry( 'Theratech', 'http://www.theratech.de/', 'http://www.support.theratech.de/' );
 		entry( 'Thornsoft Development, Inc.', 'http://www.thornsoft.com/', 'http://www.thornsoft.com/mantis/' );
 		entry( 'Timber Windows', 'http://www.timberwindows.com/' );
