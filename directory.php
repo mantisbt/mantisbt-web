@@ -56,6 +56,7 @@ please download it and reference it from your site to reduce the load on the Man
 	section_end();
 
 	section( 'C' );
+		entry( 'CalidStyle', 'http://www.calidstyle.com' );
 		entry( 'Candis Group (Beijing)', 'http://www.candis.com.cn/', null );
 		entry( 'CAPSHER Technology, Inc.', 'http://www.capsher.com/', null );
 		entry( 'Cel Kunststoffen', 'http://celkunststoffen.khlim.be/cel/', null );
