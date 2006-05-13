@@ -18,6 +18,7 @@
 				</td>
 				<td width="50%">
 <p align="right">Sponsors:
+<a href="http://www.layoutbank.com/" title="http://www.layoutbank.com" target="_blank">PSD Web Templates</a>, 
 <a href="http://www.dubaiapartments.biz/" title="Dubai Apartments" target="_blank">Dubai Apartments</a>, 
 <a href="http://www.solidstatenetworks.com/" title="Content Delivery Network" target="_blank">Content Delivery Network</a>, 
 <a href="http://www.webservertalk.com/" title="Forum for IT admins" target="_blank">Web Server Talk</a>,

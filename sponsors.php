@@ -6,6 +6,15 @@
 <p>Mantis team is proud to feature the following companies as sponsors of our site.  For information on joining our sponsor group please contact "vboctor at users dot sourceforge dot net".</p>
 
 <table border="0" cellspacing="0" cellpadding="10">
+
+	<?php /* Sponsor ad placed on 12-MAY-2006 */ ?>
+	<tr>
+		<td><center><a href="http://www.layoutbank.com/" target="_blank"><img src="images/sponsors/ctlogo.jpg" border="0" alt="LayoutBank" width="97" height="85" /></a></center></td>
+		<td>
+			<a href="http://www.layoutbank.com/">http://www.layoutbank.com</a> is amongst the oldest and biggest web site for aesthetically designed, high quality professional psd, web and flash templates for the web. LayoutBank is a pioneer to superior and high quality web design templates.
+		</td>
+	</tr>
+
 	<?php /* Sponsor ad placed on 16-APR-2006 */ ?>
 	<tr>
 		<td><a href="http://www.dubaiapartments.biz/" target="_blank"><img src="images/sponsors/dalogo.gif" border="0" alt="Content Delivery Network" width="187" height="51" /></a></td>
