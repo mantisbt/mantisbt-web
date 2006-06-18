@@ -237,7 +237,7 @@ Please follow the <a href="guidelines.php">Mantis Coding Conventions</a>.
 <p>
 <span class="section">CVS commits</span>
 <p>
-Please keep comits short and focused. Ideally you would check in all the files affects by your change(s) at one time.  You should try to commit after every bugfix or feature addition.  Make sure your commit note tells enough so that another developer (familiar with the project) can make sense of what changes were made.  Information might include files, functions and variables that were modified.
+Please keep commits short and focused. Ideally you would check in all the files affects by your change(s) at one time.  You should try to commit after every bugfix or feature addition.  Make sure your commit note tells enough so that another developer (familiar with the project) can make sense of what changes were made.  Information might include files, functions and variables that were modified.
 <p>
 e.g. cvs ci -m "Modified view_all_bug page so that column alignment is better across browsers" view_all_bug_page.php
 <p>
