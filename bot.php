@@ -12,12 +12,9 @@
 
 		<table width="100%">
 			<tr valign="MIDDLE">
-				<td width="50%">
-					<address>&nbsp;&nbsp;&nbsp;Last modified: <?php echo date( "M d, Y - H:m T", getlastmod() )?></address>
-					<address>&nbsp;&nbsp;&nbsp;Copyright (C) 2000-2006</address>
-				</td>
-				<td width="50%">
+				<td width="100%">
 <p align="right">Sponsors:
+<a href="http://www.wischmop-shop.de/" title="http://www.wischmop-shop.de" target="_blank">Wischmop</a>, 
 <a href="http://www.layoutbank.com/" title="http://www.layoutbank.com" target="_blank">PSD Web Templates</a>, 
 <a href="http://www.dubaiapartments.biz/" title="Dubai Apartments" target="_blank">Dubai Apartments</a>, 
 <a href="http://www.solidstatenetworks.com/" title="Content Delivery Network" target="_blank">Content Delivery Network</a>, 

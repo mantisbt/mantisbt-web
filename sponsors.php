@@ -7,6 +7,14 @@
 
 <table border="0" cellspacing="0" cellpadding="10">
 
+	<?php /* Sponsor ad placed on 02-JUL-2006 */ ?>
+	<tr>
+		<td><center><a href="http://www.wischmop-shop.de/" target="_blank"><img src="images/sponsors/wischmoplogo.jpg" border="0" alt="Wischmop Shop" width="200" height="42" /></a></center></td>
+		<td>
+			<a href="http://www.wischmop-shop.de/">http://www.wischmop-shop.de</a> sells High-Quality Products for Floor and Glas Cleaning.  Our products are all made by ourselves.
+		</td>
+	</tr>
+
 	<?php /* Sponsor ad placed on 12-MAY-2006 */ ?>
 	<tr>
 		<td><center><a href="http://www.layoutbank.com/" target="_blank"><img src="images/sponsors/ctlogo.jpg" border="0" alt="LayoutBank" width="97" height="85" /></a></center></td>
