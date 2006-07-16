@@ -7,6 +7,22 @@
 
 <table border="0" cellspacing="0" cellpadding="10">
 
+	<?php /* Sponsor ad placed on 14-JUL-2006 */ ?>
+	<tr>
+		<td><center><a href="http://www.foxy.co.uk/" target="_blank"><img src="images/sponsors/foxylogo.jpg" border="0" alt="Foxy" width="200" height="60" /></a></center></td>
+		<td>
+			<a href="http://www.foxy.co.uk/">Foxy</a> sells cheap DVDs, CDs and games for Xbox 360, Playstation, PS2, PSP, Nintendo Game Cube and Nintendo DS with free UK delivery.
+		</td>
+	</tr>
+
+	<?php /* Sponsor ad placed on 14-JUL-2006 */ ?>
+	<tr>
+		<td><center><a href="http://www.dubaifa.com/" target="_blank"><img src="images/sponsors/dfalogo.jpg" border="0" alt="Dubai Beach Apartments" width="200" height="50" /></a></center></td>
+		<td>
+			<a href="http://www.dubaifa.com/">Dubai Beach Apartments</a> offers self catering holiday apartments and holiday villas for rent as well as hotel apartments rental in Dubai beach on short term basis.
+		</td>
+	</tr>
+
 	<?php /* Sponsor ad placed on 02-JUL-2006 */ ?>
 	<tr>
 		<td><center><a href="http://www.wischmop-shop.de/" target="_blank"><img src="images/sponsors/wischmoplogo.jpg" border="0" alt="Wischmop Shop" width="200" height="42" /></a></center></td>
