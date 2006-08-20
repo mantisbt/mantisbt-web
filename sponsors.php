@@ -7,19 +7,35 @@
 
 <table border="0" cellspacing="0" cellpadding="10">
 
-	<?php /* Sponsor ad placed on 14-JUL-2006 */ ?>
+	<?php /* Sponsor ad placed on 05-AUG-2006 */ ?>
 	<tr>
-		<td><center><a href="http://www.foxy.co.uk/" target="_blank"><img src="images/sponsors/foxylogo.jpg" border="0" alt="Foxy" width="200" height="60" /></a></center></td>
+		<td><center><a href="http://www.absolute-software.co.uk/" target="_blank"><img src="images/sponsors/abssoftlogo.png" border="0" alt="Embedded Programming Services" width="80" height="80" /></a></center></td>
 		<td>
-			<a href="http://www.foxy.co.uk/">Foxy</a> sells cheap DVDs, CDs and games for Xbox 360, Playstation, PS2, PSP, Nintendo Game Cube and Nintendo DS with free UK delivery.
+			<a href="http://www.absolute-software.co.uk/">Absolute Software Ltd</a> provides embedded programming services and PC programming solutions. From simple drivers to complete multiprocessor systems, all on a fixed price basis.
+		</td>
+	</tr>
+
+	<?php /* Sponsor ad placed on 26-JUL-2006 */ ?>
+	<tr>
+		<td><center><a href="http://www.abcmodelsport.net/" target="_blank"><img src="images/sponsors/abcmodellogo.gif" border="0" alt="Radio Control Cars" width="200" height="60" /></a></center></td>
+		<td>
+			<a href="http://www.abcmodelsport.net/">radio control cars</a> from abcmodelsport.net. A model shop supplying radio control cars, planes, tanks, helicopters, plastic model kits, scalextric and much more!
 		</td>
 	</tr>
 
 	<?php /* Sponsor ad placed on 14-JUL-2006 */ ?>
 	<tr>
-		<td><center><a href="http://www.dubaifa.com/" target="_blank"><img src="images/sponsors/dfalogo.jpg" border="0" alt="Dubai Beach Apartments" width="200" height="50" /></a></center></td>
+		<td><center><a href="http://www.foxy.co.uk/" target="_blank"><img src="images/sponsors/foxylogo.jpg" border="0" alt="Foxy" width="200" height="60" /></a></center></td>
 		<td>
-			<a href="http://www.dubaifa.com/">Dubai Beach Apartments</a> offers self catering holiday apartments and holiday villas for rent as well as hotel apartments rental in Dubai beach on short term basis.
+			<a href="http://www.foxy.co.uk/" title="Cheap DVDs, cheap CDs and cheap Games for Xbox 360, PSP, PS2, Nintendo DS, Game Cube and Playstation 1" target="blank">Foxy.co.uk - Cheap DVDs, CDs and Games</a> - Foxy sells cheap DVDs, CDs and games for Xbox 360, Playstation, PS2, PSP, Nintendo Game Cube and Nintendo DS with free UK delivery. 
+		</td>
+	</tr>
+
+	<?php /* Sponsor ad placed on 14-JUL-2006 */ ?>
+	<tr>
+		<td><center><a href="http://www.dubaifurnishedapartments.com/" target="_blank"><img src="images/sponsors/dfalogo.jpg" border="0" alt="Dubai Beach Apartments" width="200" height="50" /></a></center></td>
+		<td>
+			<a href="http://www.dubaifurnishedapartments.com/">Dubai Beach Apartments</a> offers self catering holiday apartments and holiday villas for rent as well as hotel apartments rental in Dubai beach on short term basis.
 		</td>
 	</tr>
 

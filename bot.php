@@ -14,8 +14,10 @@
 			<tr valign="MIDDLE">
 				<td width="100%">
 <p align="right">Sponsors:
+<a href="http://www.absolute-software.co.uk/" title="Embedded Programming Services" target="_blank">Embedded Programming</a>, 
+<a href="http://www.abcmodelsport.net/" title="Radio Control Cars" target="_blank">Radio Control Cars</a>, 
 <a href="http://www.foxy.co.uk/" title="Discount DVDs, CDs and Games" target="_blank">Foxy</a>, 
-<a href="http://www.dubaifa.com/" title="Dubai Beach Apartments" target="_blank">Dubai Beach Apartments</a>, 
+<a href="http://www.dubaifurnishedapartments.com/" title="Dubai Beach Apartments" target="_blank">Dubai Beach Apartments</a>, 
 <a href="http://www.wischmop-shop.de/" title="http://www.wischmop-shop.de" target="_blank">Wischmop</a>, 
 <a href="http://www.layoutbank.com/" title="http://www.layoutbank.com" target="_blank">PSD Web Templates</a>, 
 <a href="http://www.dubaiapartments.biz/" title="Dubai Apartments" target="_blank">Dubai Apartments</a>, 
