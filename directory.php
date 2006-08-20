@@ -37,10 +37,13 @@ please download it and reference it from your site to reduce the load on the Man
 
 <?php
 	section( 'A' );
+		entry( 'Absolute Software', 'http://www.absolute-software.co.uk/' );
 		entry( 'AG SOFTWARE', 'http://www.agsoftware.hu/' );
 		entry( 'aitools.org', 'http://aitools.org/' );
 		entry( 'AlphaCarina Software GmbH', 'http://www.alphacarina.de/' );
+		entry( 'ALSA project', 'http://www.alsa-project.org/', 'https://bugtrack.alsa-project.org/alsa-bug/login_page.php' );
 		entry( 'Applied Informatics', 'http://www.appinf.com/' );
+		entry( 'ASEP', 'http://www.asepgroup.com' );
 		entry( 'Asterisk Project', 'http://www.digium.com/', 'http://bugs.digium.com/' );
 		entry( 'Asystance', 'http://www.asystance.nl/' );
 		entry( 'Avenity', 'http://www.avenity.com/' );
@@ -51,6 +54,7 @@ please download it and reference it from your site to reduce the load on the Man
 	section( 'B' );
 		entry( 'Backslash', 'http://www.backslash.com.au/', null );
 		entry( 'Base4 Sistemas', 'http://www.base4.com.br/', null );
+		entry( 'BBR Verkehrstechnik GmbH', 'http://www.bbr-vt.de/' );
 		entry( 'Beyond Ordinary Software Solutions', 'http://www.beyond-ordinary.com/', null );
 		entry( 'BigSoft Limited', 'http://www.bigsoft.co.uk/', null );
 	section_end();
@@ -73,6 +77,7 @@ please download it and reference it from your site to reduce the load on the Man
 
 	section( 'D' );
 		entry( 'Dataprom', 'http://www.dataprom.com/' );
+		entry( 'Deganius', 'http://www.deganius.de/' );
 		entry( 'DeniX Solutions', 'http://denixsolutions.com/' );
 		entry( 'Digital Edge Software &amp; Consulting', 'http://www.digitaledgesw.com' );
 		entry( 'Dr. WEB', 'http://www.drweb.com/', 'http://bugs.drweb.com/' );
@@ -83,6 +88,7 @@ please download it and reference it from your site to reduce the load on the Man
 		entry( 'Earth Systems Science Computational Centre (ESSCC)', 'http://www.esscc.uq.edu.au' );
 		entry( 'Easy To Work', 'http://www.easytowork.nl/' );
 		entry( 'eboxy', 'http://eboxy.sourceforge.net/', 'http://eboxy.sourceforge.net/mantis/' );
+		entry( 'ebswift.com', 'http://www.ebswift.com/', 'http://www.ebswift.com/bugtrack/mantis/' );
 		entry( 'Edoceo, Inc.', 'http://www.edoceo.com/', null );
 		entry( 'Emphasis Development', 'http://www.emphasisdevelopment.com/', 'http://www.emphasisdevelopment.com/mantis/' );
 		entry( 'encoway', 'http://www.encoway.de/', null );
@@ -90,6 +96,8 @@ please download it and reference it from your site to reduce the load on the Man
 	section_end();
 
 	section( 'F' );
+		entry( 'FileVision', 'http://www.filevision.net' );
+		entry( 'Florian Müller GmbH', 'http://www.florian-mueller.de' );
 		entry( 'Forum One Communications', 'http://www.forumone.com/' );
 		entry( 'Fraunhofer IPSI', 'http://ipsi.fraunhofer.de/concert/' );
 		entry( 'French ministry of culture and communication, IT department', 'http://www.culture.gouv.fr/' );
@@ -99,6 +107,8 @@ please download it and reference it from your site to reduce the load on the Man
 	section( 'G' );
 		entry( 'Gambit Consulting', 'http://www.gambit.de/' );
 		entry( 'German Aerospace Center (DLR)', 'http://www.dlr.de/' );
+		entry( 'GigaVoice - Internet Marketing & Outsourcing Solutions', 'http://gigavoice.com' );
+		entry( 'GRAMPS', 'http://www.gramps-project.org', 'http://bugs.gramps-project.org' );
 		entry( 'GROU.PS', 'http://grou.ps/' );
 		entry( 'Gruppo Tesi', 'http://www.gruppotesi.com/' );
 	section_end();
@@ -114,6 +124,7 @@ please download it and reference it from your site to reduce the load on the Man
 		entry( 'Illumen', 'http://www.illumen.co.uk/' );
 		entry( 'Intra2net', 'http://www.intra2net.com/' );
 		entry( 'Institute for Computational Biomedicine (ICB)', 'http://icb.med.cornell.edu/', 'http://icbtools.med.cornell.edu/mantis/' );
+		entry( 'INTEC International GmbH', 'http://www.intec-international.com/' );
 		entry( 'inveress.net', 'http://www.inveress.net/' );
 		entry( 'I-Tul Design & Software', 'http://www.i-tul.com/' );
 	section_end();
@@ -122,6 +133,7 @@ please download it and reference it from your site to reduce the load on the Man
 		entry( 'Jack Audio Connection Kit', 'http://jackit.sourceforge.net/', 'http://jackit.sourceforge.net/mantis/' );
 		entry( 'JavlinConsulting', 'http://www.javlinconsulting.com/' );
 		entry( 'julitec', 'http://www.julitec.de/' );
+		entry( 'Juno Records', 'http://www.juno.co.uk' );
 	section_end();
 
 	section( 'K' );
@@ -129,6 +141,7 @@ please download it and reference it from your site to reduce the load on the Man
 	section_end();
 
 	section( 'L' );
+		entry( 'Lachowski Datensysteme GmbH', 'http://www.lacho.net' );
 		entry( 'LanAction', 'http://lanaction.sourceforge.net/', 'http://lanaction.sourceforge.net/bugtracker/' );
 		entry( 'LifeType', 'http://www.lifetype.de/', 'http://bugs.lifetype.net/' );
 		entry( 'LIVEwwware', 'http://www.livewwware.com/', 'http://mantis.livewwware.com/' );
@@ -139,16 +152,20 @@ please download it and reference it from your site to reduce the load on the Man
 		entry( 'MantisConnect', 'http://www.futureware.biz/mantisconnect/', 'http://www.futureware.biz/mantis/' );
 		entry( 'MediaPortal', 'http://mediaportal.sourceforge.net/', 'http://nolanparty.com/mediaportal.sourceforge.net/mantis/' );
 		entry( 'Mfatix Co., Ltd.', 'http://www.mfatix.com/', 'http://www.mfatix/com/issues/' );
+		entry( 'MiTo Team', 'http://mito.exofire.net/' );
+
 	section_end();
 
 	section( 'N' );
 		entry( 'National Centre for Applied Learning Technologies (NCALT)', 'http://www.ncalt.com' );
 		entry( 'Navigo Systems', 'http://www.navigo.com.au/' );
 		entry( 'Nox Wizard', 'http://noxwizard.sourceforge.net/', 'http://noxwizard.sourceforge.net/mantis/' );
+		entry( 'NWEA', 'http://www.nwea.org' );
 	section_end();
 
 	section( 'O' );
 		entry( 'Olate', 'http://www.olate.co.uk/', 'http://www.olate.co.uk/tracker/' );
+		entry( 'OLS Software', 'http://www.ols.co.il' );
 		entry( 'OpenFlyers', 'http://openflyers.org/', 'http://bts.openflyers.org/' );
 		entry( 'OtwarteRozwiazania', 'http://www.OtwarteRozwiazania.com/', 'http://mantis.OtwarteRozwiazania.com/' );
 	section_end();
@@ -196,6 +213,7 @@ please download it and reference it from your site to reduce the load on the Man
 		entry( 'SourceFubar.Net', 'http://www.sourcefubar.net/', 'http://bugs.sourcefubar.net/' );
 		entry( 'Soficol', 'http://www.soficol.com/' );
 		entry( 'Soft-Gems', 'http://www.soft-gems.net/', 'http://support.soft-gems.net/mantis/' );
+		entry( 'Solo Group, Inc.', 'http://www.sologroup.com/' );
 	section_end();
 
 	section( 'T' );
