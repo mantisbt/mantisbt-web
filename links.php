@@ -4,7 +4,7 @@
 <hr size="1" noshade="noshade" width="100%" />
 
 <p><b>MantisConnect</b></p>
-<p>This tool allows the following applications to integrate with Mantis:</p>
+<p><a href="http://www.futureware.biz/mantisconnect/">MantisConnect</a> allows the following applications to integrate with Mantis:</p>
 <ul>
 	<li>.NET Applications</li>
 	<li>Java Applications</li>
@@ -14,7 +14,8 @@
 	<li>Applications that can access webservices</li>
 </ul>
 
-<p>For more information go to <a href="http://www.futureware.biz/mantisconnect/">MantisConnect website</a>.</p>
+<p><b>MantisWAP</b></p>
+<p><a href="http://www.futureware.biz/mantiswap">MantisWAP</a> provides WAP enabled phones and PDAs with easy access to Mantis Bugtracker. This is a great asset for support staff and developers who need to access Mantis while on the go. MantisWAP can easily be integrated with existing Mantis installations without having to modify the existing Mantis code.</p>
 
 <p><b>Integration with Source Control</b></p>
 <ul>
