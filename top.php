@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
-<link rel="alternate" type="application/rss+xml" title="RSS" href="http://bugs.mantisbt.org/news_rss.php?project_id=1">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://bugs.mantisbugtracker.com/news_rss.php?project_id=1">
 <title>Mantis Bug Tracker</title>
 <?php include( "mantis.css" ) ?>
 </head>
@@ -15,7 +15,7 @@
 		<table width="100%" border="0" cellspacing="0" cellpadding="0">
 			<tr valign="top">
 				<td class="top_left">
-					<a href="http://www.mantisbt.org/"><img border="0" src="images/mantis_logo.gif" alt="Mantis" /></a>
+					<a href="http://www.mantisbugtracker.com/"><img border="0" src="images/mantis_logo.gif" alt="Mantis" /></a>
 				</td>
 				<td class="top_right">
 					<div align="right">
@@ -23,21 +23,22 @@
 						<tr>
 						<td><a href="sponsors.php"><img src="images/banners.gif" width="20" height="60" border="0" alt="Sponsors" /></a></td>
 						<td>
-						<script type="text/javascript"><!--
-							google_ad_client = "pub-0979518001849295";
-							google_ad_width = "468";
-							google_ad_height = "60";
-							google_ad_format = "468x60_as";
-							google_ad_channel ="3585048648";
-							google_color_border = "B8B8FF";
-							google_color_bg = "FFFFFF";
-							google_color_link = "4080D0";
-							google_color_url = "3070C0";
-							google_color_text = "000000";
-						//--></script>
-						<script type="text/javascript"
-							src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-						</script>
+<script type="text/javascript"><!--
+google_ad_client = "pub-0025921896787428";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_ad_type = "text_image";
+google_ad_channel ="9322764039";
+google_color_border = "B8B8FF";
+google_color_bg = "FFFFFF";
+google_color_link = "0000FF";
+google_color_text = "000000";
+google_color_url = "4080D0";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
 						</td>
 						<td><a href="sponsors.php"><img src="images/advertise.gif" width="20" height="60" border="0" alt="Advertise" /></a></td>
 						</tr>
@@ -50,13 +51,13 @@
 </tr>
 <tr class="top">
 	<td class="middle" colspan="3">
-<!-- SiteSearch Google -->
+<!-- SiteSearch Google 
 <form method="get" action="http://www.google.com/custom" target="_top">
-<input type="hidden" name="domains" value="mantisbt.org">
+<input type="hidden" name="domains" value="mantisbugtracker.com">
 <input type="radio" name="sitesearch" value="">
 <font size="-1" color="#000000">Web</font>
-<input type="radio" name="sitesearch" value="mantisbt.org" checked="checked">
-<font size="-1" color="#000000">mantisbt.org</font>
+<input type="radio" name="sitesearch" value="mantisbugtracker.com" checked="checked">
+<font size="-1" color="#000000">mantisbugtracker.com</font>
 &nbsp;
 <input type="text" name="q" size="25" maxlength="255" value="">
 <input type="submit" name="sa" value="Search">
@@ -68,7 +69,7 @@
 <input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;">
 <input type="hidden" name="hl" value="en">
 </form>
-<!-- SiteSearch Google -->
+ SiteSearch Google -->
 	</td>
 </tr>
 <tr valign="top" bgcolor="#ffffff">
