@@ -7,6 +7,14 @@
 
 <table border="0" cellspacing="0" cellpadding="10">
 
+	<?php /* Sponsor ad placed on 08-SEP-2006 */ ?>
+	<tr>
+		<td><center><a href="http://www.upscene.com/" target="_blank"><img src="images/sponsors/upscenelogo.gif" border="0" alt="Upscene Productions" width="200" height="51" /></a></center></td>
+		<td>
+			<a href="http://www.upscene.com/">Upscene Productions</a> is a company creating Windows applications for database developers for many different database systems. Their tools aid software developers in doing their jobs faster and better.
+		</td>
+	</tr>
+
 	<?php /* Sponsor ad placed on 05-AUG-2006 */ ?>
 	<tr>
 		<td><center><a href="http://www.absolute-software.co.uk/" target="_blank"><img src="images/sponsors/abssoftlogo.png" border="0" alt="Embedded Programming Services" width="80" height="80" /></a></center></td>
