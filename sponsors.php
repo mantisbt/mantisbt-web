@@ -6,6 +6,13 @@
 <p>Mantis team is proud to feature the following companies as sponsors of our site.  For information on joining our sponsor group please contact "vboctor at users dot sourceforge dot net".</p>
 
 <table border="0" cellspacing="0" cellpadding="10">
+	<?php /* Sponsor ad placed on 11-SEP-2006 */ ?>
+	<tr>
+		<td><center><a href="http://www.singletanz.de/" target="_blank"><img src="images/sponsors/singletanzlogo.gif" border="0" alt="SINGLETANZ - Tanzschulen, Tanz-DVD" width="156" height="60" /></a></center></td>
+		<td>
+			<a href="http://www.singletanz.de/">SINGLETANZ - Tanzschulen, Tanz-DVD</a> is Germany's greatest dancing portal, which provides a search engine with ordering system for dancing schools, dancing classes and dancing partners.
+		</td>
+	</tr>
 
 	<?php /* Sponsor ad placed on 08-SEP-2006 */ ?>
 	<tr>
