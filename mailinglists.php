@@ -2,10 +2,7 @@
 
 <span class="page_title">Mailing Lists</span>
 <hr size="1" noshade="noshade" width="100%" />
-<p>
-
-Signup for the mailing lists.  These are very low traffic since most people seem to use the <a href="forums.php">forums</a> or just email me directly. <b>Please use the forums or the mailing lists for general help questions.</b>
-<p>
+<p>Signup for the mailing lists.  These are very low traffic since most people seem to use the <a href="http://forums.mantisbugtracker.com">forums</a>.  Please use the forums or the mailing lists for general help questions.  Discussion of development issues is mainly done using the mailing list.</p>
 <ul>
 <table width="90%">
 <tr>
@@ -75,7 +72,7 @@ Signup for the mailing lists.  These are very low traffic since most people seem
 		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=9396">Archives</a>
 	</td>
 	<td>
-		Mantis development talk.
+		A message is sent to this whenever new code is committed to Mantis CVS.
 	</td>
 </tr>
 </table>

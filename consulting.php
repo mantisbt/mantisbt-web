@@ -40,18 +40,6 @@ We recommend you use Mantis for a short period to see what changes would best fi
 		<b>Region</b>
 	</td>
 </tr>
-<!--<tr>
-	<td>
-		Kenzaburo Ito
-	</td>
-	<td>
-		HTML |
-		<a href="resume/Kenzaburo-Ito-Resume.doc">Word</a>
-	</td>
-	<td>
-		US
-	</td>
-</tr>-->
 <tr>
 	<td>
 		Glenn Henshaw
@@ -91,7 +79,7 @@ We recommend you use Mantis for a short period to see what changes would best fi
 		available upon request
 	</td>
 	<td>
-		Australia/Asia
+		USA
 	</td>
 </tr>
 </table>
