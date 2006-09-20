@@ -36,6 +36,10 @@ your company is not listed below, or you know of an open source project that use
 please download it and reference it from your site to reduce the load on the Mantis web server.</p>
 
 <?php
+	section( '0-9' );
+		entry( '4eyes', 'http://www.4eyes.ch' );
+	section_end();
+
 	section( 'A' );
 		entry( 'Absolute Software', 'http://www.absolute-software.co.uk/' );
 		entry( 'AG SOFTWARE', 'http://www.agsoftware.hu/' );

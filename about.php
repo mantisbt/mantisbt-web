@@ -54,7 +54,7 @@ The release numbering convention used is <b>major.minor.micro</b> (eg. 0.18.2).
 <span class="section">How to Help</span>
 <p>
 <ul>
-	<li>Report real bugs to the <a href="mantis/">Development Bugtracker</a>.</li>
+	<li>Report real bugs to the <a href="http://bugs.mantisbugtracker.com/">Development Bugtracker</a>.</li>
 	<li>Suggest (reasonable) features.</li>
 	<li>Contribute code or tell us where to look.</li>
 	<li><b>Let us know if you find it useful</b>.  We won't publish the information without permission, but we appreciate the feedback!</li>
