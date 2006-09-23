@@ -14,6 +14,7 @@
 			<tr valign="MIDDLE">
 				<td width="100%">
 <p align="right">Sponsors:
+<a href="http://www.strategiclandinvestments.co.uk/" title="Land for Sale" target="_blank">Land for Sale</a>,
 <a href="http://www.openwebdesign.org/" title="Open Web Design" target="_blank">Open Web Design</a>,
 <a href="http://www.singletanz.de/" title="SINGLETANZ - Tanzschulen, Tanz-DVD" target="_blank">SINGLETANZ</a>,
 <a href="http://www.upscene.com/" title="Upscene Productions" target="_blank">Upscene Productions</a>, 

@@ -6,6 +6,14 @@
 <p>Mantis team is proud to feature the following companies as sponsors of our site.  For information on joining our sponsor group please contact "vboctor at users dot sourceforge dot net".</p>
 
 <table border="0" cellspacing="0" cellpadding="10">
+	<?php /* Sponsor ad placed on 22-SEP-2006 */ ?>
+	<tr>
+		<td><center><a href="http://www.strategiclandinvestments.co.uk/" target="_blank"><img src="images/sponsors/slilogo.gif" border="0" alt="Land for Sale" width="200" height="80" /></a></center></td>
+		<td>
+			<a href="http://www.strategiclandinvestments.co.uk/">Strategic Land Investments</a> offer freehold land for sale in the UK as an investment. All land sold is freehold land with full title deeds.
+		</td>
+	</tr>
+
 	<?php /* Sponsor ad placed on 12-SEP-2006 */ ?>
 	<tr>
 		<td><center><a href="http://www.openwebdesign.org/" target="_blank"><img src="images/sponsors/openwebdesignlogo.png" border="0" alt="Open Web Design" width="200" height="38" /></a></center></td>
