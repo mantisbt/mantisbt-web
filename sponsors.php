@@ -6,6 +6,23 @@
 <p>Mantis team is proud to feature the following companies as sponsors of our site.  For information on joining our sponsor group please contact "vboctor at users dot sourceforge dot net".</p>
 
 <table border="0" cellspacing="0" cellpadding="10">
+
+	<?php /* Sponsor ad placed on 26-OCT-2006 */ ?>
+	<tr>
+		<td><center><a href="http://www.skiamade-obertauern.de/" target="_blank"><img src="images/sponsors/targetlogo.gif" border="0" alt="Webkatalog Obertauern &amp; Ski Amade" width="200" height="58" /></a></center></td>
+		<td>
+			<a href="http://www.skiamade-obertauern.de/">Target</a> - www.Dienstleistungen GmbH offers quality listings at: http://www.skiamade-obertauern.de for the Austrian Skiing - Areas Obertauern &amp; Ski Amade - near Salzburg.
+		</td>
+	</tr>
+
+	<?php /* Sponsor ad placed on 15-OCT-2006 */ ?>
+	<tr>
+		<td><center><a href="http://www.dubaishortstay.com/" target="_blank"><img src="images/sponsors/dubaishortstaylogo.jpg" border="0" alt="Dubai Apartments - Dubai Villas - Find a Quality Dubai Apartment or Dubai Villa" width="195" height="33" /></a></center></td>
+		<td>
+			<a href="http://www.dubaishortstay.com/">Dubai Short Stay</a> offers listings of quality furnished Dubai apartments and villas make it easy for you to find the apartment or villa of your choice.
+		</td>
+	</tr>
+
 	<?php /* Sponsor ad placed on 22-SEP-2006 */ ?>
 	<tr>
 		<td><center><a href="http://www.strategiclandinvestments.co.uk/" target="_blank"><img src="images/sponsors/slilogo.gif" border="0" alt="Land for Sale" width="200" height="80" /></a></center></td>

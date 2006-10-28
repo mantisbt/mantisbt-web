@@ -43,9 +43,11 @@ please download it and reference it from your site to reduce the load on the Man
 	section( 'A' );
 		entry( 'Absolute Software', 'http://www.absolute-software.co.uk/' );
 		entry( 'AG SOFTWARE', 'http://www.agsoftware.hu/' );
+		entry( 'AirBus', 'http://www.airbus.com/' ); 
 		entry( 'aitools.org', 'http://aitools.org/' );
 		entry( 'AlphaCarina Software GmbH', 'http://www.alphacarina.de/' );
 		entry( 'ALSA project', 'http://www.alsa-project.org/', 'https://bugtrack.alsa-project.org/alsa-bug/login_page.php' );
+		entry( 'Altima Web Systems', 'http://www.altima.com.ua/en/', 'http://altima.com.ua/bugtracking/main_page.php' );
 		entry( 'Applied Informatics', 'http://www.appinf.com/' );
 		entry( 'ASEP', 'http://www.asepgroup.com' );
 		entry( 'Asterisk Project', 'http://www.digium.com/', 'http://bugs.digium.com/' );
@@ -77,12 +79,15 @@ please download it and reference it from your site to reduce the load on the Man
 		entry( 'Convergys', 'http://www.convergys.com/', null );
 		entry( 'csUnit', 'http://www.csunit.org/', null );
 		entry( 'CVn', 'http://www.cavern.pl' );
+		entry( 'C-Toys', 'http://www.ctoys.ru' );
 	section_end();
 
 	section( 'D' );
 		entry( 'Dataprom', 'http://www.dataprom.com/' );
 		entry( 'Deganius', 'http://www.deganius.de/' );
 		entry( 'DeniX Solutions', 'http://denixsolutions.com/' );
+		entry( 'die_schnittsteller', 'http://www.schnittsteller.de/' );
+		entry( 'Digimap (Guernsey) Ltd', 'http://www.digimap.gg/' );
 		entry( 'Digital Edge Software &amp; Consulting', 'http://www.digitaledgesw.com' );
 		entry( 'Dr. WEB', 'http://www.drweb.com/', 'http://bugs.drweb.com/' );
 		entry( 'dotProject', 'http://www.dotproject.net/', 'http://www.dotproject.net/mantis/' );
@@ -157,7 +162,7 @@ please download it and reference it from your site to reduce the load on the Man
 		entry( 'MediaPortal', 'http://mediaportal.sourceforge.net/', 'http://nolanparty.com/mediaportal.sourceforge.net/mantis/' );
 		entry( 'Mfatix Co., Ltd.', 'http://www.mfatix.com/', 'http://www.mfatix/com/issues/' );
 		entry( 'MiTo Team', 'http://mito.exofire.net/' );
-
+		entry( 'Monkrat', 'http://www.monkrat.com/' );
 	section_end();
 
 	section( 'N' );
@@ -240,6 +245,7 @@ please download it and reference it from your site to reduce the load on the Man
 	section( 'V' );
 		entry( 'Vantage Controls', 'http://www.vantagecontrols.com' );
 		entry( 'Vicus eBusiness Solutions', 'http://www.vicus.nl/ticketmanagement' );
+		entry( 'Vitalina Web Technologies', 'http://www.vitalina-web-technologies.com/', 'http://bugtrack.vitalina-web-technologies.com/' );
 	section_end();
 
 	section( 'W' );
