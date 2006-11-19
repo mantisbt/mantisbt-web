@@ -1,4 +1,8 @@
-<?php include( "top.php" ); ?>
+<?php
+	$t_sub_title = "Security";
+
+	include( "top.php" );
+?>
 
 <span class="page_title">Security</span>
 <hr size="1" noshade="noshade" width="100%" />

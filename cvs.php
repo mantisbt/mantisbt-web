@@ -1,4 +1,8 @@
-<?php include( "top.php" ); ?>
+<?php
+	$t_sub_title = "Source Control";
+
+	include( "top.php" );
+?>
 
 <span class="page_title">Source Code</span>
 

@@ -3,11 +3,37 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+<meta name="description" content="Mantis Bugtracker is an open source bug tracker developed in PHP." />
+<meta name="keywords" content="mantis, bugtracker, bug, tracker, issue, software" />
+<meta name="dc.title" content="Mantis Bugtracker" />
+<meta name="revisit-after" content="1 days" />
 <link rel="alternate" type="application/rss+xml" title="RSS" href="http://bugs.mantisbugtracker.com/news_rss.php?project_id=1">
-<title>Mantis Bug Tracker</title>
+<title>Mantis Bug Tracker<?php if ( isset( $t_sub_title ) ) { echo " | $t_sub_title"; } ?></title>
 <?php include( "mantis.css" ) ?>
 </head>
 <body>
+
+<center><table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td align="center">
+<div align="center" style="background-color:#FFFFCC; top:0px; position: absolute; left:0px; width: 100%; height: 20px; font-size:12px; padding-top:3px; border-bottom: 2px solid #bebebe;">
+<big>.:
+<a href="http://www.futureware.biz/mantisconnect/">MantisConnect</a> | 
+<a href="http://www.futureware.biz/mantiswap/">MantisWAP</a> | 
+<a href="hosting.php">Hosting</a> | 
+<a href="http://www.futureware.biz/mantisdemo">Demo</a> | 
+<a href="sponsors.php">Sponsors</a> | 
+<a href="directory.php">Users</a> | 
+<a href="http://manual.mantisbugtracker.com">Manual</a> | 
+<a href="http://forums.mantisbugtracker.com">Forums</a> | 
+<a href="http://wiki.mantisbugtracker.com">Wiki</a>
+:.</big>
+
+</div></td>
+</tr>
+</table></center>
+<br clear="all" />
+<br />
 
 <table class="outside" cellpadding="5" cellspacing="0">
 <tr class="top">

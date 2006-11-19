@@ -14,6 +14,8 @@
 			<tr valign="MIDDLE">
 				<td width="100%">
 <p align="right">Sponsors:
+<a href="http://www.coveo.com/" title="Coveo" target="_blank">Coveo</a>,
+<a href="http://www.aoemedia.de/typo3_dienstleister.html" title="AOE media GmbH (TYPO3)" target="_blank">AOE media GmbH (TYPO3)</a>,
 <a href="http://www.gnadenalm.at/" title="The Gnadenalm in Obertauern - Salzburg." target="_blank">Obertauern</a>,
 <a href="http://www.skiamade-obertauern.de/" title="Obertauern &amp; Ski Amade" target="_blank">Obertauern &amp; Ski Amade</a>,
 <a href="http://www.dubaishortstay.com/" title="Dubai Apartments - Dubai Villas - Find a Quality Dubai Apartment or Dubai Villa" target="_blank">Dubai Short Stay</a>,

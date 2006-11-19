@@ -1,4 +1,8 @@
-<?php include( "top.php" ); ?>
+<?php
+	$t_sub_title = "Localization";
+
+	include( "top.php" );
+?>
 
 <?php
 	function print_lang( $p_language ) {

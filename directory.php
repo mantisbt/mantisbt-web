@@ -1,6 +1,8 @@
-<?php include( "top.php" ); ?>
+<?php 
+	$t_sub_title = "Users Directory";
 
-<?php
+	include( "top.php" );
+
 	$g_entry_count = 0;
 
 	function section( $p_letter ) {
@@ -48,6 +50,7 @@ please download it and reference it from your site to reduce the load on the Man
 		entry( 'AlphaCarina Software GmbH', 'http://www.alphacarina.de/' );
 		entry( 'ALSA project', 'http://www.alsa-project.org/', 'https://bugtrack.alsa-project.org/alsa-bug/login_page.php' );
 		entry( 'Altima Web Systems', 'http://www.altima.com.ua/en/', 'http://altima.com.ua/bugtracking/main_page.php' );
+		entry( 'AOE Media GmbH', 'http://www.aoemedia.de/' );
 		entry( 'Applied Informatics', 'http://www.appinf.com/' );
 		entry( 'ASEP', 'http://www.asepgroup.com' );
 		entry( 'Asterisk Project', 'http://www.digium.com/', 'http://bugs.digium.com/' );
@@ -161,8 +164,10 @@ please download it and reference it from your site to reduce the load on the Man
 		entry( 'MantisConnect', 'http://www.futureware.biz/mantisconnect/', 'http://www.futureware.biz/mantis/' );
 		entry( 'MediaPortal', 'http://mediaportal.sourceforge.net/', 'http://nolanparty.com/mediaportal.sourceforge.net/mantis/' );
 		entry( 'Mfatix Co., Ltd.', 'http://www.mfatix.com/', 'http://www.mfatix/com/issues/' );
+		entry( 'MindTribe Product Engineering', 'http://www.mindtribe.com/' );
 		entry( 'MiTo Team', 'http://mito.exofire.net/' );
 		entry( 'Monkrat', 'http://www.monkrat.com/' );
+		entry( 'Mytholos', 'http://www.mytholos.com/' );
 	section_end();
 
 	section( 'N' );
@@ -198,6 +203,8 @@ please download it and reference it from your site to reduce the load on the Man
 	section_end();
 
 	section( 'R' );
+	
+		entry( 'Radiant Core', 'http://www.radiantcore.com/' );
 		entry( 'RageIRCd', 'http://rageircd.sourceforge.net/', 'http://rageircd.sourceforge.net/mantis/' );
 		entry( 'RealDecoy', 'http://www.realdecoy.com/' );
 		entry( 'Redwood Custom Communications', 'http://www.redwoodcc.com/' );

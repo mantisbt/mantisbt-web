@@ -1,4 +1,8 @@
-<?php include( "top.php" ); ?>
+<?php
+	$t_sub_title = "Sponsors";
+
+	include( "top.php" );
+?>
 
 <span class="page_title">Sponsors</span>
 <hr size="1" noshade="noshade" width="100%" />
@@ -6,6 +10,22 @@
 <p>Mantis team is proud to feature the following companies as sponsors of our site.  For information on joining our sponsor group please contact "victor at futureware dot com dot au".</p>
 
 <table border="0" cellspacing="0" cellpadding="10">
+
+	<?php /* Sponsor ad placed on 15-NOV-2006 */ ?>
+	<tr>
+		<td><center><a href="http://www.coveo.com/" target="_blank"><img src="images/sponsors/coveologo.jpg" border="0" alt="Coveo" width="150" height="80" /></a></center></td>
+		<td>
+			<a href="http://www.coveo.com/" target="_blank">Coveo</a> develops award winning enterprise secure search engine applications that deliver secure, accurate access to structured and unstructured information across the enterprise. A version tightly integrated within Microsoft SharePoint is also available. Contact our support team to learn how you can leverage the information stored in Mantis using Coveo Enterprise Search.
+		</td>
+	</tr>
+
+	<?php /* Sponsor ad placed on 07-NOV-2006 */ ?>
+	<tr>
+		<td><center><a href="http://www.aoemedia.de/typo3_dienstleister.html" target="_blank"><img src="images/sponsors/aoelogo.gif" border="0" alt="AOE media GmbH" width="200" height="80" /></a></center></td>
+		<td>
+			<a href="http://www.aoemedia.de/typo3_dienstleister.html" target="_blank">AOE media GmbH</a> was among the first to ever start working with the world's most used OpenSource CMS System TYPO3 commercially. Since 2002 we have specialised on providing economical TYPO3 Content Management Solutions, which has in turn won us hundreds of well established clients. With a list of over 300 TYPO3 projects we can look back at a long TYPO3 project history.
+		</td>
+	</tr>
 
 	<?php /* Sponsor ad placed on 29-OCT-2006 */ ?>
 	<tr>

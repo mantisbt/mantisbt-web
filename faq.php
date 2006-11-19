@@ -1,4 +1,8 @@
-<?php include( "top.php" ); ?>
+<?php
+	$t_sub_title = "FAQ";
+
+	include( "top.php" );
+?>
 
 <?php include("faq.html") ?>
 

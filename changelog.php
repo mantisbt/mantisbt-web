@@ -1,4 +1,8 @@
-<?php include( "top.php" ); ?>
+<?php
+	$t_sub_title = "Changelog";
+
+	include( "top.php" );
+?>
 
 <span class="page_title">ChangeLog</span>
 <hr size="1" noshade="noshade" width="100%" />

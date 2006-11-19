@@ -12,6 +12,7 @@
 				<a class="big" href="http://bugs.mantisbugtracker.com/">Bugtracker</a><br />
 				<a class="big" href="http://www.futureware.biz/mantisconnect">MantisConnect</a><br />
 				<a class="big" href="http://www.futureware.biz/mantiswap">MantisWAP</a><br />
+				<a class="big" href="hosting.php">Mantis Hosted</a><br />
 				<a class="big" href="download.php">Download</a><br />
 				<!--<a class="big" href="screenshots.php">Screenshots</a><br />-->
 				<!--<a class="big" href="me.php">Author</a><br />-->
@@ -33,6 +34,7 @@
 				<a href="links.php">Links</a><br />
 				<a href="directory.php">Users Directory</a><br />
 				<a href="sponsors.php">Sponsors</a><br />
+				<a href="hosting.php">Hosting</a><br />
 			</td>
 		</tr>
 		<tr>
@@ -81,6 +83,8 @@
 		<tr>
 			<td class="menu_sf">
 <br />
+<a href="http://www.dreamhost.com/r.cgi?246268" target="_blank"><img border="0" src="http://www.dreamhost.com/images/rewards/125x31-a.gif" alt="Dream Host" width="125" height="31" /></a>
+<br /><br />
 <!-- Donation -->
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">

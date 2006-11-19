@@ -1,4 +1,8 @@
-<?php include( "top.php" ); ?>
+<?php
+	$t_sub_title = "Consulting";
+
+	include( "top.php" );
+?>
 
 <span class="page_title">Consulting</span>
 <hr size="1" noshade="noshade" width="100%" />
@@ -52,20 +56,6 @@ We recommend you use Mantis for a short period to see what changes would best fi
 	</td>
 	<td>
 		Canada
-	</td>
-</tr>
-<tr>
-	<td>
-		Jeroen Latour
-	</td>
-	<td>
-		Administrator
-	</td>
-	<td>
-		<a href="http://www.calaquendi.net/resume.html">HTML</a>
-	</td>
-	<td>
-		Europe
 	</td>
 </tr>
 <tr>
