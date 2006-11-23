@@ -11,6 +11,14 @@
 
 <table border="0" cellspacing="0" cellpadding="10">
 
+	<?php /* Sponsor ad placed on 22-NOV-2006 */ ?>
+	<tr>
+		<td><center><a href="http://www.vectorpedia.com/" target="_blank"><img src="images/sponsors/vectorpedialogo.gif" border="0" alt="Vectorpedia" width="200" height="80" /></a></center></td>
+		<td>
+			<a href="http://www.vectorpedia.com/" target="_blank">Vectorpedia</a> is a premier human edited web directory organized by region and category which offers informative SEO friendly websites. Our news section provides the viewer with over 50,000 articles of valuable content.
+		</td>
+	</tr>
+
 	<?php /* Sponsor ad placed on 15-NOV-2006 */ ?>
 	<tr>
 		<td><center><a href="http://www.coveo.com/" target="_blank"><img src="images/sponsors/coveologo.jpg" border="0" alt="Coveo" width="150" height="80" /></a></center></td>

@@ -7,7 +7,7 @@
 		<tr>
 			<td class="menu_items">
 				<a class="big" href="index.php">Home</a><br />
-				<a class="big" href="about.php">About</a><br />
+				<a class="big" href="http://wiki.mantisbugtracker.com/doku.php/mantisbt:features">Feature List</a><br />
 				<a class="big" href="http://www.futureware.biz/mantisdemo">Demo</a><br />
 				<a class="big" href="http://bugs.mantisbugtracker.com/">Bugtracker</a><br />
 				<a class="big" href="http://www.futureware.biz/mantisconnect">MantisConnect</a><br />

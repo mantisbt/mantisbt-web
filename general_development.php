@@ -132,7 +132,7 @@ cvs -n update
 </pre> will pretend to do an update.  This is useful to check and see what files have been modifed without modifying your files locally.<p>
 
 <ul>
-	<li>Signup on the <a href="http://mantisbt.sourceforge.net/mantis/">demo bugtracker</a></li>
+	<li>Signup on the <a href="demo.php">demo bugtracker</a></li>
 	<li>Signup on the <a href="http://mantisbt.sourceforge.net/mailinglists.php">developer mailing list</a></li>
 </ul>
 <ul>

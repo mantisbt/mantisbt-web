@@ -14,6 +14,7 @@
 			<tr valign="MIDDLE">
 				<td width="100%">
 <p align="right">Sponsors:
+<a href="http://www.vectorpedia.com/" title="Vectorpedia" target="_blank">Vectorpedia</a>,
 <a href="http://www.coveo.com/" title="Coveo" target="_blank">Coveo</a>,
 <a href="http://www.aoemedia.de/typo3_dienstleister.html" title="AOE media GmbH (TYPO3)" target="_blank">AOE media GmbH (TYPO3)</a>,
 <a href="http://www.gnadenalm.at/" title="The Gnadenalm in Obertauern - Salzburg." target="_blank">Obertauern</a>,
@@ -58,6 +59,15 @@
 	</td>
 </tr>
 </table>
+
+<!-- Google Analytics -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-330112-2";
+urchinTracker();
+</script>
+<!-- End of Google Analytics -->
 
 </body>
 </html>
