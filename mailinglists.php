@@ -14,10 +14,13 @@
 		mantisbt-announce
 	</td>
 	<td width="15%">
-		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-announce">Signup</a>
+		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-announce" target="_blank">Signup</a>
 	</td>
 	<td width="15%">
-		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=7369">Archives</a>
+		<a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.announce" target="_blank">GMANE Archives</a>
+	</td>
+	<td width="15%">
+		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=7369" target="_blank">SourceForge Archives</a>
 	</td>
 	<td width="50%">
 		Be notified of releases and any important updates.
@@ -31,10 +34,13 @@
 		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-help">Signup</a>
 	</td>
 	<td>
-		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=1436">Archives</a>
+		<a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.general" target="_blank">GMANE Archives</a>
 	</td>
 	<td>
-		Ask for help.
+		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=1436">SourceForge Archives</a>
+	</td>
+	<td>
+		Ask for help (check the mailing list archives and the <a href="/forums">forums</a> first.
 	</td>
 </tr>
 <tr>
@@ -45,7 +51,10 @@
 		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-lang">Signup</a>
 	</td>
 	<td>
-		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=38714">Archives</a>
+		<a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.localization" target="_blank">GMANE Archives</a>
+	</td>
+	<td>
+		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=38714">SourceForge Archives</a>
 	</td>
 	<td>
 		Mantis localization efforts.
@@ -59,7 +68,10 @@
 		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-dev">Signup</a>
 	</td>
 	<td>
-		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=3264">Archives</a>
+		<a href="http://gmane.org/info.php?group=gmane.comp.bug-tracking.mantis.devel" target="_blank">GMANE Archives</a>
+	</td>
+	<td>
+		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=3264">SourceForge Archives</a>
 	</td>
 	<td>
 		Mantis development talk.
@@ -73,7 +85,10 @@
 		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-cvs">Signup</a>
 	</td>
 	<td>
-		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=9396">Archives</a>
+		<a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.cvs" target="_blank">GMANE Archives</a>
+	</td>
+	<td>
+		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=9396">SourceForge Archives</a>
 	</td>
 	<td>
 		A message is sent to this whenever new code is committed to Mantis CVS.

@@ -11,6 +11,30 @@
 
 <table border="0" cellspacing="0" cellpadding="10">
 
+	<?php /* Sponsor ad placed on 13-DEC-2006 */ ?>
+	<tr>
+		<td><center><a href="http://hitflip.de/" target="_blank"><img src="images/sponsors/hitfliplogo.gif" border="0" alt="Tauschen bei Hitflip" width="135" height="70" /></a></center></td>
+		<td>
+			<a href="http://hitflip.de/" target="_blank">Hitflip</a> is a trading / bartering plattform for all sorts of media products like books, music CDs, audiobooks, DVDs / Movies / Videos and games.
+		</td>
+	</tr>
+
+	<?php /* Sponsor ad placed on 27-NOV-2006 */ ?>
+	<tr>
+		<td><center><a href="http://www.woxikon.de/" target="_blank"><img src="images/sponsors/woxikonlogo.jpg" border="0" alt="Woxikon" width="156" height="60" /></a></center></td>
+		<td>
+			<a href="http://www.woxikon.de/" target="_blank">Woxikon</a> is an online word translation dictionary for English, German, French, Italian and Spanish terms.  Browseable word lists are available and provide a comprehensive list of translated terms and synonyms.  Simple clean and quick interface.
+		</td>
+	</tr>
+
+	<?php /* Sponsor ad placed on 25-NOV-2006 */ ?>
+	<tr>
+		<td><center><a href="http://www.phonewebcam.com/" target="_blank"><img src="images/sponsors/phonewebcamlogo.jpg" border="0" alt="Phonewebcam" width="200" height="80" /></a></center></td>
+		<td>
+			<a href="http://www.phonewebcam.com/" target="_blank">Phonewebcam</a> lets you view your home or business securely on your mobile phone, as well as public webcams such as traffic, cities and wildlife. This app runs on any java handset - 3G not necessary! Visit the website for some great free PC downloads and more information.
+		</td>
+	</tr>
+
 	<?php /* Sponsor ad placed on 22-NOV-2006 */ ?>
 	<tr>
 		<td><center><a href="http://www.vectorpedia.com/" target="_blank"><img src="images/sponsors/vectorpedialogo.gif" border="0" alt="Vectorpedia" width="200" height="80" /></a></center></td>
@@ -53,7 +77,7 @@
 
 	<?php /* Sponsor ad placed on 15-OCT-2006 */ ?>
 	<tr>
-		<td><center><a href="http://www.dubaishortstay.com/" target="_blank"><img src="images/sponsors/dubaishortstaylogo.jpg" border="0" alt="Dubai Apartments - Dubai Villas - Find a Quality Dubai Apartment or Dubai Villa" width="195" height="33" /></a></center></td>
+		<td><center><a href="http://www.dubaishortstay.com/" title="Dubai Apartments - Dubai Villas - Find a Quality Dubai Apartment or Dubai Villa" target="_blank"><img src="images/sponsors/dubaishortstaylogo.jpg" border="0" alt="Dubai Apartments - Dubai Villas - Find a Quality Dubai Apartment or Dubai Villa" width="195" height="33" /></a></center></td>
 		<td>
 			<a href="http://www.dubaishortstay.com/" target="_blank">Dubai Short Stay</a> offers listings of quality furnished Dubai apartments and villas make it easy for you to find the apartment or villa of your choice.
 		</td>

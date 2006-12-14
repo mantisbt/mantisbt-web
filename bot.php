@@ -14,12 +14,16 @@
 			<tr valign="MIDDLE">
 				<td width="100%">
 <p align="right">Sponsors:
+<a href="http://hitflip.de/" target="_blank">Tauschen bei Hitflip</a>,
+<a href="http://www.comwebhosting.co.uk" title="Englisch">COM Web Hosting</a>,
+<a href="http://www.woxikon.de" title="Englisch">Englisch</a>,
+<a href="http://www.phonewebcam.com/" title="Phonewebcam" target="_blank">Phonewebcam</a>,
 <a href="http://www.vectorpedia.com/" title="Vectorpedia" target="_blank">Vectorpedia</a>,
 <a href="http://www.coveo.com/" title="Coveo" target="_blank">Coveo</a>,
 <a href="http://www.aoemedia.de/typo3_dienstleister.html" title="AOE media GmbH (TYPO3)" target="_blank">AOE media GmbH (TYPO3)</a>,
 <a href="http://www.gnadenalm.at/" title="The Gnadenalm in Obertauern - Salzburg." target="_blank">Obertauern</a>,
 <a href="http://www.skiamade-obertauern.de/" title="Obertauern &amp; Ski Amade" target="_blank">Obertauern &amp; Ski Amade</a>,
-<a href="http://www.dubaishortstay.com/" title="Dubai Apartments - Dubai Villas - Find a Quality Dubai Apartment or Dubai Villa" target="_blank">Dubai Short Stay</a>,
+<a href="http://www.dubaishortstay.com/" title="Dubai Apartments - Dubai Villas - Find a Quality Dubai Apartment or Dubai Villa" target="_blank">Dubai Apartments - Dubai Villas</a>,
 <a href="http://www.strategiclandinvestments.co.uk/" title="Land for Sale" target="_blank">Land for Sale</a>,
 <a href="http://www.openwebdesign.org/" title="Open Web Design" target="_blank">Open Web Design</a>,
 <a href="http://www.singletanz.de/" title="SINGLETANZ - Tanzschulen, Tanz-DVD" target="_blank">SINGLETANZ</a>,

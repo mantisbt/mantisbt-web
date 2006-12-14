@@ -3,13 +3,14 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
-<meta name="description" content="Mantis Bugtracker is an open source bug tracker developed in PHP." />
+<meta name="description" content="Mantis is a popular free web-based bug tracking system. It is written in the PHP scripting language and works with MySQL, MS SQL, and PostgreSQL databases and a webserver. Mantis has been installed on Windows, Linux, Mac OS, OS/2, and others. Almost any web browser should be able to function as a client. It is released under the terms of the GNU General Public License (GPL)." />
 <meta name="keywords" content="mantis, bugtracker, bug, tracker, issue, software" />
 <meta name="dc.title" content="Mantis Bugtracker" />
 <meta name="revisit-after" content="1 days" />
 <link rel="alternate" type="application/rss+xml" title="RSS" href="http://bugs.mantisbugtracker.com/news_rss.php?project_id=1">
 <title>Mantis Bug Tracker<?php if ( isset( $t_sub_title ) ) { echo " | $t_sub_title"; } ?></title>
 <?php include( "mantis.css" ) ?>
+<script defer id="snap_preview_anywhere" type="text/javascript" src="http://spa.snap.com/snap_preview_anywhere.js?ap=1&amp;key=fab5c85eda0766eb3764595a8e374954&amp;sb=1&amp;domain=www.mantisbt.org"></script>
 </head>
 <body>
 
@@ -26,7 +27,9 @@
 <a href="directory.php">Users</a> | 
 <a href="http://manual.mantisbugtracker.com">Manual</a> | 
 <a href="http://forums.mantisbugtracker.com">Forums</a> | 
-<a href="http://wiki.mantisbugtracker.com">Wiki</a>
+<a href="http://wiki.mantisbugtracker.com">Wiki</a> |
+<a href="http://bugs.mantisbugtracker.com">Bug Tracker</a> | 
+<a href="consulting.php">Consulting</a>
 :.</big>
 
 </div></td>
@@ -41,7 +44,7 @@
 		<table width="100%" border="0" cellspacing="0" cellpadding="0">
 			<tr valign="top">
 				<td class="top_left">
-					<a href="http://www.mantisbugtracker.com/"><img border="0" src="images/mantis_logo.gif" alt="Mantis" /></a>
+					<a href="/"><img border="0" width="242" height="102" src="images/mantis_logo.gif" alt="Mantis Bug Tracker Logo" /></a>
 				</td>
 				<td class="top_right">
 					<div align="right">
@@ -49,6 +52,10 @@
 						<tr>
 						<td><a href="sponsors.php"><img src="images/banners.gif" width="20" height="60" border="0" alt="Sponsors" /></a></td>
 						<td>
+<?php
+// if ( strstr( $_SERVER['HTTP_HOST'], 'mantisbt.org' ) === false ) {
+	if ( false ) {
+?>
 <script type="text/javascript"><!--
 google_ad_client = "pub-0025921896787428";
 google_ad_width = 468;
@@ -65,6 +72,18 @@ google_color_url = "4080D0";
 <script type="text/javascript"
   src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
+<?php } else { ?>
+<!-- Begin: AdBrite -->
+<script type="text/javascript">
+   var AdBrite_Title_Color = '0000FF';
+   var AdBrite_Text_Color = '000000';
+   var AdBrite_Background_Color = 'FFFFFF';
+   var AdBrite_Border_Color = 'FFFFFF';
+</script>
+<span style="white-space:nowrap;"><script src="http://ads.adbrite.com/mb/text_group.php?sid=191899&zs=3436385f3630" type="text/javascript"></script><!--
+--><a target="_top" href="http://www.adbrite.com/mb/commerce/purchase_form.php?opid=191899&afsid=1"><img src="http://files.adbrite.com/mb/images/adbrite-your-ad-here-banner.gif" style="background-color:#FFFFFF" alt="Your Ad Here" width="11" height="60" border="0" /></a></span>
+<!-- End: AdBrite -->
+<?php } ?>
 						</td>
 						<td><a href="sponsors.php"><img src="images/advertise.gif" width="20" height="60" border="0" alt="Advertise" /></a></td>
 						</tr>

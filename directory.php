@@ -16,9 +16,9 @@
 		$g_entry_count++;
 
 		if ( null === $p_mantis_url ) {
-			echo "<li><a href=\"$p_url\" target=\"_blank\">$p_name</a></li>\n";
+			echo "<li><a href=\"$p_url\" target=\"_blank\" rel=\"nofollow\">$p_name</a></li>\n";
 		} else {
-			echo "<li><a href=\"$p_url\" target=\"_blank\">$p_name</a> (<a href=\"$p_mantis_url\" target=\"_blank\">public</a>)</li>\n";
+			echo "<li><a href=\"$p_url\" target=\"_blank\" rel=\"nofollow\">$p_name</a> (<a href=\"$p_mantis_url\" target=\"_blank\" rel=\"nofollow\">public</a>)</li>\n";
 		}
 	}
 
