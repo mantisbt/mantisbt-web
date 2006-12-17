@@ -31,6 +31,12 @@
 	<li><a href="http://opensso.sourceforge.net/">Open SSO</a> - Provides a plug-in to login to Mantis using X509 certificates.</li>
 </ul>
 
+<p><b>Open Source Libraries used by Mantis</b></p>
+<ul>
+<li><a href="http://phpmailer.sourceforge.net" title="Free Open Source PHP Library for Sending Emails">PHPMailer</a></li>
+<li><a href="http://adodb.sourceforge.net" title="Free Open Source PHP Library for Database Abstraction">ADODB</a></li>
+</ul>
+
 <p><b>Links to sites which gets Mantis to work with...</b></p>
 <ul>
 <li><a href="http://www.freshports.org/databases/mantis/">FreeBSD (Fresh Ports)</a></li>
@@ -43,7 +49,7 @@
 <p><b>Migration Tools</b></p>
 <ul>
 <li><a href="http://www.cadencetools.org/projects/bugzilla2mantis/" target="_blank">Bugzilla to Mantis</a> (Perl) by <a href="http://crisdaniluk.com/" target="_blank">Cris Daniluk</a></li>
-<li><a href="http://bugs.mantisbugtracker.com/view.php?id=6934" target="_blank">GNATs to Mantis</a> (Perl) by Colin Pitrat</li>
+<li><a href="http://www.mantisbt.org/bugs/view.php?id=6934" target="_blank">GNATs to Mantis</a> (Perl) by Colin Pitrat</li>
 </ul>
 
 <p><b>Articles and Reviews</b></p>

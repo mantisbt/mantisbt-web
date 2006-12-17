@@ -7,8 +7,8 @@
 		</tr>
 		<tr>
 			<td class="menu_items">
-				<a href="http://manual.mantisbugtracker.com/">Manual</a><br />
-				<a href="http://wiki.mantisbugtracker.com/">Wiki</a><br />
+				<a href="/manual/">Manual</a><br />
+				<a href="/wiki/">Wiki</a><br />
 				<a href="sponsors.php">Sponsors</a><br />
 				<a href="directory.php">Users Directory</a><br />
 				<a href="links.php">Links</a><br />
@@ -37,7 +37,7 @@
 		<tr>
 			<td class="menu_items">
 				<a href="irc.php">IRC</a><br />
-				<a href="http://forums.mantisbugtracker.com/">Forums</a><br />
+				<a href="/forums/">Forums</a><br />
 				<a href="mailinglists.php">Mailing Lists</a><br />
 			</td>
 		</tr>
@@ -79,8 +79,8 @@
 </form>
 <!-- end of donation -->
 <br />
-				<br /><a href="http://www.mantisbugtracker.com/"><img src="images/mantis_logo_button.gif" width="88" height="35" border="0" alt="Mantis"></a><br />	
-				<br /><a href="http://sourceforge.net/projects/mantisbt/"><img src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo"></a><br />
+				<br /><img src="images/mantis_logo_button.gif" width="88" height="35" border="0" alt="Mantis"><br />	
+				<br /><img src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo"><br />
 <!--
 				<br /><a href="http://www.php.net/"><img src="images/php-small-white.gif" border="0" alt="PHP"></a><br />
 				<br /><a href="http://freshmeat.net/projects/mantis/"><img src="images/fmII-logo.gif" border="0" alt="Freshmeat.net"></a><br />

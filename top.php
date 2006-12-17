@@ -7,7 +7,7 @@
 <meta name="keywords" content="mantis, bugtracker, bug, tracker, issue, software" />
 <meta name="dc.title" content="Mantis Bugtracker" />
 <meta name="revisit-after" content="1 days" />
-<link rel="alternate" type="application/rss+xml" title="RSS" href="http://bugs.mantisbugtracker.com/news_rss.php?project_id=1">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.mantisbt.org/bugs/news_rss.php?project_id=1">
 <title>Mantis Bug Tracker<?php if ( isset( $t_sub_title ) ) { echo " | $t_sub_title"; } ?></title>
 <?php include( "mantis.css" ) ?>
 <script defer id="snap_preview_anywhere" type="text/javascript" src="http://spa.snap.com/snap_preview_anywhere.js?ap=1&amp;key=fab5c85eda0766eb3764595a8e374954&amp;sb=1&amp;domain=www.mantisbt.org"></script>
@@ -25,10 +25,10 @@
 <a href="http://www.futureware.biz/mantisdemo">Demo</a> | 
 <a href="sponsors.php">Sponsors</a> | 
 <a href="directory.php">Users</a> | 
-<a href="http://manual.mantisbugtracker.com">Manual</a> | 
-<a href="http://forums.mantisbugtracker.com">Forums</a> | 
-<a href="http://wiki.mantisbugtracker.com">Wiki</a> |
-<a href="http://bugs.mantisbugtracker.com">Bug Tracker</a> | 
+<a href="/manual/">Manual</a> | 
+<a href="/forums/">Forums</a> | 
+<a href="/wiki/">Wiki</a> |
+<a href="/bugs/">Bug Tracker</a> | 
 <a href="consulting.php">Consulting</a>
 :.</big>
 
@@ -44,7 +44,7 @@
 		<table width="100%" border="0" cellspacing="0" cellpadding="0">
 			<tr valign="top">
 				<td class="top_left">
-					<a href="/"><img border="0" width="242" height="102" src="images/mantis_logo.gif" alt="Mantis Bug Tracker Logo" /></a>
+					<a href="http://www.mantisbt.org/"><img border="0" width="242" height="102" src="images/mantis_logo.gif" alt="Mantis Bug Tracker Logo" /></a>
 				</td>
 				<td class="top_right">
 					<div align="right">
@@ -98,11 +98,11 @@ google_color_url = "4080D0";
 	<td class="middle" colspan="3">
 <!-- SiteSearch Google 
 <form method="get" action="http://www.google.com/custom" target="_top">
-<input type="hidden" name="domains" value="mantisbugtracker.com">
+<input type="hidden" name="domains" value="mantisbt.org">
 <input type="radio" name="sitesearch" value="">
 <font size="-1" color="#000000">Web</font>
-<input type="radio" name="sitesearch" value="mantisbugtracker.com" checked="checked">
-<font size="-1" color="#000000">mantisbugtracker.com</font>
+<input type="radio" name="sitesearch" value="mantisbt.org" checked="checked">
+<font size="-1" color="#000000">mantisbt.org</font>
 &nbsp;
 <input type="text" name="q" size="25" maxlength="255" value="">
 <input type="submit" name="sa" value="Search">

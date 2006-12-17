@@ -23,7 +23,7 @@ The release numbering convention used is <b>major.minor.micro</b> (eg. 1.1.0).
 <br />
 <span class="section">How to Help?</span>
 <ul>
-	<li>Report real bugs to the <a href="http://bugs.mantisbugtracker.com/">Development Bugtracker</a>.</li>
+	<li>Report real bugs to the <a href="/bugs/">Development Bugtracker</a>.</li>
 	<li>Suggest features.</li>
 	<li>Contribute code or tell us where to look.</li>
 	<li><b>Let us know if you find it useful</b>.  We won't publish the information without permission, but we appreciate the feedback!</li>

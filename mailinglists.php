@@ -6,7 +6,7 @@
 
 <span class="page_title">Mailing Lists</span>
 <hr size="1" noshade="noshade" width="100%" />
-<p>Signup for the mailing lists.  These are very low traffic since most people seem to use the <a href="http://forums.mantisbugtracker.com">forums</a>.  Please use the forums or the mailing lists for general help questions.  Discussion of development issues is mainly done using the mailing list.</p>
+<p>Signup for the mailing lists.  These are very low traffic since most people seem to use the <a href="/forums/">forums</a>.  Please use the forums or the mailing lists for general help questions.  Discussion of development issues is mainly done using the mailing list.</p>
 <ul>
 <table width="90%">
 <tr>

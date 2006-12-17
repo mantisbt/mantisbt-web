@@ -53,9 +53,9 @@
 
 	<?php /* Sponsor ad placed on 07-NOV-2006 */ ?>
 	<tr>
-		<td><center><a href="http://www.aoemedia.de/typo3_dienstleister.html" target="_blank"><img src="images/sponsors/aoelogo.gif" border="0" alt="AOE media GmbH" width="200" height="80" /></a></center></td>
+		<td><center><a href="http://www.aoemedia.de/typo3-agentur.html" target="_blank"><img src="images/sponsors/aoelogo.gif" border="0" alt="AOE media GmbH" width="200" height="80" /></a></center></td>
 		<td>
-			<a href="http://www.aoemedia.de/typo3_dienstleister.html" target="_blank">AOE media GmbH</a> was among the first to ever start working with the world's most used OpenSource CMS System TYPO3 commercially. Since 2002 we have specialised on providing economical TYPO3 Content Management Solutions, which has in turn won us hundreds of well established clients. With a list of over 300 TYPO3 projects we can look back at a long TYPO3 project history.
+			<a href="http://www.aoemedia.de/typo3-agentur.html" target="_blank">AOE media GmbH</a> was among the first to ever start working with the world's most used OpenSource CMS System TYPO3 commercially. Since 2002 we have specialised on providing economical TYPO3 Content Management Solutions, which has in turn won us hundreds of well established clients. With a list of over 300 TYPO3 projects we can look back at a long TYPO3 project history.
 		</td>
 	</tr>
 
@@ -272,4 +272,39 @@
 
 <?php include( "adsense_vertical_inc.php" ); ?>
 
-<?php include("bot.php"); ?>
+<?php 
+	$t_footer_sponsored_links = '<a href="http://hitflip.de/" target="_blank">Tauschen bei Hitflip</a>,
+<a href="http://www.comwebhosting.co.uk" title="Englisch">COM Web Hosting</a>,
+<a href="http://www.woxikon.de" title="Englisch">Englisch</a>,
+<a href="http://www.phonewebcam.com/" title="Phonewebcam" target="_blank">Phonewebcam</a>,
+<a href="http://www.vectorpedia.com/" title="Vectorpedia" target="_blank">Vectorpedia</a>,
+<a href="http://www.coveo.com/" title="Coveo" target="_blank">Coveo</a>,
+<a href="http://www.aoemedia.de/typo3-agentur.html" title="TYPO3" target="_blank">AOE media GmbH (TYPO3)</a>,
+<a href="http://www.gnadenalm.at/" title="The Gnadenalm in Obertauern - Salzburg." target="_blank">Obertauern</a>,
+<a href="http://www.skiamade-obertauern.de/" title="Obertauern &amp; Ski Amade" target="_blank">Obertauern &amp; Ski Amade</a>,
+<a href="http://www.dubaishortstay.com/" title="Dubai Apartments - Dubai Villas - Find a Quality Dubai Apartment or Dubai Villa" target="_blank">Dubai Apartments - Dubai Villas</a>,
+<a href="http://www.strategiclandinvestments.co.uk/" title="Land for Sale" target="_blank">Land for Sale</a>,
+<a href="http://www.openwebdesign.org/" title="Open Web Design" target="_blank">Open Web Design</a>,
+<a href="http://www.singletanz.de/" title="SINGLETANZ - Tanzschulen, Tanz-DVD" target="_blank">SINGLETANZ</a>,
+<a href="http://www.upscene.com/" title="Upscene Productions" target="_blank">Upscene Productions</a>, 
+<a href="http://www.absolute-software.co.uk/" title="Embedded Programming Services" target="_blank">Embedded Programming</a>, 
+<a href="http://www.abcmodelsport.net/" title="Radio Control Cars" target="_blank">Radio Control Cars</a>, 
+<a href="http://www.foxy.co.uk/" title="Discount DVDs, CDs and Games" target="_blank">Foxy</a>, 
+<a href="http://www.dubaifurnishedapartments.com/" title="Dubai Beach Apartments" target="_blank">Dubai Beach Apartments</a>, 
+<a href="http://www.wischmop-shop.de/" title="http://www.wischmop-shop.de" target="_blank">Wischmop</a>, 
+<a href="http://www.layoutbank.com/" title="http://www.layoutbank.com" target="_blank">PSD Web Templates</a>, 
+<a href="http://www.dubaiapartments.biz/" title="Dubai Apartments" target="_blank">Dubai Apartments</a>, 
+<a href="http://www.solidstatenetworks.com/" title="Content Delivery Network" target="_blank">Content Delivery Network</a>, 
+<a href="http://www.webservertalk.com/" title="Forum for IT admins" target="_blank">Web Server Talk</a>,
+<a href="http://www.ezloandocs.com/" title="Mortgage Web Design" target="_blank">EZ Loandocs</a>,
+<a href="http://www.merchantzoo.com/" title="Merchant Zoo" target="_blank">MerchantZoo</a>,
+<a href="http://www.playwhat.com" title="Playwhat" target="_blank">Playwhat</a>,
+<a href="http://www.training-classes.com/" title="#1 Training Directory" target="_blank">#1&nbsp;Training&nbsp;Directory</a>,
+<a href="http://www.exit15.com/" title="Exit 15" target="_blank">Exit&nbsp;15</a>,
+<a href="http://www.resperate.com/" title="RESPeRATE To Lower Blood Pressure" target="_blank">RESPeRATE</a>,
+<a href="http://domainunion.de/" title="domains from germany" target="_blank">domainunion.de</a>,
+<a href="http://www.dasschoenstekind.de/" title="Rammstein Music" target="_blank">Rammstein&nbsp;Music</a>,
+<a href="http://www.ecoupons.com/" title="eCoupons" target="_blank">eCoupons.com&nbsp;Inc.</a>';
+
+	include("bot.php"); 
+?>
