@@ -11,6 +11,14 @@
 
 <table border="0" cellspacing="0" cellpadding="10">
 
+	<?php /* Sponsor ad placed on 17-DEC-2006 */ ?>
+	<tr>
+		<td><center><a href="http://www.mjm.co.uk" target="_blank"><img src="images/sponsors/mjmlogo.jpg" border="0" alt="Data Recovery Services" width="186" height="66" /></a></center></td>
+		<td>
+			<a href="http://www.mjm.co.uk/" target="_blank">MJM Data Recovery</a> provides data recovery services from all manufacturers of hard disk drives, RAID arrays and other storage media.
+		</td>
+	</tr>
+
 	<?php /* Sponsor ad placed on 13-DEC-2006 */ ?>
 	<tr>
 		<td><center><a href="http://hitflip.de/" target="_blank"><img src="images/sponsors/hitfliplogo.gif" border="0" alt="Tauschen bei Hitflip" width="135" height="70" /></a></center></td>
@@ -35,13 +43,14 @@
 		</td>
 	</tr>
 
-	<?php /* Sponsor ad placed on 22-NOV-2006 */ ?>
+	<?php /* Sponsor ad placed on 22-NOV-2006 - 22-FEB-2007
 	<tr>
 		<td><center><a href="http://www.vectorpedia.com/" target="_blank"><img src="images/sponsors/vectorpedialogo.gif" border="0" alt="Vectorpedia" width="200" height="80" /></a></center></td>
 		<td>
 			<a href="http://www.vectorpedia.com/" target="_blank">Vectorpedia</a> is a premier human edited web directory organized by region and category which offers informative SEO friendly websites. Our news section provides the viewer with over 50,000 articles of valuable content.
 		</td>
 	</tr>
+	*/ ?>
 
 	<?php /* Sponsor ad placed on 15-NOV-2006 */ ?>
 	<tr>
@@ -51,13 +60,14 @@
 		</td>
 	</tr>
 
-	<?php /* Sponsor ad placed on 07-NOV-2006 */ ?>
+	<?php /* Sponsor ad placed on 07-NOV-2006 - removed 04-MAR-2007
 	<tr>
 		<td><center><a href="http://www.aoemedia.de/typo3-agentur.html" target="_blank"><img src="images/sponsors/aoelogo.gif" border="0" alt="AOE media GmbH" width="200" height="80" /></a></center></td>
 		<td>
 			<a href="http://www.aoemedia.de/typo3-agentur.html" target="_blank">AOE media GmbH</a> was among the first to ever start working with the world's most used OpenSource CMS System TYPO3 commercially. Since 2002 we have specialised on providing economical TYPO3 Content Management Solutions, which has in turn won us hundreds of well established clients. With a list of over 300 TYPO3 projects we can look back at a long TYPO3 project history.
 		</td>
 	</tr>
+	*/ ?>
 
 	<?php /* Sponsor ad placed on 29-OCT-2006 */ ?>
 	<tr>
@@ -71,17 +81,19 @@
 	<tr>
 		<td><center><a href="http://www.skiamade-obertauern.de/" target="_blank"><img src="images/sponsors/targetlogo.gif" border="0" alt="Webkatalog Obertauern &amp; Ski Amade" width="200" height="58" /></a></center></td>
 		<td>
-			<a href="http://www.skiamade-obertauern.de/" target="_blank">Target</a> - www.Dienstleistungen GmbH offers quality listings at: http://www.skiamade-obertauern.de for the Austrian Skiing - Areas Obertauern &amp; Ski Amade - near Salzburg.
+			Target - www.Dienstleistungen GmbH offers quality listings for the Austrian Skiing - Areas <a href="http://www.skiamade-obertauern.de/" target="_blank">Obertauern &amp; Ski Amade</a> - near Salzburg.
 		</td>
 	</tr>
 
 	<?php /* Sponsor ad placed on 15-OCT-2006 */ ?>
+<?php /*
 	<tr>
 		<td><center><a href="http://www.dubaishortstay.com/" title="Dubai Apartments - Dubai Villas - Find a Quality Dubai Apartment or Dubai Villa" target="_blank"><img src="images/sponsors/dubaishortstaylogo.jpg" border="0" alt="Dubai Apartments - Dubai Villas - Find a Quality Dubai Apartment or Dubai Villa" width="195" height="33" /></a></center></td>
 		<td>
 			<a href="http://www.dubaishortstay.com/" target="_blank">Dubai Short Stay</a> offers listings of quality furnished Dubai apartments and villas make it easy for you to find the apartment or villa of your choice.
 		</td>
 	</tr>
+*/ ?>
 
 	<?php /* Sponsor ad placed on 22-SEP-2006 */ ?>
 	<tr>
@@ -107,13 +119,13 @@
 		</td>
 	</tr>
 
-	<?php /* Sponsor ad placed on 08-SEP-2006 */ ?>
+	<?php /* Sponsor ad placed on 08-SEP-2006 - 11-MAR-2007
 	<tr>
 		<td><center><a href="http://www.upscene.com/" target="_blank"><img src="images/sponsors/upscenelogo.gif" border="0" alt="Upscene Productions" width="200" height="51" /></a></center></td>
 		<td>
 			<a href="http://www.upscene.com/" target="_blank">Upscene Productions</a> is a company creating Windows applications for database developers for many different database systems. Their tools aid software developers in doing their jobs faster and better.
 		</td>
-	</tr>
+	</tr> */ ?>
 
 	<?php /* Sponsor ad placed on 05-AUG-2006 */ ?>
 	<tr>
@@ -273,20 +285,18 @@
 <?php include( "adsense_vertical_inc.php" ); ?>
 
 <?php 
-	$t_footer_sponsored_links = '<a href="http://hitflip.de/" target="_blank">Tauschen bei Hitflip</a>,
+	$t_footer_sponsored_links = '
+<a href="http://www.mjm.co.uk/" target="_blank">MJM Data Recovery</a>,
+<a href="http://hitflip.de/" target="_blank">Tauschen bei Hitflip</a>,
 <a href="http://www.comwebhosting.co.uk" title="Englisch">COM Web Hosting</a>,
 <a href="http://www.woxikon.de" title="Englisch">Englisch</a>,
 <a href="http://www.phonewebcam.com/" title="Phonewebcam" target="_blank">Phonewebcam</a>,
-<a href="http://www.vectorpedia.com/" title="Vectorpedia" target="_blank">Vectorpedia</a>,
 <a href="http://www.coveo.com/" title="Coveo" target="_blank">Coveo</a>,
-<a href="http://www.aoemedia.de/typo3-agentur.html" title="TYPO3" target="_blank">AOE media GmbH (TYPO3)</a>,
 <a href="http://www.gnadenalm.at/" title="The Gnadenalm in Obertauern - Salzburg." target="_blank">Obertauern</a>,
 <a href="http://www.skiamade-obertauern.de/" title="Obertauern &amp; Ski Amade" target="_blank">Obertauern &amp; Ski Amade</a>,
-<a href="http://www.dubaishortstay.com/" title="Dubai Apartments - Dubai Villas - Find a Quality Dubai Apartment or Dubai Villa" target="_blank">Dubai Apartments - Dubai Villas</a>,
 <a href="http://www.strategiclandinvestments.co.uk/" title="Land for Sale" target="_blank">Land for Sale</a>,
 <a href="http://www.openwebdesign.org/" title="Open Web Design" target="_blank">Open Web Design</a>,
 <a href="http://www.singletanz.de/" title="SINGLETANZ - Tanzschulen, Tanz-DVD" target="_blank">SINGLETANZ</a>,
-<a href="http://www.upscene.com/" title="Upscene Productions" target="_blank">Upscene Productions</a>, 
 <a href="http://www.absolute-software.co.uk/" title="Embedded Programming Services" target="_blank">Embedded Programming</a>, 
 <a href="http://www.abcmodelsport.net/" title="Radio Control Cars" target="_blank">Radio Control Cars</a>, 
 <a href="http://www.foxy.co.uk/" title="Discount DVDs, CDs and Games" target="_blank">Foxy</a>, 
@@ -306,5 +316,6 @@
 <a href="http://www.dasschoenstekind.de/" title="Rammstein Music" target="_blank">Rammstein&nbsp;Music</a>,
 <a href="http://www.ecoupons.com/" title="eCoupons" target="_blank">eCoupons.com&nbsp;Inc.</a>';
 
+// <a href="http://www.upscene.com/" title="Upscene Productions" target="_blank">Upscene Productions</a>, 
 	include("bot.php"); 
 ?>

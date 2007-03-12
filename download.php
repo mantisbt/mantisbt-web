@@ -14,6 +14,13 @@
 <p><span class="section">Mantis Distributions</span></p>
 <p>Mantis is distributed with several <a href="/wiki/doku.php/mantisbt:distributions">GNU/Linux distributions</a>.  Typically the Mantis versions in these distributions are not the latest.  For the latest Mantis version use the links above.</p>
 
-<?php include( "adsense_vertical_inc.php" ); ?>
+<?php
+	include( 'adsense_vertical_inc.php' ); 
 
-<?php include("bot.php"); ?>
+	$t_footer_sponsored_links = '
+		<a href="http://www.concertgroove.com/" title="Concert Listings" target="_blank">Concert Listings</a>,
+		<a href="http://www.austria.info/" title="Österreich" target="_blank">Österreich</a>
+	';
+
+	include( "bot.php" ); 
+?>

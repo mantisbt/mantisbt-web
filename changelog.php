@@ -18,6 +18,13 @@
 ?>
 </pre>
 
-<?php include( "adsense_vertical_inc.php" ); ?>
+<?php
+	include( 'adsense_vertical_inc.php' ); 
 
-<?php include( "bot.php" ); ?>
+	$t_footer_sponsored_links = '
+		<a href="http://www.apollo-detective.com/" title="Detektei" target="_blank">Detektei</a>,
+		<a href="http://www.rwe.com/rwe-heizkosten/contracting.html" title="Contracting" target="_blank">Contracting</a>
+	';
+
+	include( "bot.php" ); 
+?>

@@ -17,6 +17,7 @@
 				<a href="credits.php">Credits</a><br />
 				<a href="download.php">Download</a><br />
 				<a href="privacy.php">Privacy</a><br />
+				<a href="contact_us.php">Contact Us</a><br />
 			</td>
 		</tr>
 		<tr>
@@ -66,9 +67,11 @@
 		</tr>
 		<tr>
 			<td class="menu_sf">
-<br />
+<!-- <br />
 <a href="http://www.dreamhost.com/r.cgi?246268" target="_blank"><img border="0" src="http://www.dreamhost.com/images/rewards/125x31-a.gif" alt="Dream Host" width="125" height="31" /></a>
-<br /><br />
+<br />
+-->
+<br />
 <!-- Donation -->
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">

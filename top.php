@@ -1,7 +1,11 @@
-<?php include( 'config_defaults_inc.php' ); ?>
+<?php
+	include( 'config_defaults_inc.php' );
+	require_once( 'utils_inc.php' );
+?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<link rel="shortcut icon" href="http://www.mantisbt.org/fav.ico">
 <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
 <meta name="description" content="Mantis is a popular free web-based bug tracking system. It is written in the PHP scripting language and works with MySQL, MS SQL, and PostgreSQL databases and a webserver. Mantis has been installed on Windows, Linux, Mac OS, OS/2, and others. Almost any web browser should be able to function as a client. It is released under the terms of the GNU General Public License (GPL)." />
 <meta name="keywords" content="mantis, bugtracker, bug, tracker, issue, software" />
@@ -19,16 +23,16 @@
 <td align="center">
 <div align="center" style="background-color:#FFFFCC; top:0px; position: absolute; left:0px; width: 100%; height: 20px; font-size:12px; padding-top:3px; border-bottom: 2px solid #bebebe;">
 <big>.:
-<a href="http://www.futureware.biz/mantisconnect/">MantisConnect</a> | 
-<a href="http://www.futureware.biz/mantiswap/">MantisWAP</a> | 
-<a href="hosting.php">Hosting</a> | 
-<a href="http://www.futureware.biz/mantisdemo">Demo</a> | 
-<a href="sponsors.php">Sponsors</a> | 
-<a href="directory.php">Users</a> | 
-<a href="/manual/">Manual</a> | 
-<a href="/forums/">Forums</a> | 
+<a href="http://www.futureware.biz/mantisconnect/">MantisConnect</a> |
+<a href="http://www.futureware.biz/mantiswap/">MantisWAP</a> |
+<a href="hosting.php">Hosting</a> |
+<a href="http://www.futureware.biz/mantisdemo">Demo</a> |
+<a href="sponsors.php">Sponsors</a> |
+<a href="directory.php">Users</a> |
+<a href="/manual/">Manual</a> |
+<a href="/forums/">Forums</a> |
 <a href="/wiki/">Wiki</a> |
-<a href="/bugs/">Bug Tracker</a> | 
+<a href="/bugs/">Bug Tracker</a> |
 <a href="consulting.php">Consulting</a>
 :.</big>
 
@@ -96,7 +100,7 @@ google_color_url = "4080D0";
 </tr>
 <tr class="top">
 	<td class="middle" colspan="3">
-<!-- SiteSearch Google 
+<!-- SiteSearch Google
 <form method="get" action="http://www.google.com/custom" target="_top">
 <input type="hidden" name="domains" value="mantisbt.org">
 <input type="radio" name="sitesearch" value="">

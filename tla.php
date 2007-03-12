@@ -24,8 +24,22 @@ function tla_ads() {
 
 	$arr_xml = tla_decodeXML($xml);
 
+		#*** Mantis Stuff ***
+	if ( !is_array($arr_xml) ) {
+		$arr_xml = array();
+	}
+		#*******
+	
 	if ( is_array($arr_xml) ) {
 		echo "\n<ul style=\"margin: 0; overflow: hidden; border: 1px solid #FFFFFF; border-spacing: 0px; background-color: #FFFFFF; padding: 0; width: 100%; list-style: none;\">\n";
+
+		#*** Mantis Stuff ***
+			$arr_xml['BeforeText'][] = '';
+			$arr_xml['AfterText'][] = '';
+			$arr_xml['URL'][] = 'http://www.webdesignnewyork.ws';
+			$arr_xml['Text'][] = 'Web Design New York';
+		#*******
+
 		for ($i = 0; $i < count($arr_xml['URL']); $i++) {
 			echo "<li style=\"width: 100%; clear: none; margin: 0; float: left; display: inline; padding: 0;\"><span style=\"display: block; font-size: 12px; margin: 0; padding: 3px; width: 100%; color: #000000;\">".$arr_xml['BeforeText'][$i]." <a style=\"color: #000000; font-size: 12px;\" href=\"".$arr_xml['URL'][$i]."\">".$arr_xml['Text'][$i]."</a> ".$arr_xml['AfterText'][$i]."</span></li>\n";
 		}
