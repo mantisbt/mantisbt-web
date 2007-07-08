@@ -53,4 +53,13 @@ Basic administration of MySQL is necessary.  At a minimum you should be able to:
 <p>
 The webserver needs to be configured to handle PHP files.  In Apache, this monumental task requires all of <a href="http://www.php.net/manual/en/install.apache.php">three lines in the configuration file</a>.  There are also instructions for <a href="http://www.php.net/manual/en/install.iis.php">IIS</a> and many more webservers.  I think you get the idea: use <a href="http://www.php.net/manual/en/">The PHP Manual</a>!
 
-<?php include( "bot.php" ); ?>
+<?php
+	include( 'adsense_vertical_inc.php' ); 
+
+	$t_footer_sponsored_links = '
+		<a href="http://www.crserecycling.com/" title="Electronics Recycling" target="_blank">Electronics Recycling</a>,
+		<a href="http://www.coolinvesting.com/" title="How to Invest" target="_blank">How to Invest</a>
+	';
+
+	include( "bot.php" ); 
+?>

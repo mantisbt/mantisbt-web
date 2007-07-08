@@ -61,6 +61,7 @@
 				checkForm();
 
 				if ( $g_error == '' ) {
+					$f_email_body .= "\n\n--------------------------------------\nSent using mantisbt.org Contact Us page\n";
 					$mailer = myMailer( $f_email_body, MODERATOR_MAIL, $f_contact_email, false );
 					$mailer->Subject = $f_subject;
 					$mailer->From = $f_contact_email;
@@ -101,7 +102,7 @@
 	if ( $t_show_form ) {
 ?>
 
-<p align="left">Please use the form below to email us with any queries that you may have.</p>
+<p align="left">Please use the form below to email us with any queries that you may have.  <strong>For questions relating to how to use or configure Mantis, please use the <a href="http://www.mantisbt.org/forums/">forums</a></strong>.</p>
 
 <p>
 <form name="frmAddEntry" method="post" onsubmit="return v.exec()">

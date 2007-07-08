@@ -1,6 +1,5 @@
 		<table class="menu" cellspacing="0">
 		<tr>
-		<tr>
 			<td class="menu_head">
 				<span class="big">Documentation</span><br />
 			</td>
@@ -11,6 +10,7 @@
 				<a href="/wiki/">Wiki</a><br />
 				<a href="sponsors.php">Sponsors</a><br />
 				<a href="directory.php">Users Directory</a><br />
+				<a href="testimonials.php">What users say?</a><br />
 				<a href="links.php">Links</a><br />
 				<a href="requirements.php">Requirements</a>
 				<a href="changelog.php">ChangeLog</a><br />
@@ -22,7 +22,7 @@
 		</tr>
 		<tr>
 			<td class="menu_head">
-				<span class="big">Sponsored Links</span><br />
+				<span class="big">Partner Links</span><br />
 			</td>
 		</tr>
 		<tr>
@@ -71,6 +71,11 @@
 <a href="http://www.dreamhost.com/r.cgi?246268" target="_blank"><img border="0" src="http://www.dreamhost.com/images/rewards/125x31-a.gif" alt="Dream Host" width="125" height="31" /></a>
 <br />
 -->
+<br />
+<!-- AddThis Bookmark Button BEGIN -->
+<a href="http://www.addthis.com/bookmark.php" onclick="addthis_url   = location.href; addthis_title = document.title; return addthis_click(this);" target="_blank"><img src="http://s5.addthis.com/button1-bm.gif" width="125" height="16" border="0" alt="AddThis Social Bookmark Button" /></a> <script type="text/javascript">var addthis_pub = 'vboctor';</script><script type="text/javascript" src="http://s5.addthis.com/js/widget.php?v=10"></script>  
+<!-- AddThis Bookmark Button END -->
+<br />
 <br />
 <!-- Donation -->
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">

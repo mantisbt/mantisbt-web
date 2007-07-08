@@ -29,10 +29,12 @@
 <a href="http://www.futureware.biz/mantisdemo">Demo</a> |
 <a href="sponsors.php">Sponsors</a> |
 <a href="directory.php">Users</a> |
+<a href="testimonials.php">Testimonials</a> |
 <a href="/manual/">Manual</a> |
 <a href="/forums/">Forums</a> |
 <a href="/wiki/">Wiki</a> |
 <a href="/bugs/">Bug Tracker</a> |
+<a href="http://mantisbt.edgeio.net/">Job Board</a> |
 <a href="consulting.php">Consulting</a>
 :.</big>
 
@@ -58,7 +60,7 @@
 						<td>
 <?php
 // if ( strstr( $_SERVER['HTTP_HOST'], 'mantisbt.org' ) === false ) {
-	if ( false ) {
+	if ( true ) {
 ?>
 <script type="text/javascript"><!--
 google_ad_client = "pub-0025921896787428";
@@ -87,6 +89,12 @@ google_color_url = "4080D0";
 <span style="white-space:nowrap;"><script src="http://ads.adbrite.com/mb/text_group.php?sid=191899&zs=3436385f3630" type="text/javascript"></script><!--
 --><a target="_top" href="http://www.adbrite.com/mb/commerce/purchase_form.php?opid=191899&afsid=1"><img src="http://files.adbrite.com/mb/images/adbrite-your-ad-here-banner.gif" style="background-color:#FFFFFF" alt="Your Ad Here" width="11" height="60" border="0" /></a></span>
 <!-- End: AdBrite -->
+<br />
+<div align="right">
+<!-- AddThis Bookmark Button BEGIN -->
+<a href="http://www.addthis.com/bookmark.php" onclick="addthis_url   = location.href; addthis_title = document.title; return addthis_click(this);" target="_blank"><img src="http://s5.addthis.com/button1-bm.gif" width="125" height="16" border="0" alt="AddThis Social Bookmark Button" /></a> <script type="text/javascript">var addthis_pub = 'vboctor';</script><script type="text/javascript" src="http://s5.addthis.com/js/widget.php?v=10"></script>  
+<!-- AddThis Bookmark Button END -->
+</div>
 <?php } ?>
 						</td>
 						<td><a href="sponsors.php"><img src="images/advertise.gif" width="20" height="60" border="0" alt="Advertise" /></a></td>

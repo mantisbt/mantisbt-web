@@ -15,7 +15,7 @@
 				<td width="100%">
 <?php 
 	if ( isset( $t_footer_sponsored_links ) ) {
-		echo '<p align="right">Sponsored Links: ' . $t_footer_sponsored_links, '</p>'; 
+		echo '<p align="right">Partner Links: ' . $t_footer_sponsored_links, '</p>'; 
 	}
 ?>
 

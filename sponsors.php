@@ -4,10 +4,10 @@
 	include( "top.php" );
 ?>
 
-<span class="page_title">Sponsors</span>
+<span class="page_title">Partners</span>
 <hr size="1" noshade="noshade" width="100%" />
 
-<p>Mantis team is proud to feature the following companies as sponsors of our site.  For information on joining our sponsor group please contact "victor at futureware dot com dot au".</p>
+<p>Mantis team is proud to feature the following companies as partners of our site.  For information on joining our partner group please use <a href="contact_us.php">contact us</a> page.</p>
 
 <table border="0" cellspacing="0" cellpadding="10">
 
@@ -23,7 +23,7 @@
 	<tr>
 		<td><center><a href="http://hitflip.de/" target="_blank"><img src="images/sponsors/hitfliplogo.gif" border="0" alt="Tauschen bei Hitflip" width="135" height="70" /></a></center></td>
 		<td>
-			<a href="http://hitflip.de/" target="_blank">Hitflip</a> is a trading / bartering plattform for all sorts of media products like books, music CDs, audiobooks, DVDs / Movies / Videos and games.
+			<a href="http://hitflip.de/" target="_blank">Hitflip</a> is a trading / bartering platform for all sorts of media products like books, music CDs, audiobooks, DVDs / Movies / Videos and games.
 		</td>
 	</tr>
 
@@ -77,13 +77,14 @@
 		</td>
 	</tr>
 
-	<?php /* Sponsor ad placed on 26-OCT-2006 */ ?>
+	<?php /* Sponsor ad placed on 26-OCT-2006 - 26-APR-2007 
 	<tr>
 		<td><center><a href="http://www.skiamade-obertauern.de/" target="_blank"><img src="images/sponsors/targetlogo.gif" border="0" alt="Webkatalog Obertauern &amp; Ski Amade" width="200" height="58" /></a></center></td>
 		<td>
 			Target - www.Dienstleistungen GmbH offers quality listings for the Austrian Skiing - Areas <a href="http://www.skiamade-obertauern.de/" target="_blank">Obertauern &amp; Ski Amade</a> - near Salzburg.
 		</td>
 	</tr>
+	*/ ?>
 
 	<?php /* Sponsor ad placed on 15-OCT-2006 */ ?>
 <?php /*
@@ -293,7 +294,6 @@
 <a href="http://www.phonewebcam.com/" title="Phonewebcam" target="_blank">Phonewebcam</a>,
 <a href="http://www.coveo.com/" title="Coveo" target="_blank">Coveo</a>,
 <a href="http://www.gnadenalm.at/" title="The Gnadenalm in Obertauern - Salzburg." target="_blank">Obertauern</a>,
-<a href="http://www.skiamade-obertauern.de/" title="Obertauern &amp; Ski Amade" target="_blank">Obertauern &amp; Ski Amade</a>,
 <a href="http://www.strategiclandinvestments.co.uk/" title="Land for Sale" target="_blank">Land for Sale</a>,
 <a href="http://www.openwebdesign.org/" title="Open Web Design" target="_blank">Open Web Design</a>,
 <a href="http://www.singletanz.de/" title="SINGLETANZ - Tanzschulen, Tanz-DVD" target="_blank">SINGLETANZ</a>,
@@ -317,5 +317,6 @@
 <a href="http://www.ecoupons.com/" title="eCoupons" target="_blank">eCoupons.com&nbsp;Inc.</a>';
 
 // <a href="http://www.upscene.com/" title="Upscene Productions" target="_blank">Upscene Productions</a>, 
+// <a href="http://www.skiamade-obertauern.de/" title="Obertauern &amp; Ski Amade" target="_blank">Obertauern &amp; Ski Amade</a>,
 	include("bot.php"); 
 ?>
