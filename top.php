@@ -1,6 +1,23 @@
 <?php
 	include( 'config_defaults_inc.php' );
 	require_once( 'utils_inc.php' );
+
+		if ( isset( $_SERVER['HTTP_X_FORWARDED_HOST'] ) ) { // Support ProxyPass
+			$t_host = $_SERVER['HTTP_X_FORWARDED_HOST'];
+		} else if ( isset( $_SERVER['HTTP_HOST'] ) ) {
+			$t_host = $_SERVER['HTTP_HOST'];
+		} else if ( isset( $_SERVER['SERVER_NAME'] ) ) {
+			$t_host = $_SERVER['SERVER_NAME'] . $t_port;
+		} else if ( isset( $_SERVER['SERVER_ADDR'] ) ) {
+			$t_host = $_SERVER['SERVER_ADDR'] . $t_port;
+		} else {
+			$t_host = 'www.mantisbt.org';
+		}
+
+		if ( strstr( $t_host, 'domainunion.de' ) !== false ) {
+			echo 'Mantis website is <a href="http://www.mantisbt.org/">http://www.mantisbt.org/</a>';
+			exit;
+		}
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -23,18 +40,19 @@
 <td align="center">
 <div align="center" style="background-color:#FFFFCC; top:0px; position: absolute; left:0px; width: 100%; height: 20px; font-size:12px; padding-top:3px; border-bottom: 2px solid #bebebe;">
 <big>.:
-<a href="http://www.futureware.biz/mantisconnect/">MantisConnect</a> |
-<a href="http://www.futureware.biz/mantiswap/">MantisWAP</a> |
-<a href="hosting.php">Hosting</a> |
-<a href="http://www.futureware.biz/mantisdemo">Demo</a> |
-<a href="sponsors.php">Sponsors</a> |
-<a href="directory.php">Users</a> |
-<a href="testimonials.php">Testimonials</a> |
+<a href="http://www.mantisbt.org/blog/">Blog</a> |
 <a href="/manual/">Manual</a> |
 <a href="/forums/">Forums</a> |
 <a href="/wiki/">Wiki</a> |
 <a href="/bugs/">Bug Tracker</a> |
+<a href="http://www.futureware.biz/mantisdemo">Demo</a> |
 <a href="http://mantisbt.edgeio.net/">Job Board</a> |
+<a href="http://www.futureware.biz/mantisconnect/">MantisConnect</a> |
+<a href="http://www.futureware.biz/mantiswap/">MantisWAP</a> |
+<a href="hosting.php">Hosting</a> |
+<a href="sponsors.php">Sponsors</a> |
+<a href="directory.php">Users</a> |
+<a href="testimonials.php">Testimonials</a> |
 <a href="consulting.php">Consulting</a>
 :.</big>
 

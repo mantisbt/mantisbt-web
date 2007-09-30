@@ -68,9 +68,7 @@
 
 	include( 'adsense_vertical_inc.php' ); 
 
-	$t_footer_sponsored_links = '
-		<a href="http://www.furniture-spain.co.uk" title="Furniture Spain" target="_blank">Furniture Spain</a>
-	';
+	$t_footer_sponsored_links = '';
 
 	include( "bot.php" ); 
 ?>

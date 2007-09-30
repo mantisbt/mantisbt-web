@@ -28,56 +28,9 @@
 					(null, '$t_ip', NOW(), '$t_user_agent', '$t_referer')";
 		mysql_query( $query );
 	}
-	# --------------------
-	# Detect URLs and email addresses in the string and replace them with href anchors
-	function string_insert_hrefs( $p_string ) {
-		$t_change_quotes = false;
 
-		# Find any URL in a string and replace it by a clickable link
-		$p_string = preg_replace( '/(([[:alpha:]][-+.[:alnum:]]*):\/\/(%[[:digit:]A-Fa-f]{2}|[-_.!~*\';\/?%^\\\\:@&={\|}+$#\(\),\[\][:alnum:]])+)/se',
-                                                                 "'<a href=\"'.rtrim('\\1','.').'\">\\1</a> [<a href=\"'.rtrim('\\1','.').'\" target=\"blank\">^</a>]'",
-                                                                 $p_string);
-		if( $t_change_quotes ) {
-			ini_set( 'magic_quotes_sybase', true );
-		}
-
-		# Set up a simple subset of RFC 822 email address parsing
-		#  We don't allow domain literals or quoted strings
-		#  We also don't allow the & character in domains even though the RFC
-		#  appears to do so.  This was to prevent &gt; etc from being included.
-		#  Note: we could use email_get_rfc822_regex() but it doesn't work well
-		#  when applied to data that has already had entities inserted.
-		#
-		# bpfennig: '@' doesn't accepted anymore
-		$t_atom = '[^\'@\'](?:[^()<>@,;:\\\".\[\]\000-\037\177 &]+)';
-
-		# In order to avoid selecting URLs containing @ characters as email
-		#  addresses we limit our selection to addresses that are preceded by:
-		#  * the beginning of the string
-		#  * a &lt; entity (allowing '<foo@bar.baz>')
-		#  * whitespace
-		#  * a : (allowing 'send email to:foo@bar.baz')
-		#  * a \n, \r, or > (because newlines have been replaced with <br />
-		#    and > isn't valid in URLs anyway
-		#
-		# At the end of the string we allow the opposite:
-		#  * the end of the string
-		#  * a &gt; entity
-		#  * whitespace
-		#  * a , character (allowing 'email foo@bar.baz, or ...')
-		#  * a \n, \r, or <
-
-		$p_string = preg_replace( '/(?<=^|&quot;|&lt;|[\s\:\>\n\r])('.$t_atom.'(?:\.'.$t_atom.')*\@'.$t_atom.'(?:\.'.$t_atom.')*)(?=$|&quot;|&gt;|[\s\,\<\n\r])/s',
-								'<a href="mailto:\1" target="_new">\1</a>',
-								$p_string);
-
-		return $p_string;
-	}
-
-
-	db_connect( $g_hostname, $g_db_username, $g_db_password, $g_database_name );
-
-	update_visits();
+	@db_connect( $_GLOBALS['g_hostname'], $_GLOBALS['g_db_username'], $_GLOBALS['g_db_password'], $_GLOBALS['g_database_name'] );
+	@update_visits();
 ?>
 
 <p class="center">
@@ -85,150 +38,47 @@
 <tr valign="top">
 	<td class="welcome">
         <p>Mantis is a free <a href="testimonials.php">popular</a> web-based bugtracking system (<a href="/wiki/doku.php/mantisbt:features">feature list</a>).  It is written in the <a href="http://www.php.net/">PHP</a> scripting language and works with <a href="http://www.mysql.com/">MySQL</a>, MS SQL, and PostgreSQL databases and a webserver.  Mantis has been installed on Windows, Linux, Mac OS, OS/2, and others.  Almost any web browser should be able to function as a client.  It is released under the terms of the <a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License</a> (GPL).</p>
-		<p>The latest stable version is <a href="download.php"><?php include("files/VERSION_STABLE") ?></a>.</p>
-		<p>The latest development version is <a href="download.php"><?php include("files/VERSION") ?></a>.</p>
+		<p>The latest stable version is <a href="download.php"><?php @include("files/VERSION_STABLE") ?></a>.</p>
+		<p>The latest development version is <a href="download.php"><?php @include("files/VERSION") ?></a>.</p>
 	</td>
 	<td width="220" align="right">
-<!--		<table width="220" bgcolor="#000000" border="0" cellspacing="1" cellpadding="3">
-		<tr>
-			<td class="poll_header">
-				<a class="small_bold" href="polls.php">Recent Polls</a>
-			</td>
-		</tr>
-		<tr>
-			<td class="poll">
-<?php
-	$query =  "SELECT *
-			FROM vbooth_desc
-			ORDER BY pollID DESC
-			LIMIT 1";
-	$result = mysql_query( $query );
-	$row = mysql_fetch_array( $result );
-	extract( $row );
-	$pollTitle = stripslashes( $pollTitle );
-	if ( strlen($pollTitle) > 29 ) {
-		$pollTitle = substr( $pollTitle, 0, 29 )."...";
-	}
-	PRINT "<li><a class=\"small\" href=\"view_poll.php?f_poll_id=$pollID\">$pollTitle</a></li>";
-
-	$query =  "SELECT *, (pollID*0+RAND()) as rand
-			FROM vbooth_desc
-			WHERE pollID<>'$pollID'
-			ORDER BY rand LIMIT 2";
-	$result = mysql_query( $query );
-	$poll_count = mysql_num_rows( $result );
-	for ($i=0;$i<$poll_count;$i++) {
-		$row = mysql_fetch_array( $result );
-		extract( $row );
-		$pollTitle = stripslashes( $pollTitle );
-		if ( strlen($pollTitle) > 29 ) {
-			$pollTitle = substr( $pollTitle, 0, 29 )."...";
-		}
-		PRINT "<li><a class=\"small\" href=\"view_poll.php?f_poll_id=$pollID\">$pollTitle</a></li>";
-	}
-?>
-			</td>
-		</tr>
-		<tr>
-			<td class="survey">
-			<?php
-				$query =  "SELECT id, UNIX_TIMESTAMP(date_submitted) as date_submitted
-						FROM questions
-						ORDER BY id DESC
-						LIMIT 1";
-				$result = mysql_query( $query );
-				$row = mysql_fetch_array( $result );
-				extract( $row );
-				$date_submitted = date( "m-d", $date_submitted );
-				?>
-				<a class="small_bold" href="survey.php?f_id=<?php echo $id ?>">Answer Survey (<?php echo $date_submitted ?>)</a>
-			</td>
-		</tr>
-		</table>-->
 	</td>
 </tr>
 </table>
 
 <?php
-	if ( !isset( $_GET['f_offset'] ) ) {
-		$f_offset = 0;
-	} else {
-		$f_offset = $_GET['f_offset'];
+	include_once( dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'files' . DIRECTORY_SEPARATOR . 'simplepie.inc');
+
+	// Parse it
+	$feed = new SimplePie();
+	$feed->set_feed_url( 'http://www.mantisbt.org/blog/?feed=rss2' );
+	$feed->enable_cache(false);
+	$feed->init();
+	
+	$items = $feed->get_items();
+
+	echo '<span class="page_title">Latest News</span>';
+	echo '<hr size="1" noshade="noshade" width="100%" />';
+
+	echo '<ul>';
+
+	foreach ( $items as $item )
+	{
+		echo '<li><a href="', $item->get_permalink(), '">', $item->get_title(), '</a>.</li>';
 	}
 
-	### get news count
-	$query = "SELECT COUNT(id)
-			FROM $g_mantis_news_table
-			WHERE view_state = 50";
-	$result = mysql_query( $query );
-    $total_news_count = mysql_result( $result, 0 );
+	echo '</ul>';
 
-	$query = "SELECT *,UNIX_TIMESTAMP(date_posted) as date_posted
-			FROM $g_mantis_news_table
-			ORDER BY id DESC
-			LIMIT $f_offset, 5";
-	$result = mysql_query( $query );
-    $news_count = mysql_num_rows( $result );
+	echo '<p>See <a href="http://www.mantisbt.org/blog/">blog</a> for more news.  For older archives, see <a href="http://www.mantisbt.org/bugs/main_page.php">bug tracker news</a>.</p>';	
 
-	for ($i=0;$i<$news_count;$i++) {
-		$row = mysql_fetch_array($result);
-		extract( $row, EXTR_PREFIX_ALL, "v" );
-		$v_headline = string_display( $v_headline );
-		$v_body = string_display( $v_body );
-		$v_date_posted = date( "m-d-Y H:i T", $v_date_posted );
+	include( "adsense_vertical_inc.php" );
 
-		## grab the username and email of the poster
-	    $query = "SELECT username, email
-	    		FROM $g_mantis_user_table
-	    		WHERE id='$v_poster_id'";
-	    $result2 = mysql_query( $query );
-	    if ( $result2 ) {
-	    	$row = mysql_fetch_array( $result2 );
-			$t_poster_name	= $row["username"];
-			$t_poster_email	= $row["email"];
-		}
-?>
-<p>
-<table width="99%" bgcolor="#000000" border="0" cellspacing="0" cellpadding="4">
-<tr>
-	<td class="headline">
-		<b><?php echo $v_headline ?></b> -
-		<span class="news_date"><?php echo $v_date_posted ?></span> -
-		<?php echo $t_poster_name ?>
-	</td>
-</tr>
-<tr>
-	<td class="body">
-		<?php echo $v_body ?>
-	</td>
-</tr>
-</table>
-<?php
-	}
-?>
-
-<p class="center">
-<?php
-	$f_offset_next = $f_offset + $g_news_view_limit;
-	$f_offset_prev = $f_offset - $g_news_view_limit;
-
-	if ( $f_offset_prev >= 0) {
-		PRINT "[ <a href=\"index.php?f_offset=$f_offset_prev\">newer_news</a> ]";
-	}
-	if ( $news_count==$g_news_view_limit ) {
-		PRINT " [ <a href=\"index.php?f_offset=$f_offset_next\">older_news</a> ]";
-	}
-?>
-
-<?php include( "adsense_vertical_inc.php" ); ?>
-
-<?php 
 	$t_footer_sponsored_links = '
+		<a href="http://ontario.propertysold.ca/toronto/" title="Toronto Real Estate" target="_blank">Toronto Real Estate</a>,
+		<a href="http://www.roi.com.au/" title="search engine optimisation" target="_blank">search engine optimisation</a>,
 		<a href="http://www.callfire.com/dialer/cm/info/virtual_call_center.html" title="Virtual Call Center" target="_blank">Virtual Call Center</a>,
 		<a href="http://www.iceposter.com/" title="Posters" target="_blank">Posters</a>,
-		<a href="http://www.namesdir.com/" title="Names" target="_blank">Names</a>,
 		<a href="http://www.directorydream.com/" title="Web Directory" target="_blank">Web Directory</a>,
-		<a href="http://www.trojan-onlinemarketing.de/" title="Online Marketing" target="_blank">Online Marketing</a>,
 		<a href="http://www.dubaishortstay.com/" title="Dubai Hotel Apartment -Dubai Villas - Find a Quality Dubai Apartment or Dubai Villa" target="_blank">Dubai Hotel Apartment - Dubai Villas</a>,
 		<a href="http://www.skiamade-obertauern.de" title="Ski Amade, Obertauern &amp; Flachau" target="_blank">Ski Amade, Obertauern &amp; Flachau</a>, 
 		<a href="http://www.aoemedia.de/typo3-agentur.html" title="TYPO3" target="_blank">TYPO3</a>

@@ -27,13 +27,14 @@
 		</td>
 	</tr>
 
-	<?php /* Sponsor ad placed on 27-NOV-2006 */ ?>
+	<?php /* Sponsor ad placed on 27-NOV-2006
 	<tr>
 		<td><center><a href="http://www.woxikon.de/" target="_blank"><img src="images/sponsors/woxikonlogo.jpg" border="0" alt="Woxikon" width="156" height="60" /></a></center></td>
 		<td>
 			<a href="http://www.woxikon.de/" target="_blank">Woxikon</a> is an online word translation dictionary for English, German, French, Italian and Spanish terms.  Browseable word lists are available and provide a comprehensive list of translated terms and synonyms.  Simple clean and quick interface.
 		</td>
 	</tr>
+	*/ ?>
 
 	<?php /* Sponsor ad placed on 25-NOV-2006 */ ?>
 	<tr>
@@ -104,13 +105,14 @@
 		</td>
 	</tr>
 
-	<?php /* Sponsor ad placed on 12-SEP-2006 */ ?>
+	<?php /* Sponsor ad placed on 12-SEP-2006
 	<tr>
 		<td><center><a href="http://www.openwebdesign.org/" target="_blank"><img src="images/sponsors/openwebdesignlogo.png" border="0" alt="Open Web Design" width="200" height="38" /></a></center></td>
 		<td>
 			<a href="http://www.openwebdesign.org/" target="_blank">Open Web Design</a> is your primer source to free open web designs templates, by Web Design Company.
 		</td>
 	</tr>
+	*/ ?>
 
 	<?php /* Sponsor ad placed on 11-SEP-2006 */ ?>
 	<tr>
@@ -168,21 +170,23 @@
 		</td>
 	</tr>
 
-	<?php /* Sponsor ad placed on 12-MAY-2006 */ ?>
+	<?php /* Sponsor ad placed on 12-MAY-2006
 	<tr>
 		<td><center><a href="http://www.layoutbank.com/" target="_blank"><img src="images/sponsors/ctlogo.jpg" border="0" alt="LayoutBank" width="97" height="85" /></a></center></td>
 		<td>
 			<a href="http://www.layoutbank.com/" target="_blank">http://www.layoutbank.com</a> is amongst the oldest and biggest web site for aesthetically designed, high quality professional psd, web and flash templates for the web. LayoutBank is a pioneer to superior and high quality web design templates.
 		</td>
 	</tr>
+	*/ ?>
 
-	<?php /* Sponsor ad placed on 16-APR-2006 */ ?>
+	<?php /* Sponsor ad placed on 16-APR-2006
 	<tr>
 		<td><a href="http://www.dubaiapartments.biz/" target="_blank"><img src="images/sponsors/dalogo.gif" border="0" alt="Content Delivery Network" width="187" height="51" /></a></td>
 		<td>
 			<a href="http://www.dubaiapartments.biz/" target="_blank">http://www.dubaiapartments.biz</a> is an on-line portal which connects landlords of Dubai furnished apartments, non furnished apartments, villas, and offices to tenants and people from all around the world who want to rent an apartment either for short term rental basis or long term apartments, in Dubai.
 		</td>
 	</tr>
+	*/ ?>
 
 	<?php /* Sponsor ad placed on 13-APR-2006 */ ?>
 	<tr>
@@ -232,21 +236,21 @@
 		</td>
 	</tr>
 
-	<?php /* Sponsor ad placed on 29-AUG-2005 */ ?>
+	<?php /* Sponsor ad placed on 29-AUG-2005
 	<tr>
 		<td><a href="http://dasschoenstekind.de" target="_blank"><img src="images/sponsors/rammsteinlogo.jpg" border="0" alt="dasschoenstekind.de" width="200" height="55" /></a></td>
 		<td>
 			<a href="http://dasschoenstekind.de" target="_blank">dasschoenstekind.de</a> is a fan site of the German music group Rammstein.  Dasschoenstekind includes lyrics, discography, biography, merchandising and concert tickets.
 		</td>
-	</tr>
+	</tr> */ ?>
 
-	<?php /* Sponsor ad placed on 29-AUG-2005 */ ?>
+	<?php /* Sponsor ad placed on 29-AUG-2005
 	<tr>
 		<td><a href="http://domainunion.de" target="_blank"><img src="images/sponsors/domainunionlogo.gif" border="0" alt="domainunion.de" width="200" height="55" /></a></td>
 		<td>
 			<a href="http://domainunion.de" target="_blank">Domain Union</a> is a low cost German domain registrar for .de, .com, .net, .org, .info, and .biz.  Register your domain now and have it up and running within hours.  German domains are available for international customers.
 		</td>
-	</tr>
+	</tr> */ ?>
 
 	<?php /* Sponsor ad placed on 15-SEP-2005 */ ?>
 	<tr>
@@ -290,20 +294,16 @@
 <a href="http://www.mjm.co.uk/" target="_blank">MJM Data Recovery</a>,
 <a href="http://hitflip.de/" target="_blank">Tauschen bei Hitflip</a>,
 <a href="http://www.comwebhosting.co.uk" title="Englisch">COM Web Hosting</a>,
-<a href="http://www.woxikon.de" title="Englisch">Englisch</a>,
 <a href="http://www.phonewebcam.com/" title="Phonewebcam" target="_blank">Phonewebcam</a>,
 <a href="http://www.coveo.com/" title="Coveo" target="_blank">Coveo</a>,
 <a href="http://www.gnadenalm.at/" title="The Gnadenalm in Obertauern - Salzburg." target="_blank">Obertauern</a>,
 <a href="http://www.strategiclandinvestments.co.uk/" title="Land for Sale" target="_blank">Land for Sale</a>,
-<a href="http://www.openwebdesign.org/" title="Open Web Design" target="_blank">Open Web Design</a>,
 <a href="http://www.singletanz.de/" title="SINGLETANZ - Tanzschulen, Tanz-DVD" target="_blank">SINGLETANZ</a>,
 <a href="http://www.absolute-software.co.uk/" title="Embedded Programming Services" target="_blank">Embedded Programming</a>, 
 <a href="http://www.abcmodelsport.net/" title="Radio Control Cars" target="_blank">Radio Control Cars</a>, 
 <a href="http://www.foxy.co.uk/" title="Discount DVDs, CDs and Games" target="_blank">Foxy</a>, 
 <a href="http://www.dubaifurnishedapartments.com/" title="Dubai Beach Apartments" target="_blank">Dubai Beach Apartments</a>, 
 <a href="http://www.wischmop-shop.de/" title="http://www.wischmop-shop.de" target="_blank">Wischmop</a>, 
-<a href="http://www.layoutbank.com/" title="http://www.layoutbank.com" target="_blank">PSD Web Templates</a>, 
-<a href="http://www.dubaiapartments.biz/" title="Dubai Apartments" target="_blank">Dubai Apartments</a>, 
 <a href="http://www.solidstatenetworks.com/" title="Content Delivery Network" target="_blank">Content Delivery Network</a>, 
 <a href="http://www.webservertalk.com/" title="Forum for IT admins" target="_blank">Web Server Talk</a>,
 <a href="http://www.ezloandocs.com/" title="Mortgage Web Design" target="_blank">EZ Loandocs</a>,
@@ -312,10 +312,14 @@
 <a href="http://www.training-classes.com/" title="#1 Training Directory" target="_blank">#1&nbsp;Training&nbsp;Directory</a>,
 <a href="http://www.exit15.com/" title="Exit 15" target="_blank">Exit&nbsp;15</a>,
 <a href="http://www.resperate.com/" title="RESPeRATE To Lower Blood Pressure" target="_blank">RESPeRATE</a>,
-<a href="http://domainunion.de/" title="domains from germany" target="_blank">domainunion.de</a>,
-<a href="http://www.dasschoenstekind.de/" title="Rammstein Music" target="_blank">Rammstein&nbsp;Music</a>,
 <a href="http://www.ecoupons.com/" title="eCoupons" target="_blank">eCoupons.com&nbsp;Inc.</a>';
 
+// <a href="http://www.woxikon.de" title="Englisch">Englisch</a>,
+// <a href="http://www.dasschoenstekind.de/" title="Rammstein Music" target="_blank">Rammstein&nbsp;Music</a>,
+// <a href="http://domainunion.de/" title="domains from germany" target="_blank">domainunion.de</a>,
+// <a href="http://www.openwebdesign.org/" title="Open Web Design" target="_blank">Open Web Design</a>,
+// <a href="http://www.layoutbank.com/" title="http://www.layoutbank.com" target="_blank">PSD Web Templates</a>, 
+// <a href="http://www.dubaiapartments.biz/" title="Dubai Apartments" target="_blank">Dubai Apartments</a>, 
 // <a href="http://www.upscene.com/" title="Upscene Productions" target="_blank">Upscene Productions</a>, 
 // <a href="http://www.skiamade-obertauern.de/" title="Obertauern &amp; Ski Amade" target="_blank">Obertauern &amp; Ski Amade</a>,
 	include("bot.php"); 

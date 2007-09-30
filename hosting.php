@@ -12,19 +12,18 @@
 <table border="0" cellspacing="0" cellpadding="10">
 
 	<tr>
-		<td><center><a href="http://www.dreamhost.com/r.cgi?246268" target="_blank"><img src="http://www.dreamhost.com/images/rewards/120x90-a.gif" border="0" alt="Dream Host" width="120" height="90" /></a></center></td>
-		<td>
-			<a href="http://www.dreamhost.com/r.cgi?246268" target="_blank">DreamHost</a> offers 97-day money back guarantee, 24-hour technical email support, 200GB storage increasing by 1GB weekly, 2 TB bandwidth increasing weekly by 16GB, unlimited MySQL databases, web based control panel, PHP 4/5, Ruby-On-Rails, free domain registration, full unix shell, crontab, cvs/svn repository, one-click installs for several web apps, and much more.
-		</td>
-	</tr>
-
-	<tr>
 		<td><center><a href="https://secure.hostican.com/cgi-bin/affiliates/clickthru.cgi?id=vboctor&campaign=hosting_page" target="_blank"><img src="http://hosticanaffiliate.com/online/banners/695/set_5/5368_hostican_125x125.gif" border="0" alt="HostICan" width="125" height="125" /></a></center></td>
 		<td>
 			<a href="https://secure.hostican.com/cgi-bin/affiliates/clickthru.cgi?id=vboctor&campaign=hosting_page" target="_blank">HostICan</a> offers  Free Setup, Free Domain Name, 20 GB Disk Space, 800 GB Data Transfer, Money Back Guarantee.  "HostICan has spent a considerable amount of time developing an ideal solution that is guaranteed to work well for you. We host customers worldwide, ranging from blog sites to small online businesses, and just about everything in between!".
 		</td>
 	</tr>
 
+	<tr>
+		<td><center><a href="http://www.dreamhost.com/r.cgi?246268" target="_blank"><img src="http://www.dreamhost.com/images/rewards/120x90-a.gif" border="0" alt="Dream Host" width="120" height="90" /></a></center></td>
+		<td>
+			<a href="http://www.dreamhost.com/r.cgi?246268" target="_blank">DreamHost</a> offers 97-day money back guarantee, 24-hour technical email support, 200GB storage increasing by 1GB weekly, 2 TB bandwidth increasing weekly by 16GB, unlimited MySQL databases, web based control panel, PHP 4/5, Ruby-On-Rails, free domain registration, full unix shell, crontab, cvs/svn repository, one-click installs for several web apps, and much more.
+		</td>
+	</tr>
 
 </table>
 
@@ -35,4 +34,12 @@
 
 <p>We're committed to helping create a wholesome and hassle-free Mantis hosting environment. If you feel there are issues with one of the hosts listed here, please send a note.</p>
 
-<?php include("bot.php"); ?>
+<?php
+	include( "adsense_vertical_inc.php" );
+
+	$t_footer_sponsored_links = '
+		<a href="http://www.readysetconnect.com/" title="php website hosting" target="_blank">php website hosting</a>
+	';
+
+	include("bot.php");
+?>

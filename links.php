@@ -55,7 +55,6 @@
 <p><b>Articles and Reviews</b></p>
 <ul>
 <li><a href="http://www.linuxjournal.com/article.php?sid=6859">Linux Review: Product Review: Mantis Bug Tracker</a></li>
-<li><a href="http://www.lintellect.org/downloads/php-good-great-obscure-presentation.pdf">PHP: The Good, The Great, The Obscure</a></li>
 </ul>
 
 <br />

@@ -30,6 +30,11 @@
 ?>
 </ul>
 
-<?php include( "adsense_vertical_inc.php" ); ?>
+<?php
+	include( 'adsense_vertical_inc.php' ); 
 
-<?php include( "bot.php" ); ?>
+	$t_footer_sponsored_links = '
+	';
+
+	include( "bot.php" ); 
+?>
