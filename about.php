@@ -8,8 +8,8 @@
 <hr size="1" noshade="noshade" width="100%" />
 <br />
 <span class="section">What is it?</span>
-<p>Mantis is a web-based bugtracking system.  It is written in the <a href="http://www.php.net/">PHP</a> scripting language and works with <a href="http://www.mysql.com/">MySQL</a>, MS SQL, and PostgreSQL databases and a webserver.  Mantis has been installed on Windows, Mac OS, OS/2, and a variety of Unix operating systems.  Almost any web browser should be able to function as a client.  It is released under the terms of the <a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License</a> (GPL).</p>
-<p>Mantis is free to use and modify.  It is free to redistribute as long as you abide by the distribution terms of the <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a>.</p>
+<p>Mantis is a web-based bugtracking system.  It is written in the <a href="http://www.php.net/">PHP</a> scripting language and works with <a href="http://www.mysql.com/">MySQL</a>, MS SQL, and PostgreSQL databases and a webserver.  Mantis has been installed on Windows, Mac OS, OS/2, and a variety of Unix operating systems.  Almost any web browser should be able to function as a client.  It is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a> (GPL).</p>
+<p>Mantis is free to use and modify.  It is free to redistribute as long as you abide by the distribution terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPL</a>.</p>
 <br />
 <span class="section">Versioning</span>
 <p>
