@@ -20,7 +20,7 @@
 		<a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.announce" target="_blank">GMANE Archives</a>
 	</td>
 	<td width="15%">
-		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=7369" target="_blank">SourceForge Archives</a>
+		<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-announce" target="_blank">SourceForge Archives</a>
 	</td>
 	<td width="50%">
 		Be notified of releases and any important updates.
@@ -37,7 +37,7 @@
 		<a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.general" target="_blank">GMANE Archives</a>
 	</td>
 	<td>
-		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=1436">SourceForge Archives</a>
+		<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-help" target="_blank">SourceForge Archives</a>
 	</td>
 	<td>
 		Ask for help (check the mailing list archives and the <a href="/forums">forums</a> first.
@@ -54,7 +54,7 @@
 		<a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.localization" target="_blank">GMANE Archives</a>
 	</td>
 	<td>
-		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=38714">SourceForge Archives</a>
+		<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-lang" target="_blank">SourceForge Archives</a>
 	</td>
 	<td>
 		Mantis localization efforts.
@@ -71,7 +71,7 @@
 		<a href="http://gmane.org/info.php?group=gmane.comp.bug-tracking.mantis.devel" target="_blank">GMANE Archives</a>
 	</td>
 	<td>
-		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=3264">SourceForge Archives</a>
+		<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-dev" target="_blank">SourceForge Archives</a>
 	</td>
 	<td>
 		Mantis development talk.
@@ -88,10 +88,10 @@
 		<a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.cvs" target="_blank">GMANE Archives</a>
 	</td>
 	<td>
-		<a href="http://sourceforge.net/mailarchive/forum.php?forum_id=9396">SourceForge Archives</a>
+		<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-cvs" target="_blank">SourceForge Archives</a>
 	</td>
 	<td>
-		A message is sent to this whenever new code is committed to Mantis CVS.
+		A message is sent to this whenever new code is committed to Mantis source control (currently Subversion).
 	</td>
 </tr>
 </table>
