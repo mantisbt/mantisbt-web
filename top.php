@@ -46,7 +46,6 @@
 <a href="/wiki/">Wiki</a> |
 <a href="/bugs/">Bug Tracker</a> |
 <a href="http://www.futureware.biz/mantisdemo">Demo</a> |
-<a href="http://mantisbt.edgeio.net/">Job Board</a> |
 <a href="http://www.futureware.biz/mantisconnect/">MantisConnect</a> |
 <a href="http://www.futureware.biz/mantiswap/">MantisWAP</a> |
 <a href="hosting.php">Hosting</a> |

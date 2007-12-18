@@ -8,7 +8,7 @@
 <hr size="1" noshade="noshade" width="100%" />
 
 <div align="center">
-<p><font color="blue" size="+2">As you are downloading a new Mantis release, please take a minute to consider how you can contribute to the Mantis project.  You can do that by contributing time and talent, blogging about it, recommending Mantis to others, linking to Mantis website, registering in users directory, posting your job openings on the job board, donating money, advertising on Mantis website, sponsoring a feature, and possibly other ways.</font></p>
+<p><font color="blue" size="+2">As you are downloading a new Mantis release, please take a minute to consider how you can contribute to the Mantis project.  You can do that by contributing time and talent, blogging about it, recommending Mantis to others, linking to Mantis website, registering in users directory, donating money, advertising on Mantis website, sponsoring a feature, and possibly other ways.</font></p>
 
 <!-- Donation -->
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -25,7 +25,6 @@
 
 <ul>
   <li><a href="http://www.mantisbt.org/wiki/doku.php/mantisbt:contributing">Contributing to Mantis</a></li>
-  <li><a href="http://mantisbt.edgeio.net/">Mantis Job Board</a></li>
   <li><a href="directory.php">Users Directory</a></li>
   <li><a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963&package_id=166159">Download Mantis <?php @include("files/VERSION_STABLE") ?></a></li>
   <li><a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963">Download Mantis <?php @include("files/VERSION") ?></a></li>
