@@ -102,9 +102,11 @@
 	if ( $t_show_form ) {
 ?>
 
-<p align="left">Please use the form below to email us with any queries that you may have.  <strong>For questions relating to how to use or configure Mantis, please use the <a href="http://www.mantisbt.org/forums/">forums</a></strong>.</p>
+<p align="left">Please use the form below to email us with any queries that you may have.</p>
 
-<p>
+<p><big><strong><font color="red">For questions relating to how to use or configure Mantis, please use the <a href="http://www.mantisbt.org/forums/">forums</a>.  Such questions will no longer be answered via the Contact Us page.  This is to make sure that answers are retained for the benefit of other users and to reduce the load on the team.</font></strong></big></p>
+
+<br />
 <form name="frmAddEntry" method="post" onsubmit="return v.exec()">
 
 	<table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -141,7 +143,6 @@
 		</tr>
 	</table>
 </form>
-</p>
 
 <script language="JavaScript">
 

@@ -22,7 +22,6 @@
 		</tr>
 		<tr>
 			<td class="menu_head">
-				<span class="big">Partner Links</span><br />
 			</td>
 		</tr>
 		<tr>
