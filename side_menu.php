@@ -8,6 +8,7 @@
 			<td class="menu_items">
 				<a href="/manual/">Manual</a><br />
 				<a href="/wiki/">Wiki</a><br />
+				<a href="hosting.php">Hosting</a><br />
 				<a href="sponsors.php">Sponsors</a><br />
 				<a href="directory.php">Users Directory</a><br />
 				<a href="testimonials.php">What users say?</a><br />

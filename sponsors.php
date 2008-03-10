@@ -83,22 +83,6 @@
 		</td>
 	</tr>
 
-	<?php /* Sponsor ad placed on 14-JUL-2006 */ ?>
-	<tr>
-		<td><center><a href="http://www.foxy.co.uk/" target="_blank"><img src="images/sponsors/foxylogo.jpg" border="0" alt="Foxy" width="200" height="60" /></a></center></td>
-		<td>
-			<a href="http://www.foxy.co.uk/" title="Cheap DVDs, cheap CDs and cheap Games for Xbox 360, PSP, PS2, Nintendo DS, Game Cube and Playstation 1" target="blank">Foxy.co.uk - Cheap DVDs, CDs and Games</a> - Foxy sells cheap DVDs, CDs and games for Xbox 360, Playstation, PS2, PSP, Nintendo Game Cube and Nintendo DS with free UK delivery. 
-		</td>
-	</tr>
-
-	<?php /* Sponsor ad placed on 14-JUL-2006 */ ?>
-	<tr>
-		<td><center><a href="http://www.dubaifurnishedapartments.com/" target="_blank"><img src="images/sponsors/dfalogo.jpg" border="0" alt="Dubai Beach Apartments" width="200" height="50" /></a></center></td>
-		<td>
-			<a href="http://www.dubaifurnishedapartments.com/" target="_blank">Dubai Beach Apartments</a> offers self catering holiday apartments and holiday villas for rent as well as hotel apartments rental in Dubai beach on short term basis.
-		</td>
-	</tr>
-
 	<?php /* Sponsor ad placed on 02-JUL-2006 */ ?>
 	<tr>
 		<td><center><a href="http://www.wischmop-shop.de/" target="_blank"><img src="images/sponsors/wischmoplogo.jpg" border="0" alt="Wischmop Shop" width="200" height="42" /></a></center></td>
@@ -163,42 +147,9 @@
 		</td>
 	</tr>
 
-	<?php /* Sponsor ad placed on 15-JUL-2005 */ ?>
-	<tr>
-		<td><a href="http://www.ecoupons.com/" target="_blank"><img src="images/sponsors/ecouponslogo.gif" alt="eCoupons Logo" width="187" height="51" border="0" /></a></td>
-		<td>
-			<a href="http://www.ecoupons.com/" target="_blank">eCoupons.com Inc.</a>, founded in 1999, is a leading provider of Online and Printable Coupons.  Currently, eCoupons partners with leading Online Merchants such as Amazon, Best Buy, Buy.com, Dell, Gateway, HP and Office Depot.
-		</td>
-	</tr>
-
 </table>
 
-<?php include( "adsense_vertical_inc.php" ); ?>
-
 <?php
-/* 
-	$t_footer_sponsored_links = '
-<a href="http://www.mjm.co.uk/" target="_blank">MJM Data Recovery</a>,
-<a href="http://hitflip.de/" target="_blank">Tauschen bei Hitflip</a>,
-<a href="http://www.comwebhosting.co.uk" title="Englisch">COM Web Hosting</a>,
-<a href="http://www.phonewebcam.com/" title="Phonewebcam" target="_blank">Phonewebcam</a>,
-<a href="http://www.coveo.com/" title="Coveo" target="_blank">Coveo</a>,
-<a href="http://www.gnadenalm.at/" title="The Gnadenalm in Obertauern - Salzburg." target="_blank">Obertauern</a>,
-<a href="http://www.strategiclandinvestments.co.uk/" title="Land for Sale" target="_blank">Land for Sale</a>,
-<a href="http://www.singletanz.de/" title="SINGLETANZ - Tanzschulen, Tanz-DVD" target="_blank">SINGLETANZ</a>,
-<a href="http://www.absolute-software.co.uk/" title="Embedded Programming Services" target="_blank">Embedded Programming</a>, 
-<a href="http://www.abcmodelsport.net/" title="Radio Control Cars" target="_blank">Radio Control Cars</a>, 
-<a href="http://www.foxy.co.uk/" title="Discount DVDs, CDs and Games" target="_blank">Foxy</a>, 
-<a href="http://www.dubaifurnishedapartments.com/" title="Dubai Beach Apartments" target="_blank">Dubai Beach Apartments</a>, 
-<a href="http://www.wischmop-shop.de/" title="http://www.wischmop-shop.de" target="_blank">Wischmop</a>, 
-<a href="http://www.solidstatenetworks.com/" title="Content Delivery Network" target="_blank">Content Delivery Network</a>, 
-<a href="http://www.webservertalk.com/" title="Forum for IT admins" target="_blank">Web Server Talk</a>,
-<a href="http://www.ezloandocs.com/" title="Mortgage Web Design" target="_blank">EZ Loandocs</a>,
-<a href="http://www.merchantzoo.com/" title="Merchant Zoo" target="_blank">MerchantZoo</a>,
-<a href="http://www.playwhat.com" title="Playwhat" target="_blank">Playwhat</a>,
-<a href="http://www.training-classes.com/" title="#1 Training Directory" target="_blank">#1&nbsp;Training&nbsp;Directory</a>,
-<a href="http://www.resperate.com/" title="RESPeRATE To Lower Blood Pressure" target="_blank">RESPeRATE</a>,
-<a href="http://www.ecoupons.com/" title="eCoupons" target="_blank">eCoupons.com&nbsp;Inc.</a>';
-*/
+	include( "adsense_vertical_inc.php" );
 	include("bot.php"); 
 ?>

@@ -33,20 +33,12 @@ function tla_ads() {
 	if ( is_array($arr_xml) ) {
 		echo "\n\n";
 
+		/*
 		$arr_xml['BeforeText'][] = '';
 		$arr_xml['AfterText'][] = '';
-		$arr_xml['URL'][] = 'http://www.welt-der-links.de/';
-		$arr_xml['Text'][] = 'Webmaster Internet';
-
-		$arr_xml['BeforeText'][] = '';
-		$arr_xml['AfterText'][] = '';
-		$arr_xml['URL'][] = 'http://www.easyrecovery.co.uk/';
-		$arr_xml['Text'][] = 'Data Recovery';
-
-		$arr_xml['BeforeText'][] = '';
-		$arr_xml['AfterText'][] = '';
-		$arr_xml['URL'][] = 'http://www.leclic.co.uk/';
-		$arr_xml['Text'][] = 'wedding photography';
+		$arr_xml['URL'][] = '';
+		$arr_xml['Text'][] = '';
+		*/
 
 		for ($i = 0; $i < count($arr_xml['URL']); $i++) {
 			if( isset($arr_xml['PostID'][$i]) && $arr_xml['PostID'][$i] > 0 ) continue;
