@@ -167,11 +167,11 @@
 			<td style="padding:10px;"><input style="width:270px;" name="website_url" type="text" id="website_url" value="<?php echo htmlspecialchars( $f_website_url ); ?>" /></td>
 		</tr>
 		<tr>
-			<td width="20%" style="padding:10px;">Mantis URL:<br /><em>(leave empty for private installations)</em></td>
+			<td width="20%" style="padding:10px;">MantisBT URL:<br /><em>(leave empty for private installations)</em></td>
 			<td width="80%" style="padding:10px;"><input style="width:270px;" name="mantis_url" type="text" id="mantis_url" value="<?php echo htmlspecialchars( $f_mantis_url ); ?>" /></td>
 		</tr>
 		<tr>
-			<td width="20%" style="padding:10px;">Comments:<br /><em>(testimonials or feedback about Mantis, some will be selected to be quoted on a <a href="testimonials.php">testimonials page</a>)</em></td>
+			<td width="20%" style="padding:10px;">Comments:<br /><em>(testimonials or feedback about MantisBT, some will be selected to be quoted on a <a href="testimonials.php">testimonials page</a>)</em></td>
 			<td width="80%" style="padding:10px;"><textarea name="comments" id="comments" style="height:100px; width:270px; font-size:12px; margin:0; padding:0;"><?php echo htmlspecialchars( $f_comments ); ?></textarea></td>
 		</tr>
 		<tr>

@@ -8,7 +8,7 @@
 <hr size="1" noshade="noshade" width="100%" />
 <br />
 
-<span class="section">Mantis 1.1.0</span>
+<span class="section">MantisBT 1.1.0</span>
 <ul>
 	<li><b>Databases</b></li>
 	<ul>
@@ -21,7 +21,7 @@
 	<li><b>Configuration</b></li>
 	<ul>
 		<li>Provide a screen that reports all the configuration data stored in the database.</li>
-		<li>Provide means for administrators to set configuration from Mantis UI.</li>
+		<li>Provide means for administrators to set configuration from MantisBT UI.</li>
 		<li>Provide means for administrators to set general, project specific, user specifc, project+user specific configurations.</li>
 	</ul>
 
@@ -43,13 +43,13 @@
 
 <br />
 
-<span class="section">Mantis 2.0</span>
+<span class="section">MantisBT 2.0</span>
 <ul>
 	<li><b>Templates (probably http://smarty.php.net)</b></li>
 	<ul>
 		<li>Allow users to choose any subset of supported fields in view/update/print pages.</li>
 		<li>Allow users to define the mandatory fields (eg: by definining [field_name]_mandatory hidden field in the template).</li>
-		<li>Allow users to customize the look 'n' feel of Mantis by providing their own templates.</li>
+		<li>Allow users to customize the look 'n' feel of MantisBT by providing their own templates.</li>
 		<li>Allow users to define templates to be used in generation of email notifications.</li>
 		<li>One theme may include several templates for the same page (same like simple/advanced now).</li>
 		<li>Get rid of redundant code by providing one view page rather than simple/advanced/print).</li>
@@ -74,7 +74,7 @@
 		<li>Email footer and header templates.</li>
 		<li>Per project email settings.</li>
 		<li>Email subject lines should be more easily customizable.</li>
-		<li>Add X-Mantis: headers for easy email filtering by project, bug status, etc.</li>
+		<li>Add X-MantisBT: headers for easy email filtering by project, bug status, etc.</li>
 	</ul>
 
 	<br />

@@ -43,7 +43,7 @@
 <p>
 <?php print_dev_section( "introduction", "Introduction" ) ?>
 <p>
-Mantis, an open source project, allows you to contribute changes you make back to the core package.  This allows others to benefit from your work and can help you from having to reimplement your changes after an upgrade.  This page should provide useful information on procedures to ensure development goes smoothly.
+MantisBT, an open source project, allows you to contribute changes you make back to the core package.  This allows others to benefit from your work and can help you from having to reimplement your changes after an upgrade.  This page should provide useful information on procedures to ensure development goes smoothly.
 <p>
 <?php print_dev_section( "setup", "Setup" ) ?>
 <p>
@@ -159,7 +159,7 @@ cvs -n update
 <p>
 <?php print_dev_section( "coding_style", "Coding Style" ) ?>
 <p>
-Please follow the <a href="guidelines.php">Mantis Coding Conventions</a> document.  Code not following the convetions <b>will not be accepted</b>!
+Please follow the <a href="guidelines.php">MantisBT Coding Conventions</a> document.  Code not following the convetions <b>will not be accepted</b>!
 <p>
 <?php print_dev_section( "communication", "Communication" ) ?>
 <p>
@@ -236,7 +236,7 @@ Since PHP is loosely-typed it would try to convert to numbers if you used the + 
 
 <span class="section">Coding Style</span>
 <p>
-Please follow the <a href="guidelines.php">Mantis Coding Conventions</a>.
+Please follow the <a href="guidelines.php">MantisBT Coding Conventions</a>.
 
 <p>
 <span class="section">CVS commits</span>

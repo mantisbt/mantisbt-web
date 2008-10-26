@@ -45,7 +45,7 @@
 <span class="page_title">Localization</span>
 <hr size="1" noshade="noshade" width="100%" />
 <p>
-Here you can see the latest localization files.  The Latest Release column indicates the files were included in the most recent release of Mantis.  The CVS indicates what is currently in CVS.  Any updates should be made to the CVS version.
+Here you can see the latest localization files.  The Latest Release column indicates the files were included in the most recent release of MantisBT.  The CVS indicates what is currently in CVS.  Any updates should be made to the CVS version.
 <p>
 What to do if you see some errors?  Just <a href="mailto:mantisbt-lang@lists.sourceforge.net">send an email</a> with the corrected strings.
 <p>

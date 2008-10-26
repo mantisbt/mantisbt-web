@@ -1,3 +1,3 @@
 <?php
-    header("Location: http://www.futureware.biz/mantisdemo/");
+    header("Location: http://demo.mantisbt.org/");
 ?>

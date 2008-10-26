@@ -7,12 +7,12 @@
 	include( "top.php" );
 ?>
 
-<span class="page_title">Mantis Users Directory</span>
+<span class="page_title">MantisBT Users Directory</span>
 <hr size="1" noshade="noshade" width="100%" />
 
-<p>This is a directory of companies and open source projects that are using Mantis as their issue tracking system.  If your company is not listed below, or you know of an open source project that uses Mantis but is not listed below, please <a href="directory_entry_submit.php">submit</a> it here.</p>
+<p>This is a directory of companies and open source projects that are using MantisBT as their issue tracking system.  If your company is not listed below, or you know of an open source project that uses MantisBT but is not listed below, please <a href="directory_entry_submit.php">submit</a> it here.</p>
 
-<p>When possible consider adding a link back to Mantis website.  You can use the button on the left side of the page, but please download it and reference it from your site to reduce the load on the Mantis web server.</p> 	
+<p>When possible consider adding a link back to MantisBT website.  You can use the button on the left side of the page, but please download it and reference it from your site to reduce the load on the MantisBT web server.</p> 	
 
 <?php
 	$mantis_ud = new mantis_user_directory_entry(); 

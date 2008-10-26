@@ -24,7 +24,7 @@ function tla_ads() {
 
 	$arr_xml = tla_decodeXML($xml);
 
-		#*** Mantis Stuff ***
+		#*** MantisBT Stuff ***
 	if ( !is_array($arr_xml) ) {
 		$arr_xml = array();
 	}

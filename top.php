@@ -15,7 +15,7 @@
 		}
 
 		if ( strstr( $t_host, 'domainunion.de' ) !== false ) {
-			echo 'Mantis website is <a href="http://www.mantisbt.org/">http://www.mantisbt.org/</a>';
+			echo 'MantisBT website is <a href="http://www.mantisbt.org/">http://www.mantisbt.org/</a>';
 			exit;
 		}
 ?>
@@ -24,9 +24,9 @@
 <head>
 <link rel="shortcut icon" href="http://www.mantisbt.org/fav.ico">
 <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
-<meta name="description" content="Mantis is a popular free web-based bug tracking system. It is written in the PHP scripting language and works with MySQL, MS SQL, and PostgreSQL databases and a webserver. Mantis has been installed on Windows, Linux, Mac OS, OS/2, and others. Almost any web browser should be able to function as a client. It is released under the terms of the GNU General Public License (GPL)." />
-<meta name="keywords" content="mantis, bugtracker, bug, tracker, issue, software" />
-<meta name="dc.title" content="Mantis Bugtracker" />
+<meta name="description" content="MantisBT is a popular free web-based bug tracking system. It is written in the PHP scripting language and works with MySQL, MS SQL, and PostgreSQL databases and a webserver. MantisBT has been installed on Windows, Linux, Mac OS, OS/2, and others. Almost any web browser should be able to function as a client. It is released under the terms of the GNU General Public License (GPL)." />
+<meta name="keywords" content="mantis, mantisbt, bugtracker, bug, tracker, issue, software" />
+<meta name="dc.title" content="Mantis Bug Tracker" />
 <meta name="revisit-after" content="1 days" />
 <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.mantisbt.org/bugs/news_rss.php?project_id=1">
 <title>Mantis Bug Tracker<?php if ( isset( $t_sub_title ) ) { echo " | $t_sub_title"; } ?></title>

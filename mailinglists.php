@@ -57,7 +57,7 @@
 		<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-lang" target="_blank">SourceForge Archives</a>
 	</td>
 	<td>
-		Mantis localization efforts.
+		MantisBT localization efforts.
 	</td>
 </tr>
 <tr>
@@ -74,7 +74,7 @@
 		<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-dev" target="_blank">SourceForge Archives</a>
 	</td>
 	<td>
-		Mantis development talk.
+		MantisBT development talk.
 	</td>
 </tr>
 <tr>
@@ -91,7 +91,7 @@
 		<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-cvs" target="_blank">SourceForge Archives</a>
 	</td>
 	<td>
-		A message is sent to this whenever new code is committed to Mantis source control (currently Subversion).
+		A message is sent to this whenever new code is committed to MantisBT source control (currently Subversion).
 	</td>
 </tr>
 </table>

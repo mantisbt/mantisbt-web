@@ -7,7 +7,7 @@
 <span class="page_title">Partners</span>
 <hr size="1" noshade="noshade" width="100%" />
 
-<p>Mantis team is proud to feature the following companies as partners of our site.  For information on joining our partner group please use <a href="contact_us.php">contact us</a> page.</p>
+<p>MantisBT team is proud to feature the following companies as partners of our site.  For information on joining our partner group please use <a href="contact_us.php">contact us</a> page.</p>
 
 <table border="0" cellspacing="0" cellpadding="10">
 
@@ -39,7 +39,7 @@
 	<tr>
 		<td><center><a href="http://www.coveo.com/" target="_blank"><img src="images/sponsors/coveologo.jpg" border="0" alt="Coveo" width="150" height="80" /></a></center></td>
 		<td>
-			<a href="http://www.coveo.com/" target="_blank">Coveo</a> develops award winning enterprise secure search engine applications that deliver secure, accurate access to structured and unstructured information across the enterprise. A version tightly integrated within Microsoft SharePoint is also available. Contact our support team to learn how you can leverage the information stored in Mantis using Coveo Enterprise Search.
+			<a href="http://www.coveo.com/" target="_blank">Coveo</a> develops award winning enterprise secure search engine applications that deliver secure, accurate access to structured and unstructured information across the enterprise. A version tightly integrated within Microsoft SharePoint is also available. Contact our support team to learn how you can leverage the information stored in MantisBT using Coveo Enterprise Search.
 		</td>
 	</tr>
 
@@ -135,7 +135,7 @@
 	<tr>
 		<td><a href="http://www.training-classes.com/" target="_blank"><img src="images/sponsors/trainingclasseslogo.gif" border="0" alt="Training" width="200" height="60" /></a></td>
 		<td>
-			<a href="http://www.training-classes.com/" target="_blank">#1 Training Directory</a> Connecting people who want to learn with people who love to teach since 1998: Happy to use Mantis and proud to support this excellent bug tracking package.
+			<a href="http://www.training-classes.com/" target="_blank">#1 Training Directory</a> Connecting people who want to learn with people who love to teach since 1998: Happy to use MantisBT and proud to support this excellent bug tracking package.
 		</td>
 	</tr>
 

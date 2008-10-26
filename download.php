@@ -8,7 +8,7 @@
 <hr size="1" noshade="noshade" width="100%" />
 
 <div align="center">
-<p><font color="blue" size="+2">As you are downloading a new Mantis release, please take a minute to consider how you can contribute to the Mantis project.  You can do that by contributing time and talent, blogging about it, recommending Mantis to others, linking to Mantis website, registering in users directory, donating money, advertising on Mantis website, sponsoring a feature, and possibly other ways.</font></p>
+<p><font color="blue" size="+2">As you are downloading a new MantisBT release, please take a minute to consider how you can contribute to the MantisBT project.  You can do that by contributing time and talent, blogging about it, recommending MantisBT to others, linking to MantisBT website, registering in users directory, donating money, advertising on MantisBT website, sponsoring a feature, and possibly other ways.</font></p>
 
 <!-- Donation -->
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -24,23 +24,23 @@
 <p><span class="section">Where do you want to go next?</span></p>
 
 <ul>
-  <li><a href="http://www.mantisbt.org/wiki/doku.php/mantisbt:contributing">Contributing to Mantis</a></li>
+  <li><a href="http://www.mantisbt.org/wiki/doku.php/mantisbt:contributing">Contributing to MantisBT</a></li>
   <li><a href="directory.php">Users Directory</a></li>
-  <li><a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963&package_id=166159">Download Mantis <?php @include("files/VERSION_STABLE") ?></a></li>
-  <li><a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963">Download Mantis <?php @include("files/VERSION") ?></a></li>
+  <li><a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963&package_id=166159">Download MantisBT <?php @include("files/VERSION_STABLE") ?></a></li>
+  <li><a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963">Download MantisBT <?php @include("files/VERSION") ?></a></li>
 </ul>
 
-<p>Mantis is compressed in <span class="code">.tar.gz</span> format which any reasonable decompression program can handle (Unix tar/gunzip, <a href="http://www.7-zip.org/" rel="nofollow">7-zip</a>, <a href="http://www.winzip.com/" rel="nofollow">Winzip</a>).</p>
-<p>See <a href="/manual/manual.installation.upgrading.php">upgrading</a> page in Mantis Manual for details about the upgrade process.</p>
+<p>MantisBT is compressed in <span class="code">.tar.gz</span> format which any reasonable decompression program can handle (Unix tar/gunzip, <a href="http://www.7-zip.org/" rel="nofollow">7-zip</a>, <a href="http://www.winzip.com/" rel="nofollow">Winzip</a>).</p>
+<p>See <a href="/manual/manual.installation.upgrading.php">upgrading</a> page in MantisBT Manual for details about the upgrade process.</p>
 
-<p><span class="section">Mantis Distributions</span></p>
-<p>Mantis is distributed with several <a href="/wiki/doku.php/mantisbt:distributions">GNU/Linux distributions</a>.  Typically the Mantis versions in these distributions are not the latest.  For the latest Mantis version use the links above.</p>
+<p><span class="section">MantisBT Distributions</span></p>
+<p>MantisBT is distributed with several <a href="/wiki/doku.php/mantisbt:distributions">GNU/Linux distributions</a>.  Typically the MantisBT versions in these distributions are not the latest.  For the latest MantisBT version use the links above.</p>
 
 <?php
 	include( 'adsense_vertical_inc.php' ); 
 
 	$t_footer_sponsored_links = '
-		<a href="http://www.austria.info/" title="Österreich" target="_blank">Österreich</a>
+		<a href="http://www.austria.info/" title="ï¿½sterreich" target="_blank">ï¿½sterreich</a>
 	';
 #		<a href="http://www.concertgroove.com/" title="Concert Listings" target="_blank">Concert Listings</a>,
 

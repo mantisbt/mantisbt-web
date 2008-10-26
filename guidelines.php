@@ -4,10 +4,10 @@
 	include( "top.php" );
 ?>
 
-<span class="page_title">Mantis Coding Conventions</span>
+<span class="page_title">MantisBT Coding Conventions</span>
 <hr size="1" noshade="noshade" width="100%" />
 <p>
-This is the Mantis coding conventions document.  This should assist anyone who wants to modify the code or work on active development.  Anyone who wishes to contribute code <b>must adhere</b> to these guidelines.  <b>Code not following these conventions will be rejected.</b>  If you have suggestions or a good argument for changing some of these guidelines then discuss it on the <a href="mailinglists.php">developer mailing lists</a>.
+This is the MantisBT coding conventions document.  This should assist anyone who wants to modify the code or work on active development.  Anyone who wishes to contribute code <b>must adhere</b> to these guidelines.  <b>Code not following these conventions will be rejected.</b>  If you have suggestions or a good argument for changing some of these guidelines then discuss it on the <a href="mailinglists.php">developer mailing lists</a>.
 <p>
 First, start off by reading the <a href="http://www.phpinfo.net/articles/article_php-coding-standard.html"><b>PHP Coding Standards</b></a> document.  I've deviated in a few places but just about everything in the document applies here as well.
 <p>

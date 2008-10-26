@@ -14,7 +14,7 @@ If you wish to join the development team please <a href="mailto:kenito@300baud.o
 UPDATE CONTENT
 
 <p>
-Here are some notes that should help people understand the way Mantis is layed out.
+Here are some notes that should help people understand the way MantisBT is layed out.
 <p>
 <ul>
 	<li><a href="images/dg_menu.gif">Menu overview</a> <?php echo round(filesize("images/dg_menu.gif") / 1024) ?>KB
@@ -26,7 +26,7 @@ Here are some notes that should help people understand the way Mantis is layed o
 -->
 
 <p>
-Mantis roughly divides into the following modules:
+MantisBT roughly divides into the following modules:
 <ul>
 	<li>Account Management
 	<li>Account Profile Management
@@ -49,7 +49,7 @@ Mantis roughly divides into the following modules:
 </ul>
 
 <p>
-Mantis is lacking in the following areas:
+MantisBT is lacking in the following areas:
 <ul>
 	<li>Reporting (printable format, weekly/monthly progress charts, line graphs, bar charts, PDF exporting)
 	<li>Logging

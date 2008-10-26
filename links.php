@@ -8,7 +8,7 @@
 <hr size="1" noshade="noshade" width="100%" />
 
 <p><b>MantisConnect</b></p>
-<p><a href="http://www.futureware.biz/mantisconnect/">MantisConnect</a> allows the following applications to integrate with Mantis:</p>
+<p><a href="http://www.futureware.biz/mantisconnect/">MantisConnect</a> allows the following applications to integrate with MantisBT:</p>
 <ul>
 	<li>.NET Applications</li>
 	<li>Java Applications</li>
@@ -19,25 +19,25 @@
 </ul>
 
 <p><b>MantisWAP</b></p>
-<p><a href="http://www.futureware.biz/mantiswap">MantisWAP</a> provides WAP enabled phones and PDAs with easy access to Mantis Bugtracker. This is a great asset for support staff and developers who need to access Mantis while on the go. MantisWAP can easily be integrated with existing Mantis installations without having to modify the existing Mantis code.</p>
+<p><a href="http://www.futureware.biz/mantiswap">MantisWAP</a> provides WAP enabled phones and PDAs with easy access to MantisBT Bug Tracker. This is a great asset for support staff and developers who need to access MantisBT while on the go. MantisWAP can easily be integrated with existing MantisBT installations without having to modify the existing MantisBT code.</p>
 
 <p><b>Integration with Source Control</b></p>
 <ul>
-<li><a href="http://freshmeat.net/projects/scmbug/">Scmbug: Integrates Mantis with several Source Control tools like CVS, Subversion, and Arch.</a></li>
+<li><a href="http://freshmeat.net/projects/scmbug/">Scmbug: Integrates MantisBT with several Source Control tools like CVS, Subversion, and Arch.</a></li>
 </ul>
 
 <p><b>Single Sign-On</b></p>
 <ul>
-	<li><a href="http://opensso.sourceforge.net/">Open SSO</a> - Provides a plug-in to login to Mantis using X509 certificates.</li>
+	<li><a href="http://opensso.sourceforge.net/">Open SSO</a> - Provides a plug-in to login to MantisBT using X509 certificates.</li>
 </ul>
 
-<p><b>Open Source Libraries used by Mantis</b></p>
+<p><b>Open Source Libraries used by MantisBT</b></p>
 <ul>
 <li><a href="http://phpmailer.sourceforge.net" title="Free Open Source PHP Library for Sending Emails">PHPMailer</a></li>
 <li><a href="http://adodb.sourceforge.net" title="Free Open Source PHP Library for Database Abstraction">ADODB</a></li>
 </ul>
 
-<p><b>Links to sites which gets Mantis to work with...</b></p>
+<p><b>Links to sites which gets MantisBT to work with...</b></p>
 <ul>
 <li><a href="http://www.freshports.org/databases/mantis/">FreeBSD (Fresh Ports)</a></li>
 <li><a href="http://sourceforge.net/project/showfiles.php?group_id=68255&amp;package_id=108965" target="_blank">Geeklog</a></li>
@@ -48,7 +48,7 @@
 
 <p><b>Migration Tools</b></p>
 <ul>
-<li><a href="http://www.mantisbt.org/bugs/view.php?id=6934" target="_blank">GNATs to Mantis</a> (Perl) by Colin Pitrat</li>
+<li><a href="http://www.mantisbt.org/bugs/view.php?id=6934" target="_blank">GNATs to MantisBT</a> (Perl) by Colin Pitrat</li>
 </ul>
 
 <p><b>Articles and Reviews</b></p>
