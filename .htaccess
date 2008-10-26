@@ -1,0 +1,27 @@
+# -FrontPage-
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^mantisbt\.org$
+RewriteRule ^/(.*) http://www.mantisbt.org/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^forums\.mantisbt\.org$
+RewriteRule ^/(.*) http://www.mantisbt.org/forums/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^mantisbt.org [NC]
+RewriteRule ^(.*)$ http://www.mantisbt.org/$1 [R=301,L]
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName www.mantisbugtracker.com
+AuthUserFile /home/mantisbt/public_html/_vti_pvt/service.pwd
+AuthGroupFile /home/mantisbt/public_html/_vti_pvt/service.grp
