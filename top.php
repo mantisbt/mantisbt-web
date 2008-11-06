@@ -5,15 +5,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<link rel="shortcut icon" href="http://www.mantisbt.org/favicon.ico">
-<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
-<meta name="description" content="MantisBT is a popular free web-based bug tracking system. It is written in the PHP scripting language and works with MySQL, MS SQL, and PostgreSQL databases and a webserver. MantisBT has been installed on Windows, Linux, Mac OS, OS/2, and others. Almost any web browser should be able to function as a client. It is released under the terms of the GNU General Public License (GPL)." />
-<meta name="keywords" content="mantis, mantisbt, bugtracker, bug, tracker, issue, software" />
-<meta name="dc.title" content="Mantis Bug Tracker" />
-<meta name="revisit-after" content="1 days" />
-<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.mantisbt.org/bugs/news_rss.php?project_id=1">
-<title>Mantis Bug Tracker<?php if ( isset( $t_sub_title ) ) { echo " | $t_sub_title"; } ?></title>
-<?php include( "mantis.css" ) ?>
+	<link rel="shortcut icon" href="http://www.mantisbt.org/favicon.ico" />
+	<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+	<meta name="description" content="MantisBT is a popular free web-based bug tracking system. It is written in the PHP scripting language and works with MySQL, MS SQL, and PostgreSQL databases and a webserver. MantisBT has been installed on Windows, Linux, Mac OS, OS/2, and others. Almost any web browser should be able to function as a client. It is released under the terms of the GNU General Public License (GPL)." />
+	<meta name="keywords" content="mantis, mantisbt, bugtracker, bug, tracker, issue, software" />
+	<meta name="dc.title" content="Mantis Bug Tracker" />
+	<meta name="revisit-after" content="1 days" />
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.mantisbt.org/bugs/news_rss.php?project_id=1" />
+	<title>Mantis Bug Tracker<?php if ( isset( $t_sub_title ) ) { echo " | $t_sub_title"; } ?></title>
+	<link rel="stylesheet" type="text/css" href="/mantis.css" />
 </head>
 <body>
 
