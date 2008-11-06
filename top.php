@@ -14,10 +14,6 @@
 			$t_host = 'www.mantisbt.org';
 		}
 
-		if ( strstr( $t_host, 'domainunion.de' ) !== false ) {
-			echo 'MantisBT website is <a href="http://www.mantisbt.org/">http://www.mantisbt.org/</a>';
-			exit;
-		}
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
