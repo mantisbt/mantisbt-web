@@ -61,7 +61,6 @@
 				<a href="guidelines.php">Coding Guidelines</a><br />
 				<!--<a href="devnotes.php">Dev Notes</a><br />-->
 				<a href="sources.php">Source Code</a><br />
-				<a href="roadmap.php">Roadmap</a><br />
 				<!-- <a href="localization.php">Localization</a><br /> -->
 			</td>
 		</tr>
