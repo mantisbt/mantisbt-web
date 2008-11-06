@@ -1,23 +1,6 @@
 <?php
 	include( 'config_defaults_inc.php' );
 	require_once( 'utils_inc.php' );
-
-		if ( isset( $_SERVER['HTTP_X_FORWARDED_HOST'] ) ) { // Support ProxyPass
-			$t_host = $_SERVER['HTTP_X_FORWARDED_HOST'];
-		} else if ( isset( $_SERVER['HTTP_HOST'] ) ) {
-			$t_host = $_SERVER['HTTP_HOST'];
-		} else if ( isset( $_SERVER['SERVER_NAME'] ) ) {
-			$t_host = $_SERVER['SERVER_NAME'] . $t_port;
-		} else if ( isset( $_SERVER['SERVER_ADDR'] ) ) {
-			$t_host = $_SERVER['SERVER_ADDR'] . $t_port;
-		} else {
-			$t_host = 'www.mantisbt.org';
-		}
-
-		if ( strstr( $t_host, 'domainunion.de' ) !== false ) {
-			echo 'MantisBT website is <a href="http://www.mantisbt.org/">http://www.mantisbt.org/</a>';
-			exit;
-		}
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -31,7 +14,6 @@
 <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.mantisbt.org/bugs/news_rss.php?project_id=1">
 <title>Mantis Bug Tracker<?php if ( isset( $t_sub_title ) ) { echo " | $t_sub_title"; } ?></title>
 <?php include( "mantis.css" ) ?>
-<script defer id="snap_preview_anywhere" type="text/javascript" src="http://spa.snap.com/snap_preview_anywhere.js?ap=1&amp;key=fab5c85eda0766eb3764595a8e374954&amp;sb=1&amp;domain=www.mantisbt.org"></script>
 </head>
 <body>
 
