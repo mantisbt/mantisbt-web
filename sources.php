@@ -10,14 +10,15 @@
 
 <br />
 
-<span class="section">Subversion (SVN)</span>
+<span class="section">GIT</span>
 
-<p>MantisBT uses <a href="http://subversion.tigris.org/">Subversion</a> to store and control its source code.</p>
+<p>MantisBT uses <a href="http://git.or.cz/">GIT</a> to store and control its source code.</p>
 
-<p>Please check the Sourceforge <a href="http://sourceforge.net/svn/?group_id=14963">SVN Repository page</a> for more information about getting MantisBT sources.</p>
+<p>Please see <a href="http://git.mantisbt.org">git.mantisbt.org</a> for viewing the sources.</p>
 
-<p>Look for more documentation about working with MantisBT codebase in our <a href="http://www.mantisbt.org/wiki/doku.php/mantisbt:developers_corner">wiki</a></p>
+<p>To get a copy of the current mantisbt-core use</p>
 
+<pre>git clone git://git.mantisbt.org/mantisbt-core.git</pre>
 
 <?php include( "adsense_vertical_inc.php" ); ?>
 
