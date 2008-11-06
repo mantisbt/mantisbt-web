@@ -4,10 +4,11 @@
 	function myMailer( $p_body, $p_to_address, $p_reply_address = '', $p_is_html = true ) {
 		$mail = new PHPMailer();
 
-		$mail->IsSMTP(); // telling the class to use SMTP
-		$mail->Host = SMTP_SERVER; // SMTP server
-		$mail->Username = SMTP_USERNAME;
-		$mail->Password = SMTP_PASSWORD;
+		$mail->IsSendmail();
+		#$mail->IsSMTP(); // telling the class to use SMTP
+		#$mail->Host = SMTP_SERVER; // SMTP server
+		#$mail->Username = SMTP_USERNAME;
+		#$mail->Password = SMTP_PASSWORD;
 		$mail->SMTPAuth = true;
 
 		if ( $p_is_html ) {
