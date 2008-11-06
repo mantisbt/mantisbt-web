@@ -31,7 +31,6 @@
 <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.mantisbt.org/bugs/news_rss.php?project_id=1">
 <title>Mantis Bug Tracker<?php if ( isset( $t_sub_title ) ) { echo " | $t_sub_title"; } ?></title>
 <?php include( "mantis.css" ) ?>
-<script defer id="snap_preview_anywhere" type="text/javascript" src="http://spa.snap.com/snap_preview_anywhere.js?ap=1&amp;key=fab5c85eda0766eb3764595a8e374954&amp;sb=1&amp;domain=www.mantisbt.org"></script>
 </head>
 <body>
 
