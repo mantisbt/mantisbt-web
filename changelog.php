@@ -6,7 +6,7 @@
 
 <span class="page_title">ChangeLog</span>
 <hr size="1" noshade="noshade" width="100%" />
-<p>
+<p />
 
 <pre>
 <?php

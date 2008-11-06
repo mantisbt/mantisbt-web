@@ -1,9 +1,7 @@
 <?php
 	$t_sub_title = "About";
-
 	include( "top.php" );
 ?>
-
 <span class="page_title">About</span>
 <hr size="1" noshade="noshade" width="100%" />
 <br />
@@ -30,5 +28,4 @@ The release numbering convention used is <b>major.minor.micro</b> (eg. 1.1.0).
 </ul>
 
 <?php include( "adsense_vertical_inc.php" ); ?>
-
 <?php include("bot.php"); ?>

@@ -3,17 +3,16 @@
 <tr>
 	<td class="menu_bot_left" colspan="3">
 		<table width="100%">
-		<tr>
-			<td class="bar">
-				<img src="images/space.gif" alt="">
-			</td>
-		</tr>
+			<tr>
+				<td class="bar">
+					<img src="images/space.gif" alt="" />
+				</td>
+			</tr>
 		</table>
-
 		<table width="100%">
 			<tr valign="MIDDLE">
 				<td width="100%">
-<?php 
+<?php  
 	if ( isset( $t_footer_sponsored_links ) ) {
 		echo '<p align="right">Partner Links: ' . $t_footer_sponsored_links, '</p>'; 
 	}

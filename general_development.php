@@ -21,9 +21,9 @@
 
 <span class="page_title">General Development</span>
 <hr size="1" noshade="noshade" width="100%" />
-<p>
+<p />
 <span class="section">Table of Contents</span>
-<p>
+<p />
 
 <ul>
 	<li><a href="#introduction">Introduction</a></li>
@@ -40,23 +40,23 @@
 
 </ul>
 
-<p>
+<p />
 <?php print_dev_section( "introduction", "Introduction" ) ?>
-<p>
+<p />
 MantisBT, an open source project, allows you to contribute changes you make back to the core package.  This allows others to benefit from your work and can help you from having to reimplement your changes after an upgrade.  This page should provide useful information on procedures to ensure development goes smoothly.
 <p>
 <?php print_dev_section( "setup", "Setup" ) ?>
-<p>
+<p />
 <span class="section">Install and Set Up Apache + PHP + MySQL</span>
-<p>
+<p />
 <ul>
 	<li><a href="http://www.apache.org/">Apache</a></li>
 	<li><a href="http://www.php.net/">PHP</a></li>
 	<li><a href="http://www.mysql.com/">MySQL</a></li>
 </ul>
-<p>
+<p />
 Some sites that will guide you through a step-by-step installation and setup process.
-<p>
+<p />
 <ul>
 	<li><a href="http://hotwired.lycos.com/webmonkey/99/21/index2a.html">PHP/MySQL Tutorial</a> - also covers installation and setup</li>
 	<li><a href="http://www.vtwebwizard.com/tutorials/mysql/">Another tutorial</a></li>
@@ -67,18 +67,18 @@ Some sites that will guide you through a step-by-step installation and setup pro
 	<li><a href="http://www.thickbook.com/extra/php_apachephp4_win.phtml">Apache+PHP</a> - installation instructions</li>
 	<li><a href="http://sourceforge.net/projects/phptriad/">PHPTriad</a> - Apache, MySQL, PHP, PHPLIB, phpMyAdmin all in one!  A bit outdated but still useful</li>
 </ul>
-<p>
+<p />
 <span class="section">Install phpMyAdmin</span>
-<p>
+<p />
 
 <ul>
 	<li><a href="http://www.phpwizard.net/">phpMyAdmin</a></li>
 </ul>
-<p>
+<p />
 All you really need to do is edit the config.php file to be able to access your MySQL installation.  Note that you will need to place phpMyAdmin in your web server directory so you can access it with your web browser.  In order to secure this you should read the documentation and use a .htaccess file.  If no one will be accessing your server it's not a big deal; just use common sense.
-<p>
+<p />
 It may complain about magic_quotes_gpc.  You can make sure this is on by looking in your php.ini file.  Don't forget to restart apache for the settings to take effect.  If that doesn't fix the warning just ignore it.  I haven't had any problems.
-<p>
+<p />
 
 <span class="section">Set Up CVS/SSH</span>
 <p>

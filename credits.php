@@ -6,7 +6,7 @@
 
 <span class="page_title">Credits</span>
 <hr size="1" noshade="noshade" width="100%" />
-<p>
+<p />
 <ul>
 <?php
         $file = file( "files/CREDITS");
