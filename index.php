@@ -52,7 +52,10 @@
 	// Parse it
 	$feed = new SimplePie();
 	$feed->set_feed_url( 'http://www.mantisbt.org/blog/?feed=rss2' );
-	$feed->enable_cache(false);
+    if (empty($g_rss_cache_path))  
+	    $feed->enable_cache(false);
+    else 
+        $feed->set_cache_location($g_rss_cache_path); 
 	$feed->init();
 	
 	$items = $feed->get_items();
