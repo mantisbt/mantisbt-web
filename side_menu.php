@@ -11,7 +11,7 @@
 				<a href="hosting.php">Hosting</a><br />
 				<a href="sponsors.php">Sponsors</a><br />
 				<a href="directory.php">Users Directory</a><br />
-				<a href="testimonials.php">What users say?</a><br />
+				<a href="testimonials.php">What users say</a><br />
 				<a href="links.php">Links</a><br />
 				<a href="requirements.php">Requirements</a><br />
 				<a href="changelog.php">ChangeLog</a><br />
