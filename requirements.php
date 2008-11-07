@@ -51,7 +51,5 @@ to evaluate MantisBT or to run a small installation, then you should be up and r
 <?php
 	include( 'adsense_vertical_inc.php' ); 
 
-	$t_footer_sponsored_links = '';
-
 	include( "bot.php" ); 
 ?>
