@@ -21,10 +21,7 @@
 <?php
 	include( 'adsense_vertical_inc.php' ); 
 
-	$t_footer_sponsored_links = '
-		<a href="http://www.hosteurope.de/web-hosting-provider/voip.php" title="VoIP" target="_blank">VoIP</a>,
-		<a href="http://www.rwe.com/rwe-heizkosten/contracting.html" title="Contracting" target="_blank">Contracting</a>
-	';
+	$t_footer_sponsored_links = '';
 
 	include( "bot.php" ); 
 ?>

@@ -11,27 +11,11 @@
 
 <table border="0" cellspacing="0" cellpadding="10">
 
-	<?php /* Sponsor ad placed on 17-DEC-2006 */ ?>
-	<tr>
-		<td><center><a href="http://www.mjm.co.uk" target="_blank"><img src="images/sponsors/mjmlogo.jpg" border="0" alt="Data Recovery Services" width="186" height="66" /></a></center></td>
-		<td>
-			<a href="http://www.mjm.co.uk/" target="_blank">MJM Data Recovery</a> provides data recovery services from all manufacturers of hard disk drives, RAID arrays and other storage media.
-		</td>
-	</tr>
-
 	<?php /* Sponsor ad placed on 13-DEC-2006 */ ?>
 	<tr>
 		<td><center><a href="http://hitflip.de/" target="_blank"><img src="images/sponsors/hitfliplogo.gif" border="0" alt="Tauschen bei Hitflip" width="135" height="70" /></a></center></td>
 		<td>
 			<a href="http://hitflip.de/" target="_blank">Hitflip</a> is a trading / bartering platform for all sorts of media products like books, music CDs, audiobooks, DVDs / Movies / Videos and games.
-		</td>
-	</tr>
-
-	<?php /* Sponsor ad placed on 25-NOV-2006 */ ?>
-	<tr>
-		<td><center><a href="http://www.phonewebcam.com/" target="_blank"><img src="images/sponsors/phonewebcamlogo.jpg" border="0" alt="Phonewebcam" width="200" height="80" /></a></center></td>
-		<td>
-			<a href="http://www.phonewebcam.com/" target="_blank">Phonewebcam</a> lets you view your home or business securely on your mobile phone, as well as public webcams such as traffic, cities and wildlife. This app runs on any java handset - 3G not necessary! Visit the website for some great free PC downloads and more information.
 		</td>
 	</tr>
 
@@ -43,27 +27,11 @@
 		</td>
 	</tr>
 
-	<?php /* Sponsor ad placed on 29-OCT-2006 */ ?>
-	<tr>
-		<td><center><a href="http://www.gnadenalm.at/" target="_blank"><img src="images/sponsors/obertauernlogo.gif" border="0" alt="The Gnadenalm in Obertauern - Salzburg." width="200" height="58" /></a></center></td>
-		<td>
-			The <a href="http://www.gnadenalm.at/" target="_blank">Gnadenalm in Obertauern</a> - for your winter vacations in the Salzburger Land! Breathtaking nature adventures at: <a href="http://www.gnadenalm.at/" target="_blank">http://www.gnadenalm.at</a> in Obertauern.
-		</td>
-	</tr>
-
 	<?php /* Sponsor ad placed on 22-SEP-2006 */ ?>
 	<tr>
 		<td><center><a href="http://www.strategiclandinvestments.co.uk/" target="_blank"><img src="images/sponsors/slilogo.gif" border="0" alt="Land for Sale" width="200" height="80" /></a></center></td>
 		<td>
 			<a href="http://www.strategiclandinvestments.co.uk/" target="_blank">Strategic Land Investments</a> offer freehold land for sale in the UK as an investment. All land sold is freehold land with full title deeds.
-		</td>
-	</tr>
-
-	<?php /* Sponsor ad placed on 11-SEP-2006 */ ?>
-	<tr>
-		<td><center><a href="http://www.singletanz.de/" target="_blank"><img src="images/sponsors/singletanzlogo.gif" border="0" alt="SINGLETANZ - Tanzschulen, Tanz-DVD" width="200" height="50" /></a></center></td>
-		<td>
-			<a href="http://www.singletanz.de/" target="_blank">SINGLETANZ - Tanzschulen, Tanz-DVD</a> is Germany's greatest dancing portal, which provides a search engine with ordering system for dancing schools, dancing classes and dancing partners.
 		</td>
 	</tr>
 
@@ -75,75 +43,11 @@
 		</td>
 	</tr>
 
-	<?php /* Sponsor ad placed on 26-JUL-2006 */ ?>
-	<tr>
-		<td><center><a href="http://www.abcmodelsport.net/" target="_blank"><img src="images/sponsors/abcmodellogo.gif" border="0" alt="Radio Control Cars" width="200" height="60" /></a></center></td>
-		<td>
-			<a href="http://www.abcmodelsport.net/" target="_blank">radio control cars</a> from abcmodelsport.net. A model shop supplying radio control cars, planes, tanks, helicopters, plastic model kits, scalextric and much more!
-		</td>
-	</tr>
-
-	<?php /* Sponsor ad placed on 02-JUL-2006 */ ?>
-	<tr>
-		<td><center><a href="http://www.wischmop-shop.de/" target="_blank"><img src="images/sponsors/wischmoplogo.jpg" border="0" alt="Wischmop Shop" width="200" height="42" /></a></center></td>
-		<td>
-			<a href="http://www.wischmop-shop.de/" target="_blank">http://www.wischmop-shop.de</a> sells High-Quality Products for Floor and Glas Cleaning.  Our products are all made by ourselves.
-		</td>
-	</tr>
-
-	<?php /* Sponsor ad placed on 13-APR-2006 */ ?>
-	<tr>
-		<td><a href="http://www.solidstatenetworks.com/" target="_blank"><img src="images/sponsors/ssnlogo.gif" border="0" alt="Content Delivery Network" width="200" height="65" /></a></td>
-		<td>
-			<a href="http://www.solidstatenetworks.com/" target="_blank">Content Delivery Network</a> from SolidStateNetworks.com is peer assisted content delivery network (CDN) using the peer to peer protocol BitTorrent.
-		</td>
-	</tr>
-
-	<?php /* Sponsor ad placed on 09-MAR-2006 */ ?>
-	<tr>
-		<td><a href="http://www.webservertalk.com/" target="_blank"><img src="images/sponsors/webserverlogo.jpg" border="0" alt="Forum for IT admins" width="200" height="54" /></a></td>
-		<td>
-			<a href="http://www.webservertalk.com/" target="_blank">Forum for IT admins</a>
-		</td>
-	</tr>
-
-	<?php /* Sponsor ad placed on 10-JAN-2006 */ ?>
-	<tr>
-		<td><a href="http://www.ezloandocs.com/" target="_blank"><img src="images/sponsors/ezloandocslogo.gif" border="0" alt="Mortgage Web Design" width="200" height="80" /></a></td>
-		<td>
-			<a href="http://www.ezloandocs.com/" target="_blank">Mortgage Web Design</a> and online 1003 application forms provided by EZ Loandocs. We offer industry leading web sites providing outstanding design and functionality. Solutions range from loan officer templates websites to custom web development for major lenders.
-		</td>
-	</tr>
-
-	<?php /* Sponsor ad placed on 20-DEC-2005 */ ?>
-	<tr>
-		<td><a href="http://www.merchantzoo.com/" target="_blank"><img src="images/sponsors/merchantzoologo.jpg" border="0" alt="MerchantZoo" width="200" height="85" /></a></td>
-		<td>
-			<a href="http://www.merchantzoo.com/" target="_blank">Affiliate Programs</a> from MerchantZoo.com offer the highest payouts to affiliates, deep linking capabilities, reliable reporting, and more to our network of affiliates.  Merchants can take advantage of our proprietary affiliate tracking software as they get the top 3rd party affiliate management solution on the web.
-		</td>
-	</tr>
-
-	<?php /* Sponsor ad placed on 20-DEC-2005 */ ?>
-	<tr>
-		<td><a href="http://www.playwhat.com/" target="_blank"><img src="images/sponsors/playwhatlogo.jpg" border="0" alt="PlayWhat" width="200" height="88" /></a></td>
-		<td>
-			<a href="http://www.playwhat.com" target="_blank">Free Game Downloads</a> at Playwhat.com are the best source for new and old games of all genre's.  Download games for free, see screenshots, get demos and reviews on all the latest game releases.
-		</td>
-	</tr>
-
 	<?php /* Sponsor ad placed on 29-AUG-2005 */ ?>
 	<tr>
-		<td><a href="http://www.training-classes.com/" target="_blank"><img src="images/sponsors/trainingclasseslogo.gif" border="0" alt="Training" width="200" height="60" /></a></td>
+		<td><center><a href="http://www.training-classes.com/" target="_blank"><img src="images/sponsors/trainingclasseslogo.gif" border="0" alt="Training" width="200" height="60" /></a></center></td>
 		<td>
 			<a href="http://www.training-classes.com/" target="_blank">#1 Training Directory</a> Connecting people who want to learn with people who love to teach since 1998: Happy to use MantisBT and proud to support this excellent bug tracking package.
-		</td>
-	</tr>
-
-	<?php /* Sponsor ad placed on 13-SEP-2005 */ ?>
-	<tr>
-		<td><a href="http://www.resperate.com/" target="_blank"><img src="images/sponsors/resperatelogo.gif" border="0" alt="RESPeRATE" width="200" height="68" /></a></td>
-		<td>
-			<a href="http://www.resperate.com/" target="_blank">RESPeRATE To Lower Blood Pressure</a> is the first non-drug medical device cleared by the FDA for lowering blood pressure. RESPeRATE lowers high blood pressure by up to 36 points systolic and 20 points diastolic (top 10% reductions), as shown in seven separate clinical trails with average reductions of 14/8 points.
 		</td>
 	</tr>
 

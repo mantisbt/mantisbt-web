@@ -51,11 +51,7 @@ to evaluate MantisBT or to run a small installation, then you should be up and r
 <?php
 	include( 'adsense_vertical_inc.php' ); 
 
-	$t_footer_sponsored_links = '
-		<a href="http://www.all4myspace.com/" title="MySpace Layouts" target="_blank">MySpace Layouts</a>,
-		<a href="http://www.crserecycling.com/" title="Electronics Recycling" target="_blank">Electronics Recycling</a>,
-		<a href="http://www.coolinvesting.com/" title="How to Invest" target="_blank">How to Invest</a>
-	';
+	$t_footer_sponsored_links = '';
 
 	include( "bot.php" ); 
 ?>

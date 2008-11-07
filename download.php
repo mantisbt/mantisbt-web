@@ -39,10 +39,7 @@
 <?php
 	include( 'adsense_vertical_inc.php' ); 
 
-	$t_footer_sponsored_links = '
-		<a href="http://www.austria.info/" title="�sterreich" target="_blank">�sterreich</a>
-	';
-#		<a href="http://www.concertgroove.com/" title="Concert Listings" target="_blank">Concert Listings</a>,
+	$t_footer_sponsored_links = '';
 
 	include( "bot.php" ); 
 ?>

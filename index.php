@@ -74,10 +74,7 @@
 	include( "adsense_vertical_inc.php" );
 
 	$t_footer_sponsored_links = '
-		<a href="http://www.directorydream.com/" title="Web Directory" target="_blank">Web Directory</a>,
-		<a href="http://www.dubaishortstay.com/" title="Dubai Hotel Apartment -Dubai Villas - Find a Quality Dubai Apartment or Dubai Villa" target="_blank">Dubai Hotel Apartment - Dubai Villas</a>,
-		<a href="http://www.skiamade-obertauern.de" title="Ski Amade, Obertauern &amp; Flachau" target="_blank">Ski Amade, Obertauern &amp; Flachau</a>, 
-		<a href="http://www.aoemedia.de/typo3-agentur.html" title="TYPO3" target="_blank">TYPO3</a>
+		<a href="http://www.directorydream.com/" title="Web Directory" target="_blank">Web Directory</a>
 	';
 
 	include( "bot.php" ); 
