@@ -80,16 +80,25 @@
 		echo mysql_error();
 		exit;
 	}
-	
-	echo '<div align="left">';
-	echo '<table width="100%" cellspacing="0" cellpadding="0" border="0"><tr><td>';
-	while ( ( $t_row = mysql_fetch_array( $t_result ) ) !== false ) {
-		echo '<p>"' . string_display( $t_row['comments'] ) . '" - <em>' . 
-        string_display( $t_row['contact_name'] ) . ' - ' . 
-        string_display( $t_row['company_name'] ) . '</em></p><br />';
-	}
 
-	echo '</td></tr></table></div>';
+    ?>    
+	<div align="left">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+                <td>
+                <?php
+                while ( ( $t_row = mysql_fetch_array( $t_result ) ) !== false ) {
+                    sprintf("<p>%s - <em>%s - %s</p><br />", 
+                        string_display( $t_row['comments'] ),
+                        string_display( $t_row['contact_name'] ),
+                        string_display( $t_row['company_name'] ));
+                }
+                ?>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <?php
 
 	include( 'adsense_vertical_inc.php' ); 
 
@@ -97,3 +106,4 @@
 
 	include( "bot.php" ); 
 ?>
+
