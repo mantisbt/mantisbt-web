@@ -57,20 +57,22 @@
 	
 	$items = $feed->get_items();
 
-	echo '<span class="page_title">Latest News</span>';
-	echo '<hr size="1" noshade="noshade" width="100%" />';
+    ?>
+	<span class="page_title">Latest News</span>
+	<hr size="1" noshade="noshade" width="100%" />
+	<ul>
 
-	echo '<ul>';
-
+    <?php
 	foreach ( $items as $item )
 	{
 		echo '<li><a href="', $item->get_permalink(), '">', $item->get_title(), '</a>.</li>';
 	}
+    ?>
+	</ul>
 
-	echo '</ul>';
+	<p>See <a href="http://www.mantisbt.org/blog/">blog</a> for more news.</p>
 
-	echo '<p>See <a href="http://www.mantisbt.org/blog/">blog</a> for more news.  For older archives, see <a href="http://www.mantisbt.org/bugs/main_page.php">bug tracker news</a>.</p>';	
-
+    <?php
 	include( "adsense_vertical_inc.php" );
 
 	$t_footer_sponsored_links = '';

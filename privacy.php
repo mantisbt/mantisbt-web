@@ -18,13 +18,13 @@
 	<li>Email address</li>
 </ul>
 
-<p>Users registering in the <a href="forums/">forums</a> may optionally provide other personal information � like instant messenger ids, geographic location, occupation, and so on.  This personal information is publicly viewable.  We are not responsible for any personal information posted to your forum profile or in your forum messages.  Also, if you participate in the <a href="mailinglists.php">mailing lists</a> or post notes to the 'User Contributed Notes' section of the <a href="http://manual.mantisbt.org">manual</a> your email address and signatures will be visible to participants and visitors respectively.</p>
+<p>Users registering in the <a href="forums/">forums</a> may optionally provide other personal information - like instant messenger ids, geographic location, occupation, and so on.  This personal information is publicly viewable.  We are not responsible for any personal information posted to your forum profile or in your forum messages.  Also, if you participate in the <a href="mailinglists.php">mailing lists</a> or post notes to the 'User Contributed Notes' section of the <a href="http://manual.mantisbt.org">manual</a> your email address and signatures will be visible to participants and visitors respectively.</p>
 
 <span class="section">How we use it?</span>
 
 <p>Personal information is primarily used to provide login authentication, personalization and email notifications.  If you have enabled the auto login feature, we use cookies to identify your computer on your return visits.</p>
 
-<p>We may collect information about your computer and your visits such as your IP address, geographical location, browser type, referral source, length of visit and number of page views. We may use this information in the administration of this website, to improve the website�s usability, and for marketing purposes.  We do not disclose or sell your personal information to any 3rd party companies, individuals or marketing organizations.</p>
+<p>We may collect information about your computer and your visits such as your IP address, geographical location, browser type, referral source, length of visit and number of page views. We may use this information in the administration of this website, to improve the website's usability, and for marketing purposes.  We do not disclose or sell your personal information to any 3rd party companies, individuals or marketing organizations.</p>
 
 <p>We may contact you by email with notifications and other communications that we believe may be relevant to your use of our site.  You may always choose to opt out of receiving such communications.</p>
 

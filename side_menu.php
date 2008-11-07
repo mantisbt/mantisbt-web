@@ -13,7 +13,7 @@
 				<a href="directory.php">Users Directory</a><br />
 				<a href="testimonials.php">What users say?</a><br />
 				<a href="links.php">Links</a><br />
-				<a href="requirements.php">Requirements</a>
+				<a href="requirements.php">Requirements</a><br />
 				<a href="changelog.php">ChangeLog</a><br />
 				<a href="credits.php">Credits</a><br />
 				<a href="download.php">Download</a><br />
@@ -52,7 +52,6 @@
 				<a href="general_development.php">General Information</a><br />
 				<a href="guidelines.php">Coding Guidelines</a><br />
 				<a href="sources.php">Source Code</a><br />
-				<a href="roadmap.php">Roadmap</a><br />
 			</td>
 		</tr>
 		<tr>
