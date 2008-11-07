@@ -73,9 +73,7 @@
 
 	include( "adsense_vertical_inc.php" );
 
-	$t_footer_sponsored_links = '
-		<a href="http://www.directorydream.com/" title="Web Directory" target="_blank">Web Directory</a>
-	';
+	$t_footer_sponsored_links = '';
 
 	include( "bot.php" ); 
 ?>
