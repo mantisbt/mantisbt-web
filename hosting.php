@@ -19,9 +19,9 @@
 	</tr>
 
 	<tr>
-		<td><center><a href="https://secure.hostican.com/cgi-bin/affiliates/clickthru.cgi?id=vboctor&campaign=hosting_page" target="_blank"><img src="http://hosticanaffiliate.com/online/banners/695/set_5/5368_hostican_125x125.gif" border="0" alt="HostICan" width="125" height="125" /></a></center></td>
+		<td><center><a href="https://secure.hostican.com/cgi-bin/affiliates/clickthru.cgi?id=vboctor&amp;campaign=hosting_page" target="_blank"><img src="http://hosticanaffiliate.com/online/banners/695/set_5/5368_hostican_125x125.gif" border="0" alt="HostICan" width="125" height="125" /></a></center></td>
 		<td>
-			<a href="https://secure.hostican.com/cgi-bin/affiliates/clickthru.cgi?id=vboctor&campaign=hosting_page" target="_blank">HostICan</a> offers  Free Setup, Free Domain Name, 20 GB Disk Space, 800 GB Data Transfer, Money Back Guarantee.  "HostICan has spent a considerable amount of time developing an ideal solution that is guaranteed to work well for you. We host customers worldwide, ranging from blog sites to small online businesses, and just about everything in between!".
+			<a href="https://secure.hostican.com/cgi-bin/affiliates/clickthru.cgi?id=vboctor&amp;campaign=hosting_page" target="_blank">HostICan</a> offers  Free Setup, Free Domain Name, 20 GB Disk Space, 800 GB Data Transfer, Money Back Guarantee.  "HostICan has spent a considerable amount of time developing an ideal solution that is guaranteed to work well for you. We host customers worldwide, ranging from blog sites to small online businesses, and just about everything in between!".
 		</td>
 	</tr>
 

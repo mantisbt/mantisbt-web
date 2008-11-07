@@ -6,13 +6,13 @@
 
 <span class="page_title">MantisBT Coding Conventions</span>
 <hr size="1" noshade="noshade" width="100%" />
-<p>
+<p />
 This is the MantisBT coding conventions document.  This should assist anyone who wants to modify the code or work on active development.  Anyone who wishes to contribute code <b>must adhere</b> to these guidelines.  <b>Code not following these conventions will be rejected.</b>  If you have suggestions or a good argument for changing some of these guidelines then discuss it on the <a href="mailinglists.php">developer mailing lists</a>.
-<p>
+<p />
 First, start off by reading the <a href="http://www.phpinfo.net/articles/article_php-coding-standard.html"><b>PHP Coding Standards</b></a> document.  I've deviated in a few places but just about everything in the document applies here as well.
-<p>
+<p />
 	Above all, write code that is easy to read and maintain.  Comment blocks of code and functions at all times.  And get on my case if I deviate too much as well!
-<p>
+<p />
 <span class="section">Naming Variables</span>
 <ul>
 	<li>Use all lower case.</li>
@@ -57,12 +57,13 @@ First, start off by reading the <a href="http://www.phpinfo.net/articles/article
 
 <span class="section">SQL formatting</span>
 <ul>
-	<li>UPPERCASE all SQL keywords:</li>
+	<li>UPPERCASE all SQL keywords:<br />
 <pre>
 $query = "SELECT *
 	FROM $g_mantis_bug_table
 	WHERE id='1'";
 </pre>
+    </li>
 	<li>Always assign a query string to a variable.  This makes code easier to debug when problems occur.  Do not create the query in the call to the function.</li>
 	<li>Break up SQL queries over multiple lines to be easy to read.</li>
 </ul>
@@ -93,7 +94,7 @@ $query = "SELECT *
 	<li>Parantheses should be right after a function name, e.g. function() not function ()</li>
 	<li>Parantheses should have a space right after a keyword (if, while, for), e.g. for (...)</li>
 	<li>Formatting of braces is illustrating below.  We use unmatched placing.</li>
-	<li>Arrays should be referenced with no spaces, e.g. $arr['index'] not $arr[ 'index' ]</li>
+	<li>Arrays should be referenced with no spaces, e.g. $arr['index'] not $arr[ 'index' ]<br />
 <pre>
 for (...) {
     blah
@@ -105,7 +106,8 @@ if (...) {
     blah
 }
 </pre>
-	<li>if ... else  blocks should be in this format:</li>
+    </li>
+	<li>if ... else  blocks should be in this format:<br />
 <pre>
 if (...) {
     blah1
@@ -113,6 +115,7 @@ if (...) {
     blah2
 }
 </pre>
+    </li>
 </ul>
 
 <span class="section">Comparisons</span>
