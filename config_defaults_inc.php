@@ -13,8 +13,8 @@
 
 	$g_lang_cvs_path = 'lang-cvs/';
 
-    # Directory for simplepie cache - set to false to disable cache
-    $g_rss_cache_path = '/tmp/';
+	# Directory for simplepie cache - set to false to disable cache
+	$g_rss_cache_path = '/tmp/';
 
 	########################################
 	# Include user's config, if available
