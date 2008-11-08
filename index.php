@@ -28,6 +28,47 @@
 					(null, '$t_ip', NOW(), '$t_user_agent', '$t_referer')";
 		mysql_query( $query );
 	}
+	
+	function print_rss_feed( $p_title, $p_rss_url, $p_hyperlink = true, $p_chars_to_skip = 0 ) {
+		global $g_rss_cache_path;
+
+		// Parse it
+		$feed = new SimplePie();
+		$feed->set_feed_url( $p_rss_url );
+
+	    if ( empty( $g_rss_cache_path ) ) {
+		    $feed->enable_cache( false );
+	    } else {
+	        $feed->set_cache_location( $g_rss_cache_path );
+	    }
+
+		$feed->init();
+
+		$items = $feed->get_items();
+
+		echo '<span class="page_title">', $p_title, '</span>';
+		echo '<hr size="1" noshade="noshade" width="100%" />';
+		echo '<ul>';
+
+		foreach ( $items as $item ) {
+			$t_title = $item->get_title();
+
+			if ( $p_chars_to_skip > 0 ) {
+				$t_title = substr( $t_title, $p_chars_to_skip );
+			}
+
+			if ( $p_hyperlink ) {
+				echo '<li><a href="', $item->get_permalink(), '">', $t_title, '</a></li>';
+			} else {
+				echo '<li>', $t_title, '</li>';
+			}
+		}
+	
+		echo '</ul>';
+
+	    unset( $feed );
+	    unset( $items );
+	}
 
 	@db_connect( $_GLOBALS['g_hostname'], $_GLOBALS['g_db_username'], $_GLOBALS['g_db_password'], $_GLOBALS['g_database_name'] );
 	@update_visits();
@@ -49,33 +90,12 @@
 <?php
 	include_once( dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'files' . DIRECTORY_SEPARATOR . 'simplepie.inc');
 
-	// Parse it
-	$feed = new SimplePie();
-	$feed->set_feed_url( 'http://www.mantisbt.org/blog/?feed=rss2' );
-    if (empty($g_rss_cache_path))  
-	    $feed->enable_cache(false);
-    else 
-        $feed->set_cache_location($g_rss_cache_path); 
-	$feed->init();
-	
-	$items = $feed->get_items();
+	print_rss_feed( 'Mantis Twitter News', 'http://twitter.com/statuses/user_timeline/7199732.rss', /* hyperlink */ false, 9 );
+	echo '<p>See <a href="http://twitter.com/mantisbt">Twitter page</a> for more news or to follow.</p>';
 
-    ?>
-	<span class="page_title">Latest News</span>
-	<hr size="1" noshade="noshade" width="100%" />
-	<ul>
+	print_rss_feed( 'Latest Blog Posts', 'http://www.mantisbt.org/blog/?feed=rss2' );
+	echo '<p>See <a href="http://www.mantisbt.org/blog/">blog</a> for more news.</p>';
 
-    <?php
-	foreach ( $items as $item )
-	{
-		echo '<li><a href="', $item->get_permalink(), '">', $item->get_title(), '</a>.</li>';
-	}
-    ?>
-	</ul>
-
-	<p>See <a href="http://www.mantisbt.org/blog/">blog</a> for more news.</p>
-
-    <?php
 	include( "adsense_vertical_inc.php" );
 
 	$t_footer_sponsored_links = '';
