@@ -51,7 +51,7 @@
 				<td class="top_left">
 					<a href="http://www.mantisbt.org/"><img border="0" width="242" height="102" src="images/mantis_logo.gif" alt="Mantis Bug Tracker Logo" /></a>
 				</td>
-				<td class="top_right">
+				<td>
 					<div align="right">
 <script type="text/javascript"><!--
 google_ad_client = "pub-0025921896787428";
@@ -75,31 +75,9 @@ google_color_url = "4080D0";
 		</table>
 	</td>
 </tr>
-<tr class="top">
-	<td class="middle" colspan="3">
-<!-- SiteSearch Google
-<form method="get" action="http://www.google.com/custom" target="_top">
-<input type="hidden" name="domains" value="mantisbt.org">
-<input type="radio" name="sitesearch" value="">
-<font size="-1" color="#000000">Web</font>
-<input type="radio" name="sitesearch" value="mantisbt.org" checked="checked">
-<font size="-1" color="#000000">mantisbt.org</font>
-&nbsp;
-<input type="text" name="q" size="25" maxlength="255" value="">
-<input type="submit" name="sa" value="Search">
-<input type="hidden" name="client" value="pub-0979518001849295">
-<input type="hidden" name="forid" value="1">
-<input type="hidden" name="channel" value="0813631605">
-<input type="hidden" name="ie" value="ISO-8859-1">
-<input type="hidden" name="oe" value="ISO-8859-1">
-<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;">
-<input type="hidden" name="hl" value="en">
-</form>
- SiteSearch Google -->
-	</td>
-</tr>
 <tr valign="top" bgcolor="#ffffff">
 	<td class="menu_left">
 		<?php include( "side_menu.php" ); ?>
 	</td>
 	<td class="main">
+
