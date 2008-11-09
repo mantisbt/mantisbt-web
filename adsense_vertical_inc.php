@@ -1,6 +1,4 @@
-</td>
-<td style="padding: 4px;">
-
+<div id="vertad">
 <!-- Google Adsense -->
 <script type="text/javascript"><!--
 google_ad_client = "pub-0025921896787428";
@@ -22,3 +20,4 @@ google_ui_features = "rc:6";
 <script type="text/javascript"
   src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
+</div>
