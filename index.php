@@ -42,7 +42,7 @@
 
 		$feed->init();
 
-		$items = $feed->get_items(0, $p_number_of_items);
+		$items = $feed->get_items(0, $p_max_entries);
 
 		echo '<span class="page_title"><b>', $p_title, '</b></span>';
 		echo '<ul>';
@@ -92,7 +92,7 @@
 
 <?php
 	include_once( dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'files' . DIRECTORY_SEPARATOR . 'simplepie.inc');
-
+?>
 	<div id="genericbox">
 	<?php
 	print_rss_feed( 'MantisBT Tweets', 'http://twitter.com/statuses/user_timeline/7199732.rss', /* max */ 5, /* hyperlink */ false, 9 );
