@@ -24,4 +24,10 @@
 	if ( file_exists( $t_config_inc ) ) {
 		require_once( $t_config_inc );
 	}
+
+	# The latest version from the stable branch.
+	$g_latest_version_stable = '1.1.4';
+	
+	# The latest version from the development branch.
+	$g_latest_version_dev = '1.2.0a2';
 ?>

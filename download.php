@@ -26,8 +26,8 @@
 <ul>
   <li><a href="http://www.mantisbt.org/wiki/doku.php/mantisbt:contributing">Contributing to MantisBT</a></li>
   <li><a href="directory.php">Users Directory</a></li>
-  <li><a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963&amp;package_id=166159">Download MantisBT <?php @include("files/VERSION_STABLE") ?></a></li>
-  <li><a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963">Download MantisBT <?php @include("files/VERSION") ?></a></li>
+  <li><a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963&amp;package_id=166159">Download MantisBT <?php echo $g_latest_version_dev; ?></a></li>
+  <li><a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963">Download MantisBT <?php echo $g_latest_version_stable; ?></a></li>
 </ul>
 
 <p>MantisBT is compressed in <span class="code">.tar.gz</span> format which any reasonable decompression program can handle (Unix tar/gunzip, <a href="http://www.7-zip.org/" rel="nofollow">7-zip</a>, <a href="http://www.winzip.com/" rel="nofollow">Winzip</a>).</p>
