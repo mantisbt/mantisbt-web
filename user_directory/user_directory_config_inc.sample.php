@@ -13,7 +13,7 @@ define( 'SMTP_SERVER', 'smtp.mantisbt.org' );
 define( 'FROM_MAIL', 'noreply@mantisbt.org' );
 define( 'SMTP_USERNAME', 'noreply@mantisbt.org' );
 define( 'SMTP_PASSWORD', '' );
-define( 'FROM_NAME', 'Mantis User Directory' );
+define( 'FROM_NAME', 'MantisBT User Directory' );
 
 define( 'MODERATOR_MAIL', 'moderator@mantisbt.org' );
 

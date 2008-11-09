@@ -88,7 +88,7 @@
 <?php
 	include_once( dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'files' . DIRECTORY_SEPARATOR . 'simplepie.inc');
 
-	print_rss_feed( 'Mantis Tweets', 'http://twitter.com/statuses/user_timeline/7199732.rss', /* hyperlink */ false, 9 );
+	print_rss_feed( 'MantisBT Tweets', 'http://twitter.com/statuses/user_timeline/7199732.rss', /* hyperlink */ false, 9 );
 	echo '<p>See <a href="http://twitter.com/mantisbt">Twitter page</a> for more news or to follow.</p>';
 
 	print_rss_feed( 'Latest Blog Posts', 'http://www.mantisbt.org/blog/?feed=rss2' );
