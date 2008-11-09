@@ -50,7 +50,7 @@ class mantis_user_directory_entry
 
 	function GetDate_submitted()
 	{
-		 return $this->$date_submitted;
+		 return $this->date_submitted;
 	}
 
 	function SetDate_submitted($value)
@@ -61,7 +61,7 @@ class mantis_user_directory_entry
 
 	function GetCompany_name()
 	{
-		 return $this->$company_name;
+		 return $this->company_name;
 	}
 
 	function SetCompany_name($value)
@@ -72,7 +72,7 @@ class mantis_user_directory_entry
 
 	function GetContact_name()
 	{
-		 return $this->$contact_name;
+		 return $this->contact_name;
 	}
 
 	function SetContact_name($value)
@@ -83,7 +83,7 @@ class mantis_user_directory_entry
 
 	function GetContact_email()
 	{
-		 return $this->$contact_email;
+		 return $this->contact_email;
 	}
 
 	function SetContact_email($value)
@@ -94,7 +94,7 @@ class mantis_user_directory_entry
 
 	function GetWebsite_url()
 	{
-		 return $this->$website_url;
+		 return $this->website_url;
 	}
 
 	function SetWebsite_url($value)
@@ -102,10 +102,9 @@ class mantis_user_directory_entry
 		 $this->website_url = $value;
 	}
 
-
 	function GetMantis_url()
 	{
-		 return $this->$mantis_url;
+		 return $this->mantis_url;
 	}
 
 	function SetMantis_url($value)
@@ -116,7 +115,7 @@ class mantis_user_directory_entry
 
 	function GetComments()
 	{
-		 return $this->$comments;
+		 return $this->comments;
 	}
 
 	function SetComments($value)
@@ -124,10 +123,9 @@ class mantis_user_directory_entry
 		 $this->comments = $value;
 	}
 
-
 	function GetStatus()
 	{
-		 return $this->$status;
+		 return $this->status;
 	}
 
 	function SetStatus($value)
@@ -138,7 +136,7 @@ class mantis_user_directory_entry
 
 	function GetHigh_profile()
 	{
-		 return $this->$high_profile;
+		 return $this->high_profile;
 	}
 
 	function SetHigh_profile($value)
