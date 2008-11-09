@@ -88,8 +88,6 @@
 		<p>The latest stable version is <a href="download.php"><?php echo $g_latest_version_stable; ?></a>.</p>
 		<p>The latest development version is <a href="download.php"><?php echo $g_latest_version_dev; ?></a>.</p>
 	</td>
-	<td width="220" align="right">
-	</td>
 </tr>
 </table>
 
