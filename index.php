@@ -30,16 +30,14 @@
 	}
 	
 	function print_rss_feed( $p_title, $p_rss_url, $p_hyperlink = true, $p_chars_to_skip = 0 ) {
-		global $g_rss_cache_path;
-
 		// Parse it
 		$feed = new SimplePie();
 		$feed->set_feed_url( $p_rss_url );
 
-	    if ( empty( $g_rss_cache_path ) ) {
+	    if ( empty( $_GLOBALS['g_rss_cache_path'] ) ) {
 		    $feed->enable_cache( false );
 	    } else {
-	        $feed->set_cache_location( $g_rss_cache_path );
+	        $feed->set_cache_location( $_GLOBALS['g_rss_cache_path'] );
 	    }
 
 		$feed->init();
@@ -90,7 +88,7 @@
 <?php
 	include_once( dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'files' . DIRECTORY_SEPARATOR . 'simplepie.inc');
 
-	print_rss_feed( 'Mantis Twitter News', 'http://twitter.com/statuses/user_timeline/7199732.rss', /* hyperlink */ false, 9 );
+	print_rss_feed( 'Mantis Tweets', 'http://twitter.com/statuses/user_timeline/7199732.rss', /* hyperlink */ false, 9 );
 	echo '<p>See <a href="http://twitter.com/mantisbt">Twitter page</a> for more news or to follow.</p>';
 
 	print_rss_feed( 'Latest Blog Posts', 'http://www.mantisbt.org/blog/?feed=rss2' );
