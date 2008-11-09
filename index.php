@@ -29,7 +29,7 @@
 		mysql_query( $query );
 	}
 	
-	function print_rss_feed( $p_title, $p_rss_url, $p_hyperlink = true, $p_chars_to_skip = 0 ) {
+	function print_rss_feed( $p_title, $p_rss_url, $p_max_entries = 5, $p_hyperlink = true, $p_chars_to_skip = 0 ) {
 		// Parse it
 		$feed = new SimplePie();
 		$feed->set_feed_url( $p_rss_url );
@@ -48,6 +48,8 @@
 		echo '<hr size="1" noshade="noshade" width="100%" />';
 		echo '<ul>';
 
+		$t_count = 0;
+
 		foreach ( $items as $item ) {
 			$t_title = $item->get_title();
 
@@ -59,6 +61,12 @@
 				echo '<li><a href="', $item->get_permalink(), '">', $t_title, '</a></li>';
 			} else {
 				echo '<li>', $t_title, '</li>';
+			}
+			
+			$t_count++;
+			
+			if ( $t_count >= $p_max_entries ) {
+				break;
 			}
 		}
 	
@@ -88,10 +96,10 @@
 <?php
 	include_once( dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'files' . DIRECTORY_SEPARATOR . 'simplepie.inc');
 
-	print_rss_feed( 'MantisBT Tweets', 'http://twitter.com/statuses/user_timeline/7199732.rss', /* hyperlink */ false, 9 );
+	print_rss_feed( 'MantisBT Tweets', 'http://twitter.com/statuses/user_timeline/7199732.rss', /* max */ 5, /* hyperlink */ false, 9 );
 	echo '<p>See <a href="http://twitter.com/mantisbt">Twitter page</a> for more news or to follow.</p>';
 
-	print_rss_feed( 'Latest Blog Posts', 'http://www.mantisbt.org/blog/?feed=rss2' );
+	print_rss_feed( 'Latest Blog Posts', 'http://www.mantisbt.org/blog/?feed=rss2', /* max */ 5 );
 	echo '<p>See <a href="http://www.mantisbt.org/blog/">blog</a> for more news.</p>';
 
 	include( "adsense_vertical_inc.php" );
