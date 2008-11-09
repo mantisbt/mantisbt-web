@@ -53,14 +53,6 @@
 				</td>
 				<td class="top_right">
 					<div align="right">
-						<table width="508" border="0" cellspacing="0" cellpadding="0">
-						<tr>
-						<td><a href="sponsors.php"><img src="images/banners.gif" width="20" height="60" border="0" alt="Sponsors" /></a></td>
-						<td>
-<?php
-// if ( strstr( $_SERVER['HTTP_HOST'], 'mantisbt.org' ) === false ) {
-	if ( true ) {
-?>
 <script type="text/javascript"><!--
 google_ad_client = "pub-0025921896787428";
 google_ad_width = 468;
@@ -77,28 +69,6 @@ google_color_url = "4080D0";
 <script type="text/javascript"
   src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
-<?php } else { ?>
-<!-- Begin: AdBrite -->
-<script type="text/javascript">
-   var AdBrite_Title_Color = '0000FF';
-   var AdBrite_Text_Color = '000000';
-   var AdBrite_Background_Color = 'FFFFFF';
-   var AdBrite_Border_Color = 'FFFFFF';
-</script>
-<span style="white-space:nowrap;"><script src="http://ads.adbrite.com/mb/text_group.php?sid=191899&zs=3436385f3630" type="text/javascript"></script><!--
---><a target="_top" href="http://www.adbrite.com/mb/commerce/purchase_form.php?opid=191899&afsid=1"><img src="http://files.adbrite.com/mb/images/adbrite-your-ad-here-banner.gif" style="background-color:#FFFFFF" alt="Your Ad Here" width="11" height="60" border="0" /></a></span>
-<!-- End: AdBrite -->
-<br />
-<div align="right">
-<!-- AddThis Bookmark Button BEGIN -->
-<a href="http://www.addthis.com/bookmark.php" onclick="addthis_url   = location.href; addthis_title = document.title; return addthis_click(this);" target="_blank"><img src="http://s5.addthis.com/button1-bm.gif" width="125" height="16" border="0" alt="AddThis Social Bookmark Button" /></a> <script type="text/javascript">var addthis_pub = 'vboctor';</script><script type="text/javascript" src="http://s5.addthis.com/js/widget.php?v=10"></script>  
-<!-- AddThis Bookmark Button END -->
-</div>
-<?php } ?>
-						</td>
-						<td><a href="sponsors.php"><img src="images/advertise.gif" width="20" height="60" border="0" alt="Advertise" /></a></td>
-						</tr>
-						</table>
 					</div>
 				</td>
 			</tr>
@@ -133,4 +103,3 @@ google_color_url = "4080D0";
 		<?php include( "side_menu.php" ); ?>
 	</td>
 	<td class="main">
-
