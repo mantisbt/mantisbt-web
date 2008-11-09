@@ -42,10 +42,9 @@
 
 		$feed->init();
 
-		$items = $feed->get_items();
+		$items = $feed->get_items(0, $p_max_entries);
 
-		echo '<span class="page_title">', $p_title, '</span>';
-		echo '<hr size="1" noshade="noshade" width="100%" />';
+		echo '<span class="page_title"><b>', $p_title, '</b></span>';
 		echo '<ul>';
 
 		$t_count = 0;
@@ -55,6 +54,9 @@
 
 			if ( $p_chars_to_skip > 0 ) {
 				$t_title = substr( $t_title, $p_chars_to_skip );
+				if (strstr($t_title, ":")) {
+					$t_title = "<b>" . str_replace(":", ":</b>", $t_title);
+				}
 			}
 
 			if ( $p_hyperlink ) {
@@ -80,10 +82,7 @@
 	@update_visits();
 ?>
 
-<p class="center">
-<table bgcolor="#ffffff" width="100%" border="0" cellspacing="0" cellpadding="4">
-<tr valign="top">
-	<td class="welcome">
+<div>
         <p>MantisBT is a free <a href="testimonials.php">popular</a> web-based bugtracking system (<a href="/wiki/doku.php/mantisbt:features">feature list</a>).  It is written in the <a href="http://www.php.net/" rel="nofollow">PHP</a> scripting language and works with <a href="http://www.mysql.com/" rel="nofollow">MySQL</a>, MS SQL, and PostgreSQL databases and a webserver.  MantisBT has been installed on Windows, Linux, Mac OS, OS/2, and others.  Almost any web browser should be able to function as a client.  It is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" rel="nofollow">GNU General Public License</a> (GPL).</p>
 		<p>The latest stable version is <a href="download.php"><?php echo $g_latest_version_stable; ?></a>.</p>
 		<p>The latest development version is <a href="download.php"><?php echo $g_latest_version_dev; ?></a>.</p>
@@ -93,13 +92,21 @@
 
 <?php
 	include_once( dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'files' . DIRECTORY_SEPARATOR . 'simplepie.inc');
-
+?>
+	<div id="genericbox">
+	<?php
 	print_rss_feed( 'MantisBT Tweets', 'http://twitter.com/statuses/user_timeline/7199732.rss', /* max */ 5, /* hyperlink */ false, 9 );
-	echo '<p>See <a href="http://twitter.com/mantisbt">Twitter page</a> for more news or to follow.</p>';
+?>
+	<p>See <a href="http://twitter.com/mantisbt">Twitter page</a> for more news or to follow.</p>
+	</div>
 
-	print_rss_feed( 'Latest Blog Posts', 'http://www.mantisbt.org/blog/?feed=rss2', /* max */ 5 );
-	echo '<p>See <a href="http://www.mantisbt.org/blog/">blog</a> for more news.</p>';
+	<div id="genericbox">
+	<?php print_rss_feed( 'Latest Blog Posts', 'http://www.mantisbt.org/blog/?feed=rss2', /* max */ 5 ); ?>
+	<p>See <a href="http://www.mantisbt.org/blog/">blog</a> for more news.</p>
+	</div>
 
+	<div class="clearBoth"></div>
+	<?php
 	include( "adsense_vertical_inc.php" );
 
 	$t_footer_sponsored_links = '';
