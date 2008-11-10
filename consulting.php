@@ -1,23 +1,21 @@
 <?php
 	$t_sub_title = "Consulting";
-
 	include( "top.php" );
 ?>
 
-<span class="page_title">Consulting</span>
-<hr size="1" noshade="noshade" width="100%" />
-<br />
-<span class="section">Installation</span>
+<h4>Consulting</h4>
+
+<h5>Installation</h5>
 <p>We offer installation and setup for a fee.</p>
 <p>We will need remote connection and browser access.  This can be accomplished via telnet/ssh, terminal services, VNC, or some other remote access mechanism.</p>
-<br />
-<span class="section">Customization</span>
+
+<h5>Customization</h5>
 <p>Our services are available to customize MantisBT to suit your needs.  We design customizations with a special focus on our customers ability to easily upgrade to future versions of MantisBT.  This is done by putting the generic requirements into MantisBT core and by adding extension points that can are used to implement customer specific requirements.</p>
 <p>We recommend you use MantisBT for a short period to see what changes would best fit your organization.  We may also be available for other web related projects.</p>
-<br />
-<span class="section">Consultants</span>
+
+<h5>Consultants</h5>
 <p>Following is a list of MantisBT consultants (listed in alphabetical order):</p>
-<table border="0" cellspacing="0" cellpadding="4" width="75%">
+<table border="0" cellspacing="0" cellpadding="4" width="100%">
 <tr>
 	<td width="25%">
 		<b>Name</b>
@@ -61,7 +59,5 @@
 	</td>
 </tr>
 </table>
-
-<?php include( "adsense_vertical_inc.php" ); ?>
 
 <?php include("bot.php"); ?>
