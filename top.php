@@ -11,7 +11,8 @@
 	<meta name="keywords" content="mantis, mantisbt, bugtracker, bug, tracker, issue, software" />
 	<meta name="dc.title" content="Mantis Bug Tracker" />
 	<meta name="revisit-after" content="1 days" />
-	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.mantisbt.org/bugs/news_rss.php?project_id=1" />
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.mantisbt.org/blog/?feed=rss2" />
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://twitter.com/statuses/user_timeline/7199732.rss" />
 	<title>Mantis Bug Tracker<?php if ( isset( $t_sub_title ) ) { echo " | $t_sub_title"; } ?></title>
 	<link rel="stylesheet" type="text/css" href="/mantis.css" />
 </head>
