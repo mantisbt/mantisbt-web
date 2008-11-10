@@ -4,8 +4,7 @@
 	include( "top.php" );
 ?>
 
-<span class="page_title">Links</span>
-<hr size="1" noshade="noshade" width="100%" />
+<h4>Links</h4>
 
 <p><b>MantisConnect</b></p>
 <p><a href="http://www.futureware.biz/mantisconnect/">MantisConnect</a> allows the following applications to integrate with MantisBT:</p>
@@ -57,7 +56,5 @@
 </ul>
 
 <br />
-
-<?php include( "adsense_vertical_inc.php" ); ?>
 
 <?php include( "bot.php" ); ?>
