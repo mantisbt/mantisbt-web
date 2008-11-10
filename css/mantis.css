@@ -14,6 +14,7 @@ body {
 
 div.ybox {
 	float: left;
+	width: 181px;
 	background: #fff9d3;
 	border: 1px solid #f1d32e;
 	padding: 4px;
@@ -162,7 +163,7 @@ div.spotlight {
 	background-color: #e3f1f6;
 	padding: 10px;
 	clear: both;
-	margin: 0;
+	margin: 3px;
 }
 
 div.spotlight p {

@@ -4,22 +4,22 @@
 ?>
 
 <h4>Community-Support</h4>
-	<div class="ybox">
+	<div style="height: 105px;" class="ybox">
 		Find help <br/>
 		in our <br/>
 		<a href="/forums">Forums</a>
 	</div>
 
-	<div class="ybox">
-		Join us on IRC @ <a href="irc://irc.freenode.net/mantishelp">#mantishelp</a>.<br/>
-		This IRC channel is hosted on <a href="http://freenode.net/irc_servers.shtml">Freenode</a><br/>
-		(<a href="http://www.mantisforge.org/irclogs/">Channel-Archives</a>)
-	</div>
-
-	<div class="ybox">
+	<div style="height: 105px;" class="ybox">
 		Report Issues<br/>
 		to our <br/>
 		<a href="/bugs/">Bugtracker</a>
+	</div>
+
+	<div style="height: 105px;" class="ybox">
+		Join us on IRC @ <a href="irc://irc.freenode.net/mantishelp">#mantishelp</a>.<br/>
+		This IRC channel is hosted on <a href="http://freenode.net/irc_servers.shtml">Freenode</a><br/>
+		(<a href="http://www.mantisforge.org/irclogs/">Channel-Archives</a>)
 	</div>
 
 	<div class="ybox">
@@ -50,12 +50,12 @@
 
 <h4>Commercial-Support</h4>
 
-	<div class="ybox">
+	<div style="height: 105px;" class="ybox">
 		Find a <a href="/consulting.php">MantisBT-consultant</a><br/>
 		that can help you with your mantis installation.
 	</div>
 
-	<div class="ybox">
+	<div style="height: 105px;" class="ybox">
 		Find a <a href="/hosting.php">hosting provider</a><br/>
 		to host your mantis instance.
 	</div>
