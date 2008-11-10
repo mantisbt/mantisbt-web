@@ -44,7 +44,7 @@
 
 		$items = $feed->get_items(0, $p_max_entries);
 
-		echo '<span class="page_title"><b>', $p_title, '</b></span>';
+		echo '<h3>', $p_title, '</h3>';
 		echo '<ul>';
 
 		$t_count = 0;
@@ -90,13 +90,11 @@
 	include_once( dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'files' . DIRECTORY_SEPARATOR . 'simplepie.inc');
 ?>
 	<div class="genericbox">
-		<?php print_rss_feed( 'MantisBT Tweets', 'http://twitter.com/statuses/user_timeline/7199732.rss', /* max */ 5, /* hyperlink */ false, 9 ); ?>
-		<p>See <a href="http://twitter.com/mantisbt">Twitter page</a> for more news or to follow.</p>
+		<?php print_rss_feed( "<a href='http://twitter.com/mantisbt'>MantisBT Tweets</a>", 'http://twitter.com/statuses/user_timeline/7199732.rss', /* max */ 5, /* hyperlink */ false, 9 ); ?>
 	</div>
 
 	<div class="genericbox">
-		<?php print_rss_feed( 'Latest Blog Posts', 'http://www.mantisbt.org/blog/?feed=rss2', /* max */ 5 ); ?>
-		<p>See <a href="http://www.mantisbt.org/blog/">blog</a> for more news.</p>
+		<?php print_rss_feed( "<a href='http://www.mantisbt.org/blog/'>Latest Blog Posts</a>", 'http://www.mantisbt.org/blog/?feed=rss2', /* max */ 5 ); ?>
 	</div>
 <?php
 	include_once('bot.php');
