@@ -4,8 +4,7 @@
 	include( "top.php" );
 ?>
 
-<span class="page_title">Mailing Lists</span>
-<hr size="1" noshade="noshade" width="100%" />
+<h4>Mailing Lists</h4>
 <p>Signup for the mailing lists.  These are very low traffic since most people seem to use the <a href="/forums/">forums</a>.  Please use the forums or the mailing lists for general help questions.  Discussion of development issues is mainly done using the mailing list.</p>
 <table width="90%">
 <tr>
@@ -96,7 +95,5 @@
 </table>
 
 <p class="center"><a class="bold" href="http://sourceforge.net/mail/?group_id=14963">SourceForge Mailing Lists</a></p>
-
-<?php include( "adsense_vertical_inc.php" ); ?>
 
 <?php include( "bot.php" ); ?>
