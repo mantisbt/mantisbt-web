@@ -29,27 +29,28 @@
 		<div id="logoContainer">
 			<div id="logoContainerInner">
 				<div id="logo"><a href="/"><img src="images/mantis_logo.gif" alt="Mantis Bug Tracker Logo" border="0" /></a></div>
-			<div class="clearLeft"></div>
-		</div>
-		<div id="menu">
-			<table cellpadding="0" cellspacing="0" border="0">
-				<tbody>
-					<tr>
-						<td>
-							<ul>
-								<li><a href="/">Overview</a></li>
-								<li id="demo"><a href="/demo/">Demo</a></li>
-								<li id="downloads"><a href="/downloads/">Download</a></li>
-								<li id="docs"><a href="/wiki/">Documentation</a></li>
-								<li id="blog"><a href="/blog/">Weblog</a></li>
-								<li id="community"><a href="/development/">Development</a></li>
-								<li id="support"><a href="/support/">Support</a></li>
-							</ul>
-							<div class="clearLeft"></div>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+				<div class="clearLeft"></div>
+			</div>
+			<div id="menu">
+				<table cellpadding="0" cellspacing="0" border="0">
+					<tbody>
+						<tr>
+							<td>
+								<ul>
+									<li><a href="/">Overview</a></li>
+									<li id="demo"><a href="/demo/">Demo</a></li>
+									<li id="downloads"><a href="/downloads/">Download</a></li>
+									<li id="docs"><a href="/wiki/">Documentation</a></li>
+									<li id="blog"><a href="/blog/">Weblog</a></li>
+									<li id="community"><a href="/development/">Development</a></li>
+									<li id="support"><a href="/support/">Support</a></li>
+								</ul>
+								<div class="clearLeft"></div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</div>
 	</div>
 </div>

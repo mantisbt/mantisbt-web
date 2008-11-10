@@ -1,4 +1,15 @@
+<?php
+include( "adsense_vertical_inc.php" );
+?>
+</div>
+</div>
+<div class="clearBoth"></div>
+<?php
+$t_footer_sponsored_links = '';
+
+?>
 <p />
+<div id="buttonContainer">
 <div style="float: left; padding-right: 15px;">
 <!-- AddThis Bookmark Button BEGIN -->
 <a href="http://www.addthis.com/bookmark.php" onclick="addthis_url   = location.href; addthis_title = document.title; return addthis_click(this);" target="_blank"><img src="http://s5.addthis.com/button1-bm.gif" width="125" height="16" border="0" alt="AddThis Social Bookmark Button" /></a> <script type="text/javascript">var addthis_pub = 'vboctor';</script><script type="text/javascript" src="http://s5.addthis.com/js/widget.php?v=10"></script>  
@@ -18,7 +29,8 @@
 <div style="float: left; padding-right: 15px;">
 	<img src="images/mantis_logo_button.gif" width="88" height="35" border="0" alt="MantisBT" />
 </div>
-
+</div>
+<p />
 <p />
 
 <!-- Google Analytics -->

@@ -34,8 +34,21 @@ div#genericbox li {
 }
 
 div#site {
-	width:610px;
-	margin:50px auto 0 auto;
+	width: 610px;
+	margin: 30px auto 0 auto;
+}
+
+div#buttonContainer {
+	width: 580px;
+	margin: 30px auto 0 auto;
+	padding-right: 15px;
+}
+
+div#vertad {
+	position: absolute;
+	right: 50px;
+	top: 220px;
+	width: 150px;
 }
 
 div#header {
