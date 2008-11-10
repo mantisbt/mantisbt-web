@@ -4,10 +4,10 @@
 	include( "top.php" );
 ?>
 
-<span class="page_title">MantisBT Hosting</span>
-<hr size="1" noshade="noshade" width="100%" />
+<h4>MantisBT Hosting</h4>
 
-<p>For companies that don't already have the infrastructure and expertise required to install MantisBT and the tools it requires or they don't want their staff spending time on maintaining such infrastructure, a hosted environment is an ideal solution.  Use the links below to setup a hosting account to use for MantisBT.  You can also <a href="contact_us.php">contact us</a> to request the installation of MantisBT for a discounted fee of US$50.  This discounted rate is only available for users who have setup a hosting account through the links in this page.</p>
+<p>
+	For companies that don't already have the infrastructure and expertise required to install MantisBT and the tools it requires or they don't want their staff spending time on maintaining such infrastructure, a hosted environment is an ideal solution.  Use the links below to setup a hosting account to use for MantisBT.  You can also <a href="contact_us.php">contact us</a> to request the installation of MantisBT for a discounted fee of US$50.  This discounted rate is only available for users who have setup a hosting account through the links in this page.</p>
 
 <table border="0" cellspacing="0" cellpadding="10">
 
@@ -29,15 +29,11 @@
 
 <br />
 
-<span class="page_title">Hosting Feedback</span>
-<hr size="1" noshade="noshade" width="100%" />
+<h4>Hosting Feedback</h4>
 
 <p>We're committed to helping create a wholesome and hassle-free MantisBT hosting environment. If you feel there are issues with one of the hosts listed here, please send a note.</p>
 
 <?php
-	include( "adsense_vertical_inc.php" );
-
 	$t_footer_sponsored_links = '';
-
 	include("bot.php");
 ?>

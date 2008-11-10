@@ -38,12 +38,12 @@
 							<td>
 								<ul>
 									<li><a href="/">Overview</a></li>
-									<li id="demo"><a href="/demo/">Demo</a></li>
-									<li id="downloads"><a href="/download.php">Download</a></li>
-									<li id="docs"><a href="/wiki/">Documentation</a></li>
-									<li id="blog"><a href="/blog/">Weblog</a></li>
-									<li id="community"><a href="/development.php">Development</a></li>
-									<li id="support"><a href="/support.php">Support</a></li>
+									<li><a href="/demo/">Demo</a></li>
+									<li><a href="/download.php">Download</a></li>
+									<li><a href="/bugs/">Bugtracker</a></li>
+									<li><a href="/blog/">Weblog</a></li>
+									<li><a href="/development.php">Development</a></li>
+									<li><a href="/support.php">Support</a></li>
 								</ul>
 								<div class="clearLeft"></div>
 							</td>

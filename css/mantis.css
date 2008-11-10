@@ -12,6 +12,19 @@ body {
 .clearBoth {clear:both;}
 .hide {display:none;}
 
+div.ybox {
+	float: left;
+	background: #fff9d3;
+	border: 1px solid #f1d32e;
+	padding: 4px;
+	margin: 3px;
+	text-align: center;
+}
+
+div.ybox a:hover {
+	background: #f1d32e;
+}
+
 div.genericbox {
 	width: 47%;
 	float: left;
