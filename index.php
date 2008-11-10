@@ -82,26 +82,22 @@
 	@update_visits();
 ?>
 
-<div>
-        <p>MantisBT is a free <a href="testimonials.php">popular</a> web-based bugtracking system (<a href="/wiki/doku.php/mantisbt:features">feature list</a>).  It is written in the <a href="http://www.php.net/" rel="nofollow">PHP</a> scripting language and works with <a href="http://www.mysql.com/" rel="nofollow">MySQL</a>, MS SQL, and PostgreSQL databases and a webserver.  MantisBT has been installed on Windows, Linux, Mac OS, OS/2, and others.  Almost any web browser should be able to function as a client.  It is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" rel="nofollow">GNU General Public License</a> (GPL).</p>
-		<p>The latest stable version is <a href="download.php"><?php echo $g_latest_version_stable; ?></a>.</p>
-		<p>The latest development version is <a href="download.php"><?php echo $g_latest_version_dev; ?></a>.</p>
+	<p>MantisBT is a free <a href="testimonials.php">popular</a> web-based bugtracking system (<a href="/wiki/doku.php/mantisbt:features">feature list</a>).  It is written in the <a href="http://www.php.net/" rel="nofollow">PHP</a> scripting language and works with <a href="http://www.mysql.com/" rel="nofollow">MySQL</a>, MS SQL, and PostgreSQL databases and a webserver.  MantisBT has been installed on Windows, Linux, Mac OS, OS/2, and others.  Almost any web browser should be able to function as a client.  It is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" rel="nofollow">GNU General Public License</a> (GPL).</p>
+	<p>The latest stable version is <a href="download.php"><?php echo $g_latest_version_stable; ?></a>.</p>
+	<p>The latest development version is <a href="download.php"><?php echo $g_latest_version_dev; ?></a>.</p>
 
 <?php
 	include_once( dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'files' . DIRECTORY_SEPARATOR . 'simplepie.inc');
 ?>
-	<div id="genericbox">
-	<?php
-	print_rss_feed( 'MantisBT Tweets', 'http://twitter.com/statuses/user_timeline/7199732.rss', /* max */ 5, /* hyperlink */ false, 9 );
-?>
-	<p>See <a href="http://twitter.com/mantisbt">Twitter page</a> for more news or to follow.</p>
+	<div class="genericbox">
+		<?php print_rss_feed( 'MantisBT Tweets', 'http://twitter.com/statuses/user_timeline/7199732.rss', /* max */ 5, /* hyperlink */ false, 9 ); ?>
+		<p>See <a href="http://twitter.com/mantisbt">Twitter page</a> for more news or to follow.</p>
 	</div>
 
-	<div id="genericbox">
-	<?php print_rss_feed( 'Latest Blog Posts', 'http://www.mantisbt.org/blog/?feed=rss2', /* max */ 5 ); ?>
-	<p>See <a href="http://www.mantisbt.org/blog/">blog</a> for more news.</p>
+	<div class="genericbox">
+		<?php print_rss_feed( 'Latest Blog Posts', 'http://www.mantisbt.org/blog/?feed=rss2', /* max */ 5 ); ?>
+		<p>See <a href="http://www.mantisbt.org/blog/">blog</a> for more news.</p>
 	</div>
 <?php
 	include_once('bot.php');
 ?>
-
