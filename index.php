@@ -89,11 +89,11 @@
 <?php
 	include_once( dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'files' . DIRECTORY_SEPARATOR . 'simplepie.inc');
 ?>
-	<div class="genericbox">
+	<div style="min-height: 450px;" class="genericbox">
 		<?php print_rss_feed( "<a href='http://twitter.com/mantisbt'>MantisBT Tweets</a>", 'http://twitter.com/statuses/user_timeline/7199732.rss', /* max */ 5, /* hyperlink */ false, 9 ); ?>
 	</div>
 
-	<div class="genericbox">
+	<div style="min-height: 450px;" class="genericbox">
 		<?php print_rss_feed( "<a href='http://www.mantisbt.org/blog/'>Latest Blog Posts</a>", 'http://www.mantisbt.org/blog/?feed=rss2', /* max */ 5 ); ?>
 	</div>
 <?php
