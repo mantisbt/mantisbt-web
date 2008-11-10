@@ -19,7 +19,6 @@
 
 <p/>
 
-
 <div style="height: 220px" class="genericbox">
 	<h3>Stable release</h3>
 	This is the latest stable MantisBT release. Download this file for production use.
@@ -40,6 +39,31 @@
 
 <div class="clearBoth"></div>
 
+<div class="genericbox" style="width: 97%">
+	<h3>Add-On Software</h3>
+    <h4 style="margin-bottom: 0px;">MantisConnect</h4>
+	<div style="margin: 0 20px auto 20px; padding-top: 0px;">
+		<a href="http://www.futureware.biz/mantisconnect/">MantisConnect</a>
+		allows .NET-, Java-, Cocoa- and generally all Applications that can access webservices
+		to integrate with MantisBT.
+	</div>
+
+	<h4 style="margin-bottom: 0px;">MantisWAP</h4>
+	<div style="margin: 0 20px auto 20px; padding-top: 0px;">
+		<a href="http://www.futureware.biz/mantiswap/">MantisWAP</a> provides WAP enabled 
+		phones and PDAs with easy access to MantisBT Bug Tracker. This is a great asset 
+		for support staff and developers who need to access MantisBT while on the go. 
+	</div>
+
+	<h4 style="margin-bottom: 0px;">More</h4>
+	<div style="margin: 0 20px auto 20px; padding-top: 0px;">
+		For more software that works with MantisBT, see our <a href="/links.php">Links-Page</a>
+	</div>
+
+</div>
+
+<div class="clearBoth"></div>
+
 <h4>Where do you want to go next?</h4>
 
 <ul>
@@ -50,7 +74,7 @@
 <p>MantisBT is compressed in <span class="code">.tar.gz</span> format which any reasonable decompression program can handle (Unix tar/gunzip, <a href="http://www.7-zip.org/" rel="nofollow">7-zip</a>, <a href="http://www.winzip.com/" rel="nofollow">Winzip</a>).</p>
 <p>See <a href="/manual/manual.installation.upgrading.php">upgrading</a> page in MantisBT Manual for details about the upgrade process.</p>
 
-<p><span class="section">MantisBT Distributions</span></p>
+<h4>MantisBT Distributions</h4>
 <p>MantisBT is distributed with several <a href="/wiki/doku.php/mantisbt:distributions">GNU/Linux distributions</a>.  Typically the MantisBT versions in these distributions are not the latest.  For the latest MantisBT version use the links above.</p>
 
 <?php

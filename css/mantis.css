@@ -31,7 +31,7 @@ div.genericbox {
 	float: left;
 	background: #fff9d3;
 	border: 1px solid #f1d32e;
-	padding: 4px;
+	padding: 10px 0 10px 10px;
 	margin: 3px;
 }
 
