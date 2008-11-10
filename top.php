@@ -44,6 +44,7 @@
 									<li><a href="/blog/">Weblog</a></li>
 									<li><a href="/development.php">Development</a></li>
 									<li><a href="/support.php">Support</a></li>
+									<li><a href="/sponsors.php">Sponsors</a></li>
 								</ul>
 								<div class="clearLeft"></div>
 							</td>
