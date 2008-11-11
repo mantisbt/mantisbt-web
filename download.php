@@ -40,6 +40,11 @@
 <div class="clearBoth"></div>
 
 <div class="genericbox" style="width: 97%">
+	<h3>Requirements</h3>
+	See the <a href="/requirements.php">Requirements for running Mantis</a>.
+</div>
+
+<div class="genericbox" style="width: 97%">
 	<h3>Add-On Software</h3>
     <h4 style="margin-bottom: 0px;">MantisConnect</h4>
 	<div style="margin: 0 20px auto 20px; padding-top: 0px;">
