@@ -1,5 +1,5 @@
 <?php
-	$t_sub_title = "Download";
+	$t_sub_title = "Support";
 	include( "top.php" );
 ?>
 
