@@ -39,10 +39,18 @@
 
 <div class="clearBoth"></div>
 
-<div class="genericbox" style="width: 97%">
+<div class="genericbox" style="height: 100px;">
 	<h3>Requirements</h3>
 	See the <a href="/requirements.php">Requirements for running Mantis</a>.
 </div>
+
+<div class="genericbox" style="height: 100px;">
+	<h3>Changelog</h3>
+	See the <a href="/bugs/changelog_page.php">Changelog Page</a>
+    for changelog information of current releases.
+</div>
+
+<div class="clearBoth"></div>
 
 <div class="genericbox" style="width: 97%">
 	<h3>Add-On Software</h3>
