@@ -161,6 +161,5 @@
 <?php
 	}
 
-	include( 'adsense_vertical_inc.php' );
 	include( 'bot.php' );
 ?>
