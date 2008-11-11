@@ -100,10 +100,7 @@
     </div>
     <?php
 
-	include( 'adsense_vertical_inc.php' ); 
-
 	$t_footer_sponsored_links = '';
 
 	include( "bot.php" ); 
 ?>
-

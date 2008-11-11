@@ -7,8 +7,7 @@
 	include( "top.php" );
 ?>
 
-<span class="page_title">MantisBT Users Directory</span>
-<hr size="1" noshade="noshade" width="100%" />
+<h4>>MantisBT Users Directory</h4>
 
 <p>This is a directory of companies and open source projects that are using MantisBT as their issue tracking system.  If your company is not listed below, or you know of an open source project that uses MantisBT but is not listed below, please <a href="directory_entry_submit.php">submit</a> it here.</p>
 
@@ -65,8 +64,6 @@
 	}
 			
 	echo '<p>', $entry_count, ' members in directory.</p>'; 
-
-	include( 'adsense_vertical_inc.php' ); 
 
 	$t_footer_sponsored_links = '';
 
