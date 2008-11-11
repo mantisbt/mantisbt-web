@@ -58,9 +58,16 @@ div#site {
 }
 
 div#buttonContainer {
-	width: 580px;
-	margin: 30px auto 0 auto;
-	padding-right: 15px;
+	margin: 10px auto 0 auto;
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	padding-top: 8px;
+	height: 47px;
+	background: #eee;
+}
+
+div#buttonContainer td {
+	padding-left: 15px;
 }
 
 div#vertad {
