@@ -22,10 +22,6 @@ div.ybox {
 	text-align: center;
 }
 
-div.ybox:hover {
-	background: #f1d32e;
-}
-
 div.genericbox {
 	width: 47%;
 	float: left;
