@@ -5,12 +5,14 @@
 
 <h4>Community-Support</h4>
 	<div style="height: 105px;" class="ybox">
+		<br/>
 		Find help <br/>
 		in our <br/>
 		<a href="/forums">Forums</a>
 	</div>
 
 	<div style="height: 105px;" class="ybox">
+		<br/>
 		Report Issues<br/>
 		to our <br/>
 		<a href="/bugs/">Bugtracker</a>
@@ -50,12 +52,14 @@
 
 <h4>Commercial-Support</h4>
 
-	<div style="height: 105px;" class="ybox">
+	<div style="height: 115px;" class="ybox">
+		<br/>
 		Find a <a href="/consulting.php">MantisBT-consultant</a><br/>
 		that can help you with your mantis installation.
 	</div>
 
-	<div style="height: 105px;" class="ybox">
+	<div style="height: 115px;" class="ybox">
+		<br/>
 		Find a <a href="/hosting.php">hosting provider</a><br/>
 		to host your mantis instance.
 	</div>
