@@ -20,15 +20,11 @@
 
 <p>
 	MantisBT sourcecode is hosted in <a href="http://git.or.cz">the GIT SCM</a>.
-	Use <a href="http://git.mantisbt.org">gitweb</a> to browse the source. Use
-	git clone git://git.mantisbt.org/mantisbt.git to get a fresh checkout of 
-	the current development version. You can then publish changes using your own
-	Server or services like <a href="http://www.gitorious.org">gitorious.org</a>, 
-    <a href="http://www.github.com">Github</a> or <a href="http://repo.or.cz">repo.or.cz</a>. 
-</p>
-<p>
-	The <a href="http://www.mantisforge.org/dev/manual/en/developers/">"Mantis Bug Tracker 
-	Developers Guide" has more on using git.
+	Use <a href="http://git.mantisbt.org">gitweb</a> to browse the source.
+
+	Detailed information on how to use git with MantisBT can be found in the 
+	<a href="http://www.mantisforge.org/dev/manual/en/developers/">Mantis Bug Tracker 
+	Developers Guide</a>
 </p>
 <p>
 	<a href="http://www.mantisforge.org/dev/gitstats/">GitStats</a> for the MantisBT GIT-Repository 
