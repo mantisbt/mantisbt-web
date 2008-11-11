@@ -8,8 +8,7 @@
 	include( "top.php" );
 ?>
 
-<span class="page_title">Contact Us</span>
-<hr size="1" noshade="noshade" width="100%" />
+<h4>Contact Us</h4>
 
 <?php
 	# make captcha case insensitive
