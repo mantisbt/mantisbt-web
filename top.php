@@ -16,11 +16,10 @@
 	<meta name="keywords" content="mantis, mantisbt, bugtracker, bug, tracker, issue, software" />
 	<meta name="dc.title" content="Mantis Bug Tracker" />
 	<meta name="revisit-after" content="1 days" />
-
-	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.mantisbt.org/bugs/news_rss.php?project_id=1" />
-	<link rel="shortcut icon" href="http://www.mantisbt.org/favicon.ico" />
 	<!-- STYLES -->
 	<link rel="stylesheet" type="text/css" href="css/mantis.css" />
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.mantisbt.org/blog/?feed=rss2" />
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://twitter.com/statuses/user_timeline/7199732.rss" />
 </head>
 <body id="mantisbody">
 
