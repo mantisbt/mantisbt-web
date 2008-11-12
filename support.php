@@ -48,6 +48,12 @@
 		<a href="/testimonials.php">testimonials</a>
 	</div>
 
+	<div class="ybox">
+		Find out which other<br/>
+		software supports<br/>
+		<a href="/links.php">MantisBT</a>
+	</div>
+
 <div class="clearBoth"></div>
 
 <h4>Commercial-Support</h4>
