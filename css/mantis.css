@@ -53,6 +53,18 @@ div#site {
 	margin: 30px auto 0 auto;
 }
 
+div#bottomLinks {
+	margin: 10px auto 0 auto;
+	width: 590px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+div#bottomLinks a {
+	padding-right: 15px;
+}
+
 div#buttonContainer {
 	margin: 10px auto 0 auto;
 	border-top: 2px solid #ccc;

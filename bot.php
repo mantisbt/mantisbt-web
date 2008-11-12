@@ -8,6 +8,12 @@ $t_footer_sponsored_links = '';
 ?>
 
 <p />
+<div id="bottomLinks">
+	<a href="http://www.sortprice.com">Compare prices</a>
+	<a href="http://www.352media.com">Web design company</a>
+	<a href="/contact_us.php">Contact us</a>
+	<a href="/privacy.php">Privacy</a>
+</div>
 <div id="buttonContainer">
 	<table align="center">
 		<tr>
