@@ -39,6 +39,7 @@
 								<ul>
 									<li><a href="/">Overview</a></li>
 									<li><a href="/demo/">Demo</a></li>
+									<li><a href="/documentation.php">Documentation</a></li>
 									<li><a href="/download.php">Download</a></li>
 									<li><a href="/bugs/">Bugtracker</a></li>
 									<li><a href="/blog/">Weblog</a></li>
