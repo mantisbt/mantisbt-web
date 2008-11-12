@@ -6,9 +6,7 @@
 
 <h4>Links</h4>
 
-<p>
-	<b>MantisConnect</b>
-</p>
+<h5>MantisConnect</h5>
 <p>
 	<a href="http://www.futureware.biz/mantisconnect/">MantisConnect</a> 
 	allows the following applications to integrate with MantisBT:
@@ -22,9 +20,7 @@
 	<li>Applications that can access webservices</li>
 </ul>
 
-<p>
-	<b>MantisWAP</b>
-</p>
+<h5>MantisWAP</h5>
 <p>
 	<a href="http://www.futureware.biz/mantiswap">MantisWAP</a> provides WAP 
 	enabled phones and PDAs with easy access to MantisBT Bug Tracker. This 
@@ -34,9 +30,7 @@
 	MantisBT code.
 </p>
 
-<p>
-	<b>Integration with Source Control</b>
-</p>
+<h5>Integration with Source Control</h5>
 <ul>
 	<li>
 		<a href="http://freshmeat.net/projects/scmbug/">
@@ -46,9 +40,7 @@
 	</li>
 </ul>
 
-<p>
-	<b>Single Sign-On</b>
-</p>
+<h5>Single Sign-On</h5>
 <ul>
 	<li>
 		<a href="http://opensso.sourceforge.net/">Open SSO</a> - Provides 
@@ -56,9 +48,7 @@
 	</li>
 </ul>
 
-<p>
-	<b>Open Source Libraries used by MantisBT</b>
-</p>
+<h5>Open Source Libraries used by MantisBT</h5>
 
 <ul>
 	<li>
@@ -69,9 +59,7 @@
 	</li>
 </ul>
 
-<p>
-	<b>Links to sites which gets MantisBT to work with...</b>
-</p>
+<h5>Links to sites which gets MantisBT to work with...</h5>
 <ul>
 	<li>
 		<a href="http://www.freshports.org/databases/mantis/">FreeBSD (Fresh Ports)</a>
@@ -90,18 +78,14 @@
 	</li>
 </ul>
 
-<p>
-	<b>Migration Tools</b>
-</p>
+<h5>Migration Tools</h5>
 <ul>
 	<li>
 		<a href="http://www.mantisbt.org/bugs/view.php?id=6934" target="_blank">GNATs to MantisBT</a> (Perl) by Colin Pitrat
 	</li>
 </ul>
 
-<p>
-	<b>Articles and Reviews</b>
-</p>
+<h5>Articles and Reviews</h5>
 <ul>
 	<li><a href="http://www.linuxjournal.com/article.php?sid=6859">Linux Review: Product Review: Mantis Bug Tracker</a></li>
 </ul>
