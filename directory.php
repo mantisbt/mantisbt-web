@@ -7,7 +7,7 @@
 	include( "top.php" );
 ?>
 
-<h4>>MantisBT Users Directory</h4>
+<h4>MantisBT Users Directory</h4>
 
 <p>This is a directory of companies and open source projects that are using MantisBT as their issue tracking system.  If your company is not listed below, or you know of an open source project that uses MantisBT but is not listed below, please <a href="directory_entry_submit.php">submit</a> it here.</p>
 

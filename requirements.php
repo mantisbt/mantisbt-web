@@ -4,7 +4,7 @@
 	include( "top.php" );
 ?>
 
-<h4>Requirements</h3>
+<h3>Requirements</h3>
 
 <p>MantisBT runs on Windows, MacOS, OS/2, Linux, Solaris, the BSDs, and just about anything that supports the required server software.</p>
 <p>MantisBT has very modest software and hardware requirements.  You need a computer to run the server on along with the server software.  All of the required software is free for commercial or non-commercial use.</p>
