@@ -19,15 +19,18 @@
 
 <p/>
 
-<div style="height: 220px" class="genericbox">
+<div style="height: 19em; position: relative;" class="genericbox">
 	<h3>Stable release</h3>
 	This is the latest stable MantisBT release. Download this file for production use.
 	<p align="center">
 		<a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963">Download MantisBT <?php echo $g_latest_version_stable; ?></a>
 	</p>
+	<p style="position: absolute; top: 17em; left: 3em;">
+	[ <a href="/requirements.php">Requirements</a> | <a href="/bugs/changelog_page.php">Changelog</a> ]
+	</p>
 </div>
 
-<div style="height: 220px" class="genericbox">
+<div style="height: 19em; position: relative;" class="genericbox">
 	<h3>Development Releases</h3>
 	This is the latest development release. Users should use this release for testing and
 	providing feedback.  It is not recommended for production use unless you are
@@ -35,19 +38,9 @@
 	<p align="center">
 		<a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963&amp;package_id=166159">Download MantisBT <?php echo $g_latest_version_dev; ?></a>
 	</p>
-</div>
-
-<div class="clearBoth"></div>
-
-<div class="genericbox" style="height: 100px;">
-	<h3>Requirements</h3>
-	See the <a href="/requirements.php">Requirements for running MantisBT</a>.
-</div>
-
-<div class="genericbox" style="height: 100px;">
-	<h3>Changelog</h3>
-	See the <a href="/bugs/changelog_page.php">Changelog Page</a>
-    for changelog information of current releases.
+	<p style="position: absolute; top: 17em; left: 3em;">
+	[ <a href="/requirements.php">Requirements</a> | <a href="/bugs/changelog_page.php">Changelog</a> ]
+	</p>
 </div>
 
 <div class="clearBoth"></div>
@@ -77,7 +70,7 @@
 
 <div class="clearBoth"></div>
 
-<p>MantisBT is compressed in <span class="code">.tar.gz</span> format which any reasonable decompression program can handle (Unix tar/gunzip, <a href="http://www.7-zip.org/" rel="nofollow">7-zip</a>, <a href="http://www.winzip.com/" rel="nofollow">Winzip</a>).</p>
+<p>MantisBT is compressed in <span class="code">.tar.gz</span> format which any reasonable decompression program can handle (Unix tar/gunzip, <a href="http://www.winzip.com/" rel="nofollow">Winzip</a>).</p>
 <p>See <a href="/manual/manual.installation.upgrading.php">upgrading</a> page in MantisBT Manual for details about the upgrade process.</p>
 
 <h4>MantisBT Distributions</h4>
