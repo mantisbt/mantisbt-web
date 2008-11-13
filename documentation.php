@@ -19,7 +19,7 @@
 
 <p>
 	For developer-oriented documentation please see <a href="/development.php">the development page</a>.
-<p/>
+</p>
 
 <div class="clearBoth"></div>
 

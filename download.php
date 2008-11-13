@@ -41,7 +41,7 @@
 
 <div class="genericbox" style="height: 100px;">
 	<h3>Requirements</h3>
-	See the <a href="/requirements.php">Requirements for running Mantis</a>.
+	See the <a href="/requirements.php">Requirements for running MantisBT</a>.
 </div>
 
 <div class="genericbox" style="height: 100px;">

@@ -67,7 +67,7 @@
 	<div style="height: 115px;" class="ybox">
 		<br/>
 		Find a <a href="/hosting.php">hosting provider</a><br/>
-		to host your mantis instance.
+		to host your MantisBT instance.
 	</div>
 
 <div class="clearBoth"></div>

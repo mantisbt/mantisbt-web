@@ -42,7 +42,7 @@ function tla_ads() {
 
 		for ($i = 0; $i < count($arr_xml['URL']); $i++) {
 			if( isset($arr_xml['PostID'][$i]) && $arr_xml['PostID'][$i] > 0 ) continue;
-			echo $arr_xml['BeforeText'][$i]." <a href=\"".$arr_xml['URL'][$i]."\">".$arr_xml['Text'][$i]."</a> ".$arr_xml['AfterText'][$i]."<br />\n";
+			echo $arr_xml['BeforeText'][$i]." <a href=\"".$arr_xml['URL'][$i]."\">".$arr_xml['Text'][$i]."</a> ".$arr_xml['AfterText'][$i] . ' ';
 		}
 	}
 

@@ -9,12 +9,11 @@ $t_footer_sponsored_links = '';
 
 <p />
 <div id="bottomLinks">
-	<a href="http://www.sortprice.com">Compare prices</a>
-	<a href="http://www.352media.com">Web design company</a>
+	<?php include( 'tla.php' ); ?>
 	<a href="/contact_us.php">Contact us</a>
 	<a href="/privacy.php">Privacy</a>
 </div>
-<div id="buttonContainer">
+<div id="buttonContainer-disable-for-now">
 	<table align="center">
 		<tr>
 			<td>
