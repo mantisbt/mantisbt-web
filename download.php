@@ -8,7 +8,7 @@
 <div class="spotlight">
 	As you are downloading a new MantisBT release, please take a minute to 
 	consider how you can contribute to the MantisBT project.  You can do 
-	that by contributing time and talent, blogging about it, recommending 
+	that by <a href="http://www.mantisbt.org/wiki/doku.php/mantisbt:contributing">contributing</a> time and talent, blogging about it, recommending 
 	MantisBT to others, linking to MantisBT website, registering in users 
 	directory, donating money, advertising on MantisBT website, sponsoring 
 	a feature, and possibly other ways.
@@ -28,10 +28,10 @@
 </div>
 
 <div style="height: 220px" class="genericbox">
-	<h3>Unstable / Pre-releases</h3>
-	This is the latest unstable Release. If you want to help test future MantisBT code,
-	don't mind non-working Features and generally prefer life on the bleeding edge when
-	it comes to software then this is for you.
+	<h3>Development Releases</h3>
+	This is the latest development release. Users should use this release for testing and
+	providing feedback.  It is not recommended for production use unless you are
+	like bleeding edge and comfortable with PHP and able to trouble shoot any issues that may arise.
 	<p align="center">
 		<a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963&amp;package_id=166159">Download MantisBT <?php echo $g_latest_version_dev; ?></a>
 	</p>
@@ -68,21 +68,14 @@
 		for support staff and developers who need to access MantisBT while on the go. 
 	</div>
 
-	<h4 style="margin-bottom: 0px;">More</h4>
+	<h4 style="margin-bottom: 0px;">MantisBT Related Tools</h4>
 	<div style="margin: 0 20px auto 20px; padding-top: 0px;">
-		For more software that works with MantisBT, see our <a href="/links.php">Links-Page</a>
+		Check the <a href="/wiki/doku.php/mantisbt:related_tools">related tools</a> page.
 	</div>
 
 </div>
 
 <div class="clearBoth"></div>
-
-<h4>Where do you want to go next?</h4>
-
-<ul>
-  <li><a href="http://www.mantisbt.org/wiki/doku.php/mantisbt:contributing">Contributing to MantisBT</a></li>
-  <li><a href="directory.php">Users Directory</a></li>
-</ul>
 
 <p>MantisBT is compressed in <span class="code">.tar.gz</span> format which any reasonable decompression program can handle (Unix tar/gunzip, <a href="http://www.7-zip.org/" rel="nofollow">7-zip</a>, <a href="http://www.winzip.com/" rel="nofollow">Winzip</a>).</p>
 <p>See <a href="/manual/manual.installation.upgrading.php">upgrading</a> page in MantisBT Manual for details about the upgrade process.</p>

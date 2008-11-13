@@ -19,15 +19,14 @@
 	</div>
 
 	<div style="height: 105px;" class="ybox">
-		Join us on IRC @ <a href="irc://irc.freenode.net/mantishelp">#mantishelp</a>.<br/>
+		Chat with us on IRC @ <a href="irc://irc.freenode.net/mantishelp">#mantishelp</a>.<br/>
 		This IRC channel is hosted on <a href="http://freenode.net/irc_servers.shtml">Freenode</a><br/>
 		(<a href="http://www.mantisforge.org/irclogs/">Channel-Archives</a>)
 	</div>
 
 	<div class="ybox">
-		Subscribe to<br/>
-		one of our <br/>
-		<a href="/mailinglists.php">Mailing Lists</a>
+		Subscribe to<br />
+		<a href="/mailinglists.php">Mailing Lists</a><br /><br />
 	</div>
 
 	<div class="ybox">
@@ -37,21 +36,13 @@
 	</div>
 
 	<div class="ybox">
-		Browse and <br/>
-		add to our<br/>
-		<a href="/wiki.php">Wiki</a>
+		Browse and contribute<br/>
+		to the <a href="/wiki.php">Wiki</a><br /><br />
 	</div>
 
 	<div class="ybox">
-		View some<br/>
-		of our user<br/>
-		<a href="/testimonials.php">testimonials</a>
-	</div>
-
-	<div class="ybox">
-		Find out which other<br/>
-		software supports<br/>
-		<a href="/links.php">MantisBT</a>
+		View user<br/>
+		<a href="/testimonials.php">testimonials</a><br /><br />
 	</div>
 
 <div class="clearBoth"></div>
@@ -60,8 +51,7 @@
 
 	<div style="height: 115px;" class="ybox">
 		<br/>
-		Find a <a href="/consulting.php">MantisBT-consultant</a><br/>
-		that can help you with your mantis installation.
+		Get MantisBT <a href="/consulting.php">consulting</a> services. 
 	</div>
 
 	<div style="height: 115px;" class="ybox">

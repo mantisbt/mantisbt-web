@@ -56,7 +56,7 @@
 			Often times MantisBT developers hang out on IRC @ <a href="irc://irc.freenode.net/mantishelp">#mantishelp</a> on the freenode network 
 		</li>
 		<li>
-			It's a good idea to subscribe to the mantisbt-dev mailinglist - details are on the <a href="/mailinglists.php">Mailinglist-Page</a>
+			It's a good idea to subscribe to the mantisbt-dev mailinglist - details are on the <a href="/mailinglists.php">mailing lists page</a>.
 		</li>
 	</ul>
 
