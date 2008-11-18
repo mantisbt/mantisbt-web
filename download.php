@@ -26,7 +26,7 @@
 		<a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963">Download MantisBT <?php echo $g_latest_version_stable; ?></a>
 	</p>
 	<p style="position: absolute; top: 17em; left: 3em;">
-	[ <a href="/requirements.php">Requirements</a> | <a href="/bugs/changelog_page.php">Changelog</a> ]
+	[ <a href="/requirements.php">Requirements</a> | <a href="bugs/changelog_page.php?project=mantisbt&version=<?php echo $g_latest_version_stable; ?>">Changelog</a> ]
 	</p>
 </div>
 
@@ -39,7 +39,7 @@
 		<a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963&amp;package_id=166159">Download MantisBT <?php echo $g_latest_version_dev; ?></a>
 	</p>
 	<p style="position: absolute; top: 17em; left: 3em;">
-	[ <a href="/requirements.php">Requirements</a> | <a href="/bugs/changelog_page.php">Changelog</a> ]
+	[ <a href="/requirements.php">Requirements</a> | <a href="bugs/changelog_page.php?project=mantisbt&version=<?php echo $g_latest_version_dev; ?>">Changelog</a> ]
 	</p>
 </div>
 
