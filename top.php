@@ -41,9 +41,10 @@
 									<li><a href="/documentation.php">Documentation</a></li>
 									<li><a href="/download.php">Download</a></li>
 									<li><a href="/bugs/">Bugtracker</a></li>
-									<li><a href="/blog/">Weblog</a></li>
+									<li><a href="/blog/">Blog</a></li>
 									<li><a href="/development.php">Development</a></li>
 									<li><a href="/support.php">Support</a></li>
+									<li><a href="/hosting.php">Hosting</a></li>
 									<li><a href="/sponsors.php">Sponsors</a></li>
 								</ul>
 								<div class="clearLeft"></div>
