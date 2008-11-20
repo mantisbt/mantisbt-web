@@ -1584,10 +1584,10 @@ function embed_wmedia(width, height, link) {
 							if (isset($this->data['headers']['last-modified']) || isset($this->data['headers']['etag']))
 							{
 								$headers = array();
-								if (isset($this->data['headers']['last-modified']))
-								{
-									$headers['if-modified-since'] = $this->data['headers']['last-modified'];
-								}
+								#if (isset($this->data['headers']['last-modified']))
+								#{
+								#	$headers['if-modified-since'] = $this->data['headers']['last-modified'];
+								#}
 								if (isset($this->data['headers']['etag']))
 								{
 									$headers['if-none-match'] = '"' . $this->data['headers']['etag'] . '"';
