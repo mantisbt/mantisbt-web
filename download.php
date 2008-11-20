@@ -31,7 +31,7 @@
 </div>
 
 <div style="height: 19em; position: relative;" class="genericbox">
-	<h3>Development Release</h3>
+	<h3>Development release</h3>
 	This is the latest development release. Users should use this release for testing and
 	providing feedback.  It is not recommended for production use unless you are
 	like bleeding edge and comfortable with PHP and able to trouble shoot any issues that may arise.
