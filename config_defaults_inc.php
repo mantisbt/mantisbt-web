@@ -26,7 +26,7 @@
 	}
 
 	# The latest version from the stable branch.
-	$g_latest_version_stable = '1.1.4';
+	$g_latest_version_stable = '1.1.5';
 	
 	# The latest version from the development branch.
 	$g_latest_version_dev = '1.2.0a2';
