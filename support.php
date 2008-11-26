@@ -37,7 +37,7 @@
 
 	<div class="ybox">
 		Browse and contribute<br/>
-		to the <a href="/wiki.php">Wiki</a><br /><br />
+		to the <a href="http://wiki.mantisbt.org/doku.php">Wiki</a><br /><br />
 	</div>
 
 	<div class="ybox">
