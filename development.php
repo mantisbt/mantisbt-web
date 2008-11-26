@@ -34,7 +34,7 @@
 <h5>Documentation</h5>
 	<ul>
 		<li>
-			<a href="http://www.mantisforge.org/dev/manual/en/developers/">Mantis Bug Tracker Developers Guide</a>
+			<a href="http://www.mantisforge.org/dev/manual/master/en/developers.html">Mantis Bug Tracker Developers Guide</a>
 		</li>
 		<li>
 			<a href="http://www.mantisforge.org/dev/phpdoc/">PHPDoc documentation for Mantis</a>
