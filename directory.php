@@ -49,10 +49,10 @@
 
 			$t_data =  "<li><a href=\"$t_website_url\" target=\"_blank\"  rel=\"nofollow\">$t_company_name</a>";
 
-			if ( $mantis_ud[$i]->mantis_url != '' ) {
-				$t_mantis_url = htmlspecialchars( $mantis_ud[$i]->mantis_url );
-				$t_data .= " (<a href=\"$t_mantis_url\" target=\"_blank\"  rel=\"nofollow\">public</a>)";
-			}
+			#if ( $mantis_ud[$i]->mantis_url != '' ) {
+			#	$t_mantis_url = htmlspecialchars( $mantis_ud[$i]->mantis_url );
+			#	$t_data .= " (<a href=\"$t_mantis_url\" target=\"_blank\"  rel=\"nofollow\">public</a>)";
+			#}
 
 			$t_data .= "</li>\n"; 
 					
