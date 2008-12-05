@@ -22,13 +22,16 @@ $t_footer_sponsored_links = '';
 				<!-- AddThis Bookmark Button END -->
 			</td>
 			<td>
+				<script type="text/javascript" src="http://www.ohloh.net/projects/47/widgets/project_users_logo"></script>
+			</td>
+			<td>
 				<?php include('paypal_inc.php'); ?>
 			</td>
 			<td>
 				<img src="images/mantis_logo_button.gif" width="88" height="35" border="0" alt="MantisBT" />
 			</td>
 			<td>
-				<img src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo" />
+				<a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo" /></a>
 			</td>
 		</tr>
 	</table>
