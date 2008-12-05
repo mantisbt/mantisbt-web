@@ -13,7 +13,7 @@ $t_footer_sponsored_links = '';
 	<a href="/contact_us.php">Contact us</a>
 	<a href="/privacy.php">Privacy</a>
 </div>
-<div id="buttonContainer-disable-for-now">
+<div id="buttonContainer">
 	<table align="center">
 		<tr>
 			<td>

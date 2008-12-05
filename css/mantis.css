@@ -50,6 +50,7 @@ div.genericbox h3 {
 
 div#site {
 	width: 610px;
+        min-height: 600px;
 	margin: 30px auto 0 auto;
 }
 
@@ -69,7 +70,6 @@ div#buttonContainer {
 	margin: 10px auto 0 auto;
 	border-top: 2px solid #ccc;
 	border-bottom: 2px solid #ccc;
-	padding-top: 8px;
 	height: 47px;
 	background: #eee;
 }
