@@ -16,6 +16,12 @@
 	# Directory for simplepie cache - set to false to disable cache
 	$g_rss_cache_path = '/tmp/';
 
+	# The latest version from the stable branch.
+	$g_latest_version_stable = '1.1.5';
+
+	# The latest version from the development branch.
+	$g_latest_version_dev = '1.2.0a2';
+
 	########################################
 	# Include user's config, if available
 	########################################
@@ -25,9 +31,3 @@
 		require_once( $t_config_inc );
 	}
 
-	# The latest version from the stable branch.
-	$g_latest_version_stable = '1.1.5';
-	
-	# The latest version from the development branch.
-	$g_latest_version_dev = '1.2.0a2';
-?>
