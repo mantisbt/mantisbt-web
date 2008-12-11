@@ -12,6 +12,17 @@ body {
 .clearBoth {clear:both;}
 .hide {display:none;}
 
+.testimonial {
+    margin: 1em 0 0;
+}
+
+.author {
+    display: block;
+    font-style: italic;
+    text-align: right;
+    margin: 0 0 2em;
+}
+
 div.ybox {
 	float: left;
 	width: 181px;
@@ -86,7 +97,7 @@ div#vertad {
 }
 
 div#header {
-	background:#fff url(/images/head_gradient.gif) repeat-x top left;
+	background:#fff url(../images/head_gradient.gif) repeat-x top left;
 	margin:0;
 	padding:0;
 }

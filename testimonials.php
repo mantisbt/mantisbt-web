@@ -83,20 +83,14 @@
 
     ?>    
 	<div align="left">
-        <table width="100%" cellspacing="0" cellpadding="0" border="0">
-            <tr>
-                <td>
                 <?php
                 while ( ( $t_row = mysql_fetch_array( $t_result ) ) !== false ) {
-                    sprintf("<p>%s - <em>%s - %s</p><br />", 
-                        string_display( $t_row['comments'] ),
-                        string_display( $t_row['contact_name'] ),
-                        string_display( $t_row['company_name'] ));
+                    echo "<p class=\"testimonial\">" . 
+                        string_display( $t_row['comments'] ) . "<span class=\"author\">" .
+                        string_display( $t_row['contact_name'] ) . " - " .
+                        string_display( $t_row['company_name'] ) . "</span></p>";
                 }
                 ?>
-                </td>
-            </tr>
-        </table>
     </div>
     <?php
 
