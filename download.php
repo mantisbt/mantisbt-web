@@ -23,7 +23,7 @@
 	<h3>Stable release</h3>
 	This is the latest stable MantisBT release. Download this file for production use.
 	<p align="center">
-		<a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963">Download MantisBT <?php echo $g_latest_version_stable; ?></a>
+		<a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963&amp;package_id=166159">Download MantisBT <?php echo $g_latest_version_stable; ?></a>
 	</p>
 	<p style="position: absolute; top: 17em; left: 3em;">
 	[ <a href="/requirements.php">Requirements</a> | <a href="bugs/changelog_page.php?project=mantisbt&version=<?php echo $g_latest_version_stable; ?>">Changelog</a> ]
@@ -36,10 +36,22 @@
 	providing feedback.  It is not recommended for production use unless you are
 	like bleeding edge and comfortable with PHP and able to trouble shoot any issues that may arise.
 	<p align="center">
-		<a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963&amp;package_id=166159">Download MantisBT <?php echo $g_latest_version_dev; ?></a>
+		<a class="bold" href="http://sourceforge.net/project/showfiles.php?group_id=14963&amp;package_id=12175">Download MantisBT <?php echo $g_latest_version_dev; ?></a>
 	</p>
 	<p style="position: absolute; top: 17em; left: 3em;">
 	[ <a href="/requirements.php">Requirements</a> | <a href="bugs/changelog_page.php?project=mantisbt&version=<?php echo $g_latest_version_dev; ?>">Changelog</a> ]
+	</p>
+</div>
+
+<div class="clearBoth"></div>
+
+<div class="genericbox" style="width: 97%">
+	<h3>Nightly Builds</h3>
+	These are nightly snapshots generated from the latest development branches in our Git repository.
+	These have not been formally tested or prepared for release in any manner, and are recommended only
+	for testing and feedback purposes.  Builds are only available for the past five days.
+	<p align="center">
+		<a class="bold" href="/builds">Download a Nightly Build</a>
 	</p>
 </div>
 
