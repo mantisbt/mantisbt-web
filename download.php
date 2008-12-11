@@ -46,6 +46,18 @@
 <div class="clearBoth"></div>
 
 <div class="genericbox" style="width: 97%">
+	<h3>Nightly Builds</h3>
+	These are nightly snapshots generated from the latest development branches in our Git repository.
+	These have not been formally tested or prepared for release in any manner, and are recommended only
+	for testing and feedback purposes.  Builds are only available for the past five days.
+	<p align="center">
+		<a class="bold" href="/builds">Download a Nightly Build</a>
+	</p>
+</div>
+
+<div class="clearBoth"></div>
+
+<div class="genericbox" style="width: 97%">
 	<h3>Add-On Software</h3>
     <h4 style="margin-bottom: 0px;">MantisConnect</h4>
 	<div style="margin: 0 20px auto 20px; padding-top: 0px;">
