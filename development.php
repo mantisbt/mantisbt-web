@@ -8,7 +8,7 @@
 <div class="spotlight">
 	<p>
 	MantisBT is free software. We encourage <b>you</b> to dive into the source 
-	and help on new features and bugfixes. That is the way free sofware works.
+	and help on new features and bugfixes. That is the way free software works.
 	</p>
 </div>
 
