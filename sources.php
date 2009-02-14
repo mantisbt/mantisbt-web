@@ -16,9 +16,9 @@
 
 <p>Please see <a href="http://git.mantisbt.org">git.mantisbt.org</a> for viewing the sources.</p>
 
-<p>To get a copy of the current mantisbt-core use</p>
+<p>To get a copy of the current mantisbt source use</p>
 
-<pre>git clone git://git.mantisbt.org/mantisbt-core.git</pre>
+<pre>git clone git://git.mantisbt.org/mantisbt.git</pre>
 
 <?php include( "adsense_vertical_inc.php" ); ?>
 
