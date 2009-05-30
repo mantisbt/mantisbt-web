@@ -32,13 +32,13 @@
 	function print_rss_feed( $p_title, $p_rss_url, $p_max_entries = 5, $p_hyperlink = true, $p_chars_to_skip = 0 ) {
 		// Parse it
 		$feed = new SimplePie();
-		$feed->set_feed_url( $p_rss_url );
 
-	    if ( empty( $_GLOBALS['g_rss_cache_path'] ) ) {
-		    $feed->enable_cache( false );
+	    if ( empty( $GLOBALS['g_rss_cache_path'] ) ) {
+		$feed->enable_cache( false );
 	    } else {
-	        $feed->set_cache_location( $_GLOBALS['g_rss_cache_path'] );
+	        $feed->set_cache_location( $GLOBALS['g_rss_cache_path'] );
 	    }
+		$feed->set_feed_url( $p_rss_url );
 
 		$feed->init();
 
@@ -51,7 +51,7 @@
 
 		foreach ( $items as $item ) {
 			$t_title = $item->get_title();
-
+ 
 			if ( $p_chars_to_skip > 0 ) {
 				$t_title = substr( $t_title, $p_chars_to_skip );
 				if (strstr($t_title, ":")) {
