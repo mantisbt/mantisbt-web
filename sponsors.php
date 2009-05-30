@@ -14,7 +14,7 @@
 	<tr>
 		<td><center><a href="http://www.rapidrep.com/" target="_blank"><img src="images/sponsors/rapidreplogo.gif" border="0" alt="RapidRep" width="184" height="76" /></a></center></td>
 		<td>
-			The <a href="http://www.rapidrep.com/" target="_blank">RapidRep</a> Test Suite is a flexible solution for testing arbitrary data via SQL and populating spreadsheet test reports. The focus of RapidRep is on automated test execution and it integrates well with several leading test management and defect management systems (e.g. MantisBT). This proven solution is a product of FINARIS, a consulting company for the financial industry.
+			<a href="http://www.rapidrep.com/" target="_blank">RapidRep</a> Test Suite is a flexible solution for testing arbitrary data via SQL and populating spreadsheet test reports. It focuses on automated test execution and integrates with leading test and defect management systems including MantisBT.
 		</td>
 	</tr>
 
@@ -23,14 +23,6 @@
 		<td><center><a href="http://hitflip.de/" target="_blank"><img src="images/sponsors/hitfliplogo.gif" border="0" alt="Tauschen bei Hitflip" width="135" height="70" /></a></center></td>
 		<td>
 			<a href="http://hitflip.de/" target="_blank">Hitflip</a> is a trading / bartering platform for all sorts of media products like books, music CDs, audiobooks, DVDs / Movies / Videos and games.
-		</td>
-	</tr>
-
-	<?php /* Sponsor ad placed on 15-NOV-2006 */ ?>
-	<tr>
-		<td><center><a href="http://www.coveo.com/" target="_blank"><img src="images/sponsors/coveologo.jpg" border="0" alt="Coveo" width="150" height="80" /></a></center></td>
-		<td>
-			<a href="http://www.coveo.com/" target="_blank">Coveo</a> develops award winning enterprise secure search engine applications that deliver secure, accurate access to structured and unstructured information across the enterprise. A version tightly integrated within Microsoft SharePoint is also available. Contact our support team to learn how you can leverage the information stored in MantisBT using Coveo Enterprise Search.
 		</td>
 	</tr>
 
