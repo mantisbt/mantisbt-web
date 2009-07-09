@@ -4,23 +4,14 @@
 	$g_db_password = '';
 	$g_database_name = 'mantisbt';
 
-	$g_news_view_limit = 10;
-
-	$g_mantis_news_table = 'mantis_news_table';
-	$g_mantis_user_table = 'mantis_user_table';
-
-	$g_mantis_path = 'mantis/';
-
-	$g_lang_cvs_path = 'lang-cvs/';
-
 	# Directory for simplepie cache - set to false to disable cache
 	$g_rss_cache_path = '/tmp/';
 
 	# The latest version from the stable branch.
-	$g_latest_version_stable = '1.1.5';
+	$g_latest_version_stable = '1.1.8';
 
 	# The latest version from the development branch.
-	$g_latest_version_dev = '1.2.0a2';
+	$g_latest_version_dev = '1.2.0rc1';
 
 	########################################
 	# Include user's config, if available

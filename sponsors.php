@@ -26,14 +26,6 @@
 		</td>
 	</tr>
 
-	<?php /* Sponsor ad placed on 22-SEP-2006 */ ?>
-	<tr>
-		<td><center><a href="http://www.strategiclandinvestments.co.uk/" target="_blank"><img src="images/sponsors/slilogo.gif" border="0" alt="Land for Sale" width="200" height="80" /></a></center></td>
-		<td>
-			<a href="http://www.strategiclandinvestments.co.uk/" target="_blank">Strategic Land Investments</a> offer freehold land for sale in the UK as an investment. All land sold is freehold land with full title deeds.
-		</td>
-	</tr>
-
 	<?php /* Sponsor ad placed on 05-AUG-2006 */ ?>
 	<tr>
 		<td><center><a href="http://www.absolute-software.co.uk/" target="_blank"><img src="images/sponsors/abssoftlogo.png" border="0" alt="Embedded Programming Services" width="80" height="80" /></a></center></td>
