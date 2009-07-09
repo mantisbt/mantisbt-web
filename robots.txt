@@ -1,2 +1,5 @@
 User-agent: *
 Disallow: /bugs/api/soap/
+
+User-Agent: msnbot
+Crawl-Delay: 60
