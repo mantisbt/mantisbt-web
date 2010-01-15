@@ -10,6 +10,14 @@
 
 <table border="0" cellspacing="0" cellpadding="10">
 
+	<?php /* Sponsor ad placed on 14-JAN-2010 */ ?>
+	<tr>
+		<td><center><img src="images/sponsors/screenflow_logo.gif" border="0" alt="Telestream ScreenFlow" width="195" height="80" /></center></td>
+		<td>
+			<a href="http://dynamic.telestream.net/downloads/download-screenflow.asp?utm_source=mantis&utm_medium=bannerad&utm_campaign=mantis_sf0110" target="_blank">Telestream ScreenFlow</a> lets you capture the contents of your desktop + camera + microphone – then edit and add effects to create video tutorials or demo your apps. ScreenFlow's intuitive interface will have you producing professional screencasts in no time.  Full-featured, free trial.
+		</td>
+	</tr>
+
 	<?php /* Sponsor ad placed on 7-NOV-2009 */ ?>
 	<tr>
 		<td><center><img src="images/sponsors/tomsgutscheine_logo.png" border="0" alt="Tom's Gutscheine" width="64" height="75" /></center></td>
