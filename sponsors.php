@@ -10,6 +10,16 @@
 
 <table border="0" cellspacing="0" cellpadding="10">
 
+
+
+<?php /* Sponsor ad placed on 01-FEB-2010 */ ?>
+<tr>
+	<td><center><img src="images/sponsors/bwin_logo.gif" border="0" alt="BWIN" width="210" height="83" /></center></td>
+	<td>
+BWIN - Europe's biggest online betting and gaming site. Exciting live sports betting odds, <a href="https://poker.bwin.com/" target="_blank">Online Poker</a>, Casino and Games. poker.bwin.com used Mantis since 1999.
+	</td>
+</tr>
+
 	<?php /* Sponsor ad placed on 14-JAN-2010 */ ?>
 	<tr>
 		<td><center><img src="images/sponsors/screenflow_logo.gif" border="0" alt="Telestream ScreenFlow" width="195" height="80" /></center></td>
