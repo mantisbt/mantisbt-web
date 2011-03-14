@@ -11,7 +11,7 @@
 
 <table border="0" cellspacing="0" cellpadding="10">
 
-@include( 'sponsors/hosts.php' );
+<?php @include( 'sponsors/hosts.php' ); ?>
 
 </table>
 
