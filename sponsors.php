@@ -10,56 +10,7 @@
 
 <table border="0" cellspacing="0" cellpadding="10">
 
-
-
-<?php /* Sponsor ad placed on 01-FEB-2010 */ ?>
-<tr>
-	<td><center><img src="images/sponsors/bwin_logo.gif" border="0" alt="BWIN" width="210" height="83" /></center></td>
-	<td>
-BWIN - Europe's biggest online betting and gaming site. Exciting live sports betting odds, <a href="https://poker.bwin.com/" target="_blank">Online Poker</a>, Casino and Games. poker.bwin.com used Mantis since 1999.
-	</td>
-</tr>
-
-	<?php /* Sponsor ad placed on 14-JAN-2010 */ ?>
-	<tr>
-		<td><center><img src="images/sponsors/screenflow_logo.gif" border="0" alt="Telestream ScreenFlow" width="195" height="80" /></center></td>
-		<td>
-			<a href="http://dynamic.telestream.net/downloads/download-screenflow.asp?utm_source=mantis&utm_medium=bannerad&utm_campaign=mantis_sf0110" target="_blank">Telestream ScreenFlow</a> lets you capture the contents of your desktop + camera + microphone – then edit and add effects to create video tutorials or demo your apps. ScreenFlow's intuitive interface will have you producing professional screencasts in no time.  Full-featured, free trial.
-		</td>
-	</tr>
-
-	<?php /* Sponsor ad placed on 7-NOV-2009 */ ?>
-	<tr>
-		<td><center><img src="images/sponsors/tomsgutscheine_logo.png" border="0" alt="Tom's Gutscheine" width="64" height="75" /></center></td>
-		<td>
-			<a href="http://www.tomsgutscheine.de/" target="_blank">Tom's Gutscheine</a> provides visitors with thousands of
-			vouchers and coupons for hundreds of online shops. Saving money has never been easier!
-		</td>
-	</tr>
-
-	<?php /* Sponsor ad placed on 13-OCT-2009 */ ?>
-	<tr>
-		<td><center><img src="images/sponsors/ladenzeilelogo.png" border="0" alt="Ladenzeile.de" width="200" height="80" /></center></td>
-		<td><a href="http://www.ladenzeile.de/" target="_blank">Ladenzeile.de</a> is a shopping platform focused on fashion, shoes, bags,
-accessories, beauty and furniture. It acts as an aggregator of shops,
-displaying the products of a couple of hundred shops.</td>
-	</tr>
-
-	<?php /* Sponsor ad placed on 28-MAY-2009 */ ?>
-	<tr>
-		<td><center><img src="images/sponsors/rapidreplogo.gif" border="0" alt="RapidRep" width="184" height="76" /></center></td>
-		<td>
-			<a href="http://www.rapidrep.com/" target="_blank">RapidRep</a> Test Suite is a flexible solution for testing arbitrary data via SQL and populating spreadsheet test reports. It focuses on automated test execution and integrates with leading test and defect management systems including MantisBT.
-		</td>
-	</tr>
-
-	<?php /* Sponsor ad placed on 29-AUG-2005 */ ?>
-	<tr>
-		<td><center><img src="images/sponsors/trainingclasseslogo.gif" border="0" alt="Training" width="200" height="60" /></center></td>
-		<td>
-			<a href="http://www.training-classes.com/" target="_blank">#1 Training Directory</a> Connecting people who want to learn with people who love to teach since 1998: Happy to use MantisBT and proud to support this excellent bug tracking package.
-		</td>
-	</tr>
+<?php @include ( 'sponsors/sponsors_inc.php' ); ?>
 
 </table>
 

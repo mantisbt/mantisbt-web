@@ -33,12 +33,7 @@ function tla_ads() {
 	if ( is_array($arr_xml) ) {
 		echo "\n\n";
 
-		/*
-		$arr_xml['BeforeText'][] = '';
-		$arr_xml['AfterText'][] = '';
-		$arr_xml['URL'][] = '';
-		$arr_xml['Text'][] = '';
-		*/
+		@include( 'sponsors/tla_inc.php' );
 
 		for ($i = 0; $i < count($arr_xml['URL']); $i++) {
 			if( isset($arr_xml['PostID'][$i]) && $arr_xml['PostID'][$i] > 0 ) continue;
