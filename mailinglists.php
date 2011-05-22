@@ -77,6 +77,23 @@
 </tr>
 <tr>
 	<td>
+		mantisbt-soap-dev
+	</td>
+	<td>
+		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-soap-dev">Signup</a>
+	</td>
+	<td>
+		<a href="http://gmane.org/info.php?group=gmane.comp.bug-tracking.mantis.devel.soap" target="_blank">GMANE Archives</a>
+	</td>
+	<td>
+		<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-soap-dev" target="_blank">SourceForge Archives</a>
+	</td>
+	<td>
+		MantisBT SOAP API development talk.
+	</td>
+</tr>
+<tr>
+	<td>
 		mantisbt-cvs
 	</td>
 	<td>
