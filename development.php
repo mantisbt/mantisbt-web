@@ -19,12 +19,14 @@
 <h5>The source code</h5>
 
 <p>
-	MantisBT sourcecode is hosted in <a href="http://git.or.cz">the GIT SCM</a>.
-	Use <a href="http://git.mantisbt.org">gitweb</a> to browse the source.
+	MantisBT source code is hosted on <a href="http://github.com/mantisbt/mantisbt">GitHub</a>.
 
-	Detailed information on how to use git with MantisBT can be found in the 
-	<a href="http://www.mantisforge.org/dev/manual/en/developers/">Mantis Bug Tracker 
-	Developers Guide</a>
+	Detailed information on how to use git with MantisBT can be found in the
+	<a href="http://docs.mantisbt.org/master/en/developers/">Mantis Bug Tracker
+	Developers Guide</a>.
+
+	Help with setting up Git and learning basic usage can be found in
+	<a href="http://help.github.com">GitHub's Help pages</a>.
 </p>
 <p>
 	<a href="http://www.mantisforge.org/dev/gitstats/">GitStats</a> for the MantisBT GIT-Repository 
@@ -34,7 +36,7 @@
 <h5>Documentation</h5>
 	<ul>
 		<li>
-			<a href="http://www.mantisforge.org/dev/manual/master/en/developers.html">Mantis Bug Tracker Developers Guide</a>
+			<a href="http://docs.mantisbt.org/master/en/developers.html">Mantis Bug Tracker Developers Guide</a>
 		</li>
 		<li>
 			<a href="http://www.mantisforge.org/dev/phpdoc/">PHPDoc documentation for Mantis</a>

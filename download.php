@@ -8,7 +8,7 @@
 <div class="spotlight">
 	As you are downloading a new MantisBT release, please take a minute to 
 	consider how you can contribute to the MantisBT project.  You can do 
-	that by <a href="http://www.mantisbt.org/wiki/doku.php/mantisbt:contributing">contributing</a> time and talent, blogging about it, recommending 
+	that by <a href="/development.php">contributing</a> time and talent, blogging about it, recommending 
 	MantisBT to others, linking to MantisBT website, registering in users 
 	directory, donating money, advertising on MantisBT website, sponsoring 
 	a feature, and possibly other ways.
