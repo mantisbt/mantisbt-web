@@ -21,7 +21,7 @@
 	<div style="height: 105px;" class="ybox">
 		Chat with us on IRC @ <a href="irc://irc.freenode.net/mantisbt-help">#mantisbt-help</a>.<br/>
 		This IRC channel is hosted on <a href="http://freenode.net/irc_servers.shtml">Freenode</a><br/>
-		(<a href="http://www.mantisforge.org/irclogs/">Channel-Archives</a>)
+		(<a href="http://www.mantisbt.org/irclogs/">Channel-Archives</a>)
 	</div>
 
 	<div class="ybox">
