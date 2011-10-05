@@ -20,6 +20,8 @@
 	<link rel="stylesheet" type="text/css" href="css/mantis.css" />
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.mantisbt.org/blog/?feed=rss2" />
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://twitter.com/statuses/user_timeline/7199732.rss" />
+
+	<?php ads_print_head(); ?>
 </head>
 <body id="mantisbody">
 

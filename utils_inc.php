@@ -15,6 +15,12 @@
 	}
 	
 	# ------------------
+	# Prints the contents to go within the head tag.
+	function ads_print_head() {
+		@include( 'sponsors/ads_head_inc.php' );
+	}
+
+	# ------------------
 	# Prints the right hand vertical banner
 	function ads_print_right_vertical_banner() {
 		@include( 'sponsors/ads_right_vertifical_banner_inc.php' );
