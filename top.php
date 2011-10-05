@@ -36,16 +36,17 @@
 						<tr>
 							<td>
 								<ul>
-									<li><a href="/">Overview</a></li>
-									<li><a href="/demo/">Demo</a></li>
-									<li><a href="/documentation.php">Documentation</a></li>
-									<li><a href="/download.php">Download</a></li>
-									<li><a href="/bugs/">Bugtracker</a></li>
-									<li><a href="/blog/">Blog</a></li>
-									<li><a href="/development.php">Development</a></li>
-									<li><a href="/support.php">Support</a></li>
-									<li><a href="/hosting.php">Hosting</a></li>
-									<li><a href="/sponsors.php">Sponsors</a></li>
+									<li><a href="index.php">Overview</a></li>
+									<li><a href="demo/">Demo</a></li>
+									<li><a href="documentation.php">Documentation</a></li>
+									<li><a href="download.php">Download</a></li>
+									<li><a href="bugs/">Bugtracker</a></li>
+									<li><a href="blog/">Blog</a></li>
+									<li><a href="development.php">Development</a></li>
+									<li><a href="support.php">Support</a></li>
+									<li><a href="hosting.php">Hosting</a></li>
+									<li><a href="sponsors.php">Sponsors</a></li>
+									<li><a href="contact_us.php">Contact Us</a></li>
 								</ul>
 								<div class="clearLeft"></div>
 							</td>

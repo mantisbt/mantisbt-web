@@ -5,8 +5,8 @@
 <div class="clearBoth"></div>
 <p />
 <div id="bottomLinks">
-	<a href="/contact_us.php">Contact us</a>
-	<a href="/privacy.php">Privacy</a>
+	<a href="contact_us.php">Contact us</a>
+	<a href="privacy.php">Privacy</a>
 	<br />
 	<?php ads_print_footer_text(); ?>
 </div>
