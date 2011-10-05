@@ -61,7 +61,7 @@ div.genericbox h3 {
 
 div#site {
 	width: 610px;
-        min-height: 600px;
+    min-height: 300px;
 	margin: 30px auto 0 auto;
 }
 
