@@ -24,7 +24,7 @@ include_once( dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'user_directory' . DIR
 */
 
 if ( PRODUCTION_MODE ) {
-	error_reporting( E_NONE );
+	error_reporting( 0 );
 } else {
 	error_reporting( E_ALL );
 }
