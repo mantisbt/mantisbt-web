@@ -36,9 +36,5 @@
 </ul>
 
 <?php
-	include( 'adsense_vertical_inc.php' ); 
-
-	$t_footer_sponsored_links = false;
-
+	ads_print_right_vertical_banner();
 	include( "bot.php" ); 
-?>

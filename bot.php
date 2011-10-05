@@ -1,17 +1,14 @@
 <?php
-include( "adsense_vertical_inc.php" );
+	ads_print_right_vertical_banner();
 ?>
 </div>
 <div class="clearBoth"></div>
-<?php
-$t_footer_sponsored_links = '';
-?>
-
 <p />
 <div id="bottomLinks">
-	<?php include( 'tla.php' ); ?>
 	<a href="/contact_us.php">Contact us</a>
 	<a href="/privacy.php">Privacy</a>
+	<br />
+	<?php ads_print_footer_text(); ?>
 </div>
 <div id="buttonContainer">
 	<table align="center">

@@ -16,4 +16,3 @@
 
 <?php
 	include("bot.php"); 
-?>

@@ -88,6 +88,4 @@
 <p>MantisBT is distributed with several <a href="/wiki/doku.php/mantisbt:distributions">GNU/Linux distributions</a>.  Typically the MantisBT versions in these distributions are not the latest.  For the latest MantisBT version use the links above.</p>
 
 <?php
-	$t_footer_sponsored_links = '';
 	include( "bot.php" ); 
-?>

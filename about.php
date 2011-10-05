@@ -27,5 +27,6 @@ The release numbering convention used is <b>major.minor.micro</b> (eg. 1.1.0).
 	<li><b>Let us know if you find it useful</b>.  We won't publish the information without permission, but we appreciate the feedback!</li>
 </ul>
 
-<?php include( "adsense_vertical_inc.php" ); ?>
-<?php include("bot.php"); ?>
+<?php
+	ads_print_right_vertical_banner();
+	include("bot.php");

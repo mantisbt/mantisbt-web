@@ -153,7 +153,6 @@ Make sure you sign up on the bugtracker and received developer access.
 <p />
 You can mark a bug as resolved if it is commited in GIT.  Please don't close bugs until that release is publicly available.
 
-<?php include( "adsense_vertical_inc.php" ); ?>
-
-<?php include( "bot.php" ); ?>
-
+<?php
+	ads_print_right_vertical_banner();
+	include( "bot.php" );

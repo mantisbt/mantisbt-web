@@ -13,4 +13,15 @@
 			return $p_var;
 		}
 	}
-?>
+	
+	# ------------------
+	# Prints the right hand vertical banner
+	function ads_print_right_vertical_banner() {
+		@include( 'sponsors/ads_right_vertifical_banner_inc.php' );
+	}
+
+	# ------------------
+	# Print the footer text ads
+	function ads_print_footer_text() {
+		@include( 'sponsors/ads_footer_inc.php' );
+	}

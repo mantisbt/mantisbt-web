@@ -22,6 +22,4 @@
 <p>We're committed to helping create a wholesome and hassle-free MantisBT hosting environment. If you feel there are issues with one of the hosts listed here, please send a note.</p>
 
 <?php
-	$t_footer_sponsored_links = '';
 	include("bot.php");
-?>

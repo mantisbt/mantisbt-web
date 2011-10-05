@@ -94,7 +94,4 @@
     </div>
     <?php
 
-	$t_footer_sponsored_links = '';
-
 	include( "bot.php" ); 
-?>

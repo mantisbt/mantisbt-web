@@ -65,7 +65,4 @@
 			
 	echo '<p>', $entry_count, ' members in directory.</p>'; 
 
-	$t_footer_sponsored_links = '';
-
 	include( "bot.php" ); 
-?>

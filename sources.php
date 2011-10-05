@@ -16,10 +16,10 @@
 
 <p>Please see <a href="http://git.mantisbt.org">git.mantisbt.org</a> for viewing the sources.</p>
 
-<p>To get a copy of the current mantisbt source use</p>
+<p>To get a copy of the current MantisBT source use</p>
 
 <pre>git clone git://git.mantisbt.org/mantisbt.git</pre>
 
-<?php include( "adsense_vertical_inc.php" ); ?>
-
-<?php include( "bot.php" ); ?>
+<?php
+	ads_print_right_vertical_banner();
+	include( "bot.php" );

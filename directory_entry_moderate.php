@@ -96,6 +96,5 @@
 
 	echo "<p>$g_msg</p>";
 
-	include( 'adsense_vertical_inc.php' );
+	ads_print_right_vertical_banner();
 	include( 'bot.php' );
-?>
