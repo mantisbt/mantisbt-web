@@ -10,7 +10,7 @@
 </p>
 
 <ul>
-	<li><a href="http://docs.mantisbt.org/master-1.2.x/en/">The MantisBT Manual (v1.2.x).</a></li>
+	<li><a href="/docs/master-1.2.x/en/">The MantisBT Manual (v1.2.x).</a></li>
 	<li><a href="/manual/">The MantisBT Manual (up to v1.1.x).</a></li>
 	<li><a href="/wiki/">The MantisBT Wiki</a> contains a lot of valuable MantisBT knowledge.</li>
 	<li>See our <a href="/testimonials.php">User testimonials</a> to find out what users have to say about MantisBT.</li>
