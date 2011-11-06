@@ -83,19 +83,36 @@
 ?>
 
 	<p>MantisBT is a free <a href="testimonials.php">popular</a> web-based bugtracking system (<a href="/wiki/doku.php/mantisbt:features">feature list</a>).  It is written in the <a href="http://www.php.net/" rel="nofollow">PHP</a> scripting language and works with <a href="http://www.mysql.com/" rel="nofollow">MySQL</a>, MS SQL, and PostgreSQL databases and a webserver.  MantisBT has been installed on Windows, Linux, Mac OS, OS/2, and others.  Almost any web browser should be able to function as a client.  It is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" rel="nofollow">GNU General Public License</a> (GPL).</p>
-	<p>The latest stable version is <a href="download.php"><?php echo $g_latest_version_stable; ?></a>.</p>
-	<p>The latest development version is <a href="download.php"><?php echo $g_latest_version_dev; ?></a>.</p>
+
+	<p>Featuring <a href="mantistouch.php">MantisTouch</a> for iPhone, Android and Windows Phone</p>
+    <table border="0" width="100%">
+    <tr>
+      <td align="center" valign="top" style="text-align:center;"><img alt="Login Page" src="images/mt_login_page.png" height="300" width="200" border="1" /></td>
+      <td align="center" valign="top"><img alt="Dashboard Page" src="images/mt_dashboard_page.png" height="300" width="200" border="1" /></td>  
+      <td align="center" valign="top"><img alt="Issues Page" src="images/mt_issues_page.png" height="300" width="200" border="1" /></td>
+    </tr>
+	</table>
 
 <?php
+	/*
+	<p>The latest version is <a href="download.php"><?php echo $g_latest_version_stable; ?> (stable) and <?php echo $g_latest_version_dev; ?> (development)</a>.</p>
+
 	include_once( dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'files' . DIRECTORY_SEPARATOR . 'simplepie.inc');
-?>
-	<div style="min-height: 300px;" class="genericbox">
-		<?php print_rss_feed( "<a href='http://twitter.com/mantisbt'>MantisBT Tweets</a>", 'http://twitter.com/statuses/user_timeline/7199732.rss', /* max */ 4, /* hyperlink */ false, 9 ); ?>
-	</div>
 
-	<div style="min-height: 300px;" class="genericbox">
-		<?php print_rss_feed( "<a href='http://www.mantisbt.org/blog/'>Latest Blog Posts</a>", 'http://www.mantisbt.org/blog/?feed=rss2', /* max */ 5 ); ?>
-	</div>
-<?php
+	echo '<div style="min-height: 300px;" class="genericbox">';
+	print_rss_feed(
+		"<a href='http://twitter.com/mantisbt'>MantisBT Tweets</a>", 'http://twitter.com/statuses/user_timeline/7199732.rss',
+		4, // max
+		false, // hyperlink
+		9 );
+	echo '</div>';
+
+	echo '<div style="min-height: 300px;" class="genericbox">';
+	print_rss_feed(
+		"<a href='http://www.mantisbt.org/blog/'>Latest Blog Posts</a>", 'http://www.mantisbt.org/blog/?feed=rss2',
+		5 // max
+		);
+	echo '</div>';
+	*/
+
 	include_once('bot.php');
-?>
