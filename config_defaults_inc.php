@@ -13,9 +13,6 @@
 	# The latest version from the development branch.
 	$g_latest_version_dev = '1.2.0rc1';
 
-	# The MantisBT setup fee
-	$g_setup_fee = 100;
-
 	########################################
 	# Include user's config, if available
 	########################################
@@ -24,4 +21,3 @@
 	if ( file_exists( $t_config_inc ) ) {
 		require_once( $t_config_inc );
 	}
-

@@ -6,8 +6,7 @@
 
 <h4>MantisBT Hosting</h4>
 
-<p>
-	For companies that don't already have the infrastructure and expertise required to install MantisBT and the tools it requires or they don't want their staff spending time on maintaining such infrastructure, a hosted environment is an ideal solution.  Use the links below to setup a hosting account to use for MantisBT.  You can also <a href="contact_us.php">contact us</a> to request the installation of MantisBT for a discounted fee of US$<?php echo $g_setup_fee; ?>.  This discounted rate is only available for users who have setup a hosting account through the links in this page.</p>
+<p>For a hassle-free MantisBT hosting that is accessible to both internal and external users, it's recommended to get a hosted solution with one of the MantisBT certified hosting partners.  Use the <a href="contact_us.php">contact us</a> form for custom installations requests.</p>
 
 <table border="0" cellspacing="0" cellpadding="10">
 
@@ -19,7 +18,7 @@
 
 <h4>Hosting Feedback</h4>
 
-<p>We're committed to helping create a wholesome and hassle-free MantisBT hosting environment. If you feel there are issues with one of the hosts listed here, please send a note.</p>
+<p>We're committed to helping create a wholesome and hassle-free MantisBT hosting environment. If you feel there are issues with one of the hosts listed here, please <a href="contact_us.php">contact us</a>.</p>
 
 <?php
 	include("bot.php");
