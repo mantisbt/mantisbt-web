@@ -8,8 +8,12 @@
 <p>
 <a href="http://mantisbt.mobi/">MantisTouch is a web app</a> that provides a mobile optimized MantisBT user interface for iPhone, Android and Windows Phones devices.
 MantisTouch internally uses web services to access the underlying MantisBT v1.2.x instances, hence, providing the mobile friendly interface without requiring any changes for the accessed MantisBT instance.
-MantisTouch is currently in public beta; your feedback will be highly appreciated.
 </p>
+
+<h4>Purchase MantisTouch</h4>
+<p>MantisTouch is now available to be installed on your owner servers for improved security and performance.  <b>For a limited time MantisTouch is available for a discounted fee of US$100 (regular price US$150)</b>.  This license allows access to one bug tracker instance by any number of users and updates to future v1.x releases.  Once a license is purchased, you will receive a download link in the confirmation email.  For installation instructions checkout the README file.</p>
+
+<?php @include( 'sponsors/mantistouch_buy_button.php' ) ?>
 
 <h4>Features</h4>
 <ul>
@@ -21,7 +25,7 @@ MantisTouch is currently in public beta; your feedback will be highly appreciate
   <li>Download attachments.</li>
 </ul>
 
-<h4>Usage</h4>
+<h4>Demo</h4>
 <p>
 Access your MantisBT v1.2.x instance via the MantisTouch at <a href="http://mantisbt.mobi/" title="Mantis Bug Tracker for Mobile Phones">http://mantisbt.mobi/</a>.
 Users must provide user name, password and MantisBT url to be able to use MantisTouch.
