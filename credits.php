@@ -8,7 +8,7 @@
 <hr size="1" noshade="noshade" width="100%" />
 <p />
 <?php
-        $file = file( "files/CREDITS");
+        $file = file( "data/CREDITS");
         $count = count($file);
         $state = 0;
         $ulopen = false;

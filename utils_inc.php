@@ -17,17 +17,17 @@
 	# ------------------
 	# Prints the contents to go within the head tag.
 	function ads_print_head() {
-		@include( 'sponsors/ads_head_inc.php' );
+		@include( 'data/ads_head_inc.php' );
 	}
 
 	# ------------------
 	# Prints the right hand vertical banner
 	function ads_print_right_vertical_banner() {
-		@include( 'sponsors/ads_right_vertifical_banner_inc.php' );
+		@include( 'data/ads_right_vertifical_banner_inc.php' );
 	}
 
 	# ------------------
 	# Print the footer text ads
 	function ads_print_footer_text() {
-		@include( 'sponsors/ads_footer_inc.php' );
+		@include( 'data/ads_footer_inc.php' );
 	}

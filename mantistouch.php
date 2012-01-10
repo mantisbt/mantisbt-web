@@ -13,7 +13,7 @@ MantisTouch internally uses web services to access the underlying MantisBT v1.2.
 <h4>Private Instance</h4>
 <p>MantisTouch is now available to be installed on your owner servers for improved security and performance.  <b>For a limited time MantisTouch is available for US$100 (regular price US$150)</b>.  This license allows access to one bug tracker instance by any number of users and updates to future v1.x releases.  Once a license is purchased, you will receive a download link in the confirmation email.  For installation instructions checkout the README file.</p>
 
-<?php @include( 'sponsors/mantistouch_buy_button.php' ) ?>
+<?php @include( 'data/mantistouch_buy_button.php' ) ?>
 
 <h4>Features</h4>
 <ul>

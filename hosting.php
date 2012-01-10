@@ -10,7 +10,7 @@
 
 <table border="0" cellspacing="0" cellpadding="10">
 
-<?php @include( 'sponsors/hosts.php' ); ?>
+<?php @include( 'data/hosts.php' ); ?>
 
 </table>
 
