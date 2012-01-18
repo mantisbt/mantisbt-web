@@ -6,6 +6,10 @@
 <h4>Download</h4>
 
 <div class="spotlight">
+	Get up and running with <a href="hosting.php">hosted MantisBT</a> in less than 5 minutes for $5/month.
+</div>
+<!--
+<div class="spotlight">
 	As you are downloading a new MantisBT release, please take a minute to 
 	consider how you can contribute to the MantisBT project.  You can do 
 	that by <a href="/development.php">contributing</a> time and talent, blogging about it, recommending 
@@ -13,9 +17,10 @@
 	directory, donating money, advertising on MantisBT website, sponsoring 
 	a feature, and possibly other ways.
 	<div align="right">
-	    <?php require('paypal_inc.php'); ?>
+	    <?php # require('paypal_inc.php'); ?>
 	</div>
 </div>
+-->
 
 <p/>
 
@@ -23,7 +28,9 @@
 	<h3>Stable release</h3>
 	This is the latest stable MantisBT release. Download this file for production use.
 	<p align="center">
-		<a class="bold" href="https://sourceforge.net/projects/mantisbt/files/mantis-stable/">Download MantisBT <?php echo $g_latest_version_stable; ?></a>
+		<a class="bold" href="hosting.php">Hosted MantisBT <?php echo $g_latest_version_stable; ?></a><br />
+		<a class="bold" href="https://sourceforge.net/projects/mantisbt/files/mantis-stable/">Download MantisBT <?php echo $g_latest_version_stable; ?></a><br />
+		<a class="bold" href="mantistouch.php">MantisTouch for iPhone, Android, WP7</a><br />
 	</p>
 	<p style="position: absolute; top: 17em; left: 3em;">
 	[ <a href="/requirements.php">Requirements</a> | <a href="bugs/changelog_page.php?project=mantisbt&version=<?php echo $g_latest_version_stable; ?>">Changelog</a> ]
