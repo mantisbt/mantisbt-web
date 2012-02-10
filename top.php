@@ -29,7 +29,7 @@
 	<div id="headerInner">
 		<div id="logoContainer">
 			<div id="logoContainerInner">
-				<div id="logo"><a href="/"><img src="images/mantis_logo.gif" alt="Mantis Bug Tracker Logo" border="0" /></a></div>
+				<div id="logo"><a href="/"><img src="images/mantis_logo_262x90.png" width="262" height="90" alt="Mantis Bug Tracker Logo" border="0" /></a></div>
 				<div class="clearLeft"></div>
 			</div>
 			<div id="menu">
