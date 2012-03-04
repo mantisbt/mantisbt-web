@@ -28,7 +28,7 @@
 	<h3>Stable release</h3>
 	This is the latest stable MantisBT release. Download this file for production use.
 	<p align="center">
-		<a class="bold" href="hosting.php">Hosted MantisBT <?php echo $g_latest_version_stable; ?></a><br />
+		<a class="bold" href="hosting.php">Hosted MantisBT</a><br />
 		<a class="bold" href="https://sourceforge.net/projects/mantisbt/files/mantis-stable/">Download MantisBT <?php echo $g_latest_version_stable; ?></a><br />
 		<a class="bold" href="mantistouch.php">MantisTouch for iPhone, Android, WP7</a><br />
 	</p>
