@@ -66,6 +66,16 @@
 
 <div class="genericbox" style="width: 97%">
 	<h3>Add-On Software</h3>
+
+	<h4 style="margin-bottom: 0px;">MantisTouch</h4>
+	<div style="margin: 0 20px auto 20px; padding-top: 0px;">
+		<a href="http://www.mantisbt.org/mantistouch.php">MantisTouch</a> is a web app
+		that provides a mobile optimized MantisBT user interface for iPhone, Android
+		and Windows Phones devices. MantisTouch internally uses web services to access
+		the underlying MantisBT v1.2.x instances, hence, providing the mobile friendly
+		interface without requiring any changes for the accessed MantisBT instance.
+	</div>
+
     <h4 style="margin-bottom: 0px;">MantisConnect</h4>
 	<div style="margin: 0 20px auto 20px; padding-top: 0px;">
 		<a href="http://www.futureware.biz/mantisconnect/">MantisConnect</a>
@@ -73,18 +83,10 @@
 		to integrate with MantisBT.
 	</div>
 
-	<h4 style="margin-bottom: 0px;">MantisWAP</h4>
-	<div style="margin: 0 20px auto 20px; padding-top: 0px;">
-		<a href="http://www.futureware.biz/mantiswap/">MantisWAP</a> provides WAP enabled 
-		phones and PDAs with easy access to MantisBT Bug Tracker. This is a great asset 
-		for support staff and developers who need to access MantisBT while on the go. 
-	</div>
-
 	<h4 style="margin-bottom: 0px;">MantisBT Related Tools</h4>
 	<div style="margin: 0 20px auto 20px; padding-top: 0px;">
 		Check the <a href="/wiki/doku.php/mantisbt:related_tools">related tools</a> page.
 	</div>
-
 </div>
 
 <div class="clearBoth"></div>
