@@ -41,7 +41,7 @@
 									<li><a href="index.php">Home</a></li>
 									<li><a href="bugs/">Bugtracker</a></li>
 									<li><a href="blog/">Blog</a></li>
-									<li><a href="mantistouch.php">Phone</a></li>
+									<li><a href="http://www.mantistouch.org">Phone</a></li>
 									<li><a href="download.php">Download</a></li>
 									<li><a href="documentation.php">Docs</a></li>
 									<li><a href="demo/">Demo</a></li>
