@@ -110,7 +110,7 @@ div#header div#headerInner {
 div#header div#headerInner div#logoContainer {}
 
 div#header div#headerInner div#logoContainerInner {
-	width:550px;
+	width:400px;
 	margin:0 auto;
 	padding:20px;
 }
@@ -145,7 +145,7 @@ div#header div#headerInner div#menu {
 }
 
 div#header div#headerInner div#menu table {
-	width:auto;
+	width:750px;
 	margin:0 auto;
 }
 

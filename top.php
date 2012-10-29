@@ -51,7 +51,6 @@
 									<li><a href="development.php">Development</a></li>
 									<li><a href="contact_us.php">Contact Us</a></li>
 								</ul>
-								<div class="clearLeft"></div>
 							</td>
 						</tr>
 					</tbody>
