@@ -75,13 +75,17 @@
            ORDER BY testimonial DESC, date_submitted ASC';
 
 	$t_result = mysql_query( $query );
-	
 	if ( $t_result === false ) {
 		echo mysql_error();
 		exit;
 	}
 
-    ?>    
+    ?>
+
+	<div align="center">
+		<p>Please <a href="directory_entry_submit.php">submit</a> your testimonial.</p>
+	</div>
+
 	<div align="left">
                 <?php
                 while ( ( $t_row = mysql_fetch_array( $t_result ) ) !== false ) {

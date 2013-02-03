@@ -30,12 +30,6 @@
 	</div>
 
 	<div class="ybox">
-		See who else uses<br/>
-		MantisBT in our <br/>
-		<a href="/directory.php">Users-Directory</a>
-	</div>
-
-	<div class="ybox">
 		Browse and contribute<br/>
 		to the <a href="http://wiki.mantisbt.org/doku.php">Wiki</a><br /><br />
 	</div>
