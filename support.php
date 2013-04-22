@@ -19,9 +19,10 @@
 	</div>
 
 	<div style="height: 105px;" class="ybox">
-		Chat with us on IRC @ <a href="irc://irc.freenode.net/mantisbt-help">#mantisbt-help</a>.<br/>
-		This IRC channel is hosted on <a href="http://freenode.net/irc_servers.shtml">Freenode</a><br/>
-		(<a href="http://www.mantisbt.org/irclogs/">Channel-Archives</a>)
+		<br />
+		Chat with us on <a href="irc.php">IRC</a>
+		@ <a href="irc://irc.freenode.net/mantisbt-help">#mantisbt-help</a><br/>
+		(browse <a href="irclogs/">Channel Archives</a>)
 	</div>
 
 	<div class="ybox">
@@ -45,7 +46,7 @@
 
 	<div style="height: 115px;" class="ybox">
 		<br/>
-		Get MantisBT <a href="/consulting.php">consulting</a> services. 
+		Get MantisBT <a href="/consulting.php">consulting</a> services.
 	</div>
 
 	<div style="height: 115px;" class="ybox">
@@ -57,4 +58,4 @@
 <div class="clearBoth"></div>
 
 <?php
-	include( "bot.php" ); 
+	include( "bot.php" );
