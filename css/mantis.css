@@ -23,13 +23,18 @@ body {
     margin: 0 0 2em;
 }
 
-div.ybox {
+div.ybox-outer {
 	float: left;
-	width: 181px;
+	padding: 3px;
+}
+
+div.ybox-inner {
+	display: table-cell;
+	height: 7em;
+	width: 189px;
 	background: #fff9d3;
 	border: 1px solid #f1d32e;
-	padding: 4px;
-	margin: 3px;
+	vertical-align: middle;
 	text-align: center;
 }
 
