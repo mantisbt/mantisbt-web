@@ -10,7 +10,7 @@
 		<div>
 			Find help <br />
 			in our <br />
-			<a href="/forums">Forums</a>
+			<a href="forums/">Forums</a>
 		</div>
 	</div>
 </div>
@@ -20,7 +20,7 @@
 		<div>
 			Report Issues<br />
 			to our <br />
-			<a href="/bugs/">Bugtracker</a>
+			<a href="bugs/">Bugtracker</a>
 		</div>
 	</div>
 </div>
@@ -39,7 +39,7 @@
 	<div class="ybox-inner">
 		<div>
 			Subscribe to<br />
-			<a href="/mailinglists.php">Mailing Lists</a>
+			<a href="mailinglists.php">Mailing Lists</a>
 		</div>
 	</div>
 </div>
@@ -48,7 +48,7 @@
 	<div class="ybox-inner">
 		<div>
 			Browse and contribute<br/>
-			to the <a href="http://wiki.mantisbt.org/doku.php">Wiki</a>
+			to the <a href="wiki/doku.php">Wiki</a>
 		</div>
 	</div>
 </div>
@@ -57,7 +57,7 @@
 	<div class="ybox-inner">
 		<div>
 			View user<br/>
-			<a href="/testimonials.php">testimonials</a>
+			<a href="testimonials.php">testimonials</a>
 		</div>
 	</div>
 </div>
@@ -71,7 +71,7 @@
 	<div class="ybox-inner">
 		<div>
 			Get MantisBT <br />
-			<a href="/consulting.php">consulting</a> services.
+			<a href="consulting.php">consulting</a> services.
 		</div>
 	</div>
 </div>
@@ -79,7 +79,7 @@
 <div class="ybox-outer">
 	<div class="ybox-inner">
 		<div>
-			Find a <a href="/hosting.php">hosting provider</a><br/>
+			Find a <a href="hosting.php">hosting provider</a><br/>
 			for your MantisBT instance.
 		</div>
 	</div>
