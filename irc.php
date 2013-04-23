@@ -9,7 +9,7 @@
 <p>
 	The official MantisBT IRC channels are hosted on
 	<a href="http://freenode.net/">Freenode</a>.
-	The <a href="irc://irc.freenode.net/mantisbt-help">#mantishelp</a>
+	The <a href="irc://irc.freenode.net/mantisbt-help">#mantisbt-help</a>
 	channel is dedicated to questions and support, while
 	<a href="irc://irc.freenode.net/mantisbt">#mantisbt</a>
 	is more focused on development discussions.
