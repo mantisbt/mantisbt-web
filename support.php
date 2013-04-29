@@ -30,7 +30,7 @@
 		<div>
 			Chat with us on <a href="irc.php">IRC</a>
 			@ <a href="irc://irc.freenode.net/mantisbt-help">#mantisbt-help</a><br/>
-			(browse <a href="irclogs/">Channel Archives</a>)
+			(browse <a href="irclogs.php">Channel Archives</a>)
 		</div>
 	</div>
 </div>

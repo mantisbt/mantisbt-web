@@ -206,3 +206,31 @@ div.spotlight h3 {
 	text-align: center;
 }
 
+/* IRC logs page */
+
+
+.irc-channel-list {
+	display: table;
+	background: #FFF9D3;
+	width:100%;
+	border-collapse: collapse;
+}
+
+.irc-channel-row {
+	display: table-row;
+	border: 1px solid #F1D32E;
+}
+
+.irc-channel-cell {
+	display: table-cell;
+	padding: 0 5px 0 5px;
+	width: 50%;
+}
+
+div.irc-channel-name {
+	width: 40%;
+}
+
+.irc-channel-label {
+	font-weight: bold;
+}

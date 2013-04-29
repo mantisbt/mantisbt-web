@@ -18,7 +18,7 @@
 <p>
 	Our <em>mantisbot</em> lurks in both IRC channels and keeps a log
 	of all conversations.
-	The <a href="/irclogs/">archives can be found here</a>.
+	The <a href="irclogs.php">archives can be found here</a>.
 	Should you want to go off the record, simply prefix your message
 	with <tt>[nolog]</tt>.
 </p>
