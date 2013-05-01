@@ -68,7 +68,7 @@ function build_channels_list( $p_path ) {
 	$t_fmt_channel =
 		  '    <div class="irc-channel-cell irc-channel-name">' . "\n"
 		. "      <p>\n"
-		. '        <span class="irc-channel-label">%s</span> ' . "\n"
+		. '        <span class="irc-channel-label">#%s</span> ' . "\n"
 		. '        (see <a href="%s/latest.log.html">latest log</a>)' . "\n"
 		. "      </p>\n"
 		. "    </div>\n";
