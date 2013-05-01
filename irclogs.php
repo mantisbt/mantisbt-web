@@ -65,10 +65,11 @@ function get_years( $p_path ) {
  */
 function build_channels_list( $p_path ) {
 	# printf formats
+	$t_fmt_irchref = '<a href="irc://irc.freenode.net/%1$s">#%1$s</a>';
 	$t_fmt_channel =
 		  '    <div class="irc-channel-cell irc-channel-name">' . "\n"
 		. "      <p>\n"
-		. '        <span class="irc-channel-label">#%s</span> ' . "\n"
+		. '        <span class="irc-channel-label">%s</span>' . "\n"
 		. '        (see <a href="%s/latest.log.html">latest log</a>)' . "\n"
 		. "      </p>\n"
 		. "    </div>\n";
@@ -86,12 +87,18 @@ function build_channels_list( $p_path ) {
 			# Get subdirectories (years)
 			$t_years = get_years( $t_channel->getPathname() );
 
-			if( false == $t_years ) {
+			# Build channel name for display
+			if( $t_years == false ) {
 				# No subdirs for years found
 				$t_href = build_href( $t_channel->getPathname() );
-				$t_channel_name = sprintf( $t_fmt_year, $t_href, $t_channel_name );
-			} else {
+				$t_channel_name = sprintf( $t_fmt_year, $t_href, '#' . $t_channel_name );
+			} else if( array_key_exists( date( 'Y' ), $t_years ) ) {
+				# Current year exists - link to irc channel
+				$t_channel_name = sprintf( $t_fmt_irchref, $t_channel_name );
 				$t_href = current( $t_years );
+			} else {
+				# Old channel - just display the name
+				$t_channel_name = '#' . $t_channel_name;
 			}
 
 			echo '  <div class="irc-channel-row">' . "\n";
