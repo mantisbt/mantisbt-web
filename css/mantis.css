@@ -230,14 +230,16 @@ div.spotlight h3 {
 
 .irc-channel-cell {
 	display: table-cell;
-	padding: 0 5px 0 5px;
-	width: 50%;
+	padding: 4px;
+	vertical-align: middle;
 }
 
 div.irc-channel-name {
-	width: 40%;
+	font-weight: bold;
 }
 
-.irc-channel-label {
-	font-weight: bold;
+.irc-channel-current {
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center
 }

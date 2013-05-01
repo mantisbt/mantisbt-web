@@ -67,12 +67,12 @@ function build_channels_list( $p_path ) {
 	# printf formats
 	$t_fmt_irchref = '<a href="irc://irc.freenode.net/%1$s">#%1$s</a>';
 	$t_fmt_channel =
-		  '    <div class="irc-channel-cell irc-channel-name">' . "\n"
-		. "      <p>\n"
-		. '        <span class="irc-channel-label">%s</span>' . "\n"
-		. '        (see <a href="%s/latest.log.html">latest log</a>)' . "\n"
-		. "      </p>\n"
-		. "    </div>\n";
+		  '		<div class="irc-channel-cell irc-channel-name">' . "\n"
+		. "			<p>%s</p>\n"
+		. "		</div>\n";
+	$t_fmt_current =
+		  "			%s\n"
+		. '			(<a href="%s/latest.log.html">latest&nbsp;log</a>)' . "\n";
 	$t_fmt_year = '<a href="%s">%s</a>';
 
 	# Loop over parent directories (channels)
@@ -82,6 +82,7 @@ function build_channels_list( $p_path ) {
 	);
 	foreach( $t_iter_channels as $t_channel ) {
 		if( $t_channel->isDir() ) {
+			$t_current = false;
 			$t_channel_name = $t_channel->getFileName();
 
 			# Get subdirectories (years)
@@ -92,19 +93,17 @@ function build_channels_list( $p_path ) {
 				# No subdirs for years found
 				$t_href = build_href( $t_channel->getPathname() );
 				$t_channel_name = sprintf( $t_fmt_year, $t_href, '#' . $t_channel_name );
-			} else if( array_key_exists( date( 'Y' ), $t_years ) ) {
-				# Current year exists - link to irc channel
-				$t_channel_name = sprintf( $t_fmt_irchref, $t_channel_name );
-				$t_href = current( $t_years );
 			} else {
-				# Old channel - just display the name
-				$t_channel_name = '#' . $t_channel_name;
-			}
+				if( array_key_exists( date( 'Y' ), $t_years ) ) {
+					# Current year exists - link to irc channel
+					$t_current = true;
+					$t_channel_name = sprintf( $t_fmt_irchref, $t_channel_name );
+					$t_href = reset( $t_years );
+				} else {
+					# Old channel - just display the name
+					$t_channel_name = '#' . $t_channel_name;
+				}
 
-			echo '  <div class="irc-channel-row">' . "\n";
-			printf( $t_fmt_channel, $t_channel_name, $t_href );
-
-			if( is_array( $t_years ) ) {
 				# Replace array elements with hyperlinks
 				array_walk(
 					$t_years,
@@ -113,13 +112,30 @@ function build_channels_list( $p_path ) {
 					}
 				);
 
-				# Display channel div & links for each
-				echo '    <div class="irc-channel-cell">' . "\n";
-				echo '      ' . implode( ", \n      ", $t_years ) . "\n";
-				echo "    </div>\n";
 			}
 
-			echo "  </div>\n";
+			# Row
+			echo '	<div class="irc-channel-row">' . "\n";
+
+			# Col 1: channel
+			printf( $t_fmt_channel, $t_channel_name, $t_href );
+
+			# Col 2: current
+			echo '		<div class="irc-channel-cell irc-channel-current">' . "\n";
+			if( $t_current ) {
+				printf( $t_fmt_current, array_shift( $t_years ), $t_href );
+			}
+			echo "		</div>\n";
+
+			# Col 3: archives
+			echo '		<div class="irc-channel-cell">' . "\n";
+			if( is_array( $t_years ) ) {
+				# Display channel div & links for each year
+				echo '			' . implode( ", \n			", $t_years ) . "\n";
+			}
+			echo "		</div>\n";
+
+			echo "	</div>\n\n";
 		}
 	}
 }
@@ -134,6 +150,9 @@ function build_channels_list( $p_path ) {
 	<div class="irc-channel-header">
 		<div class="irc-channel-cell">
 			Channel
+		</div>
+		<div class="irc-channel-cell irc-channel-current">
+			Current year
 		</div>
 		<div class="irc-channel-cell">
 			Archives
