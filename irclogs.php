@@ -98,16 +98,18 @@ function build_channels_list( $p_path ) {
 			printf( $t_fmt_channel, $t_channel_name, $t_href );
 
 			if( is_array( $t_years ) ) {
+				# Replace array elements with hyperlinks
+				array_walk(
+					$t_years,
+					function( &$p_elem, $p_key ) use ( $t_fmt_year ) {
+						$p_elem = sprintf( $t_fmt_year, $p_elem, $p_key );
+					}
+				);
+
 				# Display channel div & links for each
-				echo '    <div class="irc-channel-cell">' . "\n      <ul>\n";
-
-				foreach( $t_years as $t_year => $t_href ) {
-					echo "        <li>";
-					printf( $t_fmt_year, $t_href, $t_year, $t_href );
-					echo "</li>\n";
-				}
-				echo "      </ul>\n    </div>\n";
-
+				echo '    <div class="irc-channel-cell">' . "\n";
+				echo '      ' . implode( ", \n      ", $t_years ) . "\n";
+				echo "    </div>\n";
 			}
 
 			echo "  </div>\n";
