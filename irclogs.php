@@ -124,6 +124,15 @@ function build_channels_list( $p_path ) {
 <h4>IRC logs</h4>
 <div class="irc-channel-list">
 
+	<div class="irc-channel-header">
+		<div class="irc-channel-cell">
+			Channel
+		</div>
+		<div class="irc-channel-cell">
+			Archives
+		</div>
+	</div>
+
 <?php
 	$t_path_logs = $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . 'irclogs';
 	$t_depth = substr_count( $t_path_logs, DIRECTORY_SEPARATOR );

@@ -216,6 +216,13 @@ div.spotlight h3 {
 	border-collapse: collapse;
 }
 
+.irc-channel-header {
+	display: table-header-group;
+	border: 1px solid #F1D32E;
+	background: #F1D32E;
+	font-weight: bold;
+}
+
 .irc-channel-row {
 	display: table-row;
 	border: 1px solid #F1D32E;
