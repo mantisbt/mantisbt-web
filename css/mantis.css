@@ -187,7 +187,9 @@ div#header div#headerInner div#menu ul li a:hover {
 	border-top: 2px solid #f1d32e;
 }
 
-/*- spotlight -*/
+/**
+ * spotlight
+ */
 
 div.spotlight {
 	background-color: #e3f1f6;
@@ -206,8 +208,9 @@ div.spotlight h3 {
 	text-align: center;
 }
 
-/* IRC logs page */
-
+/**
+ * IRC logs page
+ */
 
 .irc-channel-list {
 	display: table;
@@ -242,4 +245,33 @@ div.irc-channel-name {
 	padding-left: 25px;
 	padding-right: 25px;
 	text-align: center
+}
+
+/**
+ * Tooltips
+ */
+
+span.tooltip {
+	position: relative;
+}
+
+span.tooltip span {
+	display: none;
+	position: absolute;
+	top: 110%;
+	left: 20%;
+	margin-right: -100px;
+	background-color: white;
+	border-color: #333333;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 5px 5px 8px #CCCCCC;
+	padding: 0 4px;
+	font-size: 12px;
+	font-weight: normal;
+	z-index: 6;
+}
+
+span.tooltip:hover span {
+	display: inline;
 }

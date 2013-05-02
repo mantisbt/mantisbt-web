@@ -68,7 +68,7 @@ function build_channels_list( $p_path ) {
 	$t_fmt_irchref = '<a href="irc://irc.freenode.net/%1$s">#%1$s</a>';
 	$t_fmt_channel =
 		  '		<div class="irc-channel-cell irc-channel-name">' . "\n"
-		. "			<p>%s</p>\n"
+		. '			<p><span class="tooltip">%s<span>Connect to the channel</span></span></p>' . "\n"
 		. "		</div>\n";
 	$t_fmt_current =
 		  "			%s\n"
