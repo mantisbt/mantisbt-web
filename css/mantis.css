@@ -150,7 +150,7 @@ div#header div#headerInner div#menu {
 }
 
 div#header div#headerInner div#menu table {
-	width:750px;
+	max-width: 70%;
 	margin:0 auto;
 }
 
