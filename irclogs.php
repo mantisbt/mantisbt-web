@@ -1,0 +1,183 @@
+<?php
+
+/**
+ * IRC logs archive page is built dynamically by reading the contents
+ * of the /irclogs directory
+ */
+
+
+/**
+ * Parsing directories in sorted order using provided callback function
+ */
+class SortingIterator extends ArrayIterator {
+	public function __construct( Traversable $iterator, $callback ) {
+		parent::__construct( iterator_to_array( $iterator ) );
+		$this->uasort( $callback );
+	}
+}
+
+
+/**
+ * Builds an url-encoded href for the given path
+ * @param string $p_path
+ * @global int $t_depth how deep below document root '/irclogs' is
+ * @return string absolute href to path
+ */
+function build_href( $p_path ) {
+	global $t_depth;
+
+	$t_split = explode( DIRECTORY_SEPARATOR, $p_path );
+	$t_slice = array_slice( $t_split, $t_depth );
+
+	return '/' . implode( '/', array_map( 'urlencode', $t_slice ) );
+}
+
+
+/**
+ * Retrieves an array of yearly subdirs for a channel in the specified
+ * directory, in reverse older (most recent first)
+ * @param string $p_path
+ * @return array|bool false if no subdirs found
+ */
+function get_years( $p_path ) {
+	$t_years = false;
+
+	# Loop over subdirectories
+	$t_iter_years = new FileSystemIterator( $p_path );
+	foreach( $t_iter_years as $t_year ) {
+		if( $t_year->isDir() ) {
+			$t_years[$t_year->getFileName()] = build_href( $t_year->getPathname() );
+		}
+	}
+
+	# Most recent year first
+	if( $t_years !== false ) {
+		krsort( $t_years );
+	}
+
+	return $t_years;
+}
+
+
+/**
+ * Build the table with the IRC channel logs list
+ * @param string $p_path
+ */
+function build_channels_list( $p_path ) {
+	# printf formats
+	$t_fmt_irchref = '<a href="irc://irc.freenode.net/%1$s">#%1$s</a>';
+	$t_fmt_channel =
+		  '		<div class="irc-channel-cell irc-channel-name">' . "\n"
+		. '			<p><span class="tooltip">%s<span>Connect to the channel</span></span></p>' . "\n"
+		. "		</div>\n";
+	$t_fmt_current =
+		  "			%s\n"
+		. '			(<a href="%s/latest.log.html">latest&nbsp;log</a>)' . "\n";
+	$t_fmt_year = '<a href="%s">%s</a>';
+
+	# Error handling in case the path does not exist
+	if( !is_dir( $p_path ) ) {
+		echo '	<div class="irc-channel-row">' . "\n";
+		echo '		<div class="irc-channel-cell irc-channel-name ">' . "\n";
+		echo "			ERROR: path '$p_path' not found\n";
+		echo "		</div>\n";
+		echo "	</div>\n\n";
+		return;
+	}
+
+	# Loop over parent directories (channels)
+	$t_iter_channels = new SortingIterator(
+		new FileSystemIterator( $p_path ),
+		'strcmp'
+	);
+	foreach( $t_iter_channels as $t_channel ) {
+		if( $t_channel->isDir() ) {
+			$t_current = false;
+			$t_channel_name = $t_channel->getFileName();
+
+			# Get subdirectories (years)
+			$t_years = get_years( $t_channel->getPathname() );
+
+			# Build channel name for display
+			if( $t_years == false ) {
+				# No subdirs for years found
+				$t_href = build_href( $t_channel->getPathname() );
+				$t_channel_name = sprintf( $t_fmt_year, $t_href, '#' . $t_channel_name );
+			} else {
+				if( array_key_exists( date( 'Y' ), $t_years ) ) {
+					# Current year exists - link to irc channel
+					$t_current = true;
+					$t_channel_name = sprintf( $t_fmt_irchref, $t_channel_name );
+					$t_href = reset( $t_years );
+				} else {
+					# Old channel - just display the name
+					$t_channel_name = '#' . $t_channel_name;
+				}
+
+				# Replace array elements with hyperlinks
+				array_walk(
+					$t_years,
+					function( &$p_elem, $p_key ) use ( $t_fmt_year ) {
+						$p_elem = sprintf( $t_fmt_year, $p_elem, $p_key );
+					}
+				);
+
+			}
+
+			# Row
+			echo '	<div class="irc-channel-row">' . "\n";
+
+			# Col 1: channel
+			printf( $t_fmt_channel, $t_channel_name, $t_href );
+
+			# Col 2: current
+			echo '		<div class="irc-channel-cell irc-channel-current">' . "\n";
+			if( $t_current ) {
+				printf( $t_fmt_current, array_shift( $t_years ), $t_href );
+			}
+			echo "		</div>\n";
+
+			# Col 3: archives
+			echo '		<div class="irc-channel-cell">' . "\n";
+			if( is_array( $t_years ) ) {
+				# Display channel div & links for each year
+				echo '			' . implode( ", \n			", $t_years ) . "\n";
+			}
+			echo "		</div>\n";
+
+			echo "	</div>\n\n";
+		}
+	}
+}
+
+
+	include( "top.php" );
+?>
+
+<h4>IRC logs</h4>
+<div class="irc-channel-list">
+
+	<div class="irc-channel-header">
+		<div class="irc-channel-cell">
+			Channel
+		</div>
+		<div class="irc-channel-cell irc-channel-current">
+			Current year
+		</div>
+		<div class="irc-channel-cell">
+			Archives
+		</div>
+	</div>
+
+<?php
+	$t_path_logs = $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . 'irclogs';
+	$t_depth = substr_count( $t_path_logs, DIRECTORY_SEPARATOR );
+
+	build_channels_list( $t_path_logs );
+?>
+
+</div>
+
+<?php
+	ads_print_right_vertical_banner();
+	include( "bot.php" );

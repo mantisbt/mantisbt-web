@@ -4,57 +4,88 @@
 ?>
 
 <h4>Community-Support</h4>
-	<div style="height: 105px;" class="ybox">
-		<br/>
-		Find help <br/>
-		in our <br/>
-		<a href="/forums">Forums</a>
-	</div>
 
-	<div style="height: 105px;" class="ybox">
-		<br/>
-		Report Issues<br/>
-		to our <br/>
-		<a href="/bugs/">Bugtracker</a>
+<div class="ybox-outer">
+	<div class="ybox-inner">
+		<div>
+			Find help <br />
+			in our <br />
+			<a href="forums/">Forums</a>
+		</div>
 	</div>
+</div>
 
-	<div style="height: 105px;" class="ybox">
-		Chat with us on IRC @ <a href="irc://irc.freenode.net/mantisbt-help">#mantisbt-help</a>.<br/>
-		This IRC channel is hosted on <a href="http://freenode.net/irc_servers.shtml">Freenode</a><br/>
-		(<a href="http://www.mantisbt.org/irclogs/">Channel-Archives</a>)
+<div class="ybox-outer">
+	<div class="ybox-inner">
+		<div>
+			Report Issues<br />
+			to our <br />
+			<a href="bugs/">Bugtracker</a>
+		</div>
 	</div>
+</div>
 
-	<div class="ybox">
-		Subscribe to<br />
-		<a href="/mailinglists.php">Mailing Lists</a><br /><br />
+<div class="ybox-outer">
+	<div class="ybox-inner">
+		<div>
+			Chat with us on <a href="irc.php">IRC</a>
+			@ <a href="irc://irc.freenode.net/mantisbt-help">#mantisbt-help</a><br/>
+			(browse <a href="irclogs.php">Channel Archives</a>)
+		</div>
 	</div>
+</div>
 
-	<div class="ybox">
-		Browse and contribute<br/>
-		to the <a href="http://wiki.mantisbt.org/doku.php">Wiki</a><br /><br />
+<div class="ybox-outer">
+	<div class="ybox-inner">
+		<div>
+			Subscribe to<br />
+			<a href="mailinglists.php">Mailing Lists</a>
+		</div>
 	</div>
+</div>
 
-	<div class="ybox">
-		View user<br/>
-		<a href="/testimonials.php">testimonials</a><br /><br />
+<div class="ybox-outer">
+	<div class="ybox-inner">
+		<div>
+			Browse and contribute<br/>
+			to the <a href="wiki/doku.php">Wiki</a>
+		</div>
 	</div>
+</div>
+
+<div class="ybox-outer">
+	<div class="ybox-inner">
+		<div>
+			View user<br/>
+			<a href="testimonials.php">testimonials</a>
+		</div>
+	</div>
+</div>
 
 <div class="clearBoth"></div>
 
+
 <h4>Commercial-Support</h4>
 
-	<div style="height: 115px;" class="ybox">
-		<br/>
-		Get MantisBT <a href="/consulting.php">consulting</a> services. 
+<div class="ybox-outer">
+	<div class="ybox-inner">
+		<div>
+			Get MantisBT <br />
+			<a href="consulting.php">consulting</a> services.
+		</div>
 	</div>
+</div>
 
-	<div style="height: 115px;" class="ybox">
-		<br/>
-		Find a <a href="/hosting.php">hosting provider</a><br/>
-		to host your MantisBT instance.
+<div class="ybox-outer">
+	<div class="ybox-inner">
+		<div>
+			Find a <a href="hosting.php">hosting provider</a><br/>
+			for your MantisBT instance.
+		</div>
 	</div>
+</div>
 
 <div class="clearBoth"></div>
 
 <?php
-	include( "bot.php" ); 
+	include( "bot.php" );

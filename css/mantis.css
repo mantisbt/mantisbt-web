@@ -23,13 +23,18 @@ body {
     margin: 0 0 2em;
 }
 
-div.ybox {
+div.ybox-outer {
 	float: left;
-	width: 181px;
+	padding: 3px;
+}
+
+div.ybox-inner {
+	display: table-cell;
+	height: 7em;
+	width: 189px;
 	background: #fff9d3;
 	border: 1px solid #f1d32e;
-	padding: 4px;
-	margin: 3px;
+	vertical-align: middle;
 	text-align: center;
 }
 
@@ -145,7 +150,7 @@ div#header div#headerInner div#menu {
 }
 
 div#header div#headerInner div#menu table {
-	width:750px;
+	max-width: 70%;
 	margin:0 auto;
 }
 
@@ -182,7 +187,9 @@ div#header div#headerInner div#menu ul li a:hover {
 	border-top: 2px solid #f1d32e;
 }
 
-/*- spotlight -*/
+/**
+ * spotlight
+ */
 
 div.spotlight {
 	background-color: #e3f1f6;
@@ -194,10 +201,77 @@ div.spotlight {
 div.spotlight p {
 	font-size: 11px;
 	text-align: center;
-	margin-bottom: 0;
+	margin: inherit;
 }
 
 div.spotlight h3 {
 	text-align: center;
 }
 
+/**
+ * IRC logs page
+ */
+
+.irc-channel-list {
+	display: table;
+	background: #FFF9D3;
+	width:100%;
+	border-collapse: collapse;
+}
+
+.irc-channel-header {
+	display: table-header-group;
+	border: 1px solid #F1D32E;
+	background: #F1D32E;
+	font-weight: bold;
+}
+
+.irc-channel-row {
+	display: table-row;
+	border: 1px solid #F1D32E;
+}
+
+.irc-channel-cell {
+	display: table-cell;
+	padding: 4px;
+	vertical-align: middle;
+}
+
+div.irc-channel-name {
+	font-weight: bold;
+}
+
+.irc-channel-current {
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center
+}
+
+/**
+ * Tooltips
+ */
+
+span.tooltip {
+	position: relative;
+}
+
+span.tooltip span {
+	display: none;
+	position: absolute;
+	top: 110%;
+	left: 20%;
+	margin-right: -100px;
+	background-color: white;
+	border-color: #333333;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 5px 5px 8px #CCCCCC;
+	padding: 0 4px;
+	font-size: 12px;
+	font-weight: normal;
+	z-index: 6;
+}
+
+span.tooltip:hover span {
+	display: inline;
+}
