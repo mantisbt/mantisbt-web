@@ -75,6 +75,16 @@ function build_channels_list( $p_path ) {
 		. '			(<a href="%s/latest.log.html">latest&nbsp;log</a>)' . "\n";
 	$t_fmt_year = '<a href="%s">%s</a>';
 
+	# Error handling in case the path does not exist
+	if( !is_dir( $p_path ) ) {
+		echo '	<div class="irc-channel-row">' . "\n";
+		echo '		<div class="irc-channel-cell irc-channel-name ">' . "\n";
+		echo "			ERROR: path '$p_path' not found\n";
+		echo "		</div>\n";
+		echo "	</div>\n\n";
+		return;
+	}
+
 	# Loop over parent directories (channels)
 	$t_iter_channels = new SortingIterator(
 		new FileSystemIterator( $p_path ),
