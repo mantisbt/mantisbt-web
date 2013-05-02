@@ -201,7 +201,7 @@ div.spotlight {
 div.spotlight p {
 	font-size: 11px;
 	text-align: center;
-	margin-bottom: 0;
+	margin: inherit;
 }
 
 div.spotlight h3 {
