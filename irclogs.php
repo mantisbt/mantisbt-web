@@ -170,7 +170,14 @@ function build_channels_list( $p_path ) {
 	</div>
 
 <?php
-	$t_path_logs = $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . 'irclogs';
+	# Root of irclogs - try in current dir and one level above if not found
+	$t_path_root = rtrim( $_SERVER['DOCUMENT_ROOT'], DIRECTORY_SEPARATOR ) . DIRECTORY_SEPARATOR;
+	$t_path_logs = realpath( $t_path_root . 'irclogs' );
+	if( false === $t_path_logs ) {
+		$t_path_logs = realpath( $t_path_root . '..' . DIRECTORY_SEPARATOR . 'irclogs' );
+	}
+
+	# Depth is used to build relative path for URL links
 	$t_depth = substr_count( $t_path_logs, DIRECTORY_SEPARATOR );
 
 	build_channels_list( $t_path_logs );
