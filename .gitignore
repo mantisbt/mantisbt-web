@@ -2,3 +2,5 @@
 .DS_Store
 data/
 user_directory/user_directory_config_inc.php
+
+*.bak
