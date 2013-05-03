@@ -28,8 +28,11 @@
 <div class="ybox-outer">
 	<div class="ybox-inner">
 		<div>
-			Chat with us on <a href="irc.php">IRC</a>
-			@ <a href="irc://irc.freenode.net/mantisbt-help">#mantisbt-help</a><br/>
+			Chat with us on <a href="irc.php">IRC</a> @ <br />
+			<span class="tooltip">
+				<a href="irc://irc.freenode.net/mantisbt-help">#mantisbt-help</a>
+				<span>Connect to the channel</span>
+			</span>
 			(browse <a href="irclogs.php">Channel Archives</a>)
 		</div>
 	</div>
