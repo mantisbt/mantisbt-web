@@ -22,9 +22,6 @@
 				<script type="text/javascript" src="http://www.ohloh.net/projects/47/widgets/project_users_logo"></script>
 			</td>
 			<td>
-				<?php include('paypal_inc.php'); ?>
-			</td>
-			<td>
 				<a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo" /></a>
 			</td>
 		</tr>

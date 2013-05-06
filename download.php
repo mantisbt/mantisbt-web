@@ -8,19 +8,6 @@
 <div class="spotlight">
 	Get up and running with <a href="hosting.php">hosted MantisBT</a> in less than 5 minutes for $5/month.
 </div>
-<!--
-<div class="spotlight">
-	As you are downloading a new MantisBT release, please take a minute to 
-	consider how you can contribute to the MantisBT project.  You can do 
-	that by <a href="/development.php">contributing</a> time and talent, blogging about it, recommending 
-	MantisBT to others, linking to MantisBT website, registering in users 
-	directory, donating money, advertising on MantisBT website, sponsoring 
-	a feature, and possibly other ways.
-	<div align="right">
-	    <?php # require('paypal_inc.php'); ?>
-	</div>
-</div>
--->
 
 <p/>
 
