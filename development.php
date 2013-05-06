@@ -28,21 +28,11 @@
 	Help with setting up Git and learning basic usage can be found in
 	<a href="http://help.github.com">GitHub's Help pages</a>.
 </p>
-<p>
-	<a href="http://www.mantisforge.org/dev/gitstats/">GitStats</a> for the MantisBT GIT-Repository 
-	are available at <a href="http://www.mantisforge.org">Mantisforge.org</a>.
-</p>
 
 <h5>Documentation</h5>
 	<ul>
 		<li>
 			<a href="/docs/master/en/developers.html">Mantis Bug Tracker Developers Guide</a>
-		</li>
-		<li>
-			<a href="http://www.mantisforge.org/dev/phpdoc/">PHPDoc documentation for Mantis</a>
-		</li>
-		<li>
-			<a href="http://www.mantisforge.org/dev/phpxref/">phpxref documentation for mantisbt-core</a>
 		</li>
 		<li>
 			<a href="/guidelines.php">MantisBT Coding Conventions</a>
