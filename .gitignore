@@ -2,5 +2,6 @@
 .DS_Store
 data/
 user_directory/user_directory_config_inc.php
-
+user_directory/tmp/
+config_inc.php
 *.bak
