@@ -154,5 +154,4 @@ Make sure you sign up on the bugtracker and received developer access.
 You can mark a bug as resolved if it is commited in GIT.  Please don't close bugs until that release is publicly available.
 
 <?php
-	ads_print_right_vertical_banner();
 	include( "bot.php" );

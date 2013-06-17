@@ -96,5 +96,4 @@
 
 	echo "<p>$g_msg</p>";
 
-	ads_print_right_vertical_banner();
 	include( 'bot.php' );

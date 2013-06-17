@@ -21,5 +21,4 @@
 <pre>git clone git://git.mantisbt.org/mantisbt.git</pre>
 
 <?php
-	ads_print_right_vertical_banner();
 	include( "bot.php" );

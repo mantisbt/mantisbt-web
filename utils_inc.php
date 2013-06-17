@@ -19,15 +19,3 @@
 	function ads_print_head() {
 		@include( 'data/ads_head_inc.php' );
 	}
-
-	# ------------------
-	# Prints the right hand vertical banner
-	function ads_print_right_vertical_banner() {
-		@include( 'data/ads_right_vertifical_banner_inc.php' );
-	}
-
-	# ------------------
-	# Print the footer text ads
-	function ads_print_footer_text() {
-		@include( 'data/ads_footer_inc.php' );
-	}

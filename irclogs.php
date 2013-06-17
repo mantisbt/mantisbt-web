@@ -186,5 +186,4 @@ function build_channels_list( $p_path ) {
 </div>
 
 <?php
-	ads_print_right_vertical_banner();
 	include( "bot.php" );

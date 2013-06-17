@@ -60,5 +60,4 @@
 	<p><?php echo $g_msg ?></p>
 
 <?php
-	ads_print_right_vertical_banner();
 	include( 'bot.php' );

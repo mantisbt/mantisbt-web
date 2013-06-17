@@ -28,5 +28,4 @@ The release numbering convention used is <b>major.minor.micro</b> (eg. 1.1.0).
 </ul>
 
 <?php
-	ads_print_right_vertical_banner();
 	include("bot.php");
