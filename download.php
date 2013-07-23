@@ -15,9 +15,10 @@
 	<h3>Stable release</h3>
 	This is the latest stable MantisBT release. Download this file for production use.
 	<p align="center">
-		<a class="bold" href="hosting.php">Hosted MantisBT</a><br />
 		<a class="bold" href="https://sourceforge.net/projects/mantisbt/files/mantis-stable/">Download MantisBT <?php echo $g_latest_version_stable; ?></a><br />
+		<br />
 		<a class="bold" href="mantistouch.php">MantisTouch for iPhone, Android, WP7</a><br />
+		<a class="bold" href="hosting.php">Hosted MantisBT</a><br />
 	</p>
 	<p style="position: absolute; top: 17em; left: 3em;">
 	[ <a href="/requirements.php">Requirements</a> | <a href="bugs/changelog_page.php?project=mantisbt&version=<?php echo $g_latest_version_stable; ?>">Changelog</a> ]
@@ -84,4 +85,4 @@
 <p>MantisBT is distributed with several <a href="/wiki/doku.php/mantisbt:distributions">GNU/Linux distributions</a>.  Typically the MantisBT versions in these distributions are not the latest.  For the latest MantisBT version use the links above.</p>
 
 <?php
-	include( "bot.php" ); 
+	include( "bot.php" );
