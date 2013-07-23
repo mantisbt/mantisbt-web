@@ -38,7 +38,10 @@ function get_builds_list( $p_path, &$p_builds, &$p_logfile ) {
 
 	$p_builds = array();
 	foreach( $t_iter_builds as $t_file ) {
-		if( $t_file->getExtension() == 'log' ) {
+		# mantisbt.org is on PHP 5.3.2 and SplFileInfo:: getExtension
+		# was only introduced in 5.3.6, so, until we upgrade the server...
+		# if( $t_file->getExtension() == 'log' ) {
+		if( substr( $t_file, -3, 3 ) == 'log' ) {
 			$p_logfile = $t_file;
 		} else {
 			# Break down filename into components
