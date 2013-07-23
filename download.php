@@ -18,7 +18,6 @@
 		<a class="bold" href="https://sourceforge.net/projects/mantisbt/files/mantis-stable/">Download MantisBT <?php echo $g_latest_version_stable; ?></a><br />
 		<br />
 		<a class="bold" href="mantistouch.php">MantisTouch for iPhone, Android, WP7</a><br />
-		<a class="bold" href="hosting.php">Hosted MantisBT</a><br />
 	</p>
 	<p style="position: absolute; top: 17em; left: 3em;">
 	[ <a href="/requirements.php">Requirements</a> | <a href="bugs/changelog_page.php?project=mantisbt&version=<?php echo $g_latest_version_stable; ?>">Changelog</a> ]
