@@ -50,7 +50,7 @@
 		}
 	}
 
-	$captcha =& new hn_captcha( $CAPTCHA_INIT );
+	$captcha = new hn_captcha( $CAPTCHA_INIT );
 
 	if ( isset( $_POST['issubmit'] ) ) {
 		switch( $captcha->validate_submit() ) {
