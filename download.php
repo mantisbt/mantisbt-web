@@ -27,9 +27,9 @@
 
 <div style="height: 19em; position: relative;" class="genericbox">
 	<h3>Development release</h3>
-	This is the latest development release. Users should use this release for testing and
-	providing feedback.  It is not recommended for production use unless you are
-	like bleeding edge and comfortable with PHP and able to trouble shoot any issues that may arise.
+	The latest development release is intended for evaluation and testing
+	purposes. It is not recommended for production use, unless you are
+	comfortable with PHP and able to troubleshoot issues that may arise.
 	<p align="center">
 		<a class="bold" href="https://sourceforge.net/projects/mantisbt/files/mantis-development/">Download MantisBT <?php echo $g_latest_version_dev; ?></a>
 	</p>
