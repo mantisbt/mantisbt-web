@@ -102,7 +102,11 @@
 <p>See <a href="/manual/manual.installation.upgrading.php">upgrading</a> page in MantisBT Manual for details about the upgrade process.</p>
 
 <h4>MantisBT Distributions</h4>
-<p>MantisBT is distributed with several <a href="/wiki/doku.php/mantisbt:distributions">GNU/Linux distributions</a>.  Typically the MantisBT versions in these distributions are not the latest.  For the latest MantisBT version use the links above.</p>
+<p>MantisBT is distributed with several
+	<a href="/wiki/doku.php/mantisbt:distributions">GNU/Linux distributions</a>.
+	Typically however, the versions available in these distributions
+	are not the latest.
+	For the most recent MantisBT release, use the links above.</p>
 
 <?php
 	include( "bot.php" );
