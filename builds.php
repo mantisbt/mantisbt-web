@@ -36,6 +36,8 @@ function get_builds_list( $p_path, &$p_builds, &$p_logfile ) {
 		'strcmp'
 	);
 
+	$p_path = '/' . basename( $p_path ) . '/';
+
 	$p_builds = array();
 	foreach( $t_iter_builds as $t_file ) {
 		if( $t_file->isDir() ) {
@@ -63,9 +65,9 @@ function get_builds_list( $p_path, &$p_builds, &$p_logfile ) {
 
 			# Digest and zip/tarball file names
 			if( isset( $t_match[5] ) ) {
-				$p_builds[$t_sha][$t_ext]['digests'] = $t_file;
+				$p_builds[$t_sha][$t_ext]['digests'] = $p_path . $t_file->getFilename();
 			} else {
-				$p_builds[$t_sha][$t_ext]['file'] = $t_file;
+				$p_builds[$t_sha][$t_ext]['file'] = $p_path . $t_file->getFilename();
 				$p_builds[$t_sha][$t_ext]['time'] = $t_file->getMTime();
 			}
 		}
