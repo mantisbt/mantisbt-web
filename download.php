@@ -21,6 +21,11 @@
 			Download MantisBT <?php echo $g_latest_version_stable; ?>
 		</a>
 	</p>
+	<p>
+	</p>Please read the
+		<a href="/docs/master-1.2.x/en/administration_guide/admin.install.upgrade.html">
+		Admin Guide</a> for instructions on the upgrade process.
+	</p>
 	<div class="box-bottom">
 		<p class="center">
 			[ <a href="requirements.php">Requirements</a>
@@ -98,8 +103,6 @@
 </div>
 
 <div class="clearBoth"></div>
-
-<p>See <a href="/manual/manual.installation.upgrading.php">upgrading</a> page in MantisBT Manual for details about the upgrade process.</p>
 
 <h4>MantisBT Distributions</h4>
 <p>MantisBT is distributed with several
