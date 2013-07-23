@@ -43,7 +43,8 @@
 
 <div class="genericbox" style="width: 97%">
 	<h3>Nightly Builds</h3>
-	These are nightly snapshots generated from the latest development branches in our Git repository.
+	These are nightly snapshots generated from the latest development branches in our
+	<a href="https://github.com/mantisbt/mantisbt">Git repository</a>.
 	These have not been formally tested or prepared for release in any manner, and are recommended only
 	for testing and feedback purposes.  Builds are only available for the past five days.
 	<p align="center">
