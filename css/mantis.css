@@ -11,6 +11,8 @@ body {
 .clearRight {clear:right;}
 .clearBoth {clear:both;}
 .hide {display:none;}
+.center {text-align:center;}
+.floatRight {float:right;}
 
 .testimonial {
     margin: 1em 0 0;
@@ -39,12 +41,42 @@ div.ybox-inner {
 }
 
 div.genericbox {
-	width: 47%;
+	position: relative;
+	width: 45%;
 	float: left;
 	background: #fff9d3;
 	border: 1px solid #f1d32e;
-	padding: 10px 0 10px 10px;
-	margin: 3px;
+	padding: 10px;
+	margin: 4px;
+}
+
+div.box-fixedheight {
+	height: 17em;
+}
+
+div.box-doublewidth {
+	width: 95%;
+}
+
+div.box-bottom {
+	position: absolute;
+	bottom: 0;
+	margin-left: -10px;
+	width: 100%;
+}
+
+p.downloadlink {
+	text-align: center;
+	font-weight: bold;
+}
+
+h4.addon {
+	margin-bottom: 0px;
+}
+
+div.addon-text {
+	margin: 0 20px auto 20px;
+	padding-top: 0px;
 }
 
 div.genericbox ul {
@@ -209,33 +241,36 @@ div.spotlight h3 {
 }
 
 /**
- * IRC logs page
+ * Standard table styles
  */
-
-.irc-channel-list {
+.table {
 	display: table;
 	background: #FFF9D3;
 	width:100%;
 	border-collapse: collapse;
 }
 
-.irc-channel-header {
+.table-header {
 	display: table-header-group;
 	border: 1px solid #F1D32E;
 	background: #F1D32E;
 	font-weight: bold;
 }
 
-.irc-channel-row {
+.table-row {
 	display: table-row;
 	border: 1px solid #F1D32E;
 }
 
-.irc-channel-cell {
+.table-cell {
 	display: table-cell;
 	padding: 4px;
 	vertical-align: middle;
 }
+
+/**
+ * IRC logs page
+ */
 
 div.irc-channel-name {
 	font-weight: bold;

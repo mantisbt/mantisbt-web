@@ -67,7 +67,7 @@ function build_channels_list( $p_path ) {
 	# printf formats
 	$t_fmt_irchref = '<a href="irc://irc.freenode.net/%1$s">#%1$s</a>';
 	$t_fmt_channel =
-		  '		<div class="irc-channel-cell irc-channel-name">' . "\n"
+		  '		<div class="table-cell table-name">' . "\n"
 		. '			<p><span class="tooltip">%s<span>Connect to the channel</span></span></p>' . "\n"
 		. "		</div>\n";
 	$t_fmt_current =
@@ -77,8 +77,8 @@ function build_channels_list( $p_path ) {
 
 	# Error handling in case the path does not exist
 	if( !is_dir( $p_path ) ) {
-		echo '	<div class="irc-channel-row">' . "\n";
-		echo '		<div class="irc-channel-cell irc-channel-name ">' . "\n";
+		echo '	<div class="table-row">' . "\n";
+		echo '		<div class="table-cell table-name ">' . "\n";
 		echo "			ERROR: path '$p_path' not found\n";
 		echo "		</div>\n";
 		echo "	</div>\n\n";
@@ -125,20 +125,20 @@ function build_channels_list( $p_path ) {
 			}
 
 			# Row
-			echo '	<div class="irc-channel-row">' . "\n";
+			echo '	<div class="table-row">' . "\n";
 
 			# Col 1: channel
 			printf( $t_fmt_channel, $t_channel_name, $t_href );
 
 			# Col 2: current
-			echo '		<div class="irc-channel-cell irc-channel-current">' . "\n";
+			echo '		<div class="table-cell table-current">' . "\n";
 			if( $t_current ) {
 				printf( $t_fmt_current, array_shift( $t_years ), $t_href );
 			}
 			echo "		</div>\n";
 
 			# Col 3: archives
-			echo '		<div class="irc-channel-cell">' . "\n";
+			echo '		<div class="table-cell">' . "\n";
 			if( is_array( $t_years ) ) {
 				# Display channel div & links for each year
 				echo '			' . implode( ", \n			", $t_years ) . "\n";
@@ -151,36 +151,41 @@ function build_channels_list( $p_path ) {
 }
 
 
+	$t_sub_title = "IRC Logs";
 	include( "top.php" );
 ?>
 
-<h4>IRC logs</h4>
-<div class="irc-channel-list">
+<h4>IRC Logs Archive</h4>
+<div class="table">
 
-	<div class="irc-channel-header">
-		<div class="irc-channel-cell">
+	<div class="table-header">
+		<div class="table-cell">
 			Channel
 		</div>
-		<div class="irc-channel-cell irc-channel-current">
+		<div class="table-cell table-current">
 			Current year
 		</div>
-		<div class="irc-channel-cell">
+		<div class="table-cell">
 			Archives
 		</div>
 	</div>
 
 <?php
 	# Root of irclogs - try in current dir and one level above if not found
+	$t_dir = 'irclogs';
 	$t_path_root = rtrim( $_SERVER['DOCUMENT_ROOT'], DIRECTORY_SEPARATOR ) . DIRECTORY_SEPARATOR;
-	$t_path_logs = realpath( $t_path_root . 'irclogs' );
-	if( false === $t_path_logs ) {
-		$t_path_logs = realpath( $t_path_root . '..' . DIRECTORY_SEPARATOR . 'irclogs' );
+	$t_path = realpath( $t_path_root . $t_dir );
+	if( false === $t_path ) {
+		$t_path = realpath( $t_path_root . '..' . DIRECTORY_SEPARATOR . $t_dir );
+	}
+	if( false === $t_path ) {
+		$t_path = $t_dir;
 	}
 
 	# Depth is used to build relative path for URL links
-	$t_depth = substr_count( $t_path_logs, DIRECTORY_SEPARATOR );
+	$t_depth = substr_count( $t_path, DIRECTORY_SEPARATOR );
 
-	build_channels_list( $t_path_logs );
+	build_channels_list( $t_path );
 ?>
 
 </div>
