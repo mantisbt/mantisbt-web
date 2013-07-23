@@ -51,11 +51,15 @@ function get_builds_list( $p_path, &$p_builds, &$p_logfile ) {
 			$p_logfile = $t_file;
 		} else {
 			# Break down filename into components
-			preg_match(
+			$t_result = preg_match(
 				'/^mantisbt-((?U).*)-(.*)-((?U).*)\.((?U).*)(?:\.)?(digests)?$/',
 				$t_file->getFileName(),
 				$t_match
 			);
+			if( $t_result != 1 ) {
+				continue;
+			}
+
 			$t_sha = $t_match[3];
 			$t_ext = $t_match[4];
 
