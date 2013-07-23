@@ -151,10 +151,11 @@ function build_channels_list( $p_path ) {
 }
 
 
+	$t_sub_title = "IRC Logs";
 	include( "top.php" );
 ?>
 
-<h4>IRC logs</h4>
+<h4>IRC Logs Archive</h4>
 <div class="table">
 
 	<div class="table-header">
