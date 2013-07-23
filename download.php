@@ -71,7 +71,7 @@
 	build process, and have not been formally prepared for release;
 	we recommend you only use them for testing and feedback purposes.
 	<p class="downloadlink">
-		<a class="bold" href="/builds">Download a Nightly Build</a>
+		<a class="bold" href="builds.php">Download a Nightly Build</a>
 	</p>
 </div>
 
