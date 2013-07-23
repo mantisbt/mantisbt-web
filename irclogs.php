@@ -67,7 +67,7 @@ function build_channels_list( $p_path ) {
 	# printf formats
 	$t_fmt_irchref = '<a href="irc://irc.freenode.net/%1$s">#%1$s</a>';
 	$t_fmt_channel =
-		  '		<div class="irc-channel-cell irc-channel-name">' . "\n"
+		  '		<div class="table-cell table-name">' . "\n"
 		. '			<p><span class="tooltip">%s<span>Connect to the channel</span></span></p>' . "\n"
 		. "		</div>\n";
 	$t_fmt_current =
@@ -77,8 +77,8 @@ function build_channels_list( $p_path ) {
 
 	# Error handling in case the path does not exist
 	if( !is_dir( $p_path ) ) {
-		echo '	<div class="irc-channel-row">' . "\n";
-		echo '		<div class="irc-channel-cell irc-channel-name ">' . "\n";
+		echo '	<div class="table-row">' . "\n";
+		echo '		<div class="table-cell table-name ">' . "\n";
 		echo "			ERROR: path '$p_path' not found\n";
 		echo "		</div>\n";
 		echo "	</div>\n\n";
@@ -125,20 +125,20 @@ function build_channels_list( $p_path ) {
 			}
 
 			# Row
-			echo '	<div class="irc-channel-row">' . "\n";
+			echo '	<div class="table-row">' . "\n";
 
 			# Col 1: channel
 			printf( $t_fmt_channel, $t_channel_name, $t_href );
 
 			# Col 2: current
-			echo '		<div class="irc-channel-cell irc-channel-current">' . "\n";
+			echo '		<div class="table-cell table-current">' . "\n";
 			if( $t_current ) {
 				printf( $t_fmt_current, array_shift( $t_years ), $t_href );
 			}
 			echo "		</div>\n";
 
 			# Col 3: archives
-			echo '		<div class="irc-channel-cell">' . "\n";
+			echo '		<div class="table-cell">' . "\n";
 			if( is_array( $t_years ) ) {
 				# Display channel div & links for each year
 				echo '			' . implode( ", \n			", $t_years ) . "\n";
@@ -155,16 +155,16 @@ function build_channels_list( $p_path ) {
 ?>
 
 <h4>IRC logs</h4>
-<div class="irc-channel-list">
+<div class="table">
 
-	<div class="irc-channel-header">
-		<div class="irc-channel-cell">
+	<div class="table-header">
+		<div class="table-cell">
 			Channel
 		</div>
-		<div class="irc-channel-cell irc-channel-current">
+		<div class="table-cell table-current">
 			Current year
 		</div>
-		<div class="irc-channel-cell">
+		<div class="table-cell">
 			Archives
 		</div>
 	</div>
