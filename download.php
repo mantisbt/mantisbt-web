@@ -42,11 +42,18 @@
 <div class="clearBoth"></div>
 
 <div class="genericbox" style="width: 97%">
+	<div style="float: right; margin-right: 1em">
+		<a href="https://travis-ci.org/mantisbt/mantisbt/branches">
+			<img src="https://travis-ci.org/mantisbt/mantisbt.png">
+		</a>
+	</div>
 	<h3>Nightly Builds</h3>
 	These are nightly snapshots generated from the latest development branches in our
 	<a href="https://github.com/mantisbt/mantisbt">Git repository</a>.
-	These have not been formally tested or prepared for release in any manner, and are recommended only
-	for testing and feedback purposes.  Builds are only available for the past five days.
+	They have only undergone minimal testing through our standard
+	<a href="https://travis-ci.org/mantisbt/mantisbt">Travis CI</a>
+	build process, and have not been formally prepared for release;
+	we recommend you only use them for testing and feedback purposes.
 	<p align="center">
 		<a class="bold" href="/builds">Download a Nightly Build</a>
 	</p>
