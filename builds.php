@@ -44,11 +44,16 @@ function get_builds_list( $p_path, &$p_builds, &$p_logfile ) {
 			continue;
 		}
 
+		$t_file_url = $p_path . $t_file->getFilename();
+
 		# mantisbt.org is on PHP 5.3.2 and SplFileInfo:: getExtension
 		# was only introduced in 5.3.6, so, until we upgrade the server...
 		# if( $t_file->getExtension() == 'log' ) {
 		if( substr( $t_file, -3, 3 ) == 'log' ) {
-			$p_logfile = $t_file;
+			$p_logfile = array(
+				'file' => $t_file_url,
+				'time' => $t_file->getMTime()
+			);
 		} else {
 			# Break down filename into components
 			$t_result = preg_match(
@@ -69,9 +74,9 @@ function get_builds_list( $p_path, &$p_builds, &$p_logfile ) {
 
 			# Digest and zip/tarball file names
 			if( isset( $t_match[5] ) ) {
-				$p_builds[$t_sha][$t_ext]['digests'] = $p_path . $t_file->getFilename();
+				$p_builds[$t_sha][$t_ext]['digests'] = $t_file_url;
 			} else {
-				$p_builds[$t_sha][$t_ext]['file'] = $p_path . $t_file->getFilename();
+				$p_builds[$t_sha][$t_ext]['file'] = $t_file_url;
 				$p_builds[$t_sha][$t_ext]['time'] = $t_file->getMTime();
 			}
 		}
@@ -233,8 +238,8 @@ function print_builds_list( $p_builds ) {
 
 	<div>
 		View the Nightly Builds script's
-		<a href="<?php echo $t_logfile ?>">Log File</a>
-		(<?php echo print_timestamp( $t_logfile->getMTime() ); ?>).
+		<a href="<?php echo $t_logfile['file']; ?>">Log File</a>
+		(<?php echo print_timestamp( $t_logfile['time'] ); ?>).
 	</div>
 
 <?php
