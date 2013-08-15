@@ -35,7 +35,7 @@
 			<a href="/docs/master/en/developers.html">Mantis Bug Tracker Developers Guide</a>
 		</li>
 		<li>
-			<a href="/wiki/doku.php/mantisbt:coding_guidelines.php">MantisBT Coding Conventions</a>
+			<a href="/wiki/doku.php/mantisbt:coding_guidelines">MantisBT Coding Conventions</a>
 		</li>
 		<li>
 			<a href="/general_development.php">General development information</a>
