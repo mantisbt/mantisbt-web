@@ -7,7 +7,7 @@
 <h4>MantisBT Development</h4>
 <div class="spotlight">
 	<p>
-	MantisBT is free software. We encourage <b>you</b> to dive into the source 
+	MantisBT is free software. We encourage <b>you</b> to dive into the source
 	and help on new features and bugfixes. That is the way free software works.
 	</p>
 </div>
@@ -35,7 +35,7 @@
 			<a href="/docs/master/en/developers.html">Mantis Bug Tracker Developers Guide</a>
 		</li>
 		<li>
-			<a href="/guidelines.php">MantisBT Coding Conventions</a>
+			<a href="/wiki/doku.php/mantisbt:coding_guidelines.php">MantisBT Coding Conventions</a>
 		</li>
 		<li>
 			<a href="/general_development.php">General development information</a>
@@ -45,7 +45,7 @@
 <h5>Communication</h5>
 	<ul>
 		<li>
-			Often times MantisBT developers hang out on IRC @ <a href="irc://irc.freenode.net/mantisbt">#mantisbt</a> on the freenode network 
+			Often times MantisBT developers hang out on IRC @ <a href="irc://irc.freenode.net/mantisbt">#mantisbt</a> on the freenode network
 		</li>
 		<li>
 			It's a good idea to subscribe to the mantisbt-dev mailinglist - details are on the <a href="/mailinglists.php">mailing lists page</a>.
@@ -55,4 +55,4 @@
 <div class="clearBoth"></div>
 
 <?php
-	include( "bot.php" ); 
+	include( "bot.php" );
