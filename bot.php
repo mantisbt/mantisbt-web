@@ -1,25 +1,4 @@
 </div>
-<div class="clearBoth"></div>
-<p />
-<div id="buttonContainer">
-	<table align="center">
-		<tr>
-			<td>
-				<!-- AddThis Bookmark Button BEGIN -->
-				<a href="http://www.addthis.com/bookmark.php" onclick="addthis_url   = location.href; addthis_title = document.title; return addthis_click(this);" target="_blank"><img src="http://s5.addthis.com/button1-bm.gif" width="125" height="16" border="0" alt="AddThis Social Bookmark Button" /></a> <script type="text/javascript">var addthis_pub = 'vboctor';</script><script type="text/javascript" src="http://s5.addthis.com/js/widget.php?v=10"></script>  
-				<!-- AddThis Bookmark Button END -->
-			</td>
-			<td>
-				<script type="text/javascript" src="http://www.ohloh.net/projects/47/widgets/project_users_logo"></script>
-			</td>
-			<td>
-				<a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=14963" width="88" height="31" border="0" alt="SourceForge Logo" /></a>
-			</td>
-		</tr>
-	</table>
-</div>
-<p />
-<p />
 
 <!-- Google Analytics -->
 <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
