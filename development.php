@@ -22,7 +22,7 @@
 	MantisBT <a href="http://github.com/mantisbt/mantisbt">source code</a> and <a href="http://github.com/mantisbt-plugins">plugins</a> are hosted on GitHub.
 
 	Detailed information on how to use git with MantisBT can be found in the
-	<a href="/docs/master/en/developers/">Mantis Bug Tracker
+	<a href="/docs/master-1.2.x/en/developers.html">Mantis Bug Tracker
 	Developers Guide</a>.
 
 	Help with setting up Git and learning basic usage can be found in
