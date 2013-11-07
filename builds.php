@@ -240,6 +240,8 @@ function print_builds_list( $p_builds ) {
 		View the Nightly Builds script's
 		<a href="<?php echo $t_logfile['file']; ?>">Log File</a>
 		(<?php echo print_timestamp( $t_logfile['time'] ); ?>).
+
+		<p>All times on this page are <?php echo date('T (\U\TCP)') ?>.</p>
 	</div>
 
 <?php
