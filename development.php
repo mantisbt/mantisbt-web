@@ -19,7 +19,7 @@
 <h5>The source code</h5>
 
 <p>
-	MantisBT source code is hosted on <a href="http://github.com/mantisbt/mantisbt">GitHub</a>.
+	MantisBT <a href="http://github.com/mantisbt/mantisbt">source code</a> and <a href="http://github.com/mantisbt-plugins">plugins</a> are hosted on GitHub.
 
 	Detailed information on how to use git with MantisBT can be found in the
 	<a href="/docs/master/en/developers/">Mantis Bug Tracker
