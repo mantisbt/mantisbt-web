@@ -32,7 +32,7 @@
 <h5>Documentation</h5>
 	<ul>
 		<li>
-			<a href="/docs/master/en/developers.html">Mantis Bug Tracker Developers Guide</a>
+			<a href="/docs/master-1.2.x/en/developers.html">Mantis Bug Tracker Developers Guide</a>
 		</li>
 		<li>
 			<a href="/wiki/doku.php/mantisbt:coding_guidelines">MantisBT Coding Conventions</a>
