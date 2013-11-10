@@ -44,7 +44,7 @@
 									<li><a href="http://www.mantistouch.org">Phone</a></li>
 									<li><a href="download.php">Download</a></li>
 									<li><a href="documentation.php">Docs</a></li>
-									<li><a href="demo/">Demo</a></li>
+									<li><a href="demo.php">Demo</a></li>
 									<li><a href="hosting.php">Hosting</a></li>
 									<li><a href="support.php">Support</a></li>
 									<li><a href="sponsors.php">Sponsors</a></li>
