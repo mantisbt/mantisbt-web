@@ -37,9 +37,6 @@
 		<li>
 			<a href="/wiki/doku.php/mantisbt:coding_guidelines">MantisBT Coding Conventions</a>
 		</li>
-		<li>
-			<a href="/general_development.php">General development information</a>
-		</li>
 	</ul>
 
 <h5>Communication</h5>
