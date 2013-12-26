@@ -10,7 +10,7 @@
 
 <h5>Contacting Us</h5>
 
-<p>Use the <a href="contact_us.php">contact us</a> page to initiate the discussion relating to your consulting needs.</p>
+<p>Use the "leave a message" form below to initiate the discussion relating to your consulting needs.</p>
 
 <?php
 	include("bot.php");

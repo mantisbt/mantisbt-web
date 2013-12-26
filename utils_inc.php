@@ -13,9 +13,3 @@
 			return $p_var;
 		}
 	}
-	
-	# ------------------
-	# Prints the contents to go within the head tag.
-	function ads_print_head() {
-		@include( 'data/ads_head_inc.php' );
-	}

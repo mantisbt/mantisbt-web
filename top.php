@@ -16,12 +16,11 @@
 	<meta name="keywords" content="mantis, mantisbt, bugtracker, bug, tracker, issue, software" />
 	<meta name="dc.title" content="Mantis Bug Tracker" />
 	<meta name="revisit-after" content="1 days" />
+
 	<!-- STYLES -->
 	<link rel="stylesheet" type="text/css" href="css/mantis.css" />
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.mantisbt.org/blog/?feed=rss2" />
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://twitter.com/statuses/user_timeline/7199732.rss" />
-
-	<?php ads_print_head(); ?>
 </head>
 <body id="mantisbody">
 
@@ -49,7 +48,6 @@
 									<li><a href="support.php">Support</a></li>
 									<li><a href="sponsors.php">Sponsors</a></li>
 									<li><a href="development.php">Development</a></li>
-									<li><a href="contact_us.php">Contact Us</a></li>
 								</ul>
 							</td>
 						</tr>
