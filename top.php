@@ -68,18 +68,15 @@ include( 'config_defaults_inc.php' );
                     </div>
                     <div class="col-sm-6 col-md-6 col-sm-offset-6 col-md-offset-2 col-lg-offset-2">
                         <!-- HEADER: SOCIAL ICONS -->
-                        <ul class="socials unstyled">
-                            <div class="grey-box hero-block-2" style="width:410px; height:58px">
-                                <!-- AddThis Button BEGIN -->
-                                <div class="addthis_toolbox addthis_default_style" addthis:url="http://mantisbt.org/" addthis:title="MantisBT is a free popular web-based bug & issue tracking system">
-                                    <a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:url="http://mantisbt.org/"></a>
-                                    <a class="addthis_button_tweet"></a>
-                                    <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-                                    <a class="addthis_counter addthis_pill_style"></a>
-                                </div>
-                                <!-- AddThis Button END -->
+                        <div class="grey-box" style="width:305px; height:32px; padding: 4px 10px 0 18px">
+                            <!-- AddThis Button BEGIN -->
+                            <div class="addthis_toolbox addthis_default_style" addthis:url="http://mantisbt.org/" addthis:title="MantisBT is a free popular web-based bug & issue tracking system">
+                                <a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:url="http://mantisbt.org/"></a>
+                                <a class="addthis_button_tweet"></a>
+                                <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
                             </div>
-                        </ul>
+                            <!-- AddThis Button END -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -113,43 +110,10 @@ include( 'config_defaults_inc.php' );
                                         </ul>
                                     </li>
 
-                                    <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">
+                                    <li class="single">
+                                        <a href="features.php">
                                             FEATURES<i>simple yet powerful</i>
                                         </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="stickies.html">Sticky Notes</a>
-                                            </li>
-                                            <li><a href="columns.html">Columns</a>
-                                            </li>
-                                            <li><a href="dividers.html">Dividers</a>
-                                            </li>
-                                            <li><a href="frames.html">Frames</a>
-                                            </li>
-                                            <li><a href="google_maps.html">Google Maps</a>
-                                            </li>
-                                            <li><a href="icons_and_buttons.html">Icons and Buttons</a>
-                                            </li>
-                                            <li><a href="lists.html">Lists</a>
-                                            </li>
-                                            <li><a href="message_boxes.html">Message Boxes</a>
-                                            </li>
-                                            <li><a href="navigation.html">Navigation</a>
-                                            </li>
-                                            <li><a href="price_tables.html">Price Tables</a>
-                                            </li>
-                                            <li><a href="quotes.html">Quotes</a>
-                                            </li>
-                                            <li><a href="sliders_and_videos.html">Sliders and Videos</a>
-                                            </li>
-                                            <li><a href="tables.html">Tables</a>
-                                            </li>
-                                            <li><a href="tabs_and_collapses.html">Tabs and Collapses</a>
-                                            </li>
-                                            <li><a href="typography.html">Typography</a>
-                                            </li>
-                                            <li><a href="thumbnails.html">Thumbnails</a>
-                                            </li>
-                                        </ul>
                                     </li>
 
                                     <li class="single">
