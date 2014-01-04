@@ -1,0 +1,232 @@
+/*----------------------------------------------------------------------------- 
+
+REVOLUTION RESPONSIVE BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet 
+
+version:   	1.0 
+date:      	26/06/12 
+author:		themepunch
+email:     	support@themepunch.com 
+website:   	http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+
+
+
+/*********************************************************************************************
+              -	SET THE SCREEN SIZES FOR THE BANNER IF YOU WISH TO MAKE THE BANNER RESOPONSIVE 	-	
+**********************************************************************************************/
+
+/*	-	THE BANNER CONTAINER (Padding, Shadow, Border etc. )	-	*/
+
+.bannercontainer, .bannercontainer2 {	
+    margin: 0 0 20px 0;
+    background-color:#fff;
+    height:auto;
+    position:relative;
+    position:relative;	
+    margin-left:auto;
+    margin-right:auto;	
+
+}
+.banner{		
+    width:940px;
+    height:400px;
+    position:relative;
+    overflow:hidden;			
+}
+.banner2 {		
+    width:100%;
+    height:298px;
+    position:relative;
+    overflow:hidden;			
+}
+
+.bannercontainer .middle {
+    font-size: 16px;
+}
+.bannercontainer .big {
+    font-size: 32px;
+    line-height: 35px;
+    padding-left: 10px;
+}
+.bannercontainer .small {
+    font-size: 12px;
+    line-height: 17px;
+}
+.bannercontainer2 .middle {
+    font-size: 16px;
+}
+.bannercontainer2 .big {
+    font-size: 32px;
+    line-height: 35px;
+}
+.bannercontainer2 .small {
+    font-size: 12px;
+    line-height: 17px;
+}
+.bannercontainer .slide5 .small {
+        padding-right: 20px;
+    }
+    .bannercontainer .big {
+        position: absolute;
+        padding-right: 10px;
+    }
+    .bannercontainer .slide4 .small {
+        padding-right: 100px;
+    }
+
+/*	THE MEDIA CHOOSER TO SET DIFFERENT SIZES OF THE CONTAINER DEPENDING ON THE SCREEN SIZE    */
+@media only screen and (min-width: 768px) and (max-width: 959px) {		
+
+    .banner, .bannercontainer			{	width:764px; height:auto; 	}
+	.bannercontainer {
+		margin:0 -20px;}
+    .bannercontainer .middle {
+        font-size: 20px;
+    }
+    .bannercontainer .big {
+        font-size: 30px;
+        line-height: 39px;
+    }
+    .bannercontainer .small {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .bannercontainer .caption  {
+        padding-right: 0;
+    }
+    .bannercontainer .slide2 .small {
+        margin-left: -158px;
+        padding-right: 103px;
+    }    
+    .bannercontainer .big {
+        position: absolute;
+        padding-right: 10px;
+    }
+    .bannercontainer .slide2 .small {
+        background-color: #333333;
+        color: #FFFFFF;
+        padding-left: 20px;
+    }
+    .bannercontainer .slide4 .small {
+        padding: 6px 100px 0 0;
+    }
+    .bannercontainer .slide4 .middle {
+        line-height: 11px;
+    }
+    .stick1, .stick3, .stick4, .stick5, .stick6 {
+        display: none;
+    }
+    .stick2 img {
+        width: 152px;
+        height: 150px;
+    }
+    .bannercontainer .slide3 .big {
+        padding-left: 41px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .banner, .bannercontainer		{	width:auto; height:auto;	}	
+    .bannercontainer .middle {
+        font-size: 12px;
+    }
+    .bannercontainer .big {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .bannercontainer .small {
+        font-size: 12px;
+        line-height: 14px;
+        padding-right: 10px;
+    }
+    .bannercontainer .caption  {
+        padding-right: 0;
+    }
+    .bannercontainer .slide2 .small {
+        background-color: #333333;
+        color: #FFFFFF;
+        margin-left: -258px;
+        padding-left: 20px;
+        padding-right: 203px;
+        padding-top: 11px;
+    }
+    .bannercontainer .big {
+        position: absolute;
+        padding-right: 10px;
+    }
+    .stick1, .stick3, .stick4, .stick5, .stick6 {
+        display: none;
+    }
+    .stick2 img {
+        width: 152px;
+        height: 150px;
+    }
+    .bannercontainer .slide3 .big {
+        padding-left: 0;
+        font-size: 18px;
+    }
+    .bannercontainer .slide4 .small {        
+        padding: 6px 0 0;
+    }
+    .bannercontainer .slide2 .middle {
+        display: none;
+    }
+    .bannercontainer .slide4 .middle {
+        line-height: 11px;
+    }
+    .bannercontainer .small {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+
+    .banner, .bannercontainer		{	width:auto; height:auto;	}
+    .bannercontainer .middle {
+        font-size: 10px;
+        line-height: 15px;
+        display: none;
+    }
+    .bannercontainer .big {
+        font-size: 10px;
+        line-height: 11px;     
+    }
+    .bannercontainer .small {
+        padding-right: 10px;
+        font-size: 8px;
+        line-height: 10px;
+        display: none;
+    }
+    .bannercontainer .caption  {
+        padding-right: 0;
+    }
+    .bannercontainer .big {
+        position: absolute;
+        padding-right: 10px;
+    }
+    .stick1, .stick3, .stick4, .stick5, .stick6 {
+        display: none;
+    }
+    .stick2 img {
+        width: 152px;
+        height: 150px;
+    }
+    .bannercontainer .slide3 .big {
+        padding-left: 0;
+    }
+    .bannercontainer .slide4 .small {
+        padding: 6px 0 0;
+    }
+    .bannercontainer .slide4 .middle {
+        line-height: 11px;
+    }
+}
+
+
+
+
+
+
