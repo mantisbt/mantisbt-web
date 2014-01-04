@@ -1,4 +1,17 @@
 </div>
+</div>
+
+<div class="recent-tweets">
+    <div class="container">
+        <div class="row show-grid">
+            <div class="col-md-12 col-sm-12 twitter-wrapper">
+                <div id="nav_t"></div>
+                <div class="tweets-slide"><ul class="slides"></ul></div>
+                <a href="https://twitter.com/mantisbt" class="follow_img"><img src="img/follow.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- FOOTER STARTS HERE -->
 <footer id="footer">

@@ -69,7 +69,7 @@ include( 'config_defaults_inc.php' );
                     <div class="col-sm-6 col-md-6 col-sm-offset-6 col-md-offset-2 col-lg-offset-2">
                         <!-- HEADER: SOCIAL ICONS -->
                         <ul class="socials unstyled">
-                            <div class="well" style="width:400px; height:58px">
+                            <div class="grey-box hero-block-2" style="width:410px; height:58px">
                                 <!-- AddThis Button BEGIN -->
                                 <div class="addthis_toolbox addthis_default_style" addthis:url="http://mantisbt.org/" addthis:title="MantisBT is a free popular web-based bug & issue tracking system">
                                     <a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:url="http://mantisbt.org/"></a>
@@ -186,38 +186,5 @@ include( 'config_defaults_inc.php' );
             </div>
         </header>
 
-
-
-
-
-        <div id="header">
-            <div id="headerInner">
-                <div id="logoContainer">
-                    <div id="menu">
-                        <table cellpadding="0" cellspacing="0" border="0">
-                            <tbody>
-                            <tr>
-                                <td>
-                                    <ul>
-                                        <li><a href="index.php">Home</a></li>
-                                        <li><a href="bugs/">Bugtracker</a></li>
-                                        <li><a href="blog/">Blog</a></li>
-                                        <li><a href="http://www.mantistouch.org">Phone</a></li>
-                                        <li><a href="download.php">Download</a></li>
-                                        <li><a href="documentation.php">Docs</a></li>
-                                        <li><a href="demo.php">Demo</a></li>
-                                        <li><a href="hosting.php">Hosting</a></li>
-                                        <li><a href="support.php">Support</a></li>
-                                        <li><a href="sponsors.php">Sponsors</a></li>
-                                        <li><a href="development.php">Development</a></li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="site">
+        <div class="main-content">
+            <div class="container">
