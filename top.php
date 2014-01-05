@@ -44,6 +44,7 @@
 									<li><a href="documentation.php">Docs</a></li>
 									<li><a href="demo.php">Demo</a></li>
 									<li><a href="hosting.php">Hosting</a></li>
+									<li><a href="addons.php">Add-ons</a></li>
 									<li><a href="support.php">Support</a></li>
 									<li><a href="sponsors.php">Sponsors</a></li>
 									<li><a href="development.php">Development</a></li>
