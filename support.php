@@ -56,15 +56,6 @@
 	</div>
 </div>
 
-<div class="ybox-outer">
-	<div class="ybox-inner">
-		<div>
-			View user<br/>
-			<a href="testimonials.php">testimonials</a>
-		</div>
-	</div>
-</div>
-
 <div class="clearBoth"></div>
 
 
