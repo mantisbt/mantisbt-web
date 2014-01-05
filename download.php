@@ -5,12 +5,6 @@
 
 <h4>Download</h4>
 
-<div class="spotlight">
-	Get up and running with <a href="hosting.php">hosted MantisBT</a> in less than 5 minutes for $5/month.
-</div>
-
-<p />
-
 <div class="genericbox box-fixedheight">
 	<h3>Stable release</h3>
 	<p>This is the latest stable MantisBT release.
@@ -73,33 +67,6 @@
 	<p class="downloadlink">
 		<a class="bold" href="builds.php">Download a Nightly Build</a>
 	</p>
-</div>
-
-<div class="clearBoth"></div>
-
-<div class="genericbox box-doublewidth">
-	<h3>Add-On Software</h3>
-
-	<h4 class="addon">MantisTouch</h4>
-	<div class="addon-text">
-		<a href="http://www.mantisbt.org/mantistouch.php">MantisTouch</a> is a web app
-		that provides a mobile-optimized MantisBT user interface for iPhone, Android
-		and Windows Phones devices. MantisTouch internally uses web services to access
-		the underlying MantisBT instance, hence providing the mobile friendly
-		interface without requiring any changes for the accessed system.
-	</div>
-
-	<h4 class="addon">MantisConnect</h4>
-	<div class="addon-text">
-		<a href="http://www.futureware.biz/mantisconnect/">MantisConnect</a>
-		allows .NET-, Java-, Cocoa- and generally all Applications that can access webservices
-		to integrate with MantisBT.
-	</div>
-
-	<h4 class="addon">MantisBT Related Tools</h4>
-	<div class="addon-text">
-		Check the <a href="/wiki/doku.php/mantisbt:related_tools">related tools</a> page.
-	</div>
 </div>
 
 <div class="clearBoth"></div>

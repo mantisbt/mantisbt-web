@@ -91,22 +91,16 @@ include( 'config_defaults_inc.php' );
                                 <ul class="nav nav-pills navbar-nav">
                                     <li class="active dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#menu">
                                             MantisBT
-                                            <i>downloads & hosting</i>
+                                            <i>downloads &amp; hosting</i>
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="index.php">MantisBT Home</a>
-                                            </li>
-                                            <li><a href="download.php">MantisBT Releases</a>
-                                            </li>
-                                            <li><a href="documentation.php">MantisBT Docs</a>
-                                            </li>
-                                            <li><a href="download.php">MantisBT Add-ons</a>
-                                            </li>
+                                            <li><a href="index.php">Home</a></li>
+                                            <li><a href="download.php">Downloads</a></li>
+                                            <li><a href="documentation.php">Docs</a></li>
+                                            <li><a href="addons.php">Add-ons</a></li>
                                             <li class="divider"></li>
-                                            <li><a href="http://www.mantishub.com/">MantisBT Hosting</a>
-                                            </li>
-                                            <li><a href="http://www.mantistouch.org/">MantisBT Mobile</a>
-                                            </li>
+                                            <li><a href="http://www.mantishub.com/">Hosting</a></li>
+                                            <li><a href="http://www.mantistouch.org/">Mobile</a></li>
                                         </ul>
                                     </li>
 
@@ -126,12 +120,8 @@ include( 'config_defaults_inc.php' );
                                             CONTRIBUTE<i>get involved</i>
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="bugs/">Bug Tracker</a>
-                                            </li>
-                                            <li><a href="development.php">Development</a>
-                                            </li>
-                                            <li><a href="sponsors.php">Sponsors</a>
-                                            </li>
+                                            <li><a href="bugs/">Bug Tracker</a></li>
+                                            <li><a href="development.php">Development</a></li>
                                         </ul>
                                     </li>
 
@@ -140,8 +130,6 @@ include( 'config_defaults_inc.php' );
                                             BLOG<i>stay informed</i>
                                         </a>
                                     </li>
-
-
                                 </ul>
                             </div>
                         </div>
@@ -149,6 +137,6 @@ include( 'config_defaults_inc.php' );
                 </div>
             </div>
         </header>
+</div>
 
-        <div class="main-content">
-            <div class="container">
+<div id="site">

@@ -165,6 +165,10 @@
 
   <hr>
 
+  <div align="center">
+    <img src="images/mantisbt_screenshot.png" width="545" height="268" alt="MantisBT Screenshot" />
+  </div>
+
   <div class="row main-block index1">
     <div class="col-sm-12 col-md-12">
       <!-- MAIN CONTENT AREA: bizstrap CUSTOM - HERO LIST -->
