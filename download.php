@@ -5,7 +5,7 @@
 
 <h4>Download</h4>
 
-<div class="genericbox box-fixedheight">
+<div class="genericbox <?php echo ( strlen( $g_latest_version_dev ) > 0 ) ? "box-fixedheight" : "box-doublewidth" ?>">
 	<h3>Stable release</h3>
 	<p>This is the latest stable MantisBT release.
 	Please download this file for production use.
@@ -15,11 +15,9 @@
 			Download MantisBT <?php echo $g_latest_version_stable; ?>
 		</a>
 	</p>
-	<p>
-	</p>Please read the
-		<a href="/docs/master-1.2.x/en/administration_guide/admin.install.upgrade.html">
-		Admin Guide</a> for instructions on the upgrade process.
-	</p>
+	<p />
+	</p>Please read the <a href="/docs/master-1.2.x/en/administration_guide/admin.install.upgrade.html">Admin Guide</a> for instructions on the upgrade process.</p>
+	<br />
 	<div class="box-bottom">
 		<p class="center">
 			[ <a href="requirements.php">Requirements</a>
@@ -29,6 +27,7 @@
 	</div>
 </div>
 
+<?php if ( strlen( $g_latest_version_dev ) > 0 ) { ?>
 <div class="genericbox box-fixedheight">
 	<h3>Development release</h3>
 	<p>The latest development release is intended for evaluation and testing
@@ -48,6 +47,7 @@
 		</p>
 	</div>
 </div>
+<?php } ?>
 
 <div class="clearBoth"></div>
 
@@ -76,7 +76,7 @@
 	<a href="/wiki/doku.php/mantisbt:distributions">GNU/Linux distributions</a>.
 	Typically however, the versions available in these distributions
 	are not the latest.
-	For the most recent MantisBT release, use the links above.</p>
+	For the most recent MantisBT release use the links above.</p>
 
 <?php
 	include( "bot.php" );

@@ -8,10 +8,10 @@
 	$g_rss_cache_path = '/tmp/';
 
 	# The latest version from the stable branch.
-	$g_latest_version_stable = '1.1.8';
+	$g_latest_version_stable = '1.2.15';
 
 	# The latest version from the development branch.
-	$g_latest_version_dev = '1.2.0rc1';
+	$g_latest_version_dev = '';
 
 	########################################
 	# Include user's config, if available
