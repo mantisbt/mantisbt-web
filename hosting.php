@@ -14,11 +14,5 @@
 
 </table>
 
-<br />
-
-<h4>Hosting Feedback</h4>
-
-<p>We're committed to helping create a wholesome and hassle-free MantisBT hosting environment. If you feel there are issues with one of the hosts listed here, please contact us via the "leave a message" form below.</p>
-
 <?php
 	include("bot.php");
