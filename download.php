@@ -77,33 +77,6 @@
 
 <div class="clearBoth"></div>
 
-<div class="genericbox box-doublewidth">
-	<h3>Add-On Software</h3>
-
-	<h4 class="addon">MantisTouch</h4>
-	<div class="addon-text">
-		<a href="http://www.mantisbt.org/mantistouch.php">MantisTouch</a> is a web app
-		that provides a mobile-optimized MantisBT user interface for iPhone, Android
-		and Windows Phones devices. MantisTouch internally uses web services to access
-		the underlying MantisBT instance, hence providing the mobile friendly
-		interface without requiring any changes for the accessed system.
-	</div>
-
-	<h4 class="addon">MantisConnect</h4>
-	<div class="addon-text">
-		<a href="http://www.futureware.biz/mantisconnect/">MantisConnect</a>
-		allows .NET-, Java-, Cocoa- and generally all Applications that can access webservices
-		to integrate with MantisBT.
-	</div>
-
-	<h4 class="addon">MantisBT Related Tools</h4>
-	<div class="addon-text">
-		Check the <a href="/wiki/doku.php/mantisbt:related_tools">related tools</a> page.
-	</div>
-</div>
-
-<div class="clearBoth"></div>
-
 <h4>MantisBT Distributions</h4>
 <p>MantisBT is distributed with several
 	<a href="/wiki/doku.php/mantisbt:distributions">GNU/Linux distributions</a>.
