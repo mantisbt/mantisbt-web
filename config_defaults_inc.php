@@ -4,9 +4,6 @@
 	$g_db_password = '';
 	$g_database_name = 'mantisbt';
 
-	# Directory for simplepie cache - set to false to disable cache
-	$g_rss_cache_path = '/tmp/';
-
 	# The latest version from the stable branch.
 	$g_latest_version_stable = '1.2.15';
 
