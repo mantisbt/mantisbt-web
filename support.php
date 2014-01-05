@@ -3,56 +3,15 @@
 	include( "top.php" );
 ?>
 
-<div class="ybox-outer">
-	<div class="ybox-inner">
-		<div>
-			Find help <br />
-			in our <br />
-			<a href="forums/">Forums</a>
-		</div>
-	</div>
-</div>
+<p>There are several ways to get community support:</p>
 
-<div class="ybox-outer">
-	<div class="ybox-inner">
-		<div>
-			Report Issues<br />
-			to our <br />
-			<a href="bugs/">Bugtracker</a>
-		</div>
-	</div>
-</div>
-
-<div class="ybox-outer">
-	<div class="ybox-inner">
-		<div>
-			Chat with us on <a href="irc.php">IRC</a> @ <br />
-			<span class="tooltip">
-				<a href="irc://irc.freenode.net/mantisbt-help">#mantisbt-help</a>
-				<span>Connect to the channel</span>
-			</span>
-			(browse <a href="irclogs.php">Channel Archives</a>)
-		</div>
-	</div>
-</div>
-
-<div class="ybox-outer">
-	<div class="ybox-inner">
-		<div>
-			Subscribe to<br />
-			<a href="mailinglists.php">Mailing Lists</a>
-		</div>
-	</div>
-</div>
-
-<div class="ybox-outer">
-	<div class="ybox-inner">
-		<div>
-			Browse and contribute<br/>
-			to the <a href="wiki/doku.php">Wiki</a>
-		</div>
-	</div>
-</div>
+<ul>
+	<li>Use the <a href="forums/">forums</a></li>
+	<li>Browse and contribute to the <a href="wiki/doku.php">Wiki</a></li>
+	<li>Subscribe to <a href="mailinglists.php">Mailing Lists</a></li>
+	<li>Report Issues to our <a href="bugs/">Bugtracker</a></li>
+	<li>Use <a href="irc.php">IRC</a> chat @ <a href="irc://irc.freenode.net/mantisbt-help">#mantisbt-help</a> (browse <a href="irclogs.php">Channel Archives</a>)</li>
+</ul>
 
 <?php
 	include( "bot.php" );
