@@ -3,8 +3,6 @@
 	include( "top.php" );
 ?>
 
-<h4>Community-Support</h4>
-
 <div class="ybox-outer">
 	<div class="ybox-inner">
 		<div>
@@ -55,31 +53,6 @@
 		</div>
 	</div>
 </div>
-
-<div class="clearBoth"></div>
-
-
-<h4>Commercial-Support</h4>
-
-<div class="ybox-outer">
-	<div class="ybox-inner">
-		<div>
-			Get MantisBT <br />
-			<a href="consulting.php">consulting</a> services.
-		</div>
-	</div>
-</div>
-
-<div class="ybox-outer">
-	<div class="ybox-inner">
-		<div>
-			Find a <a href="hosting.php">hosting provider</a><br/>
-			for your MantisBT instance.
-		</div>
-	</div>
-</div>
-
-<div class="clearBoth"></div>
 
 <?php
 	include( "bot.php" );
