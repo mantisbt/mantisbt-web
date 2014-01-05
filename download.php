@@ -5,12 +5,6 @@
 
 <h4>Download</h4>
 
-<div class="spotlight">
-	Get up and running with <a href="hosting.php">hosted MantisBT</a> in less than 5 minutes for $5/month.
-</div>
-
-<p />
-
 <div class="genericbox box-fixedheight">
 	<h3>Stable release</h3>
 	<p>This is the latest stable MantisBT release.
