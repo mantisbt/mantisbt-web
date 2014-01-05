@@ -5,9 +5,11 @@
 
 <p><a href="http://www.mantishub.com/"><img src="images/mantishub_logo.png" /></a></p>
 
-We offer a 30 days free trial (no credit card required) via <a href="http://www.mantishub.com">MantisHub</a>.
-MantisHub provides MantisBT as a service getting you started in 1 minute with all the support that you would expect.
-If you are happy with the trial, you can convert to any of the paid plans.
+<p>
+	<a href="http://www.mantishub.com">MantisHub</a>, which provides MantisBT as a service, offers a 30 day free trial (no credit card required).
+	This provides ability to instantly provision an instance to try out the administrative and end-user features of MantisBT.
+	If you are satisfied with the service, you can convert to any of the paid plans or go ahead and <a href="download.php">download</a> MantisBT to setup your own instance.
+</p>
 
 <?php
 	include( "bot.php" );

@@ -4,15 +4,13 @@
 	include( "top.php" );
 ?>
 
-<h4>MantisBT Hosting</h4>
+<p><a href="http://www.mantishub.com/"><img src="images/mantishub_logo.png" /></a></p>
 
-<p>For a hassle-free MantisBT hosting that is accessible to both internal and external users, it's recommended to get a hosted solution with one of the MantisBT certified hosting partners.</p>
-
-<table border="0" cellspacing="0" cellpadding="10">
-
-<?php @include( 'data/hosts.php' ); ?>
-
-</table>
+<p>
+	<a href="http://www.mantishub.com/">MantisHub</a> offers instant access to MantisBT as a service with a 30 day free trial to get you started (no credit card required).
+	MantisHub provides the simplicity of a service with exclusive add-ons like <a href="http://www.mantistouch.org/">MantisTouch</a>.
+	It is the only hosting solution that includes MantisBT support provided by Victor Boctor, a core MantisBT developer since 2000.
+</p>
 
 <?php
 	include("bot.php");
