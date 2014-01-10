@@ -61,14 +61,14 @@ include( 'config_defaults_inc.php' );
       <div class="container">
         <div class="row">
           <!-- HEADER: LOGO AREA -->
-          <div class="col-sm-4 col-md-4 logo">
+          <div class="col-xs-12 col-sm-6 col-md-6 logo">
             <a class="logo" href="index.php">
               <img alt="logo" title="Mantis Bug Tracker" width="200" src="images/mantis_logo_262x90.png" class="img-responsive" />
             </a>
           </div>
-          <div class="col-sm-6 col-md-6 col-sm-offset-6 col-md-offset-2 col-lg-offset-2">
+          <div class="col-xs-12 col-sm-6 col-md-6">
             <!-- HEADER: SOCIAL ICONS -->
-            <div class="grey-box" style="width:305px; height:32px; padding: 4px 10px 0 18px">
+            <div class="grey-box" style="width:305px; height:32px; padding: 4px 10px 0 18px; margin-bottom: 10px">
               <!-- AddThis Button BEGIN -->
               <div class="addthis_toolbox addthis_default_style" addthis:url="http://mantisbt.org/" addthis:title="MantisBT is a free popular web-based bug & issue tracking system">
                 <a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:url="http://mantisbt.org/"></a>
@@ -79,9 +79,9 @@ include( 'config_defaults_inc.php' );
             </div>
           </div>
         </div>
-      </div>
-      <!-- HEADER: PRIMARY SITE NAVIGATION -->
-      <div class="container">
+
+        <!-- HEADER: PRIMARY SITE NAVIGATION -->
+
         <div class="row">
           <div class="col-sm-12 col-md-12">
             <div class="navbar navbar-default">
