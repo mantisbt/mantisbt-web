@@ -34,7 +34,7 @@ include( "top.php" );
       </ul>
     </div>
     <div class="col-md-1 col-sm-1"></div>
-    <div class="col-sm-3 col-md-3 attention-stick stick">
+    <div class="col-sm-3 col-md-3 attention-stick stick pull-right">
       <div style="font-size: 38px;"> <i class="icon-bullhorn"></i>
       </div>
       <br>

@@ -96,7 +96,7 @@ include( 'config_defaults_inc.php' );
                     <ul class="dropdown-menu">
                       <li><a href="index.php">Home</a></li>
                       <li><a href="download.php">Downloads</a></li>
-                      <li><a href="documentation.php">Docs</a></li>
+                      <li><a href="documentation.php">Documentation</a></li>
                       <li><a href="addons.php">Add-ons</a></li>
                       <li class="divider"></li>
                       <li><a href="http://www.mantishub.com/">Hosting</a></li>
