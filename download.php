@@ -137,8 +137,5 @@ include( "top.php" );
     </div>
   </div>
 
-  <br><br>
-
-
 <?php
 include( "bot.php" );
