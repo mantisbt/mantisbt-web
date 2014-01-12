@@ -15,6 +15,7 @@ include( "top.php" );
     <div class="col-md-8 col-sm-8">
       <h1>Features</h1>
       <p></p>
+    </div>
   </div>
 
 

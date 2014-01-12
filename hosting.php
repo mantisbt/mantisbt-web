@@ -1,6 +1,5 @@
 <?php
 	$t_sub_title = "MantisBT Hosting";
-
 	include( "top.php" );
 ?>
 

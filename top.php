@@ -96,17 +96,22 @@ include( 'config_defaults_inc.php' );
                     <ul class="dropdown-menu">
                       <li><a href="index.php">Home</a></li>
                       <li><a href="download.php">Downloads</a></li>
-                      <li><a href="documentation.php">Documentation</a></li>
+                      <li><a href="hosting.php">Hosting</a></li>
                       <li><a href="addons.php">Add-ons</a></li>
-                      <li class="divider"></li>
-                      <li><a href="http://www.mantishub.com/">Hosting</a></li>
-                      <li><a href="http://www.mantistouch.org/">Mobile</a></li>
+                      <li><a href="requirements.php">Requirements</a></li>
+                      <li><a href="documentation.php">Documentation</a></li>
                     </ul>
                   </li>
 
                   <li class="single">
                     <a href="features.php">
                       FEATURES<i>simple yet powerful</i>
+                    </a>
+                  </li>
+
+                  <li class="single">
+                    <a href="demo.php">
+                      DEMO<i>take a test drive</i>
                     </a>
                   </li>
 

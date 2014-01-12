@@ -33,7 +33,7 @@ include( "top.php" );
 
       <br><br>
 
-      <h3>The following resources are provided by the MantisBT community free of charge:</h3>
+      <span class="lead">The following resources are provided by the MantisBT community free of charge:</span>
 
     </div>
   </div>
