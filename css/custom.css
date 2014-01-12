@@ -1274,7 +1274,7 @@ h1 {
     margin: 0 0 20px;
 }
 h2 {
-    font-size: 18px;
+    font-size: 26px;
     color: #666666;
     line-height: 22px;
 }
@@ -1332,7 +1332,7 @@ form label {
     font-size: 12px;
 }
 h2 {
-    font-size: 18px;
+    font-size: 26px;
     line-height: 22px;
     color: #666666;
     margin: 0 0 10px;
@@ -2265,6 +2265,7 @@ div.alert {
     background: transparent url("../img/warning-icons.png") top left no-repeat;
     padding: 3px 0 5px 35px;
     margin-bottom: 0;
+    font-size: 22px;
 }
 .alert p {
     padding-left: 35px;

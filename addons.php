@@ -6,7 +6,7 @@ include( "top.php" );
   <div id="breadcrumb">
     <ul>
       <li class="home"><a href="/">Home</a></li>
-      <li><a href="/">MantisBT</a></li>
+      <li><a href="index.php">MantisBT</a></li>
       <li>Add-ons</li>
     </ul>
   </div>
@@ -29,21 +29,21 @@ include( "top.php" );
   <div class="row">
     <div class="col-sm-12 col-md-4 center">
       <a href="http://www.mantistouch.org">
-        <img alt="Login Page" src="images/mt_login_page.png" height="300" width="200" border="1" />
+        <img class="img-rounded" title="Login Page on Smart Phone" alt="Login Page" src="images/mt_login_page.png" height="300" width="200" border="1" />
       </a>
       <div class="clearfix"></div>
       <br>
     </div>
     <div class="col-sm-12 col-md-4 center">
       <a href="http://www.mantistouch.org">
-        <img alt="Dashboard Page" src="images/mt_dashboard_page.png" height="300" width="200" border="1" />
+        <img class="img-rounded" title="Dashboard Page on Smart Phone" alt="Dashboard Page" src="images/mt_dashboard_page.png" height="300" width="200" border="1" />
       </a>
       <div class="clearfix"></div>
       <br>
     </div>
     <div class="col-sm-12 col-md-4 center">
       <a href="http://www.mantistouch.org">
-        <img alt="Issues Page" src="images/mt_issues_page.png" height="300" width="200" border="1" />
+        <img class="img-rounded" title="Issues Page on Smart Phone" alt="Issues Page" src="images/mt_issues_page.png" height="300" width="200" border="1" />
       </a>
       <div class="clearfix"></div>
       <br>

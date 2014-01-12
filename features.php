@@ -6,7 +6,7 @@ include( "top.php" );
   <div id="breadcrumb">
     <ul>
       <li class="home"><a href="/">Home</a></li>
-      <li><a href="/features.php">Features</a></li>
+      <li><a href="features.php">Features</a></li>
     </ul>
   </div>
 

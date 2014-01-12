@@ -131,7 +131,7 @@ include( "top.php" );
 
           <p>MantisBT devlopers come to seek help, announce projects, and discuss all kind of matters surrounding the
             project and the community. If you're working on a patch, you can raise issues on the dev list..</p>
-          <a type="button" class="btn btn-primary" href="/mailinglists.php">
+          <a type="button" class="btn btn-primary" href="mailinglists.php">
             <i class="icon-group"></i> Browse Mailing Lists
           </a>
         </div>

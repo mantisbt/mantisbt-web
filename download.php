@@ -6,7 +6,7 @@ include( "top.php" );
   <div id="breadcrumb">
     <ul>
       <li class="home"><a href="/">Home</a></li>
-      <li><a href="/">MantisBT</a></li>
+      <li><a href="index.php">MantisBT</a></li>
       <li>Downloads</li>
     </ul>
   </div>
@@ -74,7 +74,7 @@ include( "top.php" );
     </div>
     <div class="col-md-1 col-sm-1"></div>
     <div class="col-md-4 col-sm-4">
-      <a href="https://sourceforge.net/projects/mantisbt/files/mantis-development/" type="button" class="btn btn-default btn-primary">
+      <a href="https://sourceforge.net/projects/mantisbt/files/mantis-development/" type="button" class="btn btn-default btn-primary pull-right">
         <i class="icon-arrow-down"></i> Download MantisBT 1.3.x
       </a>
     </div>
@@ -107,7 +107,7 @@ include( "top.php" );
     </div>
     <div class="col-md-1 col-sm-1"></div>
     <div class="col-md-4 col-sm-4">
-      <a href="http://localhost/~Rafik/mantisbt-web/builds.php" type="button" class="btn btn-default btn-primary">
+      <a href="http://localhost/~Rafik/mantisbt-web/builds.php" type="button" class="btn btn-default btn-primary pull-right">
         <i class="icon-arrow-down"></i> Download Nightly Builds
       </a>
     </div>

@@ -7,7 +7,7 @@ include( "top.php" );
   <div id="breadcrumb">
     <ul>
       <li class="home"><a href="/">Home</a></li>
-      <li><a href="/">MantisBT</a></li>
+      <li><a href="index.php">MantisBT</a></li>
       <li>Documentation</li>
     </ul>
   </div>

@@ -1,116 +1,210 @@
 <?php
-	$t_sub_title = "Mailing Lists";
-
-	include( "top.php" );
+$t_sub_title = "Mailing Lists";
+include( "top.php" );
 ?>
 
-<h4>Mailing Lists</h4>
-<p>Signup for the mailing lists.  These are very low traffic since most people seem to use the <a href="/forums/">forums</a>.  Please use the forums or the mailing lists for general help questions.  Discussion of development issues is mainly done using the mailing list.</p>
-<table>
-<tr>
-	<td width="20%">
-		mantisbt-announce
-	</td>
-	<td width="15%">
-		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-announce" target="_blank">Signup</a>
-	</td>
-	<td width="15%">
-		<a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.announce" target="_blank">GMANE Archives</a>
-	</td>
-	<td width="15%">
-		<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-announce" target="_blank">SourceForge Archives</a>
-	</td>
-	<td width="50%">
-		Be notified of releases and any important updates.
-	</td>
-</tr>
-<tr>
-	<td>
-		mantisbt-help
-	</td>
-	<td>
-		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-help">Signup</a>
-	</td>
-	<td>
-		<a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.general" target="_blank">GMANE Archives</a>
-	</td>
-	<td>
-		<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-help" target="_blank">SourceForge Archives</a>
-	</td>
-	<td>
-		Ask for help (check the mailing list archives and the <a href="/forums">forums</a> first.
-	</td>
-</tr>
-<tr>
-	<td>
-		mantisbt-lang
-	</td>
-	<td>
-		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-lang">Signup</a>
-	</td>
-	<td>
-		<a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.localization" target="_blank">GMANE Archives</a>
-	</td>
-	<td>
-		<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-lang" target="_blank">SourceForge Archives</a>
-	</td>
-	<td>
-		MantisBT localization efforts.
-	</td>
-</tr>
-<tr>
-	<td>
-		mantisbt-dev
-	</td>
-	<td>
-		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-dev">Signup</a>
-	</td>
-	<td>
-		<a href="http://gmane.org/info.php?group=gmane.comp.bug-tracking.mantis.devel" target="_blank">GMANE Archives</a>
-	</td>
-	<td>
-		<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-dev" target="_blank">SourceForge Archives</a>
-	</td>
-	<td>
-		MantisBT development talk.
-	</td>
-</tr>
-<tr>
-	<td>
-		mantisbt-soap-dev
-	</td>
-	<td>
-		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-soap-dev">Signup</a>
-	</td>
-	<td>
-		<a href="http://gmane.org/info.php?group=gmane.comp.bug-tracking.mantis.devel.soap" target="_blank">GMANE Archives</a>
-	</td>
-	<td>
-		<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-soap-dev" target="_blank">SourceForge Archives</a>
-	</td>
-	<td>
-		MantisBT SOAP API development talk.
-	</td>
-</tr>
-<tr>
-	<td>
-		mantisbt-cvs
-	</td>
-	<td>
-		<a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-cvs">Signup</a>
-	</td>
-	<td>
-		<a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.cvs" target="_blank">GMANE Archives</a>
-	</td>
-	<td>
-		<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-cvs" target="_blank">SourceForge Archives</a>
-	</td>
-	<td>
-		A message is sent to this whenever new code is committed to MantisBT source control (currently Subversion).
-	</td>
-</tr>
-</table>
+<div id="breadcrumb">
+  <ul>
+    <li class="home"><a href="/">Home</a></li>
+    <li>Mailing Lists</li>
+  </ul>
+</div>
 
-<p class="center"><a class="bold" href="http://sourceforge.net/mail/?group_id=14963">SourceForge Mailing Lists</a></p>
+<div class="row show-grid clear-both">
+  <div class="col-md-12 col-sm-12 col-md-12">
+
+    <h1>Mailing Lists</h1>
+    <p>Signup for the mailing lists. Discussion of development issues is mainly done using the mailing list.</p>
+
+    <div class="alert alert-attention">
+      <h2>General Help & Support Questions</h2>
+      <p>Please use the <a href="/forums/">forums</a> for general help and support questions. Help mailing list is
+        receives low activity as most users prefer the forums for general inquires. </p>
+    </div>
+
+    <hr>
+
+    <div class="row show-grid clear-both">
+      <div class="col-md-8 col-sm-8 col-xs-12">
+        <h2>Announcements Mailing List</h2>
+        <p>Get notifications of releases and any important updates.</p>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-announce" type="button" class="btn btn-default btn-primary pull-right">
+          Subscribe to Mailing List <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="row show-grid clear-both">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <h3>Browse Archives:</h3>
+        <ul class="icons">
+          <ul class="item-details">
+            <li>
+              <i class="icon-list-alt"></i> <a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.announce">GMANE Archives</a>
+            </li>
+            <li>
+              <i class="icon-list-alt""></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-announce">SourceForge Archives</a>
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row show-grid clear-both">
+      <div class="col-md-8 col-sm-8 col-xs-12">
+        <h2>Help Mailing List</h2>
+        <p>Ask for help (check the mailing list archives and the <a href="/forums">forums</a> first.</p>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-help" type="button" class="btn btn-default btn-primary pull-right">
+          Subscribe to Mailing List <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="row show-grid clear-both">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <h3>Browse Archives:</h3>
+        <ul class="icons">
+          <ul class="item-details">
+            <li>
+              <i class="icon-list-alt"></i> <a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.general">GMANE Archives</a>
+            </li>
+            <li>
+              <i class="icon-list-alt""></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-help">SourceForge Archives</a>
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row show-grid clear-both">
+      <div class="col-md-8 col-sm-8 col-xs-12">
+        <h2>Localization Mailing List</h2>
+        <p>Discuss MantisBT localization efforts.</p>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-lang" type="button" class="btn btn-default btn-primary pull-right">
+          Subscribe to Mailing List <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="row show-grid clear-both">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <h3>Browse Archives:</h3>
+        <ul class="icons">
+          <ul class="item-details">
+            <li>
+              <i class="icon-list-alt"></i> <a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.localization">GMANE Archives</a>
+            </li>
+            <li>
+              <i class="icon-list-alt""></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-lang">SourceForge Archives</a>
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row show-grid clear-both">
+      <div class="col-md-8 col-sm-8 col-xs-12">
+        <h2>Development Mailing List</h2>
+        <p>MantisBT development talk. Very active thread with core development team discussing all topics realted to
+          MantisDB development, features, code changes, plugins and much more.</p>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-dev" type="button" class="btn btn-default btn-primary pull-right">
+          Subscribe to Mailing List <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="row show-grid clear-both">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <h3>Browse Archives:</h3>
+        <ul class="icons">
+          <ul class="item-details">
+            <li>
+              <i class="icon-list-alt"></i> <a href="http://gmane.org/info.php?group=gmane.comp.bug-tracking.mantis.devel">GMANE Archives</a>
+            </li>
+            <li>
+              <i class="icon-list-alt""></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-dev">SourceForge Archives</a>
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row show-grid clear-both">
+      <div class="col-md-8 col-sm-8 col-xs-12">
+        <h2>SOAP API Mailing List</h2>
+        <p>Discuss MantisBT SOAP API development issues.</p>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-soap-dev" type="button" class="btn btn-default btn-primary pull-right">
+          Subscribe to Mailing List <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="row show-grid clear-both">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <h3>Browse Archives:</h3>
+        <ul class="icons">
+          <ul class="item-details">
+            <li>
+              <i class="icon-list-alt"></i> <a href="http://gmane.org/info.php?group=gmane.comp.bug-tracking.mantis.devel.soap">GMANE Archives</a>
+            </li>
+            <li>
+              <i class="icon-list-alt""></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-soap-dev">SourceForge Archives</a>
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row show-grid clear-both">
+      <div class="col-md-8 col-sm-8 col-xs-12">
+        <h2>Code Changes Mailing List</h2>
+        <p>A message is sent to this whenever new code is committed to MantisBT source control (currently GitHub). </p>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-cvs" type="button" class="btn btn-default btn-primary pull-right">
+          Subscribe to Mailing List <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="row show-grid clear-both">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <h3>Browse Archives:</h3>
+        <ul class="icons">
+          <ul class="item-details">
+            <li>
+              <i class="icon-list-alt"></i> <a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.cvs">GMANE Archives</a>
+            </li>
+            <li>
+              <i class="icon-list-alt""></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-cvs">SourceForge Archives</a>
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+
+
+  </div>
+</div>
 
 <?php include( "bot.php" ); ?>
