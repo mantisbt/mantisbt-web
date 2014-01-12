@@ -18,7 +18,7 @@ include( "top.php" );
       <span class="lead"> <a href="http://www.mantistouch.org">MantisTouch</a> provides a mobile optimized user
         interface for iPhone, Android, and Windows Phone. </span> MantisTouch is developed and maintained by
         Victor Boctor. Victor is a leading member of MantisBT core team and long-time contributor to MantisBT project
-        since 2000. As a web app, MantisTouch  MantisTouch uses web services to access the bug tracking data allowing
+        since 2000. As a web app, MantisTouch uses web services to access the bug tracking data allowing
         it to be installed on the same or a different server than MantisBT.
       </p>
     </div>

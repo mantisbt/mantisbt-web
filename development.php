@@ -66,7 +66,7 @@ include( "top.php" );
           <h2>MantisBT on GitHub</h2>
           <br>
           <br>
-          <a href="/docs/master-1.2.x/en/developers.html" type="button" class="ex btn btn-default btn-inverse btn-block">
+          <a href="http://github.com/mantisbt/mantisbt" type="button" class="ex btn btn-default btn-inverse btn-block">
             <i class="icon-arrow-right"></i> Browse Source Code
           </a>
         </div>

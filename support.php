@@ -1,17 +1,97 @@
 <?php
-	$t_sub_title = "Support";
-	include( "top.php" );
+$t_sub_title = "Support";
+include( "top.php" );
 ?>
 
-<p>There are several ways to get community support:</p>
+  <div id="breadcrumb">
+    <ul>
+      <li class="home"><a href="/">Home</a></li>
+      <li>Support</li>
+    </ul>
+  </div>
 
-<ul>
-	<li>Use the <a href="forums/">forums</a></li>
-	<li>Browse and contribute to the <a href="wiki/doku.php">Wiki</a></li>
-	<li>Subscribe to <a href="mailinglists.php">Mailing Lists</a></li>
-	<li>Report Issues to our <a href="bugs/">Bugtracker</a></li>
-	<li>Use <a href="irc.php">IRC</a> chat @ <a href="irc://irc.freenode.net/mantisbt-help">#mantisbt-help</a> (browse <a href="irclogs.php">Channel Archives</a>)</li>
-</ul>
+
+  <div class="row show-grid clear-both">
+    <div class="col-md-12 col-sm-12 col-md-12">
+
+      <h1>Community Support</h1>
+
+      <div class="col-sm-12 col-md-12 grey-box">
+        <div class="hero-block3">
+          <div class="row show-grid">
+            <div class="col-sm-12 col-md-12">
+              <div class="hero-content-3">
+                <h3>
+                  MantisBT is free software. The community around MantisBT is full of nice people who want to help
+                  others learn. Become part of the family, learn from others, and give something back when you can.
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br><br>
+
+      <h3>The following resources are provided by the MantisBT community free of charge:</h3>
+
+    </div>
+  </div>
+
+  <br>
+
+  <div class="row show-grid">
+    <div class="col-md-11 col-md-offset-1">
+      <div class="note-stick stick pull-left">
+        <br>
+        <p>Use MantisBT</p>
+        <h1>Forums</h1>
+        <br>
+        <a href="forums/" type="button" class="ex btn btn-default btn-inverse btn-block">
+          Go to forums <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+      <div class="attention-stick stick pull-left">
+        <br>
+        <p>Browse and contribute to the</p>
+        <h1>Wiki</h1>
+        <br>
+        <a href="wiki/doku.php" type="button" class="ex btn btn-default btn-inverse btn-block">
+          Go to wiki <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+      <div class="success-stick stick pull-left">
+        <br>
+        <p>Subscribe to</p>
+        <h1>Mailing Lists</h1>
+        <br>
+        <a href="mailinglists.php" type="button" class="ex btn btn-default btn-inverse btn-block">
+          Go to mailing lists <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+      <div class="info-stick stick pull-left">
+        <br>
+        <p>Report issues to our</p>
+        <h1>Bugtracker</h1>
+        <br>
+        <a href="bugs/" type="button" class="ex btn btn-default btn-inverse btn-block">
+          Go to bug tracker <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+      <div class="alert-stick stick pull-left">
+        <br>
+        <p>Use IRC chat at</p>
+        <h2>#mantisbt-help</h2>
+        <br>
+        <a href="irc://irc.freenode.net/mantisbt-help" type="button" class="ex btn btn-group btn-default btn-inverse btn-block">
+          Go to IRC <i class="icon-arrow-right"></i>
+        </a>
+        <a href="irclogs.php" type="button" class="ex btn btn-group btn-default btn-inverse btn-block">
+          Read channel archives <i class="icon-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
 
 <?php
-	include( "bot.php" );
+include( "bot.php" );
