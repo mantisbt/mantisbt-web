@@ -20,11 +20,6 @@
   <div class="footer-wrapper">
     <div class="container">
       <div class="row show-grid">
-        <!-- FOOTER: LOGO -->
-        <div class="col-sm-12 col-md-2">
-          <img alt="" class="footer-logo img-responsive" src="images/mantis_logo_262x90.png" width="200" />
-        </div>
-        <div class="col-md-1"></div>
         <!-- FOOTER: NEWSLETTER -->
         <div class="col-sm-12 col-md-4 footer-center">
           <h4 class="center-title">Newsletter</h4>
