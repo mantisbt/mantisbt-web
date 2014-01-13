@@ -12,7 +12,7 @@ include( "top.php" );
 
 
   <div class="row show-grid clear-both">
-    <div class="col-md-12 col-sm-12 col-md-12">
+    <div class="col-sm-12 col-md-12">
 
       <h1>Community Support</h1>
 

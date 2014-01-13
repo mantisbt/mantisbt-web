@@ -39,13 +39,13 @@ include( "top.php" );
     <p>Please refer to the <strong>MantisBT Administration Guide</strong> for the target version to review the software
       requirements in detail:
     </p>
-    <ul>
-      <li>
+    <ul class="icons">
+      <li><i class="icon-ok"></i>
         <a href="/docs/master-1.2.x/en/administration_guide/admin.install.requirements.html">
           MantisBT 1.2.x
         </a>
       </li>
-      <li>
+      <li><i class="icon-ok"></i>
         <a href="/docs/master/en-US/Admin_Guide/html-desktop/#admin.install.requirements">
           MantisBT 1.3.x
         </a>
@@ -104,11 +104,11 @@ include( "top.php" );
 
     <h2>MySQL</h2>
     <p>Basic administration of MySQL is necessary. At a minimum you should be able to:</p>
-    <ul>
-      <li>login</li>
-      <li>create a new user</li>
-      <li>give the user permissions</li>
-      <li>create a new database</li>
+    <ul class="icons">
+      <li><i class="icon-ok"></i> login</li>
+      <li><i class="icon-ok"></i> create a new user</li>
+      <li><i class="icon-ok"></i> give the user permissions</li>
+      <li><i class="icon-ok"></i> create a new database</li>
     </ul>
     <p><a href="http://www.mysql.com/doc/">MySQL.com</a> has excellent documentation.
       We highly recommend using <a href="http://www.phpmyadmin.net/">phpMyAdmin</a>

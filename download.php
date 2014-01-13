@@ -13,28 +13,25 @@ include( "top.php" );
 
   <div class="row show-grid clear-both">
 
-    <div class="col-md-8 col-sm-8">
+    <div class="col-sm-7 col-md-8">
       <h1>Stable Release</h1>
       <p>This is the latest stable MantisBT release.
         Feel free to download this version for production use. </p>
 
       <h3>Additional Resources:</h3>
-      <ul class="icons">
-        <ul class="item-details">
-          <li>
-            <i class="icon-book"></i> <a href="/docs/master-1.2.x/en/administration_guide/admin.install.upgrade.html">Admin Guide</a>
-          <li>
-          <li>
-            <i class="icon-paper-clip"></i> <a href="/docs/master-1.2.x/en/administration_guide/admin.install.upgrade.html">Chanagelog</a>
-          <li>
-          <li>
-            <i class="icon-check"></i> <a href="/requirements.php">Requirements</a>
-          <li>
-        </ul>
+      <ul class="icons item-details">
+        <li>
+          <i class="icon-book"></i> <a href="/docs/master-1.2.x/en/administration_guide/admin.install.upgrade.html">Admin Guide</a>
+        </li>
+        <li>
+          <i class="icon-paper-clip"></i> <a href="/docs/master-1.2.x/en/administration_guide/admin.install.upgrade.html">Chanagelog</a>
+        </li>
+        <li>
+          <i class="icon-check"></i> <a href="requirements.php">Requirements</a>
+        </li>
       </ul>
     </div>
-    <div class="col-md-1 col-sm-1"></div>
-    <div class="col-sm-3 col-md-3 attention-stick stick pull-right">
+    <div class="col-sm-5 col-md-4 attention-stick stick">
       <div style="font-size: 38px;"> <i class="icon-bullhorn"></i>
       </div>
       <br>
@@ -59,7 +56,7 @@ include( "top.php" );
   </div>
 
   <div class="row show-grid clear-both">
-    <div class="col-md-7 col-sm-7">
+    <div class="col-sm-8 col-md-8">
       <h3>Additional Resources:</h3>
       <ul class="icons">
         <ul class="item-details">
@@ -67,14 +64,13 @@ include( "top.php" );
             <i class="icon-road"></i> <a href="/bugs/roadmap_page.php?project=mantisbt&version=1.3.x">Roadmap</a>
           <li>
           <li>
-            <i class="icon-book"></i> <a href="/requirements.php">Requirements</a>
+            <i class="icon-book"></i> <a href="requirements.php">Requirements</a>
           <li>
         </ul>
       </ul>
     </div>
-    <div class="col-md-1 col-sm-1"></div>
-    <div class="col-md-4 col-sm-4">
-      <a href="https://sourceforge.net/projects/mantisbt/files/mantis-development/" type="button" class="btn btn-default btn-primary pull-right">
+    <div class="col-sm-4 col-md-4">
+      <a href="https://sourceforge.net/projects/mantisbt/files/mantis-development/" type="button" class="btn btn-default btn-primary">
         <i class="icon-arrow-down"></i> Download MantisBT 1.3.x
       </a>
     </div>
@@ -92,7 +88,7 @@ include( "top.php" );
   </div>
 
   <div class="row show-grid clear-both">
-    <div class="col-md-7 col-sm-7">
+    <div class="col-sm-8 col-md-8">
       <h3>Additional Resources:</h3>
       <ul class="icons">
         <ul class="item-details">
@@ -105,9 +101,8 @@ include( "top.php" );
         </ul>
       </ul>
     </div>
-    <div class="col-md-1 col-sm-1"></div>
-    <div class="col-md-4 col-sm-4">
-      <a href="http://localhost/~Rafik/mantisbt-web/builds.php" type="button" class="btn btn-default btn-primary pull-right">
+    <div class="col-sm-4 col-md-4">
+      <a href="builds.php" type="button" class="btn btn-default btn-primary">
         <i class="icon-arrow-down"></i> Download Nightly Builds
       </a>
     </div>

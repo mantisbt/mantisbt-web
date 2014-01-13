@@ -125,8 +125,8 @@ include( 'config_defaults_inc.php' );
                       CONTRIBUTE<i>get involved</i>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a href="bugs/">Bug Tracker</a></li>
                       <li><a href="development.php">Development</a></li>
+                      <li><a href="bugs/">Bug Tracker</a></li>
                     </ul>
                   </li>
 

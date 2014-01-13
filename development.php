@@ -6,13 +6,13 @@ include( "top.php" );
   <div id="breadcrumb">
     <ul>
       <li class="home"><a href="/">Home</a></li>
-      <li>Contribute</li>
+      <li><a href="development.php">Contribute</a></li>
       <li>Development</li>
     </ul>
   </div>
 
   <div class="row show-grid clear-both">
-    <div class="col-md-12 col-sm-12 col-md-12">
+    <div class="col-sm-12 col-md-12">
 
       <h1>MantisBT Development</h1>
 
@@ -35,7 +35,7 @@ include( "top.php" );
 
       <div class="row show-grid clear-both">
 
-        <div class="col-md-8 col-sm-8">
+        <div class="col-sm-7 col-md-8">
           <h1>Source Code</h1>
           <p>MantisBT source code and
             plugins are hosted on GitHub. Detailed information on how to use git with MantisBT can be found in the
@@ -58,8 +58,7 @@ include( "top.php" );
             </ul>
           </ul>
         </div>
-        <div class="col-md-1 col-sm-1"></div>
-        <div class="col-sm-3 col-md-3 attention-stick stick pull-right">
+        <div class="col-sm-5 col-md-4 attention-stick stick">
           <div style="font-size: 38px;"> <i class="icon-github"></i>
           </div>
           <br>
@@ -76,7 +75,7 @@ include( "top.php" );
 
       <div class="row show-grid clear-both">
 
-        <div class="col-md-8 col-sm-8">
+        <div class="col-sm-7 col-md-8">
           <h1>Documentation</h1>
           <p>MantisBT source code and
             plugins are hosted on GitHub. Detailed information on how to use git with MantisBT can be found in the
@@ -97,8 +96,7 @@ include( "top.php" );
             </ul>
           </ul>
         </div>
-        <div class="col-md-1 col-sm-1"></div>
-        <div class="col-sm-3 col-md-3 note-stick stick pull-right">
+        <div class="col-sm-5 col-md-4 note-stick stick">
           <div style="font-size: 32px;"> <i class="icon-book"></i>
           </div>
           <br>
@@ -117,7 +115,7 @@ include( "top.php" );
 
       <div class="row show-grid clear-both">
 
-        <div class="col-md-8 col-sm-8">
+        <div class=" col-sm-8 col-md-8">
           <h1>Communication</h1>
 
           <p>Sometimes its just easier to get help or discuss matters in real time. The #mantisbt channel on
