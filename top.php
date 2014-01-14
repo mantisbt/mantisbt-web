@@ -6,6 +6,8 @@ include( 'config_defaults_inc.php' );
 <head>
   <title>Mantis Bug Tracker<?php if ( isset( $t_sub_title ) ) { echo " | $t_sub_title"; } ?></title>
 
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
   <!-- META HTTP-EQUIV -->
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
   <meta http-equiv="content-language" content="en-us" />

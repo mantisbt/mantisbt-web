@@ -21,12 +21,21 @@
     <div class="container">
       <div class="row show-grid">
         <!-- FOOTER: LOGO -->
-        <div class="col-sm-12 col-md-2">
-          <img alt="" class="footer-logo img-responsive" src="images/mantis_logo_262x90.png" width="200" />
+        <div class="col-sm-3 col-md-3">
+          <img alt="Mantis Bug Tracker Logo" class="footer-logo img-responsive" src="images/mantis_footer_logo.png"/>
+          <!-- AddThis Button BEGIN -->
+          <div class="addthis_toolbox addthis_default_style addthis_16x16_style" addthis:url="http://mantisbt.org/" addthis:title="MantisBT is a free popular web-based bug & issue tracking system">
+            <a class="addthis_button_facebook" fb:like:layout="button_count" addthis:url="http://mantisbt.org/"></a>
+            <a class="addthis_button_twitter"></a>
+            <a class="addthis_button_linkedin"></a>
+            <a class="addthis_button_google_plusone_share"></a>
+            <a class="addthis_button_compact"></a><a class="addthis_counter addthis_bubble_style"></a>
+          </div>
+          <!-- AddThis Button END -->
+          <br>
         </div>
-        <div class="col-md-1"></div>
         <!-- FOOTER: NEWSLETTER -->
-        <div class="col-sm-12 col-md-4 footer-center">
+        <div class="col-sm-4 col-md-4 footer-center">
           <h4 class="center-title">Newsletter</h4>
           <p>Stay up to date with our latest news and product releases by signing up to our newsletter.</p>
           <div id="mc_embed_signup">
@@ -48,13 +57,11 @@
         </div>
         <div class="col-md-1"></div>
         <!-- FOOTER: ABOUT US -->
-        <div class="col-sm-12 col-md-4 footer-center">
+        <div class="col-sm-4 col-md-4 footer-center">
           <h4 class="center-title">About MantisBT</h4>
-          <p>MantisBT is a popular web-based bug tracking system. It is written in the PHP
-            scripting language and works with MySQL, MS SQL, and PostgreSQL databases and a
-            webserver. MantisBT has been installed on Windows, Linux, Mac OS, OS/2, and others.
-            Almost any web browser should be able to function as a client. It is released under the
-            terms of the GNU General Public License (GPL).</p>
+          <p>MantisBT is a popular web-based bug tracking system. MantisBT has been installed on Windows, Linux,
+            Mac OS, and others. Almost any web browser should be able to function as a client. It is released
+            under the terms of the GNU General Public License (GPL).</p>
         </div>
       </div>
     </div>
