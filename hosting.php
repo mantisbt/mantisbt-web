@@ -55,7 +55,7 @@ include( "top.php" );
       <br>
       <ul class="icons item-details">
         <li>
-          <i class="icon-ok"></i> Free 30-day trail - no credit card required
+          <i class="icon-ok"></i> Free 30-day trial - no credit card required
         </li>
         <li>
           <i class="icon-ok"></i> Support provided by experienced team with extensive MantisBT experience

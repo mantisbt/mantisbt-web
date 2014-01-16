@@ -100,7 +100,6 @@ include( 'config_defaults_inc.php' );
                       <li><a href="download.php">Downloads</a></li>
                       <li><a href="hosting.php">Hosting</a></li>
                       <li><a href="addons.php">Add-ons</a></li>
-                      <li><a href="requirements.php">Requirements</a></li>
                       <li><a href="documentation.php">Documentation</a></li>
                     </ul>
                   </li>
