@@ -199,65 +199,48 @@
 
   <hr>
 
-  <div align="center">
-    <img src="images/mantisbt_screenshot.png" width="545" height="268" alt="MantisBT Screenshot" />
-  </div>
-
   <div class="row main-block index1">
     <div class="col-sm-12 col-md-12">
       <!-- MAIN CONTENT AREA: bizstrap CUSTOM - HERO LIST -->
       <div class="row show-grid hero-list">
-        <div class="col-sm-3 col-md-3">
-          <div class="image-wrapper">
-            <div class="img">
-              <img class="img-responsive" src="img/ruler.png" alt="">
-            </div>
-          </div>
-          <div class="image-text">
-            <h2>Clean Design</h2>
-            <p>Modern, clean design to give your business a highly professional appearance.
-              <a href="#">Learn more»</a>
-            </p>
-          </div>
-          <div class="clear"></div>
-        </div>
-        <div class="col-sm-3 col-md-3">
-          <div class="image-wrapper">
-            <div class="img">
-              <img class="img-responsive" src="img/equaliser.png" alt="">
-            </div>
-          </div>
-          <div class="image-text">
-            <h2>Flexible Layout</h2>
-            <p>Flexible page layout templates to help you quickly organize your website's
-              content. <a href="#">Learn more»</a>
-            </p>
-          </div>
-          <div class="clear"></div>
-        </div>
-        <div class="col-sm-3 col-md-3">
+        <div class="col-sm-4 col-md-4">
           <div class="image-wrapper">
             <div class="img">
               <img class="img-responsive" src="img/direction.png" alt="">
             </div>
           </div>
           <div class="image-text">
-            <h2>Quick Shortcuts</h2>
-            <p>Dozens of unique shortcuts to add your own cool and custom flare. <a href="#">Learn more»</a>
+            <h2>Email Notifications</h2>
+            <p>Keep everyone updated with notifications on issue updates, resolution, or comments.
+              <a href="features.php">Learn more»</a>
             </p>
           </div>
           <div class="clear"></div>
         </div>
-        <div class="col-sm-3 col-md-3">
+        <div class="col-sm-4 col-md-4">
           <div class="image-wrapper">
             <div class="img">
-              <img class="img-responsive" src="img/both_arrows.png" alt="">
+              <img class="img-responsive" src="img/equaliser.png" alt="">
             </div>
           </div>
           <div class="image-text">
-            <h2>Responsive</h2>
-            <p>Ultra-responsive design so your pages work beautifully on practically
-              any device. <a href="#">Learn more»</a>
+            <h2>Access Control</h2>
+            <p>Set user permissions per project with MantisBT powerful multi-level access control.
+              <a href="features.php">Learn more»</a>
+            </p>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="col-sm-4 col-md-4">
+          <div class="image-wrapper">
+            <div class="img">
+              <img class="img-responsive" src="img/ruler.png" alt="">
+            </div>
+          </div>
+          <div class="image-text">
+            <h2>Customizable</h2>
+            <p>Customize issue status for your workflow. Add custom fields & control field visibility.
+              <a href="features.php">Learn more»</a>
             </p>
           </div>
           <div class="clear"></div>
@@ -271,18 +254,35 @@
 
   <div class="main-block testimonials">
     <div class="title-wrapper">
-      <h2>Testimonials</h2><a class="all" href="#">Show all Client Testimonials»</a>
+      <h2>Testimonials</h2>
     </div>
     <div class="clear-both"></div>
+    <br>
     <div class="row show-grid">
-      <div class="col-sm-12 col-sm-12 col-md-12">
+      <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="testimonials-block">
           <div class="quote"></div>
-          <p class="first-row">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-            ut fermentum massa justo sit amet risus.</p>
-          <p>Cras mattis consectetur purus sit amet fermentum.</p>
+          <p>"We've come to respect mantis for its powerful simplicity and I go around recommending it to friends and clients alike."</p>
           <p></p>
-          <p class="autor">Mr.Sam , Manager</p>
+          <p class="autor"><small>John Zastrow <span class="spacer">/</span> <span class="primary-colour">Tetra Tech, Inc.</span></small></p>
+        </div>
+      </div>
+    </div>
+    <div class="row show-grid">
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="testimonials-block">
+          <div class="quote"></div>
+          <p>"Great product! We tried 6 different issue trackers before settling on Mantis."</p>
+          <p></p>
+          <p class="autor"><small>John Locke <span class="spacer">/</span> <span class="primary-colour">Freelock Computing</span></small></p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="testimonials-block">
+          <div class="quote"></div>
+          <p>"Very flexible great project, exactly what we need for our software development."</p>
+          <p></p>
+          <p class="autor"><small>Attila Strba <span class="spacer">/</span> <span class="primary-colour">EnOcean</span></small></p>
         </div>
       </div>
     </div>
@@ -290,18 +290,18 @@
     <div class="col-sm-12 col-md-12 grey-box">
       <div class="hero-block3">
         <div class="row show-grid">
-          <div class="col-sm-7 col-md-7">
+          <div class="col-sm-8 col-md-8">
             <div class="hero-content-3">
               <h2>Try MantisBT Now!</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero
-                magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque
-                viverra vehicula sem ut volutpat. Integer sed arcu massa.</p>
+              <p>It's never been easier to evaluate MantisBT.
+                You can start by one or more of the demo options we have available or just go direct to downloads page
+                and get the latest version along with the administrator's guide to setup on your own servers.</p>
             </div>
           </div>
-          <div class="col-sm-5 col-md-5">
+          <div class="col-sm-4 col-md-4">
             <div class="tour-btn btn-default">
-              <a class="btn btn-warning btn-block" href="#">Download Latest Release</a>
-              <a class="btn btn-warning btn-block" href="#">Start Free Trial on MantisHub</a>
+              <a class="btn btn-warning btn-block" href="demo.php">Demo</a>
+              <a class="btn btn-warning btn-block" href="download.php">Download</a>
             </div>
           </div>
         </div>
