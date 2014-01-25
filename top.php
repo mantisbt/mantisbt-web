@@ -68,36 +68,19 @@ include( 'config_defaults_inc.php' );
               <img alt="logo" title="Mantis Bug Tracker" width="200" src="images/mantis_logo_262x90.png" class="img-responsive" />
             </a>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-6">
-            <!-- HEADER: SOCIAL ICONS -->
-            <div class="grey-box" style="width:305px; height:32px; padding: 4px 10px 0 18px; margin-bottom: 10px">
-              <!-- AddThis Button BEGIN -->
-              <div class="addthis_toolbox addthis_default_style" addthis:url="http://mantisbt.org/" addthis:title="MantisBT is a free popular web-based bug & issue tracking system">
-                <a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:url="http://mantisbt.org/"></a>
-                <a class="addthis_button_tweet"></a>
-                <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-              </div>
-              <!-- AddThis Button END -->
-            </div>
-          </div>
-        </div>
-
-        <!-- HEADER: PRIMARY SITE NAVIGATION -->
-
-        <div class="row">
-          <div class="col-sm-12 col-md-12">
-            <div class="navbar navbar-default">
-              <div class="navbar-header"></div>
-              <div class="buttons-container"></div>
-              <div class="navbar-collapse">
-                <ul class="nav nav-pills navbar-nav">
+          <div class="col-sm-6 col-md-6" style="clear: none; float: right;">
+            <div class="navbar navbar-default" style="clear: none;">
+              <div class="navbar-collapse" style="clear: none;">
+                <ul class="nav nav-pills navbar-nav" style="clear: none;">
                   <li class="single">
-                    <a href="index.php">HOME</a>
+                    <a href="index.php">
+                      HOME
+                    </a>
                   </li>
 
                   <li class="single">
                     <a href="demo.php">
-                      DEMO</i>
+                      DEMO
                     </a>
                   </li>
 
@@ -123,7 +106,24 @@ include( 'config_defaults_inc.php' );
             </div>
           </div>
         </div>
-      </div>
+          <?php if ( false ) { ?>
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <!-- HEADER: SOCIAL ICONS -->
+            <div class="grey-box" style="width:305px; height:32px; padding: 4px 10px 0 18px; margin-bottom: 10px">
+              <!-- AddThis Button BEGIN -->
+              <div class="addthis_toolbox addthis_default_style" addthis:url="http://mantisbt.org/" addthis:title="MantisBT is a free popular web-based bug & issue tracking system">
+                <a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:url="http://mantisbt.org/"></a>
+                <a class="addthis_button_tweet"></a>
+                <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+              </div>
+              <!-- AddThis Button END -->
+            </div>
+          </div>
+          <?php } ?>
+        </div>
+
+        <!-- HEADER: PRIMARY SITE NAVIGATION -->
+
     </header>
 
 
