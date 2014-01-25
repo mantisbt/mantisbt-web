@@ -134,7 +134,6 @@
           <div class="image-text">
             <h2>Email Notifications</h2>
             <p>Keep your team and clients updated with notifications on issue updates, resolution, or comments.
-              <?php //<a href="features.php">Learn more»</a> ?>
             </p>
           </div>
           <div class="clear"></div>
@@ -148,7 +147,6 @@
           <div class="image-text">
             <h2>Access Control</h2>
             <p>Per project role based access control for users putting you in control of your business.
-              <?php //<a href="features.php">Learn more»</a> ?>
             </p>
           </div>
           <div class="clear"></div>
@@ -163,7 +161,6 @@
             <h2>Customizable</h2>
             <p>
               Flexibility to customize your issue fields, notifications and workflow.
-              <?php // <a href="features.php">Learn more»</a> ?>
             </p>
           </div>
           <div class="clear"></div>
