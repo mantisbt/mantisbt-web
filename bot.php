@@ -34,6 +34,7 @@
 
           Resources:<br />
           <a href="development.php">Development</a><br />
+          <a href="documentation.php">Documentation</a><br />
           <a href="<?php echo $g_blog_url ;?>">Blog</a><br />
 
           <!-- AddThis Button END -->

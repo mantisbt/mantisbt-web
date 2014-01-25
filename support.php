@@ -90,6 +90,15 @@ include( "top.php" );
           Read channel archives <i class="icon-arrow-right"></i>
         </a>
       </div>
+      <div class="note-stick stick pull-left">
+        <br>
+        <p>Admin and Developer</p>
+        <h2>Documentation</h2>
+        <br>
+        <a href="documentation.php" type="button" class="ex btn btn-group btn-default btn-inverse btn-block">
+          Go to Docs <i class="icon-arrow-right"></i>
+        </a>
+      </div>
     </div>
   </div>
 
