@@ -26,7 +26,7 @@ include( "top.php" );
           <i class="icon-book"></i> <a href="/docs/master-1.2.x/en/administration_guide/admin.install.upgrade.html">How to upgrade?</a>
         </li>
         <li>
-          <i class="icon-paper-clip"></i> <a href="/bugs/changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version; ?>">Changelog</a>
+          <i class="icon-paper-clip"></i> <a href="/bugs/changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_stable; ?>">Changelog</a>
         </li>
         <li>
           <i class="icon-check"></i> <a href="/docs/master-1.2.x/en/administration_guide/admin.install.requirements.html">Requirements</a>
@@ -64,7 +64,7 @@ include( "top.php" );
       <ul class="icons">
         <ul class="item-details">
           <li>
-            <i class="icon-road"></i> <a href="/bugs/roadmap_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_dev; ?>">Roadmap</a>
+            <i class="icon-road"></i> <a href="/bugs/roadmap_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_dev_roadmap; ?>">Roadmap</a>
           <li>
           <li>
             <i class="icon-paper-clip"></i> <a href="/bugs/changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_dev; ?>">Changelog</a>

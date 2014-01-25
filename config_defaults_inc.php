@@ -9,6 +9,7 @@
 
 	# Information about latest development release.
 	$g_latest_version_dev = '1.3.0b1';
+	$g_latest_version_dev_roadmap = '1.3.x';
 
 	########################################
 	# Include user's config, if available
