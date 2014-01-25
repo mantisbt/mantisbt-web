@@ -63,15 +63,18 @@ include( 'config_defaults_inc.php' );
       <div class="container">
         <div class="row">
           <!-- HEADER: LOGO AREA -->
-          <div class="col-xs-12 col-sm-6 col-md-6 logo">
+          <div class="col-xs-12 col-sm-4 col-md-3 logo">
             <a class="logo" href="index.php">
               <img alt="logo" title="Mantis Bug Tracker" width="200" src="images/mantis_logo_262x90.png" class="img-responsive" />
             </a>
           </div>
-          <div class="col-sm-6 col-md-6" style="clear: none; float: right;">
-            <div class="navbar navbar-default" style="clear: none;">
-              <div class="navbar-collapse" style="clear: none;">
-                <ul class="nav nav-pills navbar-nav" style="clear: none;">
+
+          <div class="col-xs-12 col-sm-8 col-md-9">
+            <div class="navbar navbar-default">
+              <div class="navbar-header"></div>
+              <div class="buttons-container"></div>
+              <div class="navbar-collapse pull-right">
+                <ul class="nav nav-pills navbar-nav">
                   <li class="single">
                     <a href="index.php">
                       HOME

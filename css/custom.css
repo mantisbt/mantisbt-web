@@ -126,8 +126,7 @@
     .navbar {
         border-top: 1px solid #CCC;
         border-bottom: 1px solid #CCC;
-        border-right: none;
-        border-left: none;
+        border: none;
     }
     .dif-table {
         margin-left: 20px;
@@ -351,6 +350,7 @@
 @media (min-width: 768px) and (max-width: 979px) {
     .navbar-collapse {
         display: none;
+        border-bottom: 1px solid;
     }
     #out_container.boxed, #out_container.boxed-attached {
         width:764px;
@@ -673,6 +673,7 @@
 @media (max-width: 767px) {
     .navbar-collapse {
         display: none;
+        border-bottom: 1px solid;
     }
     body {
         padding:0;
@@ -1222,6 +1223,7 @@
 }
 .navbar-collapse {
     padding: 0;
+    border-bottom: 1px solid;
 }
 
 /*Custom Landscapes End*/
