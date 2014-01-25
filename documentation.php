@@ -24,7 +24,7 @@ include( "top.php" );
         <i class="icon-twitter"></i> <a href="http://www.twitter.com/mantisbt">Twitter</a>
       </li>
       <li>
-        <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:press">MantisBT in the Press</a>
+        <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:press">Reviews and Press Articles</a>
       </li>
     </ul>
   </div>
@@ -82,6 +82,19 @@ include( "top.php" );
     <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.pdf" type="button" class="ex btn btn-default btn-inverse btn-block">
       <i class="icon-arrow-down"></i> Download PDF
     </a>
+  </div>
+</div>
+
+<hr>
+
+<div class="row show-grid clear-both">
+  <div class="col-md-8 col-sm-8">
+    <h1>Docs for Translators</h1>
+    <p>
+      MantisBT ships in <a href="https://github.com/mantisbt/mantisbt/tree/master/lang">50 languages</a> providing it a great penetration around the world.
+      Anyone can contribute improvements to existing languages or even new languages via TranslateWiki.
+      For more details check the <a href="http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto">'Translators How To Guide'</a>.
+    </p>
   </div>
 </div>
 
