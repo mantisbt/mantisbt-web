@@ -23,7 +23,7 @@
             </div>
             <div class="caption sfl carousel-caption" data-x="462" data-y="205" data-speed="1000"
                  data-start="1000" data-easing="easeOutBack" style="background: none;">
-              <p class="big">bug & issue tracking system</p>
+              <p class="big">bug and issue tracking system</p>
             </div>
             <div class="caption sfb carousel-caption" data-x="474" data-y="262" data-speed="1000"
                  data-start="1000" data-easing="easeInBack" style="background: none; width: 436px;">
@@ -89,15 +89,12 @@
       <div class="row">
 
         <div class="col-sm-6 col-md-6 home-block hero-block-1">
-          <h1>Let MantisBT track your bugs!</h1>
-          <h2>Easy, fast &amp; feature complete</h2>
+          <h1>MantisBT makes collaboration with team members &amp; clients,</h1>
+          <h2>Easy, fast and professional</h2>
           <p>
-            MantisBT supports multiple projects and
-            different bug types (a.k.a. categories). It gives individual users roles and privileges, and displays
-            a changelog and roadmap based on relevant bug resolution state. It also allows users to monitor specific
-            issues and organize bugs based on how they relate to a user. It can notify developers and end users of
-            reported bugs through email, RSS feeds, and even Twitter. MantisBT also implements a SOAP API
-            which allows clients in any language to connect to it.
+            MantisBT is an open source issue tracker that provides a delicate balance between simplicity and power.
+            Users are able to get started in minutes and start managing their projects while collaborating with their teammates and clients effectively.
+            Once you start using it, you will never go back!
           </p>
         </div>
 
@@ -105,18 +102,18 @@
 
         <div class="col-sm-5 col-md-5 home-block">
           <div class="grey-box hero-block-2">
-            <h2><a href="demo.php">Get MantisBT <?php echo $g_latest_version_stable; ?></a></h2>
+            <h2><a href="demo.php">MantisBT <?php echo $g_latest_version_stable; ?></a></h2>
             <p>
               <img class="img-responsive" src="img/release_icon.png" alt=""/>
-              Download the latest MantisBT release. To try before downloading, click on the demo button.
-              For details on for details on the changes and bug fixes in this release, check out the
-              <a href="/bugs/changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version; ?>">changelog</a>.
+              For details on the new features and bug fixes in this release, check out the
+              <a href="/bugs/changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_stable; ?>">changelog</a>.
             </p>
 
             <div class="clear-both"></div>
 
             <a class="btn btn-warning" href="demo.php">Demo</a>
             <a class="btn btn-warning" href="download.php">Download</a>
+            <a class="btn btn-warning" href="hosting.php">Hosting</a>
           </div>
         </div>
       </div>
@@ -136,7 +133,7 @@
           </div>
           <div class="image-text">
             <h2>Email Notifications</h2>
-            <p>Keep everyone updated with notifications on issue updates, resolution, or comments.
+            <p>Keep your team and clients updated with notifications on issue updates, resolution, or comments.
               <?php //<a href="features.php">Learn more»</a> ?>
             </p>
           </div>
@@ -150,7 +147,7 @@
           </div>
           <div class="image-text">
             <h2>Access Control</h2>
-            <p>Set user permissions per project with MantisBT powerful multi-level access control.
+            <p>Per project role based access control for users putting you in control of your business.
               <?php //<a href="features.php">Learn more»</a> ?>
             </p>
           </div>
@@ -164,7 +161,8 @@
           </div>
           <div class="image-text">
             <h2>Customizable</h2>
-            <p>Customize issue status for your workflow. Add custom fields & control field visibility.
+            <p>
+              Flexibility to customize your issue fields, notifications and workflow.
               <?php // <a href="features.php">Learn more»</a> ?>
             </p>
           </div>
@@ -179,7 +177,7 @@
 
   <div class="main-block testimonials">
     <div class="title-wrapper">
-      <h2>Testimonials</h2>
+      <h2>Words from our users</h2>
     </div>
     <div class="clear-both"></div>
     <br>
