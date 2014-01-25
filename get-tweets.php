@@ -1,22 +1,16 @@
 <?php
+    include( 'config_defaults_inc.php' );
+
     session_start();
     require_once("twitteroauth-master/twitteroauth/twitteroauth.php"); //Path to twitteroauth library
-
-    $twitteruser = "TWITTER-USERNAME-HERE";
-    $notweets = 5;
-    $consumerkey = "CONSUMER-KEY-HERE";
-    $consumersecret = "CONSUMER-SECRET-HERE";
-    $accesstoken = "ACCESS-TOKEN-HERE";
-    $accesstokensecret = "ACCESS-TOKEN-SECRET";
 
     function getConnectionWithAccessToken($cons_key, $cons_secret, $oauth_token, $oauth_token_secret) {
       $connection = new TwitterOAuth($cons_key, $cons_secret, $oauth_token, $oauth_token_secret);
       return $connection;
     }
 
-    $connection = getConnectionWithAccessToken($consumerkey, $consumersecret, $accesstoken, $accesstokensecret);
+    $connection = getConnectionWithAccessToken( $g_twitter_consumer_key, $g_twitter_consumer_secret, $g_twitter_access_token, $g_twitter_access_token_secret );
 
-    $tweets = $connection->get("https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=".$twitteruser."&count=".$notweets);
+    $tweets = $connection->get( 'https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=' . $g_twitter_username . "&count=" . $g_twitter_tweets_count );
 
     echo json_encode($tweets);
-?>

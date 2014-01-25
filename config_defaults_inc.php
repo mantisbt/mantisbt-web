@@ -11,6 +11,14 @@
 	$g_latest_version_dev = '1.3.0b1';
 	$g_latest_version_dev_roadmap = '1.3.x';
 
+	# Twitter Information
+	$g_twitter_username = 'mantisbt';
+	$g_twitter_consumer_key = '';
+	$g_twitter_consumer_secret = '';
+	$g_twitter_access_token = '';
+	$g_twitter_access_token_secret = '';
+	$g_twitter_tweets_count = 5;
+
 	########################################
 	# Include user's config, if available
 	########################################
