@@ -5,7 +5,7 @@ include( "top.php" );
 
 <div id="breadcrumb">
   <ul>
-    <li class="home"><a href="/">Home</a></li>
+    <li class="home"><a href="index.php">Home</a></li>
     <li>Mailing Lists</li>
   </ul>
 </div>
