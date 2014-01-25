@@ -3,14 +3,6 @@ $t_sub_title = "MantisBT Add-ons";
 include( "top.php" );
 ?>
 
-  <div id="breadcrumb">
-    <ul>
-      <li class="home"><a href="index.php">Home</a></li>
-      <li><a href="index.php">MantisBT</a></li>
-      <li>Add-ons</li>
-    </ul>
-  </div>
-
   <div class="row show-grid clear-both">
     <div class="col-sm-7 col-md-8">
       <h1>MantisTouch<small>| MantisBT Gone Mobile!</small></h1>

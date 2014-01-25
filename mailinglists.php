@@ -3,13 +3,6 @@ $t_sub_title = "Mailing Lists";
 include( "top.php" );
 ?>
 
-<div id="breadcrumb">
-  <ul>
-    <li class="home"><a href="index.php">Home</a></li>
-    <li>Mailing Lists</li>
-  </ul>
-</div>
-
 <div class="row show-grid clear-both">
   <div class="col-md-12 col-sm-12 col-md-12">
 

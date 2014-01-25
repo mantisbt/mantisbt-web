@@ -3,14 +3,6 @@ $t_sub_title = "Support";
 include( "top.php" );
 ?>
 
-  <div id="breadcrumb">
-    <ul>
-      <li class="home"><a href="index.php">Home</a></li>
-      <li>Support</li>
-    </ul>
-  </div>
-
-
   <div class="row show-grid clear-both">
     <div class="col-sm-12 col-md-12">
 

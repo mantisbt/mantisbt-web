@@ -3,14 +3,6 @@ $t_sub_title = "Download";
 include( "top.php" );
 ?>
 
-  <div id="breadcrumb">
-    <ul>
-      <li class="home"><a href="index.php">Home</a></li>
-      <li><a href="index.php">MantisBT</a></li>
-      <li>Downloads</li>
-    </ul>
-  </div>
-
   <div class="row show-grid clear-both">
 
     <div class="col-sm-7 col-md-8">
