@@ -14,16 +14,13 @@
   </div>
 </div>
 
-<!-- FOOTER STARTS HERE -->
 <footer id="footer">
   <div class="footer-top"></div>
   <div class="footer-wrapper">
     <div class="container">
       <div class="row show-grid">
-        <!-- FOOTER: LOGO -->
         <div class="col-sm-3 col-md-3 footer-center">
           <img alt="Mantis Bug Tracker Logo" class="footer-logo img-responsive" src="images/mantis_footer_logo.png"/>
-          <!-- AddThis Button BEGIN -->
           <div class="addthis_toolbox addthis_default_style addthis_16x16_style" addthis:url="http://mantisbt.org/" addthis:title="MantisBT is a free popular web-based bug & issue tracking system">
             <a class="addthis_button_facebook" fb:like:layout="button_count" addthis:url="http://mantisbt.org/"></a>
             <a class="addthis_button_twitter"></a>
@@ -31,16 +28,17 @@
             <a class="addthis_button_google_plusone_share"></a>
             <a class="addthis_button_compact"></a><a class="addthis_counter addthis_bubble_style"></a>
           </div>
-
-          Resources:<br />
-          <a href="development.php">Development</a><br />
-          <a href="documentation.php">Documentation</a><br />
-          <a href="<?php echo $g_blog_url ;?>">Blog</a><br />
-
-          <!-- AddThis Button END -->
           <br>
         </div>
-        <!-- FOOTER: NEWSLETTER -->
+        <div class="col-sm-4 col-md-4 footer-center">
+          <h4 class="center-title">Resources</h4>
+          <ul class="footer-navigate">
+            <li> <a href="development.php">Development</a></li>
+            <li> <a href="documentation.php">Documentation</a></li>
+            <li> <a href="<?php echo $g_blog_url ;?>">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-md-1"></div>
         <div class="col-sm-4 col-md-4 footer-center">
           <h4 class="center-title">Newsletter</h4>
           <p>Stay up to date with our latest news and product releases by signing up to our newsletter.</p>
@@ -61,23 +59,12 @@
             </div>
           </div>
         </div>
-        <div class="col-md-1"></div>
-        <!-- FOOTER: ABOUT US -->
-        <div class="col-sm-4 col-md-4 footer-center">
-          <h4 class="center-title">About MantisBT</h4>
-          <p>
-            MantisBT is a popular open source web-based bug tracking system.
-            Built on PHP and supports Linux, Windows and Mac OS X on the server side.
-            Compatible with Chrome, Firefox, Safari, Opera and IE 7+.
-            Released under the terms of the GNU General Public License (GPL).</p>
-        </div>
       </div>
     </div>
 
     <div class="footer-bottom">
       <div class="container">
         <div class="row show-grid">
-          <!-- FOOTER: COPYRIGHT TEXT -->
           <div class="col-sm-12 col-md-12">
             <p>Copyright © 2000 - 2014 MantisBT Team</p>
           </div>

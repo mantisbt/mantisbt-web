@@ -96,7 +96,7 @@ include( 'config_defaults_inc.php' );
                     </a>
                   </li>
 
-                  <li class="single">
+                  <li class="single" style="border-right:none;">
                     <a href="hosting.php">
                       HOSTING
                     </a>
