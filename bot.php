@@ -21,7 +21,7 @@
     <div class="container">
       <div class="row show-grid">
         <!-- FOOTER: LOGO -->
-        <div class="col-sm-3 col-md-3">
+        <div class="col-sm-3 col-md-3 footer-center">
           <img alt="Mantis Bug Tracker Logo" class="footer-logo img-responsive" src="images/mantis_footer_logo.png"/>
           <!-- AddThis Button BEGIN -->
           <div class="addthis_toolbox addthis_default_style addthis_16x16_style" addthis:url="http://mantisbt.org/" addthis:title="MantisBT is a free popular web-based bug & issue tracking system">
@@ -31,6 +31,11 @@
             <a class="addthis_button_google_plusone_share"></a>
             <a class="addthis_button_compact"></a><a class="addthis_counter addthis_bubble_style"></a>
           </div>
+
+          Resources:<br />
+          <a href="development.php">Development</a><br />
+          <a href="<?php echo $g_blog_url ;?>">Blog</a><br />
+
           <!-- AddThis Button END -->
           <br>
         </div>
@@ -59,9 +64,11 @@
         <!-- FOOTER: ABOUT US -->
         <div class="col-sm-4 col-md-4 footer-center">
           <h4 class="center-title">About MantisBT</h4>
-          <p>MantisBT is a popular web-based bug tracking system. MantisBT has been installed on Windows, Linux,
-            Mac OS, and others. Almost any web browser should be able to function as a client. It is released
-            under the terms of the GNU General Public License (GPL).</p>
+          <p>
+            MantisBT is a popular open source web-based bug tracking system.
+            Built on PHP and supports Linux, Windows and Mac OS X on the server side.
+            Compatible with Chrome, Firefox, Safari, Opera and IE 7+.
+            Released under the terms of the GNU General Public License (GPL).</p>
         </div>
       </div>
     </div>

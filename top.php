@@ -91,51 +91,31 @@ include( 'config_defaults_inc.php' );
               <div class="buttons-container"></div>
               <div class="navbar-collapse">
                 <ul class="nav nav-pills navbar-nav">
-                  <li class="active dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#menu">
-                      MantisBT
-                      <i>downloads &amp; hosting</i>
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a href="index.php">Home</a></li>
-                      <li><a href="download.php">Downloads</a></li>
-                      <li><a href="hosting.php">Hosting</a></li>
-                      <li><a href="addons.php">Add-ons</a></li>
-                      <li><a href="documentation.php">Documentation</a></li>
-                    </ul>
-                  </li>
-
-<?php /*
                   <li class="single">
-                    <a href="features.php">
-                      FEATURES<i>simple yet powerful</i>
-                    </a>
+                    <a href="index.php">HOME</a>
                   </li>
-*/ ?>
 
                   <li class="single">
                     <a href="demo.php">
-                      DEMO<i>take a test drive</i>
+                      DEMO</i>
                     </a>
                   </li>
 
                   <li class="single">
                     <a href="support.php">
-                      SUPPORT<i>find answers</i>
+                      SUPPORT
                     </a>
-                  </li>
-
-                  <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#menu4">
-                      CONTRIBUTE<i>get involved</i>
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a href="development.php">Development</a></li>
-                      <li><a href="<?php echo $g_bugs_url; ?>">Bug Tracker</a></li>
-                    </ul>
                   </li>
 
                   <li class="single">
-                    <a href="<?php echo $g_blog_url; ?>">
-                      BLOG<i>stay informed</i>
+                    <a href="addons.php">
+                      ADD-ONS
+                    </a>
+                  </li>
+
+                  <li class="single">
+                    <a href="hosting.php">
+                      HOSTING
                     </a>
                   </li>
                 </ul>
