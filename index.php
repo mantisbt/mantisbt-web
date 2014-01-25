@@ -1,5 +1,7 @@
 <?php include( "top.php" ); ?>
   <div class="row">
+
+<?php if ( false ) { ?>
   <div class="col-sm-12 col-md-12">
     <div class="bannercontainer">
       <div class="banner">
@@ -80,6 +82,7 @@
       </div>
     </div>
   </div>
+<?php } ?>
 
   <div class="main-block">
     <div class="col-sm-12 col-md-12">
