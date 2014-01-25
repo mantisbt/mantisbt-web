@@ -1,5 +1,7 @@
 <?php include( "top.php" ); ?>
   <div class="row">
+
+<?php if ( false ) { ?>
   <div class="col-sm-12 col-md-12">
     <div class="bannercontainer">
       <div class="banner">
@@ -80,6 +82,7 @@
       </div>
     </div>
   </div>
+<?php } ?>
 
   <div class="main-block">
     <div class="col-sm-12 col-md-12">
@@ -89,12 +92,12 @@
           <h1>Let MantisBT track your bugs!</h1>
           <h2>Easy, fast &amp; feature complete</h2>
           <p>
-            MantisBT offers simple and detailed issue pages. It supports multiple projects, subprojects, and
-            different bug types (a.k.a.  categories). It gives individual users roles and privileges, and displays
+            MantisBT supports multiple projects and
+            different bug types (a.k.a. categories). It gives individual users roles and privileges, and displays
             a changelog and roadmap based on relevant bug resolution state. It also allows users to monitor specific
             issues and organize bugs based on how they relate to a user. It can notify developers and end users of
-            reported bugs through email, RSS feeds, and even Twitter. MantisBT also implements a PHP SOAP library,
-            which allows programs like Eclipse and platforms like Java and .Net to interface with it.
+            reported bugs through email, RSS feeds, and even Twitter. MantisBT also implements a SOAP API
+            which allows clients in any language to connect to it.
           </p>
         </div>
 
@@ -102,12 +105,12 @@
 
         <div class="col-sm-5 col-md-5 home-block">
           <div class="grey-box hero-block-2">
-            <h2><a href="demo.php">Get MantisBT 1.2.15</a></h2>
+            <h2><a href="demo.php">Get MantisBT <?php echo $g_latest_version_stable; ?></a></h2>
             <p>
               <img class="img-responsive" src="img/release_icon.png" alt=""/>
               Download the latest MantisBT release. To try before downloading, click on the demo button.
               For details on for details on the changes and bug fixes in this release, check out the
-              <a href="http://www.mantisbt.org/bugs/changelog_page.php?version_id=182">changelog</a>.
+              <a href="/bugs/changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version; ?>">changelog</a>.
             </p>
 
             <div class="clear-both"></div>
@@ -134,7 +137,7 @@
           <div class="image-text">
             <h2>Email Notifications</h2>
             <p>Keep everyone updated with notifications on issue updates, resolution, or comments.
-              <a href="features.php">Learn more»</a>
+              <?php //<a href="features.php">Learn more»</a> ?>
             </p>
           </div>
           <div class="clear"></div>
@@ -148,7 +151,7 @@
           <div class="image-text">
             <h2>Access Control</h2>
             <p>Set user permissions per project with MantisBT powerful multi-level access control.
-              <a href="features.php">Learn more»</a>
+              <?php //<a href="features.php">Learn more»</a> ?>
             </p>
           </div>
           <div class="clear"></div>
@@ -162,7 +165,7 @@
           <div class="image-text">
             <h2>Customizable</h2>
             <p>Customize issue status for your workflow. Add custom fields & control field visibility.
-              <a href="features.php">Learn more»</a>
+              <?php // <a href="features.php">Learn more»</a> ?>
             </p>
           </div>
           <div class="clear"></div>

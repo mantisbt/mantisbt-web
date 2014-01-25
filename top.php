@@ -104,11 +104,13 @@ include( 'config_defaults_inc.php' );
                     </ul>
                   </li>
 
+<?php /*
                   <li class="single">
                     <a href="features.php">
                       FEATURES<i>simple yet powerful</i>
                     </a>
                   </li>
+*/ ?>
 
                   <li class="single">
                     <a href="demo.php">

@@ -14,20 +14,22 @@ include( "top.php" );
   <div class="row show-grid clear-both">
 
     <div class="col-sm-7 col-md-8">
-      <h1>Stable Release</h1>
-      <p>This is the latest stable MantisBT release.
-        Feel free to download this version for production use. </p>
+      <h1>Stable Release <small>| Get on latest!</small></h1>
+      <p>
+        This is the latest stable MantisBT release.
+        Make sure you are running the latest release to benefit from all security fixes, bug fixes, and new features.
+      </p>
 
       <h3>Additional Resources:</h3>
       <ul class="icons item-details">
         <li>
-          <i class="icon-book"></i> <a href="/docs/master-1.2.x/en/administration_guide/admin.install.upgrade.html">Admin Guide</a>
+          <i class="icon-book"></i> <a href="/docs/master-1.2.x/en/administration_guide/admin.install.upgrade.html">How to upgrade?</a>
         </li>
         <li>
-          <i class="icon-paper-clip"></i> <a href="/docs/master-1.2.x/en/administration_guide/admin.install.upgrade.html">Chanagelog</a>
+          <i class="icon-paper-clip"></i> <a href="/bugs/changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_stable; ?>">Changelog</a>
         </li>
         <li>
-          <i class="icon-check"></i> <a href="requirements.php">Requirements</a>
+          <i class="icon-check"></i> <a href="/docs/master-1.2.x/en/administration_guide/admin.install.requirements.html">Requirements</a>
         </li>
       </ul>
     </div>
@@ -35,7 +37,7 @@ include( "top.php" );
       <div style="font-size: 38px;"> <i class="icon-bullhorn"></i>
       </div>
       <br>
-      <h2 style="font-size: 28px;line-height: 36px">MantisBT 1.2.15</h2>
+      <h2 style="font-size: 28px;line-height: 36px">MantisBT <?php echo $g_latest_version_stable; ?></h2>
       <br>
       <p>
         <a href="https://sourceforge.net/projects/mantisbt/files/mantis-stable/" type="button" class="ex btn btn-default  btn-inverse">
@@ -47,9 +49,10 @@ include( "top.php" );
 
   <hr>
 
+  <?php if ( !empty( $g_latest_version_dev ) ) { ?>
   <div class="row show-grid clear-both">
     <div class="col-md-12 col-sm-12">
-      <h1>Development Release</h1>
+      <h1>Development Release <small>| Bleeding edge for the brave and tech savvy!</small></h1>
       <p>The latest development release is intended for evaluation and testing purposes. It is not recommended for
         production use, unless you are comfortable with PHP and able to troubleshoot issues that may arise. </p>
     </div>
@@ -61,26 +64,30 @@ include( "top.php" );
       <ul class="icons">
         <ul class="item-details">
           <li>
-            <i class="icon-road"></i> <a href="/bugs/roadmap_page.php?project=mantisbt&version=1.3.x">Roadmap</a>
+            <i class="icon-road"></i> <a href="/bugs/roadmap_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_dev_roadmap; ?>">Roadmap</a>
           <li>
           <li>
-            <i class="icon-book"></i> <a href="requirements.php">Requirements</a>
+            <i class="icon-paper-clip"></i> <a href="/bugs/changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_dev; ?>">Changelog</a>
+          </li>
           <li>
+            <i class="icon-check"></i> <a href="/docs/master-1.2.x/en/administration_guide/admin.install.requirements.html">Requirements</a>
+          </li>
         </ul>
       </ul>
     </div>
     <div class="col-sm-4 col-md-4">
       <a href="https://sourceforge.net/projects/mantisbt/files/mantis-development/" type="button" class="btn btn-default btn-primary">
-        <i class="icon-arrow-down"></i> Download MantisBT 1.3.x
+        <i class="icon-arrow-down"></i> Download MantisBT <?php echo $g_latest_version_dev; ?>
       </a>
     </div>
   </div>
 
   <hr>
+  <?php } ?>
 
   <div class="row show-grid clear-both">
     <div class="col-md-12 col-sm-12">
-      <h1>Nightly Builds</h1>
+      <h1>Nightly Builds <small>| Not Supported - use at your own risk!</small></h1>
       <p>These are nightly snapshots generated from the latest development branches in our Git repository. They have
         only undergone minimal testing through our standard Travis CI build process, and have not been formally
         prepared for release; we recommend you only use them for testing and feedback purposes.  </p>
@@ -105,30 +112,6 @@ include( "top.php" );
       <a href="builds.php" type="button" class="btn btn-default btn-primary">
         <i class="icon-arrow-down"></i> Download Nightly Builds
       </a>
-    </div>
-  </div>
-
-  <hr>
-
-  <div class="row">
-    <div class="col-sm-12 col-md-12 grey-box">
-      <div class="hero-block3">
-        <div class="row show-grid">
-          <div class="col-sm-9 col-md-9">
-            <div class="hero-content-3">
-              <h2>MantisBT Distributions</h2>
-              <p>MantisBT is distributed with several
-                <a href="/wiki/doku.php/mantisbt:distributions">GNU/Linux distributions</a>.
-                Typically however, the versions available in these distributions are not the latest.
-                For the most recent MantisBT release use the links above.</p>
-            </div>
-          </div>
-          <div class="col-sm-3 col-md-3">
-            <div class="tour-btn btn-default"> <a class="btn btn-warning" href="/wiki/doku.php/mantisbt:distributions">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 

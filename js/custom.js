@@ -162,7 +162,7 @@ jQuery(document).ready(function($) {
 	 * messages, navigation arrows and twitter logo are centered vertically
 	 */                     
     $.ajax({ // get content from twiter
-        url: 'http://bizstrap.themeleaf.com/get-tweets.php',
+        url: 'http://www.mantisbt.org/preview/get-tweets.php',
         type: 'GET',        
         dataType: 'json',  
         data: {            

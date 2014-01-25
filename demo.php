@@ -12,17 +12,26 @@ include( "top.php" );
 
   <div class="row show-grid clear-both">
     <div class="col-sm-7 col-md-8">
-      <h1>MantisHub <small>| Experience MantisBT in Full</small></h1>
+      <h1>MantisHub <small>| MantisBT Served Fresh</small></h1>
 
-      <p><span class="lead">MantisHub offers software as a service solution for MantisBT. Get started in seconds and
-          experiment with the latest version of MantisBT as an administrator. Create projects, submit issues and invite
-          team members to evaluate MantisBT with you.</span></p>
+      <p>
+        <span class="lead">
+          MantisHub offers software as a service solution for MantisBT.
+          Get started in seconds and experiment with the latest version of MantisBT.
+        </span>
+      </p>
 
-      Founded by Victor Boctor, MantisBT long time contributor, MantisHub is designed to be the easiest way to try
-      out MantisBT. With 30-day free trial, no credit card required, you can experience MantisBT
-      hassle free with full access to admin and end-user features. After the 30-day trial, you get to decide the
-      best way to integrate MantisBT in your work flow. If you wish to continue using MantisBT, you have the option
-      of paid monthly plans to choose from. Otherwise, your MantisBT instance will be deleted - no questions asked.
+      <p>
+        Having a dedicated instance with administrator access,
+        you are able to create projects,
+        submit issues and invite team members to evaluate MantisBT with you.
+        MantisHub team also offers you the support you need to get up to speed.
+        With 30 day free trial you have plenty of time to get familiar with MantisBT and decide the plan that works for you.
+      </p>
+
+      <p>
+      Founded by Victor Boctor, MantisBT long time contributor, MantisHub is designed to be the a frictionless way to try out MantisBT.
+      </p>
     </div>
     <div class="col-sm-5 col-md-4">
       <div class="attention-stick stick pull-right" style="margin-top: 20px">
@@ -35,6 +44,8 @@ include( "top.php" );
         <a href="http://www.mantishub.com" type="button" class="ex btn btn-default btn-inverse btn-block">
           <i class="icon-arrow-right"></i> Start Your Free Trial
         </a>
+        <br />
+        no credit card required
       </div>
     </div>
   </div>
@@ -43,7 +54,7 @@ include( "top.php" );
 
   <div class="row show-grid clear-both">
     <div class="col-sm-12 col-md-12">
-      <h1>Sneak Peek <small>| Browse MantisBT BugTracker</small></h1>
+      <h1>Sneak Peek <small>| Browse MantisBT Official Tracker</small></h1>
     </div>
   </div>
   <div class="row show-grid clear-both">
@@ -73,10 +84,9 @@ include( "top.php" );
   </div>
   <div class="row show-grid clear-both">
     <div class="col-sm-8 col-md-8">
-      <p>Are you considering deploying MantisBT in your local environment, on premise, or behind
-        a firewall? If yes, then downloading and installing MantisBT is a key part of your evaluation.
-        The good news is that we have all the resources you need to help you get started and resolve any issues you
-        may encounter along the way.
+      <p>
+        Are you considering deploying MantisBT behind the firewall?
+        If yes, then downloading and installing MantisBT is the way to go.
       </p>
     </div>
     <div class="col-md-1"></div>
