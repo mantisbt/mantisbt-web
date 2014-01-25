@@ -23,13 +23,13 @@ include( "top.php" );
       <h3>Additional Resources:</h3>
       <ul class="icons item-details">
         <li>
-          <i class="icon-book"></i> <a href="/docs/master-1.2.x/en/administration_guide/admin.install.upgrade.html">How to upgrade?</a>
+          <i class="icon-book"></i> <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide/admin.install.upgrade.html">How to upgrade?</a>
         </li>
         <li>
-          <i class="icon-paper-clip"></i> <a href="/bugs/changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_stable; ?>">Changelog</a>
+          <i class="icon-paper-clip"></i> <a href="<?php echo $g_bugs_url; ?>changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_stable; ?>">Changelog</a>
         </li>
         <li>
-          <i class="icon-check"></i> <a href="/docs/master-1.2.x/en/administration_guide/admin.install.requirements.html">Requirements</a>
+          <i class="icon-check"></i> <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide/admin.install.requirements.html">Requirements</a>
         </li>
       </ul>
     </div>
@@ -64,13 +64,13 @@ include( "top.php" );
       <ul class="icons">
         <ul class="item-details">
           <li>
-            <i class="icon-road"></i> <a href="/bugs/roadmap_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_dev_roadmap; ?>">Roadmap</a>
+            <i class="icon-road"></i> <a href="<?php echo $g_bugs_url; ?>roadmap_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_dev_roadmap; ?>">Roadmap</a>
           <li>
           <li>
-            <i class="icon-paper-clip"></i> <a href="/bugs/changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_dev; ?>">Changelog</a>
+            <i class="icon-paper-clip"></i> <a href="<?php echo $g_bugs_url; ?>changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_dev; ?>">Changelog</a>
           </li>
           <li>
-            <i class="icon-check"></i> <a href="/docs/master-1.2.x/en/administration_guide/admin.install.requirements.html">Requirements</a>
+            <i class="icon-check"></i> <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide/admin.install.requirements.html">Requirements</a>
           </li>
         </ul>
       </ul>
@@ -103,7 +103,7 @@ include( "top.php" );
             <i class="icon-github"></i> <a href="https://github.com/mantisbt/mantisbt">Git Repository</a>
           <li>
           <li>
-            <i class="icon-ok"></i> <a href="/requirements.php">Travis CI Build Process</a>
+            <i class="icon-ok"></i> <a href="https://travis-ci.org/mantisbt/mantisbt">Travis CI Build Process</a>
           <li>
         </ul>
       </ul>

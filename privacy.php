@@ -10,7 +10,7 @@
 
 <span class="section">What information we collect?</span>
 
-<p>When a user registers on the <a href="bugs/">bug tracker</a>, we collect and store the following information:</p>
+<p>When a user registers on the <a href="<?php echo $g_bugs_url; ?>">bug tracker</a>, we collect and store the following information:</p>
 <ul>
 	<li>Username</li>
 	<li>One way hash of the password (i.e. we can't know your plain text password)</li>

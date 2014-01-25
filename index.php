@@ -106,7 +106,7 @@
             <p>
               <img class="img-responsive" src="img/release_icon.png" alt=""/>
               For details on the new features and bug fixes in this release, check out the
-              <a href="/bugs/changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_stable; ?>">changelog</a>.
+              <a href="<?php echo $g_bugs_url; ?>changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_stable; ?>">changelog</a>.
             </p>
 
             <div class="clear-both"></div>

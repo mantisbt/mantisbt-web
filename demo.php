@@ -69,7 +69,7 @@ include( "top.php" );
     </div>
     <div class="col-md-1"></div>
     <div class="col-sm-4 col-md-3">
-      <a href="bugs/" type="button" class="btn btn-default btn-primary">
+      <a href="<?php echo $g_bugs_url; ?>" type="button" class="btn btn-default btn-primary">
         Browse BugTracker <i class="icon-arrow-right"></i>
       </a>
     </div>

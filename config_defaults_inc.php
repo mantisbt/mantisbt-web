@@ -4,6 +4,12 @@
 	$g_db_password = '';
 	$g_database_name = 'mantisbt';
 
+	# Website URLs
+	$g_wiki_url = 'http://www.mantisbt.org/wiki/';
+	$g_docs_url = 'http://www.mantisbt.org/docs/';
+	$g_bugs_url = 'http://www.mantisbt.org/bugs/';
+	$g_blog_url = 'http://www.mantisbt.org/blog/';
+
 	# Information about latest stable release.
 	$g_latest_version_stable = '1.2.16';
 

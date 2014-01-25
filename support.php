@@ -56,7 +56,7 @@ include( "top.php" );
         <p>Browse and contribute to the</p>
         <h1>Wiki</h1>
         <br>
-        <a href="wiki/doku.php" type="button" class="ex btn btn-default btn-inverse btn-block">
+        <a href="<?php echo $g_wiki_url; ?>doku.php" type="button" class="ex btn btn-default btn-inverse btn-block">
           Go to wiki <i class="icon-arrow-right"></i>
         </a>
       </div>
@@ -74,7 +74,7 @@ include( "top.php" );
         <p>Report issues to our</p>
         <h1>Bugtracker</h1>
         <br>
-        <a href="bugs/" type="button" class="ex btn btn-default btn-inverse btn-block">
+        <a href="<?php echo $g_bugs_url; ?>" type="button" class="ex btn btn-default btn-inverse btn-block">
           Go to bug tracker <i class="icon-arrow-right"></i>
         </a>
       </div>

@@ -46,7 +46,7 @@ include( 'config_defaults_inc.php' );
   <!--[if lte IE 8]>
   <link rel="stylesheet" type="text/css" href="css/IE-fix.css" />
   <![endif]-->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.mantisbt.org/blog/?feed=rss2" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo $g_blog_url; ?>?feed=rss2" />
   <link rel="alternate" type="application/rss+xml" title="RSS" href="http://twitter.com/statuses/user_timeline/7199732.rss" />
 </head>
 
@@ -129,12 +129,12 @@ include( 'config_defaults_inc.php' );
                     </a>
                     <ul class="dropdown-menu">
                       <li><a href="development.php">Development</a></li>
-                      <li><a href="bugs/">Bug Tracker</a></li>
+                      <li><a href="<?php echo $g_bugs_url; ?>">Bug Tracker</a></li>
                     </ul>
                   </li>
 
                   <li class="single">
-                    <a href="blog/">
+                    <a href="<?php echo $g_blog_url; ?>">
                       BLOG<i>stay informed</i>
                     </a>
                   </li>

@@ -84,10 +84,10 @@ include( "top.php" );
           <ul class="icons">
             <ul class="item-details">
               <li>
-                <i class="icon-book"></i> <a href="/wiki/doku.php/mantisbt:developers_corner">Developers' Corner</a>
+                <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner">Developers' Corner</a>
               <li>
               <li>
-                <i class="icon-book"></i> <a href="/docs/master-1.2.x/en/">Developers' Guide</a>
+                <i class="icon-book"></i> <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/">Developers' Guide</a>
               <li>
             </ul>
           </ul>
@@ -98,10 +98,10 @@ include( "top.php" );
           <br>
           <h2>Developers Guide</h2>
           <br>
-          <a href="/docs/master-1.2.x/en/developers.html" type="button" class="ex btn btn-default btn-inverse btn-block">
+          <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.html" type="button" class="ex btn btn-default btn-inverse btn-block">
             <i class="icon-eye-open"></i> Browse Docs
           </a>
-          <a href="/docs/master-1.2.x/en/developers.pdf" type="button" class="ex btn btn-default btn-inverse btn-block">
+          <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.pdf" type="button" class="ex btn btn-default btn-inverse btn-block">
             <i class="icon-arrow-down"></i> Download PDF
           </a>
         </div>

@@ -1,5 +1,7 @@
 <?php
-	$t_url = 'http://mantisbt.org/wiki/doku.php/mantisbt:coding_guidelines';
+	require_once( 'config_defaults_inc.php' );
+
+	$t_url = $g_wiki_url . 'doku.php/mantisbt:coding_guidelines';
 	header('HTTP/1.1 301 Moved Permanently');
 	header('Location: ' . $t_url);
 	header('Content-Type: text/html');
