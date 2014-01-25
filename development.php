@@ -14,16 +14,14 @@ include( "top.php" );
   <div class="row show-grid clear-both">
     <div class="col-sm-12 col-md-12">
 
-      <h1>MantisBT Development</h1>
-
       <div class="col-sm-12 col-md-12 grey-box">
         <div class="hero-block3">
           <div class="row show-grid">
             <div class="col-sm-12 col-md-12">
               <div class="hero-content-3">
                 <h3>
-                  MantisBT is free software. The community around MantisBT is full of nice people who want to help
-                  others learn. Become part of the family, learn from others, and give something back when you can.
+                  MantisBT is an open source bug tracker with a large community of users and contributors.
+                  Join us, learn from others, and have some fun!
                 </h3>
               </div>
             </div>
@@ -42,15 +40,14 @@ include( "top.php" );
             Mantis Bug Tracker Developers Guide. Help with setting up Git and learning basic usage can be found in
             GitHub's Help pages.
           </p>
-          <h3>Important pointers for MantisBT source code:</h3>
-          <br>
+          <h3>MantisBT source code:</h3>
           <ul class="icons">
             <ul class="item-details">
               <li>
-                <i class="icon-github"></i> <a href="http://github.com/mantisbt/mantisbt">MantisBT Master Repository</a>
+                <i class="icon-github"></i> <a href="http://github.com/mantisbt/mantisbt">Master Repository</a>
               <li>
               <li>
-                <i class="icon-github"></i> <a href="http://github.com/mantisbt-plugins">MantisBT Plugins Repository</a>
+                <i class="icon-github"></i> <a href="http://github.com/mantisbt-plugins">Plugins Repository</a>
               <li>
               <li>
                 <i class="icon-github"></i> <a href="http://help.github.com">GitHub Help</a>
@@ -83,15 +80,14 @@ include( "top.php" );
             GitHub's Help pages.
           </p>
 
-          <h3>Important pointers for MantisBT developer documentation:</h3>
-          <br>
+          <h3>MantisBT developer documentation:</h3>
           <ul class="icons">
             <ul class="item-details">
               <li>
-                <i class="icon-book"></i> <a href="/docs/master-1.2.x/en/">MantisBT Developers Guide</a>
+                <i class="icon-book"></i> <a href="/wiki/doku.php/mantisbt:developers_corner">Developers' Corner</a>
               <li>
               <li>
-                <i class="icon-book"></i> <a href="/wiki/doku.php/mantisbt:coding_guidelines">MantisBT Coding Convension</a>
+                <i class="icon-book"></i> <a href="/docs/master-1.2.x/en/">Developers' Guide</a>
               <li>
             </ul>
           </ul>
@@ -127,8 +123,11 @@ include( "top.php" );
           <div class="clearfix"></div>
           <br><br>
 
-          <p>MantisBT devlopers come to seek help, announce projects, and discuss all kind of matters surrounding the
-            project and the community. If you're working on a patch, you can raise issues on the dev list..</p>
+          <p>
+            MantisBT developers utilize mailing lists to communicate with other developers, translators, and the community.
+            You may want to join our mailing lists and join the conversation.
+            It is a good idea to discuss larger contributions on the mailing list before getting started.
+          </p>
           <a type="button" class="btn btn-primary" href="mailinglists.php">
             <i class="icon-group"></i> Browse Mailing Lists
           </a>
@@ -138,8 +137,6 @@ include( "top.php" );
     </div>
 
   </div>
-
-  <br><br><br>
 
 <?php
 include( "bot.php" );
