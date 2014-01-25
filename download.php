@@ -115,29 +115,5 @@ include( "top.php" );
     </div>
   </div>
 
-  <hr>
-
-  <div class="row">
-    <div class="col-sm-12 col-md-12 grey-box">
-      <div class="hero-block3">
-        <div class="row show-grid">
-          <div class="col-sm-9 col-md-9">
-            <div class="hero-content-3">
-              <h2>MantisBT Distributions</h2>
-              <p>MantisBT is distributed with several
-                <a href="/wiki/doku.php/mantisbt:distributions">GNU/Linux distributions</a>.
-                Typically however, the versions available in these distributions are not the latest.
-                For the most recent MantisBT release use the links above.</p>
-            </div>
-          </div>
-          <div class="col-sm-3 col-md-3">
-            <div class="tour-btn btn-default"> <a class="btn btn-warning" href="/wiki/doku.php/mantisbt:distributions">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
 <?php
 include( "bot.php" );
