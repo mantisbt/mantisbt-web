@@ -107,7 +107,7 @@
               <img class="img-responsive" src="img/release_icon.png" alt=""/>
               Download the latest MantisBT release. To try before downloading, click on the demo button.
               For details on for details on the changes and bug fixes in this release, check out the
-              <a href="<?php echo $g_latest_version_changelog_link; ?>">changelog</a>.
+              <a href="/bugs/changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version; ?>">changelog</a>.
             </p>
 
             <div class="clear-both"></div>

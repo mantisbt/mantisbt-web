@@ -4,12 +4,11 @@
 	$g_db_password = '';
 	$g_database_name = 'mantisbt';
 
-	# The latest version from the stable branch.
+	# Information about latest stable release.
 	$g_latest_version_stable = '1.2.16';
-	$g_latest_version_changelog_link = 'http://www.mantisbt.org/bugs/changelog_page.php?version_id=183';
 
-	# The latest version from the development branch.
-	$g_latest_version_dev = '';
+	# Information about latest development release.
+	$g_latest_version_dev = '1.3.0b1';
 
 	########################################
 	# Include user's config, if available
