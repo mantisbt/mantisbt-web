@@ -5,7 +5,8 @@
 	$g_database_name = 'mantisbt';
 
 	# The latest version from the stable branch.
-	$g_latest_version_stable = '1.2.15';
+	$g_latest_version_stable = '1.2.16';
+	$g_latest_version_changelog_link = 'http://www.mantisbt.org/bugs/changelog_page.php?version_id=183';
 
 	# The latest version from the development branch.
 	$g_latest_version_dev = '';

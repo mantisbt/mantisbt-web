@@ -35,7 +35,7 @@ include( "top.php" );
       <div style="font-size: 38px;"> <i class="icon-bullhorn"></i>
       </div>
       <br>
-      <h2 style="font-size: 28px;line-height: 36px">MantisBT 1.2.15</h2>
+      <h2 style="font-size: 28px;line-height: 36px">MantisBT <?php echo $g_latest_version_stable; ?></h2>
       <br>
       <p>
         <a href="https://sourceforge.net/projects/mantisbt/files/mantis-stable/" type="button" class="ex btn btn-default  btn-inverse">

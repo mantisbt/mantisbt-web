@@ -18,7 +18,7 @@ include( "top.php" );
       <p><span class="lead">MantisHub offers a hassle-free turn-key solution to MantisBT customers. Backed by a support
          team with years of experience building MantisBT.</span></p>
 
-      <h3>Founded by Victor Boctor who is a leading developer of MantisBT since 2000, MantisHub is designed to be the
+      <h3>Founded by Victor Boctor who is a developer of MantisBT since 2000, MantisHub is designed to be the
         easiest and most complete solution for delivering MantisBT as a service.</h3>
 
       <blockquote>
