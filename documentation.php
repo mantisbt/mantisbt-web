@@ -20,19 +20,10 @@ include( "top.php" );
       <h3>MantisBT documentation is available from the following sources:</h3>
       <ul class="icons">
         <li>
-          <i class="icon-ok"></i> <a href="/docs/master-1.2.x/en/">The MantisBT Manual (v1.2.x).</a>
-        </li>
-        <li>
-          <i class="icon-ok"></i> <a href="/manual/">The MantisBT Manual (up to v1.1.x).</a>
+          <i class="icon-ok"></i> <a href="/docs/master-1.2.x/en/">The MantisBT Manual</a>
         </li>
         <li>
           <i class="icon-ok"></i> <a href="/wiki/">The MantisBT Wiki</a> contains a lot of valuable MantisBT knowledge.
-        </li>
-        <li>
-          <i class="icon-ok"></i> See our <a href="/testimonials.php">User testimonials</a> to find out what users have to say about MantisBT.
-        </li>
-        <li>
-          <i class="icon-ok"></i> See our <a href="/directory.php">User directory</a> for some sample companies / projects that use MantisBT.
         </li>
         <li>
           <i class="icon-ok"></i> <a href="/wiki/doku.php/mantisbt:press">MantisBT in the press</a>
