@@ -11,8 +11,10 @@ include( "top.php" );
 
     <div class="alert alert-attention">
       <h2>General Help and Support Questions</h2>
-      <p>Please use the <a href="<?php echo $g_forums_url ?>">forums</a> for general help and support questions. Help mailing list is
-        receives low activity as most users prefer the forums for general inquires. </p>
+      <p>
+        Please use the <a href="<?php echo $g_forums_url ?>">forums</a> for general help and support questions.
+        There it is also likely that your question has already been answered, so search before you submit your question.
+      </p>
     </div>
 
     <hr>
@@ -38,7 +40,7 @@ include( "top.php" );
               <i class="icon-list-alt"></i> <a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.announce">GMANE Archives</a>
             </li>
             <li>
-              <i class="icon-list-alt""></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-announce">SourceForge Archives</a>
+              <i class="icon-list-alt"></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-announce">SourceForge Archives</a>
             </li>
           </ul>
         </ul>
