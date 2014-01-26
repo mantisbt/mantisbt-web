@@ -5,8 +5,7 @@
       <div class="row">
 
         <div class="col-sm-6 col-md-6 home-block hero-block-1">
-          <h1>MantisBT makes collaboration with team members &amp; clients,</h1>
-          <h2>Easy, fast and professional</h2>
+          <h1>MantisBT makes collaboration with team members &amp; clients easy, fast, and professional</h1>
           <p>
             MantisBT is an open source issue tracker that provides a delicate balance between simplicity and power.
             Users are able to get started in minutes and start managing their projects while collaborating with their teammates and clients effectively.
