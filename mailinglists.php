@@ -10,8 +10,8 @@ include( "top.php" );
     <p>Signup for the mailing lists. Discussion of development issues is mainly done using the mailing list.</p>
 
     <div class="alert alert-attention">
-      <h2>General Help & Support Questions</h2>
-      <p>Please use the <a href="/forums/">forums</a> for general help and support questions. Help mailing list is
+      <h2>General Help and Support Questions</h2>
+      <p>Please use the <a href="<?php echo $g_forums_url ?>">forums</a> for general help and support questions. Help mailing list is
         receives low activity as most users prefer the forums for general inquires. </p>
     </div>
 

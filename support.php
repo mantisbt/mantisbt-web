@@ -36,10 +36,10 @@ include( "top.php" );
     <div class="col-md-11 col-md-offset-1">
       <div class="note-stick stick pull-left">
         <br>
-        <p>Use MantisBT</p>
+        <p>Ask questions at the</p>
         <h1>Forums</h1>
         <br>
-        <a href="forums/" type="button" class="ex btn btn-default btn-inverse btn-block">
+        <a href="<?php echo $g_forums_url; ?>" type="button" class="ex btn btn-default btn-inverse btn-block">
           Go to forums <i class="icon-arrow-right"></i>
         </a>
       </div>
