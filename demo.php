@@ -23,7 +23,7 @@ include( "top.php" );
       </p>
 
       <p>
-      Founded by Victor Boctor, MantisBT long time contributor, MantisHub is designed to be the a frictionless way to try out MantisBT.
+      Founded by Victor Boctor, MantisBT long time contributor, MantisHub is designed to be a frictionless way to try out MantisBT.
       </p>
     </div>
     <div class="col-sm-5 col-md-4">
