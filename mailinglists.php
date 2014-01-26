@@ -51,36 +51,6 @@ include( "top.php" );
 
     <div class="row show-grid clear-both">
       <div class="col-md-8 col-sm-8 col-xs-12">
-        <h2>Help Mailing List</h2>
-        <p>Ask for help (check the mailing list archives and the <a href="/forums">forums</a> first.</p>
-      </div>
-      <div class="col-md-4 col-sm-4 col-xs-12">
-        <a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-help" type="button" class="btn btn-default btn-primary pull-right">
-          Subscribe to Mailing List <i class="icon-arrow-right"></i>
-        </a>
-      </div>
-    </div>
-
-    <div class="row show-grid clear-both">
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <h3>Browse Archives:</h3>
-        <ul class="icons">
-          <ul class="item-details">
-            <li>
-              <i class="icon-list-alt"></i> <a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.general">GMANE Archives</a>
-            </li>
-            <li>
-              <i class="icon-list-alt"></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-help">SourceForge Archives</a>
-            </li>
-          </ul>
-        </ul>
-      </div>
-    </div>
-
-    <hr>
-
-    <div class="row show-grid clear-both">
-      <div class="col-md-8 col-sm-8 col-xs-12">
         <h2>Localization Mailing List</h2>
         <p>Discuss MantisBT localization efforts.</p>
       </div>
