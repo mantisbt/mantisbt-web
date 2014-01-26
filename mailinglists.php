@@ -70,7 +70,7 @@ include( "top.php" );
               <i class="icon-list-alt"></i> <a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.general">GMANE Archives</a>
             </li>
             <li>
-              <i class="icon-list-alt""></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-help">SourceForge Archives</a>
+              <i class="icon-list-alt"></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-help">SourceForge Archives</a>
             </li>
           </ul>
         </ul>
@@ -100,7 +100,7 @@ include( "top.php" );
               <i class="icon-list-alt"></i> <a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.localization">GMANE Archives</a>
             </li>
             <li>
-              <i class="icon-list-alt""></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-lang">SourceForge Archives</a>
+              <i class="icon-list-alt"></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-lang">SourceForge Archives</a>
             </li>
           </ul>
         </ul>
@@ -131,7 +131,7 @@ include( "top.php" );
               <i class="icon-list-alt"></i> <a href="http://gmane.org/info.php?group=gmane.comp.bug-tracking.mantis.devel">GMANE Archives</a>
             </li>
             <li>
-              <i class="icon-list-alt""></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-dev">SourceForge Archives</a>
+              <i class="icon-list-alt"></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-dev">SourceForge Archives</a>
             </li>
           </ul>
         </ul>
@@ -161,7 +161,7 @@ include( "top.php" );
               <i class="icon-list-alt"></i> <a href="http://gmane.org/info.php?group=gmane.comp.bug-tracking.mantis.devel.soap">GMANE Archives</a>
             </li>
             <li>
-              <i class="icon-list-alt""></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-soap-dev">SourceForge Archives</a>
+              <i class="icon-list-alt"></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-soap-dev">SourceForge Archives</a>
             </li>
           </ul>
         </ul>
@@ -191,14 +191,12 @@ include( "top.php" );
               <i class="icon-list-alt"></i> <a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.cvs">GMANE Archives</a>
             </li>
             <li>
-              <i class="icon-list-alt""></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-cvs">SourceForge Archives</a>
+              <i class="icon-list-alt"></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-cvs">SourceForge Archives</a>
             </li>
           </ul>
         </ul>
       </div>
     </div>
-
-
   </div>
 </div>
 
