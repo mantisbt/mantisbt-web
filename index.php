@@ -136,6 +136,7 @@
             <div class="tour-btn btn-default">
               <a class="btn btn-warning btn-block" href="demo.php">Demo</a>
               <a class="btn btn-warning btn-block" href="download.php">Download</a>
+              <a class="btn btn-warning btn-block" href="hosting.php">Hosting</a>
             </div>
           </div>
         </div>

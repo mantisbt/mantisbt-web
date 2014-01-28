@@ -25,7 +25,7 @@ include( "top.php" );
         </li>
       </ul>
     </div>
-    <div class="col-sm-5 col-md-4 attention-stick stick">
+    <div class="col-sm-5 col-md-4 note-stick stick">
       <div style="font-size: 38px;"> <i class="icon-bullhorn"></i>
       </div>
       <br>
@@ -68,7 +68,7 @@ include( "top.php" );
       </ul>
     </div>
     <div class="col-sm-4 col-md-4">
-      <a href="https://sourceforge.net/projects/mantisbt/files/mantis-development/" type="button" class="btn btn-default btn-primary">
+      <a href="https://sourceforge.net/projects/mantisbt/files/mantis-development/" type="button" class="btn btn-default btn-warning">
         <i class="icon-arrow-down"></i> Download MantisBT <?php echo $g_latest_version_dev; ?>
       </a>
     </div>
@@ -101,7 +101,7 @@ include( "top.php" );
       </ul>
     </div>
     <div class="col-sm-4 col-md-4">
-      <a href="builds.php" type="button" class="btn btn-default btn-primary">
+      <a href="builds.php" type="button" class="btn btn-default btn-warning">
         <i class="icon-arrow-down"></i> Download Nightly Builds
       </a>
     </div>

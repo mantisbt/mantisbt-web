@@ -43,7 +43,7 @@ include( "top.php" );
           Go to forums <i class="icon-arrow-right"></i>
         </a>
       </div>
-      <div class="attention-stick stick pull-left">
+      <div class="note-stick stick pull-left">
         <br>
         <p>Browse and contribute to the</p>
         <h1>Wiki</h1>
@@ -52,7 +52,7 @@ include( "top.php" );
           Go to wiki <i class="icon-arrow-right"></i>
         </a>
       </div>
-      <div class="success-stick stick pull-left">
+      <div class="note-stick stick pull-left">
         <br>
         <p>Subscribe to</p>
         <h1>Mailing Lists</h1>
@@ -61,7 +61,7 @@ include( "top.php" );
           Go to mailing lists <i class="icon-arrow-right"></i>
         </a>
       </div>
-      <div class="info-stick stick pull-left">
+      <div class="note-stick stick pull-left">
         <br>
         <p>Report issues to our</p>
         <h1>Bugtracker</h1>
@@ -70,7 +70,7 @@ include( "top.php" );
           Go to bug tracker <i class="icon-arrow-right"></i>
         </a>
       </div>
-      <div class="alert-stick stick pull-left">
+      <div class="note-stick stick pull-left">
         <br>
         <p>Use IRC chat at</p>
         <h2>#mantisbt-help</h2>

@@ -47,7 +47,7 @@ include( "top.php" );
             </ul>
           </ul>
         </div>
-        <div class="col-sm-5 col-md-4 attention-stick stick">
+        <div class="col-sm-5 col-md-4 note-stick stick">
           <div style="font-size: 38px;"> <i class="icon-github"></i>
           </div>
           <br>
@@ -108,7 +108,7 @@ include( "top.php" );
 
           <p>Sometimes its just easier to get help or discuss matters in real time. The #mantisbt channel on
             irc.freenode.net is where MantisBT developers hang out.</p>
-          <a type="button" class="btn btn-primary" href="irc://irc.freenode.net/mantisbt">
+          <a type="button" class="btn btn-warning" href="irc://irc.freenode.net/mantisbt">
             <i class="icon-envelope"></i> Join #mantisbt IRC
           </a>
 
@@ -120,7 +120,7 @@ include( "top.php" );
             You may want to join our mailing lists and join the conversation.
             It is a good idea to discuss larger contributions on the mailing list before getting started.
           </p>
-          <a type="button" class="btn btn-primary" href="mailinglists.php">
+          <a type="button" class="btn btn-warning" href="mailinglists.php">
             <i class="icon-group"></i> Browse Mailing Lists
           </a>
         </div>

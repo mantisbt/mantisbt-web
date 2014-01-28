@@ -19,7 +19,7 @@ include( "top.php" );
       </blockquote>
     </div>
     <div class="col-sm-5 col-md-4">
-      <div class="attention-stick stick pull-right" style="margin-top: 20px">
+      <div class="note-stick stick pull-right" style="margin-top: 20px">
         <div style="font-size: 38px;"> <i class="icon-off"></i>
         </div>
         <br>

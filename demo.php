@@ -27,7 +27,7 @@ include( "top.php" );
       </p>
     </div>
     <div class="col-sm-5 col-md-4">
-      <div class="attention-stick stick pull-right" style="margin-top: 20px">
+      <div class="note-stick stick pull-right" style="margin-top: 20px">
         <div style="font-size: 38px;"> <i class="icon-off"></i>
         </div>
         <br>
@@ -62,7 +62,7 @@ include( "top.php" );
     </div>
     <div class="col-md-1"></div>
     <div class="col-sm-4 col-md-3">
-      <a href="<?php echo $g_bugs_url; ?>" type="button" class="btn btn-default btn-primary">
+      <a href="<?php echo $g_bugs_url; ?>" type="button" class="btn btn-default btn-warning">
         Browse BugTracker <i class="icon-arrow-right"></i>
       </a>
     </div>
@@ -84,7 +84,7 @@ include( "top.php" );
     </div>
     <div class="col-md-1"></div>
     <div class="col-sm-4 col-md-3">
-      <a href="download.php" type="button" class="btn btn-default btn-primary">
+      <a href="download.php" type="button" class="btn btn-default btn-warning">
         Browse Downloads <i class="icon-arrow-right"></i>
       </a>
     </div>

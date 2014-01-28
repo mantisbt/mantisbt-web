@@ -48,7 +48,7 @@
               <div class="input-group input-group-sm">
                 <input type="email" name="EMAIL"  class="form-control" id="mce-EMAIL" placeholder="Email">
                 <span class="input-group-btn">
-                  <input type="submit" value="Go!" name="subscribe" class="btn btn-primary" id="mc-embedded-subscribe" class="button">
+                  <input type="submit" value="Go!" name="subscribe" class="btn btn-warning" id="mc-embedded-subscribe" class="button">
                 </span>
               </div>
             </form>
