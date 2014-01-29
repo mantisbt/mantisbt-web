@@ -33,7 +33,7 @@ include( "top.php" );
     <div style="font-size: 32px;"> <i class="icon-book"></i>
     </div>
     <br>
-    <h2>Administrators' Guide</h2>
+    <h2>Administrator's Guide</h2>
     <br>
     <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide.html" type="button" class="ex btn btn-default btn-inverse btn-block">
       <i class="icon-eye-open"></i> Browse Docs

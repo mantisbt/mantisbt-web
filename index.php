@@ -128,7 +128,7 @@
             <div class="hero-content-3">
               <h2>Try MantisBT Now!</h2>
               <p>It's never been easier to evaluate MantisBT.
-                You can start by one or more of the demo options we have available or just go direct to downloads page
+                You can start by one or more of the demo options we have available or just go directly to the downloads page
                 and get the latest version along with the administrator's guide to setup on your own servers.</p>
             </div>
           </div>

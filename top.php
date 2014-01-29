@@ -24,7 +24,6 @@ include( 'config_defaults_inc.php' );
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery-ui.min.js"></script>
   <script type="text/javascript" src="js/style-switcher/style-switcher.js"></script>
-
   <!-- STYLES -->
   <link rel="stylesheet" type="text/css" href="css/mantis.css" />
 
@@ -65,7 +64,7 @@ include( 'config_defaults_inc.php' );
           <!-- HEADER: LOGO AREA -->
           <div class="col-xs-12 col-sm-4 col-md-3 logo">
             <a class="logo" href="index.php">
-              <img alt="logo" title="Mantis Bug Tracker" width="200" src="images/mantis_logo_262x90.png" class="img-responsive" />
+              <img alt="logo" title="Mantis Bug Tracker" width="230" src="images/mantis_logo_262x90.png" class="img-responsive" />
             </a>
           </div>
 

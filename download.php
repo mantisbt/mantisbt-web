@@ -62,7 +62,7 @@ include( "top.php" );
             <i class="icon-paper-clip"></i> <a href="<?php echo $g_bugs_url; ?>changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_dev; ?>">Changelog</a>
           </li>
           <li>
-            <i class="icon-check"></i> <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide/admin.install.requirements.html">Requirements</a>
+            <i class="icon-check"></i> <a href="<?php echo $g_docs_url; ?>master/en-US/Admin_Guide/html-desktop/#admin.install.requirements">Requirements</a>
           </li>
         </ul>
       </ul>

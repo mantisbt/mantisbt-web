@@ -33,8 +33,10 @@
         <div class="col-sm-4 col-md-4 footer-center">
           <h4 class="center-title">Resources</h4>
           <ul class="footer-navigate">
-            <li> <a href="development.php">Development</a></li>
+            <li> <a href="download.php">Downloads</a></li>
             <li> <a href="documentation.php">Documentation</a></li>
+            <li> <a href="development.php">Development</a></li>
+            <li> <a href="<?php echo $g_forums_url ;?>">Forums</a></li>
             <li> <a href="<?php echo $g_blog_url ;?>">Blog</a></li>
           </ul>
         </div>
