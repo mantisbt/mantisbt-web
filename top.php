@@ -21,39 +21,28 @@ include( 'config_defaults_inc.php' );
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-  <script type="text/javascript" src="js/style-switcher/style-switcher.js"></script>
-  <!-- STYLES -->
-  <link rel="stylesheet" type="text/css" href="css/mantis.css" />
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
-  <!--  revolution slider plugin : begin -->
-  <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="css/rs-responsive.css" media="screen" />
-  <!--  revolution slider plugin : end -->
   <link rel="stylesheet" href="css/mantisbt.css" />
-  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/custom.css" />
-  <link rel="stylesheet" href="css/styler.css" />
-  <link rel="stylesheet" href="css/isotope.css" />
   <link rel="stylesheet" href="css/color_scheme.css" />
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic" type="text/css" />
   <link rel="stylesheet" href="css/font-awesome.css" />
   <link rel="stylesheet" href="css/font-awesome-ie7.css" />
   <link rel="stylesheet" href="css/flexslider.css" />
-  <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.0" type="text/css" media="screen" />
+
   <!--[if lte IE 8]>
   <link rel="stylesheet" type="text/css" href="css/IE-fix.css" />
   <![endif]-->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo $g_blog_url; ?>?feed=rss2" />
   <link rel="alternate" type="application/rss+xml" title="RSS" href="http://twitter.com/statuses/user_timeline/7199732.rss" />
+
 </head>
 
-<body id="mantisbody">
+<body>
 
-<div id="load" style="position:fixed; top:0; left:0; right:0; bottom:0; background:#fff; z-index:999999;"><span></span></div>
-<div class="container"></div>
-<div id="over">
+<div>
   <div id="out_container">
     <!-- THE LINE AT THE VERY TOP OF THE PAGE -->
     <div class="top_line"></div>

@@ -2,6 +2,7 @@
  * Isotope: An exquisite jQuery plugin for magical layouts
  * options: http://isotope.metafizzy.co/docs/options.html
  */
+var directory;
 jQuery.noConflict();
 jQuery(document).ready(function($) {
 
