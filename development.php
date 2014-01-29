@@ -76,10 +76,10 @@ include( "top.php" );
           <ul class="icons">
             <ul class="item-details">
               <li>
-                <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner">Developers' Corner</a>
+                <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner">Developer's Corner</a>
               <li>
               <li>
-                <i class="icon-book"></i> <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/">Developers' Guide</a>
+                <i class="icon-book"></i> <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/">Developer's Guide</a>
               <li>
             </ul>
           </ul>

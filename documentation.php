@@ -58,10 +58,10 @@ include( "top.php" );
     <ul class="icons">
       <ul class="item-details">
         <li>
-          <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner">Developers' Corner</a>
+          <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner">Developer's Corner</a>
         <li>
         <li>
-          <i class="icon-book"></i> <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/">Developers' Guide</a>
+          <i class="icon-book"></i> <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/">Developer's Guide</a>
         <li>
         <li>
           <i class="icon-github"></i> <a href="http://help.github.com">GitHub Help</a>
@@ -74,7 +74,7 @@ include( "top.php" );
     <div style="font-size: 32px;"> <i class="icon-book"></i>
     </div>
     <br>
-    <h2>Developers' Guide</h2>
+    <h2>Developer's Guide</h2>
     <br>
     <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.html" type="button" class="ex btn btn-default btn-inverse btn-block">
       <i class="icon-eye-open"></i> Browse Docs
