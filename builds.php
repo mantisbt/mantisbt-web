@@ -230,7 +230,13 @@ function print_builds_list( $p_builds ) {
 	if( get_builds_list( $t_path, $t_builds, $t_logfile ) ) {
 ?>
 
-	<h4>Nightly Builds Downloads</h4>
+  <div class="row show-grid clear-both">
+    <div class="col-sm-7 col-md-8">
+	    <h1>Nightly Builds Downloads</h1>
+    </div>
+  </div>
+
+  <br>
 
 <?php
 		print_builds_list( $t_builds );

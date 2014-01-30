@@ -67,9 +67,9 @@ function build_channels_list( $p_path ) {
   # printf formats
   $t_fmt_irchref = '<a href="irc://irc.freenode.net/%1$s">#%1$s</a>';
   $t_fmt_channel =
-    '		<td>' . "\n"
-    . '			<p><span class="tooltip">%s<span>Connect to the channel</span></span></p>' . "\n"
-    . "		</td>\n";
+    '		' . "\n"
+    . '			%s' . "\n"
+    . "		\n";
   $t_fmt_current =
     "			%s\n"
     . '			(<a href="%s/latest.log.html">latest&nbsp;log</a>)' . "\n";
@@ -175,8 +175,8 @@ include( "top.php" );
 
         <thead>
         <tr>
-          <th>Class</th>
-          <th>Description</th>
+          <th>Channel</th>
+          <th>Current Year</th>
           <th>Archives</th>
         </tr>
         </thead>
