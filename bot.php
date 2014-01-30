@@ -41,24 +41,14 @@
         </div>
         <div class="col-md-1"></div>
         <div class="col-sm-4 col-md-4 footer-center">
-          <h4 class="center-title">Newsletter</h4>
-          <p>Stay up to date with our latest news and product releases by signing up to our newsletter.</p>
-          <div id="mc_embed_signup">
-            <br>
-            <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <div class="input-group input-group-sm">
-                <input type="email" name="EMAIL"  class="form-control" id="mce-EMAIL" placeholder="Email">
-                <span class="input-group-btn">
-                  <input type="submit" value="Go!" name="subscribe" class="btn btn-warning" id="mc-embedded-subscribe" class="button">
-                </span>
-              </div>
-            </form>
-            <div class="clearfix"></div>
-            <div id="mce-responses">
-              <div class="response" id="mce-error-response" style="display:none"></div>
-              <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>
-          </div>
+          <h4 class="center-title">About MantisBT</h4>
+          <p>
+            MantisBT is a popular open source web-based bug tracking system.
+            Built on PHP and supports Linux, Windows and Mac OS X on the server side.
+            Compatible with Chrome, Firefox, Safari, Opera and IE 7+.
+            Released under the terms of the GNU General Public License (GPL).
+          </p>
+        </div>
         </div>
       </div>
     </div>

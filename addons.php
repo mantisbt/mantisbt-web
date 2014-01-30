@@ -52,7 +52,7 @@ include( "top.php" );
 
   <div class="row show-grid clear-both">
     <div class="col-sm-7 col-md-8">
-      <h2><b>Plugins</b><small>| MantisBT Extensibility Comes Standard!</small></h2>
+      <h2><b>Plugins</b></h2>
       <p>
         MantisBT plugin system allows extension of MantisBT through both officially maintained and third party plug-ins.
         Browse the plugin directory to learn more about each plugin.
