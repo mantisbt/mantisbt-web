@@ -26,7 +26,7 @@ include( "top.php" );
         <h2>Get Started</h2>
         <br>
         <a href="http://www.mantishub.com" onclick="ga('send', 'event', 'Hosting', 'Start 30-day Free Trial');" type="button" class="ex btn btn-default btn-inverse btn-block">
-          <i class="icon-arrow-right"></i> Start 30-day Free Trial
+          Start 30-day Free Trial
         </a>
         <br />
         no credit card required

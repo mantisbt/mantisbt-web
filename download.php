@@ -33,7 +33,7 @@ include( "top.php" );
       <br>
       <p>
         <a href="https://sourceforge.net/projects/mantisbt/files/mantis-stable/" onclick="ga('send', 'event', 'Download', 'Download');" type="button" class="ex btn btn-default  btn-inverse">
-          <i class="icon-arrow-down"></i> Download
+          Download
         </a>
       </p>
     </div>
@@ -68,8 +68,8 @@ include( "top.php" );
       </ul>
     </div>
     <div class="col-sm-4 col-md-4">
-      <a href="https://sourceforge.net/projects/mantisbt/files/mantis-development/" type="button" class="btn btn-default btn-warning">
-        <i class="icon-arrow-down"></i> Download MantisBT <?php echo $g_latest_version_dev; ?>
+      <a href="https://sourceforge.net/projects/mantisbt/files/mantis-development/" onclick="ga('send', 'event', 'Download', 'Download MantisBT');"  type="button" class="btn btn-default btn-warning">
+        Download MantisBT <?php echo $g_latest_version_dev; ?>
       </a>
     </div>
   </div>
@@ -101,8 +101,8 @@ include( "top.php" );
       </ul>
     </div>
     <div class="col-sm-4 col-md-4">
-      <a href="builds.php" type="button" class="btn btn-default btn-warning">
-        <i class="icon-arrow-down"></i> Download Nightly Builds
+      <a href="builds.php" type="button" class="btn btn-default btn-warning" onclick="ga('send', 'event', 'Download', 'Download Nightly Builds');" >
+        Download Nightly Builds
       </a>
     </div>
   </div>

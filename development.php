@@ -54,8 +54,8 @@ include( "top.php" );
           <h2>MantisBT on GitHub</h2>
           <br>
           <br>
-          <a href="http://github.com/mantisbt/mantisbt" type="button" class="ex btn btn-default btn-inverse btn-block">
-            <i class="icon-arrow-right"></i> Browse Source Code
+          <a href="http://github.com/mantisbt/mantisbt" onclick="ga('send', 'event', 'Development', 'Browse Source Code');"  type="button" class="ex btn btn-default btn-inverse btn-block">
+            Browse Source Code
           </a>
         </div>
       </div>
@@ -76,10 +76,16 @@ include( "top.php" );
           <ul class="icons">
             <ul class="item-details">
               <li>
-                <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner">Developer's Corner</a>
+                <i class="icon-book"></i>
+                <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner" onclick="ga('send', 'event', 'Development', 'Developer Corner');">
+                  Developer's Corner
+                </a>
               <li>
               <li>
-                <i class="icon-book"></i> <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/">Developer's Guide</a>
+                <i class="icon-book"></i>
+                <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/" onclick="ga('send', 'event', 'Development', 'Developer Guide');">
+                  Developer's Guide
+                </a>
               <li>
             </ul>
           </ul>
@@ -90,11 +96,11 @@ include( "top.php" );
           <br>
           <h2>Developers Guide</h2>
           <br>
-          <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.html" type="button" class="ex btn btn-default btn-inverse btn-block">
-            <i class="icon-eye-open"></i> Browse Docs
+          <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.html" onclick="ga('send', 'event', 'Development', 'Browse Docs');" type="button" class="ex btn btn-default btn-inverse btn-block">
+            Browse Docs
           </a>
-          <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.pdf" type="button" class="ex btn btn-default btn-inverse btn-block">
-            <i class="icon-arrow-down"></i> Download PDF
+          <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.pdf" onclick="ga('send', 'event', 'Development', 'Download PDF');" type="button" class="ex btn btn-default btn-inverse btn-block">
+            Download PDF
           </a>
         </div>
       </div>
@@ -108,8 +114,8 @@ include( "top.php" );
 
           <p>Sometimes its just easier to get help or discuss matters in real time. The #mantisbt channel on
             irc.freenode.net is where MantisBT developers hang out.</p>
-          <a type="button" class="btn btn-warning" href="irc://irc.freenode.net/mantisbt">
-            <i class="icon-envelope"></i> Join #mantisbt IRC
+          <a type="button" class="btn btn-warning" href="irc://irc.freenode.net/mantisbt" onclick="ga('send', 'event', 'Development', 'Join #mantisbt IRC');">
+            Join #mantisbt IRC
           </a>
 
           <div class="clearfix"></div>
@@ -120,8 +126,8 @@ include( "top.php" );
             You may want to join our mailing lists and join the conversation.
             It is a good idea to discuss larger contributions on the mailing list before getting started.
           </p>
-          <a type="button" class="btn btn-warning" href="mailinglists.php">
-            <i class="icon-group"></i> Browse Mailing Lists
+          <a type="button" class="btn btn-warning" href="mailinglists.php" onclick="ga('send', 'event', 'Development', 'Browse Mailing Lists');">
+            Browse Mailing Lists
           </a>
         </div>
       </div>

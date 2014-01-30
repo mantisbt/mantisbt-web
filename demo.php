@@ -35,7 +35,7 @@ include( "top.php" );
         <h2>Now</h2>
         <br>
         <a href="http://www.mantishub.com" onclick="ga('send', 'event', 'Demo', 'Start Your Free Trial');" type="button" class="ex btn btn-default btn-inverse btn-block">
-          <i class="icon-arrow-right"></i> Start Your Free Trial
+          Start Your Free Trial
         </a>
         <br />
         no credit card required
@@ -63,7 +63,7 @@ include( "top.php" );
     <div class="col-md-1"></div>
     <div class="col-sm-4 col-md-3">
       <a href="<?php echo $g_bugs_url; ?>" onclick="ga('send', 'event', 'Demo', 'Browse BugTracker');" type="button" class="btn btn-default btn-warning">
-        Browse BugTracker <i class="icon-arrow-right"></i>
+        Browse BugTracker
       </a>
     </div>
   </div>
@@ -85,7 +85,7 @@ include( "top.php" );
     <div class="col-md-1"></div>
     <div class="col-sm-4 col-md-3">
       <a href="download.php" onclick="ga('send', 'event', 'Demo', 'Browse Downloads');" type="button" class="btn btn-default btn-warning">
-        Browse Downloads <i class="icon-arrow-right"></i>
+        Browse Downloads
       </a>
     </div>
   </div>

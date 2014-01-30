@@ -35,11 +35,11 @@ include( "top.php" );
     <br>
     <h2>Administrator's Guide</h2>
     <br>
-    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide/" type="button" class="ex btn btn-default btn-inverse btn-block">
-      <i class="icon-eye-open"></i> Browse Docs
+    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide/" onclick="ga('send', 'event', 'Documentation', 'Browse Admin Docs');" type="button" class="ex btn btn-default btn-inverse btn-block">
+      Browse Docs
     </a>
-    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide.pdf" type="button" class="ex btn btn-default btn-inverse btn-block">
-      <i class="icon-arrow-down"></i> Download PDF
+    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide.pdf" onclick="ga('send', 'event', 'Documentation', 'Download Admin PDF');" type="button" class="ex btn btn-default btn-inverse btn-block">
+      Download PDF
     </a>
   </div>
 </div>
@@ -76,11 +76,11 @@ include( "top.php" );
     <br>
     <h2>Developer's Guide</h2>
     <br>
-    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.html" type="button" class="ex btn btn-default btn-inverse btn-block">
-      <i class="icon-eye-open"></i> Browse Docs
+    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.html" onclick="ga('send', 'event', 'Documentation', 'Browse Dev Docs');" type="button" class="ex btn btn-default btn-inverse btn-block">
+      Browse Docs
     </a>
-    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.pdf" type="button" class="ex btn btn-default btn-inverse btn-block">
-      <i class="icon-arrow-down"></i> Download PDF
+    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.pdf" onclick="ga('send', 'event', 'Documentation', 'Download Dev PDF');" type="button" class="ex btn btn-default btn-inverse btn-block">
+      Download PDF
     </a>
   </div>
 </div>
