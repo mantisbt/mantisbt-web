@@ -45,7 +45,7 @@ function get_years( $p_path ) {
   # Loop over subdirectories
   $t_iter_years = new FileSystemIterator( $p_path );
   foreach( $t_iter_years as $t_year ) {
-    if( $t_year->isDir() ) {
+    if( $t_year->isDir() && $t_year->isReadable() ) {
       $t_years[$t_year->getFileName()] = build_href( $t_year->getPathname() );
     }
   }
@@ -94,7 +94,7 @@ function build_channels_list( $p_path ) {
     'strcmp'
   );
   foreach( $t_iter_channels as $t_channel ) {
-    if( $t_channel->isDir() ) {
+    if( $t_channel->isDir() && $t_channel->isReadable() ) {
       $t_current = false;
       $t_channel_name = $t_channel->getFileName();
 
