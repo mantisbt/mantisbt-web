@@ -91,7 +91,7 @@ function build_channels_list( $p_path ) {
 		'strcmp'
 	);
 	foreach( $t_iter_channels as $t_channel ) {
-		if( $t_channel->isDir() ) {
+		if( $t_channel->isDir() && $t_channel->isReadable() ) {
 			$t_current = false;
 			$t_channel_name = $t_channel->getFileName();
 
