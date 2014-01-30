@@ -76,6 +76,12 @@ include( 'config_defaults_inc.php' );
                   </li>
 
                   <li class="single">
+                    <a href="download.php">
+                      DOWNLOAD
+                    </a>
+                  </li>
+
+                  <li class="single">
                     <a href="support.php">
                       SUPPORT
                     </a>
