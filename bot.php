@@ -35,6 +35,7 @@
           <ul class="footer-navigate">
             <li> <a href="documentation.php" onclick="ga('send', 'event', 'Footer', 'Documentation');">Documentation</a></li>
             <li> <a href="development.php" onclick="ga('send', 'event', 'Footer', 'Development');">Development</a></li>
+            <li> <a href="<?php echo $g_bugs_url ;?>" onclick="ga('send', 'event', 'Footer', 'BugTracker');">BugTracker</a></li>
             <li> <a href="<?php echo $g_forums_url ;?>" onclick="ga('send', 'event', 'Footer', 'Forums');">Forums</a></li>
             <li> <a href="<?php echo $g_blog_url ;?>" onclick="ga('send', 'event', 'Footer', 'Blog');">Blog</a></li>
           </ul>
