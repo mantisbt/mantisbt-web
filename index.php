@@ -26,9 +26,9 @@
 
             <div class="clear-both"></div>
 
-            <a class="btn btn-warning" href="demo.php">Demo</a>
-            <a class="btn btn-warning" href="download.php">Download</a>
-            <a class="btn btn-warning" href="hosting.php">Hosting</a>
+            <a class="btn btn-warning" href="demo.php" onclick="ga('send', 'event', 'Homepage', 'Demo');">Demo</a>
+            <a class="btn btn-warning" href="download.php" onclick="ga('send', 'event', 'Homepage', 'Download');">Download</a>
+            <a class="btn btn-warning" href="hosting.php" onclick="ga('send', 'event', 'Homepage', 'Hosting');">Hosting</a>
           </div>
         </div>
       </div>
@@ -134,9 +134,9 @@
           </div>
           <div class="col-sm-4 col-md-4">
             <div class="tour-btn btn-default">
-              <a class="btn btn-warning btn-block" href="demo.php">Demo</a>
-              <a class="btn btn-warning btn-block" href="download.php">Download</a>
-              <a class="btn btn-warning btn-block" href="hosting.php">Hosting</a>
+              <a class="btn btn-warning btn-block" href="demo.php" onclick="ga('send', 'event', 'Homepage', 'Demo');">Demo</a>
+              <a class="btn btn-warning btn-block" href="download.php" onclick="ga('send', 'event', 'Homepage', 'Download');">Download</a>
+              <a class="btn btn-warning btn-block" href="hosting.php" onclick="ga('send', 'event', 'Homepage', 'Hosting');">Hosting</a>
             </div>
           </div>
         </div>

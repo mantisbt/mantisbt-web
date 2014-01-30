@@ -35,7 +35,7 @@ include( "top.php" );
     <br>
     <h2>Administrator's Guide</h2>
     <br>
-    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide.html" type="button" class="ex btn btn-default btn-inverse btn-block">
+    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide/" type="button" class="ex btn btn-default btn-inverse btn-block">
       <i class="icon-eye-open"></i> Browse Docs
     </a>
     <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide.pdf" type="button" class="ex btn btn-default btn-inverse btn-block">

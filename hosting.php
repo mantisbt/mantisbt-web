@@ -25,7 +25,7 @@ include( "top.php" );
         <br>
         <h2>Get Started</h2>
         <br>
-        <a href="http://www.mantishub.com" type="button" class="ex btn btn-default btn-inverse btn-block">
+        <a href="http://www.mantishub.com" onclick="ga('send', 'event', 'Hosting', 'Start 30-day Free Trial');" type="button" class="ex btn btn-default btn-inverse btn-block">
           <i class="icon-arrow-right"></i> Start 30-day Free Trial
         </a>
         <br />
@@ -60,7 +60,11 @@ include( "top.php" );
       </ul>
     </div>
     <div class="col-sm-5 col-md-4">
-      <div class="tour-btn btn-default"> <a class="btn btn-warning" href="http://www.mantishub.com">Learn more about MantisHub</a></div>
+      <div class="tour-btn btn-default">
+        <a class="btn btn-warning" href="http://www.mantishub.com" onclick="ga('send', 'event', 'Hosting', 'Learn more about MantisHub');">
+          Learn more about MantisHub
+        </a>
+      </div>
     </div>
   </div>
 

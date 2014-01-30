@@ -34,7 +34,7 @@ include( "top.php" );
         <h2>Try MantisBT</h2>
         <h2>Now</h2>
         <br>
-        <a href="http://www.mantishub.com" type="button" class="ex btn btn-default btn-inverse btn-block">
+        <a href="http://www.mantishub.com" onclick="ga('send', 'event', 'Demo', 'Start Your Free Trial');" type="button" class="ex btn btn-default btn-inverse btn-block">
           <i class="icon-arrow-right"></i> Start Your Free Trial
         </a>
         <br />
@@ -62,7 +62,7 @@ include( "top.php" );
     </div>
     <div class="col-md-1"></div>
     <div class="col-sm-4 col-md-3">
-      <a href="<?php echo $g_bugs_url; ?>" type="button" class="btn btn-default btn-warning">
+      <a href="<?php echo $g_bugs_url; ?>" onclick="ga('send', 'event', 'Demo', 'Browse BugTracker');" type="button" class="btn btn-default btn-warning">
         Browse BugTracker <i class="icon-arrow-right"></i>
       </a>
     </div>
@@ -84,7 +84,7 @@ include( "top.php" );
     </div>
     <div class="col-md-1"></div>
     <div class="col-sm-4 col-md-3">
-      <a href="download.php" type="button" class="btn btn-default btn-warning">
+      <a href="download.php" onclick="ga('send', 'event', 'Demo', 'Browse Downloads');" type="button" class="btn btn-default btn-warning">
         Browse Downloads <i class="icon-arrow-right"></i>
       </a>
     </div>

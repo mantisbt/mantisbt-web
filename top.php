@@ -52,7 +52,7 @@ include( 'config_defaults_inc.php' );
         <div class="row">
           <!-- HEADER: LOGO AREA -->
           <div class="col-xs-12 col-sm-4 col-md-3 logo">
-            <a class="logo" href="index.php">
+            <a class="logo" href="index.php" onclick="ga('send', 'event', 'Header', 'Logo');">
               <img alt="logo" title="Mantis Bug Tracker" width="230" src="images/mantis_logo_262x90.png" class="img-responsive" />
             </a>
           </div>
@@ -64,37 +64,37 @@ include( 'config_defaults_inc.php' );
               <div class="navbar-collapse pull-right">
                 <ul class="nav nav-pills navbar-nav">
                   <li class="single">
-                    <a href="index.php">
+                    <a href="index.php" onclick="ga('send', 'event', 'Navbar', 'Home');">
                       HOME
                     </a>
                   </li>
 
                   <li class="single">
-                    <a href="demo.php">
+                    <a href="demo.php" onclick="ga('send', 'event', 'Navbar', 'Demo');">
                       DEMO
                     </a>
                   </li>
 
                   <li class="single">
-                    <a href="download.php">
+                    <a href="download.php" onclick="ga('send', 'event', 'Navbar', 'Download');">
                       DOWNLOAD
                     </a>
                   </li>
 
                   <li class="single">
-                    <a href="support.php">
+                    <a href="support.php" onclick="ga('send', 'event', 'Navbar', 'Support');">
                       SUPPORT
                     </a>
                   </li>
 
                   <li class="single">
-                    <a href="addons.php">
+                    <a href="addons.php" onclick="ga('send', 'event', 'Navbar', 'Addons');">
                       ADD-ONS
                     </a>
                   </li>
 
                   <li class="single" style="border-right:none;">
-                    <a href="hosting.php">
+                    <a href="hosting.php" onclick="ga('send', 'event', 'Navbar', 'Hosting');">
                       HOSTING
                     </a>
                   </li>

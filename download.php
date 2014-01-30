@@ -32,7 +32,7 @@ include( "top.php" );
       <h2 style="font-size: 28px;line-height: 36px">MantisBT <?php echo $g_latest_version_stable; ?></h2>
       <br>
       <p>
-        <a href="https://sourceforge.net/projects/mantisbt/files/mantis-stable/" type="button" class="ex btn btn-default  btn-inverse">
+        <a href="https://sourceforge.net/projects/mantisbt/files/mantis-stable/" onclick="ga('send', 'event', 'Download', 'Download');" type="button" class="ex btn btn-default  btn-inverse">
           <i class="icon-arrow-down"></i> Download
         </a>
       </p>

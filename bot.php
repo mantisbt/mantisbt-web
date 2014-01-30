@@ -8,7 +8,7 @@
       <div class="col-md-12 col-sm-12 twitter-wrapper">
         <div id="nav_t"></div>
         <div class="tweets-slide"><ul class="slides"></ul></div>
-        <a href="https://twitter.com/mantisbt" class="follow_img"><img src="img/follow.png" alt=""></a>
+        <a href="https://twitter.com/mantisbt" onclick="ga('send', 'event', 'Footer', 'Logo');" class="follow_img"><img src="img/follow.png" alt=""></a>
       </div>
     </div>
   </div>
@@ -33,10 +33,10 @@
         <div class="col-sm-4 col-md-4 footer-center">
           <h4 class="center-title">Resources</h4>
           <ul class="footer-navigate">
-            <li> <a href="documentation.php">Documentation</a></li>
-            <li> <a href="development.php">Development</a></li>
-            <li> <a href="<?php echo $g_forums_url ;?>">Forums</a></li>
-            <li> <a href="<?php echo $g_blog_url ;?>">Blog</a></li>
+            <li> <a href="documentation.php" onclick="ga('send', 'event', 'Footer', 'Documentation');">Documentation</a></li>
+            <li> <a href="development.php" onclick="ga('send', 'event', 'Footer', 'Development');">Development</a></li>
+            <li> <a href="<?php echo $g_forums_url ;?>" onclick="ga('send', 'event', 'Footer', 'Forums');">Forums</a></li>
+            <li> <a href="<?php echo $g_blog_url ;?>" onclick="ga('send', 'event', 'Footer', 'Blog');">Blog</a></li>
           </ul>
         </div>
         <div class="col-md-1"></div>

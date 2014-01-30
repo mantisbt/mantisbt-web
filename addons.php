@@ -27,7 +27,7 @@ include( "top.php" );
     </div>
     <div class="col-md-1"></div>
     <div class="col-sm-5 col-md-3">
-      <a class="btn btn-warning" href="http://www.mantistouch.org">Learn more about MantisTouch</a>
+      <a class="btn btn-warning" href="http://www.mantistouch.org" onclick="ga('send', 'event', 'Addons', 'Learn more about MantisTouch');">Learn more about MantisTouch</a>
     </div>
   </div>
 
@@ -35,13 +35,13 @@ include( "top.php" );
 
   <div class="row show-grid clear-both">
     <div class="col-sm-7 col-md-8">
-      <a href="http://www.mantistouch.org">
+      <a href="http://www.mantistouch.org" onclick="ga('send', 'event', 'Addons', 'MantisTouch Image1');">
         <img class="img-rounded" title="Login Page on Smart Phone" alt="Login Page" src="images/mt_login_page.png" height="300" width="200" border="1" />
       </a>
-      <a href="http://www.mantistouch.org">
+      <a href="http://www.mantistouch.org" onclick="ga('send', 'event', 'Addons', 'MantisTouch Image2');">
         <img class="img-rounded" title="Dashboard Page on Smart Phone" alt="Dashboard Page" src="images/mt_dashboard_page.png" height="300" width="200" border="1" />
       </a>
-      <a href="http://www.mantistouch.org">
+      <a href="http://www.mantistouch.org" onclick="ga('send', 'event', 'Addons', 'MantisTouch Image3');">
         <img class="img-rounded" title="Issues Page on Smart Phone" alt="Issues Page" src="images/mt_issues_page.png" height="300" width="200" border="1" />
       </a>
     </div>
@@ -61,10 +61,12 @@ include( "top.php" );
     <div class="col-md-1"></div>
     <div class="col-sm-5 col-md-3">
       <br>
-      <a class="btn btn-warning" href="http://www.mantisbt.org/wiki/doku.php/mantisbt:mantis_plugins">Browse Plugins Directory</a>
+      <a class="btn btn-warning" href="http://www.mantisbt.org/wiki/doku.php/mantisbt:mantis_plugins" onclick="ga('send', 'event', 'Addons', 'Browse Plugins Directory');">
+        Browse Plugins Directory</a>
       <div class="clear-both"></div>
       <br>
-      <a class="btn btn-warning" href="https://github.com/mantisbt-plugins">Browse Plugins on GitHub</a>
+      <a class="btn btn-warning" href="https://github.com/mantisbt-plugins" onclick="ga('send', 'event', 'Addons', 'Browse Plugins on GitHub');">
+        Browse Plugins on GitHub</a>
     </div>
   </div>
 
