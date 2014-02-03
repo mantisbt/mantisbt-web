@@ -21,7 +21,24 @@ include( 'config_defaults_inc.php' );
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <!--[if !IE]> -->
+  <script type="text/javascript">
+    window.jQuery || document.write("<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'>"+"<"+"/script>");
+  </script>
+  <!-- <![endif]-->
+
+  <!--[if IE]>
+  <script type="text/javascript">
+    window.jQuery || document.write("<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'>"+"<"+"/script>");
+  </script>
+  <![endif]-->
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+  <script src="js/html5shiv.js" type="text/javascript"></script>
+  <script src="js/respond.src.js" type="text/javascript"></script>
+  <![endif]-->
 
   <link rel="stylesheet" href="css/mantisbt.css" />
   <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -29,12 +46,16 @@ include( 'config_defaults_inc.php' );
   <link rel="stylesheet" href="css/color_scheme.css" />
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic" type="text/css" />
   <link rel="stylesheet" href="css/font-awesome.css" />
-  <link rel="stylesheet" href="css/font-awesome-ie7.css" />
   <link rel="stylesheet" href="css/flexslider.css" />
+
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="css/font-awesome-ie7.css" />
+  <![endif]-->
 
   <!--[if lte IE 8]>
   <link rel="stylesheet" type="text/css" href="css/IE-fix.css" />
   <![endif]-->
+
   <link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo $g_blog_url; ?>?feed=rss2" />
   <link rel="alternate" type="application/rss+xml" title="RSS" href="http://twitter.com/statuses/user_timeline/7199732.rss" />
 
