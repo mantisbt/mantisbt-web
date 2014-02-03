@@ -1,7 +1,7 @@
 <?php
 include( 'config_defaults_inc.php' );
 ?>
-
+<!DOCTYPE html>
 <html>
 <head>
   <title>Mantis Bug Tracker<?php if ( isset( $t_sub_title ) ) { echo " | $t_sub_title"; } ?></title>

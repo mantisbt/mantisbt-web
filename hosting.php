@@ -5,7 +5,7 @@ include( "top.php" );
 
   <div class="row show-grid clear-both">
     <div class="col-sm-7 col-md-8">
-      <h1>MantisHub <small>| MantisBT Served Fresh</small></h1>
+      <h1>MantisHub <small>| MantisBT Hosting Made Easy</small></h1>
 
       <p><span class="lead">MantisHub offers a hassle-free turn-key solution to MantisBT customers. Backed by a support
          team with years of experience building MantisBT.</span></p>
@@ -36,6 +36,7 @@ include( "top.php" );
 
   <div class="row show-grid clear-both">
     <div class="col-sm-7 col-md-8">
+      <br>
       <h2>Why Use MantisHub?</h2>
       <br>
       <ul class="icons item-details">
@@ -49,7 +50,7 @@ include( "top.php" );
           <i class="icon-ok"></i> Support provided by experienced team with extensive MantisBT experience
         </li>
         <li>
-          <i class="icon-ok"></i> Existing users are able to migrated their data.
+          <i class="icon-ok"></i> Existing users are able to migrate their data.
         </li>
         <li>
           <i class="icon-ok"></i> Exclusive add-ons like <a href="http://www.mantistouch.org/">MantisTouch</a>
