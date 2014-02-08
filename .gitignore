@@ -1,5 +1,6 @@
 .project
 .DS_Store
+.idea
 data/
 config_inc.php
 *.bak
