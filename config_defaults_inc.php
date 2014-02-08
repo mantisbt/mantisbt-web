@@ -12,7 +12,7 @@
 	$g_forums_url = 'http://www.mantisbt.org/forums/';
 
 	# Information about latest stable release.
-	$g_latest_version_stable = '1.2.15';
+	$g_latest_version_stable = '1.2.16';
 
 	# Information about latest development release.
 	$g_latest_version_dev = '1.3.0b1';
