@@ -10,14 +10,14 @@
 
 <span class="section">What information we collect?</span>
 
-<p>When a user registers on the <a href="bugs/">bug tracker</a>, we collect and store the following information:</p>
+<p>When a user registers on the <a href="<?php echo $g_bugs_url; ?>">bug tracker</a>, we collect and store the following information:</p>
 <ul>
 	<li>Username</li>
 	<li>One way hash of the password (i.e. we can't know your plain text password)</li>
 	<li>Email address</li>
 </ul>
 
-<p>Users registering in the <a href="forums/">forums</a> may optionally provide other personal information - like instant messenger ids, geographic location, occupation, and so on.  This personal information is publicly viewable.  We are not responsible for any personal information posted to your forum profile or in your forum messages.  Also, if you participate in the <a href="mailinglists.php">mailing lists</a> or post notes to the 'User Contributed Notes' section of the <a href="http://manual.mantisbt.org">manual</a> your email address and signatures will be visible to participants and visitors respectively.</p>
+<p>Users registering in the <a href="<?php echo $g_forums_url; ?>">forums</a> may optionally provide other personal information - like instant messenger ids, geographic location, occupation, and so on.  This personal information is publicly viewable.  We are not responsible for any personal information posted to your forum profile or in your forum messages.  Also, if you participate in the <a href="mailinglists.php">mailing lists</a> or post notes to the 'User Contributed Notes' section of the <a href="http://manual.mantisbt.org">manual</a> your email address and signatures will be visible to participants and visitors respectively.</p>
 
 <h5>How we use it?</h5>
 

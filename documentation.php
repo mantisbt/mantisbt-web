@@ -1,30 +1,102 @@
 <?php
-	$t_sub_title = "Documentation";
-	include( "top.php" );
+$t_sub_title = "Documentation";
+include( "top.php" );
 ?>
 
+<br />
 
-<h4>MantisBT Documentation</h4>
-<p>
-	MantisBT Documentation is available from the following sources:
-</p>
+<div class="row show-grid clear-both">
 
-<ul>
-	<li><a href="/docs/master-1.2.x/en/">The MantisBT Manual (v1.2.x).</a></li>
-	<li><a href="/manual/">The MantisBT Manual (up to v1.1.x).</a></li>
-	<li><a href="/wiki/">The MantisBT Wiki</a> contains a lot of valuable MantisBT knowledge.</li>
-	<li>See our <a href="/testimonials.php">User testimonials</a> to find out what users have to say about MantisBT.</li>
-	<li>See our <a href="/directory.php">User directory</a> for some sample companies / projects that use MantisBT.</li>
-	<li><a href="/wiki/doku.php/mantisbt:press">MantisBT in the press</a></li>
-</ul>
+  <div class="col-md-8 col-sm-8">
+    <h1>Docs for Administrators</h1>
 
-<h4>Developer Documentation</h4>
+    <ul class="icons">
+      <li>
+        <i class="icon-book"></i> <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/">Administrator's Guide</a>
+      </li>
+      <li>
+        <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>">Wiki</a>
+      </li>
+      <li>
+        <i class="icon-book"></i> <a href="<?php echo $g_blog_url; ?>">Blog</a>
+      </li>
+      <li>
+        <i class="icon-twitter"></i> <a href="http://www.twitter.com/mantisbt">Twitter</a>
+      </li>
+      <li>
+        <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:press">Reviews and Press Articles</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col-md-1 col-sm-1"></div>
+  <div class="col-sm-3 col-md-3 note-stick stick pull-right">
+    <div style="font-size: 32px;"> <i class="icon-book"></i>
+    </div>
+    <br>
+    <h2>Administrator's Guide</h2>
+    <br>
+    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide/" onclick="ga('send', 'event', 'Documentation', 'Browse Admin Docs');" type="button" class="ex btn btn-default btn-inverse btn-block">
+      Browse Docs
+    </a>
+    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide.pdf" onclick="ga('send', 'event', 'Documentation', 'Download Admin PDF');" type="button" class="ex btn btn-default btn-inverse btn-block">
+      Download PDF
+    </a>
+  </div>
+</div>
 
-<p>
-	For developer-oriented documentation please see <a href="/development.php">the development page</a>.
-</p>
+<hr>
 
-<div class="clearBoth"></div>
+<div class="row show-grid clear-both">
+  <div class="col-md-8 col-sm-8">
+    <h1>Docs for Developers</h1>
+    <p>MantisBT source code and
+      plugins are hosted on GitHub. Detailed information on how to use git with MantisBT can be found in the
+      Mantis Bug Tracker Developers Guide. Help with setting up Git and learning basic usage can be found in
+      GitHub's Help pages.
+    </p>
+
+    <ul class="icons">
+      <ul class="item-details">
+        <li>
+          <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner">Developer's Corner</a>
+        <li>
+        <li>
+          <i class="icon-book"></i> <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/">Developer's Guide</a>
+        <li>
+        <li>
+          <i class="icon-github"></i> <a href="http://help.github.com">GitHub Help</a>
+        <li>
+      </ul>
+    </ul>
+  </div>
+  <div class="col-md-1 col-sm-1"></div>
+  <div class="col-sm-3 col-md-3 note-stick stick pull-right">
+    <div style="font-size: 32px;"> <i class="icon-book"></i>
+    </div>
+    <br>
+    <h2>Developer's Guide</h2>
+    <br>
+    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.html" onclick="ga('send', 'event', 'Documentation', 'Browse Dev Docs');" type="button" class="ex btn btn-default btn-inverse btn-block">
+      Browse Docs
+    </a>
+    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.pdf" onclick="ga('send', 'event', 'Documentation', 'Download Dev PDF');" type="button" class="ex btn btn-default btn-inverse btn-block">
+      Download PDF
+    </a>
+  </div>
+</div>
+
+<hr>
+
+<div class="row show-grid clear-both">
+  <div class="col-md-8 col-sm-8">
+    <h1>Docs for Translators</h1>
+    <p>
+      MantisBT ships in <a href="https://github.com/mantisbt/mantisbt/tree/master/lang">50 languages</a> providing it a great penetration around the world.
+      Anyone can contribute improvements to existing languages or even new languages via TranslateWiki.
+      For more details check the <a href="http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto">'Translators How To Guide'</a>.
+    </p>
+  </div>
+</div>
 
 <?php
-	include( "bot.php" ); 
+include( "bot.php" );

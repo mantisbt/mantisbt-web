@@ -1,55 +1,140 @@
 <?php
-	$t_sub_title = "Development";
-	include( "top.php" );
+$t_sub_title = "Development";
+include( "top.php" );
 ?>
 
+  <div class="row show-grid clear-both">
+    <div class="col-sm-12 col-md-12">
 
-<h4>MantisBT Development</h4>
-<div class="spotlight">
-	<p>
-	MantisBT is free software. We encourage <b>you</b> to dive into the source
-	and help on new features and bugfixes. That is the way free software works.
-	</p>
-</div>
+      <div class="col-sm-12 col-md-12 grey-box">
+        <div class="hero-block3">
+          <div class="row show-grid">
+            <div class="col-sm-12 col-md-12">
+              <div class="hero-content-3">
+                <h3>
+                  MantisBT is an open source bug tracker with a large community of users and contributors.
+                  Join us, learn from others, and have some fun!
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<p>
-	Here are some important pointers for MantisBT-Development:
-</p>
+      <br><br>
 
-<h5>The source code</h5>
+      <div class="row show-grid clear-both">
 
-<p>
-	MantisBT <a href="http://github.com/mantisbt/mantisbt">source code</a> and <a href="http://github.com/mantisbt-plugins">plugins</a> are hosted on GitHub.
+        <div class="col-sm-7 col-md-8">
+          <h1>Source Code</h1>
+          <p>MantisBT source code and
+            plugins are hosted on GitHub. Detailed information on how to use git with MantisBT can be found in the
+            Mantis Bug Tracker Developers Guide. Help with setting up Git and learning basic usage can be found in
+            GitHub's Help pages.
+          </p>
+          <h3>MantisBT source code:</h3>
+          <ul class="icons">
+            <ul class="item-details">
+              <li>
+                <i class="icon-github"></i> <a href="http://github.com/mantisbt/mantisbt">Master Repository</a>
+              <li>
+              <li>
+                <i class="icon-github"></i> <a href="http://github.com/mantisbt-plugins">Plugins Repository</a>
+              <li>
+              <li>
+                <i class="icon-github"></i> <a href="http://help.github.com">GitHub Help</a>
+              <li>
+            </ul>
+          </ul>
+        </div>
+        <div class="col-sm-5 col-md-4 note-stick stick">
+          <div style="font-size: 38px;"> <i class="icon-github"></i>
+          </div>
+          <br>
+          <h2>MantisBT on GitHub</h2>
+          <br>
+          <br>
+          <a href="http://github.com/mantisbt/mantisbt" onclick="ga('send', 'event', 'Development', 'Browse Source Code');"  type="button" class="ex btn btn-default btn-inverse btn-block">
+            Browse Source Code
+          </a>
+        </div>
+      </div>
 
-	Detailed information on how to use git with MantisBT can be found in the
-	<a href="/docs/master-1.2.x/en/developers.html">Mantis Bug Tracker
-	Developers Guide</a>.
+      <hr>
 
-	Help with setting up Git and learning basic usage can be found in
-	<a href="http://help.github.com">GitHub's Help pages</a>.
-</p>
+      <div class="row show-grid clear-both">
 
-<h5>Documentation</h5>
-	<ul>
-		<li>
-			<a href="/docs/master-1.2.x/en/developers.html">Mantis Bug Tracker Developers Guide</a>
-		</li>
-		<li>
-			<a href="/wiki/doku.php/mantisbt:coding_guidelines">MantisBT Coding Conventions</a>
-		</li>
-	</ul>
+        <div class="col-sm-7 col-md-8">
+          <h1>Documentation</h1>
+          <p>MantisBT source code and
+            plugins are hosted on GitHub. Detailed information on how to use git with MantisBT can be found in the
+            Mantis Bug Tracker Developers Guide. Help with setting up Git and learning basic usage can be found in
+            GitHub's Help pages.
+          </p>
 
-<h5>Communication</h5>
-	<ul>
-		<li>
-			Often times MantisBT developers hang out on IRC @ <a href="irc://irc.freenode.net/mantisbt">#mantisbt</a> on the freenode network
-		</li>
-		<li>
-			It's a good idea to subscribe to the mantisbt-dev mailinglist - details are on the <a href="/mailinglists.php">mailing lists page</a>.
-		</li>
-	</ul>
+          <h3>MantisBT developer documentation:</h3>
+          <ul class="icons">
+            <ul class="item-details">
+              <li>
+                <i class="icon-book"></i>
+                <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner" onclick="ga('send', 'event', 'Development', 'Developer Corner');">
+                  Developer's Corner
+                </a>
+              <li>
+              <li>
+                <i class="icon-book"></i>
+                <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/" onclick="ga('send', 'event', 'Development', 'Developer Guide');">
+                  Developer's Guide
+                </a>
+              <li>
+            </ul>
+          </ul>
+        </div>
+        <div class="col-sm-5 col-md-4 note-stick stick">
+          <div style="font-size: 32px;"> <i class="icon-book"></i>
+          </div>
+          <br>
+          <h2>Developers Guide</h2>
+          <br>
+          <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.html" onclick="ga('send', 'event', 'Development', 'Browse Docs');" type="button" class="ex btn btn-default btn-inverse btn-block">
+            Browse Docs
+          </a>
+          <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.pdf" onclick="ga('send', 'event', 'Development', 'Download PDF');" type="button" class="ex btn btn-default btn-inverse btn-block">
+            Download PDF
+          </a>
+        </div>
+      </div>
 
-<div class="clearBoth"></div>
+      <hr>
+
+      <div class="row show-grid clear-both">
+
+        <div class=" col-sm-8 col-md-8">
+          <h1>Communication</h1>
+
+          <p>Sometimes its just easier to get help or discuss matters in real time. The #mantisbt channel on
+            irc.freenode.net is where MantisBT developers hang out.</p>
+          <a type="button" class="btn btn-warning" href="irc://irc.freenode.net/mantisbt" onclick="ga('send', 'event', 'Development', 'Join #mantisbt IRC');">
+            Join #mantisbt IRC
+          </a>
+
+          <div class="clearfix"></div>
+          <br><br>
+
+          <p>
+            MantisBT developers utilize mailing lists to communicate with other developers, translators, and the community.
+            You may want to join our mailing lists and join the conversation.
+            It is a good idea to discuss larger contributions on the mailing list before getting started.
+          </p>
+          <a type="button" class="btn btn-warning" href="mailinglists.php" onclick="ga('send', 'event', 'Development', 'Browse Mailing Lists');">
+            Browse Mailing Lists
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
 
 <?php
-	include( "bot.php" );
+include( "bot.php" );

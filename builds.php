@@ -135,7 +135,7 @@ function print_travis_status( $p_branch ) {
 function print_builds_list( $p_builds ) {
 	# printf formats
 	$t_fmt_sha_link = '
-					<a href="http://www.mantisbt.org/bugs/plugin.php?page=Source%%2Fsearch&revision=%1$s">%1$s</a>';
+					<a href="<?php echo $g_bugs_url; ?>plugin.php?page=Source%%2Fsearch&revision=%1$s">%1$s</a>';
 	$t_fmt_branch = '
 				<td rowspan="%d" class="table-cell">
 					%s
@@ -230,7 +230,13 @@ function print_builds_list( $p_builds ) {
 	if( get_builds_list( $t_path, $t_builds, $t_logfile ) ) {
 ?>
 
-	<h4>Nightly Builds Downloads</h4>
+  <div class="row show-grid clear-both">
+    <div class="col-sm-7 col-md-8">
+	    <h1>Nightly Builds Downloads</h1>
+    </div>
+  </div>
+
+  <br>
 
 <?php
 		print_builds_list( $t_builds );
