@@ -90,7 +90,7 @@ function is_unsupported_browser()
 {
     $ua = getBrowser();
     if ( 'Internet Explorer' == $ua['name'] &&
-        ( '8.0' == $ua['version'] || '7.0' == $ua['version'] || '6.0' == $ua['version'] ) ) {
+        ( '6.0' == $ua['version'] ) ) {
 
         return true;
     }

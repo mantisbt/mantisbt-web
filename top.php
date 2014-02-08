@@ -20,6 +20,7 @@ if ( is_unsupported_browser() ) {
     <!-- META HTTP-EQUIV -->
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta http-equiv="content-language" content="en-us" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- META NAME -->
     <meta name="description" content="MantisBT is a popular free web-based bug tracking system. It is written in PHP works with MySQL, MS SQL, and PostgreSQL databases. MantisBT has been installed on Windows, Linux, Mac OS, OS/2, and others. It is released under the terms of the GNU General Public License (GPL)." />
