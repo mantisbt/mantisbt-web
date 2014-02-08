@@ -1,0 +1,212 @@
+*			{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+html, body		{
+    width:100%;
+    height:100%;
+    background-color:#ffffff;
+    text-align:center;
+}
+
+html			{
+    overflow-y:scroll;
+}
+
+#container		{
+    width:870px;
+    text-align:left;
+    margin:0 auto 0 auto;
+    padding:15px 15px 15px 15px;
+    text-align:left;
+}
+
+#header		{
+    width:840px;
+    height:115px;
+    background-position:top;
+    background-repeat:no-repeat;
+    padding:20px 15px 15px 15px;
+    margin-bottom:25px;
+}
+
+#intro		{
+    float:left;
+    width:420px;
+}
+
+#explain	{
+    float:right;
+    width:420px;
+    margin-top:7px;
+}
+
+#explain p	{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    line-height:21px;
+    color:#000000;
+}
+
+h1, h1 a, a h1		{
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:16px;
+    color:#000000;
+    margin-bottom:16px;
+}
+h2			{
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:18px;
+    color:#000000;
+    margin-bottom:14px;
+}
+
+#main h2	{
+    color:#000000;
+    margin-top:20px;
+}
+
+p, ul, td		{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    line-height:21px;
+    color:#000000;
+    margin-bottom:21px;
+}
+
+a, a:link, a:visited, a:hover, a:active	{
+    color:#000000;
+}
+
+ul			{
+    margin-left:25px;
+}
+
+#buts		{
+    margin-top:25px;
+    overflow:hidden;
+}
+
+.but		{
+    width:270px;
+    height:130px;
+    margin-right:15px;
+    margin-bottom:15px;
+}
+
+.code	{
+    width:100%;
+    height:80px;
+    background-color:#999999;
+    color:#ffffff;
+    overflow-y:scroll;
+    padding:10px 0 10px 0;
+}
+
+#footer, #language		{
+    clear:both;
+    width:870px;
+    text-align:right;
+    margin:0 auto 0 auto;
+}
+
+#footer p, .tiny	{
+    margin-right:10px;
+}
+
+#language p	{
+    font-size:12px;
+    margin:0;
+    padding:0;
+    margin-right:10px;
+}
+
+#language a, #language a:link, #language a:visited, #language a:hover, #language a:active	{
+    text-decoration:none;
+}
+
+#language a:hover	{
+    text-decoration:underline;
+}
+
+input[type="text"]	{
+    border-width:1px;
+    border-style:solid;
+    border-color:#999999;
+    height:21px;
+    padding:4px;
+}
+
+input[type="submit"]	{
+    background-color:#999999;
+    color:#ffffff;
+    font-weight:bold;
+    padding:4px;
+}
+
+.error	{
+    color:#ff0000;
+}
+
+.adsense_leaderboard {
+    width:100%;
+    text-align:center;
+}
+
+#button-ff {
+    background:transparent url(../img/button-ff.png) no-repeat left top;
+}
+
+#button-ie {
+    background:transparent url(../img/button-ie.png) no-repeat left top;
+}
+
+#button-ch {
+    background:transparent url(../img/button-ch.png) no-repeat left top;
+}
+
+#button-sa {
+    background:transparent url(../img/button-sa.png) no-repeat left top;
+}
+
+#button-op {
+    background:transparent url(../img/button-op.png) no-repeat left top;
+}
+
+#buts a {
+    display:block;
+    float:left;
+    width:172px;
+    height:120px;
+    overflow:hidden;
+    white-space:nowrap;
+    margin:0 19px 20px 0;
+    padding:10px 7px 0 91px;
+    text-decoration:none;
+}
+
+#buts a h3 {
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:18px;
+    width:172px;
+    overflow:hidden;
+    color:#000099;
+}
+
+p.sub {
+    width:172px;
+    overflow:hidden;
+    color:#000;
+    font-size:12px;
+    margin-bottom:33px;
+}
+
+p.downloadfree {
+    width:172px;
+    overflow:hidden;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:18px;
+    color:#3d9702;
+}
