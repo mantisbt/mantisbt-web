@@ -80,6 +80,10 @@ include( 'config_defaults_inc.php' );
 
 </div>
 
+<?php
+include( 'google_analytics.php' );
+?>
+
 
 </body>
 </html>
