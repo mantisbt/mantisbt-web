@@ -1274,6 +1274,9 @@ h1 {
     line-height: 32px;
     margin: 0 0 20px;
 }
+h1.small {
+    font-size: 26px;
+}
 h2 {
     font-size: 26px;
     color: #666666;

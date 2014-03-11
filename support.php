@@ -37,7 +37,7 @@ include( "top.php" );
       <div class="note-stick stick pull-left">
         <br>
         <p>Admin and Developer</p>
-        <h2>Documentation</h2>
+        <h1 class="small">Documentation</h1>
         <br>
         <a href="documentation.php" onclick="ga('send', 'event', 'Support', 'Go to Docs');" type="button" class="ex btn btn-group btn-default btn-inverse btn-block">
           Go to Docs
