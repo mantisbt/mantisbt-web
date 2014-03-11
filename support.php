@@ -82,8 +82,7 @@ include( "top.php" );
       <div class="note-stick stick pull-left">
         <br>
         <p>Use IRC chat at</p>
-        <h2>#mantisbt</h2>
-        <br>
+        <h1>#mantisbt</h1>
         <a href="irc://irc.freenode.net/mantisbt" onclick="ga('send', 'event', 'Support', 'Go to IRC');" type="button" class="ex btn btn-group btn-default btn-inverse btn-block">
           Go to IRC
         </a>
