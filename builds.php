@@ -221,7 +221,7 @@ function print_builds_list( $p_builds ) {
 	$t_path_root = rtrim( $_SERVER['DOCUMENT_ROOT'], DIRECTORY_SEPARATOR ) . DIRECTORY_SEPARATOR;
 	$t_path = realpath( $t_path_root . $t_dir );
 	if( false === $t_path ) {
-		$t_path = realpath( $t_path_root . '..' . DIRECTORY_SEPARATOR . $t_dir );
+		$t_path = realpath( dirname( $t_path_root ) . DIRECTORY_SEPARATOR . $t_dir );
 	}
 	if( false === $t_path ) {
 		$t_path = $t_dir;
