@@ -108,6 +108,7 @@ function build_channels_list( $p_path ) {
         } else {
           # Old channel - just display the name
           $t_channel_name = '#' . $t_channel_name;
+          $t_href = '';
         }
 
         # Replace array elements with hyperlinks
