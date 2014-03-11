@@ -27,8 +27,6 @@ if ( is_unsupported_browser() ) {
     <meta name="keywords" content="mantis, mantisbt, bugtracker, bug, tracker, issue, software" />
     <meta name="dc.title" content="Mantis Bug Tracker" />
     <meta name="revisit-after" content="1 days" />
-
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--[if !IE]> -->
