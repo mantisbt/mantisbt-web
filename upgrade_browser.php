@@ -66,12 +66,12 @@ include( 'config_defaults_inc.php' );
             <p class="downloadfree">Download free</p>
         </a>
 
-        <a href="http://www.opera.com/" id="button-op" title="Update de Opera browser">
+        <a href="http://www.opera.com/" id="button-op" title="Opera browser">
             <h3>Opera</h3>
             <p class="sub">PC, Mac + Linux</p><p class="downloadfree">Download free</p>
         </a>
 
-        <a href="http://www.mozilla-europe.org/nl/firefox/" id="button-ff" title="Update de Firefox browser">
+        <a href="http://www.mozilla.org/firefox/" id="button-ff" title="Firefox browser">
             <h3>Firefox</h3>
             <p class="sub">PC, Mac + Linux</p>
             <p class="downloadfree">Download free</p>
