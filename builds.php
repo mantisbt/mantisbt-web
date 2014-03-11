@@ -26,7 +26,7 @@ class SortingIterator extends ArrayIterator {
 function get_builds_list( $p_path, &$p_builds, &$p_logfile ) {
 	# Error handling in case the path does not exist
 	if( !is_dir( $p_path ) ) {
-		echo "ERROR: path '$p_path' not found\n";
+		print_error( "Path '$p_path' not found" );
 		return false;
 	}
 

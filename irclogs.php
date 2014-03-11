@@ -77,14 +77,7 @@ function build_channels_list( $p_path ) {
 
   # Error handling in case the path does not exist
   if( !is_dir( $p_path ) ) {
-    echo '	<div class="alert alert-error">' . "\n";
-    echo '    <button type="button" class="close" data-dismiss="alert">×</button>';
-    echo '    <h2>Error</h2>';
-    echo '		<p>' . "\n";
-    echo "			Path '$p_path' is not found\n";
-    echo "		</p>\n";
-    echo "	</div>\n\n";
-    echo "	<br>\n";
+    print_error( "Path '$p_path' not found" );
     return;
   }
 

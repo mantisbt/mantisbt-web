@@ -7,6 +7,8 @@ if ( is_unsupported_browser() ) {
     header('Content-Type: text/html');
 }
 
+require_once( 'helper_functions.php' );
+
 ?>
 
 <!DOCTYPE html>
