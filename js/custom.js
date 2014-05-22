@@ -34,7 +34,7 @@ jQuery(document).ready(function($) {
      * messages, navigation arrows and twitter logo are centered vertically
      */
     $.ajax({ // get content from twiter
-        url: 'http://www.mantisbt.org/preview/get-tweets.php',
+        url: '/get-tweets.php',
         type: 'GET',
         dataType: 'json',
         data: {
@@ -94,5 +94,5 @@ jQuery(document).ready(function($) {
         }
 
     });
-});                         
+});
 
