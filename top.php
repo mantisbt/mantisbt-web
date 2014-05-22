@@ -54,7 +54,7 @@ require_once( 'helper_functions.php' );
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="css/color_scheme.css" />
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic" type="text/css" />
     <link rel="stylesheet" href="css/font-awesome.css" />
     <link rel="stylesheet" href="css/flexslider.css" />
 
@@ -67,7 +67,7 @@ require_once( 'helper_functions.php' );
     <![endif]-->
 
     <link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo $g_blog_url; ?>?feed=rss2" />
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://twitter.com/statuses/user_timeline/7199732.rss" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://twitter.com/statuses/user_timeline/7199732.rss" />
 
 </head>
 
