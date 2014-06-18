@@ -7,15 +7,15 @@
  * @return array
  */
 function getBrowser() {
-	$u_agent = $_SERVER['HTTP_USER_AGENT'];
+	$u_agent = strtolower( $_SERVER['HTTP_USER_AGENT'] );
 	$version = '';
 
 	# First get the platform
-	if( preg_match( '/linux/i', $u_agent ) ) {
+	if( preg_match( '/linux/', $u_agent ) ) {
 		$platform = 'linux';
-	} elseif( preg_match( '/macintosh|mac os x/i', $u_agent ) ) {
+	} elseif( preg_match( '/macintosh|mac os x/', $u_agent ) ) {
 		$platform = 'mac';
-	} elseif( preg_match( '/windows|win32/i', $u_agent ) ) {
+	} elseif( preg_match( '/windows|win32/', $u_agent ) ) {
 		$platform = 'windows';
 	}
 	else {
@@ -23,29 +23,28 @@ function getBrowser() {
 	}
 
 	# Next get the name of the useragent yes seperately and for good reason
-	if( preg_match( '/MSIE/i', $u_agent ) && !preg_match( '/Opera/i', $u_agent ) ) {
+	if( preg_match( '/msie/', $u_agent ) && !preg_match( '/opera/', $u_agent ) ) {
 		$bname = 'Internet Explorer';
 		$ub = 'MSIE';
-	} elseif( preg_match( '/Firefox/i', $u_agent ) ) {
+	} elseif( preg_match( '/firefox/', $u_agent ) ) {
 		$bname = 'Mozilla Firefox';
 		$ub = 'Firefox';
-	} elseif( preg_match( '/Chrome/i', $u_agent ) ) {
+	} elseif( preg_match( '/chrome/', $u_agent ) ) {
 		$bname = 'Google Chrome';
 		$ub = 'Chrome';
-	} elseif( preg_match( '/Safari/i', $u_agent ) ) {
+	} elseif( preg_match( '/safari/', $u_agent ) ) {
 		$bname = 'Apple Safari';
 		$ub = 'Safari';
-	} elseif( preg_match( '/Opera/i', $u_agent ) ) {
+	} elseif( preg_match( '/opera/', $u_agent ) ) {
 		$bname = $ub = 'Opera';
-	} elseif( preg_match( '/Netscape/i', $u_agent ) ) {
+	} elseif( preg_match( '/netscape/', $u_agent ) ) {
 		$bname = $ub = 'Netscape';
-	}
-	else {
+	} else {
 		$bname = $ub = 'Unknown';
 	}
 
 	# finally get the correct version number
-	$known = array( 'Version', $ub, 'other' );
+	$known = array( 'version', $ub, 'other' );
 	$pattern = '#(?<browser>' . join( '|', $known ) . ')[/ ]+(?<version>[0-9.|a-zA-Z.]*)#';
 	if( !preg_match_all( $pattern, $u_agent, $matches ) ) {
 		# we have no matching number just continue
@@ -56,8 +55,8 @@ function getBrowser() {
 	if( $i != 1 ) {
 		# we will have two since we are not using 'other' argument yet
 		# see if version is before or after the name
-		if( strripos( $u_agent, 'Version' ) < strripos( $u_agent, $ub ) ) {
-			$version= $matches['version'][0];
+		if( strrpos( $u_agent, 'version' ) < strrpos( $u_agent, $ub ) ) {
+			$version = $matches['version'][0];
 		} else {
 			$version = $matches['version'][1];
 		}
@@ -71,7 +70,7 @@ function getBrowser() {
 	}
 
 	return array(
-		'userAgent' => $u_agent,
+		'userAgent' => $_SERVER['HTTP_USER_AGENT'],
 		'name'      => $bname,
 		'version'   => $version,
 		'platform'  => $platform,
