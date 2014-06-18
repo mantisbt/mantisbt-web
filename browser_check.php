@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * Identify the browser name, version and platform from the user agent
+ * Looks like Rafik initially copied this code from
+ * http://php.net/function.get-browser.php#101125
+ * @return array
+ */
 function getBrowser()
 {
     $u_agent = $_SERVER['HTTP_USER_AGENT'];
@@ -86,6 +92,10 @@ function getBrowser()
     );
 }
 
+/**
+ * Returns true if user's browser is not supported
+ * @return bool
+ */
 function is_unsupported_browser()
 {
     $ua = getBrowser();
