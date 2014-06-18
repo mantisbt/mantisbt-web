@@ -8,8 +8,6 @@
  */
 function getBrowser() {
 	$u_agent = $_SERVER['HTTP_USER_AGENT'];
-	$bname = 'Unknown';
-	$platform = 'Unknown';
 	$version = '';
 
 	# First get the platform
@@ -19,6 +17,9 @@ function getBrowser() {
 		$platform = 'mac';
 	} elseif( preg_match( '/windows|win32/i', $u_agent ) ) {
 		$platform = 'windows';
+	}
+	else {
+		$platform = 'Unknown';
 	}
 
 	# Next get the name of the useragent yes seperately and for good reason
@@ -38,6 +39,9 @@ function getBrowser() {
 		$bname = $ub = 'Opera';
 	} elseif( preg_match( '/Netscape/i', $u_agent ) ) {
 		$bname = $ub = 'Netscape';
+	}
+	else {
+		$bname = $ub = 'Unknown';
 	}
 
 	# finally get the correct version number
