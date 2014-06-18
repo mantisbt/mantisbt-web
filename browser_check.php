@@ -8,7 +8,6 @@
  */
 function getBrowser() {
 	$u_agent = strtolower( $_SERVER['HTTP_USER_AGENT'] );
-	$version = '';
 
 	# First get the platform
 	if( preg_match( '/linux/', $u_agent ) ) {
@@ -47,26 +46,27 @@ function getBrowser() {
 	$known = array( 'version', $ub, 'other' );
 	$pattern = '#(?<browser>' . join( '|', $known ) . ')[/ ]+(?<version>[0-9.|a-zA-Z.]*)#';
 	if( !preg_match_all( $pattern, $u_agent, $matches ) ) {
-		# we have no matching number just continue
-	}
-
-	# see how many we have
-	$i = count( $matches['browser'] );
-	if( $i != 1 ) {
-		# we will have two since we are not using 'other' argument yet
-		# see if version is before or after the name
-		if( strrpos( $u_agent, 'version' ) < strrpos( $u_agent, $ub ) ) {
-			$version = $matches['version'][0];
-		} else {
-			$version = $matches['version'][1];
-		}
-	} else {
-		$version = $matches['version'][0];
-	}
-
-	# check if we have a number
-	if( $version == '' ) {
+		# we have no matching number
 		$version = '?';
+	} else {
+		# see how many we have
+		$i = count( $matches['browser'] );
+		if( $i >= 1 ) {
+			# we will have two since we are not using 'other' argument yet
+			# see if version is before or after the name
+			if( strrpos( $u_agent, 'version' ) < strrpos( $u_agent, $ub ) ) {
+				$version = $matches['version'][0];
+			} else {
+				$version = $matches['version'][1];
+			}
+		} else {
+			$version = $matches['version'][0];
+		}
+
+		# check if we have a number
+		if( $version == '' ) {
+			$version = '?';
+		}
 	}
 
 	return array(
