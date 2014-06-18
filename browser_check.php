@@ -83,10 +83,10 @@ function getBrowser() {
  * @return bool
  */
 function is_unsupported_browser() {
-	$ua = getBrowser();
-	if( 'Internet Explorer' == $ua['name'] && '6.0' == $ua['version'] ) {
-		return true;
+	static $unsupported;
+	if( !isset( $unsupported ) ) {
+		$ua = getBrowser();
+		$unsupported = ( 'Internet Explorer' == $ua['name'] && '6.0' == $ua['version'] );
 	}
-
-	return false;
+	return $unsupported;
 }
