@@ -133,9 +133,11 @@ function print_travis_status( $p_branch ) {
  * @param array $p_builds
  */
 function print_builds_list( $p_builds ) {
+	global $g_bugs_url;
+
 	# printf formats
 	$t_fmt_sha_link = '
-					<a href="<?php echo $g_bugs_url; ?>plugin.php?page=Source%%2Fsearch&revision=%1$s">%1$s</a>';
+					<a href="' . $g_bugs_url . 'plugin.php?page=Source%%2Fsearch&revision=%1$s">%1$s</a>';
 	$t_fmt_branch = '
 				<td rowspan="%d" class="table-cell">
 					%s
