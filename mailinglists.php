@@ -22,10 +22,12 @@ include( "top.php" );
     <div class="row show-grid clear-both">
       <div class="col-md-8 col-sm-8 col-xs-12">
         <h2>Announcements Mailing List</h2>
-        <p>Get notifications of releases and any important updates.</p>
+        <p>We send release announcements and important updates to users registered on our official bugtracker.
+           To get onto our mailing list, users will have to signup there and verify their email address.  This
+           same account can also be used to report, monitor, and comment on issues relating to MantisBT.</p>
       </div>
       <div class="col-md-4 col-sm-4 col-xs-12">
-        <a href="http://lists.sourceforge.net/mailman/listinfo/mantisbt-announce" type="button" class="btn btn-warning pull-right">
+        <a href="http://www.mantisbt.org/bugs/signup_page.php" type="button" class="btn btn-warning pull-right">
           Subscribe to Mailing List <i class="icon-arrow-right"></i>
         </a>
       </div>
@@ -37,10 +39,10 @@ include( "top.php" );
         <ul class="icons">
           <ul class="item-details">
             <li>
-              <i class="icon-list-alt"></i> <a href="http://dir.gmane.org/gmane.comp.bug-tracking.mantis.announce">GMANE Archives</a>
+              <i class="icon-rss"></i> <a href="http://www.mantisbt.org/blog/">Blog</a>
             </li>
             <li>
-              <i class="icon-list-alt"></i> <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=mantisbt-announce">SourceForge Archives</a>
+              <i class="icon-twitter"></i> <a href="http://www.twitter.com/mantisbt">Twitter</a>
             </li>
           </ul>
         </ul>
