@@ -58,7 +58,7 @@
       <div class="container">
         <div class="row show-grid">
           <div class="col-sm-12 col-md-12">
-            <p>Copyright © 2000 - 2014 MantisBT Team</p>
+            <p>Copyright © 2000 - 2015 MantisBT Team</p>
           </div>
         </div>
       </div>
