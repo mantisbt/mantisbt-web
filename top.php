@@ -33,7 +33,7 @@ require_once( 'helper_functions.php' );
 
     <!--[if !IE]> -->
     <script type="text/javascript">
-        window.jQuery || document.write("<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'>"+"<"+"/script>");
+        window.jQuery || document.write("<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'>"+"<"+"/script>");
     </script>
     <!-- <![endif]-->
 
