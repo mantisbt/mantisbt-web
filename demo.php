@@ -19,7 +19,7 @@ include( "top.php" );
         you are able to create projects,
         submit issues and invite team members to evaluate MantisBT with you.
         MantisHub team also offers you the support you need to get up to speed.
-        With 30 day free trial you have plenty of time to get familiar with MantisBT and decide the plan that works for you.
+        With the free trial you have plenty of time to get familiar with MantisBT and decide the plan that works for you.
       </p>
 
       <p>
@@ -34,7 +34,7 @@ include( "top.php" );
         <h2>Try MantisBT</h2>
         <h2>Now</h2>
         <br>
-        <a href="http://www.mantishub.com" onclick="ga('send', 'event', 'Demo', 'Start Your Free Trial');" type="button" class="ex btn btn-default btn-inverse btn-block">
+        <a href="https://www.mantishub.com" onclick="ga('send', 'event', 'Demo', 'Start Free Trial');" type="button" class="ex btn btn-default btn-inverse btn-block">
           Start Your Free Trial
         </a>
         <br />

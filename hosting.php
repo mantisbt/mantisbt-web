@@ -25,8 +25,8 @@ include( "top.php" );
         <br>
         <h2>Get Started</h2>
         <br>
-        <a href="http://www.mantishub.com" onclick="ga('send', 'event', 'Hosting', 'Start 30-day Free Trial');" type="button" class="ex btn btn-default btn-inverse btn-block">
-          Start 30-day Free Trial
+        <a href="https://www.mantishub.com" onclick="ga('send', 'event', 'Hosting', 'Start Free Trial');" type="button" class="ex btn btn-default btn-inverse btn-block">
+          Start Free Trial
         </a>
         <br />
         no credit card required
@@ -41,7 +41,7 @@ include( "top.php" );
       <br>
       <ul class="icons item-details">
         <li>
-          <i class="icon-ok"></i> Ability to get started in 1 minute with 30 day free trial.
+          <i class="icon-ok"></i> Ability to get started in 1 minute with the free trial.
         </li>
         <li>
           <i class="icon-ok"></i> Focus on your business rather than worrying about backups, upgrades, and support.
@@ -62,7 +62,7 @@ include( "top.php" );
     </div>
     <div class="col-sm-5 col-md-4">
       <div class="tour-btn btn-default">
-        <a class="btn btn-warning" href="http://www.mantishub.com" onclick="ga('send', 'event', 'Hosting', 'Learn more about MantisHub');">
+        <a class="btn btn-warning" href="https://www.mantishub.com" onclick="ga('send', 'event', 'Hosting', 'Learn more about MantisHub');">
           Learn more about MantisHub
         </a>
       </div>
