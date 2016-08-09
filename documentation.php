@@ -42,7 +42,7 @@ include( "top.php" );
     <a href="<?php echo $g_docs_url, $t_doc_path, $t_admin_guide; ?>/html-desktop/" onclick="ga('send', 'event', 'Documentation', 'Browse Admin Docs');" type="button" class="ex btn btn-default btn-inverse btn-block">
       Browse Docs
     </a>
-    <a href="<?php echo $g_docs_url, $t_doc_path, $t_admin_guide; ?>.pdf" onclick="ga('send', 'event', 'Documentation', 'Download Admin PDF');" type="button" class="ex btn btn-default btn-inverse btn-block">
+    <a href="<?php echo $g_docs_url, $t_doc_path, $t_admin_guide, "/$t_admin_guide.pdf"; ?>" onclick="ga('send', 'event', 'Documentation', 'Download Admin PDF');" type="button" class="ex btn btn-default btn-inverse btn-block">
       Download PDF
     </a>
   </div>
@@ -86,7 +86,7 @@ include( "top.php" );
     <a href="<?php echo $g_docs_url, $t_doc_path, $t_dev_guide; ?>/html-desktop/" onclick="ga('send', 'event', 'Documentation', 'Browse Dev Docs');" type="button" class="ex btn btn-default btn-inverse btn-block">
       Browse Docs
     </a>
-    <a href="<?php echo $g_docs_url, $t_doc_path, $t_dev_guide; ?>.pdf" onclick="ga('send', 'event', 'Documentation', 'Download Dev PDF');" type="button" class="ex btn btn-default btn-inverse btn-block">
+    <a href="<?php echo $g_docs_url, $t_doc_path, $t_dev_guide, "/$t_dev_guide.pdf"; ?>" onclick="ga('send', 'event', 'Documentation', 'Download Dev PDF');" type="button" class="ex btn btn-default btn-inverse btn-block">
       Download PDF
     </a>
   </div>
