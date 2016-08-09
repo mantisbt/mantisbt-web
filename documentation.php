@@ -16,7 +16,7 @@ include( "top.php" );
 
     <ul class="icons">
       <li>
-        <i class="icon-book"></i> <a href="<?php echo $g_docs_url, $t_doc_path; ?>">Administrator's Guide</a>
+        <i class="icon-book"></i> <a href="<?php echo $g_docs_url, $t_doc_path, $t_admin_guide; ?>">Administrator's Guide</a>
       </li>
       <li>
         <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>">Wiki</a>
@@ -65,7 +65,7 @@ include( "top.php" );
           <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner">Developer's Corner</a>
         </li>
         <li>
-          <i class="icon-book"></i> <a href="<?php echo $g_docs_url, $t_doc_path; ?>">Developer's Guide</a>
+          <i class="icon-book"></i> <a href="<?php echo $g_docs_url, $t_doc_path, $t_dev_guide; ?>">Developer's Guide</a>
         </li>
         <li>
           <i class="icon-sitemap"></i> <a href="<?php echo $g_docs_url, $t_doc_path; ?>erd/latest.pdf">Entity-Relationship Diagram</a>
