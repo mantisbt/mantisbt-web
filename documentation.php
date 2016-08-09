@@ -1,5 +1,9 @@
 <?php
 $t_sub_title = "Documentation";
+$t_doc_path = 'master-1.3.x/en-US/';
+$t_admin_guide = 'Admin_Guide';
+$t_dev_guide = 'Developers_Guide';
+
 include( "top.php" );
 ?>
 
@@ -12,7 +16,7 @@ include( "top.php" );
 
     <ul class="icons">
       <li>
-        <i class="icon-book"></i> <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/">Administrator's Guide</a>
+        <i class="icon-book"></i> <a href="<?php echo $g_docs_url, $t_doc_path; ?>">Administrator's Guide</a>
       </li>
       <li>
         <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>">Wiki</a>
@@ -35,10 +39,10 @@ include( "top.php" );
     <br>
     <h2>Administrator's Guide</h2>
     <br>
-    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide/" onclick="ga('send', 'event', 'Documentation', 'Browse Admin Docs');" type="button" class="ex btn btn-default btn-inverse btn-block">
+    <a href="<?php echo $g_docs_url, $t_doc_path, $t_admin_guide; ?>/html_desktop/" onclick="ga('send', 'event', 'Documentation', 'Browse Admin Docs');" type="button" class="ex btn btn-default btn-inverse btn-block">
       Browse Docs
     </a>
-    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide.pdf" onclick="ga('send', 'event', 'Documentation', 'Download Admin PDF');" type="button" class="ex btn btn-default btn-inverse btn-block">
+    <a href="<?php echo $g_docs_url, $t_doc_path, $t_admin_guide; ?>.pdf" onclick="ga('send', 'event', 'Documentation', 'Download Admin PDF');" type="button" class="ex btn btn-default btn-inverse btn-block">
       Download PDF
     </a>
   </div>
@@ -61,7 +65,7 @@ include( "top.php" );
           <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner">Developer's Corner</a>
         <li>
         <li>
-          <i class="icon-book"></i> <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/">Developer's Guide</a>
+          <i class="icon-book"></i> <a href="<?php echo $g_docs_url, $t_doc_path; ?>">Developer's Guide</a>
         <li>
         <li>
           <i class="icon-github"></i> <a href="http://help.github.com">GitHub Help</a>
@@ -76,10 +80,10 @@ include( "top.php" );
     <br>
     <h2>Developer's Guide</h2>
     <br>
-    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers/" onclick="ga('send', 'event', 'Documentation', 'Browse Dev Docs');" type="button" class="ex btn btn-default btn-inverse btn-block">
+    <a href="<?php echo $g_docs_url, $t_doc_path, $t_dev_guide; ?>/html-desktop/" onclick="ga('send', 'event', 'Documentation', 'Browse Dev Docs');" type="button" class="ex btn btn-default btn-inverse btn-block">
       Browse Docs
     </a>
-    <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.pdf" onclick="ga('send', 'event', 'Documentation', 'Download Dev PDF');" type="button" class="ex btn btn-default btn-inverse btn-block">
+    <a href="<?php echo $g_docs_url, $t_doc_path, $t_dev_guide; ?>.pdf" onclick="ga('send', 'event', 'Documentation', 'Download Dev PDF');" type="button" class="ex btn btn-default btn-inverse btn-block">
       Download PDF
     </a>
   </div>
