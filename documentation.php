@@ -68,6 +68,9 @@ include( "top.php" );
           <i class="icon-book"></i> <a href="<?php echo $g_docs_url, $t_doc_path; ?>">Developer's Guide</a>
         </li>
         <li>
+          <i class="icon-sitemap"></i> <a href="<?php echo $g_docs_url, $t_doc_path; ?>erd/latest.pdf">Entity-Relationship Diagram</a>
+        </li>
+        <li>
           <i class="icon-github"></i> <a href="http://help.github.com">GitHub Help</a>
         </li>
       </ul>
