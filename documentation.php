@@ -39,7 +39,7 @@ include( "top.php" );
     <br>
     <h2>Administrator's Guide</h2>
     <br>
-    <a href="<?php echo $g_docs_url, $t_doc_path, $t_admin_guide; ?>/html_desktop/" onclick="ga('send', 'event', 'Documentation', 'Browse Admin Docs');" type="button" class="ex btn btn-default btn-inverse btn-block">
+    <a href="<?php echo $g_docs_url, $t_doc_path, $t_admin_guide; ?>/html-desktop/" onclick="ga('send', 'event', 'Documentation', 'Browse Admin Docs');" type="button" class="ex btn btn-default btn-inverse btn-block">
       Browse Docs
     </a>
     <a href="<?php echo $g_docs_url, $t_doc_path, $t_admin_guide; ?>.pdf" onclick="ga('send', 'event', 'Documentation', 'Download Admin PDF');" type="button" class="ex btn btn-default btn-inverse btn-block">
