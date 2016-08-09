@@ -63,13 +63,13 @@ include( "top.php" );
       <ul class="item-details">
         <li>
           <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner">Developer's Corner</a>
-        <li>
+        </li>
         <li>
           <i class="icon-book"></i> <a href="<?php echo $g_docs_url, $t_doc_path; ?>">Developer's Guide</a>
-        <li>
+        </li>
         <li>
           <i class="icon-github"></i> <a href="http://help.github.com">GitHub Help</a>
-        <li>
+        </li>
       </ul>
     </ul>
   </div>
