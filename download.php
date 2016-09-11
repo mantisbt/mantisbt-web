@@ -15,13 +15,13 @@ include( "top.php" );
       <h3>Additional Resources:</h3>
       <ul class="icons item-details">
         <li>
-          <i class="icon-book"></i> <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide/admin.install.upgrade.html">How to upgrade?</a>
+          <i class="icon-book"></i> <a href="<?php echo $g_docs_url; ?>master-1.3.x/en-US/Admin_Guide/html-single/#admin.install.upgrade">How to upgrade?</a>
         </li>
         <li>
           <i class="icon-paper-clip"></i> <a href="<?php echo $g_bugs_url; ?>changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_stable; ?>">Changelog</a>
         </li>
         <li>
-          <i class="icon-check"></i> <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/administration_guide/admin.install.requirements.html">Requirements</a>
+          <i class="icon-check"></i> <a href="<?php echo $g_docs_url; ?>master-1.3.x/en-US/Admin_Guide/html-desktop/#admin.install.requirements">Requirements</a>
         </li>
       </ul>
     </div>
