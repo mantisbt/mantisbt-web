@@ -72,15 +72,6 @@ include( "top.php" );
       </div>
       <div class="note-stick stick pull-left">
         <br>
-        <p>Subscribe to</p>
-        <h1>Mailing Lists</h1>
-        <br>
-        <a href="mailinglists.php" onclick="ga('send', 'event', 'Support', 'Go to mailing lists');" type="button" class="ex btn btn-default btn-inverse btn-block">
-          Go to mailing lists
-        </a>
-      </div>
-      <div class="note-stick stick pull-left">
-        <br>
         <p>Use IRC chat at</p>
         <h1>#mantisbt</h1>
         <a href="irc://irc.freenode.net/mantisbt" onclick="ga('send', 'event', 'Support', 'Go to IRC');" type="button" class="ex btn btn-group btn-default btn-inverse btn-block">
