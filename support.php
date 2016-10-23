@@ -63,7 +63,7 @@ include( "top.php" );
       </div>
       <div class="note-stick stick pull-left">
         <br>
-        <p>Browse and contribute to the</p>
+        <p>Browse our</p>
         <h1>Wiki</h1>
         <br>
         <a href="<?php echo $g_wiki_url; ?>doku.php" onclick="ga('send', 'event', 'Support', 'Go to wiki');" type="button" class="ex btn btn-default btn-inverse btn-block">
