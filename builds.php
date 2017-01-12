@@ -17,7 +17,9 @@ class SortingIterator extends ArrayIterator {
 }
 
 /**
- * Retrieves the list of builds from the specified path
+ * Retrieves the list of builds from the specified path.
+ * List will be sorted by branch name ASC and time DESC, (using the zip file's
+ * timestamp as reference).
  * @param string $p_path
  * @param array $p_builds
  * @param SplFileInfo $p_logfile
@@ -76,11 +78,33 @@ function get_builds_list( $p_path, &$p_builds, &$p_logfile ) {
 			if( isset( $t_match[5] ) ) {
 				$p_builds[$t_sha][$t_ext]['digests'] = $t_file_url;
 			} else {
+				$t_time = $t_file->getMTime();
 				$p_builds[$t_sha][$t_ext]['file'] = $t_file_url;
-				$p_builds[$t_sha][$t_ext]['time'] = $t_file->getMTime();
+				$p_builds[$t_sha][$t_ext]['time'] = $t_time;
+
+				# Build reference time is the Zip file's timestamp
+				if( $t_ext == 'zip') {
+					$p_builds[$t_sha]['time'] = $t_time;
+				}
 			}
 		}
 	}
+
+	# Sort list by branch ASC, timestamp DESC
+	uasort( $p_builds, function( $a, $b ) {
+		$t_result = strcmp( $a['branch'], $b['branch'] );
+		if( $t_result == 0 ) {
+			if( $a['time'] == $b['time'] ) {
+				$t_result = 0;
+			} elseif( $a['time'] > $b['time'] ) {
+				$t_result = -1;
+			} else {
+				$t_result = +1;
+			}
+		}
+		return $t_result;
+	});
+
 	return true;
 }
 
