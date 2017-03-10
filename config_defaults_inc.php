@@ -11,6 +11,12 @@
 	$g_blog_url = '/blog/';
 	$g_forums_url = '/forums/';
 
+	# Documentation
+	$g_docs_path = 'master/en-US/';
+	$g_docs_admin_guide = 'Admin_Guide';
+	$g_docs_dev_guide = 'Developers_Guide';
+	$g_docs_erd_path = 'erd/';
+
 	# Information about latest stable release.
 	$g_latest_version_stable = '1.2.16';
 
