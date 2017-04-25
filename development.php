@@ -118,17 +118,8 @@ include( "top.php" );
             Join #mantisbt IRC
           </a>
 
-          <div class="clearfix"></div>
           <br><br>
 
-          <p>
-            MantisBT developers utilize mailing lists to communicate with other developers, translators, and the community.
-            You may want to join our mailing lists and join the conversation.
-            It is a good idea to discuss larger contributions on the mailing list before getting started.
-          </p>
-          <a type="button" class="btn btn-warning" href="mailinglists.php" onclick="ga('send', 'event', 'Development', 'Browse Mailing Lists');">
-            Browse Mailing Lists
-          </a>
         </div>
       </div>
 
