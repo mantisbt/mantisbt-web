@@ -15,7 +15,7 @@ include( 'config_defaults_inc.php' );
     <meta http-equiv="content-language" content="en-us" />
 
     <!-- META NAME -->
-    <meta name="description" content="MantisBT is a popular free web-based bug tracking system. It is written in PHP works with MySQL, MS SQL, and PostgreSQL databases. MantisBT has been installed on Windows, Linux, Mac OS, OS/2, and others. It is released under the terms of the GNU General Public License (GPL)." />
+    <meta name="description" content="MantisBT is a popular free web-based bug tracking system. It is written in PHP works with MySQL, MS SQL, and PostgreSQL databases. MantisBT has been installed on Windows, Linux, macOS, and others. It is released under the terms of the GNU General Public License (GPL)." />
     <meta name="keywords" content="mantis, mantisbt, bugtracker, bug, tracker, issue, software" />
     <meta name="dc.title" content="Mantis Bug Tracker" />
     <meta name="revisit-after" content="1 days" />
