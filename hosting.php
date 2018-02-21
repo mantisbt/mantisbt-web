@@ -53,7 +53,7 @@ include( "top.php" );
           <i class="icon-ok"></i> Existing users are able to migrate their data.
         </li>
         <li>
-          <i class="icon-ok"></i> Exclusive add-ons like <a href="http://www.mantistouch.org/">MantisTouch</a>
+          <i class="icon-ok"></i> Exclusive add-ons like <a href="https://www.mantistouch.org/">MantisTouch</a>
         </li>
         <li>
           <i class="icon-ok"></i> No long term commitment - cancel anytime and take your data with you.

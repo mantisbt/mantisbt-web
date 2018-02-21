@@ -48,30 +48,30 @@ include( 'config_defaults_inc.php' );
 
     <div id="buts">
 
-        <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx" id="button-ie" title="Internet Explorer browser">
+        <a href="https://www.microsoft.com/windows/internet-explorer/default.aspx" id="button-ie" title="Internet Explorer browser">
             <h3>Internet Explorer</h3>
             <p class="sub">PC, Mac + Linux</p>
             <p class="downloadfree">Download free</p>
         </a>
 
-        <a href="http://www.apple.com/safari/" id="button-sa" title="Safari browser">
+        <a href="https://www.apple.com/safari/" id="button-sa" title="Safari browser">
             <h3>Safari</h3>
             <p class="sub">PC, Mac + Linux</p>
             <p class="downloadfree">Download free</p>
         </a>
 
-        <a href="http://www.google.com/chrome/" id="button-ch" title="Google Chrome browser">
+        <a href="https://www.google.com/chrome/" id="button-ch" title="Google Chrome browser">
             <h3>Chrome</h3>
             <p class="sub">PC, Mac + Linux</p>
             <p class="downloadfree">Download free</p>
         </a>
 
-        <a href="http://www.opera.com/" id="button-op" title="Opera browser">
+        <a href="https://www.opera.com/" id="button-op" title="Opera browser">
             <h3>Opera</h3>
             <p class="sub">PC, Mac + Linux</p><p class="downloadfree">Download free</p>
         </a>
 
-        <a href="http://www.mozilla.org/firefox/" id="button-ff" title="Firefox browser">
+        <a href="https://www.mozilla.org/firefox/" id="button-ff" title="Firefox browser">
             <h3>Firefox</h3>
             <p class="sub">PC, Mac + Linux</p>
             <p class="downloadfree">Download free</p>

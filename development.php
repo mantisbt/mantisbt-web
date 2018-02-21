@@ -36,13 +36,13 @@ include( "top.php" );
           <ul class="icons">
             <ul class="item-details">
               <li>
-                <i class="icon-github"></i> <a href="http://github.com/mantisbt/mantisbt">Master Repository</a>
+                <i class="icon-github"></i> <a href="https://github.com/mantisbt/mantisbt">Master Repository</a>
               <li>
               <li>
-                <i class="icon-github"></i> <a href="http://github.com/mantisbt-plugins">Plugins Repository</a>
+                <i class="icon-github"></i> <a href="https://github.com/mantisbt-plugins">Plugins Repository</a>
               <li>
               <li>
-                <i class="icon-github"></i> <a href="http://help.github.com">GitHub Help</a>
+                <i class="icon-github"></i> <a href="https://help.github.com">GitHub Help</a>
               <li>
             </ul>
           </ul>
@@ -54,7 +54,7 @@ include( "top.php" );
           <h2>MantisBT on GitHub</h2>
           <br>
           <br>
-          <a href="http://github.com/mantisbt/mantisbt" onclick="ga('send', 'event', 'Development', 'Browse Source Code');"  type="button" class="ex btn btn-default btn-inverse btn-block">
+          <a href="https://github.com/mantisbt/mantisbt" onclick="ga('send', 'event', 'Development', 'Browse Source Code');"  type="button" class="ex btn btn-default btn-inverse btn-block">
             Browse Source Code
           </a>
         </div>

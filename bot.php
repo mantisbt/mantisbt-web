@@ -21,8 +21,8 @@
       <div class="row show-grid">
         <div class="col-sm-3 col-md-3 footer-center">
           <img alt="Mantis Bug Tracker Logo" class="footer-logo img-responsive" src="images/mantis_footer_logo.png"/>
-          <div class="addthis_toolbox addthis_default_style addthis_16x16_style" addthis:url="http://mantisbt.org/" addthis:title="MantisBT is a free popular web-based bug & issue tracking system">
-            <a class="addthis_button_facebook" fb:like:layout="button_count" addthis:url="http://mantisbt.org/"></a>
+          <div class="addthis_toolbox addthis_default_style addthis_16x16_style" addthis:url="https://mantisbt.org/" addthis:title="MantisBT is a free popular web-based bug & issue tracking system">
+            <a class="addthis_button_facebook" fb:like:layout="button_count" addthis:url="https://mantisbt.org/"></a>
             <a class="addthis_button_twitter"></a>
             <a class="addthis_button_linkedin"></a>
             <a class="addthis_button_google_plusone_share"></a>
