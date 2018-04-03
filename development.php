@@ -62,48 +62,9 @@ include( "top.php" );
 
       <hr>
 
-      <div class="row show-grid clear-both">
-
-        <div class="col-sm-7 col-md-8">
-          <h1>Documentation</h1>
-          <p>MantisBT source code and
-            plugins are hosted on GitHub. Detailed information on how to use git with MantisBT can be found in the
-            Mantis Bug Tracker Developers Guide. Help with setting up Git and learning basic usage can be found in
-            GitHub's Help pages.
-          </p>
-
-          <h3>MantisBT developer documentation:</h3>
-          <ul class="icons">
-            <ul class="item-details">
-              <li>
-                <i class="icon-book"></i>
-                <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner" onclick="ga('send', 'event', 'Development', 'Developer Corner');">
-                  Developer's Corner
-                </a>
-              <li>
-              <li>
-                <i class="icon-book"></i>
-                <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/" onclick="ga('send', 'event', 'Development', 'Developer Guide');">
-                  Developer's Guide
-                </a>
-              <li>
-            </ul>
-          </ul>
-        </div>
-        <div class="col-sm-5 col-md-4 note-stick stick">
-          <div style="font-size: 32px;"> <i class="icon-book"></i>
-          </div>
-          <br>
-          <h2>Developers Guide</h2>
-          <br>
-          <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.html" onclick="ga('send', 'event', 'Development', 'Browse Docs');" type="button" class="ex btn btn-default btn-inverse btn-block">
-            Browse Docs
-          </a>
-          <a href="<?php echo $g_docs_url; ?>master-1.2.x/en/developers.pdf" onclick="ga('send', 'event', 'Development', 'Download PDF');" type="button" class="ex btn btn-default btn-inverse btn-block">
-            Download PDF
-          </a>
-        </div>
-      </div>
+      <?php
+      include 'doc_dev_inc.php';
+      ?>
 
       <hr>
 
