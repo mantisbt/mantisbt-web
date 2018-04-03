@@ -95,7 +95,7 @@ include( "top.php" );
     <p>
       MantisBT ships in <a href="https://github.com/mantisbt/mantisbt/tree/master/lang">50 languages</a> providing it a great penetration around the world.
       Anyone can contribute improvements to existing languages or even new languages via TranslateWiki.
-      For more details check the <a href="https://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto">'Translators How To Guide'</a>.
+      For more details check the <a href="https://mantisbt.org/wiki/doku.php/mantisbt:translationshowto">'Translators How To Guide'</a>.
     </p>
   </div>
 </div>
