@@ -41,9 +41,6 @@ include( "top.php" );
               <li>
                 <i class="icon-github"></i> <a href="https://github.com/mantisbt-plugins">Plugins Repository</a>
               <li>
-              <li>
-                <i class="icon-github"></i> <a href="https://help.github.com">GitHub Help</a>
-              <li>
             </ul>
           </ul>
         </div>
