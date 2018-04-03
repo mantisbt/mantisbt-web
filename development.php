@@ -25,7 +25,7 @@ include( "top.php" );
 
       <div class="row show-grid clear-both">
 
-        <div class="col-sm-7 col-md-8">
+        <div class="col-sm-8 col-md-8">
           <h1>Source Code</h1>
           <p>MantisBT source code and
             plugins are hosted on GitHub. Detailed information on how to use git with MantisBT can be found in the
@@ -47,8 +47,8 @@ include( "top.php" );
             </ul>
           </ul>
         </div>
-        <div class="col-sm-5 col-md-4 note-stick stick">
-          <div style="font-size: 38px;"> <i class="icon-github"></i>
+        <div class="col-sm-3 col-md-3 note-stick stick pull-right">
+          <div style="font-size: 32px;"> <i class="icon-github"></i>
           </div>
           <br>
           <h2>MantisBT on GitHub</h2>
