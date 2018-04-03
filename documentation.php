@@ -20,7 +20,7 @@ include( "top.php" );
         <i class="icon-book"></i> <a href="<?php echo $g_blog_url; ?>">Blog</a>
       </li>
       <li>
-        <i class="icon-twitter"></i> <a href="http://www.twitter.com/mantisbt">Twitter</a>
+        <i class="icon-twitter"></i> <a href="https://www.twitter.com/mantisbt">Twitter</a>
       </li>
       <li>
         <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:press">Reviews and Press Articles</a>
@@ -66,7 +66,7 @@ include( "top.php" );
           <i class="icon-sitemap"></i> <a href="<?php echo $g_docs_url, $g_docs_erd_path; ?>latest.pdf">Entity-Relationship Diagram</a>
         </li>
         <li>
-          <i class="icon-github"></i> <a href="http://help.github.com">GitHub Help</a>
+          <i class="icon-github"></i> <a href="https://help.github.com">GitHub Help</a>
         </li>
       </ul>
     </ul>
@@ -96,7 +96,7 @@ include( "top.php" );
       MantisBT ships in <a href="https://github.com/mantisbt/mantisbt/tree/master/lang">50 languages</a> providing it a great penetration around the world.
       Anyone can contribute improvements to existing languages or even new languages via
         <a href="https://translatewiki.net/wiki/Translating:MantisBT">translatewiki.net</a>.
-      For more details check the <a href="http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto">'Translators How To Guide'</a>.
+      For more details check the <a href="https://mantisbt.org/wiki/doku.php/mantisbt:translationshowto">'Translators How To Guide'</a>.
     </p>
   </div>
 </div>
