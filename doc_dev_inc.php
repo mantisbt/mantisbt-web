@@ -13,31 +13,29 @@
             GitHub's Help pages.
         </p>
 
-        <ul class="icons">
-            <ul class="item-details">
-                <li>
-                    <i class="icon-book"></i>
-                    <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner">
-                        Developer's Corner
-                    </a>
-                </li>
-                <li>
-                    <i class="icon-book"></i>
-                    <a href="<?php echo $g_docs_url, $g_docs_path, $g_docs_dev_guide; ?>">
-                        Developer's Guide
-                    </a>
-                </li>
-                <li>
-                    <i class="icon-sitemap"></i>
-                    <a href="<?php echo $g_docs_url, $g_docs_erd_path; ?>latest.pdf">
-                        Entity-Relationship Diagram
-                    </a>
-                </li>
-                <li>
-                    <i class="icon-github"></i>
-                    <a href="https://help.github.com">GitHub Help</a>
-                </li>
-            </ul>
+        <ul class="icons item-details">
+            <li>
+                <i class="icon-book"></i>
+                <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner">
+                    Developer's Corner
+                </a>
+            </li>
+            <li>
+                <i class="icon-book"></i>
+                <a href="<?php echo $g_docs_url, $g_docs_path, $g_docs_dev_guide; ?>">
+                    Developer's Guide
+                </a>
+            </li>
+            <li>
+                <i class="icon-sitemap"></i>
+                <a href="<?php echo $g_docs_url, $g_docs_erd_path; ?>latest.pdf">
+                    Entity-Relationship Diagram
+                </a>
+            </li>
+            <li>
+                <i class="icon-github"></i>
+                <a href="https://help.github.com">GitHub Help</a>
+            </li>
         </ul>
     </div>
     <div class="col-md-1 col-sm-1"></div>

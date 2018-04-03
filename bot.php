@@ -1,4 +1,5 @@
 </div>
+</div>
 
 <br><br>
 
@@ -50,16 +51,15 @@
             Released under the terms of the GNU General Public License (GPL).
           </p>
         </div>
-        </div>
       </div>
     </div>
+  </div>
 
-    <div class="footer-bottom">
-      <div class="container">
-        <div class="row show-grid">
-          <div class="col-sm-12 col-md-12">
-            <p>Copyright © 2000 - <?php echo date('Y') ?> MantisBT Team</p>
-          </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row show-grid">
+        <div class="col-sm-12 col-md-12">
+          <p>Copyright © 2000 - <?php echo date('Y') ?> MantisBT Team</p>
         </div>
       </div>
     </div>
@@ -67,6 +67,8 @@
 </footer>
 <!-- END FOOTER -->
 
+</div>
+</div>
 
 <!-- Placed at the end of the document so the pages load faster -->
 
