@@ -61,7 +61,7 @@ include( "top.php" );
     <div class="col-md-1"></div>
     <div class="col-sm-5 col-md-3">
       <br>
-      <a class="btn btn-warning" href="https://mantisbt.org/wiki/doku.php/mantisbt:mantis_plugins" onclick="ga('send', 'event', 'Addons', 'Browse Plugins Directory');">
+      <a class="btn btn-warning" href="wiki/doku.php/mantisbt:plugins:start" onclick="ga('send', 'event', 'Addons', 'Browse Plugins Directory');">
         Browse Plugins Directory</a>
       <div class="clear-both"></div>
       <br>
