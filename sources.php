@@ -12,7 +12,9 @@
 
 <span class="section">GIT</span>
 
-<p>MantisBT uses <a href="https://github.com/">GitHub</a> to store and control its source code.</p>
+<p>MantisBT uses <a href="https://git-scm.com/">GIT</a> to store and control its source code.
+    The official repository is hosted on <a href="https://github.com/mantisbt/mantisbt">GitHub</a>.
+</p>
 
 <p>Please see <a href="https://github.com/mantisbt/mantisbt">git.mantisbt.org</a> for viewing the sources.</p>
 
