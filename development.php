@@ -76,14 +76,26 @@ include( "top.php" );
               The legacy <a href="http://webchat.freenode.net/?channels=%23mantisbt">#mantisbt</a> channel
               on <a href="http://freenode.net">Freenode</a> still exists, but it is hardly used anymore.
           </p>
-          <a type="button" class="btn btn-warning" href="https://gitter.im/mantisbt/mantisbt" onclick="ga('send', 'event', 'Development', 'Join Gitter');">
-            Join MantisBT Gitter Channel
-          </a>
-          <a type="button" class="btn btn-warning" href="irc://irc.freenode.net/mantisbt" onclick="ga('send', 'event', 'Development', 'Join #mantisbt IRC');">
-            Join #mantisbt IRC
-          </a>
+		</div>
 
-          <br><br>
+		<div class="col-sm-3 col-md-3 note-stick stick pull-right">
+			<div style="font-size: 32px;">
+				<i class="icon-comments"></i>
+			</div>
+			<br>
+			<h2>Chat</h2>
+			<br>
+			<br>
+			<a type="button" href="https://gitter.im/mantisbt/mantisbt"
+			   onclick="ga('send', 'event', 'Development', 'Join Gitter');"
+			   class="ex btn btn-default btn-inverse btn-block">
+				Join Gitter Channel
+			</a>
+			<a type="button" href="irc://irc.freenode.net/mantisbt"
+			   onclick="ga('send', 'event', 'Development', 'Join #mantisbt IRC');"
+			   class="ex btn btn-default btn-inverse btn-block">
+				Join #mantisbt IRC
+			</a>
         </div>
       </div>
 
