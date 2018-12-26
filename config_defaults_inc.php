@@ -1,9 +1,4 @@
 <?php
-$g_hostname = 'localhost';
-$g_db_username = 'root';
-$g_db_password = '';
-$g_database_name = 'mantisbt';
-
 # Website URLs
 $g_wiki_url = '/wiki/';
 $g_docs_url = '/docs/';
