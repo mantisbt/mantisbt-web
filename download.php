@@ -55,7 +55,7 @@ function print_sourceforge_url( $p_version = null, $p_stable = true ) {
 			MantisBT <?php echo $g_latest_version_stable; ?></h2>
 		<br>
 		<p>
-			<a href="<?php print_sourceforge_url(); ?>"
+			<a href="<?php print_sourceforge_url( $g_latest_version_stable ); ?>"
 			   onclick="ga('send', 'event', 'Download', 'Download');"
 			   type="button" class="ex btn btn-default  btn-inverse">
 				Download
@@ -99,7 +99,7 @@ function print_sourceforge_url( $p_version = null, $p_stable = true ) {
 		</ul>
 	</div>
 	<div class="col-sm-4 col-md-4">
-		<a href="<?php print_sourceforge_url( null, false ); ?>"
+		<a href="<?php print_sourceforge_url( $g_latest_version_dev, false ); ?>"
 		   onclick="ga('send', 'event', 'Download', 'Download MantisBT');"
 		   type="button" class="btn btn-default btn-warning">
 			Download MantisBT <?php echo $g_latest_version_dev; ?>
