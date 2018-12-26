@@ -16,7 +16,7 @@ $g_docs_erd_path = 'erd/';
 $g_latest_version_stable = '';
 
 # Information about latest legacy release.
-$g_latest_version_stable = '';
+$g_latest_version_legacy = '';
 
 # Information about latest development release.
 $g_latest_version_dev = '';
