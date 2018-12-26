@@ -1,5 +1,22 @@
 <?php
 include( "top.php" );
+
+/**
+ * Print URL for SourceForge downloads
+ * @param null $p_version Optional version number (= subdirectory)
+ * @param bool $p_stable True = stable, false = development
+ */
+function print_sourceforge_url( $p_version = null, $p_stable = true ) {
+	$t_sf_url = 'https://sourceforge.net/projects/mantisbt/files/mantis-%s/%s';
+	if( $p_version ) {
+		$p_version .= '/';
+	}
+	printf( $t_sf_url,
+		$p_stable ? 'stable' : 'development',
+		$p_version
+	);
+}
+
 ?>
 
 <div class="row show-grid clear-both">
@@ -38,7 +55,7 @@ include( "top.php" );
 			MantisBT <?php echo $g_latest_version_stable; ?></h2>
 		<br>
 		<p>
-			<a href="https://sourceforge.net/projects/mantisbt/files/mantis-stable/"
+			<a href="<?php print_sourceforge_url(); ?>"
 			   onclick="ga('send', 'event', 'Download', 'Download');"
 			   type="button" class="ex btn btn-default  btn-inverse">
 				Download
@@ -82,7 +99,7 @@ include( "top.php" );
 		</ul>
 	</div>
 	<div class="col-sm-4 col-md-4">
-		<a href="https://sourceforge.net/projects/mantisbt/files/mantis-development/"
+		<a href="<?php print_sourceforge_url( null, false ); ?>"
 		   onclick="ga('send', 'event', 'Download', 'Download MantisBT');"
 		   type="button" class="btn btn-default btn-warning">
 			Download MantisBT <?php echo $g_latest_version_dev; ?>
