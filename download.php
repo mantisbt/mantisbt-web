@@ -65,6 +65,57 @@ function print_sourceforge_url( $p_version = null, $p_stable = true ) {
 </div>
 <hr>
 
+<?php
+if( !empty( $g_latest_version_legacy ) ) {
+	# Documentation for legacy version is under /docs/master-X.Y.x
+	$t_legacy_docs_version = explode( '.', $g_latest_version_legacy, 3 );
+	$t_legacy_docs_version[2] = 'x';
+	$t_legacy_docs_version = implode( '.', $t_legacy_docs_version );
+	$t_legacy_docs_path = substr_replace( $g_docs_path,
+		'-' . $t_legacy_docs_version,
+		strpos( $g_docs_path, '/' ), 0
+	);
+?>
+<div class="row show-grid clear-both">
+	<div class="col-md-12 col-sm-12">
+		<h1>Legacy Release
+			<small> | Security and critical bugs only!</small>
+		</h1>
+		<p>Older MantisBT version, which is still supported but only gets
+			fixes for critical bugs and security issues.
+			You are strongly advised to upgrade to the latest Stable release
+			as soon as possible, to benefit from new developments.
+		</p>
+	</div>
+</div>
+
+<div class="row show-grid clear-both">
+	<div class="col-sm-8 col-md-8">
+		<h3>Additional Resources:</h3>
+		<ul class="icons">
+			<ul class="item-details">
+				<li>
+					<i class="icon-paper-clip"></i>
+					<a href="<?php echo $g_bugs_url; ?>changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_legacy; ?>">Changelog</a>
+				</li>
+				<li>
+					<i class="icon-check"></i>
+					<a href="<?php echo $g_docs_url, $t_legacy_docs_path, $g_docs_admin_guide; ?>/html-desktop/#admin.install.requirements">Requirements</a>
+				</li>
+			</ul>
+		</ul>
+	</div>
+	<div class="col-sm-4 col-md-4">
+		<a href="<?php print_sourceforge_url( $g_latest_version_legacy ); ?>"
+		   onclick="ga('send', 'event', 'Download', 'Download MantisBT');"
+		   type="button" class="btn btn-default btn-warning">
+			Download MantisBT <?php echo $g_latest_version_legacy; ?>
+		</a>
+	</div>
+</div>
+<hr>
+<?php } ?>
+
 <?php if( !empty( $g_latest_version_dev ) ) { ?>
 <div class="row show-grid clear-both">
 	<div class="col-md-12 col-sm-12">
