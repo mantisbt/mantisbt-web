@@ -13,7 +13,7 @@ $g_docs_dev_guide = 'Developers_Guide';
 $g_docs_erd_path = 'erd/';
 
 # Information about latest stable release.
-$g_latest_version_stable = '1.2.16';
+$g_latest_version_stable = '';
 
 # Information about latest development release.
 $g_latest_version_dev = '';
