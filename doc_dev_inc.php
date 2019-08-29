@@ -41,6 +41,9 @@
                 <a href="<?php echo $g_docs_url, $g_docs_erd_path; ?>latest.pdf">
                     Entity-Relationship Diagram
                 </a>
+                (<a href="<?php echo $g_docs_url, $g_docs_erd_path; ?>">
+                    older versions
+                </a>)
             </li>
             <li>
                 <i class="icon-github"></i>
