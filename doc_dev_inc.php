@@ -7,10 +7,12 @@
 <div class="row show-grid clear-both">
     <div class="col-md-8 col-sm-8">
         <h1>Docs for Developers</h1>
-        <p>MantisBT source code and plugins are hosted on GitHub.
-            Detailed information on how to use git with MantisBT can be found in the
-            Mantis Bug Tracker Developers Guide. Help with setting up Git and learning basic usage can be found in
-            GitHub's Help pages.
+        <p>MantisBT <a href="https://github.com/mantisbt/mantisbt">source code</a>
+            and <a href="https://github.com/mantisbt/mantisbt-plugins">plugins</a>
+            are hosted on GitHub.
+            Detailed information on how to use Git with MantisBT can be found in the
+            Mantis Bug Tracker Developers Guide. Help with setting up Git and learning
+            basic usage can be found in GitHub's Help pages.
         </p>
 
         <ul class="icons item-details">
