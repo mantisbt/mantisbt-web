@@ -31,19 +31,14 @@
             </li>
             <li>
                 <i class="icon-book"></i>
-                <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner">
-                    Developer's Corner
-                </a>
+                <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner">Developer's Corner</a>
                 in the MantisBT Wiki
             </li>
             <li>
                 <i class="icon-sitemap"></i>
                 <a href="<?php echo $g_docs_url, $g_docs_erd_path; ?>latest.pdf">
-                    Entity-Relationship Diagram
-                </a>
-                (<a href="<?php echo $g_docs_url, $g_docs_erd_path; ?>">
-                    older versions
-                </a>)
+                    Entity-Relationship Diagram</a>
+                (see <a href="<?php echo $g_docs_url, $g_docs_erd_path; ?>">older versions</a>)
             </li>
             <li>
                 <i class="icon-github"></i>
