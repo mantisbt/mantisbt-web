@@ -11,8 +11,9 @@
             and <a href="https://github.com/mantisbt/mantisbt-plugins">plugins</a>
             are hosted on GitHub.
             Detailed information on how to use Git with MantisBT can be found in the
-            Mantis Bug Tracker Developers Guide. Help with setting up Git and learning
-            basic usage can be found in GitHub's Help pages.
+            Mantis Bug Tracker Developers Guide, and the MantisBT Wiki provides various
+            links and resources for MantisBT contributors.
+            Help with setting up Git and learning basic usage can be found in GitHub's Help pages.
         </p>
 
         <ul class="icons item-details">
@@ -21,6 +22,7 @@
                 <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner">
                     Developer's Corner
                 </a>
+                in the MantisBT Wiki
             </li>
             <li>
                 <i class="icon-book"></i>
