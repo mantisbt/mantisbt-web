@@ -27,6 +27,12 @@
                 </a>
             </li>
             <li>
+                <i class="icon-cog"></i>
+                <a href="https://documenter.getpostman.com/view/29959/mantis-bug-tracker-rest-api/7Lt6zkP">
+                    REST API Reference
+                </a>
+            </li>
+            <li>
                 <i class="icon-sitemap"></i>
                 <a href="<?php echo $g_docs_url, $g_docs_erd_path; ?>latest.pdf">
                     Entity-Relationship Diagram
