@@ -19,13 +19,6 @@
         <ul class="icons item-details">
             <li>
                 <i class="icon-book"></i>
-                <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner">
-                    Developer's Corner
-                </a>
-                in the MantisBT Wiki
-            </li>
-            <li>
-                <i class="icon-book"></i>
                 <a href="<?php echo $g_docs_url, $g_docs_path, $g_docs_dev_guide; ?>">
                     Developer's Guide
                 </a>
@@ -35,6 +28,13 @@
                 <a href="https://documenter.getpostman.com/view/29959/mantis-bug-tracker-rest-api/7Lt6zkP">
                     REST API Reference
                 </a>
+            </li>
+            <li>
+                <i class="icon-book"></i>
+                <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:developers_corner">
+                    Developer's Corner
+                </a>
+                in the MantisBT Wiki
             </li>
             <li>
                 <i class="icon-sitemap"></i>
