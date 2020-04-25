@@ -45,6 +45,13 @@ function print_sourceforge_url( $p_version = null, $p_stable = true ) {
 				<i class="icon-check"></i>
 				<a href="<?php echo $g_docs_url, $g_docs_path, $g_docs_admin_guide; ?>/html-desktop/#admin.install.requirements">Requirements</a>
 			</li>
+			<li>
+				<i class="icon-key"></i>
+				<a href="https://github.com/mantisbt/mantisbt/blob/master/KEYS.md"
+				   title="Releases are signed with these keys, use them to verify downloaded files' integrity">
+					PGP keys
+				</a>
+			</li>
 		</ul>
 	</div>
 	<div class="col-sm-5 col-md-4 note-stick stick">
