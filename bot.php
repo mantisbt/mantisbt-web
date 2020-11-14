@@ -3,12 +3,15 @@
 
 <br><br>
 
-<div class="recent-tweets">
+<div class="recent-tweets" data-count="<?php echo $g_twitter_tweets_count ?>">
   <div class="container">
     <div class="row show-grid">
       <div class="col-md-12 col-sm-12 twitter-wrapper">
         <div id="nav_t"></div>
-        <div class="tweets-slide"><ul class="slides"></ul></div>
+        <div class="tweets-slide">
+            <span>Retrieving latest tweets...</span>
+            <ul class="slides"></ul>
+        </div>
         <a href="https://twitter.com/mantisbt" onclick="ga('send', 'event', 'Footer', 'Logo');" class="follow_img"><img src="img/follow.png" alt=""></a>
       </div>
     </div>

@@ -39,42 +39,48 @@ jQuery(document).ready(function($) {
         dataType: 'json',
         data: {
             include_rts: true,
-            count: 5,					// Number: count of messages in feed
+            count: $('.recent-tweets').data('count'),
             include_entities: true
-        },
-        success: function(data, textStatus, xhr) {
-            // html preparing and output to the page
-            var html = '';
-            for (var i = 0; i < data.length; i++) {
-                html = html +'<li class="latest-tweet"><p>' + data[i].text + '</p></li>';
-            }
-            $(".tweets-slide ul").append($(html));
-            var height_li = 30;
-            $(".tweets-slide ul li").each(function() {
-                $(this).css('height', '');
-                if ($(this).outerHeight(true) > height_li) height_li = $(this).outerHeight(true);
-            });
-            $(".tweets-slide ul li").each(function() {
-                var margin = Math.floor((height_li-$(this).outerHeight(true))/2);
-                $(this).css('height', height_li);
-                $(this).children("p").css('margin-top', margin);
-            });
-            // flexslider initialization
-            $('.tweets-slide').flexslider({
-                animation: "slide",			//String: Select your animation type, "fade" or "slide"
-                keyboard: false,			//Boolean: Allow slider navigating via keyboard left/right keys
-                controlNav: false, 			//Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
-                direction: "vertical",		//String: Select the sliding direction, "horizontal" or "vertical"
-                pauseOnHover: true,			//Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
-                animationSpeed: 500,		//Integer: Set the speed of animations, in milliseconds
-                slideshowSpeed: 5000,		//Integer: Set the speed of the slideshow cycling, in milliseconds
-                controlsContainer: "#nav_t",	//{UPDATED} jQuery Object/Selector: Declare which container the navigation elements should be appended too. Default container is the FlexSlider element. Example use would be $(".flexslider-container"). Property is ignored if given element is not found.
-                useCSS:false
-            });
-            // twitter logo and navigation block position correction on page loaded and twitter messages loaded
-            $("#nav_t").css('margin-top', Math.floor(((height_li - $("#nav_t").outerHeight(true))/2)));
-            $(".follow_img").css('margin-top', Math.floor(((height_li - $(".follow_img").outerHeight(true))/2)));
         }
+    })
+    .done(function(data, textStatus, xhr) {
+        // Remove placeholder text
+        $(".tweets-slide span").remove();
+
+        // html preparing and output to the page
+        var html = '';
+        for (var i = 0; i < data.length; i++) {
+            html = html +'<li class="latest-tweet"><p>' + data[i].text + '</p></li>';
+        }
+        $(".tweets-slide ul").append($(html));
+        var height_li = 30;
+        $(".tweets-slide ul li").each(function() {
+            $(this).css('height', '');
+            if ($(this).outerHeight(true) > height_li) height_li = $(this).outerHeight(true);
+        });
+        $(".tweets-slide ul li").each(function() {
+            var margin = Math.floor((height_li-$(this).outerHeight(true))/2);
+            $(this).css('height', height_li);
+            $(this).children("p").css('margin-top', margin);
+        });
+        // flexslider initialization
+        $('.tweets-slide').flexslider({
+            animation: "slide",			//String: Select your animation type, "fade" or "slide"
+            keyboard: false,			//Boolean: Allow slider navigating via keyboard left/right keys
+            controlNav: false, 			//Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+            direction: "vertical",		//String: Select the sliding direction, "horizontal" or "vertical"
+            pauseOnHover: true,			//Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
+            animationSpeed: 500,		//Integer: Set the speed of animations, in milliseconds
+            slideshowSpeed: 5000,		//Integer: Set the speed of the slideshow cycling, in milliseconds
+            controlsContainer: "#nav_t",	//{UPDATED} jQuery Object/Selector: Declare which container the navigation elements should be appended too. Default container is the FlexSlider element. Example use would be $(".flexslider-container"). Property is ignored if given element is not found.
+            useCSS:false
+        });
+        // twitter logo and navigation block position correction on page loaded and twitter messages loaded
+        $("#nav_t").css('margin-top', Math.floor(((height_li - $("#nav_t").outerHeight(true))/2)));
+        $(".follow_img").css('margin-top', Math.floor(((height_li - $(".follow_img").outerHeight(true))/2)));
+    })
+    .fail(function() {
+        $(".tweets-slide span").html('<i class="icon-warning-sign"></i> Could not retrieve tweets');
     });
     // twitter logo and navigation block position correction on window resize
     $(window).on('resize', function() {
