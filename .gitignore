@@ -1,3 +1,6 @@
+# Config files
+config_inc.php
+
 # Composer
 /vendor/
 
@@ -6,5 +9,4 @@
 .DS_Store
 .idea
 data/
-config_inc.php
 *.bak
