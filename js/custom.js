@@ -44,6 +44,9 @@ jQuery(document).ready(function($) {
         }
     })
     .done(function(data, textStatus, xhr) {
+        // Remove placeholder text
+        $(".tweets-slide span").remove();
+
         // html preparing and output to the page
         var html = '';
         for (var i = 0; i < data.length; i++) {
