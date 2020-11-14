@@ -1,16 +1,39 @@
 <?php
-    include( 'config_defaults_inc.php' );
+/**
+ * Retrieve recent mantisbt tweets and prints them as JSON
+ *
+ * Used as AJAX from custom.js
+ */
 
-    session_start();
-    require_once("twitteroauth-master/twitteroauth/twitteroauth.php"); //Path to twitteroauth library
+use Abraham\TwitterOAuth\TwitterOAuth;
 
-    function getConnectionWithAccessToken($cons_key, $cons_secret, $oauth_token, $oauth_token_secret) {
-      $connection = new TwitterOAuth($cons_key, $cons_secret, $oauth_token, $oauth_token_secret);
-      return $connection;
-    }
+require_once 'config_defaults_inc.php';
+require_once 'vendor/autoload.php';
 
-    $connection = getConnectionWithAccessToken( $g_twitter_consumer_key, $g_twitter_consumer_secret, $g_twitter_access_token, $g_twitter_access_token_secret );
+session_start();
 
-    $tweets = $connection->get( 'https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=' . $g_twitter_username . "&count=" . $g_twitter_tweets_count );
+/**
+ * Avoid PHPStorm unused variable warnings
+ * @var string $g_twitter_consumer_key
+ * @var string $g_twitter_consumer_secret
+ * @var string $g_twitter_access_token
+ * @var string $g_twitter_access_token_secret
+ * @var string $g_twitter_username
+ * @var int $g_twitter_tweets_count
+ */
 
-    echo json_encode($tweets);
+$twitter = new TwitterOAuth(
+    $g_twitter_consumer_key,
+    $g_twitter_consumer_secret,
+    $g_twitter_access_token,
+    $g_twitter_access_token_secret
+);
+
+$tweets = $twitter->get( 'statuses/user_timeline',
+    array(
+        'screen_name' => $g_twitter_username,
+        'count' => $g_twitter_tweets_count,
+    )
+);
+
+echo json_encode($tweets);
