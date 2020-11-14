@@ -36,4 +36,5 @@ $tweets = $twitter->get( 'statuses/user_timeline',
     )
 );
 
+http_response_code($twitter->getLastHttpCode());
 echo json_encode($tweets);

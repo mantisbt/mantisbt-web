@@ -78,6 +78,9 @@ jQuery(document).ready(function($) {
         // twitter logo and navigation block position correction on page loaded and twitter messages loaded
         $("#nav_t").css('margin-top', Math.floor(((height_li - $("#nav_t").outerHeight(true))/2)));
         $(".follow_img").css('margin-top', Math.floor(((height_li - $(".follow_img").outerHeight(true))/2)));
+    })
+    .fail(function() {
+        $(".tweets-slide span").html('<i class="icon-warning-sign"></i> Could not retrieve tweets');
     });
     // twitter logo and navigation block position correction on window resize
     $(window).on('resize', function() {
