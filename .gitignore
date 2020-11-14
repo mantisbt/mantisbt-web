@@ -1,3 +1,7 @@
+# Composer
+/vendor/
+
+# IDE/Editor temporary files
 .project
 .DS_Store
 .idea
