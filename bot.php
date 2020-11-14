@@ -3,7 +3,7 @@
 
 <br><br>
 
-<div class="recent-tweets">
+<div class="recent-tweets" data-count="<?php echo $g_twitter_tweets_count ?>">
   <div class="container">
     <div class="row show-grid">
       <div class="col-md-12 col-sm-12 twitter-wrapper">

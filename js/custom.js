@@ -39,7 +39,7 @@ jQuery(document).ready(function($) {
         dataType: 'json',
         data: {
             include_rts: true,
-            count: 5,					// Number: count of messages in feed
+            count: $('.recent-tweets').data('count'),
             include_entities: true
         },
         success: function(data, textStatus, xhr) {
