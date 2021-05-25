@@ -1,11 +1,13 @@
 {
     "require": {
         "abraham/twitteroauth": "~1.0",
-        "foroco/php-browser-detection": "^2.1"
+        "foroco/php-browser-detection": "^2.1",
+        "php": "^7.4",
+        "ext-json": "*"
     },
     "config": {
         "platform": {
-            "php": "7.0.33"
+            "php": "7.4.3"
         }
     }
 }
