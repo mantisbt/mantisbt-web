@@ -1,12 +1,6 @@
 <?php
 include( 'config_defaults_inc.php' );
 include( 'browser_check.php' );
-
-if ( is_unsupported_browser() ) {
-    header('Location: ' . 'upgrade_browser.php');
-    header('Content-Type: text/html');
-}
-
 require_once( 'helper_functions.php' );
 
 ?>

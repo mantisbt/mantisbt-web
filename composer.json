@@ -1,6 +1,7 @@
 {
     "require": {
-        "abraham/twitteroauth": "~1.0"
+        "abraham/twitteroauth": "~1.0",
+        "foroco/php-browser-detection": "^2.1"
     },
     "config": {
         "platform": {
