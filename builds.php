@@ -252,51 +252,51 @@ function print_builds_list( array $p_builds ) {
  * Main body
  */
 
-	# Page header
-	$t_sub_title = "Nightly Builds";
-	include( "top.php" );
+# Page header
+$t_sub_title = "Nightly Builds";
+include( "top.php" );
 
-	# Root of builds - try in current dir and one level above if not found
-	$t_dir = 'builds';
-	$t_path_root = rtrim( $_SERVER['DOCUMENT_ROOT'], DIRECTORY_SEPARATOR ) . DIRECTORY_SEPARATOR;
-	$t_path = realpath( $t_path_root . $t_dir );
-	if( false === $t_path ) {
-		$t_path = realpath( dirname( $t_path_root ) . DIRECTORY_SEPARATOR . $t_dir );
-	}
-	if( false === $t_path ) {
-		$t_path = $t_dir;
-	}
+# Root of builds - try in current dir and one level above if not found
+$t_dir = 'builds';
+$t_path_root = rtrim( $_SERVER['DOCUMENT_ROOT'], DIRECTORY_SEPARATOR ) . DIRECTORY_SEPARATOR;
+$t_path = realpath( $t_path_root . $t_dir );
+if( false === $t_path ) {
+	$t_path = realpath( dirname( $t_path_root ) . DIRECTORY_SEPARATOR . $t_dir );
+}
+if( false === $t_path ) {
+	$t_path = $t_dir;
+}
 ?>
 
-  <div class="row show-grid clear-both">
-    <div class="col-sm-7 col-md-8">
-	    <h1>Nightly Builds Downloads</h1>
-    </div>
-  </div>
-
-  <br>
-
-<?php
-	if( get_builds_list( $t_path, $t_builds, $t_logfile ) ) {
-		print_builds_list( $t_builds );
-?>
-
-	<div>
-<?php
-		if( $t_logfile ) {
-?>
-		<p>
-			View the Nightly Builds script's
-			<a href="<?php echo $t_logfile['file']; ?>">Log File</a>
-			(<?php echo print_timestamp( $t_logfile['time'] ); ?>).
-		</p>
-<?php
-		}
-?>
-		<p>All times on this page are <?php echo date('T (\U\TCP)') ?>.</p>
+<div class="row show-grid clear-both">
+	<div class="col-sm-7 col-md-8">
+		<h1>Nightly Builds Downloads</h1>
 	</div>
+</div>
+
+<br>
 
 <?php
-	}
+if( get_builds_list( $t_path, $t_builds, $t_logfile ) ) {
+	print_builds_list( $t_builds );
+?>
 
-	include( "bot.php" );
+<div>
+<?php
+	if( $t_logfile ) {
+?>
+	<p>
+		View the Nightly Builds script's
+		<a href="<?php echo $t_logfile['file']; ?>">Log File</a>
+		(<?php echo print_timestamp( $t_logfile['time'] ); ?>).
+	</p>
+<?php
+	}
+?>
+	<p>All times on this page are <?php echo date('T (\U\TCP)') ?>.</p>
+</div>
+
+<?php
+}
+
+include( "bot.php" );
