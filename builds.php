@@ -21,11 +21,12 @@ class SortingIterator extends ArrayIterator {
  * List will be sorted by branch name ASC and time DESC, (using the zip file's
  * timestamp as reference).
  * @param string $p_path
- * @param array $p_builds
- * @param SplFileInfo $p_logfile
+ * @param array|null $p_builds
+ * @param array|null $p_logfile
  * @return bool false in case of errors
  */
-function get_builds_list( $p_path, &$p_builds, &$p_logfile ) {
+function get_builds_list(string $p_path, ?array &$p_builds, ?array &$p_logfile ): bool
+{
 	# Error handling in case the path does not exist
 	if( !is_dir( $p_path ) ) {
 		print_error( "Path '$p_path' not found" );
@@ -41,6 +42,8 @@ function get_builds_list( $p_path, &$p_builds, &$p_logfile ) {
 	$p_path = '/' . basename( $p_path ) . '/';
 
 	$p_builds = array();
+
+	/** @var SplFileInfo $t_file */
 	foreach( $t_iter_builds as $t_file ) {
 		if( $t_file->isDir() ) {
 			continue;
@@ -48,10 +51,8 @@ function get_builds_list( $p_path, &$p_builds, &$p_logfile ) {
 
 		$t_file_url = $p_path . $t_file->getFilename();
 
-		# mantisbt.org is on PHP 5.3.2 and SplFileInfo:: getExtension
-		# was only introduced in 5.3.6, so, until we upgrade the server...
-		# if( $t_file->getExtension() == 'log' ) {
-		if( substr( $t_file, -3, 3 ) == 'log' ) {
+		# Link to log file if present
+		if( $t_file->getExtension() == 'log' ) {
 			$p_logfile = array(
 				'file' => $t_file_url,
 				'time' => $t_file->getMTime()
@@ -59,7 +60,7 @@ function get_builds_list( $p_path, &$p_builds, &$p_logfile ) {
 		} else {
 			# Break down filename into components
 			$t_result = preg_match(
-				'/^mantisbt-(.*-?.*)-(master.*?)-(.*)\.(.*)(?:\.)?(digests)?$/U',
+				'/^mantisbt-(.*-?.*)-(master.*?)-(.*)\.(.*)\.?(digests|asc)?$/U',
 				$t_file->getFileName(),
 				$t_match
 			);
@@ -76,53 +77,79 @@ function get_builds_list( $p_path, &$p_builds, &$p_logfile ) {
 
 			# Digest and zip/tarball file names
 			if( isset( $t_match[5] ) ) {
-				$p_builds[$t_sha][$t_ext]['digests'] = $t_file_url;
+				$p_builds[$t_sha][$t_ext][$t_match[5]] = $t_file_url;
 			} else {
 				$t_time = $t_file->getMTime();
 				$p_builds[$t_sha][$t_ext]['file'] = $t_file_url;
 				$p_builds[$t_sha][$t_ext]['time'] = $t_time;
 
-				# Build reference time is the Zip file's timestamp
-				if( $t_ext == 'zip') {
-					$p_builds[$t_sha]['time'] = $t_time;
-				}
+				# Build reference time (for sorting) is the most recent file's timestamp
+				$p_builds[$t_sha]['time'] = max(
+					$p_builds[$t_sha]['time'] ?? 0,
+					$t_time
+				);
 			}
 		}
 	}
 
-	# Sort list by branch ASC, timestamp DESC
-	uasort( $p_builds, function( $a, $b ) {
-		$t_result = strcmp( $a['branch'], $b['branch'] );
-		if( $t_result == 0 ) {
-			if( $a['time'] == $b['time'] ) {
-				$t_result = 0;
-			} elseif( $a['time'] > $b['time'] ) {
-				$t_result = -1;
-			} else {
-				$t_result = +1;
+	if( !$p_builds ) {
+		print_error( "No builds found.");
+		return false;
+	}
+
+	# Sort list by version DESC with master first, timestamp DESC
+	uasort( $p_builds,
+		function( $a, $b ) {
+			$t_result = -version_compare( $a['version'], $b['version'] );
+			if ($t_result == 0) {
+				return -( $a['time'] <=> $b['time'] );
 			}
+			return $t_result;
 		}
-		return $t_result;
-	});
+	);
+
 
 	return true;
 }
 
 /**
  * Prints timestamp in YYYY-MM-DD HH:mm:ss format
+ * @param int $p_time
+ * @return string
  */
-function print_timestamp( $p_time ) {
+function print_timestamp( int $p_time ): string
+{
 	return date( 'Y-m-d H:i:s', $p_time );
 }
 
 /**
- * Prints download links and timestamp for the file
+ * Return download links and timestamp for the file
+ * @param string $p_type
+ * @param array|null $p_file
+ * @return string formatted markup with
  */
-function print_file_details( $p_type, $p_file ) {
+function print_file_details( string $p_type, ?array $p_file ): string
+{
 	if( is_null( $p_file ) || !isset( $p_file['file'] ) ) {
 		return '
 				<td class="table-cell center">Unavailable</td>';
 	} else {
+		$t_digest = [];
+		if( isset( $p_file['asc'] ) ) {
+			$t_digest[] = '<a href="' . $p_file['asc']
+				. '" title="ASCII-armored signature file">signature</a>';
+		}
+		if( isset( $p_file['digests'] ) ) {
+			$t_digest[] = '<a href="' . $p_file['digests']
+				. '" title="Checksums">digests</a>';
+		}
+		if( $t_digest ) {
+			$t_digest = implode( ', ', $t_digest );
+		} else {
+			$t_digest = 'no signature or digests';
+		}
+
+		/** @noinspection HtmlUnknownTarget */
 		return sprintf( '
 				<td class="table-cell center">
 					<a href="%s"><img src="images/zip.gif" alt="%s"> Download</a>
@@ -131,9 +158,7 @@ function print_file_details( $p_type, $p_file ) {
 					%s
 				</td>',
 			$p_file['file'], $p_type,
-			isset( $p_file['digests'] )
-				? sprintf( '<a href="%s">digests</a>', $p_file['digests'] )
-				: 'no digest',
+			$t_digest,
 			print_timestamp( $p_file['time'] )
 		);
 	}
@@ -142,11 +167,15 @@ function print_file_details( $p_type, $p_file ) {
 /**
  * Prints the Travis-CI status icon for the given branch
  * @param string $p_branch Branch name
+ * @return string
  */
-function print_travis_status( $p_branch ) {
+function print_travis_status( string $p_branch ): string
+{
 	return sprintf( '
 					<a href="https://travis-ci.org/mantisbt/mantisbt/builds">
-						<img src="https://travis-ci.org/mantisbt/mantisbt.png?branch=%s" />
+						<img src="https://travis-ci.org/mantisbt/mantisbt.png?branch=%s" 
+							 alt="Build status" 
+						/>
 					</a>',
 		$p_branch
 	);
@@ -156,12 +185,12 @@ function print_travis_status( $p_branch ) {
  * Prints the table with the builds
  * @param array $p_builds
  */
-function print_builds_list( $p_builds ) {
+function print_builds_list( array $p_builds ) {
 	global $g_bugs_url;
 
 	# printf formats
 	$t_fmt_sha_link = '
-					<a href="' . $g_bugs_url . 'plugin.php?page=Source%%2Fsearch&revision=%1$s">%1$s</a>';
+					<a href="' . $g_bugs_url . 'plugin.php?page=Source/search&revision=%1$s">%1$s</a>';
 	$t_fmt_branch = '
 				<td rowspan="%d" class="table-cell">
 					%s
@@ -176,6 +205,7 @@ function print_builds_list( $p_builds ) {
 			</tr>' . "\n";
 
 	# Count number of builds available for each branch
+	$t_build_count = [];
 	foreach( $p_builds as $t_build ) {
 		$t_branch = $t_build['branch'];
 		if( isset( $t_build_count[$t_branch] ) ) {
@@ -222,8 +252,8 @@ function print_builds_list( $p_builds ) {
 			$t_fmt_build_row,
 			$t_current,
 			sprintf( $t_fmt_sha_link, $t_sha),
-			print_file_details( 'tarball', isset( $t_build['tar.gz'] ) ? $t_build['tar.gz'] : null),
-			print_file_details( 'zipball', isset( $t_build['zip'] ) ? $t_build['zip'] : null)
+			print_file_details( 'tarball', $t_build['tar.gz'] ?? null),
+			print_file_details( 'zipball', $t_build['zip'] ?? null)
 		);
 	}
 
@@ -238,50 +268,59 @@ function print_builds_list( $p_builds ) {
  * Main body
  */
 
-	# Page header
-	$t_sub_title = "Nightly Builds";
-	include( "top.php" );
+# Page header
+$t_sub_title = "Nightly Builds";
+include( "top.php" );
 
-	# Root of builds - try in current dir and one level above if not found
-	$t_dir = 'builds';
-	$t_path_root = rtrim( $_SERVER['DOCUMENT_ROOT'], DIRECTORY_SEPARATOR ) . DIRECTORY_SEPARATOR;
-	$t_path = realpath( $t_path_root . $t_dir );
-	if( false === $t_path ) {
-		$t_path = realpath( dirname( $t_path_root ) . DIRECTORY_SEPARATOR . $t_dir );
-	}
-	if( false === $t_path ) {
-		$t_path = $t_dir;
-	}
-
-	if( get_builds_list( $t_path, $t_builds, $t_logfile ) ) {
+# Root of builds - try in current dir and one level above if not found
+$t_dir = 'builds';
+$t_path_root = rtrim( $_SERVER['DOCUMENT_ROOT'], DIRECTORY_SEPARATOR ) . DIRECTORY_SEPARATOR;
+$t_path = realpath( $t_path_root . $t_dir );
+if( false === $t_path ) {
+	$t_path = realpath( dirname( $t_path_root ) . DIRECTORY_SEPARATOR . $t_dir );
+}
+if( false === $t_path ) {
+	$t_path = $t_dir;
+}
 ?>
 
-  <div class="row show-grid clear-both">
-    <div class="col-sm-7 col-md-8">
-	    <h1>Nightly Builds Downloads</h1>
-    </div>
-  </div>
+<div class="row show-grid clear-both">
+	<div class="col-sm-7 col-md-8">
+		<h1>Nightly Builds Downloads</h1>
+	</div>
+</div>
 
-  <br>
+<br>
 
 <?php
-		print_builds_list( $t_builds );
+if( get_builds_list( $t_path, $t_builds, $t_logfile ) ) {
+	print_builds_list( $t_builds );
 ?>
 
-	<div>
+<div>
+	<p>
+		<i class="icon-key"></i>
+		<i class="icon-hashtag"></i>
+		Use these
+		<a href="https://github.com/mantisbt/mantisbt/blob/master/KEYS.md">PGP keys</a>
+		to verify the downloaded files' integrity, using the corresponding signature.
+	</p>
+
 <?php
-		if( $t_logfile ) {
+	if( $t_logfile ) {
 ?>
+	<p>
 		View the Nightly Builds script's
 		<a href="<?php echo $t_logfile['file']; ?>">Log File</a>
 		(<?php echo print_timestamp( $t_logfile['time'] ); ?>).
-<?php
-		}
-?>
-		<p>All times on this page are <?php echo date('T (\U\TCP)') ?>.</p>
-	</div>
-
+	</p>
 <?php
 	}
+?>
+	<p>All times on this page are <?php echo date('T (\U\TCP)') ?>.</p>
+</div>
 
-	include( "bot.php" );
+<?php
+}
+
+include( "bot.php" );
