@@ -83,10 +83,11 @@ function get_builds_list(string $p_path, ?array &$p_builds, ?array &$p_logfile )
 				$p_builds[$t_sha][$t_ext]['file'] = $t_file_url;
 				$p_builds[$t_sha][$t_ext]['time'] = $t_time;
 
-				# Build reference time is the Zip file's timestamp
-				if( $t_ext == 'zip') {
-					$p_builds[$t_sha]['time'] = $t_time;
-				}
+				# Build reference time (for sorting) is the most recent file's timestamp
+				$p_builds[$t_sha]['time'] = max(
+					$p_builds[$t_sha]['time'] ?? 0,
+					$t_time
+				);
 			}
 		}
 	}
