@@ -266,8 +266,6 @@ function print_builds_list( array $p_builds ) {
 	if( false === $t_path ) {
 		$t_path = $t_dir;
 	}
-
-	if( get_builds_list( $t_path, $t_builds, $t_logfile ) ) {
 ?>
 
   <div class="row show-grid clear-both">
@@ -279,6 +277,7 @@ function print_builds_list( array $p_builds ) {
   <br>
 
 <?php
+	if( get_builds_list( $t_path, $t_builds, $t_logfile ) ) {
 		print_builds_list( $t_builds );
 ?>
 
