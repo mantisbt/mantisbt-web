@@ -96,20 +96,17 @@ function get_builds_list(string $p_path, ?array &$p_builds, ?array &$p_logfile )
 		return false;
 	}
 
-	# Sort list by branch ASC, timestamp DESC
-	uasort( $p_builds, function( $a, $b ) {
-		$t_result = strcmp( $a['branch'], $b['branch'] );
-		if( $t_result == 0 ) {
-			if( $a['time'] == $b['time'] ) {
-				$t_result = 0;
-			} elseif( $a['time'] > $b['time'] ) {
-				$t_result = -1;
-			} else {
-				$t_result = +1;
+	# Sort list by version DESC with master first, timestamp DESC
+	uasort( $p_builds,
+		function( $a, $b ) {
+			$t_result = -version_compare( $a['version'], $b['version'] );
+			if ($t_result == 0) {
+				return -( $a['time'] <=> $b['time'] );
 			}
+			return $t_result;
 		}
-		return $t_result;
-	});
+	);
+
 
 	return true;
 }
