@@ -42,6 +42,8 @@ function get_builds_list(string $p_path, ?array &$p_builds, ?array &$p_logfile )
 	$p_path = '/' . basename( $p_path ) . '/';
 
 	$p_builds = array();
+
+	/** @var SplFileInfo $t_file */
 	foreach( $t_iter_builds as $t_file ) {
 		if( $t_file->isDir() ) {
 			continue;
@@ -58,7 +60,7 @@ function get_builds_list(string $p_path, ?array &$p_builds, ?array &$p_logfile )
 		} else {
 			# Break down filename into components
 			$t_result = preg_match(
-				'/^mantisbt-(.*-?.*)-(master.*?)-(.*)\.(.*)(?:\.)?(digests)?$/U',
+				'/^mantisbt-(.*-?.*)-(master.*?)-(.*)\.(.*)\.?(digests)?$/U',
 				$t_file->getFileName(),
 				$t_match
 			);
@@ -129,6 +131,7 @@ function print_file_details( string $p_type, ?array $p_file ): string
 		return '
 				<td class="table-cell center">Unavailable</td>';
 	} else {
+		/** @noinspection HtmlUnknownTarget */
 		return sprintf( '
 				<td class="table-cell center">
 					<a href="%s"><img src="images/zip.gif" alt="%s"> Download</a>
@@ -154,7 +157,9 @@ function print_travis_status( string $p_branch ): string
 {
 	return sprintf( '
 					<a href="https://travis-ci.org/mantisbt/mantisbt/builds">
-						<img src="https://travis-ci.org/mantisbt/mantisbt.png?branch=%s" />
+						<img src="https://travis-ci.org/mantisbt/mantisbt.png?branch=%s" 
+							 alt="Build status" 
+						/>
 					</a>',
 		$p_branch
 	);
@@ -184,6 +189,7 @@ function print_builds_list( array $p_builds ) {
 			</tr>' . "\n";
 
 	# Count number of builds available for each branch
+	$t_build_count = [];
 	foreach( $p_builds as $t_build ) {
 		$t_branch = $t_build['branch'];
 		if( isset( $t_build_count[$t_branch] ) ) {
@@ -230,8 +236,8 @@ function print_builds_list( array $p_builds ) {
 			$t_fmt_build_row,
 			$t_current,
 			sprintf( $t_fmt_sha_link, $t_sha),
-			print_file_details( 'tarball', isset( $t_build['tar.gz'] ) ? $t_build['tar.gz'] : null),
-			print_file_details( 'zipball', isset( $t_build['zip'] ) ? $t_build['zip'] : null)
+			print_file_details( 'tarball', $t_build['tar.gz'] ?? null),
+			print_file_details( 'zipball', $t_build['zip'] ?? null)
 		);
 	}
 
