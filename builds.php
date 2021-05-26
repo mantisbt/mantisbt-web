@@ -60,7 +60,7 @@ function get_builds_list(string $p_path, ?array &$p_builds, ?array &$p_logfile )
 		} else {
 			# Break down filename into components
 			$t_result = preg_match(
-				'/^mantisbt-(.*-?.*)-(master.*?)-(.*)\.(.*)\.?(digests)?$/U',
+				'/^mantisbt-(.*-?.*)-(master.*?)-(.*)\.(.*)\.?(digests|asc)?$/U',
 				$t_file->getFileName(),
 				$t_match
 			);
@@ -77,7 +77,7 @@ function get_builds_list(string $p_path, ?array &$p_builds, ?array &$p_logfile )
 
 			# Digest and zip/tarball file names
 			if( isset( $t_match[5] ) ) {
-				$p_builds[$t_sha][$t_ext]['digests'] = $t_file_url;
+				$p_builds[$t_sha][$t_ext][$t_match[5]] = $t_file_url;
 			} else {
 				$t_time = $t_file->getMTime();
 				$p_builds[$t_sha][$t_ext]['file'] = $t_file_url;
@@ -133,6 +133,21 @@ function print_file_details( string $p_type, ?array $p_file ): string
 		return '
 				<td class="table-cell center">Unavailable</td>';
 	} else {
+		$t_digest = [];
+		if( isset( $p_file['asc'] ) ) {
+			$t_digest[] = '<a href="' . $p_file['asc']
+				. '" title="ASCII-armored signature file">signature</a>';
+		}
+		if( isset( $p_file['digests'] ) ) {
+			$t_digest[] = '<a href="' . $p_file['digests']
+				. '" title="Checksums">digests</a>';
+		}
+		if( $t_digest ) {
+			$t_digest = implode( ', ', $t_digest );
+		} else {
+			$t_digest = 'no signature or digests';
+		}
+
 		/** @noinspection HtmlUnknownTarget */
 		return sprintf( '
 				<td class="table-cell center">
@@ -142,9 +157,7 @@ function print_file_details( string $p_type, ?array $p_file ): string
 					%s
 				</td>',
 			$p_file['file'], $p_type,
-			isset( $p_file['digests'] )
-				? sprintf( '<a href="%s">digests</a>', $p_file['digests'] )
-				: 'no digest',
+			$t_digest,
 			print_timestamp( $p_file['time'] )
 		);
 	}
@@ -176,7 +189,7 @@ function print_builds_list( array $p_builds ) {
 
 	# printf formats
 	$t_fmt_sha_link = '
-					<a href="' . $g_bugs_url . 'plugin.php?page=Source%%2Fsearch&revision=%1$s">%1$s</a>';
+					<a href="' . $g_bugs_url . 'plugin.php?page=Source/search&revision=%1$s">%1$s</a>';
 	$t_fmt_branch = '
 				<td rowspan="%d" class="table-cell">
 					%s
@@ -284,6 +297,14 @@ if( get_builds_list( $t_path, $t_builds, $t_logfile ) ) {
 ?>
 
 <div>
+	<p>
+		<i class="icon-key"></i>
+		<i class="icon-hashtag"></i>
+		Use these
+		<a href="https://github.com/mantisbt/mantisbt/blob/master/KEYS.md">PGP keys</a>
+		to verify the downloaded files' integrity, using the corresponding signature.
+	</p>
+
 <?php
 	if( $t_logfile ) {
 ?>
