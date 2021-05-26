@@ -91,6 +91,11 @@ function get_builds_list(string $p_path, ?array &$p_builds, ?array &$p_logfile )
 		}
 	}
 
+	if( !$p_builds ) {
+		print_error( "No builds found.");
+		return false;
+	}
+
 	# Sort list by branch ASC, timestamp DESC
 	uasort( $p_builds, function( $a, $b ) {
 		$t_result = strcmp( $a['branch'], $b['branch'] );
