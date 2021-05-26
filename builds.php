@@ -49,10 +49,8 @@ function get_builds_list(string $p_path, ?array &$p_builds, ?array &$p_logfile )
 
 		$t_file_url = $p_path . $t_file->getFilename();
 
-		# mantisbt.org is on PHP 5.3.2 and SplFileInfo:: getExtension
-		# was only introduced in 5.3.6, so, until we upgrade the server...
-		# if( $t_file->getExtension() == 'log' ) {
-		if( substr( $t_file, -3, 3 ) == 'log' ) {
+		# Link to log file if present
+		if( $t_file->getExtension() == 'log' ) {
 			$p_logfile = array(
 				'file' => $t_file_url,
 				'time' => $t_file->getMTime()
