@@ -21,11 +21,12 @@ class SortingIterator extends ArrayIterator {
  * List will be sorted by branch name ASC and time DESC, (using the zip file's
  * timestamp as reference).
  * @param string $p_path
- * @param array $p_builds
- * @param SplFileInfo $p_logfile
+ * @param array|null $p_builds
+ * @param array|null $p_logfile
  * @return bool false in case of errors
  */
-function get_builds_list( $p_path, &$p_builds, &$p_logfile ) {
+function get_builds_list(string $p_path, ?array &$p_builds, ?array &$p_logfile ): bool
+{
 	# Error handling in case the path does not exist
 	if( !is_dir( $p_path ) ) {
 		print_error( "Path '$p_path' not found" );
@@ -110,15 +111,22 @@ function get_builds_list( $p_path, &$p_builds, &$p_logfile ) {
 
 /**
  * Prints timestamp in YYYY-MM-DD HH:mm:ss format
+ * @param int $p_time
+ * @return string
  */
-function print_timestamp( $p_time ) {
+function print_timestamp( int $p_time ): string
+{
 	return date( 'Y-m-d H:i:s', $p_time );
 }
 
 /**
- * Prints download links and timestamp for the file
+ * Return download links and timestamp for the file
+ * @param string $p_type
+ * @param array|null $p_file
+ * @return string formatted markup with
  */
-function print_file_details( $p_type, $p_file ) {
+function print_file_details( string $p_type, ?array $p_file ): string
+{
 	if( is_null( $p_file ) || !isset( $p_file['file'] ) ) {
 		return '
 				<td class="table-cell center">Unavailable</td>';
@@ -142,8 +150,10 @@ function print_file_details( $p_type, $p_file ) {
 /**
  * Prints the Travis-CI status icon for the given branch
  * @param string $p_branch Branch name
+ * @return string
  */
-function print_travis_status( $p_branch ) {
+function print_travis_status( string $p_branch ): string
+{
 	return sprintf( '
 					<a href="https://travis-ci.org/mantisbt/mantisbt/builds">
 						<img src="https://travis-ci.org/mantisbt/mantisbt.png?branch=%s" />
@@ -156,7 +166,7 @@ function print_travis_status( $p_branch ) {
  * Prints the table with the builds
  * @param array $p_builds
  */
-function print_builds_list( $p_builds ) {
+function print_builds_list( array $p_builds ) {
 	global $g_bugs_url;
 
 	# printf formats
