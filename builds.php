@@ -172,8 +172,8 @@ function print_file_details( string $p_type, ?array $p_file ): string
 function print_travis_status( string $p_branch ): string
 {
 	return sprintf( '
-					<a href="https://travis-ci.org/mantisbt/mantisbt/builds">
-						<img src="https://travis-ci.org/mantisbt/mantisbt.png?branch=%s" 
+					<a href="https://app.travis-ci.com/mantisbt/mantisbt/branches">
+						<img src="https://app.travis-ci.com/mantisbt/mantisbt.svg?branch=%s" 
 							 alt="Build status" 
 						/>
 					</a>',
