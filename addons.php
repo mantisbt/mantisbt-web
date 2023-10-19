@@ -12,46 +12,6 @@ include( "top.php" );
 
   <div class="row show-grid clear-both">
     <div class="col-sm-7 col-md-8">
-      <h2><b>MantisTouch</b><small>| MantisBT Gone Mobile!</small></h2>
-      <p>
-        <span class="lead">
-          MantisTouch provides a mobile optimized user
-          interface for iPhone, Android, and Windows Phone.
-        </span>
-      </p>
-      <p>
-        MantisTouch is developed and maintained by Victor Boctor.
-        Victor is a member of MantisBT core team since 2000.
-        As a web app, MantisTouch provides a mobile optimized experience for all users of your MantisBT instance.
-      </p>
-    </div>
-    <div class="col-md-1"></div>
-    <div class="col-sm-5 col-md-3">
-      <a class="btn btn-warning" href="https://www.mantistouch.org/" onclick="ga('send', 'event', 'Addons', 'Learn more about MantisTouch');">Learn more about MantisTouch</a>
-    </div>
-  </div>
-
-  <br>
-
-  <div class="row show-grid clear-both">
-    <div class="col-sm-7 col-md-8">
-      <a href="https://www.mantistouch.org/" onclick="ga('send', 'event', 'Addons', 'MantisTouch Image1');">
-        <img class="img-rounded" title="Login Page on Smart Phone" alt="Login Page" src="images/mt_login_page.png" height="300" width="200" border="1" />
-      </a>
-      <a href="https://www.mantistouch.org/" onclick="ga('send', 'event', 'Addons', 'MantisTouch Image2');">
-        <img class="img-rounded" title="Dashboard Page on Smart Phone" alt="Dashboard Page" src="images/mt_dashboard_page.png" height="300" width="200" border="1" />
-      </a>
-      <a href="https://www.mantistouch.org/" onclick="ga('send', 'event', 'Addons', 'MantisTouch Image3');">
-        <img class="img-rounded" title="Issues Page on Smart Phone" alt="Issues Page" src="images/mt_issues_page.png" height="300" width="200" border="1" />
-      </a>
-    </div>
-  </div>
-
-  <br>
-  <hr>
-
-  <div class="row show-grid clear-both">
-    <div class="col-sm-7 col-md-8">
       <h2><b>Plugins</b></h2>
       <p>
         MantisBT plugin system allows extension of MantisBT through both officially maintained and third party plug-ins.
