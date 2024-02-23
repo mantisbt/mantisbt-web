@@ -24,8 +24,6 @@
     background:url('../img/299.GIF') 0 0 no-repeat;
 }
 
-.tweets-slide .slides li p{ color: #fff; padding: 0; margin: 0;}
-
 /* Default */
 @media (min-width: 980px) {
     #out_container.boxed, #out_container.boxed-attached {
@@ -240,13 +238,6 @@
     }
     .buttons-container {
         display: none;
-    }
-    .tweets-slide .slides li {
-        width: 79%;
-        overflow: hidden;
-    }
-    .follow_img {
-        display: block;
     }
     .attention-sidestick {
         background: url("../img/sticker_sidebar_yellow.png") no-repeat scroll 0 0 transparent;
@@ -587,13 +578,6 @@
     .buttons-container {
         margin: 0 -24px 0 -20px;
     }
-    .tweets-slide .slides li {
-        width: 72%;
-        overflow: hidden;
-    }
-    .follow_img {
-        display: block;
-    }
     .attention-sidestick {
         background: url("../img/sticker_small_yellow.png") no-repeat scroll 0 0 transparent;
     }
@@ -706,7 +690,7 @@
     .portfolio-grid-1 .tall {
         margin-bottom: 20px;
     }
-    .top_line, .footer-top, .recent-tweets, .footer-wrapper, .footer-bottom {
+    .top_line, .footer-top, .footer-wrapper, .footer-bottom {
         margin: 0 -20px 0;
     }
     .block-posts .col-md-3 {
@@ -893,13 +877,6 @@
     }
     .buttons-container {
     }
-    .tweets-slide .slides li {
-        width: 58%;
-        overflow: hidden;
-    }
-    .follow_img {
-        display: block;
-    }
     .attention-sidestick {
         background: url("../img/sticker_sidebar_yellow.png") no-repeat scroll 0 0 transparent;
     }
@@ -999,7 +976,7 @@
     .portfolio-grid-1 .tall {
         margin-bottom: 20px;
     }
-    .top_line, .footer-top, .recent-tweets, .footer-wrapper, .footer-bottom {
+    .top_line, .footer-top, .footer-wrapper, .footer-bottom {
         margin: 0 -20px 0;
     }
     .block-posts .col-md-3 {
@@ -1160,13 +1137,6 @@
     }
     .buttons-container .nav-select {
         border-radius: 4px;
-    }
-    .tweets-slide .slides li {
-        width: auto;
-        overflow: hidden;
-    }
-    .follow_img {
-        display: none;
     }
     .attention-sidestick {
         background: url("../img/sticker_small_yellow.png") no-repeat scroll 0 0 transparent;
@@ -2261,7 +2231,6 @@ div.alert {
     border: 1px solid #448398;
     background-color: #b4e5ec;
 }
-}
 .alert-success {
     border: 1px solid #72ad55;
     background-color: #ceefbe;
@@ -2720,77 +2689,6 @@ div.alert {
 #clients {
     overflow: visible;
     clear: both;
-}
-.twitter-wrapper {
-    position: relative;
-    padding: 10px 0 10px 0;
-}
-#nav_t {
-    float: left;
-    height: auto;
-    position: absolute;
-    /*top: 34%;*/
-    width: 11px;
-}
-#nav_t .flex-prev {
-    background: url("../img/tw_arrow_up.png") no-repeat scroll 0 0 transparent;
-    display: block;
-    height: 6px;
-    left: 0;
-    margin-bottom: 7px;
-    width: 11px;
-}
-#nav_t .flex-next {
-    background: url("../img/tw_arrow_down.png") no-repeat scroll 0 0 transparent;
-    display: block;
-    height: 6px;
-    left: 0;
-    width: 11px;
-}
-#nav_t .flex-direction-nav a {
-    position: inherit;
-}
-.follow_img {
-    position: absolute;
-    right: 0;
-    top: 16%;
-}
-#prev_t {
-    display: block;
-    color: #fff;
-}
-#next_t {
-    display: block;
-    color: #fff;
-}
-.tweets-slide {
-    display: block;
-    color: #fff;
-    overflow: hidden;
-    padding-left: 20px;
-}
-.tweets-slide ul .slides li {
-    color: #FFFFFF;
-    font-size: 14px;
-    height: auto;
-    line-height: 14px;
-    padding: 10px 0 10px 10px;
-    margin: 10px 0 10px 10px;
-
-    width: 100%;
-    display: block;
-
-}
-.tweets-slide .flex-viewport {
-}
-.tweets-slide td {
-    color: #FFFFFF;
-    font-size: 14px;
-    height: auto;
-    line-height: 14px;
-    min-height: 44px;
-    padding-left: 10px;
-    width: 100%;
 }
 .bannercontainer .middle {
     color: #333333;

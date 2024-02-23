@@ -22,14 +22,6 @@ $g_latest_version_legacy = '';
 $g_latest_version_dev = '';
 $g_latest_version_dev_roadmap = '';
 
-# Twitter Information
-$g_twitter_username = 'mantisbt';
-$g_twitter_consumer_key = '';
-$g_twitter_consumer_secret = '';
-$g_twitter_access_token = '';
-$g_twitter_access_token_secret = '';
-$g_twitter_tweets_count = 5;
-
 ########################################
 # Include user's config, if available
 ########################################

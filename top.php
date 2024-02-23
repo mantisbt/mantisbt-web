@@ -61,7 +61,6 @@ require_once( 'helper_functions.php' );
     <![endif]-->
 
     <link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo $g_blog_url; ?>?feed=rss2" />
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://twitter.com/statuses/user_timeline/7199732.rss" />
 
 </head>
 
