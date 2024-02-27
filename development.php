@@ -70,6 +70,7 @@ include( "top.php" );
 
           <p>Sometimes it is just easier to get help or discuss matters in real time...</p>
           <p>Nowadays, the MantisBT developers hang out on <a href="https://gitter.im">Gitter</a>
+              (a chat platform based on the <a href="https://matrix.org">Matrix</a> network),
               and can be contacted there.
               The legacy <a href="http://webchat.freenode.net/?channels=%23mantisbt">#mantisbt</a> channel
               on <a href="http://freenode.net">Freenode</a> still exists, but it is hardly used anymore.
