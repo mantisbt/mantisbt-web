@@ -10,14 +10,12 @@
       <div class="row show-grid">
         <div class="col-sm-3 col-md-3 footer-center">
           <img alt="Mantis Bug Tracker Logo" class="footer-logo img-responsive" src="images/mantis_footer_logo.png"/>
-          <div class="addthis_toolbox addthis_default_style addthis_16x16_style" addthis:url="https://mantisbt.org/" addthis:title="MantisBT is a free popular web-based bug & issue tracking system">
-            <a class="addthis_button_facebook" fb:like:layout="button_count" addthis:url="https://mantisbt.org/"></a>
-            <a class="addthis_button_twitter"></a>
-            <a class="addthis_button_linkedin"></a>
-            <a class="addthis_button_google_plusone_share"></a>
-            <a class="addthis_button_compact"></a><a class="addthis_counter addthis_bubble_style"></a>
+          <div class="a2a_kit a2a_kit_size_32 a2a_default_style a2a_follow">
+              <a class="a2a_button_github" data-a2a-follow="mantisbt"></a>
+              <a class="a2a_button_x" data-a2a-follow="mantisbt"></a>
+              <a class="a2a_button_mastodon" href="https://phpc.social/@mantisbt"></a>
+              <a class="a2a_button_linkedin_company" data-a2a-follow="mantisbt"></a>
           </div>
-          <br>
         </div>
         <div class="col-sm-4 col-md-4 footer-center">
           <h4 class="center-title">Resources</h4>
@@ -61,14 +59,15 @@
 <!-- Placed at the end of the document so the pages load faster -->
 
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
 <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
 
+<script async src="https://static.addtoany.com/menu/page.js"></script>
 <script type="text/javascript">
-  var addthis_config = {"data_track_addressbar":true};
-  addthis_config.data_track_addressbar = false;
+    var a2a_config = a2a_config || {};
+    a2a_config.icon_color = "transparent";
+    a2a_config.track_links = 'ga';
 </script>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52c507063b3a2bbd"></script>
 
 <?php
 include( 'google_analytics.php' );
