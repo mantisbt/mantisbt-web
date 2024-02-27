@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "48bc2d7a0893c5bc8693b82adfaf6d34",
+    "content-hash": "b08565ba8b224282da5c09ba731b5118",
     "packages": [
         {
             "name": "foroco/php-browser-detection",
-            "version": "v2.1",
+            "version": "v2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/foroco/php-browser-detection.git",
-                "reference": "a5fcdab73d44b2eea556e521979f655952dc8ffa"
+                "reference": "80d7bae823c150da82496b1bc94248febdd2c952"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/foroco/php-browser-detection/zipball/a5fcdab73d44b2eea556e521979f655952dc8ffa",
-                "reference": "a5fcdab73d44b2eea556e521979f655952dc8ffa",
+                "url": "https://api.github.com/repos/foroco/php-browser-detection/zipball/80d7bae823c150da82496b1bc94248febdd2c952",
+                "reference": "80d7bae823c150da82496b1bc94248febdd2c952",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Ultra fast PHP library to detect browser, OS, platform and device type by User-Agent parsing.",
+            "description": "Ultra fast PHP library to detect browser, OS, platform and device type by User-Agent parsing",
             "homepage": "https://github.com/foroco/php-browser-detection",
             "keywords": [
                 "browser",
@@ -53,9 +53,9 @@
             ],
             "support": {
                 "issues": "https://github.com/foroco/php-browser-detection/issues",
-                "source": "https://github.com/foroco/php-browser-detection/tree/v2.1"
+                "source": "https://github.com/foroco/php-browser-detection/tree/v2.7"
             },
-            "time": "2021-04-06T20:18:24+00:00"
+            "time": "2023-04-27T13:56:18+00:00"
         }
     ],
     "packages-dev": [],
@@ -65,12 +65,11 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4",
-        "ext-json": "*"
+        "php": "^7.4"
     },
     "platform-dev": [],
     "platform-overrides": {
         "php": "7.4.3"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
