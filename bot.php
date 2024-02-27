@@ -33,9 +33,9 @@
         <div class="col-sm-4 col-md-4 footer-center">
           <h4 class="center-title">About MantisBT</h4>
           <p>
-            MantisBT is a popular open source web-based bug tracking system.
-            Built on PHP and supports Linux, Windows and macOS on the server side.
-            Compatible with Chrome, Firefox, Safari, Opera and IE 10+.
+            MantisBT is a popular open source, web-based bug tracking system.
+            Built on PHP, it supports Linux, Windows and macOS on the server side.
+            Compatible with Chrome, Firefox, Safari, Opera and Edge.
             Released under the terms of the GNU General Public License (GPL).
           </p>
         </div>
