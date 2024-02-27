@@ -5,6 +5,7 @@ $g_docs_url = '/docs/';
 $g_bugs_url = '/bugs/';
 $g_blog_url = '/blog/';
 $g_forums_url = '/forums/';
+$g_chat_url = 'https://matrix.to/#/#mantisbt_mantisbt:gitter.im';
 
 # Documentation
 $g_docs_path = 'master/en-US/';
