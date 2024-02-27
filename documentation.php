@@ -20,9 +20,6 @@ include( "top.php" );
         <i class="icon-book"></i> <a href="<?php echo $g_blog_url; ?>">Blog</a>
       </li>
       <li>
-        <i class="icon-twitter"></i> <a href="https://www.twitter.com/mantisbt">Twitter</a>
-      </li>
-      <li>
         <i class="icon-book"></i> <a href="<?php echo $g_wiki_url; ?>doku.php/mantisbt:press">Reviews and Press Articles</a>
       </li>
     </ul>
