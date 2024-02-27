@@ -1,8 +1,7 @@
 {
     "require": {
         "foroco/php-browser-detection": "^2.1",
-        "php": "^7.4",
-        "ext-json": "*"
+        "php": "^7.4"
     },
     "config": {
         "platform": {
