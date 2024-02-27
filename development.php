@@ -72,8 +72,9 @@ include( "top.php" );
           <p>Nowadays, the MantisBT developers hang out on <a href="https://gitter.im">Gitter</a>
               (a chat platform based on the <a href="https://matrix.org">Matrix</a> network),
               and can be contacted there.
-              The legacy <a href="http://webchat.freenode.net/?channels=%23mantisbt">#mantisbt</a> channel
-              on <a href="http://freenode.net">Freenode</a> still exists, but it is hardly used anymore.
+          </p>
+          <p>The legacy <a href="<?php echo $g_irc_url; ?>">#mantisbt</a> channel
+              on <a href="https://freenode.net/">Freenode</a> still exists, but it is hardly used anymore.
           </p>
 		</div>
 
@@ -85,15 +86,15 @@ include( "top.php" );
 			<h2>Chat</h2>
 			<br>
 			<br>
-			<a type="button" href="<?php echo $g_chat_url; ?>"
-			   onclick="ga('send', 'event', 'Development', 'Join Gitter');"
-			   class="ex btn btn-default btn-inverse btn-block">
-				Join Gitter Channel
-			</a>
-			<a type="button" href="irc://irc.freenode.net/mantisbt"
-			   onclick="ga('send', 'event', 'Development', 'Join #mantisbt IRC');"
-			   class="ex btn btn-default btn-inverse btn-block">
-				Join #mantisbt IRC
+            <a href="<?php echo $g_chat_url; ?>"
+               type="button" class="ex btn btn-default btn-inverse btn-block"
+               onclick="ga('send', 'event', 'Development', 'Join Gitter');">
+                Join Gitter Channel
+            </a>
+            <a href="https://webchat.freenode.net/#<?php echo parse_url($g_irc_url, PHP_URL_FRAGMENT); ?>"
+               type="button" class="ex btn btn-default btn-inverse btn-block"
+               onclick="ga('send', 'event', 'Development', 'Join #mantisbt IRC');">
+                Join #mantisbt IRC
 			</a>
         </div>
       </div>
