@@ -70,6 +70,15 @@ include( "top.php" );
           Go to wiki
         </a>
       </div>
+      <div class="note-stick stick pull-left">
+        <br>
+        <p>Talk to the team</p>
+        <h1>Chat</h1>
+        <br>
+        <a href="<?php echo $g_chat_url; ?>" onclick="ga('send', 'event', 'Support', 'Go to chat');" type="button" class="ex btn btn-default btn-inverse btn-block">
+          Join Gitter channel
+        </a>
+      </div>
     </div>
   </div>
 

@@ -84,7 +84,7 @@ include( "top.php" );
 			<h2>Chat</h2>
 			<br>
 			<br>
-			<a type="button" href="https://gitter.im/mantisbt/mantisbt"
+			<a type="button" href="<?php echo $g_chat_url; ?>"
 			   onclick="ga('send', 'event', 'Development', 'Join Gitter');"
 			   class="ex btn btn-default btn-inverse btn-block">
 				Join Gitter Channel
