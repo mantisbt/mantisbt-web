@@ -13,6 +13,7 @@
           <div class="a2a_kit a2a_kit_size_32 a2a_default_style a2a_follow">
               <a class="a2a_button_github" data-a2a-follow="mantisbt"></a>
               <a class="a2a_button_x" data-a2a-follow="mantisbt"></a>
+              <a class="a2a_button_mastodon" href="https://phpc.social/@mantisbt"></a>
               <a class="a2a_button_linkedin_company" data-a2a-follow="mantisbt"></a>
           </div>
         </div>
