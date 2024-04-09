@@ -56,7 +56,7 @@ require_once( 'helper_functions.php' );
                     <!-- HEADER: LOGO AREA -->
                     <div class="col-xs-12 col-sm-4 col-md-3 logo">
                         <a class="logo" href="index.php" onclick="ga('send', 'event', 'Header', 'Logo');">
-                            <img alt="logo" title="Mantis Bug Tracker" width="230" src="images/mantis_logo_262x90.png" class="img-responsive" />
+                            <img alt="logo" title="Mantis Bug Tracker" width="262" src="images/mantis_logo_262x90.png" class="img-responsive" />
                         </a>
                     </div>
 
