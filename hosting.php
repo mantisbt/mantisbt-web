@@ -39,7 +39,7 @@ include( "top.php" );
       <br>
       <h2>Why Use MantisHub?</h2>
       <br>
-      <ul class="icons item-details">
+      <ul class="icons">
         <li>
           <i class="icon-ok"></i> Ability to get started in 1 minute with the free trial.
         </li>

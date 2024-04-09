@@ -33,7 +33,7 @@ include( "top.php" );
             GitHub's Help pages.
           </p>
           <h3>MantisBT source code:</h3>
-          <ul class="icons item-details">
+          <ul class="icons">
             <li>
               <i class="icon-github"></i> <a href="https://github.com/mantisbt/mantisbt">Master Repository</a>
             </li>

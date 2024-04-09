@@ -32,7 +32,7 @@ function print_sourceforge_url( $p_version = null, $p_stable = true ) {
 		</p>
 
 		<h3>Additional Resources:</h3>
-		<ul class="icons item-details">
+		<ul class="icons">
 			<li>
 				<i class="icon-book"></i>
 				<a href="<?php echo $g_docs_url, $g_docs_path, $g_docs_admin_guide; ?>/html-desktop/#admin.install.upgrade">How to upgrade?</a>
@@ -100,16 +100,14 @@ if( !empty( $g_latest_version_legacy ) ) {
 	<div class="col-sm-8 col-md-8">
 		<h3>Additional Resources:</h3>
 		<ul class="icons">
-			<ul class="item-details">
-				<li>
-					<i class="icon-paper-clip"></i>
-					<a href="<?php echo $g_bugs_url; ?>changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_legacy; ?>">Changelog</a>
-				</li>
-				<li>
-					<i class="icon-check"></i>
-					<a href="<?php echo $g_docs_url, $t_legacy_docs_path, $g_docs_admin_guide; ?>/html-desktop/#admin.install.requirements">Requirements</a>
-				</li>
-			</ul>
+			<li>
+				<i class="icon-paper-clip"></i>
+				<a href="<?php echo $g_bugs_url; ?>changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_legacy; ?>">Changelog</a>
+			</li>
+			<li>
+				<i class="icon-check"></i>
+				<a href="<?php echo $g_docs_url, $t_legacy_docs_path, $g_docs_admin_guide; ?>/html-desktop/#admin.install.requirements">Requirements</a>
+			</li>
 		</ul>
 	</div>
 	<div class="col-sm-4 col-md-4">
@@ -140,20 +138,18 @@ if( !empty( $g_latest_version_legacy ) ) {
 	<div class="col-sm-8 col-md-8">
 		<h3>Additional Resources:</h3>
 		<ul class="icons">
-			<ul class="item-details">
-				<li>
-					<i class="icon-road"></i>
-					<a href="<?php echo $g_bugs_url; ?>roadmap_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_dev_roadmap; ?>">Roadmap</a>
-				<li>
-				<li>
-					<i class="icon-paper-clip"></i>
-					<a href="<?php echo $g_bugs_url; ?>changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_dev; ?>">Changelog</a>
-				</li>
-				<li>
-					<i class="icon-check"></i>
-					<a href="<?php echo $g_docs_url, $g_docs_path, $g_docs_admin_guide; ?>/html-desktop/#admin.install.requirements">Requirements</a>
-				</li>
-			</ul>
+			<li>
+				<i class="icon-road"></i>
+				<a href="<?php echo $g_bugs_url; ?>roadmap_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_dev_roadmap; ?>">Roadmap</a>
+			<li>
+			<li>
+				<i class="icon-paper-clip"></i>
+				<a href="<?php echo $g_bugs_url; ?>changelog_page.php?project=mantisbt&amp;version=<?php echo $g_latest_version_dev; ?>">Changelog</a>
+			</li>
+			<li>
+				<i class="icon-check"></i>
+				<a href="<?php echo $g_docs_url, $g_docs_path, $g_docs_admin_guide; ?>/html-desktop/#admin.install.requirements">Requirements</a>
+			</li>
 		</ul>
 	</div>
 	<div class="col-sm-4 col-md-4">
@@ -185,16 +181,14 @@ if( !empty( $g_latest_version_legacy ) ) {
 	<div class="col-sm-8 col-md-8">
 		<h3>Additional Resources:</h3>
 		<ul class="icons">
-			<ul class="item-details">
-				<li>
-					<i class="icon-github"></i>
-					<a href="https://github.com/mantisbt/mantisbt">Git Repository</a>
-				<li>
-				<li>
-					<i class="icon-ok"></i>
-					<a href="https://travis-ci.org/mantisbt/mantisbt">Travis CI Build Process</a>
-				<li>
-			</ul>
+			<li>
+				<i class="icon-github"></i>
+				<a href="https://github.com/mantisbt/mantisbt">Git Repository</a>
+			<li>
+			<li>
+				<i class="icon-ok"></i>
+				<a href="https://travis-ci.org/mantisbt/mantisbt">Travis CI Build Process</a>
+			<li>
 		</ul>
 	</div>
 	<div class="col-sm-4 col-md-4">

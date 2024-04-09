@@ -1470,11 +1470,6 @@ ul.socials li {
 .socials .google_plus:hover {
     background: transparent url('../img/socials_icons.png') scroll -210px -24px no-repeat;
 }
-ul.icons {
-    list-style: none;
-    margin-left: 0;
-    padding: 0;
-}
 .head_phone {
     color: #666666;
     font-family: 'Open Sans',Arial,sans-serif;
@@ -2637,7 +2632,7 @@ div.alert {
     padding: 7px 20px 7px 33px;
     margin-bottom: 10px;
 }
-.item-details {
+ul.icons {
     list-style: none;
     margin-left: 0;
     padding: 0;

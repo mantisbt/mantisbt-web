@@ -16,7 +16,7 @@
             Help with setting up Git and learning basic usage can be found in GitHub's Help pages.
         </p>
 
-        <ul class="icons item-details">
+        <ul class="icons">
             <li>
                 <i class="icon-book"></i>
                 <a href="<?php echo $g_docs_url, $g_docs_path, $g_docs_dev_guide; ?>">
