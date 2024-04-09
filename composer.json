@@ -1,11 +1,11 @@
 {
     "require": {
         "foroco/php-browser-detection": "^2.1",
-        "php": "^7.4"
+        "php": "^7.4||^8.0"
     },
     "config": {
         "platform": {
-            "php": "7.4.3"
+            "php": "8.1.2"
         }
     }
 }
