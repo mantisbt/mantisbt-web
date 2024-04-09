@@ -2,11 +2,20 @@
 include( "top.php" );
 
 /**
+ * Global variables referenced in this script.
+ * @global $g_docs_admin_guide
+ * @global $g_docs_path
+ * @global $g_docs_url
+ * @global $g_latest_version_stable
+ * @global $g_latest_version_dev_roadmap
+ */
+
+/**
  * Print URL for SourceForge downloads
  * @param null $p_version Optional version number (= subdirectory)
- * @param bool $p_stable True = stable, false = development
+ * @param bool $p_stable  True = stable, false = development
  */
-function print_sourceforge_url( $p_version = null, $p_stable = true ) {
+function print_sourceforge_url( $p_version = null, bool $p_stable = true ): void {
 	$t_sf_url = 'https://sourceforge.net/projects/mantisbt/files/mantis-%s/%s';
 	if( $p_version ) {
 		$p_version .= '/';
@@ -18,6 +27,7 @@ function print_sourceforge_url( $p_version = null, $p_stable = true ) {
 }
 
 ?>
+<!--suppress HtmlUnknownTarget -->
 
 <div class="row show-grid clear-both">
 

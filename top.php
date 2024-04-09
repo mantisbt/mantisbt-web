@@ -3,10 +3,14 @@ include( 'config_defaults_inc.php' );
 include( 'browser_check.php' );
 require_once( 'helper_functions.php' );
 
+/**
+ * Global variables referenced in this script
+ * @global $g_blog_url
+ */
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
     <title>Mantis Bug Tracker<?php if ( isset( $t_sub_title ) ) { echo " | $t_sub_title"; } ?></title>
