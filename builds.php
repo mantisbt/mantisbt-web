@@ -165,20 +165,20 @@ function print_file_details( string $p_type, ?array $p_file ): string
 }
 
 /**
- * Prints the Travis-CI status icon for the given branch
+ * Prints the Continuous Integration status badge for the given branch.
+ *
  * @param string $p_branch Branch name
+ *
  * @return string
  */
-function print_travis_status( string $p_branch ): string
+function print_ci_status_badge( string $p_branch ): string
 {
-	return sprintf( '
-					<a href="https://app.travis-ci.com/mantisbt/mantisbt/branches">
-						<img src="https://app.travis-ci.com/mantisbt/mantisbt.svg?branch=%s" 
-							 alt="Build status" 
-						/>
-					</a>',
-		$p_branch
-	);
+	$t_base_url = 'https://github.com/mantisbt/mantisbt/actions/workflows/mantisbt.yml';
+	return <<<HTML
+		<a href="$t_base_url">
+			<img src="$t_base_url/badge.svg?branch=$p_branch" alt="Build status" />
+		</a>
+		HTML;
 }
 
 /**
@@ -242,7 +242,7 @@ function print_builds_list( array $p_builds ) {
 					$t_build['branch'],
 					$t_build['version']
 				),
-				print_travis_status( $t_branch )
+				print_ci_status_badge( $t_branch )
 			);
 		} else {
 			$t_current = '';
