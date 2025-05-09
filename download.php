@@ -180,8 +180,8 @@ if( !empty( $g_latest_version_legacy ) ) {
 		</h1>
 		<p>These are nightly snapshots generated from the latest development
 			branches in our Git repository. They have
-			only undergone minimal testing through our standard Travis CI
-			build process, and have not been formally
+			only undergone minimal testing through our Continuous Integration build
+			process (executing the PHPUnit test suite), and have not been formally
 			prepared for release; we recommend you only use them for testing
 			and feedback purposes. </p>
 	</div>
@@ -197,7 +197,9 @@ if( !empty( $g_latest_version_legacy ) ) {
 			<li>
 			<li>
 				<i class="icon-ok"></i>
-				<a href="https://travis-ci.org/mantisbt/mantisbt">Travis CI Build Process</a>
+				<a href="https://github.com/mantisbt/mantisbt/actions/workflows/mantisbt.yml">
+					CI Build Process
+				</a>
 			<li>
 		</ul>
 	</div>
