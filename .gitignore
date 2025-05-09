@@ -10,3 +10,6 @@ config_inc.php
 .idea
 data/
 *.bak
+
+# MantisBT builds directory
+/builds/
